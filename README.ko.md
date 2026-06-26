@@ -37,7 +37,9 @@
 
 `academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사하고, 전사 위에 보이는 **Watch on Vimeo** 링크를 답니다.
 
-**알려진 한계:** `developers.openai.com/api/` 하위 API 레퍼런스 페이지는 파라미터 표를 JavaScript로 렌더해서, 미러는 각 엔드포인트의 산문/개요는 담지만 완전히 펼쳐진 인터랙티브 표는 담지 못합니다. Codex 문서와 가이드는 전문이 들어옵니다.
+**알려진 한계:** `developers.openai.com/api/` 하위 API 레퍼런스 페이지는 파라미터 표를 JavaScript로 렌더해서, 미러는 각 엔드포인트의 산문/개요는 담지만 완전히 펼쳐진 인터랙티브 표는 담지 못합니다.
+
+**알려진 커버리지 갭** (각 sitemap 대조 측정): `openai.com`/`developers.openai.com` 약 98%, `academy.openai.com` 약 90%. 못 담은 것: 서버측 텍스트가 없는 JS 렌더 `openai.com` 페이지 약 23개, 자막 소스가 없는 academy 영상 약 20개, 얇은 academy club/목록 페이지 약 36개. JS로 로드되는 콘텐츠(위 API 표, 일부 Codex 문서의 "Expand to view all" enum 목록)도 펼쳐지지 않습니다. 이들을 담으려면 헤드리스 브라우저가 필요한데, Cloudflare 통과를 위해 쓰지 않습니다.
 
 ## 어떻게 만들어지나
 

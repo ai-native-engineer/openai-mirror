@@ -37,7 +37,9 @@ Text content only, as of the crawl snapshot. No image or video files (videos are
 
 Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions, with a visible **Watch on Vimeo** link above each transcript.
 
-**Known limitation:** API reference pages under `developers.openai.com/api/` render their parameter tables via JavaScript, so the mirror keeps each endpoint's prose and overview but not the fully expanded interactive tables. The Codex docs and guides are full text.
+**Known limitation:** API reference pages under `developers.openai.com/api/` render their parameter tables via JavaScript, so the mirror keeps each endpoint's prose and overview but not the fully expanded interactive tables.
+
+**Known coverage gaps** (measured against each sitemap): ~98% for `openai.com` and `developers.openai.com`, ~90% for `academy.openai.com`. Not mirrored: about 23 JS-rendered `openai.com` pages with no server-side text, about 20 academy videos that expose no caption source, and about 36 thin academy club / listing pages. JS-loaded content (the API tables above, and "Expand to view all" enum lists in some Codex docs) is also not expanded. Capturing these would need a headless browser, which this mirror avoids to pass Cloudflare.
 
 ## How it's generated
 
