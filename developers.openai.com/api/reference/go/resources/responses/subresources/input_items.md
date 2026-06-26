@@ -1,0 +1,3885 @@
+<!-- source: https://developers.openai.com/api/reference/go/resources/responses/subresources/input_items/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/go)
+
+[Responses](/api/reference/go/resources/responses)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Input Items
+
+##### [List input items](/api/reference/go/resources/responses/subresources/input_items/methods/list)
+
+client.Responses.InputItems.List(ctx, responseID, query) (\*CursorPage[[ResponseItemUnion](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20response_item%20%3E%20(schema))], error)
+
+GET/responses/{response\_id}/input\_items
+
+##### ModelsExpand Collapse
+
+type ResponseItemList struct{…}
+
+A list of Response items.
+
+Data [][ResponseItemUnion](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20response_item%20%3E%20(schema))
+
+A list of items used to generate this response.
+
+One of the following:
+
+type ResponseInputMessageItem struct{…}
+
+ID string
+
+The unique ID of the message input.
+
+Content [ResponseInputMessageContentList](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20response_input_message_content_list%20%3E%20(schema))
+
+A list of one or many input items to the model, containing different content
+types.
+
+Role ResponseInputMessageItemRole
+
+The role of the message input. One of `user`, `system`, or `developer`.
+
+One of the following:
+
+const ResponseInputMessageItemRoleUser ResponseInputMessageItemRole = "user"
+
+const ResponseInputMessageItemRoleSystem ResponseInputMessageItemRole = "system"
+
+const ResponseInputMessageItemRoleDeveloper ResponseInputMessageItemRole = "developer"
+
+Type Message
+
+The type of the message input. Always set to `message`.
+
+Status ResponseInputMessageItemStatusOptional
+
+The status of item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseInputMessageItemStatusInProgress ResponseInputMessageItemStatus = "in\_progress"
+
+const ResponseInputMessageItemStatusCompleted ResponseInputMessageItemStatus = "completed"
+
+const ResponseInputMessageItemStatusIncomplete ResponseInputMessageItemStatus = "incomplete"
+
+type ResponseOutputMessage struct{…}
+
+An output message from the model.
+
+ID string
+
+The unique ID of the output message.
+
+Content []ResponseOutputMessageContentUnion
+
+The content of the output message.
+
+One of the following:
+
+type ResponseOutputText struct{…}
+
+A text output from the model.
+
+Annotations []ResponseOutputTextAnnotationUnion
+
+The annotations of the text output.
+
+One of the following:
+
+type ResponseOutputTextAnnotationFileCitation struct{…}
+
+A citation to a file.
+
+FileID string
+
+The ID of the file.
+
+Filename string
+
+The filename of the file cited.
+
+Index int64
+
+The index of the file in the list of files.
+
+Type FileCitation
+
+The type of the file citation. Always `file_citation`.
+
+type ResponseOutputTextAnnotationURLCitation struct{…}
+
+A citation for a web resource used to generate a model response.
+
+EndIndex int64
+
+The index of the last character of the URL citation in the message.
+
+StartIndex int64
+
+The index of the first character of the URL citation in the message.
+
+Title string
+
+The title of the web resource.
+
+Type URLCitation
+
+The type of the URL citation. Always `url_citation`.
+
+URL string
+
+The URL of the web resource.
+
+formaturi
+
+type ResponseOutputTextAnnotationContainerFileCitation struct{…}
+
+A citation for a container file used to generate a model response.
+
+ContainerID string
+
+The ID of the container file.
+
+EndIndex int64
+
+The index of the last character of the container file citation in the message.
+
+FileID string
+
+The ID of the file.
+
+Filename string
+
+The filename of the container file cited.
+
+StartIndex int64
+
+The index of the first character of the container file citation in the message.
+
+Type ContainerFileCitation
+
+The type of the container file citation. Always `container_file_citation`.
+
+type ResponseOutputTextAnnotationFilePath struct{…}
+
+A path to a file.
+
+FileID string
+
+The ID of the file.
+
+Index int64
+
+The index of the file in the list of files.
+
+Type FilePath
+
+The type of the file path. Always `file_path`.
+
+Text string
+
+The text output from the model.
+
+Type OutputText
+
+The type of the output text. Always `output_text`.
+
+Logprobs []ResponseOutputTextLogprobOptional
+
+Token string
+
+Bytes []int64
+
+Logprob float64
+
+TopLogprobs []ResponseOutputTextLogprobTopLogprob
+
+Token string
+
+Bytes []int64
+
+Logprob float64
+
+type ResponseOutputRefusal struct{…}
+
+A refusal from the model.
+
+Refusal string
+
+The refusal explanation from the model.
+
+Type Refusal
+
+The type of the refusal. Always `refusal`.
+
+Role Assistant
+
+The role of the output message. Always `assistant`.
+
+Status ResponseOutputMessageStatus
+
+The status of the message input. One of `in_progress`, `completed`, or
+`incomplete`. Populated when input items are returned via API.
+
+One of the following:
+
+const ResponseOutputMessageStatusInProgress ResponseOutputMessageStatus = "in\_progress"
+
+const ResponseOutputMessageStatusCompleted ResponseOutputMessageStatus = "completed"
+
+const ResponseOutputMessageStatusIncomplete ResponseOutputMessageStatus = "incomplete"
+
+Type Message
+
+The type of the output message. Always `message`.
+
+Phase ResponseOutputMessagePhaseOptional
+
+Labels an `assistant` message as intermediate commentary (`commentary`) or the final answer (`final_answer`).
+For models like `gpt-5.3-codex` and beyond, when sending follow-up requests, preserve and resend
+phase on all assistant messages — dropping it can degrade performance. Not used for user messages.
+
+One of the following:
+
+const ResponseOutputMessagePhaseCommentary ResponseOutputMessagePhase = "commentary"
+
+const ResponseOutputMessagePhaseFinalAnswer ResponseOutputMessagePhase = "final\_answer"
+
+type ResponseFileSearchToolCall struct{…}
+
+The results of a file search tool call. See the
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+ID string
+
+The unique ID of the file search tool call.
+
+Queries []string
+
+The queries used to search for files.
+
+Status ResponseFileSearchToolCallStatus
+
+The status of the file search tool call. One of `in_progress`,
+`searching`, `incomplete` or `failed`,
+
+One of the following:
+
+const ResponseFileSearchToolCallStatusInProgress ResponseFileSearchToolCallStatus = "in\_progress"
+
+const ResponseFileSearchToolCallStatusSearching ResponseFileSearchToolCallStatus = "searching"
+
+const ResponseFileSearchToolCallStatusCompleted ResponseFileSearchToolCallStatus = "completed"
+
+const ResponseFileSearchToolCallStatusIncomplete ResponseFileSearchToolCallStatus = "incomplete"
+
+const ResponseFileSearchToolCallStatusFailed ResponseFileSearchToolCallStatus = "failed"
+
+Type FileSearchCall
+
+The type of the file search tool call. Always `file_search_call`.
+
+Results []ResponseFileSearchToolCallResultOptional
+
+The results of the file search tool call.
+
+Attributes map[string, ResponseFileSearchToolCallResultAttributeUnion]Optional
+
+Set of 16 key-value pairs that can be attached to an object. This can be
+useful for storing additional information about the object in a structured
+format, and querying for objects via API or the dashboard. Keys are strings
+with a maximum length of 64 characters. Values are strings with a maximum
+length of 512 characters, booleans, or numbers.
+
+One of the following:
+
+string
+
+float64
+
+bool
+
+FileID stringOptional
+
+The unique ID of the file.
+
+Filename stringOptional
+
+The name of the file.
+
+Score float64Optional
+
+The relevance score of the file - a value between 0 and 1.
+
+formatfloat
+
+Text stringOptional
+
+The text that was retrieved from the file.
+
+type ResponseComputerToolCall struct{…}
+
+A tool call to a computer use tool. See the
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+ID string
+
+The unique ID of the computer call.
+
+CallID string
+
+An identifier used when responding to the tool call with output.
+
+PendingSafetyChecks []ResponseComputerToolCallPendingSafetyCheck
+
+The pending safety checks for the computer call.
+
+ID string
+
+The ID of the pending safety check.
+
+Code stringOptional
+
+The type of the pending safety check.
+
+Message stringOptional
+
+Details about the pending safety check.
+
+Status ResponseComputerToolCallStatus
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseComputerToolCallStatusInProgress ResponseComputerToolCallStatus = "in\_progress"
+
+const ResponseComputerToolCallStatusCompleted ResponseComputerToolCallStatus = "completed"
+
+const ResponseComputerToolCallStatusIncomplete ResponseComputerToolCallStatus = "incomplete"
+
+Type ResponseComputerToolCallType
+
+The type of the computer call. Always `computer_call`.
+
+Action ResponseComputerToolCallActionUnionOptional
+
+A click action.
+
+One of the following:
+
+type ResponseComputerToolCallActionClick struct{…}
+
+A click action.
+
+Button string
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+One of the following:
+
+const ResponseComputerToolCallActionClickButtonLeft ResponseComputerToolCallActionClickButton = "left"
+
+const ResponseComputerToolCallActionClickButtonRight ResponseComputerToolCallActionClickButton = "right"
+
+const ResponseComputerToolCallActionClickButtonWheel ResponseComputerToolCallActionClickButton = "wheel"
+
+const ResponseComputerToolCallActionClickButtonBack ResponseComputerToolCallActionClickButton = "back"
+
+const ResponseComputerToolCallActionClickButtonForward ResponseComputerToolCallActionClickButton = "forward"
+
+Type Click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+X int64
+
+The x-coordinate where the click occurred.
+
+Y int64
+
+The y-coordinate where the click occurred.
+
+Keys []stringOptional
+
+The keys being held while clicking.
+
+type ResponseComputerToolCallActionDoubleClick struct{…}
+
+A double click action.
+
+Keys []string
+
+The keys being held while double-clicking.
+
+Type DoubleClick
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+X int64
+
+The x-coordinate where the double click occurred.
+
+Y int64
+
+The y-coordinate where the double click occurred.
+
+type ResponseComputerToolCallActionDrag struct{…}
+
+A drag action.
+
+Path []ResponseComputerToolCallActionDragPath
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+[
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+]
+
+X int64
+
+The x-coordinate.
+
+Y int64
+
+The y-coordinate.
+
+Type Drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+Keys []stringOptional
+
+The keys being held while dragging the mouse.
+
+type ResponseComputerToolCallActionKeypress struct{…}
+
+A collection of keypresses the model would like to perform.
+
+Keys []string
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+Type Keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+type ResponseComputerToolCallActionMove struct{…}
+
+A mouse move action.
+
+Type Move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+X int64
+
+The x-coordinate to move to.
+
+Y int64
+
+The y-coordinate to move to.
+
+Keys []stringOptional
+
+The keys being held while moving the mouse.
+
+type ResponseComputerToolCallActionScreenshot struct{…}
+
+A screenshot action.
+
+Type Screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+type ResponseComputerToolCallActionScroll struct{…}
+
+A scroll action.
+
+ScrollX int64
+
+The horizontal scroll distance.
+
+ScrollY int64
+
+The vertical scroll distance.
+
+Type Scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+X int64
+
+The x-coordinate where the scroll occurred.
+
+Y int64
+
+The y-coordinate where the scroll occurred.
+
+Keys []stringOptional
+
+The keys being held while scrolling.
+
+type ResponseComputerToolCallActionType struct{…}
+
+An action to type in text.
+
+Text string
+
+The text to type.
+
+Type Type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+type ResponseComputerToolCallActionWait struct{…}
+
+A wait action.
+
+Type Wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+Actions [ComputerActionList](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20computer_action_list%20%3E%20(schema))Optional
+
+Flattened batched actions for `computer_use`. Each action includes an
+`type` discriminator and action-specific fields.
+
+type ResponseComputerToolCallOutputItem struct{…}
+
+ID string
+
+The unique ID of the computer call tool output.
+
+CallID string
+
+The ID of the computer tool call that produced the output.
+
+Output [ResponseComputerToolCallOutputScreenshot](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20response_computer_tool_call_output_screenshot%20%3E%20(schema))
+
+A computer screenshot image used with the computer use tool.
+
+Status ResponseComputerToolCallOutputItemStatus
+
+The status of the message input. One of `in_progress`, `completed`, or
+`incomplete`. Populated when input items are returned via API.
+
+One of the following:
+
+const ResponseComputerToolCallOutputItemStatusCompleted ResponseComputerToolCallOutputItemStatus = "completed"
+
+const ResponseComputerToolCallOutputItemStatusIncomplete ResponseComputerToolCallOutputItemStatus = "incomplete"
+
+const ResponseComputerToolCallOutputItemStatusFailed ResponseComputerToolCallOutputItemStatus = "failed"
+
+const ResponseComputerToolCallOutputItemStatusInProgress ResponseComputerToolCallOutputItemStatus = "in\_progress"
+
+Type ComputerCallOutput
+
+The type of the computer tool call output. Always `computer_call_output`.
+
+AcknowledgedSafetyChecks []ResponseComputerToolCallOutputItemAcknowledgedSafetyCheckOptional
+
+The safety checks reported by the API that have been acknowledged by the
+developer.
+
+ID string
+
+The ID of the pending safety check.
+
+Code stringOptional
+
+The type of the pending safety check.
+
+Message stringOptional
+
+Details about the pending safety check.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseFunctionWebSearch struct{…}
+
+The results of a web search tool call. See the
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+ID string
+
+The unique ID of the web search tool call.
+
+Action ResponseFunctionWebSearchActionUnion
+
+An object describing the specific action taken in this web search call.
+Includes details on how the model used the web (search, open\_page, find\_in\_page).
+
+One of the following:
+
+type ResponseFunctionWebSearchActionSearch struct{…}
+
+Action type “search” - Performs a web search query.
+
+Type Search
+
+The action type.
+
+Queries []stringOptional
+
+The search queries.
+
+DeprecatedQuery stringOptional
+
+The search query.
+
+Sources []ResponseFunctionWebSearchActionSearchSourceOptional
+
+The sources used in the search.
+
+Type URL
+
+The type of source. Always `url`.
+
+URL string
+
+The URL of the source.
+
+formaturi
+
+type ResponseFunctionWebSearchActionOpenPage struct{…}
+
+Action type “open\_page” - Opens a specific URL from search results.
+
+Type OpenPage
+
+The action type.
+
+URL stringOptional
+
+The URL opened by the model.
+
+formaturi
+
+type ResponseFunctionWebSearchActionFindInPage struct{…}
+
+Action type “find\_in\_page”: Searches for a pattern within a loaded page.
+
+Pattern string
+
+The pattern or text to search for within the page.
+
+Type FindInPage
+
+The action type.
+
+URL string
+
+The URL of the page searched for the pattern.
+
+formaturi
+
+Status ResponseFunctionWebSearchStatus
+
+The status of the web search tool call.
+
+One of the following:
+
+const ResponseFunctionWebSearchStatusInProgress ResponseFunctionWebSearchStatus = "in\_progress"
+
+const ResponseFunctionWebSearchStatusSearching ResponseFunctionWebSearchStatus = "searching"
+
+const ResponseFunctionWebSearchStatusCompleted ResponseFunctionWebSearchStatus = "completed"
+
+const ResponseFunctionWebSearchStatusFailed ResponseFunctionWebSearchStatus = "failed"
+
+Type WebSearchCall
+
+The type of the web search tool call. Always `web_search_call`.
+
+type ResponseFunctionToolCallItem struct{…}
+
+A tool call to run a function. See the
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+ID string
+
+The unique ID of the function tool call.
+
+Status string
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseFunctionToolCallItemStatusInProgress ResponseFunctionToolCallItemStatus = "in\_progress"
+
+const ResponseFunctionToolCallItemStatusCompleted ResponseFunctionToolCallItemStatus = "completed"
+
+const ResponseFunctionToolCallItemStatusIncomplete ResponseFunctionToolCallItemStatus = "incomplete"
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseFunctionToolCallOutputItem struct{…}
+
+ID string
+
+The unique ID of the function call tool output.
+
+CallID string
+
+The unique ID of the function tool call generated by the model.
+
+Output ResponseFunctionToolCallOutputItemOutputUnion
+
+The output from the function call generated by your code.
+Can be a string or an list of output content.
+
+One of the following:
+
+string
+
+type ResponseFunctionToolCallOutputItemOutputOutputContentList []ResponseFunctionToolCallOutputItemOutputOutputContentListItemUnion
+
+Text, image, or file output of the function call.
+
+One of the following:
+
+type ResponseInputText struct{…}
+
+A text input to the model.
+
+Text string
+
+The text input to the model.
+
+Type InputText
+
+The type of the input item. Always `input_text`.
+
+type ResponseInputImage struct{…}
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+Detail ResponseInputImageDetail
+
+The detail level of the image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+One of the following:
+
+const ResponseInputImageDetailLow ResponseInputImageDetail = "low"
+
+const ResponseInputImageDetailHigh ResponseInputImageDetail = "high"
+
+const ResponseInputImageDetailAuto ResponseInputImageDetail = "auto"
+
+const ResponseInputImageDetailOriginal ResponseInputImageDetail = "original"
+
+Type InputImage
+
+The type of the input item. Always `input_image`.
+
+FileID stringOptional
+
+The ID of the file to be sent to the model.
+
+ImageURL stringOptional
+
+The URL of the image to be sent to the model. A fully qualified URL or base64 encoded image in a data URL.
+
+formaturi
+
+type ResponseInputFile struct{…}
+
+A file input to the model.
+
+Type InputFile
+
+The type of the input item. Always `input_file`.
+
+Detail ResponseInputFileDetailOptional
+
+The detail level of the file to be sent to the model. Use `low` for the default rendering behavior, or `high` to render the file at higher quality. Defaults to `low`.
+
+One of the following:
+
+const ResponseInputFileDetailLow ResponseInputFileDetail = "low"
+
+const ResponseInputFileDetailHigh ResponseInputFileDetail = "high"
+
+FileData stringOptional
+
+The content of the file to be sent to the model.
+
+FileID stringOptional
+
+The ID of the file to be sent to the model.
+
+FileURL stringOptional
+
+The URL of the file to be sent to the model.
+
+formaturi
+
+Filename stringOptional
+
+The name of the file to be sent to the model.
+
+Status ResponseFunctionToolCallOutputItemStatus
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseFunctionToolCallOutputItemStatusInProgress ResponseFunctionToolCallOutputItemStatus = "in\_progress"
+
+const ResponseFunctionToolCallOutputItemStatusCompleted ResponseFunctionToolCallOutputItemStatus = "completed"
+
+const ResponseFunctionToolCallOutputItemStatusIncomplete ResponseFunctionToolCallOutputItemStatus = "incomplete"
+
+Type FunctionCallOutput
+
+The type of the function tool call output. Always `function_call_output`.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseToolSearchCall struct{…}
+
+ID string
+
+The unique ID of the tool search call item.
+
+Arguments any
+
+Arguments used for the tool search call.
+
+CallID string
+
+The unique ID of the tool search call generated by the model.
+
+Execution ResponseToolSearchCallExecution
+
+Whether tool search was executed by the server or by the client.
+
+One of the following:
+
+const ResponseToolSearchCallExecutionServer ResponseToolSearchCallExecution = "server"
+
+const ResponseToolSearchCallExecutionClient ResponseToolSearchCallExecution = "client"
+
+Status ResponseToolSearchCallStatus
+
+The status of the tool search call item that was recorded.
+
+One of the following:
+
+const ResponseToolSearchCallStatusInProgress ResponseToolSearchCallStatus = "in\_progress"
+
+const ResponseToolSearchCallStatusCompleted ResponseToolSearchCallStatus = "completed"
+
+const ResponseToolSearchCallStatusIncomplete ResponseToolSearchCallStatus = "incomplete"
+
+Type ToolSearchCall
+
+The type of the item. Always `tool_search_call`.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseToolSearchOutputItem struct{…}
+
+ID string
+
+The unique ID of the tool search output item.
+
+CallID string
+
+The unique ID of the tool search call generated by the model.
+
+Execution ResponseToolSearchOutputItemExecution
+
+Whether tool search was executed by the server or by the client.
+
+One of the following:
+
+const ResponseToolSearchOutputItemExecutionServer ResponseToolSearchOutputItemExecution = "server"
+
+const ResponseToolSearchOutputItemExecutionClient ResponseToolSearchOutputItemExecution = "client"
+
+Status ResponseToolSearchOutputItemStatus
+
+The status of the tool search output item that was recorded.
+
+One of the following:
+
+const ResponseToolSearchOutputItemStatusInProgress ResponseToolSearchOutputItemStatus = "in\_progress"
+
+const ResponseToolSearchOutputItemStatusCompleted ResponseToolSearchOutputItemStatus = "completed"
+
+const ResponseToolSearchOutputItemStatusIncomplete ResponseToolSearchOutputItemStatus = "incomplete"
+
+Tools [][ToolUnion](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20tool%20%3E%20(schema))
+
+The loaded tool definitions returned by tool search.
+
+One of the following:
+
+type FunctionTool struct{…}
+
+Defines a function in your own code the model can choose to call. Learn more about [function calling](https://platform.openai.com/docs/guides/function-calling).
+
+Name string
+
+The name of the function to call.
+
+Parameters map[string, any]
+
+A JSON schema object describing the parameters of the function.
+
+Strict bool
+
+Whether to enforce strict parameter validation. Default `true`.
+
+Type Function
+
+The type of the function tool. Always `function`.
+
+DeferLoading boolOptional
+
+Whether this function is deferred and loaded via tool search.
+
+Description stringOptional
+
+A description of the function. Used by the model to determine whether or not to call the function.
+
+type FileSearchTool struct{…}
+
+A tool that searches for relevant content from uploaded files. Learn more about the [file search tool](https://platform.openai.com/docs/guides/tools-file-search).
+
+Type FileSearch
+
+The type of the file search tool. Always `file_search`.
+
+VectorStoreIDs []string
+
+The IDs of the vector stores to search.
+
+Filters FileSearchToolFiltersUnionOptional
+
+A filter to apply.
+
+One of the following:
+
+type ComparisonFilter struct{…}
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+Key string
+
+The key to compare against the value.
+
+Type ComparisonFilterType
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+const ComparisonFilterTypeEq ComparisonFilterType = "eq"
+
+const ComparisonFilterTypeNe ComparisonFilterType = "ne"
+
+const ComparisonFilterTypeGt ComparisonFilterType = "gt"
+
+const ComparisonFilterTypeGte ComparisonFilterType = "gte"
+
+const ComparisonFilterTypeLt ComparisonFilterType = "lt"
+
+const ComparisonFilterTypeLte ComparisonFilterType = "lte"
+
+const ComparisonFilterTypeIn ComparisonFilterType = "in"
+
+const ComparisonFilterTypeNin ComparisonFilterType = "nin"
+
+Value ComparisonFilterValueUnion
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+float64
+
+bool
+
+type ComparisonFilterValueArray []ComparisonFilterValueArrayItemUnion
+
+One of the following:
+
+string
+
+float64
+
+type CompoundFilter struct{…}
+
+Combine multiple filters using `and` or `or`.
+
+Filters [][ComparisonFilter](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20comparison_filter%20%3E%20(schema))
+
+Array of filters to combine. Items can be `ComparisonFilter` or `CompoundFilter`.
+
+One of the following:
+
+type ComparisonFilter struct{…}
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+Key string
+
+The key to compare against the value.
+
+Type ComparisonFilterType
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+const ComparisonFilterTypeEq ComparisonFilterType = "eq"
+
+const ComparisonFilterTypeNe ComparisonFilterType = "ne"
+
+const ComparisonFilterTypeGt ComparisonFilterType = "gt"
+
+const ComparisonFilterTypeGte ComparisonFilterType = "gte"
+
+const ComparisonFilterTypeLt ComparisonFilterType = "lt"
+
+const ComparisonFilterTypeLte ComparisonFilterType = "lte"
+
+const ComparisonFilterTypeIn ComparisonFilterType = "in"
+
+const ComparisonFilterTypeNin ComparisonFilterType = "nin"
+
+Value ComparisonFilterValueUnion
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+float64
+
+bool
+
+type ComparisonFilterValueArray []ComparisonFilterValueArrayItemUnion
+
+One of the following:
+
+string
+
+float64
+
+Type CompoundFilterType
+
+Type of operation: `and` or `or`.
+
+One of the following:
+
+const CompoundFilterTypeAnd CompoundFilterType = "and"
+
+const CompoundFilterTypeOr CompoundFilterType = "or"
+
+MaxNumResults int64Optional
+
+The maximum number of results to return. This number should be between 1 and 50 inclusive.
+
+RankingOptions FileSearchToolRankingOptionsOptional
+
+Ranking options for search.
+
+HybridSearch FileSearchToolRankingOptionsHybridSearchOptional
+
+Weights that control how reciprocal rank fusion balances semantic embedding matches versus sparse keyword matches when hybrid search is enabled.
+
+EmbeddingWeight float64
+
+The weight of the embedding in the reciprocal ranking fusion.
+
+TextWeight float64
+
+The weight of the text in the reciprocal ranking fusion.
+
+Ranker stringOptional
+
+The ranker to use for the file search.
+
+One of the following:
+
+const FileSearchToolRankingOptionsRankerAuto FileSearchToolRankingOptionsRanker = "auto"
+
+const FileSearchToolRankingOptionsRankerDefault2024\_11\_15 FileSearchToolRankingOptionsRanker = "default-2024-11-15"
+
+ScoreThreshold float64Optional
+
+The score threshold for the file search, a number between 0 and 1. Numbers closer to 1 will attempt to return only the most relevant results, but may return fewer results.
+
+type ComputerTool struct{…}
+
+A tool that controls a virtual computer. Learn more about the [computer tool](https://platform.openai.com/docs/guides/tools-computer-use).
+
+Type Computer
+
+The type of the computer tool. Always `computer`.
+
+type ComputerUsePreviewTool struct{…}
+
+A tool that controls a virtual computer. Learn more about the [computer tool](https://platform.openai.com/docs/guides/tools-computer-use).
+
+DisplayHeight int64
+
+The height of the computer display.
+
+DisplayWidth int64
+
+The width of the computer display.
+
+Environment ComputerUsePreviewToolEnvironment
+
+The type of computer environment to control.
+
+One of the following:
+
+const ComputerUsePreviewToolEnvironmentWindows ComputerUsePreviewToolEnvironment = "windows"
+
+const ComputerUsePreviewToolEnvironmentMac ComputerUsePreviewToolEnvironment = "mac"
+
+const ComputerUsePreviewToolEnvironmentLinux ComputerUsePreviewToolEnvironment = "linux"
+
+const ComputerUsePreviewToolEnvironmentUbuntu ComputerUsePreviewToolEnvironment = "ubuntu"
+
+const ComputerUsePreviewToolEnvironmentBrowser ComputerUsePreviewToolEnvironment = "browser"
+
+Type ComputerUsePreview
+
+The type of the computer use tool. Always `computer_use_preview`.
+
+type WebSearchTool struct{…}
+
+Search the Internet for sources related to the prompt. Learn more about the
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+Type WebSearchToolType
+
+The type of the web search tool. One of `web_search` or `web_search_2025_08_26`.
+
+One of the following:
+
+const WebSearchToolTypeWebSearch WebSearchToolType = "web\_search"
+
+const WebSearchToolTypeWebSearch2025\_08\_26 WebSearchToolType = "web\_search\_2025\_08\_26"
+
+Filters WebSearchToolFiltersOptional
+
+Filters for the search.
+
+AllowedDomains []stringOptional
+
+Allowed domains for the search. If not provided, all domains are allowed.
+Subdomains of the provided domains are allowed as well.
+
+Example: `["pubmed.ncbi.nlm.nih.gov"]`
+
+SearchContextSize WebSearchToolSearchContextSizeOptional
+
+High level guidance for the amount of context window space to use for the search. One of `low`, `medium`, or `high`. `medium` is the default.
+
+One of the following:
+
+const WebSearchToolSearchContextSizeLow WebSearchToolSearchContextSize = "low"
+
+const WebSearchToolSearchContextSizeMedium WebSearchToolSearchContextSize = "medium"
+
+const WebSearchToolSearchContextSizeHigh WebSearchToolSearchContextSize = "high"
+
+UserLocation WebSearchToolUserLocationOptional
+
+The approximate location of the user.
+
+City stringOptional
+
+Free text input for the city of the user, e.g. `San Francisco`.
+
+Country stringOptional
+
+The two-letter [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1) of the user, e.g. `US`.
+
+Region stringOptional
+
+Free text input for the region of the user, e.g. `California`.
+
+Timezone stringOptional
+
+The [IANA timezone](https://timeapi.io/documentation/iana-timezones) of the user, e.g. `America/Los_Angeles`.
+
+Type stringOptional
+
+The type of location approximation. Always `approximate`.
+
+type ToolMcp struct{…}
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+ServerLabel string
+
+A label for this MCP server, used to identify it in tool calls.
+
+Type Mcp
+
+The type of the MCP tool. Always `mcp`.
+
+AllowedTools ToolMcpAllowedToolsUnionOptional
+
+List of allowed tool names or a filter object.
+
+One of the following:
+
+type ToolMcpAllowedToolsMcpAllowedTools []string
+
+A string array of allowed tool names
+
+type ToolMcpAllowedToolsMcpToolFilter struct{…}
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+Authorization stringOptional
+
+An OAuth access token that can be used with a remote MCP server, either
+with a custom MCP server URL or a service connector. Your application
+must handle the OAuth authorization flow and provide the token here.
+
+ConnectorID stringOptional
+
+Identifier for service connectors, like those available in ChatGPT. One of
+`server_url`, `connector_id`, or `tunnel_id` must be provided. Learn more
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+Currently supported `connector_id` values are:
+
+* Dropbox: `connector_dropbox`
+* Gmail: `connector_gmail`
+* Google Calendar: `connector_googlecalendar`
+* Google Drive: `connector_googledrive`
+* Microsoft Teams: `connector_microsoftteams`
+* Outlook Calendar: `connector_outlookcalendar`
+* Outlook Email: `connector_outlookemail`
+* SharePoint: `connector_sharepoint`
+
+One of the following:
+
+const ToolMcpConnectorIDConnectorDropbox ToolMcpConnectorID = "connector\_dropbox"
+
+const ToolMcpConnectorIDConnectorGmail ToolMcpConnectorID = "connector\_gmail"
+
+const ToolMcpConnectorIDConnectorGooglecalendar ToolMcpConnectorID = "connector\_googlecalendar"
+
+const ToolMcpConnectorIDConnectorGoogledrive ToolMcpConnectorID = "connector\_googledrive"
+
+const ToolMcpConnectorIDConnectorMicrosoftteams ToolMcpConnectorID = "connector\_microsoftteams"
+
+const ToolMcpConnectorIDConnectorOutlookcalendar ToolMcpConnectorID = "connector\_outlookcalendar"
+
+const ToolMcpConnectorIDConnectorOutlookemail ToolMcpConnectorID = "connector\_outlookemail"
+
+const ToolMcpConnectorIDConnectorSharepoint ToolMcpConnectorID = "connector\_sharepoint"
+
+DeferLoading boolOptional
+
+Whether this MCP tool is deferred and discovered via tool search.
+
+Headers map[string, string]Optional
+
+Optional HTTP headers to send to the MCP server. Use for authentication
+or other purposes.
+
+RequireApproval ToolMcpRequireApprovalUnionOptional
+
+Specify which of the MCP server’s tools require approval.
+
+One of the following:
+
+type ToolMcpRequireApprovalMcpToolApprovalFilter struct{…}
+
+Specify which of the MCP server’s tools require approval. Can be
+`always`, `never`, or a filter object associated with tools
+that require approval.
+
+Always ToolMcpRequireApprovalMcpToolApprovalFilterAlwaysOptional
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+Never ToolMcpRequireApprovalMcpToolApprovalFilterNeverOptional
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+type ToolMcpRequireApprovalMcpToolApprovalSetting string
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+One of the following:
+
+const ToolMcpRequireApprovalMcpToolApprovalSettingAlways ToolMcpRequireApprovalMcpToolApprovalSetting = "always"
+
+const ToolMcpRequireApprovalMcpToolApprovalSettingNever ToolMcpRequireApprovalMcpToolApprovalSetting = "never"
+
+ServerDescription stringOptional
+
+Optional description of the MCP server, used to provide more context.
+
+ServerURL stringOptional
+
+The URL for the MCP server. One of `server_url`, `connector_id`, or
+`tunnel_id` must be provided.
+
+formaturi
+
+TunnelID stringOptional
+
+The Secure MCP Tunnel ID to use instead of a direct server URL. One of
+`server_url`, `connector_id`, or `tunnel_id` must be provided.
+
+type ToolCodeInterpreter struct{…}
+
+A tool that runs Python code to help generate a response to a prompt.
+
+Container ToolCodeInterpreterContainerUnion
+
+The code interpreter container. Can be a container ID or an object that
+specifies uploaded file IDs to make available to your code, along with an
+optional `memory_limit` setting.
+
+One of the following:
+
+string
+
+type ToolCodeInterpreterContainerCodeInterpreterContainerAuto struct{…}
+
+Configuration for a code interpreter container. Optionally specify the IDs of the files to run the code on.
+
+Type Auto
+
+Always `auto`.
+
+FileIDs []stringOptional
+
+An optional list of uploaded files to make available to your code.
+
+MemoryLimit stringOptional
+
+The memory limit for the code interpreter container.
+
+One of the following:
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit1g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "1g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit4g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "4g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit16g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "16g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit64g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "64g"
+
+NetworkPolicy ToolCodeInterpreterContainerCodeInterpreterToolAutoNetworkPolicyUnionOptional
+
+Network access policy for the container.
+
+One of the following:
+
+type ContainerNetworkPolicyDisabled struct{…}
+
+Type Disabled
+
+Disable outbound network access. Always `disabled`.
+
+type ContainerNetworkPolicyAllowlist struct{…}
+
+AllowedDomains []string
+
+A list of allowed domains when type is `allowlist`.
+
+Type Allowlist
+
+Allow outbound network access only to specified domains. Always `allowlist`.
+
+DomainSecrets [][ContainerNetworkPolicyDomainSecret](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20container_network_policy_domain_secret%20%3E%20(schema))Optional
+
+Optional domain-scoped secrets for allowlisted domains.
+
+Domain string
+
+The domain associated with the secret.
+
+minLength1
+
+Name string
+
+The name of the secret to inject for the domain.
+
+minLength1
+
+Value string
+
+The secret value to inject for the domain.
+
+maxLength10485760
+
+minLength1
+
+Type CodeInterpreter
+
+The type of the code interpreter tool. Always `code_interpreter`.
+
+type ToolImageGeneration struct{…}
+
+A tool that generates images using the GPT image models.
+
+Type ImageGeneration
+
+The type of the image generation tool. Always `image_generation`.
+
+Action stringOptional
+
+Whether to generate a new image or edit an existing image. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationActionGenerate ToolImageGenerationAction = "generate"
+
+const ToolImageGenerationActionEdit ToolImageGenerationAction = "edit"
+
+const ToolImageGenerationActionAuto ToolImageGenerationAction = "auto"
+
+Background stringOptional
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+One of the following:
+
+const ToolImageGenerationBackgroundTransparent ToolImageGenerationBackground = "transparent"
+
+const ToolImageGenerationBackgroundOpaque ToolImageGenerationBackground = "opaque"
+
+const ToolImageGenerationBackgroundAuto ToolImageGenerationBackground = "auto"
+
+InputFidelity stringOptional
+
+Control how much effort the model will exert to match the style and features, especially facial features, of input images. This parameter is only supported for `gpt-image-1` and `gpt-image-1.5` and later models, unsupported for `gpt-image-1-mini`. Supports `high` and `low`. Defaults to `low`.
+
+One of the following:
+
+const ToolImageGenerationInputFidelityHigh ToolImageGenerationInputFidelity = "high"
+
+const ToolImageGenerationInputFidelityLow ToolImageGenerationInputFidelity = "low"
+
+InputImageMask ToolImageGenerationInputImageMaskOptional
+
+Optional mask for inpainting. Contains `image_url`
+(string, optional) and `file_id` (string, optional).
+
+FileID stringOptional
+
+File ID for the mask image.
+
+ImageURL stringOptional
+
+Base64-encoded mask image.
+
+Model stringOptional
+
+The image generation model to use. Default: `gpt-image-1`.
+
+One of the following:
+
+string
+
+string
+
+One of the following:
+
+const ToolImageGenerationModelGPTImage1 ToolImageGenerationModel = "gpt-image-1"
+
+const ToolImageGenerationModelGPTImage1Mini ToolImageGenerationModel = "gpt-image-1-mini"
+
+const ToolImageGenerationModelGPTImage2 ToolImageGenerationModel = "gpt-image-2"
+
+const ToolImageGenerationModelGPTImage2\_2026\_04\_21 ToolImageGenerationModel = "gpt-image-2-2026-04-21"
+
+const ToolImageGenerationModelGPTImage1\_5 ToolImageGenerationModel = "gpt-image-1.5"
+
+const ToolImageGenerationModelChatgptImageLatest ToolImageGenerationModel = "chatgpt-image-latest"
+
+Moderation stringOptional
+
+Moderation level for the generated image. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationModerationAuto ToolImageGenerationModeration = "auto"
+
+const ToolImageGenerationModerationLow ToolImageGenerationModeration = "low"
+
+OutputCompression int64Optional
+
+Compression level for the output image. Default: 100.
+
+minimum0
+
+maximum100
+
+OutputFormat stringOptional
+
+The output format of the generated image. One of `png`, `webp`, or
+`jpeg`. Default: `png`.
+
+One of the following:
+
+const ToolImageGenerationOutputFormatPNG ToolImageGenerationOutputFormat = "png"
+
+const ToolImageGenerationOutputFormatWebP ToolImageGenerationOutputFormat = "webp"
+
+const ToolImageGenerationOutputFormatJPEG ToolImageGenerationOutputFormat = "jpeg"
+
+PartialImages int64Optional
+
+Number of partial images to generate in streaming mode, from 0 (default value) to 3.
+
+minimum0
+
+maximum3
+
+Quality stringOptional
+
+The quality of the generated image. One of `low`, `medium`, `high`,
+or `auto`. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationQualityLow ToolImageGenerationQuality = "low"
+
+const ToolImageGenerationQualityMedium ToolImageGenerationQuality = "medium"
+
+const ToolImageGenerationQualityHigh ToolImageGenerationQuality = "high"
+
+const ToolImageGenerationQualityAuto ToolImageGenerationQuality = "auto"
+
+Size stringOptional
+
+The size of the generated images. For `gpt-image-2` and `gpt-image-2-2026-04-21`, arbitrary resolutions are supported as `WIDTHxHEIGHT` strings, for example `1536x864`. Width and height must both be divisible by 16 and the requested aspect ratio must be between 1:3 and 3:1. Resolutions above `2560x1440` are experimental, and the maximum supported resolution is `3840x2160`. The requested size must also satisfy the model’s current pixel and edge limits. The standard sizes `1024x1024`, `1536x1024`, and `1024x1536` are supported by the GPT image models; `auto` is supported for models that allow automatic sizing. For `dall-e-2`, use one of `256x256`, `512x512`, or `1024x1024`. For `dall-e-3`, use one of `1024x1024`, `1792x1024`, or `1024x1792`.
+
+One of the following:
+
+string
+
+string
+
+One of the following:
+
+const ToolImageGenerationSize1024x1024 ToolImageGenerationSize = "1024x1024"
+
+const ToolImageGenerationSize1024x1536 ToolImageGenerationSize = "1024x1536"
+
+const ToolImageGenerationSize1536x1024 ToolImageGenerationSize = "1536x1024"
+
+const ToolImageGenerationSizeAuto ToolImageGenerationSize = "auto"
+
+type ToolLocalShell struct{…}
+
+A tool that allows the model to execute shell commands in a local environment.
+
+Type LocalShell
+
+The type of the local shell tool. Always `local_shell`.
+
+type FunctionShellTool struct{…}
+
+A tool that allows the model to execute shell commands.
+
+Type Shell
+
+The type of the shell tool. Always `shell`.
+
+Environment FunctionShellToolEnvironmentUnionOptional
+
+One of the following:
+
+type ContainerAuto struct{…}
+
+Type ContainerAuto
+
+Automatically creates a container for this request
+
+FileIDs []stringOptional
+
+An optional list of uploaded files to make available to your code.
+
+MemoryLimit ContainerAutoMemoryLimitOptional
+
+The memory limit for the container.
+
+One of the following:
+
+const ContainerAutoMemoryLimit1g ContainerAutoMemoryLimit = "1g"
+
+const ContainerAutoMemoryLimit4g ContainerAutoMemoryLimit = "4g"
+
+const ContainerAutoMemoryLimit16g ContainerAutoMemoryLimit = "16g"
+
+const ContainerAutoMemoryLimit64g ContainerAutoMemoryLimit = "64g"
+
+NetworkPolicy ContainerAutoNetworkPolicyUnionOptional
+
+Network access policy for the container.
+
+One of the following:
+
+type ContainerNetworkPolicyDisabled struct{…}
+
+Type Disabled
+
+Disable outbound network access. Always `disabled`.
+
+type ContainerNetworkPolicyAllowlist struct{…}
+
+AllowedDomains []string
+
+A list of allowed domains when type is `allowlist`.
+
+Type Allowlist
+
+Allow outbound network access only to specified domains. Always `allowlist`.
+
+DomainSecrets [][ContainerNetworkPolicyDomainSecret](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20container_network_policy_domain_secret%20%3E%20(schema))Optional
+
+Optional domain-scoped secrets for allowlisted domains.
+
+Domain string
+
+The domain associated with the secret.
+
+minLength1
+
+Name string
+
+The name of the secret to inject for the domain.
+
+minLength1
+
+Value string
+
+The secret value to inject for the domain.
+
+maxLength10485760
+
+minLength1
+
+Skills []ContainerAutoSkillUnionOptional
+
+An optional list of skills referenced by id or inline data.
+
+One of the following:
+
+type SkillReference struct{…}
+
+SkillID string
+
+The ID of the referenced skill.
+
+maxLength64
+
+minLength1
+
+Type SkillReference
+
+References a skill created with the /v1/skills endpoint.
+
+Version stringOptional
+
+Optional skill version. Use a positive integer or ‘latest’. Omit for default.
+
+type InlineSkill struct{…}
+
+Description string
+
+The description of the skill.
+
+Name string
+
+The name of the skill.
+
+Source [InlineSkillSource](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20inline_skill_source%20%3E%20(schema))
+
+Inline skill payload
+
+Type Inline
+
+Defines an inline skill for this request.
+
+type LocalEnvironment struct{…}
+
+Type Local
+
+Use a local computer environment.
+
+Skills [][LocalSkill](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20local_skill%20%3E%20(schema))Optional
+
+An optional list of skills.
+
+Description string
+
+The description of the skill.
+
+Name string
+
+The name of the skill.
+
+Path string
+
+The path to the directory containing the skill.
+
+type ContainerReference struct{…}
+
+ContainerID string
+
+The ID of the referenced container.
+
+Type ContainerReference
+
+References a container created with the /v1/containers endpoint
+
+type CustomTool struct{…}
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+Name string
+
+The name of the custom tool, used to identify it in tool calls.
+
+Type Custom
+
+The type of the custom tool. Always `custom`.
+
+DeferLoading boolOptional
+
+Whether this tool should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Optional description of the custom tool, used to provide more context.
+
+Format [CustomToolInputFormatUnion](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20custom_tool_input_format%20%3E%20(schema))Optional
+
+The input format for the custom tool. Default is unconstrained text.
+
+type NamespaceTool struct{…}
+
+Groups function/custom tools under a shared namespace.
+
+Description string
+
+A description of the namespace shown to the model.
+
+minLength1
+
+Name string
+
+The namespace name used in tool calls (for example, `crm`).
+
+minLength1
+
+Tools []NamespaceToolToolUnion
+
+The function/custom tools available inside this namespace.
+
+One of the following:
+
+type NamespaceToolToolFunction struct{…}
+
+Name string
+
+maxLength128
+
+minLength1
+
+Type Function
+
+DeferLoading boolOptional
+
+Whether this function should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Parameters anyOptional
+
+Strict boolOptional
+
+type CustomTool struct{…}
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+Name string
+
+The name of the custom tool, used to identify it in tool calls.
+
+Type Custom
+
+The type of the custom tool. Always `custom`.
+
+DeferLoading boolOptional
+
+Whether this tool should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Optional description of the custom tool, used to provide more context.
+
+Format [CustomToolInputFormatUnion](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20custom_tool_input_format%20%3E%20(schema))Optional
+
+The input format for the custom tool. Default is unconstrained text.
+
+Type Namespace
+
+The type of the tool. Always `namespace`.
+
+type ToolSearchTool struct{…}
+
+Hosted or BYOT tool search configuration for deferred tools.
+
+Type ToolSearch
+
+The type of the tool. Always `tool_search`.
+
+Description stringOptional
+
+Description shown to the model for a client-executed tool search tool.
+
+Execution ToolSearchToolExecutionOptional
+
+Whether tool search is executed by the server or by the client.
+
+One of the following:
+
+const ToolSearchToolExecutionServer ToolSearchToolExecution = "server"
+
+const ToolSearchToolExecutionClient ToolSearchToolExecution = "client"
+
+Parameters anyOptional
+
+Parameter schema for a client-executed tool search tool.
+
+type WebSearchPreviewTool struct{…}
+
+This tool searches the web for relevant results to use in a response. Learn more about the [web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+Type WebSearchPreviewToolType
+
+The type of the web search tool. One of `web_search_preview` or `web_search_preview_2025_03_11`.
+
+One of the following:
+
+const WebSearchPreviewToolTypeWebSearchPreview WebSearchPreviewToolType = "web\_search\_preview"
+
+const WebSearchPreviewToolTypeWebSearchPreview2025\_03\_11 WebSearchPreviewToolType = "web\_search\_preview\_2025\_03\_11"
+
+SearchContentTypes []stringOptional
+
+One of the following:
+
+const WebSearchPreviewToolSearchContentTypeText WebSearchPreviewToolSearchContentType = "text"
+
+const WebSearchPreviewToolSearchContentTypeImage WebSearchPreviewToolSearchContentType = "image"
+
+SearchContextSize WebSearchPreviewToolSearchContextSizeOptional
+
+High level guidance for the amount of context window space to use for the search. One of `low`, `medium`, or `high`. `medium` is the default.
+
+One of the following:
+
+const WebSearchPreviewToolSearchContextSizeLow WebSearchPreviewToolSearchContextSize = "low"
+
+const WebSearchPreviewToolSearchContextSizeMedium WebSearchPreviewToolSearchContextSize = "medium"
+
+const WebSearchPreviewToolSearchContextSizeHigh WebSearchPreviewToolSearchContextSize = "high"
+
+UserLocation WebSearchPreviewToolUserLocationOptional
+
+The user’s location.
+
+Type Approximate
+
+The type of location approximation. Always `approximate`.
+
+City stringOptional
+
+Free text input for the city of the user, e.g. `San Francisco`.
+
+Country stringOptional
+
+The two-letter [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1) of the user, e.g. `US`.
+
+Region stringOptional
+
+Free text input for the region of the user, e.g. `California`.
+
+Timezone stringOptional
+
+The [IANA timezone](https://timeapi.io/documentation/iana-timezones) of the user, e.g. `America/Los_Angeles`.
+
+type ApplyPatchTool struct{…}
+
+Allows the assistant to create, delete, or update files using unified diffs.
+
+Type ApplyPatch
+
+The type of the tool. Always `apply_patch`.
+
+Type ToolSearchOutput
+
+The type of the item. Always `tool_search_output`.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseItemAdditionalTools struct{…}
+
+ID string
+
+The unique ID of the additional tools item.
+
+Role string
+
+The role that provided the additional tools.
+
+One of the following:
+
+const ResponseItemAdditionalToolsRoleUnknown ResponseItemAdditionalToolsRole = "unknown"
+
+const ResponseItemAdditionalToolsRoleUser ResponseItemAdditionalToolsRole = "user"
+
+const ResponseItemAdditionalToolsRoleAssistant ResponseItemAdditionalToolsRole = "assistant"
+
+const ResponseItemAdditionalToolsRoleSystem ResponseItemAdditionalToolsRole = "system"
+
+const ResponseItemAdditionalToolsRoleCritic ResponseItemAdditionalToolsRole = "critic"
+
+const ResponseItemAdditionalToolsRoleDiscriminator ResponseItemAdditionalToolsRole = "discriminator"
+
+const ResponseItemAdditionalToolsRoleDeveloper ResponseItemAdditionalToolsRole = "developer"
+
+const ResponseItemAdditionalToolsRoleTool ResponseItemAdditionalToolsRole = "tool"
+
+Tools [][ToolUnion](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20tool%20%3E%20(schema))
+
+The additional tool definitions made available at this item.
+
+One of the following:
+
+type FunctionTool struct{…}
+
+Defines a function in your own code the model can choose to call. Learn more about [function calling](https://platform.openai.com/docs/guides/function-calling).
+
+Name string
+
+The name of the function to call.
+
+Parameters map[string, any]
+
+A JSON schema object describing the parameters of the function.
+
+Strict bool
+
+Whether to enforce strict parameter validation. Default `true`.
+
+Type Function
+
+The type of the function tool. Always `function`.
+
+DeferLoading boolOptional
+
+Whether this function is deferred and loaded via tool search.
+
+Description stringOptional
+
+A description of the function. Used by the model to determine whether or not to call the function.
+
+type FileSearchTool struct{…}
+
+A tool that searches for relevant content from uploaded files. Learn more about the [file search tool](https://platform.openai.com/docs/guides/tools-file-search).
+
+Type FileSearch
+
+The type of the file search tool. Always `file_search`.
+
+VectorStoreIDs []string
+
+The IDs of the vector stores to search.
+
+Filters FileSearchToolFiltersUnionOptional
+
+A filter to apply.
+
+One of the following:
+
+type ComparisonFilter struct{…}
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+Key string
+
+The key to compare against the value.
+
+Type ComparisonFilterType
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+const ComparisonFilterTypeEq ComparisonFilterType = "eq"
+
+const ComparisonFilterTypeNe ComparisonFilterType = "ne"
+
+const ComparisonFilterTypeGt ComparisonFilterType = "gt"
+
+const ComparisonFilterTypeGte ComparisonFilterType = "gte"
+
+const ComparisonFilterTypeLt ComparisonFilterType = "lt"
+
+const ComparisonFilterTypeLte ComparisonFilterType = "lte"
+
+const ComparisonFilterTypeIn ComparisonFilterType = "in"
+
+const ComparisonFilterTypeNin ComparisonFilterType = "nin"
+
+Value ComparisonFilterValueUnion
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+float64
+
+bool
+
+type ComparisonFilterValueArray []ComparisonFilterValueArrayItemUnion
+
+One of the following:
+
+string
+
+float64
+
+type CompoundFilter struct{…}
+
+Combine multiple filters using `and` or `or`.
+
+Filters [][ComparisonFilter](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20comparison_filter%20%3E%20(schema))
+
+Array of filters to combine. Items can be `ComparisonFilter` or `CompoundFilter`.
+
+One of the following:
+
+type ComparisonFilter struct{…}
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+Key string
+
+The key to compare against the value.
+
+Type ComparisonFilterType
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+const ComparisonFilterTypeEq ComparisonFilterType = "eq"
+
+const ComparisonFilterTypeNe ComparisonFilterType = "ne"
+
+const ComparisonFilterTypeGt ComparisonFilterType = "gt"
+
+const ComparisonFilterTypeGte ComparisonFilterType = "gte"
+
+const ComparisonFilterTypeLt ComparisonFilterType = "lt"
+
+const ComparisonFilterTypeLte ComparisonFilterType = "lte"
+
+const ComparisonFilterTypeIn ComparisonFilterType = "in"
+
+const ComparisonFilterTypeNin ComparisonFilterType = "nin"
+
+Value ComparisonFilterValueUnion
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+float64
+
+bool
+
+type ComparisonFilterValueArray []ComparisonFilterValueArrayItemUnion
+
+One of the following:
+
+string
+
+float64
+
+Type CompoundFilterType
+
+Type of operation: `and` or `or`.
+
+One of the following:
+
+const CompoundFilterTypeAnd CompoundFilterType = "and"
+
+const CompoundFilterTypeOr CompoundFilterType = "or"
+
+MaxNumResults int64Optional
+
+The maximum number of results to return. This number should be between 1 and 50 inclusive.
+
+RankingOptions FileSearchToolRankingOptionsOptional
+
+Ranking options for search.
+
+HybridSearch FileSearchToolRankingOptionsHybridSearchOptional
+
+Weights that control how reciprocal rank fusion balances semantic embedding matches versus sparse keyword matches when hybrid search is enabled.
+
+EmbeddingWeight float64
+
+The weight of the embedding in the reciprocal ranking fusion.
+
+TextWeight float64
+
+The weight of the text in the reciprocal ranking fusion.
+
+Ranker stringOptional
+
+The ranker to use for the file search.
+
+One of the following:
+
+const FileSearchToolRankingOptionsRankerAuto FileSearchToolRankingOptionsRanker = "auto"
+
+const FileSearchToolRankingOptionsRankerDefault2024\_11\_15 FileSearchToolRankingOptionsRanker = "default-2024-11-15"
+
+ScoreThreshold float64Optional
+
+The score threshold for the file search, a number between 0 and 1. Numbers closer to 1 will attempt to return only the most relevant results, but may return fewer results.
+
+type ComputerTool struct{…}
+
+A tool that controls a virtual computer. Learn more about the [computer tool](https://platform.openai.com/docs/guides/tools-computer-use).
+
+Type Computer
+
+The type of the computer tool. Always `computer`.
+
+type ComputerUsePreviewTool struct{…}
+
+A tool that controls a virtual computer. Learn more about the [computer tool](https://platform.openai.com/docs/guides/tools-computer-use).
+
+DisplayHeight int64
+
+The height of the computer display.
+
+DisplayWidth int64
+
+The width of the computer display.
+
+Environment ComputerUsePreviewToolEnvironment
+
+The type of computer environment to control.
+
+One of the following:
+
+const ComputerUsePreviewToolEnvironmentWindows ComputerUsePreviewToolEnvironment = "windows"
+
+const ComputerUsePreviewToolEnvironmentMac ComputerUsePreviewToolEnvironment = "mac"
+
+const ComputerUsePreviewToolEnvironmentLinux ComputerUsePreviewToolEnvironment = "linux"
+
+const ComputerUsePreviewToolEnvironmentUbuntu ComputerUsePreviewToolEnvironment = "ubuntu"
+
+const ComputerUsePreviewToolEnvironmentBrowser ComputerUsePreviewToolEnvironment = "browser"
+
+Type ComputerUsePreview
+
+The type of the computer use tool. Always `computer_use_preview`.
+
+type WebSearchTool struct{…}
+
+Search the Internet for sources related to the prompt. Learn more about the
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+Type WebSearchToolType
+
+The type of the web search tool. One of `web_search` or `web_search_2025_08_26`.
+
+One of the following:
+
+const WebSearchToolTypeWebSearch WebSearchToolType = "web\_search"
+
+const WebSearchToolTypeWebSearch2025\_08\_26 WebSearchToolType = "web\_search\_2025\_08\_26"
+
+Filters WebSearchToolFiltersOptional
+
+Filters for the search.
+
+AllowedDomains []stringOptional
+
+Allowed domains for the search. If not provided, all domains are allowed.
+Subdomains of the provided domains are allowed as well.
+
+Example: `["pubmed.ncbi.nlm.nih.gov"]`
+
+SearchContextSize WebSearchToolSearchContextSizeOptional
+
+High level guidance for the amount of context window space to use for the search. One of `low`, `medium`, or `high`. `medium` is the default.
+
+One of the following:
+
+const WebSearchToolSearchContextSizeLow WebSearchToolSearchContextSize = "low"
+
+const WebSearchToolSearchContextSizeMedium WebSearchToolSearchContextSize = "medium"
+
+const WebSearchToolSearchContextSizeHigh WebSearchToolSearchContextSize = "high"
+
+UserLocation WebSearchToolUserLocationOptional
+
+The approximate location of the user.
+
+City stringOptional
+
+Free text input for the city of the user, e.g. `San Francisco`.
+
+Country stringOptional
+
+The two-letter [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1) of the user, e.g. `US`.
+
+Region stringOptional
+
+Free text input for the region of the user, e.g. `California`.
+
+Timezone stringOptional
+
+The [IANA timezone](https://timeapi.io/documentation/iana-timezones) of the user, e.g. `America/Los_Angeles`.
+
+Type stringOptional
+
+The type of location approximation. Always `approximate`.
+
+type ToolMcp struct{…}
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+ServerLabel string
+
+A label for this MCP server, used to identify it in tool calls.
+
+Type Mcp
+
+The type of the MCP tool. Always `mcp`.
+
+AllowedTools ToolMcpAllowedToolsUnionOptional
+
+List of allowed tool names or a filter object.
+
+One of the following:
+
+type ToolMcpAllowedToolsMcpAllowedTools []string
+
+A string array of allowed tool names
+
+type ToolMcpAllowedToolsMcpToolFilter struct{…}
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+Authorization stringOptional
+
+An OAuth access token that can be used with a remote MCP server, either
+with a custom MCP server URL or a service connector. Your application
+must handle the OAuth authorization flow and provide the token here.
+
+ConnectorID stringOptional
+
+Identifier for service connectors, like those available in ChatGPT. One of
+`server_url`, `connector_id`, or `tunnel_id` must be provided. Learn more
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+Currently supported `connector_id` values are:
+
+* Dropbox: `connector_dropbox`
+* Gmail: `connector_gmail`
+* Google Calendar: `connector_googlecalendar`
+* Google Drive: `connector_googledrive`
+* Microsoft Teams: `connector_microsoftteams`
+* Outlook Calendar: `connector_outlookcalendar`
+* Outlook Email: `connector_outlookemail`
+* SharePoint: `connector_sharepoint`
+
+One of the following:
+
+const ToolMcpConnectorIDConnectorDropbox ToolMcpConnectorID = "connector\_dropbox"
+
+const ToolMcpConnectorIDConnectorGmail ToolMcpConnectorID = "connector\_gmail"
+
+const ToolMcpConnectorIDConnectorGooglecalendar ToolMcpConnectorID = "connector\_googlecalendar"
+
+const ToolMcpConnectorIDConnectorGoogledrive ToolMcpConnectorID = "connector\_googledrive"
+
+const ToolMcpConnectorIDConnectorMicrosoftteams ToolMcpConnectorID = "connector\_microsoftteams"
+
+const ToolMcpConnectorIDConnectorOutlookcalendar ToolMcpConnectorID = "connector\_outlookcalendar"
+
+const ToolMcpConnectorIDConnectorOutlookemail ToolMcpConnectorID = "connector\_outlookemail"
+
+const ToolMcpConnectorIDConnectorSharepoint ToolMcpConnectorID = "connector\_sharepoint"
+
+DeferLoading boolOptional
+
+Whether this MCP tool is deferred and discovered via tool search.
+
+Headers map[string, string]Optional
+
+Optional HTTP headers to send to the MCP server. Use for authentication
+or other purposes.
+
+RequireApproval ToolMcpRequireApprovalUnionOptional
+
+Specify which of the MCP server’s tools require approval.
+
+One of the following:
+
+type ToolMcpRequireApprovalMcpToolApprovalFilter struct{…}
+
+Specify which of the MCP server’s tools require approval. Can be
+`always`, `never`, or a filter object associated with tools
+that require approval.
+
+Always ToolMcpRequireApprovalMcpToolApprovalFilterAlwaysOptional
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+Never ToolMcpRequireApprovalMcpToolApprovalFilterNeverOptional
+
+A filter object to specify which tools are allowed.
+
+ReadOnly boolOptional
+
+Indicates whether or not a tool modifies data or is read-only. If an
+MCP server is [annotated with `readOnlyHint`](https://modelcontextprotocol.io/specification/2025-06-18/schema#toolannotations-readonlyhint),
+it will match this filter.
+
+ToolNames []stringOptional
+
+List of allowed tool names.
+
+type ToolMcpRequireApprovalMcpToolApprovalSetting string
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+One of the following:
+
+const ToolMcpRequireApprovalMcpToolApprovalSettingAlways ToolMcpRequireApprovalMcpToolApprovalSetting = "always"
+
+const ToolMcpRequireApprovalMcpToolApprovalSettingNever ToolMcpRequireApprovalMcpToolApprovalSetting = "never"
+
+ServerDescription stringOptional
+
+Optional description of the MCP server, used to provide more context.
+
+ServerURL stringOptional
+
+The URL for the MCP server. One of `server_url`, `connector_id`, or
+`tunnel_id` must be provided.
+
+formaturi
+
+TunnelID stringOptional
+
+The Secure MCP Tunnel ID to use instead of a direct server URL. One of
+`server_url`, `connector_id`, or `tunnel_id` must be provided.
+
+type ToolCodeInterpreter struct{…}
+
+A tool that runs Python code to help generate a response to a prompt.
+
+Container ToolCodeInterpreterContainerUnion
+
+The code interpreter container. Can be a container ID or an object that
+specifies uploaded file IDs to make available to your code, along with an
+optional `memory_limit` setting.
+
+One of the following:
+
+string
+
+type ToolCodeInterpreterContainerCodeInterpreterContainerAuto struct{…}
+
+Configuration for a code interpreter container. Optionally specify the IDs of the files to run the code on.
+
+Type Auto
+
+Always `auto`.
+
+FileIDs []stringOptional
+
+An optional list of uploaded files to make available to your code.
+
+MemoryLimit stringOptional
+
+The memory limit for the code interpreter container.
+
+One of the following:
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit1g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "1g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit4g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "4g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit16g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "16g"
+
+const ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit64g ToolCodeInterpreterContainerCodeInterpreterToolAutoMemoryLimit = "64g"
+
+NetworkPolicy ToolCodeInterpreterContainerCodeInterpreterToolAutoNetworkPolicyUnionOptional
+
+Network access policy for the container.
+
+One of the following:
+
+type ContainerNetworkPolicyDisabled struct{…}
+
+Type Disabled
+
+Disable outbound network access. Always `disabled`.
+
+type ContainerNetworkPolicyAllowlist struct{…}
+
+AllowedDomains []string
+
+A list of allowed domains when type is `allowlist`.
+
+Type Allowlist
+
+Allow outbound network access only to specified domains. Always `allowlist`.
+
+DomainSecrets [][ContainerNetworkPolicyDomainSecret](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20container_network_policy_domain_secret%20%3E%20(schema))Optional
+
+Optional domain-scoped secrets for allowlisted domains.
+
+Domain string
+
+The domain associated with the secret.
+
+minLength1
+
+Name string
+
+The name of the secret to inject for the domain.
+
+minLength1
+
+Value string
+
+The secret value to inject for the domain.
+
+maxLength10485760
+
+minLength1
+
+Type CodeInterpreter
+
+The type of the code interpreter tool. Always `code_interpreter`.
+
+type ToolImageGeneration struct{…}
+
+A tool that generates images using the GPT image models.
+
+Type ImageGeneration
+
+The type of the image generation tool. Always `image_generation`.
+
+Action stringOptional
+
+Whether to generate a new image or edit an existing image. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationActionGenerate ToolImageGenerationAction = "generate"
+
+const ToolImageGenerationActionEdit ToolImageGenerationAction = "edit"
+
+const ToolImageGenerationActionAuto ToolImageGenerationAction = "auto"
+
+Background stringOptional
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+One of the following:
+
+const ToolImageGenerationBackgroundTransparent ToolImageGenerationBackground = "transparent"
+
+const ToolImageGenerationBackgroundOpaque ToolImageGenerationBackground = "opaque"
+
+const ToolImageGenerationBackgroundAuto ToolImageGenerationBackground = "auto"
+
+InputFidelity stringOptional
+
+Control how much effort the model will exert to match the style and features, especially facial features, of input images. This parameter is only supported for `gpt-image-1` and `gpt-image-1.5` and later models, unsupported for `gpt-image-1-mini`. Supports `high` and `low`. Defaults to `low`.
+
+One of the following:
+
+const ToolImageGenerationInputFidelityHigh ToolImageGenerationInputFidelity = "high"
+
+const ToolImageGenerationInputFidelityLow ToolImageGenerationInputFidelity = "low"
+
+InputImageMask ToolImageGenerationInputImageMaskOptional
+
+Optional mask for inpainting. Contains `image_url`
+(string, optional) and `file_id` (string, optional).
+
+FileID stringOptional
+
+File ID for the mask image.
+
+ImageURL stringOptional
+
+Base64-encoded mask image.
+
+Model stringOptional
+
+The image generation model to use. Default: `gpt-image-1`.
+
+One of the following:
+
+string
+
+string
+
+One of the following:
+
+const ToolImageGenerationModelGPTImage1 ToolImageGenerationModel = "gpt-image-1"
+
+const ToolImageGenerationModelGPTImage1Mini ToolImageGenerationModel = "gpt-image-1-mini"
+
+const ToolImageGenerationModelGPTImage2 ToolImageGenerationModel = "gpt-image-2"
+
+const ToolImageGenerationModelGPTImage2\_2026\_04\_21 ToolImageGenerationModel = "gpt-image-2-2026-04-21"
+
+const ToolImageGenerationModelGPTImage1\_5 ToolImageGenerationModel = "gpt-image-1.5"
+
+const ToolImageGenerationModelChatgptImageLatest ToolImageGenerationModel = "chatgpt-image-latest"
+
+Moderation stringOptional
+
+Moderation level for the generated image. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationModerationAuto ToolImageGenerationModeration = "auto"
+
+const ToolImageGenerationModerationLow ToolImageGenerationModeration = "low"
+
+OutputCompression int64Optional
+
+Compression level for the output image. Default: 100.
+
+minimum0
+
+maximum100
+
+OutputFormat stringOptional
+
+The output format of the generated image. One of `png`, `webp`, or
+`jpeg`. Default: `png`.
+
+One of the following:
+
+const ToolImageGenerationOutputFormatPNG ToolImageGenerationOutputFormat = "png"
+
+const ToolImageGenerationOutputFormatWebP ToolImageGenerationOutputFormat = "webp"
+
+const ToolImageGenerationOutputFormatJPEG ToolImageGenerationOutputFormat = "jpeg"
+
+PartialImages int64Optional
+
+Number of partial images to generate in streaming mode, from 0 (default value) to 3.
+
+minimum0
+
+maximum3
+
+Quality stringOptional
+
+The quality of the generated image. One of `low`, `medium`, `high`,
+or `auto`. Default: `auto`.
+
+One of the following:
+
+const ToolImageGenerationQualityLow ToolImageGenerationQuality = "low"
+
+const ToolImageGenerationQualityMedium ToolImageGenerationQuality = "medium"
+
+const ToolImageGenerationQualityHigh ToolImageGenerationQuality = "high"
+
+const ToolImageGenerationQualityAuto ToolImageGenerationQuality = "auto"
+
+Size stringOptional
+
+The size of the generated images. For `gpt-image-2` and `gpt-image-2-2026-04-21`, arbitrary resolutions are supported as `WIDTHxHEIGHT` strings, for example `1536x864`. Width and height must both be divisible by 16 and the requested aspect ratio must be between 1:3 and 3:1. Resolutions above `2560x1440` are experimental, and the maximum supported resolution is `3840x2160`. The requested size must also satisfy the model’s current pixel and edge limits. The standard sizes `1024x1024`, `1536x1024`, and `1024x1536` are supported by the GPT image models; `auto` is supported for models that allow automatic sizing. For `dall-e-2`, use one of `256x256`, `512x512`, or `1024x1024`. For `dall-e-3`, use one of `1024x1024`, `1792x1024`, or `1024x1792`.
+
+One of the following:
+
+string
+
+string
+
+One of the following:
+
+const ToolImageGenerationSize1024x1024 ToolImageGenerationSize = "1024x1024"
+
+const ToolImageGenerationSize1024x1536 ToolImageGenerationSize = "1024x1536"
+
+const ToolImageGenerationSize1536x1024 ToolImageGenerationSize = "1536x1024"
+
+const ToolImageGenerationSizeAuto ToolImageGenerationSize = "auto"
+
+type ToolLocalShell struct{…}
+
+A tool that allows the model to execute shell commands in a local environment.
+
+Type LocalShell
+
+The type of the local shell tool. Always `local_shell`.
+
+type FunctionShellTool struct{…}
+
+A tool that allows the model to execute shell commands.
+
+Type Shell
+
+The type of the shell tool. Always `shell`.
+
+Environment FunctionShellToolEnvironmentUnionOptional
+
+One of the following:
+
+type ContainerAuto struct{…}
+
+Type ContainerAuto
+
+Automatically creates a container for this request
+
+FileIDs []stringOptional
+
+An optional list of uploaded files to make available to your code.
+
+MemoryLimit ContainerAutoMemoryLimitOptional
+
+The memory limit for the container.
+
+One of the following:
+
+const ContainerAutoMemoryLimit1g ContainerAutoMemoryLimit = "1g"
+
+const ContainerAutoMemoryLimit4g ContainerAutoMemoryLimit = "4g"
+
+const ContainerAutoMemoryLimit16g ContainerAutoMemoryLimit = "16g"
+
+const ContainerAutoMemoryLimit64g ContainerAutoMemoryLimit = "64g"
+
+NetworkPolicy ContainerAutoNetworkPolicyUnionOptional
+
+Network access policy for the container.
+
+One of the following:
+
+type ContainerNetworkPolicyDisabled struct{…}
+
+Type Disabled
+
+Disable outbound network access. Always `disabled`.
+
+type ContainerNetworkPolicyAllowlist struct{…}
+
+AllowedDomains []string
+
+A list of allowed domains when type is `allowlist`.
+
+Type Allowlist
+
+Allow outbound network access only to specified domains. Always `allowlist`.
+
+DomainSecrets [][ContainerNetworkPolicyDomainSecret](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20container_network_policy_domain_secret%20%3E%20(schema))Optional
+
+Optional domain-scoped secrets for allowlisted domains.
+
+Domain string
+
+The domain associated with the secret.
+
+minLength1
+
+Name string
+
+The name of the secret to inject for the domain.
+
+minLength1
+
+Value string
+
+The secret value to inject for the domain.
+
+maxLength10485760
+
+minLength1
+
+Skills []ContainerAutoSkillUnionOptional
+
+An optional list of skills referenced by id or inline data.
+
+One of the following:
+
+type SkillReference struct{…}
+
+SkillID string
+
+The ID of the referenced skill.
+
+maxLength64
+
+minLength1
+
+Type SkillReference
+
+References a skill created with the /v1/skills endpoint.
+
+Version stringOptional
+
+Optional skill version. Use a positive integer or ‘latest’. Omit for default.
+
+type InlineSkill struct{…}
+
+Description string
+
+The description of the skill.
+
+Name string
+
+The name of the skill.
+
+Source [InlineSkillSource](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20inline_skill_source%20%3E%20(schema))
+
+Inline skill payload
+
+Type Inline
+
+Defines an inline skill for this request.
+
+type LocalEnvironment struct{…}
+
+Type Local
+
+Use a local computer environment.
+
+Skills [][LocalSkill](/api/reference/go/resources/responses#(resource)%20responses%20%3E%20(model)%20local_skill%20%3E%20(schema))Optional
+
+An optional list of skills.
+
+Description string
+
+The description of the skill.
+
+Name string
+
+The name of the skill.
+
+Path string
+
+The path to the directory containing the skill.
+
+type ContainerReference struct{…}
+
+ContainerID string
+
+The ID of the referenced container.
+
+Type ContainerReference
+
+References a container created with the /v1/containers endpoint
+
+type CustomTool struct{…}
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+Name string
+
+The name of the custom tool, used to identify it in tool calls.
+
+Type Custom
+
+The type of the custom tool. Always `custom`.
+
+DeferLoading boolOptional
+
+Whether this tool should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Optional description of the custom tool, used to provide more context.
+
+Format [CustomToolInputFormatUnion](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20custom_tool_input_format%20%3E%20(schema))Optional
+
+The input format for the custom tool. Default is unconstrained text.
+
+type NamespaceTool struct{…}
+
+Groups function/custom tools under a shared namespace.
+
+Description string
+
+A description of the namespace shown to the model.
+
+minLength1
+
+Name string
+
+The namespace name used in tool calls (for example, `crm`).
+
+minLength1
+
+Tools []NamespaceToolToolUnion
+
+The function/custom tools available inside this namespace.
+
+One of the following:
+
+type NamespaceToolToolFunction struct{…}
+
+Name string
+
+maxLength128
+
+minLength1
+
+Type Function
+
+DeferLoading boolOptional
+
+Whether this function should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Parameters anyOptional
+
+Strict boolOptional
+
+type CustomTool struct{…}
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+Name string
+
+The name of the custom tool, used to identify it in tool calls.
+
+Type Custom
+
+The type of the custom tool. Always `custom`.
+
+DeferLoading boolOptional
+
+Whether this tool should be deferred and discovered via tool search.
+
+Description stringOptional
+
+Optional description of the custom tool, used to provide more context.
+
+Format [CustomToolInputFormatUnion](/api/reference/go/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20custom_tool_input_format%20%3E%20(schema))Optional
+
+The input format for the custom tool. Default is unconstrained text.
+
+Type Namespace
+
+The type of the tool. Always `namespace`.
+
+type ToolSearchTool struct{…}
+
+Hosted or BYOT tool search configuration for deferred tools.
+
+Type ToolSearch
+
+The type of the tool. Always `tool_search`.
+
+Description stringOptional
+
+Description shown to the model for a client-executed tool search tool.
+
+Execution ToolSearchToolExecutionOptional
+
+Whether tool search is executed by the server or by the client.
+
+One of the following:
+
+const ToolSearchToolExecutionServer ToolSearchToolExecution = "server"
+
+const ToolSearchToolExecutionClient ToolSearchToolExecution = "client"
+
+Parameters anyOptional
+
+Parameter schema for a client-executed tool search tool.
+
+type WebSearchPreviewTool struct{…}
+
+This tool searches the web for relevant results to use in a response. Learn more about the [web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+Type WebSearchPreviewToolType
+
+The type of the web search tool. One of `web_search_preview` or `web_search_preview_2025_03_11`.
+
+One of the following:
+
+const WebSearchPreviewToolTypeWebSearchPreview WebSearchPreviewToolType = "web\_search\_preview"
+
+const WebSearchPreviewToolTypeWebSearchPreview2025\_03\_11 WebSearchPreviewToolType = "web\_search\_preview\_2025\_03\_11"
+
+SearchContentTypes []stringOptional
+
+One of the following:
+
+const WebSearchPreviewToolSearchContentTypeText WebSearchPreviewToolSearchContentType = "text"
+
+const WebSearchPreviewToolSearchContentTypeImage WebSearchPreviewToolSearchContentType = "image"
+
+SearchContextSize WebSearchPreviewToolSearchContextSizeOptional
+
+High level guidance for the amount of context window space to use for the search. One of `low`, `medium`, or `high`. `medium` is the default.
+
+One of the following:
+
+const WebSearchPreviewToolSearchContextSizeLow WebSearchPreviewToolSearchContextSize = "low"
+
+const WebSearchPreviewToolSearchContextSizeMedium WebSearchPreviewToolSearchContextSize = "medium"
+
+const WebSearchPreviewToolSearchContextSizeHigh WebSearchPreviewToolSearchContextSize = "high"
+
+UserLocation WebSearchPreviewToolUserLocationOptional
+
+The user’s location.
+
+Type Approximate
+
+The type of location approximation. Always `approximate`.
+
+City stringOptional
+
+Free text input for the city of the user, e.g. `San Francisco`.
+
+Country stringOptional
+
+The two-letter [ISO country code](https://en.wikipedia.org/wiki/ISO_3166-1) of the user, e.g. `US`.
+
+Region stringOptional
+
+Free text input for the region of the user, e.g. `California`.
+
+Timezone stringOptional
+
+The [IANA timezone](https://timeapi.io/documentation/iana-timezones) of the user, e.g. `America/Los_Angeles`.
+
+type ApplyPatchTool struct{…}
+
+Allows the assistant to create, delete, or update files using unified diffs.
+
+Type ApplyPatch
+
+The type of the tool. Always `apply_patch`.
+
+Type AdditionalTools
+
+The type of the item. Always `additional_tools`.
+
+type ResponseReasoningItem struct{…}
+
+A description of the chain of thought used by a reasoning model while generating
+a response. Be sure to include these items in your `input` to the Responses API
+for subsequent turns of a conversation if you are manually
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+ID string
+
+The unique identifier of the reasoning content.
+
+Summary []ResponseReasoningItemSummary
+
+Reasoning summary content.
+
+Text string
+
+A summary of the reasoning output from the model so far.
+
+Type SummaryText
+
+The type of the object. Always `summary_text`.
+
+Type Reasoning
+
+The type of the object. Always `reasoning`.
+
+Content []ResponseReasoningItemContentOptional
+
+Reasoning text content.
+
+Text string
+
+The reasoning text from the model.
+
+Type ReasoningText
+
+The type of the reasoning text. Always `reasoning_text`.
+
+EncryptedContent stringOptional
+
+The encrypted content of the reasoning item - populated when a response is
+generated with `reasoning.encrypted_content` in the `include` parameter.
+
+Status ResponseReasoningItemStatusOptional
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseReasoningItemStatusInProgress ResponseReasoningItemStatus = "in\_progress"
+
+const ResponseReasoningItemStatusCompleted ResponseReasoningItemStatus = "completed"
+
+const ResponseReasoningItemStatusIncomplete ResponseReasoningItemStatus = "incomplete"
+
+type ResponseCompactionItem struct{…}
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+ID string
+
+The unique ID of the compaction item.
+
+EncryptedContent string
+
+The encrypted content that was produced by compaction.
+
+Type Compaction
+
+The type of the item. Always `compaction`.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseItemImageGenerationCall struct{…}
+
+An image generation request made by the model.
+
+ID string
+
+The unique ID of the image generation call.
+
+Result string
+
+The generated image encoded in base64.
+
+Status string
+
+The status of the image generation call.
+
+One of the following:
+
+const ResponseItemImageGenerationCallStatusInProgress ResponseItemImageGenerationCallStatus = "in\_progress"
+
+const ResponseItemImageGenerationCallStatusCompleted ResponseItemImageGenerationCallStatus = "completed"
+
+const ResponseItemImageGenerationCallStatusGenerating ResponseItemImageGenerationCallStatus = "generating"
+
+const ResponseItemImageGenerationCallStatusFailed ResponseItemImageGenerationCallStatus = "failed"
+
+Type ImageGenerationCall
+
+The type of the image generation call. Always `image_generation_call`.
+
+type ResponseCodeInterpreterToolCall struct{…}
+
+A tool call to run code.
+
+ID string
+
+The unique ID of the code interpreter tool call.
+
+Code string
+
+The code to run, or null if not available.
+
+ContainerID string
+
+The ID of the container used to run the code.
+
+Outputs []ResponseCodeInterpreterToolCallOutputUnion
+
+The outputs generated by the code interpreter, such as logs or images.
+Can be null if no outputs are available.
+
+One of the following:
+
+type ResponseCodeInterpreterToolCallOutputLogs struct{…}
+
+The logs output from the code interpreter.
+
+Logs string
+
+The logs output from the code interpreter.
+
+Type Logs
+
+The type of the output. Always `logs`.
+
+type ResponseCodeInterpreterToolCallOutputImage struct{…}
+
+The image output from the code interpreter.
+
+Type Image
+
+The type of the output. Always `image`.
+
+URL string
+
+The URL of the image output from the code interpreter.
+
+formaturi
+
+Status ResponseCodeInterpreterToolCallStatus
+
+The status of the code interpreter tool call. Valid values are `in_progress`, `completed`, `incomplete`, `interpreting`, and `failed`.
+
+One of the following:
+
+const ResponseCodeInterpreterToolCallStatusInProgress ResponseCodeInterpreterToolCallStatus = "in\_progress"
+
+const ResponseCodeInterpreterToolCallStatusCompleted ResponseCodeInterpreterToolCallStatus = "completed"
+
+const ResponseCodeInterpreterToolCallStatusIncomplete ResponseCodeInterpreterToolCallStatus = "incomplete"
+
+const ResponseCodeInterpreterToolCallStatusInterpreting ResponseCodeInterpreterToolCallStatus = "interpreting"
+
+const ResponseCodeInterpreterToolCallStatusFailed ResponseCodeInterpreterToolCallStatus = "failed"
+
+Type CodeInterpreterCall
+
+The type of the code interpreter tool call. Always `code_interpreter_call`.
+
+type ResponseItemLocalShellCall struct{…}
+
+A tool call to run a command on the local shell.
+
+ID string
+
+The unique ID of the local shell call.
+
+Action ResponseItemLocalShellCallAction
+
+Execute a shell command on the server.
+
+Command []string
+
+The command to run.
+
+Env map[string, string]
+
+Environment variables to set for the command.
+
+Type Exec
+
+The type of the local shell action. Always `exec`.
+
+TimeoutMs int64Optional
+
+Optional timeout in milliseconds for the command.
+
+User stringOptional
+
+Optional user to run the command as.
+
+WorkingDirectory stringOptional
+
+Optional working directory to run the command in.
+
+CallID string
+
+The unique ID of the local shell tool call generated by the model.
+
+Status string
+
+The status of the local shell call.
+
+One of the following:
+
+const ResponseItemLocalShellCallStatusInProgress ResponseItemLocalShellCallStatus = "in\_progress"
+
+const ResponseItemLocalShellCallStatusCompleted ResponseItemLocalShellCallStatus = "completed"
+
+const ResponseItemLocalShellCallStatusIncomplete ResponseItemLocalShellCallStatus = "incomplete"
+
+Type LocalShellCall
+
+The type of the local shell call. Always `local_shell_call`.
+
+type ResponseItemLocalShellCallOutput struct{…}
+
+The output of a local shell tool call.
+
+ID string
+
+The unique ID of the local shell tool call generated by the model.
+
+Output string
+
+A JSON string of the output of the local shell tool call.
+
+Type LocalShellCallOutput
+
+The type of the local shell tool call output. Always `local_shell_call_output`.
+
+Status stringOptional
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`.
+
+One of the following:
+
+const ResponseItemLocalShellCallOutputStatusInProgress ResponseItemLocalShellCallOutputStatus = "in\_progress"
+
+const ResponseItemLocalShellCallOutputStatusCompleted ResponseItemLocalShellCallOutputStatus = "completed"
+
+const ResponseItemLocalShellCallOutputStatusIncomplete ResponseItemLocalShellCallOutputStatus = "incomplete"
+
+type ResponseFunctionShellToolCall struct{…}
+
+A tool call that executes one or more shell commands in a managed environment.
+
+ID string
+
+The unique ID of the shell tool call. Populated when this item is returned via API.
+
+Action ResponseFunctionShellToolCallAction
+
+The shell commands and limits that describe how to run the tool call.
+
+Commands []string
+
+MaxOutputLength int64
+
+Optional maximum number of characters to return from each command.
+
+TimeoutMs int64
+
+Optional timeout in milliseconds for the commands.
+
+CallID string
+
+The unique ID of the shell tool call generated by the model.
+
+Environment ResponseFunctionShellToolCallEnvironmentUnion
+
+Represents the use of a local environment to perform shell actions.
+
+One of the following:
+
+type ResponseLocalEnvironment struct{…}
+
+Represents the use of a local environment to perform shell actions.
+
+Type Local
+
+The environment type. Always `local`.
+
+type ResponseContainerReference struct{…}
+
+Represents a container created with /v1/containers.
+
+ContainerID string
+
+Type ContainerReference
+
+The environment type. Always `container_reference`.
+
+Status ResponseFunctionShellToolCallStatus
+
+The status of the shell call. One of `in_progress`, `completed`, or `incomplete`.
+
+One of the following:
+
+const ResponseFunctionShellToolCallStatusInProgress ResponseFunctionShellToolCallStatus = "in\_progress"
+
+const ResponseFunctionShellToolCallStatusCompleted ResponseFunctionShellToolCallStatus = "completed"
+
+const ResponseFunctionShellToolCallStatusIncomplete ResponseFunctionShellToolCallStatus = "incomplete"
+
+Type ShellCall
+
+The type of the item. Always `shell_call`.
+
+CreatedBy stringOptional
+
+The ID of the entity that created this tool call.
+
+type ResponseFunctionShellToolCallOutput struct{…}
+
+The output of a shell tool call that was emitted.
+
+ID string
+
+The unique ID of the shell call output. Populated when this item is returned via API.
+
+CallID string
+
+The unique ID of the shell tool call generated by the model.
+
+MaxOutputLength int64
+
+The maximum length of the shell command output. This is generated by the model and should be passed back with the raw output.
+
+Output []ResponseFunctionShellToolCallOutputOutput
+
+An array of shell call output contents
+
+Outcome ResponseFunctionShellToolCallOutputOutputOutcomeUnion
+
+Represents either an exit outcome (with an exit code) or a timeout outcome for a shell call output chunk.
+
+One of the following:
+
+type ResponseFunctionShellToolCallOutputOutputOutcomeTimeout struct{…}
+
+Indicates that the shell call exceeded its configured time limit.
+
+Type Timeout
+
+The outcome type. Always `timeout`.
+
+type ResponseFunctionShellToolCallOutputOutputOutcomeExit struct{…}
+
+Indicates that the shell commands finished and returned an exit code.
+
+ExitCode int64
+
+Exit code from the shell process.
+
+Type Exit
+
+The outcome type. Always `exit`.
+
+Stderr string
+
+The standard error output that was captured.
+
+Stdout string
+
+The standard output that was captured.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+Status ResponseFunctionShellToolCallOutputStatus
+
+The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`.
+
+One of the following:
+
+const ResponseFunctionShellToolCallOutputStatusInProgress ResponseFunctionShellToolCallOutputStatus = "in\_progress"
+
+const ResponseFunctionShellToolCallOutputStatusCompleted ResponseFunctionShellToolCallOutputStatus = "completed"
+
+const ResponseFunctionShellToolCallOutputStatusIncomplete ResponseFunctionShellToolCallOutputStatus = "incomplete"
+
+Type ShellCallOutput
+
+The type of the shell call output. Always `shell_call_output`.
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseApplyPatchToolCall struct{…}
+
+A tool call that applies file diffs by creating, deleting, or updating files.
+
+ID string
+
+The unique ID of the apply patch tool call. Populated when this item is returned via API.
+
+CallID string
+
+The unique ID of the apply patch tool call generated by the model.
+
+Operation ResponseApplyPatchToolCallOperationUnion
+
+One of the create\_file, delete\_file, or update\_file operations applied via apply\_patch.
+
+One of the following:
+
+type ResponseApplyPatchToolCallOperationCreateFile struct{…}
+
+Instruction describing how to create a file via the apply\_patch tool.
+
+Diff string
+
+Diff to apply.
+
+Path string
+
+Path of the file to create.
+
+Type CreateFile
+
+Create a new file with the provided diff.
+
+type ResponseApplyPatchToolCallOperationDeleteFile struct{…}
+
+Instruction describing how to delete a file via the apply\_patch tool.
+
+Path string
+
+Path of the file to delete.
+
+Type DeleteFile
+
+Delete the specified file.
+
+type ResponseApplyPatchToolCallOperationUpdateFile struct{…}
+
+Instruction describing how to update a file via the apply\_patch tool.
+
+Diff string
+
+Diff to apply.
+
+Path string
+
+Path of the file to update.
+
+Type UpdateFile
+
+Update an existing file with the provided diff.
+
+Status ResponseApplyPatchToolCallStatus
+
+The status of the apply patch tool call. One of `in_progress` or `completed`.
+
+One of the following:
+
+const ResponseApplyPatchToolCallStatusInProgress ResponseApplyPatchToolCallStatus = "in\_progress"
+
+const ResponseApplyPatchToolCallStatusCompleted ResponseApplyPatchToolCallStatus = "completed"
+
+Type ApplyPatchCall
+
+The type of the item. Always `apply_patch_call`.
+
+CreatedBy stringOptional
+
+The ID of the entity that created this tool call.
+
+type ResponseApplyPatchToolCallOutput struct{…}
+
+The output emitted by an apply patch tool call.
+
+ID string
+
+The unique ID of the apply patch tool call output. Populated when this item is returned via API.
+
+CallID string
+
+The unique ID of the apply patch tool call generated by the model.
+
+Status ResponseApplyPatchToolCallOutputStatus
+
+The status of the apply patch tool call output. One of `completed` or `failed`.
+
+One of the following:
+
+const ResponseApplyPatchToolCallOutputStatusCompleted ResponseApplyPatchToolCallOutputStatus = "completed"
+
+const ResponseApplyPatchToolCallOutputStatusFailed ResponseApplyPatchToolCallOutputStatus = "failed"
+
+Type ApplyPatchCallOutput
+
+The type of the item. Always `apply_patch_call_output`.
+
+CreatedBy stringOptional
+
+The ID of the entity that created this tool call output.
+
+Output stringOptional
+
+Optional textual output returned by the apply patch tool.
+
+type ResponseItemMcpListTools struct{…}
+
+A list of tools available on an MCP server.
+
+ID string
+
+The unique ID of the list.
+
+ServerLabel string
+
+The label of the MCP server.
+
+Tools []ResponseItemMcpListToolsTool
+
+The tools available on the server.
+
+InputSchema any
+
+The JSON schema describing the tool’s input.
+
+Name string
+
+The name of the tool.
+
+Annotations anyOptional
+
+Additional annotations about the tool.
+
+Description stringOptional
+
+The description of the tool.
+
+Type McpListTools
+
+The type of the item. Always `mcp_list_tools`.
+
+Error stringOptional
+
+Error message if the server could not list tools.
+
+type ResponseItemMcpApprovalRequest struct{…}
+
+A request for human approval of a tool invocation.
+
+ID string
+
+The unique ID of the approval request.
+
+Arguments string
+
+A JSON string of arguments for the tool.
+
+Name string
+
+The name of the tool to run.
+
+ServerLabel string
+
+The label of the MCP server making the request.
+
+Type McpApprovalRequest
+
+The type of the item. Always `mcp_approval_request`.
+
+type ResponseItemMcpApprovalResponse struct{…}
+
+A response to an MCP approval request.
+
+ID string
+
+The unique ID of the approval response
+
+ApprovalRequestID string
+
+The ID of the approval request being answered.
+
+Approve bool
+
+Whether the request was approved.
+
+Type McpApprovalResponse
+
+The type of the item. Always `mcp_approval_response`.
+
+Reason stringOptional
+
+Optional reason for the decision.
+
+type ResponseItemMcpCall struct{…}
+
+An invocation of a tool on an MCP server.
+
+ID string
+
+The unique ID of the tool call.
+
+Arguments string
+
+A JSON string of the arguments passed to the tool.
+
+Name string
+
+The name of the tool that was run.
+
+ServerLabel string
+
+The label of the MCP server running the tool.
+
+Type McpCall
+
+The type of the item. Always `mcp_call`.
+
+ApprovalRequestID stringOptional
+
+Unique identifier for the MCP tool call approval request.
+Include this value in a subsequent `mcp_approval_response` input to approve or reject the corresponding tool call.
+
+Error stringOptional
+
+The error from the tool call, if any.
+
+Output stringOptional
+
+The output from the tool call.
+
+Status stringOptional
+
+The status of the tool call. One of `in_progress`, `completed`, `incomplete`, `calling`, or `failed`.
+
+One of the following:
+
+const ResponseItemMcpCallStatusInProgress ResponseItemMcpCallStatus = "in\_progress"
+
+const ResponseItemMcpCallStatusCompleted ResponseItemMcpCallStatus = "completed"
+
+const ResponseItemMcpCallStatusIncomplete ResponseItemMcpCallStatus = "incomplete"
+
+const ResponseItemMcpCallStatusCalling ResponseItemMcpCallStatus = "calling"
+
+const ResponseItemMcpCallStatusFailed ResponseItemMcpCallStatus = "failed"
+
+type ResponseCustomToolCallItem struct{…}
+
+A call to a custom tool created by the model.
+
+ID string
+
+The unique ID of the custom tool call item.
+
+Status string
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseCustomToolCallItemStatusInProgress ResponseCustomToolCallItemStatus = "in\_progress"
+
+const ResponseCustomToolCallItemStatusCompleted ResponseCustomToolCallItemStatus = "completed"
+
+const ResponseCustomToolCallItemStatusIncomplete ResponseCustomToolCallItemStatus = "incomplete"
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+type ResponseCustomToolCallOutputItem struct{…}
+
+The output of a custom tool call from your code, being sent back to the model.
+
+ID string
+
+The unique ID of the custom tool call output item.
+
+Status string
+
+The status of the item. One of `in_progress`, `completed`, or
+`incomplete`. Populated when items are returned via API.
+
+One of the following:
+
+const ResponseCustomToolCallOutputItemStatusInProgress ResponseCustomToolCallOutputItemStatus = "in\_progress"
+
+const ResponseCustomToolCallOutputItemStatusCompleted ResponseCustomToolCallOutputItemStatus = "completed"
+
+const ResponseCustomToolCallOutputItemStatusIncomplete ResponseCustomToolCallOutputItemStatus = "incomplete"
+
+CreatedBy stringOptional
+
+The identifier of the actor that created the item.
+
+FirstID string
+
+The ID of the first item in the list.
+
+HasMore bool
+
+Whether there are more items available.
+
+LastID string
+
+The ID of the last item in the list.
+
+Object List
+
+The type of object returned, must be `list`.

@@ -1,0 +1,713 @@
+<!-- source: https://developers.openai.com/api/reference/java/resources/evals/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/java)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Evals
+
+Manage and run evals in the OpenAI platform.
+
+##### [List evals](/api/reference/java/resources/evals/methods/list)
+
+EvalListPage evals().list(EvalListParamsparams = EvalListParams.none(), RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals
+
+##### [Create eval](/api/reference/java/resources/evals/methods/create)
+
+[EvalCreateResponse](/api/reference/java/resources/evals#(resource)%20evals%20%3E%20(model)%20EvalCreateResponse%20%3E%20(schema)) evals().create(EvalCreateParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+POST/evals
+
+##### [Get an eval](/api/reference/java/resources/evals/methods/retrieve)
+
+[EvalRetrieveResponse](/api/reference/java/resources/evals#(resource)%20evals%20%3E%20(model)%20EvalRetrieveResponse%20%3E%20(schema)) evals().retrieve(EvalRetrieveParamsparams = EvalRetrieveParams.none(), RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals/{eval\_id}
+
+##### [Update an eval](/api/reference/java/resources/evals/methods/update)
+
+[EvalUpdateResponse](/api/reference/java/resources/evals#(resource)%20evals%20%3E%20(model)%20EvalUpdateResponse%20%3E%20(schema)) evals().update(EvalUpdateParamsparams = EvalUpdateParams.none(), RequestOptionsrequestOptions = RequestOptions.none())
+
+POST/evals/{eval\_id}
+
+##### [Delete an eval](/api/reference/java/resources/evals/methods/delete)
+
+[EvalDeleteResponse](/api/reference/java/resources/evals#(resource)%20evals%20%3E%20(model)%20EvalDeleteResponse%20%3E%20(schema)) evals().delete(EvalDeleteParamsparams = EvalDeleteParams.none(), RequestOptionsrequestOptions = RequestOptions.none())
+
+DELETE/evals/{eval\_id}
+
+##### ModelsExpand Collapse
+
+class EvalCustomDataSourceConfig:
+
+A CustomDataSourceConfig which specifies the schema of your `item` and optionally `sample` namespaces.
+The response schema defines the shape of the data that will be:
+
+* Used to define your testing criteria and
+* What data is required when creating a run
+
+Schema schema
+
+The json schema for the run data source items.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+JsonValue; type "custom"constant"custom"constant
+
+The type of data source. Always `custom`.
+
+class EvalStoredCompletionsDataSourceConfig:
+
+Deprecated in favor of LogsDataSourceConfig.
+
+Schema schema
+
+The json schema for the run data source items.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+JsonValue; type "stored\_completions"constant"stored\_completions"constant
+
+The type of data source. Always `stored_completions`.
+
+Optional<Metadata> metadata
+
+Set of 16 key-value pairs that can be attached to an object. This can be
+useful for storing additional information about the object in a structured
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+#### EvalsRuns
+
+Manage and run evals in the OpenAI platform.
+
+##### [Get eval runs](/api/reference/java/resources/evals/subresources/runs/methods/list)
+
+RunListPage evals().runs().list(RunListParamsparams = RunListParams.none(), RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals/{eval\_id}/runs
+
+##### [Create eval run](/api/reference/java/resources/evals/subresources/runs/methods/create)
+
+[RunCreateResponse](/api/reference/java/resources/evals#(resource)%20evals.runs%20%3E%20(model)%20RunCreateResponse%20%3E%20(schema)) evals().runs().create(RunCreateParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+POST/evals/{eval\_id}/runs
+
+##### [Get an eval run](/api/reference/java/resources/evals/subresources/runs/methods/retrieve)
+
+[RunRetrieveResponse](/api/reference/java/resources/evals#(resource)%20evals.runs%20%3E%20(model)%20RunRetrieveResponse%20%3E%20(schema)) evals().runs().retrieve(RunRetrieveParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals/{eval\_id}/runs/{run\_id}
+
+##### [Cancel eval run](/api/reference/java/resources/evals/subresources/runs/methods/cancel)
+
+[RunCancelResponse](/api/reference/java/resources/evals#(resource)%20evals.runs%20%3E%20(model)%20RunCancelResponse%20%3E%20(schema)) evals().runs().cancel(RunCancelParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+POST/evals/{eval\_id}/runs/{run\_id}
+
+##### [Delete eval run](/api/reference/java/resources/evals/subresources/runs/methods/delete)
+
+[RunDeleteResponse](/api/reference/java/resources/evals#(resource)%20evals.runs%20%3E%20(model)%20RunDeleteResponse%20%3E%20(schema)) evals().runs().delete(RunDeleteParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+DELETE/evals/{eval\_id}/runs/{run\_id}
+
+##### ModelsExpand Collapse
+
+class CreateEvalCompletionsRunDataSource:
+
+A CompletionsRunDataSource object describing a model sampling configuration.
+
+Source source
+
+Determines what populates the `item` namespace in this run’s data source.
+
+One of the following:
+
+class FileContent:
+
+List<Content> content
+
+The content of the jsonl file.
+
+Item item
+
+Optional<Sample> sample
+
+JsonValue; type "file\_content"constant"file\_content"constant
+
+The type of jsonl source. Always `file_content`.
+
+class FileId:
+
+String id
+
+The identifier of the file.
+
+JsonValue; type "file\_id"constant"file\_id"constant
+
+The type of jsonl source. Always `file_id`.
+
+class StoredCompletions:
+
+A StoredCompletionsRunDataSource configuration describing a set of filters
+
+JsonValue; type "stored\_completions"constant"stored\_completions"constant
+
+The type of source. Always `stored_completions`.
+
+Optional<Long> createdAfter
+
+An optional Unix timestamp to filter items created after this time.
+
+Optional<Long> createdBefore
+
+An optional Unix timestamp to filter items created before this time.
+
+Optional<Long> limit
+
+An optional maximum number of items to return.
+
+Optional<Metadata> metadata
+
+Set of 16 key-value pairs that can be attached to an object. This can be
+useful for storing additional information about the object in a structured
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+Optional<String> model
+
+An optional model to filter by (e.g., ‘gpt-4o’).
+
+Type type
+
+The type of run data source. Always `completions`.
+
+Optional<InputMessages> inputMessages
+
+Used when sampling from a model. Dictates the structure of the messages passed into the model. Can either be a reference to a prebuilt trajectory (ie, `item.input_trajectory`), or a template with variable references to the `item` namespace.
+
+One of the following:
+
+class Template:
+
+List<InnerTemplate> template
+
+A list of chat messages forming the prompt or context. May include variable references to the `item` namespace, ie {{item.name}}.
+
+One of the following:
+
+class EasyInputMessage:
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+Content content
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+One of the following:
+
+String
+
+List<[ResponseInputContent](/api/reference/java/resources/responses#(resource)%20responses%20%3E%20(model)%20response_input_content%20%3E%20(schema))>
+
+One of the following:
+
+class ResponseInputText:
+
+A text input to the model.
+
+String text
+
+The text input to the model.
+
+JsonValue; type "input\_text"constant"input\_text"constant
+
+The type of the input item. Always `input_text`.
+
+class ResponseInputImage:
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+Detail detail
+
+The detail level of the image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+One of the following:
+
+LOW("low")
+
+HIGH("high")
+
+AUTO("auto")
+
+ORIGINAL("original")
+
+JsonValue; type "input\_image"constant"input\_image"constant
+
+The type of the input item. Always `input_image`.
+
+Optional<String> fileId
+
+The ID of the file to be sent to the model.
+
+Optional<String> imageUrl
+
+The URL of the image to be sent to the model. A fully qualified URL or base64 encoded image in a data URL.
+
+formaturi
+
+class ResponseInputFile:
+
+A file input to the model.
+
+JsonValue; type "input\_file"constant"input\_file"constant
+
+The type of the input item. Always `input_file`.
+
+Optional<Detail> detail
+
+The detail level of the file to be sent to the model. Use `low` for the default rendering behavior, or `high` to render the file at higher quality. Defaults to `low`.
+
+One of the following:
+
+LOW("low")
+
+HIGH("high")
+
+Optional<String> fileData
+
+The content of the file to be sent to the model.
+
+Optional<String> fileId
+
+The ID of the file to be sent to the model.
+
+Optional<String> fileUrl
+
+The URL of the file to be sent to the model.
+
+formaturi
+
+Optional<String> filename
+
+The name of the file to be sent to the model.
+
+Role role
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+One of the following:
+
+USER("user")
+
+ASSISTANT("assistant")
+
+SYSTEM("system")
+
+DEVELOPER("developer")
+
+Optional<Phase> phase
+
+Labels an `assistant` message as intermediate commentary (`commentary`) or the final answer (`final_answer`).
+For models like `gpt-5.3-codex` and beyond, when sending follow-up requests, preserve and resend
+phase on all assistant messages — dropping it can degrade performance. Not used for user messages.
+
+One of the following:
+
+COMMENTARY("commentary")
+
+FINAL\_ANSWER("final\_answer")
+
+Optional<Type> type
+
+The type of the message input. Always `message`.
+
+class EvalItem:
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+Content content
+
+Inputs to the model - can contain template strings. Supports text, output text, input images, and input audio, either as a single item or an array of items.
+
+One of the following:
+
+String
+
+class ResponseInputText:
+
+A text input to the model.
+
+String text
+
+The text input to the model.
+
+JsonValue; type "input\_text"constant"input\_text"constant
+
+The type of the input item. Always `input_text`.
+
+class OutputText:
+
+A text output from the model.
+
+String text
+
+The text output from the model.
+
+JsonValue; type "output\_text"constant"output\_text"constant
+
+The type of the output text. Always `output_text`.
+
+class InputImage:
+
+An image input block used within EvalItem content arrays.
+
+String imageUrl
+
+The URL of the image input.
+
+formaturi
+
+JsonValue; type "input\_image"constant"input\_image"constant
+
+The type of the image input. Always `input_image`.
+
+Optional<String> detail
+
+The detail level of the image to be sent to the model. One of `high`, `low`, or `auto`. Defaults to `auto`.
+
+class ResponseInputAudio:
+
+An audio input to the model.
+
+InputAudio inputAudio
+
+String data
+
+Base64-encoded audio data.
+
+Format format
+
+The format of the audio data. Currently supported formats are `mp3` and
+`wav`.
+
+One of the following:
+
+MP3("mp3")
+
+WAV("wav")
+
+JsonValue; type "input\_audio"constant"input\_audio"constant
+
+The type of the input item. Always `input_audio`.
+
+List<[EvalContentItem](/api/reference/java/resources/graders#(resource)%20graders.grader_models%20%3E%20(model)%20eval_content_item%20%3E%20(schema))>
+
+One of the following:
+
+String
+
+class ResponseInputText:
+
+A text input to the model.
+
+String text
+
+The text input to the model.
+
+JsonValue; type "input\_text"constant"input\_text"constant
+
+The type of the input item. Always `input_text`.
+
+OutputText
+
+String text
+
+The text output from the model.
+
+JsonValue; type "output\_text"constant"output\_text"constant
+
+The type of the output text. Always `output_text`.
+
+InputImage
+
+String imageUrl
+
+The URL of the image input.
+
+formaturi
+
+JsonValue; type "input\_image"constant"input\_image"constant
+
+The type of the image input. Always `input_image`.
+
+Optional<String> detail
+
+The detail level of the image to be sent to the model. One of `high`, `low`, or `auto`. Defaults to `auto`.
+
+class ResponseInputAudio:
+
+An audio input to the model.
+
+InputAudio inputAudio
+
+String data
+
+Base64-encoded audio data.
+
+Format format
+
+The format of the audio data. Currently supported formats are `mp3` and
+`wav`.
+
+One of the following:
+
+MP3("mp3")
+
+WAV("wav")
+
+JsonValue; type "input\_audio"constant"input\_audio"constant
+
+The type of the input item. Always `input_audio`.
+
+Role role
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+One of the following:
+
+USER("user")
+
+ASSISTANT("assistant")
+
+SYSTEM("system")
+
+DEVELOPER("developer")
+
+Optional<Type> type
+
+The type of the message input. Always `message`.
+
+JsonValue; type "template"constant"template"constant
+
+The type of input messages. Always `template`.
+
+class ItemReference:
+
+String itemReference
+
+A reference to a variable in the `item` namespace. Ie, “item.input\_trajectory”
+
+JsonValue; type "item\_reference"constant"item\_reference"constant
+
+The type of input messages. Always `item_reference`.
+
+Optional<String> model
+
+The name of the model to use for generating completions (e.g. “o3-mini”).
+
+Optional<SamplingParams> samplingParams
+
+Optional<Long> maxCompletionTokens
+
+The maximum number of tokens in the generated output.
+
+Optional<[ReasoningEffort](/api/reference/java/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20reasoning_effort%20%3E%20(schema))> reasoningEffort
+
+Constrains effort on reasoning for
+[reasoning models](https://platform.openai.com/docs/guides/reasoning).
+Currently supported values are `none`, `minimal`, `low`, `medium`, `high`, and `xhigh`. Reducing
+reasoning effort can result in faster responses and fewer tokens used
+on reasoning in a response.
+
+* `gpt-5.1` defaults to `none`, which does not perform reasoning. The supported reasoning values for `gpt-5.1` are `none`, `low`, `medium`, and `high`. Tool calls are supported for all reasoning values in gpt-5.1.
+* All models before `gpt-5.1` default to `medium` reasoning effort, and do not support `none`.
+* The `gpt-5-pro` model defaults to (and only supports) `high` reasoning effort.
+* `xhigh` is supported for all models after `gpt-5.1-codex-max`.
+
+Optional<ResponseFormat> responseFormat
+
+An object specifying the format that the model must output.
+
+Setting to `{ "type": "json_schema", "json_schema": {...} }` enables
+Structured Outputs which ensures the model will match your supplied JSON
+schema. Learn more in the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+Setting to `{ "type": "json_object" }` enables the older JSON mode, which
+ensures the message the model generates is valid JSON. Using `json_schema`
+is preferred for models that support it.
+
+One of the following:
+
+class ResponseFormatText:
+
+Default response format. Used to generate text responses.
+
+JsonValue; type "text"constant"text"constant
+
+The type of response format being defined. Always `text`.
+
+class ResponseFormatJsonSchema:
+
+JSON Schema response format. Used to generate structured JSON responses.
+Learn more about [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs).
+
+JsonSchema jsonSchema
+
+Structured Outputs configuration options, including a JSON Schema.
+
+String name
+
+The name of the response format. Must be a-z, A-Z, 0-9, or contain
+underscores and dashes, with a maximum length of 64.
+
+Optional<String> description
+
+A description of what the response format is for, used by the model to
+determine how to respond in the format.
+
+Optional<Schema> schema
+
+The schema for the response format, described as a JSON Schema object.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+Optional<Boolean> strict
+
+Whether to enable strict schema adherence when generating the output.
+If set to true, the model will always follow the exact schema defined
+in the `schema` field. Only a subset of JSON Schema is supported when
+`strict` is `true`. To learn more, read the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+JsonValue; type "json\_schema"constant"json\_schema"constant
+
+The type of response format being defined. Always `json_schema`.
+
+class ResponseFormatJsonObject:
+
+JSON object response format. An older method of generating JSON responses.
+Using `json_schema` is recommended for models that support it. Note that the
+model will not generate JSON without a system or user message instructing it
+to do so.
+
+JsonValue; type "json\_object"constant"json\_object"constant
+
+The type of response format being defined. Always `json_object`.
+
+Optional<Long> seed
+
+A seed value to initialize the randomness, during sampling.
+
+Optional<Double> temperature
+
+A higher temperature increases randomness in the outputs.
+
+Optional<List<[ChatCompletionFunctionTool](/api/reference/java/resources/chat#(resource)%20chat.completions%20%3E%20(model)%20chat_completion_function_tool%20%3E%20(schema))>> tools
+
+A list of tools the model may call. Currently, only functions are supported as a tool. Use this to provide a list of functions the model may generate JSON inputs for. A max of 128 functions are supported.
+
+[FunctionDefinition](/api/reference/java/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20function_definition%20%3E%20(schema)) function
+
+JsonValue; type "function"constant"function"constant
+
+The type of the tool. Currently, only `function` is supported.
+
+Optional<Double> topP
+
+An alternative to temperature for nucleus sampling; 1.0 includes all tokens.
+
+class CreateEvalJsonlRunDataSource:
+
+A JsonlRunDataSource object with that specifies a JSONL file that matches the eval
+
+Source source
+
+Determines what populates the `item` namespace in the data source.
+
+One of the following:
+
+class FileContent:
+
+List<Content> content
+
+The content of the jsonl file.
+
+Item item
+
+Optional<Sample> sample
+
+JsonValue; type "file\_content"constant"file\_content"constant
+
+The type of jsonl source. Always `file_content`.
+
+class FileId:
+
+String id
+
+The identifier of the file.
+
+JsonValue; type "file\_id"constant"file\_id"constant
+
+The type of jsonl source. Always `file_id`.
+
+JsonValue; type "jsonl"constant"jsonl"constant
+
+The type of data source. Always `jsonl`.
+
+class EvalApiError:
+
+An object representing an error response from the Eval API.
+
+String code
+
+The error code.
+
+String message
+
+The error message.
+
+#### EvalsRunsOutput Items
+
+Manage and run evals in the OpenAI platform.
+
+##### [Get eval run output items](/api/reference/java/resources/evals/subresources/runs/subresources/output_items/methods/list)
+
+OutputItemListPage evals().runs().outputItems().list(OutputItemListParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals/{eval\_id}/runs/{run\_id}/output\_items
+
+##### [Get an output item of an eval run](/api/reference/java/resources/evals/subresources/runs/subresources/output_items/methods/retrieve)
+
+[OutputItemRetrieveResponse](/api/reference/java/resources/evals#(resource)%20evals.runs.output_items%20%3E%20(model)%20OutputItemRetrieveResponse%20%3E%20(schema)) evals().runs().outputItems().retrieve(OutputItemRetrieveParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+GET/evals/{eval\_id}/runs/{run\_id}/output\_items/{output\_item\_id}

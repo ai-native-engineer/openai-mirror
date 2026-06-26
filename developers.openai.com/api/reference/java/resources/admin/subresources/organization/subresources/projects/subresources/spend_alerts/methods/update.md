@@ -1,0 +1,186 @@
+<!-- source: https://developers.openai.com/api/reference/java/resources/admin/subresources/organization/subresources/projects/subresources/spend_alerts/methods/update/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/java)
+
+[Admin](/api/reference/java/resources/admin)
+
+[Organization](/api/reference/java/resources/admin/subresources/organization)
+
+[Projects](/api/reference/java/resources/admin/subresources/organization/subresources/projects)
+
+[Spend Alerts](/api/reference/java/resources/admin/subresources/organization/subresources/projects/subresources/spend_alerts)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Update project spend alert
+
+[ProjectSpendAlert](/api/reference/java/resources/admin#(resource)%20admin.organization.projects.spend_alerts%20%3E%20(model)%20project_spend_alert%20%3E%20(schema)) admin().organization().projects().spendAlerts().update(SpendAlertUpdateParamsparams, RequestOptionsrequestOptions = RequestOptions.none())
+
+POST/organization/projects/{project\_id}/spend\_alerts/{alert\_id}
+
+Updates a project spend alert.
+
+##### ParametersExpand Collapse
+
+SpendAlertUpdateParams params
+
+String projectId
+
+Optional<String> alertId
+
+Currency currency
+
+The currency for the threshold amount.
+
+USD("USD")
+
+Interval interval
+
+The time interval for evaluating spend against the threshold.
+
+MONTH("month")
+
+NotificationChannel notificationChannel
+
+Email notification settings for a spend alert.
+
+List<String> recipients
+
+Email addresses that receive the spend alert notification.
+
+JsonValue; type "email"constant"email"constant
+
+The notification channel type. Currently only `email` is supported.
+
+Optional<String> subjectPrefix
+
+Optional subject prefix for alert emails.
+
+long thresholdAmount
+
+The alert threshold amount, in cents.
+
+minimum0
+
+##### ReturnsExpand Collapse
+
+class ProjectSpendAlert:
+
+Represents a spend alert configured at the project level.
+
+String id
+
+The identifier, which can be referenced in API endpoints.
+
+Currency currency
+
+The currency for the threshold amount.
+
+Interval interval
+
+The time interval for evaluating spend against the threshold.
+
+NotificationChannel notificationChannel
+
+Email notification settings for a spend alert.
+
+List<String> recipients
+
+Email addresses that receive the spend alert notification.
+
+JsonValue; type "email"constant"email"constant
+
+The notification channel type. Currently only `email` is supported.
+
+Optional<String> subjectPrefix
+
+Optional subject prefix for alert emails.
+
+JsonValue; object\_ "project.spend\_alert"constant"project.spend\_alert"constant
+
+The object type, which is always `project.spend_alert`.
+
+long thresholdAmount
+
+The alert threshold amount, in cents.
+
+### Update project spend alert
+
+Java
+
+HTTPHTTP
+
+HTTPHTTP
+
+TypeScriptTypeScript
+
+PythonPython
+
+JavaJava
+
+GoGo
+
+RubyRuby
+
+CLI ToolCLI Tool
+
+package com.openai.example;
+
+import com.openai.client.OpenAIClient;
+import com.openai.client.okhttp.OpenAIOkHttpClient;
+import com.openai.models.admin.organization.projects.spendalerts.ProjectSpendAlert;
+import com.openai.models.admin.organization.projects.spendalerts.SpendAlertUpdateParams;
+
+public final class Main {
+    private Main() {}
+
+    public static void main(String[] args) {
+        OpenAIClient client = OpenAIOkHttpClient.fromEnv();
+
+        SpendAlertUpdateParams params = SpendAlertUpdateParams.builder()
+            .projectId("project_id")
+            .alertId("alert_id")
+            .currency(SpendAlertUpdateParams.Currency.USD)
+            .interval(SpendAlertUpdateParams.Interval.MONTH)
+            .notificationChannel(SpendAlertUpdateParams.NotificationChannel.builder()
+                .addRecipient("string")
+                .build())
+            .thresholdAmount(0L)
+            .build();
+        ProjectSpendAlert projectSpendAlert = client.admin().organization().projects().spendAlerts().update(params);
+
+    "id": "alert_abc123",
+    "object": "project.spend_alert",
+    "threshold_amount": 150000,
+    "currency": "USD",
+    "interval": "month",
+    "notification_channel": {
+        "type": "email",
+        "recipients": ["finance@example.com"],
+        "subject_prefix": "OpenAI spend alert"
+
+##### Returns Examples
+
+    "id": "alert_abc123",
+    "object": "project.spend_alert",
+    "threshold_amount": 150000,
+    "currency": "USD",
+    "interval": "month",
+    "notification_channel": {
+        "type": "email",
+        "recipients": ["finance@example.com"],
+        "subject_prefix": "OpenAI spend alert"

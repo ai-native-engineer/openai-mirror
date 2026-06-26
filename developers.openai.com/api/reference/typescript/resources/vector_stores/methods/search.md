@@ -1,0 +1,356 @@
+<!-- source: https://developers.openai.com/api/reference/typescript/resources/vector_stores/methods/search/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/typescript)
+
+[Vector Stores](/api/reference/typescript/resources/vector_stores)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Search vector store
+
+client.vectorStores.search(stringvectorStoreID, VectorStoreSearchParams { query, filters, max\_num\_results, 2 more } body, RequestOptionsoptions?): Page<[VectorStoreSearchResponse](/api/reference/typescript/resources/vector_stores#(resource)%20vector_stores%20%3E%20(model)%20vector_store_search_response%20%3E%20(schema)) { attributes, content, file\_id, 2 more } >
+
+POST/vector\_stores/{vector\_store\_id}/search
+
+Search a vector store for relevant chunks based on a query and file attributes filter.
+
+##### ParametersExpand Collapse
+
+vectorStoreID: string
+
+body: VectorStoreSearchParams { query, filters, max\_num\_results, 2 more }
+
+query: string | Array<string>
+
+A query string for a search
+
+One of the following:
+
+string
+
+Array<string>
+
+filters?: [ComparisonFilter](/api/reference/typescript/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20comparison_filter%20%3E%20(schema)) { key, type, value }  | [CompoundFilter](/api/reference/typescript/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20compound_filter%20%3E%20(schema)) { filters, type }
+
+A filter to apply based on file attributes.
+
+One of the following:
+
+ComparisonFilter { key, type, value }
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+key: string
+
+The key to compare against the value.
+
+type: "eq" | "ne" | "gt" | 5 more
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+"eq"
+
+"ne"
+
+"gt"
+
+"gte"
+
+"lt"
+
+"lte"
+
+"in"
+
+"nin"
+
+value: string | number | boolean | Array<string | number>
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+number
+
+boolean
+
+Array<string | number>
+
+string
+
+number
+
+CompoundFilter { filters, type }
+
+Combine multiple filters using `and` or `or`.
+
+filters: Array<[ComparisonFilter](/api/reference/typescript/resources/$shared#(resource)%20%24shared%20%3E%20(model)%20comparison_filter%20%3E%20(schema)) { key, type, value }  | unknown>
+
+Array of filters to combine. Items can be `ComparisonFilter` or `CompoundFilter`.
+
+One of the following:
+
+ComparisonFilter { key, type, value }
+
+A filter used to compare a specified attribute key to a given value using a defined comparison operation.
+
+key: string
+
+The key to compare against the value.
+
+type: "eq" | "ne" | "gt" | 5 more
+
+Specifies the comparison operator: `eq`, `ne`, `gt`, `gte`, `lt`, `lte`, `in`, `nin`.
+
+* `eq`: equals
+* `ne`: not equal
+* `gt`: greater than
+* `gte`: greater than or equal
+* `lt`: less than
+* `lte`: less than or equal
+* `in`: in
+* `nin`: not in
+
+One of the following:
+
+"eq"
+
+"ne"
+
+"gt"
+
+"gte"
+
+"lt"
+
+"lte"
+
+"in"
+
+"nin"
+
+value: string | number | boolean | Array<string | number>
+
+The value to compare against the attribute key; supports string, number, or boolean types.
+
+One of the following:
+
+string
+
+number
+
+boolean
+
+Array<string | number>
+
+string
+
+number
+
+unknown
+
+type: "and" | "or"
+
+Type of operation: `and` or `or`.
+
+One of the following:
+
+"and"
+
+"or"
+
+max\_num\_results?: number
+
+The maximum number of results to return. This number should be between 1 and 50 inclusive.
+
+minimum1
+
+maximum50
+
+ranking\_options?: [RankingOptions](/api/reference/typescript/resources/vector_stores/methods/search#(resource)%20vector_stores%20%3E%20(method)%20search%20%3E%20(params)%20default%20%3E%20(param)%20ranking_options%20%3E%20(schema))
+
+Ranking options for search.
+
+ranker?: "none" | "auto" | "default-2024-11-15"
+
+Enable re-ranking; set to `none` to disable, which can help reduce latency.
+
+One of the following:
+
+"none"
+
+"auto"
+
+"default-2024-11-15"
+
+score\_threshold?: number
+
+minimum0
+
+maximum1
+
+rewrite\_query?: boolean
+
+Whether to rewrite the natural language query for vector search.
+
+##### ReturnsExpand Collapse
+
+VectorStoreSearchResponse { attributes, content, file\_id, 2 more }
+
+attributes: Record<string, string | number | boolean> | null
+
+Set of 16 key-value pairs that can be attached to an object. This can be
+useful for storing additional information about the object in a structured
+format, and querying for objects via API or the dashboard. Keys are strings
+with a maximum length of 64 characters. Values are strings with a maximum
+length of 512 characters, booleans, or numbers.
+
+One of the following:
+
+string
+
+number
+
+boolean
+
+content: Array<Content>
+
+Content chunks from the file.
+
+text: string
+
+The text content returned from search.
+
+type: "text"
+
+The type of content.
+
+file\_id: string
+
+The ID of the vector store file.
+
+filename: string
+
+The name of the vector store file.
+
+score: number
+
+The similarity score for the result.
+
+minimum0
+
+maximum1
+
+### Search vector store
+
+TypeScript
+
+HTTPHTTP
+
+HTTPHTTP
+
+TypeScriptTypeScript
+
+PythonPython
+
+JavaJava
+
+GoGo
+
+RubyRuby
+
+CLI ToolCLI Tool
+
+import OpenAI from 'openai';
+
+const client = new OpenAI({
+  apiKey: process.env['OPENAI_API_KEY'], // This is the default and can be omitted
+
+// Automatically fetches more pages as needed.
+for await (const vectorStoreSearchResponse of client.vectorStores.search('vs_abc123', {
+  query: 'string',
+})) {
+  console.log(vectorStoreSearchResponse.file_id);
+
+  "object": "vector_store.search_results.page",
+  "search_query": "What is the return policy?",
+  "data": [
+      "file_id": "file_123",
+      "filename": "document.pdf",
+      "score": 0.95,
+      "attributes": {
+        "author": "John Doe",
+        "date": "2023-01-01"
+      "content": [
+          "type": "text",
+          "text": "Relevant chunk"
+      ]
+      "file_id": "file_456",
+      "filename": "notes.txt",
+      "score": 0.89,
+      "attributes": {
+        "author": "Jane Smith",
+        "date": "2023-01-02"
+      "content": [
+          "type": "text",
+          "text": "Sample text content from the vector store."
+      ]
+  ],
+  "has_more": false,
+  "next_page": null
+
+##### Returns Examples
+
+  "object": "vector_store.search_results.page",
+  "search_query": "What is the return policy?",
+  "data": [
+      "file_id": "file_123",
+      "filename": "document.pdf",
+      "score": 0.95,
+      "attributes": {
+        "author": "John Doe",
+        "date": "2023-01-01"
+      "content": [
+          "type": "text",
+          "text": "Relevant chunk"
+      ]
+      "file_id": "file_456",
+      "filename": "notes.txt",
+      "score": 0.89,
+      "attributes": {
+        "author": "Jane Smith",
+        "date": "2023-01-02"
+      "content": [
+          "type": "text",
+          "text": "Sample text content from the vector store."
+      ]
+  ],
+  "has_more": false,
+  "next_page": null

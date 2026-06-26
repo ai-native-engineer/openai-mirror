@@ -1,0 +1,153 @@
+<!-- source: https://developers.openai.com/api/reference/typescript/resources/admin/subresources/organization/subresources/certificates/methods/create/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/typescript)
+
+[Admin](/api/reference/typescript/resources/admin)
+
+[Organization](/api/reference/typescript/resources/admin/subresources/organization)
+
+[Certificates](/api/reference/typescript/resources/admin/subresources/organization/subresources/certificates)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Upload certificate
+
+client.admin.organization.certificates.create(CertificateCreateParams { certificate, name } body, RequestOptionsoptions?): [Certificate](/api/reference/typescript/resources/admin#(resource)%20admin.organization.certificates%20%3E%20(model)%20certificate%20%3E%20(schema)) { id, certificate\_details, created\_at, 3 more }
+
+POST/organization/certificates
+
+Upload a certificate to the organization. This does **not** automatically activate the certificate.
+
+Organizations can upload up to 50 certificates.
+
+##### ParametersExpand Collapse
+
+body: CertificateCreateParams { certificate, name }
+
+certificate: string
+
+The certificate content in PEM format
+
+name?: string
+
+An optional name for the certificate
+
+##### ReturnsExpand Collapse
+
+Certificate { id, certificate\_details, created\_at, 3 more }
+
+Represents an individual `certificate` uploaded to the organization.
+
+id: string
+
+The identifier, which can be referenced in API endpoints
+
+certificate\_details: CertificateDetails { content, expires\_at, valid\_at }
+
+content?: string
+
+The content of the certificate in PEM format.
+
+expires\_at?: number
+
+The Unix timestamp (in seconds) of when the certificate expires.
+
+formatunixtime
+
+valid\_at?: number
+
+The Unix timestamp (in seconds) of when the certificate becomes valid.
+
+formatunixtime
+
+created\_at: number
+
+The Unix timestamp (in seconds) of when the certificate was uploaded.
+
+formatunixtime
+
+name: string | null
+
+The name of the certificate.
+
+object: "certificate" | "organization.certificate" | "organization.project.certificate"
+
+The object type.
+
+* If creating, updating, or getting a specific certificate, the object type is `certificate`.
+* If listing, activating, or deactivating certificates for the organization, the object type is `organization.certificate`.
+* If listing, activating, or deactivating certificates for a project, the object type is `organization.project.certificate`.
+
+One of the following:
+
+"certificate"
+
+"organization.certificate"
+
+"organization.project.certificate"
+
+active?: boolean
+
+Whether the certificate is currently active at the specified scope. Not returned when getting details for a specific certificate.
+
+### Upload certificate
+
+TypeScript
+
+HTTPHTTP
+
+HTTPHTTP
+
+TypeScriptTypeScript
+
+PythonPython
+
+JavaJava
+
+GoGo
+
+RubyRuby
+
+CLI ToolCLI Tool
+
+import OpenAI from 'openai';
+
+const client = new OpenAI({
+  adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted
+
+const certificate = await client.admin.organization.certificates.create({
+  certificate: 'certificate',
+
+console.log(certificate.id);
+
+  "object": "certificate",
+  "id": "cert_abc",
+  "name": "My Example Certificate",
+  "created_at": 1234567,
+  "certificate_details": {
+    "valid_at": 12345667,
+    "expires_at": 12345678
+
+##### Returns Examples
+
+  "object": "certificate",
+  "id": "cert_abc",
+  "name": "My Example Certificate",
+  "created_at": 1234567,
+  "certificate_details": {
+    "valid_at": 12345667,
+    "expires_at": 12345678

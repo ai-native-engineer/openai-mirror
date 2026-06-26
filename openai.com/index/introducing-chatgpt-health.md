@@ -1,0 +1,133 @@
+<!-- source: https://openai.com/index/introducing-chatgpt-health/ -->
+
+January 7, 2026
+
+[Product](/news/product-releases/)[Company](/news/company-announcements/)
+
+# Introducing ChatGPT Health
+
+A dedicated experience in ChatGPT designed for health and wellness.
+
+[Join the waitlist(opens in a new window)](https://chatgpt.com/health/waitlist)
+
+We’re introducing ChatGPT Health, a dedicated experience that securely brings your health information and ChatGPT’s intelligence together, to help you feel more informed, prepared, and confident navigating your health.
+
+Health is already one of the most common ways people use ChatGPT, with hundreds of millions of people asking health and wellness questions each week. ChatGPT Health builds on the strong privacy, security, and data controls across ChatGPT with additional, layered protections designed specifically for health— including purpose-built encryption and isolation to keep health conversations protected and compartmentalized. You can securely connect medical records and wellness apps to ground conversations in your own health information, so responses are more relevant and useful to you. Designed in close collaboration with physicians, ChatGPT Health helps people take a more active role in understanding and managing their health and wellness—while supporting, not replacing, care from clinicians.
+
+## A dedicated health experience
+
+Today, health information is often scattered across portals, apps, wearables, PDFs, and medical notes—so it's hard to see the full picture, and people are left to navigate a complex healthcare system on their own. People have shared countless stories of turning to ChatGPT to help make sense of it all. In fact, health is one of the most common ways people use ChatGPT today: based on our de-identified analysis of conversations, over 230 million people globally ask health and wellness related questions on ChatGPT everyweek.
+
+ChatGPT Health builds on this so responses are informed by your health information and context. You can now securely connect medical records and wellness apps—like Apple Health, Function, and MyFitnessPal—so ChatGPT can help you understand recent test results, prepare for appointments with your doctor, get advice on how to approach your diet and workout routine, or understand the tradeoffs of different insurance options based on your healthcare patterns.
+
+Health is designed to support, not replace, medical care. It is not intended for diagnosis or treatment. Instead, it helps you navigate everyday questions and understand patterns over time—not just moments of illness—so you can feel more informed and prepared for important medical conversations. To keep your health information protected and secure, Health operates as a separate space with enhanced privacy to protect sensitive data. Conversations in Health are not used to train our foundation models. If you start a health-related conversation in ChatGPT, we’ll suggest moving into Health for these additional protections.
+
+If you’re interested in getting access as it becomes available, you can sign up for the [waitlist⁠(opens in a new window)](https://chatgpt.com/health/waitlist). We’re starting by providing access to a small group of early users to learn and continue refining the experience—users with ChatGPT Free, Go, Plus, and Pro plans outside of the European Economic Area, Switzerland, and the United Kingdom are eligible. As we make improvements, we plan to expand access and make Health available to all users on web and iOS in the coming weeks.
+
+Medical record integrations and some apps are available in the U.S. only, and connecting Apple Health requires iOS.
+
+## Designed with privacy and security at the core
+
+Your health information is deeply personal. That’s why Health is built as a dedicated space with added protections for sensitive health information and easy-to-use controls.
+
+### A dedicated space for Health
+
+Health lives in its own space within ChatGPT, where your conversations, connected apps, and files are stored separately from your other chats. Health has separate memories, ensuring that your health context stays contained within the space. You’ll still see health chats in your chat history so you can easily return to them, but the information itself stays within Health.
+
+When helpful, ChatGPT may use context from your non-Health chats—like a recent move or lifestyle change—to make a health conversation more relevant. However, Health information and memories never flow back into your non-Health chats, and conversations outside of Health can’t access files, conversations, or memories created within Health. You can view or delete Health memories at any time within Health or the “Personalization” section of Settings.
+
+### Protections and controls for sensitive information
+
+We recognize that people share personal and sensitive information with ChatGPT. That understanding shapes how we design the security, privacy, and [data controls⁠](https://openai.com/consumer-privacy/) for all of our products—from the start. Even before introducing ChatGPT Health, we built foundational protections across ChatGPT to give you meaningful control over your data, including temporary chats, the ability to delete chats from OpenAI’s systems within 30 days, and training our models not to retain personal information from user chats.
+
+Conversations and files across ChatGPT are encrypted by default at rest and in transit as part of our core security architecture. Due to the sensitive nature of health data, Health builds on this foundation with additional, layered protections—including purpose-built encryption and isolation—to keep health conversations protected and compartmentalized. Conversations in Health are not used to train our foundation models.
+
+You can further strengthen access controls by [enabling multi-factor authentication (MFA)⁠(opens in a new window)](https://chatgpt.com#settings/Security), which adds an extra layer of protection to help prevent unauthorized access.
+
+### Securely connecting your information
+
+When you choose to connect your health data, such as medical records or wellness apps, your responses are grounded in your own health information. To enable access to trusted U.S. healthcare providers, we partner with b.well, the largest and most secure network of live, connected health data for U.S. consumers. b.well adheres to the highest industry standards in data security and privacy. You can remove access to medical records at any time in the "Apps" section of Settings.
+
+You can also connect your Apple Health information and other wellness apps, such as Function and MyFitnessPal. Apps may only be connected to your health data with your explicit permission, even if they’re already connected to ChatGPT for conversations outside of Health. All apps available in Health must meet OpenAI’s privacy and security requirements, including collecting only the minimum data needed, and undergo additional security review specific to inclusion in Health. The first time you connect an app, we’ll help you understand what types of data may be collected by the third party. And you’re always in control: disconnect an app at any time and it immediately loses access.
+
+## Built with physicians
+
+ChatGPT Health was developed in close collaboration with physicians around the world to provide clear and useful health information.
+
+Over two years, we’ve worked with more than 260 physicians who have practiced in 60 countries and dozens of specialties to understand what makes an answer to a health question helpful or potentially harmful—this group has now provided feedback on model outputs over 600,000 times across 30 areas of focus. This collaboration has shaped not just what Health can do, but how it responds: how urgently to encourage follow-ups with a clinician, how to communicate clearly without oversimplifying, and how to prioritize safety in [moments that matter⁠](https://openai.com/index/helping-people-when-they-need-it-most/).
+
+This physician-led approach is built directly into the model that powers Health, which is evaluated against clinical standards using [HealthBench⁠](https://openai.com/index/healthbench/), an assessment framework we created with input from our network of practicing physicians. Rather than relying on exam-style questions or generic accuracy checks, HealthBench evaluates responses using physician-written rubrics that reflect how clinicians judge quality in practice—prioritizing safety, clarity, appropriate escalation of care, and respect for individual context.
+
+This evaluation-driven approach helps ensure the model performs well on the tasks people actually need help with, including explaining lab results in accessible language, preparing questions for an appointment, interpreting data from wearables and wellness apps, and summarizing care instructions. The result is support that people can trust—always designed to support, not replace, your healthcare providers.
+
+## How to get started
+
+You can sign up for the [waitlist⁠(opens in a new window)](https://chatgpt.com/health/waitlist) to request access.
+
+### Once you have access
+
+Select ‘Health’ from the sidebar menu in ChatGPT.
+
+![Desktop ChatGPT interface with a left sidebar showing navigation items including New chat, Search chats, Library, Health (highlighted), Codex, and GPTs, while the main panel displays a Health view with a prompt asking how the user is feeling and options to connect medical records or understand lab results.](https://images.ctfassets.net/kftzwdyauwt9/4XRlgv6c3jHpFYqWS3C5q5/1bb4beeaae428129b3fe2a2d511e01d2/OAI_ChatGPT_Health_Wayfinding_16-9.png?w=3840&q=90&fm=webp)
+
+### Bring your information in
+
+Bring your medical records and the apps you use to track your health and wellness into Health. You can upload files directly, connect from tools (+) or “Apps” in Settings.
+
+* ***New:*** **Medical Records** for lab results, visit summaries, and clinical history
+* ***New:*** **Apple Health** for health and fitness data, including movement, sleep, and activity patterns (must be on iOS to sync)
+* ***New:*** **Function** for lab test insights, nutrition ideas, and taking action on your health
+* ***New:*** **MyFitnessPal** for nutrition advice, macros, and recipes
+* ***New:*** **Weight Watchers** for GLP-1 personalized meal ideas, recipes, and food guidance
+* **AllTrails** to help you find your next hike
+* **Instacart** to turn meal plans into shoppable lists
+* **Peloton** for suggested workout classes or guided meditations
+
+### Chat about your health
+
+Health conversations feel just like chatting with ChatGPT—but grounded in the information you’ve connected. You can upload photos and files and use search, deep research, voice mode and dictation. When relevant, ChatGPT can automatically reference your connected information to provide more relevant and personalized responses. For example, you might ask: *“How’s my cholesterol trending?”* or *“Can you summarize my latest bloodwork before my appointment?”* To use a connected app you can start your question with it, select it from tools (+) or ChatGPT may suggest one when helpful.
+
+### Customize your experience
+
+You can add custom instructions in Health to help ChatGPT know what to focus on, to avoid mentioning sensitive topics, or change how responses are framed. These instructions only apply to Health chats, and you can update or remove any time in Health or Settings.
+
+Give me a summary of my overall health.
+
+I have my annual physical tomorrow. What should I talk to my doctor about?
+
+I’m trying to get back into working out after having a baby, can you help?
+
+I started taking a GLP-1. Give me a realistic daily exercise and diet guide for the week.
+
+Based on my medical history, which of these insurance plans might be best for me?
+
+Create a pros and cons table based on my needs.
+
+## Just the start
+
+We’ll continue to expand what you can connect and the insights Health can support—so ChatGPT can help you feel more informed, prepared, and confident as you navigate your health.
+
+* [2026](/news/?tags=2026)
+* [Health & Wellness](/news/?tags=health-wellness)
+
+## Author
+
+## Keep reading
+
+![How agents are transforming work > Cover image](https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp)
+
+[How agents are transforming work
+
+CompanyJun 25, 2026](/index/how-agents-are-transforming-work/)
+
+![OpenAI and Broadcom Jalapeño inference chip card image](https://images.ctfassets.net/kftzwdyauwt9/21KcazqOHUF7Cq71Hpfcnc/81ad98a1978845b441ab14e008168c75/openai-broadcom-jalapeno-inference-chip-image-1_1.png?w=3840&q=90&fm=webp)
+
+[OpenAI and Broadcom unveil LLM-optimized inference chip
+
+CompanyJun 24, 2026](/index/openai-broadcom-jalapeno-inference-chip/)
+
+![Expanding Daybreak Art Card](https://images.ctfassets.net/kftzwdyauwt9/735NOZviyogUBIFxd2EmWX/fa8baf9fc26e64f442ffa86d5fd9a41e/Art_Card__6_.png?w=3840&q=90&fm=webp)
+
+[Daybreak: Tools for securing every organization in the world
+
+SecurityJun 22, 2026](/index/daybreak-securing-the-world/)

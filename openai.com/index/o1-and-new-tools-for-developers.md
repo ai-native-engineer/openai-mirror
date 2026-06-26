@@ -1,0 +1,329 @@
+<!-- source: https://openai.com/index/o1-and-new-tools-for-developers/ -->
+
+[Product](/news/product-releases/)
+
+# OpenAI o1 and new tools for developers
+
+Introducing OpenAI o1, Realtime API improvements, a new fine-tuning method and more for developers.
+
+Today we’re introducing more capable models, new tools for customization, and upgrades that improve performance, flexibility, and cost-efficiency for developers building with AI. This includes:
+
+* [**OpenAI o1 in the API**⁠(opens in a new window)](https://platform.openai.com/docs/models#o1), with support for function calling, developer messages, Structured Outputs, and vision capabilities.
+* [**Realtime API updates**⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime), including simple WebRTC integration, a 60% price reduction for GPT‑4o audio, and support for GPT‑4o mini at one-tenth of previous audio rates.
+* [**Preference Fine-Tuning**⁠(opens in a new window)](https://platform.openai.com/docs/guides/fine-tuning#preference), a new model customization technique that makes it easier to tailor models based on user and developer preferences.
+* [**New Go and Java SDKs**⁠(opens in a new window)](https://platform.openai.com/docs/libraries) available in beta.
+
+## OpenAI o1 in the API
+
+[**OpenAI o1**⁠](https://openai.com/o1/), our reasoning model designed to handle complex multi-step tasks with advanced accuracy, is rolling out to developers on [usage tier 5⁠(opens in a new window)](https://platform.openai.com/docs/guides/rate-limits/usage-tiers#usage-tiers) in the API. o1 is the successor to OpenAI [o1‑preview⁠](https://openai.com/index/introducing-openai-o1-preview/), which developers have already used to build agentic applications to streamline customer support, optimize supply chain decisions, and forecast complex financial trends.
+
+o1 is production-ready with key features to enable real-world use cases, including:
+
+* [**Function calling**⁠(opens in a new window)](https://platform.openai.com/docs/guides/function-calling): Seamlessly connect o1 to external data and APIs.
+* [**Structured Outputs**⁠(opens in a new window)](https://platform.openai.com/docs/guides/structured-outputs): Generate responses that reliably adhere to your custom JSON Schema.
+* **Developer messages**: Specify instructions or context for the model to follow, such as defining tone, style and other behavioral guidance.
+* **Vision capabilities**: Reason over images to unlock many more applications in science, manufacturing, or coding, where visual inputs matter.
+* **Lower latency**: o1 uses on average 60% fewer reasoning tokens than o1‑preview for a given request.
+* A new `**reasoning\_effort**` API parameter allows you to control how long the model thinks before answering.
+
+The snapshot of o1 we’re shipping today `o1‑2024‑12‑17` is a new post-trained version of the model we released in ChatGPT two weeks ago. It improves on areas of model behavior based on feedback, while maintaining the frontier capabilities we evaluated in our [o1 System Card.⁠](https://openai.com/index/openai-o1-system-card/) We’re also updating o1 in ChatGPT to this version soon. The evaluations we’re sharing below reflect the performance of this new snapshot, ensuring developers have up-to-date benchmarks for this version. 
+
+`o1‑2024‑12‑17` sets new state-of-the-art results on several benchmarks, improving cost-efficiency and performance.
+
+| Category | Eval | o1-2024-12-17 | o1-preview |
+| --- | --- | --- | --- |
+| General | GPQA diamond | 75.7 | 73.3 |
+| MMLU (pass @1) | 91.8 | 90.8 |
+| Coding | SWE-bench Verified | 48.9 | 41.3 |
+| LiveBench (Coding) | 76.6 | 52.3 |
+| Math | MATH (pass @1) | 96.4 | 85.5 |
+| AIME 2024 (pass @1) | 79.2 | 42.0 |
+| MGSM (pass @1) | 89.3 | 90.8 |
+| Vision | MMMU (pass @1) | 77.3 | — |
+| MathVista (pass @1) | 71.0 | — |
+| Factuality | SimpleQA | 42.6 | 42.4 |
+| Agents | TAU-bench (retail) | 73.5 | — |
+| TAU-bench (airline) | 54.2 | — |
+
+##### Model Evaluation Accuracy Across Different Metrics
+
+gpt-4o-2024-11-20
+
+o1-preview
+
+o1-2024-12-17
+
+o1 with SO
+
+Additionally, we have observed that `o1‑2024‑12‑17` significantly outperforms gpt-4o in our function calling and Structured Outputs testing.
+
+We are rolling out access incrementally while working to expand access to additional usage tiers and ramping up rate limits. To get started, check out the [API documentation⁠(opens in a new window)](https://platform.openai.com/docs/models#o1).
+
+## Improvements to the Realtime API
+
+The [Realtime API⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime) enables developers to create low-latency, natural conversational experiences. It’s ideal for voice assistants, live translation tools, virtual tutors, interactive customer support systems, or even your own virtual [Santa⁠(opens in a new window)](https://x.com/jillian_khoo/status/1867275291510383049). Today we’re releasing changes to address some of the most common requests from developers: a direct WebRTC integration, reduced pricing, and more control over responses.
+
+###### WebRTC support
+
+We’re introducing [WebRTC⁠(opens in a new window)](https://webrtc.org/) support for the Realtime API. WebRTC is an open standard that makes it easier to build and scale real-time voice products across platforms—whether for browser-based apps, mobile clients, IoT devices, or direct server-to-server setups.
+
+Our WebRTC integration is designed to enable smooth and responsive interactions in real-world conditions, even with variable network quality. It handles audio encoding, streaming, noise suppression, and congestion control. 
+
+With WebRTC, you can now add Realtime capabilities with just a handful of lines of Javascript:
+
+#### JavaScript
+
+```` ```
+1
+
+async function createRealtimeSession(localStream, remoteAudioEl, token) {
+
+2
+
+const pc = new RTCPeerConnection();
+
+3
+
+pc.ontrack = e => remoteAudioEl.srcObject = e.streams[0];
+
+4
+
+pc.addTrack(localStream.getTracks()[0]);
+
+5
+
+const offer = await pc.createOffer();
+
+6
+
+await pc.setLocalDescription(offer);
+
+7
+
+const headers = { Authorization: `Bearer ${token}`, 'Content-Type': 'application/sdp' };
+
+8
+
+const opts = { method: 'POST', body: offer.sdp, headers };
+
+9
+
+const resp = await fetch('https://api.openai.com/v1/realtime', opts);
+
+10
+
+await pc.setRemoteDescription({ type: 'answer', sdp: await resp.text() });
+
+11
+
+return pc;
+
+12
+
+}
+``` ````
+
+Learn more about our WebRTC integration in the [API documentation⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-webrtc).
+
+## New GPT-4o and GPT-4o mini realtime snapshots at lower cost
+
+We’re releasing `gpt-4o-realtime-preview-2024-12-17` as part of the Realtime API beta with improved voice quality, more reliable input (especially for dictated numbers), and reduced costs. Due to our efficiency improvements, we’re dropping the audio token price by 60% to $40/1M input tokens and $80/1M output tokens. Cached audio input costs are reduced by 87.5% to $2.50/1M input tokens.
+
+We’re also bringing GPT‑4o mini to the Realtime API beta as `gpt-4o-mini-realtime-preview-2024-12-17`. GPT‑4o mini is our most cost-efficient small model and brings the same rich voice experiences to the Realtime API as GPT‑4o. GPT‑4o mini audio price is $10/1M input tokens and $20/1M output tokens. Text tokens are priced at $0.60/1M input tokens and $2.40/1M output tokens. Cached audio and text both cost $0.30/1M tokens. 
+
+These snapshots are available in the [Realtime API⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime) and also in the [Chat Completions API⁠(opens in a new window)](https://platform.openai.com/docs/guides/text-generation) as `gpt-4o-audio-preview-2024-12-17` and `gpt-4o-mini-audio-preview-2024-12-17`.
+
+## More control over responses
+
+We’re shipping the following features to the Realtime API to make it easier to deliver exceptional voice-driven experiences:
+
+* [**Concurrent out-of-band responses**⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-model-capabilities#create-responses-outside-the-default-conversation) to enable background tasks such as content moderation or classification to run without interrupting the user’s voice interaction.
+* [**Custom input context**⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-model-capabilities#create-a-custom-context-for-responses) to specify which conversation items to include as model input. For example, run a moderation check on just the user’s last utterance or re-use a past response without permanently altering the session state.
+* [**Controlled response timing**⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-model-capabilities#keep-vad-but-disable-automatic-responses)to use server-side Voice Activity Detection (VAD) without automatically triggering a response. For instance, gather necessary data such as account details and add it to the model’s context before manually initiating a voice reply, offering more control over timing and accuracy.
+* [**Increased maximum session length**⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-model-capabilities#session-lifecycle-events) from 15 to 30 min.
+
+## Preference Fine-Tuning
+
+The fine-tuning API now supports [Preference Fine-Tuning⁠(opens in a new window)](https://platform.openai.com/docs/guides/fine-tuning#preference) to make it easy to customize models based on user and developer preferences. This method uses [Direct Preference Optimization (DPO)⁠(opens in a new window)](https://arxiv.org/abs/2305.18290) to compare pairs of model responses, teaching the model to distinguish between preferred and non-preferred outputs. By learning from pairwise comparisons rather than fixed targets, Preference Fine-Tuning is especially effective for subjective tasks where tone, style, and creativity matter.
+
+There are some key differences between Preference Fine-Tuning and Supervised Fine-Tuning, as shown below.
+
+|  |  |  |
+| --- | --- | --- |
+|  | **Supervised Fine-Tuning (SFT)** | **Preference Fine-Tuning (PFT)** |
+| **Objective** | Encourage the model to generate correct outputs by replicating labeled outputs | Optimize the model to favor desired behavior by reinforcing preferred responses and reducing the likelihood of unpreferred ones |
+| **Training data** | Exact input and output pairs | Pairs of preferred and non-preferred model output, via human annotation, A/B testing, or synthetic data generation |
+| **Use cases** | Tasks where an ideal output is easy to prepare, such as custom code format, and strict correctness is needed | Effective for tasks where “better” responses are subjective, such as creative writing or summarization. |
+
+We started testing Preference Fine-Tuning with trusted partners who have seen promising results so far. For example, [Rogo AI⁠(opens in a new window)](https://rogo.ai/) is building an AI assistant for financial analysts that breaks down complex queries into sub-queries. Using their expert-built benchmark, Rogo-Golden, they found that while Supervised Fine-Tuning faced challenges with out-of-distribution query expansion—such as missing metrics like ARR for queries like “how fast is company X growing”—Preference Fine-Tuning resolved these issues, improving performance from 75% accuracy in the base model to over 80%.
+
+Preference Fine-Tuning will roll out today for `gpt-4o-2024-08-06` and will be available for `gpt-4o-mini-2024-07-18` soon. It will be available at the same price per trained token as Supervised Fine-Tuning, with support for our newest models coming early next year. For more information, visit our [fine-tuning guide⁠(opens in a new window)](https://platform.openai.com/docs/guides/fine-tuning) in the API documentation.
+
+## Go and Java SDKs in beta
+
+Finally, we’re introducing two new official SDKs for [Go⁠(opens in a new window)](https://github.com/openai/openai-go?tab=readme-ov-file#openai-go-api-library) and [Java⁠(opens in a new window)](https://github.com/openai/openai-java?tab=readme-ov-file#openai-java-api-library) in beta, in addition to [our existing official Python, Node.js and .NET libraries⁠(opens in a new window)](https://platform.openai.com/docs/libraries). Our goal is for OpenAI APIs to be easy to use, no matter what programming language you choose.
+
+Go is a statically typed language ideal for handling concurrency and building scalable APIs and backend systems. The OpenAI Go SDK makes it easy to interact with OpenAI models in your Go code.
+
+#### Go
+
+```` ```
+1
+
+client := openai.NewClient()
+
+2
+
+ctx := context.Background()
+
+3
+
+prompt := "Write me a haiku about Golang."
+
+4
+
+5
+
+completion, err := client.Chat.Completions.New(
+
+6
+
+ctx,
+
+7
+
+openai.ChatCompletionNewParams{
+
+8
+
+Messages: openai.F(
+
+9
+
+[]openai.ChatCompletionMessageParamUnion{
+
+10
+
+openai.UserMessage(prompt),
+
+11
+
+},
+
+12
+
+),
+
+13
+
+Model: openai.F(openai.ChatModelGPT4o),
+
+14
+
+},
+
+15
+
+)
+``` ````
+
+For more information on the Go SDK, check out the [README on GitHub⁠(opens in a new window)](https://github.com/openai/openai-go?tab=readme-ov-file#openai-go-api-library).
+
+Java has been a staple of enterprise software development, favored for its type system and massive ecosystem of open-source libraries. The OpenAI Java SDK provides typed request and response objects, and helpful utilities to manage API requests.
+
+#### Java
+
+```` ```
+1
+
+OpenAIClient client = OpenAIOkHttpClient.fromEnv();
+
+2
+
+3
+
+ChatCompletionCreateParams params = ChatCompletionCreateParams
+
+4
+
+.builder()
+
+5
+
+.message(List.of(
+
+6
+
+ChatCompletionMessageParam.ofChatCompletionUserMessageParam(
+
+7
+
+ChatCompletionUserMessageParam
+
+8
+
+.builder()
+
+9
+
+.role(ChatCompletionUserMessageParam.Role.USER)
+
+10
+
+.content(
+
+11
+
+ChatCompletionUserMessageParam.Content.ofTextContent(
+
+12
+
+"What is the origin of Java's Duke mascot?"
+
+13
+
+)
+
+14
+
+)
+
+15
+
+.build()
+
+16
+
+)
+
+17
+
+))
+
+18
+
+.model(ChatModel.O1_PREVIEW)
+
+19
+
+.build();
+
+20
+
+21
+
+ChatCompletion chatCompletion = client.chat().completions().create(params);
+``` ````
+
+For more information on the Java SDK, check out the [README on GitHub⁠(opens in a new window)](https://github.com/openai/openai-java?tab=readme-ov-file#openai-java-api-library).
+
+## Conclusion
+
+We’re excited to see what you’ll build with these updates—whether it’s new voice apps, fine-tuned models, or agentic applications that push the boundaries of what’s possible. Check out the detailed guides for [o1⁠(opens in a new window)](https://platform.openai.com/docs/models#o1), [Realtime API⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime), [WebRTC integration⁠(opens in a new window)](https://platform.openai.com/docs/guides/realtime-webrtc), and [Preference Fine-Tuning⁠(opens in a new window)](https://platform.openai.com/docs/guides/fine-tuning) in our API documentation to dive deeper and start experimenting today.
+
+Have questions? Connect with our team on the [OpenAI Developer Forum⁠(opens in a new window)](https://community.openai.com/).
+
+* [API Platform](/news/?tags=api-platform)
+* [2024](/news/?tags=2024)
+
+## Authors

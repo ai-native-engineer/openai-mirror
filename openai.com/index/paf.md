@@ -1,0 +1,68 @@
+<!-- source: https://openai.com/index/paf/ -->
+
+# Paf’s engineering team creates 85 custom GPTs to surge developer productivity
+
+![Image of Paf logo on brand green](https://images.ctfassets.net/kftzwdyauwt9/2lxswGHhL0uRbrzVPxJQc5/b07d2b2c8350732d46a27edd74b1f7b6/Paf_logo.jpg?w=3840&q=90&fm=webp)
+
+Paf adopted ChatGPT Enterprise across its entire company, with engineers using custom GPTs on a daily basis to speed up routine development tasks. Paf also integrated ChatGPT Enterprise into the grit:lab coding academy (gritlab.ax), training the next generation of software developers using an AI-augmented, systems-architecture mindset from day one. In addition to the wide range of use cases for developers and grit:lab students, 70% of Paf employees actively use ChatGPT Enterprise, spanning business teams like finance, HR, marketing, and customer support.
+
+## Evaluating various AI models
+
+Paf is an international gaming company founded in 1966 in the Åland Islands by the Red Cross, Save the Children, and Folkhälsan, and is an industry leader in responsible gaming. With around 315 employees from 29 countries, Paf has contributed over 447.5 million euros to benefit society since it was founded.
+
+As an organization committed to staying ahead of the technology curve, Paf recognized the transformative potential of AI early on. When generative AI began gaining traction, the company swiftly adopted and evaluated various AI systems to understand how this technology could propel its employees and business operations forward. 
+
+In their search for the ideal generative AI solution, Paf experimented with LLAMA, Claude and GPT‑4. When the team conducted head-to-head accuracy and cost comparisons, GPT‑4 was 25% more accurate than competitors, without being more expensive. Paf decided to use GPT‑4 as its AI solution.
+
+!["A man in a beige sweater and glasses speaks into a microphone at an event. People in green hats and lanyards are in the background.](https://images.ctfassets.net/kftzwdyauwt9/2wS9pCBC6ZlR2xq47JHyKs/cc5bbc8a1f3349f3eec52e1ae4f5a8e8/Paf___games_developer_presenting___Rene_Katsev-min.jpg?w=3840&q=90&fm=webp)
+
+## Creating custom GPTs to streamline the development process
+
+Paf rolled out ChatGPT Enterprise to the entire team of 100 developers, and now finds ChatGPT Enterprise indispensable for their daily tasks. “I use ChatGPT 20 times a day for tasks like boilerplate code creation or learning a new programming language,” says frontend developer Krista Koivisto. In addition to using ChatGPT Enterprise for general coding assistance, the engineering team has created over 85 custom GPTs to support specific use cases. 
+
+One of the engineering team’s favorite applications of custom GPTs is a **suite of specialized coding GPTs** that help streamline the development process, from creating backend infrastructure to generating frontend components:
+
+* **Swagger GPT** converts Swagger JSON API definitions into TypeScript service endpoint definitions per Paf’s coding standards.
+* **TypeScript GPT** writes the backend service code using the endpoint definitions, reusing existing session validation functions.
+* **GraphQL Nexus GPT** generates GraphQL Nexus schemas, integrating existing helper functions to interact with the frontend.
+* **Relay GPT** creates the React Relay hooks using GraphQL Nexus schemas for communicating with our backends.
+* **React GPT** writes React components using Paf’s React and TypeScript style guidelines and core component library.
+
+**Swagger GPT** converts Swagger JSON API definitions into TypeScript service endpoint definitions per Paf’s coding standards.
+
+**TypeScript GPT** writes the backend service code using the endpoint definitions, reusing existing session validation functions.
+
+**GraphQL Nexus GPT** generates GraphQL Nexus schemas, integrating existing helper functions to interact with the frontend.
+
+**Relay GPT** creates the React Relay hooks using GraphQL Nexus schemas for communicating with our backends.
+
+**React GPT** writes React components using Paf’s React and TypeScript style guidelines and core component library.
+
+“Focused GPTs avoid overloading models and curb hallucinations,” says Koivisto. “We automatically generate functioning boilerplate implementations with far less effort.” By chaining tailored GPTs together instead of relying on the general model, Paf's developers can quickly generate accurate, standardized application flows and APIs nearly automatically.
+
+## Empowering every engineer to be a systems architect
+
+Building on its success with the development team’s custom GPTs, Paf has integrated ChatGPT Enterprise into the grit:lab coding academy to accelerate training for 65 aspiring developers. Grit:lab students use ChatGPT for a variety of coding-related tasks, including:
+
+* Understanding new programming concepts
+* Debugging code errors efficiently
+* Learning syntax and structure across different languages
+* Generating test data quickly
+
+This AI-augmented software development approach is creating a new breed of software developer, one who has more systems architect knowledge from the start. “Using ChatGPT, the junior developers think at a higher, systematic level,” says Kim Gripenberg, a DevOps engineer, noting that both grit:lab students and junior developers at Paf progress years faster with AI assistance. Instead of getting bogged down in syntax errors and coding basics, developers can focus on the overall application and system design.
+
+![People working at desks with multiple computer monitors in an office. One person wears headphones, and a green coffee cup is on a desk.](https://images.ctfassets.net/kftzwdyauwt9/2yv9TWkiUtkzv1lKLXykGS/e860bcd0508edd94586f4f6e7a92b909/Paf___tech_room-min.jpg?w=3840&q=90&fm=webp)
+
+## ChatGPT delivers the equivalent output of 12 employees
+
+In the next year, Paf plans to fully integrate ChatGPT Enterprise and the OpenAI API into all of its processes. “AI is here to stay. Either you are on the train,” says Fredrik Wiklund, Chief Technology Officer, “or you are back at the station, watching it leave.” The company envisions GPTs eventually handling more coding tasks like writing, testing, and deploying software, freeing up developers to focus on higher-level, systems-level work. 
+
+This AI-augmented approach will allow Paf to innovate with a velocity similar to that of a much larger company. By integrating generative AI into every part of its business, Paf is set to maximize its positive impact for employees, customers, and communities it serves.
+
+“We estimate ChatGPT is doing the equivalent work of 12 full time employees,” commented Wiklund. “The impact to our business has exceeded our expectations, and this is only the start.”
+
+![A man and a woman in green lanyards and green hats look at their smartphones.](https://images.ctfassets.net/kftzwdyauwt9/6Rb6HUdRGE0dd7DOTrZZsB/50dc2ea7e5e0802e707ebe68439ac2cb/Paf___mobile_games-min.jpg?w=3840&q=90&fm=webp)
+
+## Interested in learning more about ChatGPT for business?
+
+[Talk with our team](/contact-sales/)

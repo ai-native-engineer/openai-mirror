@@ -1,0 +1,56 @@
+<!-- source: https://openai.com/bio-bug-bounty/ -->
+
+July 17, 2025
+
+# Agent bio bug bounty
+
+Testing universal jailbreaks for biorisks in ChatGPT Agent
+
+[Apply here](https://openai.smapply.org/prog/bio_bug_bounty/)
+
+### Invitation
+
+As part of our ongoing efforts to strengthen our safeguards for advanced AI capabilities in biology, our bio bug bounty is now open for applications. We’ve deployed the ChatGPT agent model and are actively working to further strengthen safety protections for ChatGPT agent and other models. We’re inviting researchers with experience in AI red teaming, security, or chemical and biological risk to try to find a universal jailbreak that can defeat our ten-level bio/chem challenge.
+
+### Program overview
+
+* **Model in scope:** ChatGPT agent only.
+* **Challenge:** Identify one universal jailbreaking prompt to successfully answer all ten bio/chem safety questions from a clean chat.
+* **Rewards:** • $25,000 to the first true universal jailbreak to clear all ten questions.  
+   • $10,000 to the first team that answers all ten questions with multiple jailbreak prompts.  
+   • Smaller awards may be granted for partial wins at our discretion.
+* **Timeline:** Applications open July 17, 2025 with rolling acceptances. Testing begins July 29, 2025.
+* **Access:** Application and invite-only. We will extend invitations to a vetted list of trusted bio red-teamers and review new applications. Once selected, successful applicants will be onboarded to the bio bug bounty platform.
+* **Disclosure:** All prompts, completions, findings, and communications are covered by NDA.
+
+### How to apply
+
+Submit a short application [here⁠(opens in a new window)](https://openai.smapply.org/prog/bio_bug_bounty) (name, affiliation, brief track record, and a 150-word plan) by July 29, 2025. Accepted applicants and collaborators must have existing ChatGPT accounts to apply, and will sign a NDA.
+
+Apply now and help us make frontier AI safer.
+
+## Apply to the OpenAI bio bug bounty
+
+[Apply](https://openai.smapply.org/prog/bio_bug_bounty/)
+
+## Author
+
+## Keep reading
+
+![How agents are transforming work > Cover image](https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp)
+
+[How agents are transforming work
+
+CompanyJun 25, 2026](/index/how-agents-are-transforming-work/)
+
+![OpenAI and Broadcom Jalapeño inference chip card image](https://images.ctfassets.net/kftzwdyauwt9/21KcazqOHUF7Cq71Hpfcnc/81ad98a1978845b441ab14e008168c75/openai-broadcom-jalapeno-inference-chip-image-1_1.png?w=3840&q=90&fm=webp)
+
+[OpenAI and Broadcom unveil LLM-optimized inference chip
+
+CompanyJun 24, 2026](/index/openai-broadcom-jalapeno-inference-chip/)
+
+![Helping build shared standards for advanced AI - card image](https://images.ctfassets.net/kftzwdyauwt9/3tqr0Vb3JnK38uBRBw7FAF/a3989888ee148ba286b834076aaa289b/helping-build-shared-standards-for-advanced-ai-1_1.png?w=3840&q=90&fm=webp)
+
+[Helping build shared standards for advanced AI
+
+Global AffairsJun 23, 2026](/index/helping-build-shared-standards-for-advanced-ai/)

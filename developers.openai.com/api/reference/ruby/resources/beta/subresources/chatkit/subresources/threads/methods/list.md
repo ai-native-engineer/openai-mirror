@@ -1,0 +1,187 @@
+<!-- source: https://developers.openai.com/api/reference/ruby/resources/beta/subresources/chatkit/subresources/threads/methods/list/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/ruby)
+
+[Beta](/api/reference/ruby/resources/beta)
+
+[ChatKit](/api/reference/ruby/resources/beta/subresources/chatkit)
+
+[Threads](/api/reference/ruby/resources/beta/subresources/chatkit/subresources/threads)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# List ChatKit threads
+
+beta.chatkit.threads.list(\*\*kwargs) -> ConversationCursorPage<[ChatKitThread](/api/reference/ruby/resources/beta#(resource)%20beta.chatkit.threads%20%3E%20(model)%20chatkit_thread%20%3E%20(schema)) { id, created\_at, object, 3 more } >
+
+GET/chatkit/threads
+
+List ChatKit threads with optional pagination and user filters.
+
+##### ParametersExpand Collapse
+
+after: String
+
+List items created after this thread item ID. Defaults to null for the first page.
+
+before: String
+
+List items created before this thread item ID. Defaults to null for the newest results.
+
+limit: Integer
+
+Maximum number of thread items to return. Defaults to 20.
+
+minimum0
+
+maximum100
+
+order: :asc | :desc
+
+Sort order for results by creation time. Defaults to `desc`.
+
+One of the following:
+
+:asc
+
+:desc
+
+user: String
+
+Filter threads that belong to this user identifier. Defaults to null to return all users.
+
+minLength1
+
+maxLength512
+
+##### ReturnsExpand Collapse
+
+class ChatKitThread { id, created\_at, object, 3 more }
+
+Represents a ChatKit thread and its current status.
+
+id: String
+
+Identifier of the thread.
+
+created\_at: Integer
+
+Unix timestamp (in seconds) for when the thread was created.
+
+formatunixtime
+
+object: :"chatkit.thread"
+
+Type discriminator that is always `chatkit.thread`.
+
+status: Active{ type} | Locked{ reason, type} | Closed{ reason, type}
+
+Current status for the thread. Defaults to `active` for newly created threads.
+
+One of the following:
+
+class Active { type }
+
+Indicates that a thread is active.
+
+type: :active
+
+Status discriminator that is always `active`.
+
+class Locked { reason, type }
+
+Indicates that a thread is locked and cannot accept new input.
+
+reason: String
+
+Reason that the thread was locked. Defaults to null when no reason is recorded.
+
+type: :locked
+
+Status discriminator that is always `locked`.
+
+class Closed { reason, type }
+
+Indicates that a thread has been closed.
+
+reason: String
+
+Reason that the thread was closed. Defaults to null when no reason is recorded.
+
+type: :closed
+
+Status discriminator that is always `closed`.
+
+title: String
+
+Optional human-readable title for the thread. Defaults to null when no title has been generated.
+
+user: String
+
+Free-form string that identifies your end user who owns the thread.
+
+### List ChatKit threads
+
+Ruby
+
+HTTPHTTP
+
+HTTPHTTP
+
+TypeScriptTypeScript
+
+PythonPython
+
+JavaJava
+
+GoGo
+
+RubyRuby
+
+CLI ToolCLI Tool
+
+require "openai"
+
+openai = OpenAI::Client.new
+
+page = openai.beta.chatkit.threads.list
+
+puts(page)
+
+  "data": [
+      "id": "cthr_abc123",
+      "object": "chatkit.thread",
+      "title": "Customer escalation"
+      "id": "cthr_def456",
+      "object": "chatkit.thread",
+      "title": "Demo feedback"
+  ],
+  "has_more": false,
+  "object": "list"
+
+##### Returns Examples
+
+  "data": [
+      "id": "cthr_abc123",
+      "object": "chatkit.thread",
+      "title": "Customer escalation"
+      "id": "cthr_def456",
+      "object": "chatkit.thread",
+      "title": "Demo feedback"
+  ],
+  "has_more": false,
+  "object": "list"

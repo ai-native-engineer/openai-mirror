@@ -1,0 +1,35 @@
+<!-- source: https://openai.com/index/openai-pioneers-program/ -->
+
+April 9, 2025
+
+[Company](/news/company-announcements/)
+
+# Announcing OpenAI Pioneers Program
+
+Advancing model performance and real world evaluation in applied domains.
+
+![Abstract image featuring three soft, circular, dandelion-like shapes in pastel hues against a green background.](https://images.ctfassets.net/kftzwdyauwt9/5cm8CEkvvbulUMbFGprn2W/d31ca3d16de258794782af187c620420/OAI_Forge_Hero.png?w=3840&q=90&fm=webp)
+
+Today, we’re announcing the OpenAI Pioneers Program, an effort designed to advance the deployment of AI to real world use cases. The program will be focused on creating evals that set the bar for what good looks like, and giving builders the tools to optimize model performance in their domains.
+
+As the pace of AI adoption accelerates across industries, there is a need to understand and improve its impact in the world. Creating domain-specific evals are one way to better reflect real-world use cases, helping teams assess model performance in practical, high-stakes environments. Fine-tuning reasoning models is also proving to be a powerful way to improve performance across a wide range of applications — with less data and effort required.
+
+With the OpenAI Pioneers program, we will be working with companies building new products in high-impact verticals to expand their product capabilities through individualized efforts with our research teams. Companies in the program will be supported by researchers of the OpenAI team to create:
+
+## Domain-specific evals for industry
+
+We believe that industries like legal, finance, insurance, healthcare, accounting, and many others are missing a unified source of truth for model benchmarking.
+
+We are excited to spend time assisting eval creation with multiple companies in each sector over the coming months. Our team will work intensively with each company to design evals tailored to their domain—establishing clear benchmarks that guide model development and improve trust in AI systems, and sharing them publicly. Industry specific evals will be published at a later date.
+
+## Custom fine-tuned models for three industry-specific use cases
+
+Companies in the program will have the opportunity to collaborate with our team to create model improvements with reinforcement fine tuning (RFT)—a model customization technique that enables the creation of “expert models” for a narrow set of tasks in their domain—and train custom models for the company’s top three use cases. With RFT companies can better solve customers’ pain points and improve model inefficiencies.
+
+Our team will guide companies through the fine-tuning process. Companies can then choose how to deploy these models—which should be ready for production use at scale.
+
+The first cohort will focus on startups who will help lay the foundations of the OpenAI Pioneers Program. We’re selecting a handful of startups for this initial cohort, each working on high-value, applied use cases where AI can drive real-world impact. 
+
+*If you are a company that is interested in participating in the OpenAI Pioneers Program, please fill out the form below. We look forward to hearing from you.*
+
+## Authors

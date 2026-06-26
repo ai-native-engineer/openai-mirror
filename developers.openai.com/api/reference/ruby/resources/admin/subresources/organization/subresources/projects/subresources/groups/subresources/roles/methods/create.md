@@ -1,0 +1,186 @@
+<!-- source: https://developers.openai.com/api/reference/ruby/resources/admin/subresources/organization/subresources/projects/subresources/groups/subresources/roles/methods/create/ -->
+
+[Skip to content](#_top)
+
+[API Reference](/api/reference/ruby)
+
+[Admin](/api/reference/ruby/resources/admin)
+
+[Organization](/api/reference/ruby/resources/admin/subresources/organization)
+
+[Projects](/api/reference/ruby/resources/admin/subresources/organization/subresources/projects)
+
+[Groups](/api/reference/ruby/resources/admin/subresources/organization/subresources/projects/subresources/groups)
+
+[Roles](/api/reference/ruby/resources/admin/subresources/organization/subresources/projects/subresources/groups/subresources/roles)
+
+Copy Markdown
+
+Open in **Claude**
+
+Open in **ChatGPT**
+
+Open in **Cursor**
+
+---
+
+**Copy Markdown**
+
+**View as Markdown**
+
+# Assign project role to group
+
+admin.organization.projects.groups.roles.create(group\_id, \*\*kwargs) -> [RoleCreateResponse](/api/reference/ruby/resources/admin#(resource)%20admin.organization.projects.groups.roles%20%3E%20(model)%20role_create_response%20%3E%20(schema)) { group, object, role }
+
+POST/projects/{project\_id}/groups/{group\_id}/roles
+
+Assigns a project role to a group within a project.
+
+##### ParametersExpand Collapse
+
+project\_id: String
+
+group\_id: String
+
+role\_id: String
+
+Identifier of the role to assign.
+
+##### ReturnsExpand Collapse
+
+class RoleCreateResponse { group, object, role }
+
+Role assignment linking a group to a role.
+
+group: Group{ id, created\_at, name, 2 more}
+
+Summary information about a group returned in role assignment responses.
+
+id: String
+
+Identifier for the group.
+
+created\_at: Integer
+
+Unix timestamp (in seconds) when the group was created.
+
+formatunixtime
+
+name: String
+
+Display name of the group.
+
+object: :group
+
+Always `group`.
+
+scim\_managed: bool
+
+Whether the group is managed through SCIM.
+
+object: :"group.role"
+
+Always `group.role`.
+
+role: [Role](/api/reference/ruby/resources/admin#(resource)%20admin.organization.roles%20%3E%20(model)%20role%20%3E%20(schema)) { id, description, name, 4 more }
+
+Details about a role that can be assigned through the public Roles API.
+
+id: String
+
+Identifier for the role.
+
+description: String
+
+Optional description of the role.
+
+name: String
+
+Unique name for the role.
+
+object: :role
+
+Always `role`.
+
+permissions: Array[String]
+
+Permissions granted by the role.
+
+predefined\_role: bool
+
+Whether the role is predefined and managed by OpenAI.
+
+resource\_type: String
+
+Resource type the role is bound to (for example `api.organization` or `api.project`).
+
+### Assign project role to group
+
+Ruby
+
+HTTPHTTP
+
+HTTPHTTP
+
+TypeScriptTypeScript
+
+PythonPython
+
+JavaJava
+
+GoGo
+
+RubyRuby
+
+CLI ToolCLI Tool
+
+require "openai"
+
+openai = OpenAI::Client.new(admin_api_key: "My Admin API Key")
+
+role = openai.admin.organization.projects.groups.roles.create(
+  "group_id",
+  project_id: "project_id",
+  role_id: "role_id"
+
+puts(role)
+
+    "object": "group.role",
+    "group": {
+        "object": "group",
+        "id": "group_01J1F8ABCDXYZ",
+        "name": "Support Team",
+        "created_at": 1711471533,
+        "scim_managed": false
+    "role": {
+        "object": "role",
+        "id": "role_01J1F8PROJ",
+        "name": "API Project Key Manager",
+        "description": "Allows managing API keys for the project",
+        "permissions": [
+            "api.organization.projects.api_keys.read",
+            "api.organization.projects.api_keys.write"
+        ],
+        "resource_type": "api.project",
+        "predefined_role": false
+
+##### Returns Examples
+
+    "object": "group.role",
+    "group": {
+        "object": "group",
+        "id": "group_01J1F8ABCDXYZ",
+        "name": "Support Team",
+        "created_at": 1711471533,
+        "scim_managed": false
+    "role": {
+        "object": "role",
+        "id": "role_01J1F8PROJ",
+        "name": "API Project Key Manager",
+        "description": "Allows managing API keys for the project",
+        "permissions": [
+            "api.organization.projects.api_keys.read",
+            "api.organization.projects.api_keys.write"
+        ],
+        "resource_type": "api.project",
+        "predefined_role": false
