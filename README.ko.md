@@ -30,6 +30,10 @@
 
 `academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사해 보관합니다.
 
+## 어떻게 만들어지나
+
+sitemap 기반 자동 크롤 파이프라인으로 수집합니다(API 키 없음). `openai.com`과 `developers.openai.com` 모두 Cloudflare 봇 챌린지 뒤에 있어, URL은 각 사이트의 `sitemap.xml`에서 받고 본문은 Chrome 브라우저 지문(`curl_cffi`)으로 캡챠/헤드리스 브라우저 없이 챌린지를 통과해 가져옵니다. 페이지가 SSR이라 HTML에 본문이 들어 있습니다. Academy 영상 레슨은 Vimeo 자막으로 전사합니다. 재생성 절차는 `AGENTS.md` 참조.
+
 ## 출처 (Sources)
 
 - https://openai.com (news, research, index, policies)

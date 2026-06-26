@@ -30,6 +30,10 @@ Text content only, as of the crawl snapshot. No image or video files (videos are
 
 Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions.
 
+## How it's generated
+
+Crawled by an automated, sitemap-driven pipeline (no API keys). Both `openai.com` and `developers.openai.com` sit behind a Cloudflare bot challenge, so URLs come from each site's `sitemap.xml` and bodies are fetched with a Chrome browser fingerprint (`curl_cffi`) that passes the challenge without a captcha or headless browser; the pages are server-rendered, so the HTML already contains the text. Academy video lessons are transcribed from their Vimeo captions. See `AGENTS.md` for regeneration details.
+
 ## Sources
 
 - https://openai.com (news, research, index, policies)
