@@ -23,7 +23,7 @@ Collected as a reference source for talks and study, kept public so anyone can r
 
 ## Contents
 
-Text content only, as of the crawl snapshot. No image or video files (videos are transcribed from captions). Each file keeps a `<!-- source: <url> -->` header linking back to the original page.
+Mostly text, as of the crawl snapshot. No image or video files (videos are transcribed from captions), but PDF documents linked from pages (system cards, research papers, policy docs) are mirrored as their original `.pdf` files. Each file keeps a `<!-- source: <url> -->` header linking back to the original page.
 
 | Path | Content | Docs |
 |---|---|---|
@@ -34,6 +34,7 @@ Text content only, as of the crawl snapshot. No image or video files (videos are
 | `model-spec.openai.com/` | OpenAI Model Spec (full text) | 1 |
 | `openaifoundation.org/` | OpenAI Foundation | ~10 |
 | `openai.fund/` | OpenAI Startup Fund | ~3 |
+| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | PDF documents linked from pages (system cards, research papers, policy docs, Academy one-pagers), kept as original files | 228 PDFs |
 
 Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions, with a visible **Watch on Vimeo** link above each transcript.
 
@@ -66,7 +67,7 @@ The tree mirrors the source URLs (`<host>/<path>.md`), so a file's location maps
 
 ## Out of scope
 
-Product apps and operational / user-generated content are excluded: chatgpt.com, sora (product apps), openai.fm (demo), community.openai.com (user forum), status.openai.com (status page).
+Product apps and operational / user-generated content are excluded: chatgpt.com, sora (product apps), openai.fm (demo), community.openai.com (user forum), status.openai.com (status page). External PDFs cited on OpenAI pages (arxiv, conference proceedings, government / academic sources) are not mirrored, as they are not OpenAI publications. One OpenAI PDF (the DALL-E 3 System Card, 144 MB) exceeds GitHub's file-size limit and is left to its source link.
 
 ## Updating
 

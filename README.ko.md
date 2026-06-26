@@ -23,7 +23,7 @@
 
 ## 무엇이 담겨 있나
 
-크롤 시점(스냅샷) 기준 텍스트 본문만 보관합니다. 이미지/동영상 파일은 포함하지 않습니다(영상은 자막을 텍스트로 전사). 각 파일 상단에는 원문 링크 `<!-- source: <url> -->`가 붙어 있습니다.
+크롤 시점(스냅샷) 기준 대부분 텍스트 본문입니다. 이미지/동영상 파일은 포함하지 않지만(영상은 자막을 텍스트로 전사), 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서)는 원본 `.pdf` 파일로 보관합니다. 각 파일 상단에는 원문 링크 `<!-- source: <url> -->`가 붙어 있습니다.
 
 | 경로 | 내용 | 문서 수 |
 |---|---|---|
@@ -34,6 +34,7 @@
 | `model-spec.openai.com/` | OpenAI Model Spec 전문 | 1 |
 | `openaifoundation.org/` | OpenAI Foundation | 약 10 |
 | `openai.fund/` | OpenAI Startup Fund | 약 3 |
+| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서, Academy 원페이저), 원본 파일로 보관 | PDF 228개 |
 
 `academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사하고, 전사 위에 보이는 **Watch on Vimeo** 링크를 답니다.
 
@@ -66,7 +67,7 @@ git clone https://github.com/ai-native-engineer/openai-mirror.git
 
 ## 범위 밖
 
-제품 앱과 운영 / 사용자 생성 콘텐츠는 제외합니다: chatgpt.com, sora(제품 앱), openai.fm(데모), community.openai.com(사용자 포럼), status.openai.com(운영 상태).
+제품 앱과 운영 / 사용자 생성 콘텐츠는 제외합니다: chatgpt.com, sora(제품 앱), openai.fm(데모), community.openai.com(사용자 포럼), status.openai.com(운영 상태). OpenAI 페이지에 인용된 외부 PDF(arxiv, 학회 proceedings, 정부 / 학술 출처)는 OpenAI 발행물이 아니라 미러하지 않습니다. OpenAI PDF 1건(DALL-E 3 System Card, 144MB)은 GitHub 파일 크기 제한을 넘어 소스 링크로만 둡니다.
 
 ## 갱신
 

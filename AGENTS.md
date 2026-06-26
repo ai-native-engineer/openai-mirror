@@ -24,6 +24,7 @@ A **generated** archive, not a hand-maintained one. Every Markdown file under a 
 | `help.openai.com/` | Help Center |
 | `model-spec.openai.com/` | OpenAI Model Spec |
 | `openaifoundation.org/`, `openai.fund/` | OpenAI Foundation, Startup Fund |
+| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | PDF documents linked from pages, kept as original `.pdf` files (OpenAI-owned hosts only) |
 
 ## Conventions
 
@@ -34,4 +35,4 @@ A **generated** archive, not a hand-maintained one. Every Markdown file under a 
 
 ## Regenerating
 
-Owned by the `openai-mirror` skill (lives outside this repo). Both `openai.com` and `developers.openai.com` sit behind a Cloudflare bot challenge, so URLs come from each site's `sitemap.xml` and bodies are fetched with a Chrome browser fingerprint (`curl_cffi`) that passes the challenge without a captcha or headless browser. Academy video lessons are transcribed from Vimeo captions. Do not reimplement any of this inside the repo.
+Owned by the `openai-mirror` skill (lives outside this repo). Both `openai.com` and `developers.openai.com` sit behind a Cloudflare bot challenge, so URLs come from each site's `sitemap.xml` and bodies are fetched with a Chrome browser fingerprint (`curl_cffi`) that passes the challenge without a captcha or headless browser. Academy video lessons are transcribed from Vimeo captions, and PDF documents linked from pages are mirrored as their original `.pdf` files from OpenAI-owned hosts (text-layer PDFs kept as-is; image-only PDFs get an OCR text layer). Do not reimplement any of this inside the repo.
