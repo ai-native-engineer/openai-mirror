@@ -21,14 +21,16 @@ Text content only, as of the crawl snapshot. No image or video files (videos are
 | Path | Content | Docs |
 |---|---|---|
 | `openai.com/` | News, research, index articles, policies, global affairs, product pages | ~1,370 |
-| `developers.openai.com/` | API reference, guides, cookbook, Codex docs | ~3,410 |
+| `developers.openai.com/` | API reference, guides, cookbook, and the full **Codex** docs under `/codex` (CLI reference, config, hooks, MCP, subagents, sandboxing, IDE, SDK, enterprise, 80+ use-cases) | ~3,410 |
 | `academy.openai.com/` | OpenAI Academy blogs / resources / events + video transcripts (71 videos) | ~550 |
 | `help.openai.com/` | Help Center articles | ~450 |
 | `model-spec.openai.com/` | OpenAI Model Spec (full text) | 1 |
 | `openaifoundation.org/` | OpenAI Foundation | ~10 |
 | `openai.fund/` | OpenAI Startup Fund | ~3 |
 
-Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions.
+Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions, with a visible **Watch on Vimeo** link above each transcript.
+
+**Known limitation:** API reference pages under `developers.openai.com/api/` render their parameter tables via JavaScript, so the mirror keeps each endpoint's prose and overview but not the fully expanded interactive tables. The Codex docs and guides are full text.
 
 ## How it's generated
 

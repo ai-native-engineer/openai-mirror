@@ -21,14 +21,16 @@
 | 경로 | 내용 | 문서 수 |
 |---|---|---|
 | `openai.com/` | 뉴스, 연구, index 기사, 정책, global affairs, 제품 페이지 | 약 1,370 |
-| `developers.openai.com/` | API 레퍼런스, 가이드, cookbook, Codex 문서 | 약 3,410 |
+| `developers.openai.com/` | API 레퍼런스, 가이드, cookbook, `/codex` 하위 **Codex** 문서 전체(CLI 레퍼런스, config, hooks, MCP, subagents, sandboxing, IDE, SDK, 엔터프라이즈, use-case 80여 개) | 약 3,410 |
 | `academy.openai.com/` | OpenAI Academy 블로그 / 리소스 / 이벤트 + 영상 전사(71편) | 약 550 |
 | `help.openai.com/` | 헬프센터 article | 약 450 |
 | `model-spec.openai.com/` | OpenAI Model Spec 전문 | 1 |
 | `openaifoundation.org/` | OpenAI Foundation | 약 10 |
 | `openai.fund/` | OpenAI Startup Fund | 약 3 |
 
-`academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사해 보관합니다.
+`academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사하고, 전사 위에 보이는 **Watch on Vimeo** 링크를 답니다.
+
+**알려진 한계:** `developers.openai.com/api/` 하위 API 레퍼런스 페이지는 파라미터 표를 JavaScript로 렌더해서, 미러는 각 엔드포인트의 산문/개요는 담지만 완전히 펼쳐진 인터랙티브 표는 담지 못합니다. Codex 문서와 가이드는 전문이 들어옵니다.
 
 ## 어떻게 만들어지나
 

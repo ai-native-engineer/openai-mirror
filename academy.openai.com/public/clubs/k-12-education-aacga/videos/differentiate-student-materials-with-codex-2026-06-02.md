@@ -1,35 +1,5 @@
-<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02 -->
+# K-12:Differentiate Materials
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+<!-- vimeo: 1197917717 | track: English (auto-generated) -->
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
-
-Sign in or Join the community to continue
-
-Get Started
-
-# Differentiate Student Materials with Codex
-
-Posted Jun 03, 2026 | Views 376
-
-Share
-
-## Watch More
-
-[3:27](/en/public/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[Prioritize Your Emails with Codex](/en/public/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 252
-
-[3:39](/en/public/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-[Write a Lesson Plan with Codex](/en/public/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 262
-
-[3:22](/en/public/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-[Draft a Family Letter with Codex](/en/public/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 139
+In this demo, the task is straightforward: create differentiated materials for a figurative language lesson using student Lexile data to decide what each group needs. A teacher is able to use Codex to quickly turn this data into three versions of tomorrow's student materials. This seventh-grade ELA teacher is prepping for a figurative language lesson on a short stories unit. Prior to the unit, the teacher captured data in a pre-check, focusing on comprehension and figurative language. This informs the planning for her unit. Students all work towards the same goal: identify figurative language and explain how it shapes the meaning of the paragraph. However, despite a common goal, the materials need to meet students at their different Lexile levels to support learning. The teacher turns to Codex to create materials. She shares the spreadsheet of data that captures the pre-checks and the student's reading level. The teacher then provides context on the classroom and then specifies the output here, indicating that there should be three reading levels and student-facing material sets provided for each level. Then Codex gets to work. Codex has produced an output for the teacher to review. Let's take a look. Codex has created an output for reading level materials for the next day's lesson. At the top is a table indicating the reading level, the Lexile range, and corresponding students. Codex indicates the rationale and the data points used to create these groupings. Later in the lesson, Codex provides more details on instructional materials that the teacher can implement in the lesson plan. It includes tasks such as annotation, written response, expectations, and also vocabulary support and directions for the student. This allows the teacher to easily provide differentiated supports throughout their lesson. The teacher asks Codex to make a few adjustments on these materials. The teacher asks about making the materials usable as a one-page handout. Codex then goes to work. The second turn produces an output ready for the teacher's review. The teacher clicks on the document and sees Codex has made those changes. At the top, there's levels at a glance, as the teacher had indicated in their second prompt, and then there's student-ready handouts provided for each level. This makes the outcome concrete. There's three Lexile-aligned reading levels, three versions of the student materials, and they all focus on the same figurative language learning goal.

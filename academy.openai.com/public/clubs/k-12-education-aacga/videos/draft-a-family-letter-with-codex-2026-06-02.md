@@ -1,35 +1,5 @@
-<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02 -->
+# K12: Draft a family letter with Codex
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+<!-- vimeo: 1197821349 | track: English (auto-generated) -->
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
-
-Sign in or Join the community to continue
-
-Get Started
-
-# Draft a Family Letter with Codex
-
-Posted Jun 03, 2026 | Views 139
-
-Share
-
-## Watch More
-
-[3:39](/en/public/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-[Write a Lesson Plan with Codex](/en/public/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 262
-
-[3:09](/en/public/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-[Differentiate Student Materials with Codex](/en/public/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 376
-
-[3:27](/en/public/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[Prioritize Your Emails with Codex](/en/public/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Posted Jun 03, 2026 | Views 252
+A fifth-grade teacher has two events where she wants to share with families, back to school night and a farm field trip. The details are spread across a calendar, district guidance, and classroom notes. Rather than starting from a blank page, she's asking Codex to turn the context into a ready-to-share parent letter. Codex can work from the same materials the teacher already has. There are three source files, a family communication style guide provided by the district, planning notes from the fifth-grade team meeting, and notes the teacher has taken about her classroom. Codex can also connect to Google Calendar to give the event timing. Back to school night is on September 10th, and the Green Valley Farm field trip is on October 9th. Connecting to the calendar keeps the dates and times grounded in the real calendar rather than relying on teacher's memory. The teacher is then giving Codex one specific task, creating this letter about the two upcoming events and formulating it into a DOCX file. Codex is taking the context from the family style guide, the classroom notes, and the calendar to build out the family communication. Codex has pulled the details together into this document. I can open up the document and view it directly within Codex. I can see that the letter has all the correct information. It has the dates of the events, it has the supply request, reminders about what the students need to bring on their field trip, and then information about gathering parent volunteers. Codex has synthesized everything within the teacher's notes, calendar, and guidelines into a single document that can be used and sent out to parents. Then the realistic thing happens. The field trip gets moved back by one week due to the farm's availability. The teacher then needs to edit this family communication. They want to change the date from October 9th to the following week on October 16th, and also make adjustments to the font, make the title bigger, and change it to an even deeper green color so it stands out more. Codex updates the same exact letter. Rather than hunting through the document to find the updates, Codex does it automatically. Content and formatting can change together while the messaging stays short, warm, and family-friendly. The date has changed for the field trip to October 16th. The title has become a bit bigger and darker green, and now the letter is ready to send out to families. This is the reusable workflow. Gather real materials, ask Codex for the first useful draft, and then steer the final version with plain language changes.
