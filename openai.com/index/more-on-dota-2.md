@@ -30,6 +30,434 @@ The project’s timeline is the following. For some perspective, 15% of players 
 
 The full game is 5v5, but 1v1 also [appears⁠(opens in a new window)](https://www.youtube.com/watch?v=KOlw9SYjr4c) in some [tournaments⁠(opens in a new window)](http://wiki.teamliquid.net/dota2/Dota_2_Asia_Championships/2017/Solo_Tournament#Rules). Our bot played under standard tournament rules—we did not add AI-specific simplifications to 1v1.
 
+<!-- yt-inline:KOlw9SYjr4c -->
+[![Miracle- vs Paparazzi - Finals Solo 1v1 Game 1 Shadow Fiend - DAC 2017](https://img.youtube.com/vi/KOlw9SYjr4c/hqdefault.jpg)](https://www.youtube.com/watch?v=KOlw9SYjr4c)
+
+<details>
+<summary>자막: Miracle- vs Paparazzi - Finals Solo 1v1 Game 1 Shadow Fiend - DAC 2017 (12:37)</summary>
+
+[00:00]
+was smoking when he was a TI, but I'm
+fairly certain the 1v1 tournament a
+denial does not actually count as a
+kill.
+And it's first to two kills, not first
+to two deaths.
+Oh, the courier.
+Paparazzi with the leak going with the
+two branches once again for one less
+damage, but one more agility, one more
+intel. And how massive is that?
+Oh, what happened to his taunt?
+Yeah, show me that taunt. There we go.
+Miracle dish swag.
+He's he's he's got the swagger. I hope
+it automatically does it in the 1v1
+after the kill. Cuz it's kind of like
+it's a it's a team wipe. It's true
+true true. The taunt does get triggered.
+So, it's not always the players who
+actually do it. It is an in-game
+mechanic that can just automatically
+trigger the taunt.
+All right, let's see if Paparazzi
+actually gets the block as well. It's
+another thing which you kind of miss
+about the Warcraft 3 version. It
+actually spawned the creep wave after 30
+seconds. So, you didn't have to wait the
+entire time out like we are doing right
+
+[00:01]
+now. It was actually a hell of a lot
+quicker.
+Small things. It's the It's the little
+things. Trying to think if there's
+anything other than
+anything else that's cool that you can
+do in the match. I don't think we've
+seen anything else.
+Anyways, back to the radiant block. You
+can't really manipulate anything cuz
+you're not allowed to use You're not
+allowed to use the jungle camps or any
+creeps from inside the jungle. Um
+Nope. I I always wanted like if someone
+would be able to like like afford into
+the later game like a shadow amulet and
+then set a trap in the middle.
+Yeah, right. It's uh it's expensive. Oh,
+okay, Miracle. He lost the range creep.
+That's good. No, we had that debate last
+time. We had that debate during the
+quarterfinals. It's good if you can get
+the deny off. Yeah, but if you can't,
+then the creep wave for Paparazzi is now
+going to be held at the perfect
+position. So, Miracle needs to get the
+deny to make it work and he doesn't.
+Creep goes to uh to Paparazzi. And now
+Miracle's in a bit of a rough position
+where he's going to struggle to get
+control of the wave back again. Yeah,
+Paparazzi has pulled the melee creeps to
+the uphill. Even if Miracle times the
+last hit right, he might not be able to
+
+[00:02]
+get the last hit, but Then again,
+Paparazzi missed both of them. Oh, he's
+taking so much damage. Oh my god, he is
+not healthy on HP. And now he has to
+fight into See, this is what happens
+when you block. Yeah. And he's got the
+race keeping in front. Now you got the
+double wave coming the way of Miracle.
+He doesn't have the race to fight with,
+but Paparazzi's taking still a hell of a
+lot of damage at this early point of the
+game. Whoa. Okay.
+So many creeps and he's not level two
+yet, so he can't do anything about it.
+Push the tower. Two tower damage. That's
+what this comes down to or fight Miracle
+underneath his own T1 tower. Not the
+greatest in the world. Miracle does have
+the extra armor when he's got this. And
+Paparazzi can be careful not to take
+damage from the tower. He's running out
+of creeps. That's worth though. He got
+the range creep deny. But now Miracle is
+still farming underneath his own tower.
+It's not easy to last hit as an SF with
+four souls under your own tower though.
+I think overall this is a pretty big win
+for Paparazzi.
+I think he got one range creep deny
+versus the zero of Miracle. So, I would
+value like range creep
+
+[00:03]
+two maybe as opposed to regular one.
+Okay. So, he's at like four and three
+versus five and one.
+I guess it doesn't give you an extra
+soul though. Yeah, we just keep rubber
+banding the waves back and forward. This
+one's going to sit a little bit cleaner
+as Miracle okay. Oh, Miracle.
+He lined them up beautifully. He was
+ready for that. Please, he sells a tango
+immediately after. And now he's going to
+lose like four souls because of this. Oh
+my god.
+He actually is able to deny up to almost
+the entire wave as well. He took three
+out of those four in the creep wave and
+three denies.
+Paparazzi
+Yeah, he he was definitely ready. I like
+how he has tangos too. I haven't seen
+too many other players go with tangos.
+They just wants to go with salves.
+They've always been doing the salves.
+There's not going to be no consistent
+regeneration. And now okay, quickly
+Wraith is just establishes who's boss.
+Well, you know Miracle's mana is at 48
+versus Paparazzi who can triple Wraith.
+Hello.
+Ooh. And Miracle back to the safety of
+the T1 tower.
+And
+At least he knows this is a best of
+three. So, if Even if this SF match up
+
+[00:04]
+goes a little bit haywire, there's still
+a second chance.
+How was the
+XP looking? Level four versus level
+three and a half, I believe. Uh just shy
+of the four of Paparazzi. But Miracle's
+at least got a better position now with
+the creep wave. No, he doesn't.
+have his regeneration, however, which is
+the bigger problem. He doesn't have mana
+to uh prevent Paparazzi from going up
+Oh, that was a whiff. Yeah, it was
+attempted attempted cancel.
+Miracle just moves back underneath the
+tower. He's still getting the the denies
+underneath the tower.
+And Miracle needs a break here.
+He has it. He has He has clarity.
+Just Just don't lose it. Wraith Wraith
+is on the way back into the soul world.
+1v1s are stressful. Oh, another missed
+Wraith. And that almost works for
+Miracle because now he's able to deny up
+that range creep in relative safety.
+Turns for his own Wraith Wraith doesn't
+actually hit most of the radiant creep
+wave, so he doesn't lose that momentum
+either. No sticks yet for either side.
+Paparazzi going for the clarity Miracle.
+Looks like you got one on Miracle.
+
+[00:05]
+Are they going to both chicken out and
+just not try and hit the long range
+Wraith or are they both going to try and
+man up?
+The only chicken out is Paparazzi. Oh,
+no. Yeah.
+He's got the These are donkeys.
+Oh, nice dodge.
+Bait it.
+See, why don't actually come in closer?
+Like Miracle still needs to just let the
+con
+Let the salve burn off.
+Radiant vision is OP with the observer
+ward strength. You really want to have
+ward by night time by the way. This is
+actually quite important.
+Something Miracle might uh
+Well, he's actually got salves like in
+He's got two salves in his stash. He
+could afford the observer ward if he
+wanted. The courier just came back and
+uh
+Paparazzi is trashing Miracle in denies.
+10 to three.
+That's disgusting.
+Hey, there's always Wraith to come back,
+right?
+Not if you have no mana.
+Yeah, that is a problem. And you can't
+use runes. You can't use bottle. This is
+where the big level difference comes
+into play. Level five versus level four
+
+[00:06]
+and a half. That's not even close in
+level. Miracle again having to cop the
+Wraith and the and a physical attack. I
+mean he has a proper stick already. No
+surprise factor there.
+Yeah, and the full magic wand the on
+Paparazzi.
+clarity?
+Yeah, he should be able to. Uh it's
+night time, dude. And the observer
+ward's on his hill. I don't actually
+know if he sees it.
+Now he does.
+Just out of vision. He He could see him
+turning like he does see him to try and
+do the Wraith. Dude, Paparazzi has had
+to play so many 1v1s to play like this.
+It's It's
+ridiculous how good he is
+in this 1v1.
+Miracle just has to hug the safety that
+is his T1 tower. Build up his souls. Put
+Paparazzi into a bad position and don't
+let that clarity stop.
+Okay, now now we're back to parity with
+level five versus level five.
+Oh, the Wraith is from Miracle.
+Another range creep deny though. This
+really start to add up. Level six versus
+level five. Not that big of a deal
+unless you skill Requiem at six, which
+we haven't really seen too much cuz they
+I believe expect this to go a little bit
+longer. Yeah, it looks like it's going
+
+[00:07]
+to.
+Still decent amount on the line. You
+want to take a trophy home from this.
+So, even if both these teams are unable
+to claim victory of the entire on on the
+entire of DAC,
+they can still take home a trophy.
+Obviously, Liquid are incapable of doing
+that now.
+IGV still in the running.
+All right. Courier still in the run
+again. Miracle is in desperate need of
+of consumables.
+No boots either. Both of them committed
+heavily to regen. All right. So, they're
+they're both basically finish up their
+magic wands now. Dude, he is getting
+trashed in denies. It was 10 to three.
+That was 19 to three. Hey, it just takes
+a good couple of Wraiths and you get
+back into this. Obviously, Miracle needs
+mana. If you were on Miracle's side, you
+would see see the truth, Toby.
+I probably would, but we'll live in
+denial for now.
+Just like Miracle.
+He doesn't have any denies, man. That's
+all Paparazzi's. 20 20 denies to three
+denies. It's
+Yeah.
+
+[00:08]
+Miracle does not earn this mid lane at
+all. I think he probably Yeah, now he
+definitely sees the clarity. Well,
+Wraith number one. That's all he's got,
+but Paparazzi still has five wand
+charges, three tango charges, as well as
+the salve. That's a lot to go for.
+[Laughter]
+Wonderful way to fill in the details of
+Carle.
+Glad that I'm even laughing at that. I
+was like
+I actually looked over to Miracle's face
+when he wrote it. And he is totally
+serious when he when he wrote that. Like
+there wasn't even a smirk coming up on
+his face when he did it.
+They're in the zone.
+Do you get in the zone when you play
+Dota, Toby? Uh yeah, but my zone is one
+of failure.
+That's why I get into the zone of
+commentary.
+And when you do that, I won't notice
+anything.
+Like I actually gave myself burn
+blisters on my feet
+uh during the middle of a cast. I
+actually burned my foot on the carpet
+
+[00:09]
+cuz I was just like
+doing that little nervous thing when you
+sit still
+and managed to actually like burn a hole
+in the bottom of my foot during the
+middle of a cast. Didn't even notice.
+Miracle trouble? It seems that if we go
+on a side story, Miracle like somebody
+gets in a lot of trouble.
+This This time it's Miracle.
+Need some boots, sir.
+He does.
+Cannot afford it.
+Cuz now the deny count is 25
+to three.
+And Paparazzi has this in the bag as
+long as he doesn't screw it up. That's
+That's all he needs to do. And Miracle
+okay.
+He might need to refresh that observer
+ward actually kind of soon. It's about
+to expire.
+Well, he should have the money for it.
+See that net worth difference? It's
+almost a thousand net worth difference
+between the two.
+And Paparazzi knows it.
+I've heard some uh
+different philosophies on like the boots
+choice for Shadow Fiend. There's a lot
+of different options you can go with at
+this point. You can go Aquila to push a
+tower. You can go casual buckler is mega
+
+[00:10]
+value because you're right-clicking a
+lot. You can also go for
+treads or phase. Phase pretty good at
+chasing people down. Treads just
+straight better on one-on-one man
+fighting, depending on what you think's
+going to happen. So, this is where it
+gets maybe a little bit unorthodox.
+Blade Mail owns in 1v1, too. Oh my god,
+it is so good. Affording that is going
+to be rather difficult, however. Like
+the chain mail little the gun, like at
+least that part can be bought. Like uh
+Like that that'll help you in the in the
+physical battle.
+But when you've got half of the CS,
+in fact, all the CS which is currently
+missing from Miracle, if you took the
+denies of Paparazzi, he's got 80 in
+total. 81 in total against the 30
+of Miracle, if you start counting up the
+denies and and last hits. I need boots.
+He needs something. But like right now
+it's it's poverty versus riches. Yeah.
+He sounds like that CM that got trashed
+like 15 minutes in. I still don't have
+my boots, guys. I died eight times. I
+died eight times. I don't know what I'm
+meant to do. Frostbite creep in the
+
+[00:11]
+jungle. Can you please buy the wards,
+Dazzle? I need my boots.
+I will purchase boots of speed.
+Oh, man. This is getting uglier and
+uglier. Yeah, like you wonder when's the
+point where you say, "You know what? I
+actually just have to TP back."
+Uh I have to go back and just and TP TP
+out. Like that's it.
+You can double raise the next wave. Can
+do it. Actually, I don't think he has
+enough mana to do so. It looks like he
+doesn't really want to miss that much.
+He's got a clock coming in for
+Paparazzi. So, he's going for the
+resistance. So, Miracle's way back into
+this is going to be through like that
+quick bursting of razes if he can do it.
+But he's building up uh stick charges.
+11 of five. 11 is almost enough to
+tickle a raze.
+Yeah. 12 Oh, casual clock. Oh, wow.
+That is actually pretty cool. He's not
+going to be taking that much that many
+right clicks. He's just going to go
+straight for the max razes. It's that
+
+[00:12]
+man It's the only way Miracle can get
+back into this. He's He's got to
+actually trigger multiple razes and
+Paparazzi is not going to let the damage
+fly his way. Maybe this is where you
+commit to like a blight stone though by
+Miracle and just go for the straight
+one-on-one. Okay, Miracle comes in
+really really close. He's still only got
+one one one shot up his sleeve and
+Paparazzi will take it. The raze behind
+the tower. Miracle knew it was falling
+apart for him. That was
+So, game one Game one is done. Miracle
+actually like pushed his chair back at
+the end of that. He's like, "Oh,
+Okay, what do I do now?" You didn't
+mention Maybe he thought the whole thing
+was over. That one raze creep It didn't
+serve him that well.
+
+</details>
+
+
 The bot operated off the following interfaces:
 
 * **Observations:** Bot API features, which are designed to be the same set of features that humans can see, related to heroes, creeps, courier, and the terrain near the hero. The game is partially observable.

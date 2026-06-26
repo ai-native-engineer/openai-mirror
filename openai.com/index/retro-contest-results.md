@@ -100,6 +100,199 @@ Loading...
 
 Dylan currently lives in Paris, France. He is a student in software development at [school 42 in Paris⁠(opens in a new window)](https://en.wikipedia.org/wiki/42_(school)). He got into machine learning after watching [a video⁠(opens in a new window)](https://www.youtube.com/watch?v=qv6UVOQ0F44) of a genetic algorithm learning how to play Mario a year and a half ago. This video sparked his interest and made him want to learn more about the field. His favorite video games are Zelda Twilight Princess and World of Warcraft.
 
+<!-- yt-inline:qv6UVOQ0F44 -->
+[![MarI/O - Machine Learning for Video Games](https://img.youtube.com/vi/qv6UVOQ0F44/hqdefault.jpg)](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+
+<details>
+<summary>자막: MarI/O - Machine Learning for Video Games (5:57)</summary>
+
+[00:00]
+Welcome back. Seeing here. You're
+watching a skilled player play Super
+Mario World. But this player is not
+human. It's a computer program I wrote
+called Mario. This program started out
+knowing absolutely nothing about Super
+Mario World or Super Nintendo's. In
+fact, it didn't even know that pressing
+right on the controller would make the
+player go towards the end of the level.
+It learned all of these things through a
+process called
+neuroeolution. In this video, I want to
+teach you about how Mario learned to
+beat this level. Donut Plains 1. what
+his brain looks like and how it's all
+based on actual biological evolution.
+So, let's start out by actually looking
+at Mario's brain. Let's play it again,
+but this time we'll look at Mario's
+brain as it's making the decisions of
+what buttons to press. It's going to
+look a bit complicated at first, but
+don't worry, I'll help break it down for
+you. This structure of colored lines and
+blinking boxes is called a neural
+network. It's a simple mathematical
+model for how a brain works, but it can
+produce some very complicated behavior.
+With enough computational power, a
+neural network could come close to
+
+[00:01]
+simulating a real human brain, but
+modern technology isn't there yet. On
+the left side, you have the inputs. This
+is what Mario sees. It's a simplified
+view of the level. The white squares
+stand for blocks the player can stand
+on, and the black squares stand for
+moving objects like enemies or
+mushrooms. On the right side, you have
+the outputs. These are the eight buttons
+that Mario is able to press by using its
+neural network. In between the inputs
+and the outputs, all those lines and
+boxes, those are the neural network.
+Each free floating box is called a
+neuron. And the lines connecting those
+boxes are like the axons and dendrites
+in a human brain. At any given time,
+only some of these neurons and
+connections are actually being used. And
+this is what people talk about when they
+say you only use 10% of your brain. The
+neural network you're seeing is a pretty
+complicated one. And it got so
+complicated as a result of a 24-hour
+evolutionary learning session. So to
+explain how neural networks work, let's
+rewind about 24 hours and look at how
+the whole process started. This is what
+
+[00:02]
+Mario looked like at the beginning of
+its training session all the way back in
+generation number zero. The program is
+probably even dumber than you thought at
+this point. Often it just stands there
+and doesn't even press any buttons. If
+Mario stands still for too long, it'll
+cut off the simulation and try the next
+neural network. So, it's mostly just
+jumping from one simulation to the next,
+but occasionally the neural network says
+to press the right button, and the
+player starts walking right. Behavior
+isn't complicated, but it's enough to
+make at least some progress in the
+level. Let's take a look at a sample
+neural network to understand just how
+that works. This is one of the randomly
+generated neural networks that appeared
+in the first generation of the
+simulation. There are some green lines
+and a red line and one neuron in the
+middle. Here's how it works. A green
+line is a positive connection and a red
+line is a negative connection. A green
+line reading from a black or white
+square will turn its output the same
+color. A red line reading from a black
+or white square will turn its output the
+opposite color. In this case, the green
+lines read from the platform that the
+
+[00:03]
+player is standing on and make the
+neural network press the right button as
+long as the player is standing on it.
+However, when the red line reads a black
+square representing one of those caped
+Koopas, it presses the A button and
+makes the player jump. This this puts
+the player in a position where the green
+lines are no longer reading a white
+square. So the right button turns off
+and Mario just stands there. This is a
+really basic example that illustrates
+how a more complicated neural network
+might operate. The more lines and
+neurons you have, the more nuanced to
+the decisions can be. So how exactly do
+we get those more complicated neural
+networks? The answer is evolution. When
+Mario gets further right on the screen,
+its fitness goes up. In this case,
+fitness is a function of how far right
+it gets and how quickly it gets there.
+Only the neural networks that produce
+the highest fitness are selected to be
+bred, creating the next generation. It
+took 34 generations of genetic breeding
+and fitness evaluation before Mario was
+able to finish the level without dying
+and get a fitness score above 4,000. You
+
+[00:04]
+can see there were several places it got
+stuck for a few generations, but it
+always evolved out of those ruts. Let's
+take a look at a few of those ruts. You
+can look at the top left corner of the
+screen to see what generation number
+each rut occurred on. This process of
+picking the fittest individuals from
+each generation, breeding them together,
+and adding random mutations very closely
+matches the actual process of biological
+evolution that took single-sellled
+organisms and produced intelligent
+humans. That's the power of
+neuroeolution.
+And though we don't yet have enough
+computational resources to produce
+something on the level of a human brain
+this way, it's kind of neat to see what
+it can do on one of my favorite
+games. I didn't come up with this idea
+on my own. This algorithm is called NEAT
+which stands for neuroeolution of
+augmenting topologies and it's based on
+a paper by Kenneth Stanley and Risto
+Miku Linen. It's a really great paper
+that describes how to use genetic
+algorithms to build up neural networks
+from barebones without presupposing the
+
+[00:05]
+best structure for the neurons and their
+connections. It also includes some
+really cool ideas for separating genomes
+into species, which a lot of genetic
+algorithms don't really try and do. I
+wrote Mario from scratch in Lua as a
+plug-in for an emulator called Bisok. As
+I close out the video, let's take a look
+at the fittest neural network in each
+generation. It's kind of cool how
+sometimes you can see them make
+modifications to each other and improve
+performance, but sometimes an entirely
+new species becomes prominent and
+dominates the others. If you'd like to
+do more reading about the concepts I
+talked about in this video, I provided
+some links in the video description. I
+had a lot of fun working on this project
+and I learned a ton. Hopefully, you
+learned something, too. That's about it.
+Thanks for watching.
+[Music]
+
+</details>
+
+
 Loading...
 
 ### Oleg Mürk

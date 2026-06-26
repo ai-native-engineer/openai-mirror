@@ -25,6 +25,140 @@ If you’re not sure where to begin, here are some solved starter problems.
 
 ⭐ Implement a clone of the classic [Snake⁠(opens in a new window)](https://www.youtube.com/watch?v=wDbTP0B94AM) game as a [Gym⁠(opens in a new window)](https://github.com/openai/gym) environment, and solve it with a [reinforcement learning⁠(opens in a new window)](https://arxiv.org/abs/1707.06347) algorithm of your choice. [Tweet⁠(opens in a new window)](https://twitter.com/openai) us videos of the agent playing. Were you able to train a policy that wins the game?
 
+<!-- yt-inline:wDbTP0B94AM -->
+[![Snake Game. The longest life. Laurie Anderson-O Superman. Youtube version](https://img.youtube.com/vi/wDbTP0B94AM/hqdefault.jpg)](https://www.youtube.com/watch?v=wDbTP0B94AM)
+
+<details>
+<summary>자막: Snake Game. The longest life. Laurie Anderson-O Superman. Youtube version (9:01)</summary>
+
+[00:00]
+H-
+oh Superman
+h
+Oh J H.
+Oh, mom and dad.
+H.
+Mom and dad. Ha
+h.
+
+[00:01]
+[Laughter]
+Oh, Superman.
+H.
+Oh, Jama
+H.
+Oh, mom and dad.
+Mom and dad.
+Hi.
+I'm not home right now, but if you want
+to leave a message, just start talking
+at the sound of the tone
+h.
+[Music]
+This is your mother. Are you there? H
+Are you coming home?
+
+[00:02]
+Haha.
+H
+hello.
+Is anybody home?
+Well, you don't know me,
+but I know you
+h
+and I got a message
+to give to you. H.
+Here come the plane.
+[Music]
+So you better get ready.
+Ready to go.
+You can come as you are.
+
+[00:03]
+Pay as you go.
+[Music]
+Hey, as you go
+h
+and I said, "Okay,
+who is this really?" H.
+And the voice said, "H,
+this is the h
+[Music]
+that day. H,
+this is the h.
+The h that takes.
+H.
+This is the hand.
+
+[00:04]
+The hand that takes.
+[Music]
+Here come the plane.
+Is there American planes
+made in America?
+Smoking or nonsmoking?
+Ah. H.
+[Music]
+And the voice said
+hither
+snow nor rain
+nor
+shall stay
+[Music]
+from the swift completion
+of their appointed round.
+
+[00:05]
+H P H
+P H P H P H P H P H P H P H P H P H P H
+P H P H P H
+Cuz when love is gone
+h
+there's no least justice
+h
+and when justice is gone
+h
+[Music]
+there's always force.
+H.
+
+[00:06]
+And when is gone h
+there's always mom.
+Hi mom. H.
+[Music]
+So hold me
+h
+and you're m
+so hold me
+in and your llama
+h
+in your autumn. Automatic arm.
+[Music]
+
+[00:07]
+Your electronic arm
+in your arm.
+So hold me
+in. And you're long.
+H
+your petrochemical.
+You're military
+[Music]
+h in your electronic.
+[Music]
+H.
+[Music]
+
+[00:08]
+Heat.
+Huh?
+[Music]
+Huh?
+
+</details>
+
+
 ## Requests for Research
 
 ⭐⭐ **Slitherin’.** Implement and solve a multiplayer clone of the classic [Snake⁠(opens in a new window)](https://www.youtube.com/watch?v=wDbTP0B94AM) game (see [slither.io⁠(opens in a new window)](https://slither.io/) for inspiration) as a [Gym⁠(opens in a new window)](https://github.com/openai/gym) environment.

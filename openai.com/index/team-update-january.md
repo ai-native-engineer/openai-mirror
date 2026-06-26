@@ -29,6 +29,41 @@ Welcome to everyone who’s joined since our last [team update⁠](/index/team
 * **Rachel Fong**. Rachel most recently worked on data engineering at [Locu⁠(opens in a new window)](https://locu.com/). In the past she’s designed robots, and built a haptic surgical simulator, a $50 desktop 3D scanner, and an NLP backend to extract data from uploaded documents to create personalized curriculums for learning language. She studied computer science at MIT.
 * **Shariq Hashme**. Shariq founded an OCR startup, and previously worked at Gigster. He also builds DIY projects, like a [$80 VR treadmill⁠(opens in a new window)](https://www.youtube.com/watch?v=YEyHI_3PDMc), a portable shower, and a device to control a mouse cursor with a tongue. He studied Computer Science and Electrical Engineering at the University of Maryland, where he founded a [hackathon club⁠(opens in a new window)](https://www.cs.umd.edu/article/2013/10/terrapin-hackers-awarded-1st-place-trophy-major-league-hacker-standings) which won the first-ever [Major League Hacking⁠(opens in a new window)](https://mlh.io/) season.
 * **Szymon Sidor**. [Szymon⁠(opens in a new window)](https://twitter.com/sidorszymon) previously worked on model-based reinforcement learning at [Vicarious⁠(opens in a new window)](http://vicarious.com/), question answering at MetaMind, and on real-time file processing infrastructure at Dropbox. He earned his master’s degree from MIT, where he explored reinforcement learning approaches to multi-stage reasoning in natural language processing, and identified [security flaws in Android⁠(opens in a new window)](https://www.youtube.com/watch?v=sDzs6y4JVok).
+
+<!-- yt-inline:sDzs6y4JVok -->
+[![Covert video capture on Android.](https://img.youtube.com/vi/sDzs6y4JVok/hqdefault.jpg)](https://www.youtube.com/watch?v=sDzs6y4JVok)
+
+<details>
+<summary>자막: Covert video capture on Android. (1:00)</summary>
+
+[00:00]
+Here is the demo of the application. So,
+the phone is currently recording photos
+even uh when the screen is off. And if
+you check out the interface, it
+basically displays the photos as they
+refresh. Uh it it displays battery level
+so that you know where to when to stop.
+You can update you can change the update
+frequency. You can see what's the
+network connection so that you don't use
+up too many of mobile connection of that
+given user. You can stop taking photos
+and you can see the current location of
+the user. As you can see on the phone,
+there is absolutely no indication that
+anything is going on. Uh you can also
+like switch it on and hide for the
+pin. And there you go. You can you can
+see that there's no visual indication
+that photo is taken. You can see that no
+app is running as well and the photos
+are still being updated on the
+website. Okay, that's it. Thank you very
+much.
+
+</details>
+
 * **Tom Brown**. [Tom⁠(opens in a new window)](https://twitter.com/nottombrown) was the cofounder and CTO of [Grouper⁠(opens in a new window)](https://en.wikipedia.org/wiki/Grouper_social_club), where he wrote algorithms that used Facebook data to match up millions of people so they could meet in the real world. Before that he studied [computational cognitive science⁠(opens in a new window)](http://cocosci.mit.edu/) at MIT, and built early versions of the core server at [MoPub⁠(opens in a new window)](http://mopub.com/), now the [world’s largest mobile ad server⁠(opens in a new window)](http://www.businessinsider.com/twitter-acquires-mobile-ad-network-mopub-for-350-million-will-an-ad-exchange-come-next-2013-9).
 * **Yaroslav Bulatov**. [Yaroslav⁠(opens in a new window)](https://yaroslavvb.blogspot.com/) was previously an engineer at Google Brain and Google Streetview, where he implemented and trained large-scale neural networks. He designed the first [system⁠(opens in a new window)](https://arxiv.org/abs/1312.6082) that outperformed humans at recognizing outdoor house numbers.
 

@@ -26,6 +26,64 @@ Below are a few examples of the artists’ work, with early thoughts from them o
 
 Based in Toronto, [shy kids⁠(opens in a new window)](https://www.instagram.com/shykids_/) are a multimedia production company who utilized Sora for their short film about a balloon man. “We now have the ability to expand on stories we once thought impossible,” shares the trio made up of Walter Woodman, Sidney Leeder and Patrick Cederberg. Walter, who directed *Air Head*, remarks that “as great as Sora is at generating things that appear real, what excites us is its ability to make things that are totally surreal. A new era of abstract expressionism.” Speaking to the wider industry, “people from all over the world with stories ready to burst out of their chests finally have the opportunity to show the world what’s inside.” See how shy kids incorporated Sora as part of their creative process [here⁠(opens in a new window)](https://www.youtube.com/watch?v=KFzXwBZgB88).
 
+<!-- yt-inline:KFzXwBZgB88 -->
+[![air head 🎈 behind-the-scenes](https://img.youtube.com/vi/KFzXwBZgB88/hqdefault.jpg)](https://www.youtube.com/watch?v=KFzXwBZgB88)
+
+<details>
+<summary>자막: air head 🎈 behind-the-scenes (1:47)</summary>
+
+[00:00]
+my name's Walter I'm a director at shy
+kids I'm Sydney I'm a producer at shy
+kids my name is Patrick I'm one of the
+directors here at shy kids and I helped
+put together our first experiment with
+Sor called
+Airhead if you haven't heard Sora is a
+brand new text to video AI tool and it
+made us feel like our head was just
+expanding with ideas so we wrote a quick
+script about this man with a balloon for
+his head how do you maintain a character
+and look consistent even though Sora is
+very much a slot machine as to what you
+get back and it's not as easy as just a
+magic trick type something in get
+exactly what you were hoping for what
+ultimately you end up seeing took work
+time in human hands to get it looking
+semic consistent be that through the
+curation the script writing the editing
+the voiceover the music sound design
+color correction all the typical post
+production stuff we've always embraced
+new technologies using Sora definitely
+
+[00:01]
+opens up a lot more possibilities
+especially with indie film Crews working
+on lowbudget projects which often times
+I am given the opportunity to experiment
+with it my personal goal was to
+highlight the optimism that can be found
+in it even with a technology that some
+might deem as cold and impersonal you
+can still bring your human intuition
+with storytelling into it and create
+something that works no I think Airhead
+is figuring out life and feels a little
+bit diff from everybody else but
+ultimately learns to embrace those
+differences and I think that film making
+is all about perspective it's all about
+who's coming from a unique
+place where does he go next that's a
+great
+question
+
+</details>
+
+
 ## Paul Trillo, Director
 
 [Paul Trillo⁠(opens in a new window)](https://www.instagram.com/paultrillo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==) is a multi-disciplinary artist, writer, and director whose work has earned accolades from outlets like Rolling Stone and The New Yorker. Paul has garnered 19 Vimeo Staff Picks, an honor given to the best short films hosted on Vimeo. “Working with Sora is the first time I’ve felt unchained as a filmmaker,” he states. “Not restricted by time, money, other people’s permission, I can ideate and experiment in bold and exciting ways.” His experimental videos reflect this approach. “Sora is at its most powerful when you’re not replicating the old but bringing to life new and impossible ideas we would have otherwise never had the opportunity to see.”

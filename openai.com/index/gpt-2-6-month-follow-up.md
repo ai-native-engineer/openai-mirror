@@ -58,6 +58,3458 @@ We think that a combination of staged release and partnership-based model sharin
 * **May 2019**
 
   [OpenAI testifies in Congress⁠(opens in a new window)](https://www.youtube.com/watch?v=tdLS9MlIWOk) about the implications of synthetic media, including a discussion of synthetic text.  
+
+<!-- yt-inline:tdLS9MlIWOk -->
+[![Open Hearing on Deepfakes and Artificial Intelligence](https://img.youtube.com/vi/tdLS9MlIWOk/hqdefault.jpg)](https://www.youtube.com/watch?v=tdLS9MlIWOk)
+
+<details>
+<summary>자막: Open Hearing on Deepfakes and Artificial Intelligence (2:18:21)</summary>
+
+[00:00]
+you
+
+[00:07]
+I
+
+[00:08]
+the committee will come to order before
+we begin I want to remind all members
+that we are an open session and as such
+we will discuss unclassified matters
+only at least have a seat our members
+may be wondering in a bit late we were
+here until 1:00 in the morning
+but those unarmed services were here
+until about 5:00 or 6:00 in the morning
+so you have a few groggy members here on
+the on the committee in the heat of the
+2016 election as the Russian hacking and
+dumping operation became apparent my
+predominant concern was that the
+Russians would begin dumping forged
+documents along with the real ones that
+they stole it would have been all too
+easy for Russia or another malicious
+actor to cede forged documents among the
+authentic ones in a way that would make
+
+[00:09]
+it almost impossible to identify or
+rebut the fraudulent material even if a
+victim could ultimately expose the
+forgery for what it was the damage would
+be done three years later we're on the
+cusp of a technological revolution that
+could enable even more sinister forms of
+deception and disinformation by malign
+actors foreign or domestic advances in
+AI and machine learning have led to the
+emergence of advanced digitally doctored
+types of media so-called deep fakes that
+enable malicious actors to foment chaos
+division or crisis and they have the
+capacity to disrupt entire campaigns
+including that for the presidency rapid
+progress and artificial intelligence
+algorithms has made it possible to
+manipulate media video imagery audio
+text with incredible nearly
+imperceptible results with sufficient
+training data these powerful deep fake
+generating algorithms can portray a real
+
+[00:10]
+person doing something they never did or
+saying words they never uttered these
+tools are readily
+available and accessible and accessible
+to both experts and novices alike
+meaning of that attribution of a deep
+fake to a specific author whether a
+hostile intelligence service or a single
+internet troll will be a constant
+challenge
+what's more once someone views a deep
+fake or a fake video the damage is
+largely done even if later convinced
+that what they have seen is a forgery
+that person may never lose completely
+the lingering in evident negative
+impression the video has left with them
+it is also the case that not only may
+fake videos be passed off as real but
+real information can be passed off as
+fake this is the so called liars
+dividend in which people with propensity
+to deceive are given the benefit of an
+environment in which it is increasingly
+difficult for the public to determine
+what is true to give our members and the
+
+[00:11]
+public a sense of the quality of deep
+fakes today I want to share a few short
+examples and even these are not the
+state-of-the-art the first comes from
+Bloomberg Businessweek and demonstrates
+an AI powered clone voice of one of the
+journalists so let's watch the now to
+really put my computer voice to the test
+I am going to call my dear sweet mother
+and see if she recognizes me I'm just
+finishing up work and waiting for the
+boys to get home ok I think I'm coming
+down with a virus I was messing around
+
+[00:12]
+with you you were talking to a computer
+[Music]
+alright it's bad enough that was a fake
+but he's deceiving his mother and
+telling her that he's got a virus that
+seems just downright cruel the second
+clip comes from quartz and demonstrates
+a puppet master type of deep
+fake video as you can see these people
+are able to co-op the head movements of
+their targets if married with convincing
+audio you can turn a world leader into a
+ventriloquist dummy next a brief CNN
+clip highlighting new research from
+Professor Hany Farid an acclaimed expert
+on deep fakes from UC Berkeley and
+featuring an example of a so-called Face
+Swap video in which senator Elizabeth
+Warren's face is seem seamlessly
+transplant excuse me transplanted on the
+
+[00:13]
+body of SNL actress Kate McKinnon
+so the only problem in that video is
+Kate McKinnon actually looks a lot like
+Elizabeth Warren but the one on the left
+was actually capable were Kate McKinnon
+one just had Elizabeth Warren's face
+swapped onto her but it shows you just
+how convincing that kind of technology
+can be these algorithms can also learn
+from pictures of real faces to make
+completely artificial portraits of
+persons who do not exist at all can
+anyone here pick out which of these
+faces are real and which are fake and
+and of course as you may have all
+guessed all four are fake all four of
+those faces are synthetically created
+none of those people are real I think
+
+[00:14]
+you head to 2020 and beyond the one does
+not need any great imagination to
+envision even more nightmarish scenarios
+that would leave the government the
+media and the public struggling to
+discern what is real and what is fake a
+state backed actor creates a deep fake
+video of a political candidate accepting
+a bribe with a goal of influencing an
+election or an individual hacker claims
+they've stolen audio of a private
+conversation between two world leaders
+when in fact no such conversation took
+place or a troll farm uses texture
+generating algorithms to write false or
+sensational news stories at scale
+flooding social media platforms and
+overwhelming journalists ability to
+verify and users ability to trust what
+they are seeing or reading what enables
+deep fakes and other modes of
+disinformation to become truly
+pernicious is the ubiquity of social
+media and the velocity at which false
+information can spread we got a preview
+of what that might look like recently
+
+[00:15]
+when a doctored video of Speaker Nancy
+Pelosi went viral on Facebook receiving
+millions of views in the span of 48
+hours that video was not an A I assisted
+deep fake but rather a crude manual
+manipulation that some have called a
+cheap fake nonetheless the videos
+virality and social media demonstrates
+the scale of the challenge we face and
+the responsibilities that social media
+companies must confront already the
+companies have taken different
+approaches with YouTube deleting the
+altered video speaker Pelosi while
+Facebook labelled it as false and
+throttled back the speed it spread once
+it was the zine deemed fake by
+independent fact checkers now is the
+time for social media companies to put
+in place policies to protect users from
+this kind of misinformation not in 2021
+after viral deep fakes have polluted the
+2020 elections by then it will be too
+late and so in keeping with a series of
+open hearings that have examined
+different strategic challenges to our
+
+[00:16]
+national security and our democratic
+institutions the committee is devoting
+this hearing to deep fakes and synthetic
+media we need to soberly understand the
+implications of deep fakes the
+underlying AI technologies and the
+internet platforms that give them breach
+before we consider appropriate steps to
+mitigate the potential harms we have a
+distinguished panel of experts and
+practitioners to help us understand and
+contextualize the potential threat of
+deep fakes but before turning to them
+I'd like to recognize the ranking member
+Nunez for any opening statement he would
+like to give Thank You mr. chairman
+I join you in your concern about deep
+fakes and want to add to that fake news
+fake dossiers and everything else that
+we have in politics
+I do think that with in all seriousness
+though this is this is real um if you
+get on online you can see pictures of
+yourself mr. chairman on there they're
+quite entertaining some of them I
+
+[00:17]
+decided not to maybe they're intending
+for you I decide not to play em today
+but with all seriousness I appreciate
+the panelists being here look forward to
+your testimony
+I thank the ranking member without
+objection these opening statements will
+be made part of the record I'd like to
+welcome today's panel first Jack Clark
+who is the policy director of open AI a
+research and technology company based in
+San Francisco and a member of the Center
+for a new American securities Task Force
+on artificial intelligence and national
+security next
+David Dorman a professor and director of
+artificial intelligence the artificial
+intelligence Institute at the University
+of Buffalo until last year he was the
+program manager of DARPA z-- media
+forensics program Danielle citron is a
+professor of law at the University of
+Maryland Frances King Carey School of
+Law and she has co-authored several
+notable articles about the potential
+impacts of deep fakes on national
+
+[00:18]
+security and democracy and finally mr.
+Clint Watts who is distinguished
+research fellow at the Foreign Policy
+Research Institute a senior fellow at
+the GM FS Alliance for securing
+democracy and his recent scholarship has
+addressed social media influence
+operations welcome to all of you and why
+don't we start with you mr. Clark
+chairman shift ranking member Nunez and
+committee members thank you for the
+invitation to testify about the national
+security threats posed by the
+intersection of AI fake content and deep
+fakes so what are we talking about when
+we discuss this subject fundamentally
+we're talking about digital technologies
+would make it easier for people to
+create synthetic media and that can be
+video images audio or text now people
+
+[00:19]
+have been manipulating media for a very
+long time as you well know that things
+have changed recently and I think for
+bird two fundamental reasons for why
+we're here one is that the continued
+advancement of computing capabilities
+that is the physical hardware we used to
+run software on that's got significantly
+cheaper and more powerful and at the
+same time software has become
+increasingly accessible and capable and
+some of this software is starting to
+incorporate AI which makes it
+dramatically easier for us to manipulate
+media and it allows for a step change in
+functionality for things like video
+editing or audio editing which was
+previously very difficult now the forces
+driving cheaper computing and easier to
+use software are fundamental to the
+economy and many of your innovations
+we've had in the last few years so when
+we think about AI one of the confounding
+factors here is Verte similar AI
+
+[00:20]
+technologies used in the production of
+synthetic media or deep flakes are also
+likely to be used in valuable scientific
+research they're used by scientists to
+allow people with hearing issues to
+understand what other people are saying
+to them or they're used in molecular
+assay and other things which may
+revolutionize medicine now at the same
+time these techniques can be used for
+purposes for justifiably caused unease
+like being able to synthesize the sound
+of someone else's voice impersonate them
+on video and write text in the style
+they use online we've also seen
+researchers develop techniques but
+combine these things
+allowing them to create a virtual person
+who can say things what they haven't
+said and appear to do things that they
+haven't necessarily done I'm sure that
+members of the committee are familiar
+with their run-ins with the media and
+know just how awkward it can be to have
+words put in your mouth that you didn't
+
+[00:21]
+say so deep fakes take this problem and
+potentially accelerate it so how might
+we approach this challenge
+I actually think for several
+interventions that we can make and this
+will improve the state of things one is
+institutional interventions it may be
+possible for large-scale technology
+platforms to try and develop and share
+tools for the detection of malicious
+synthetic media at both the individual
+account level and the platform level and
+we could imagine these companies working
+together privately as they do today with
+cybersecurity where they exchange threat
+intelligence with each other and with
+other actors to develop a shared
+understanding of all this looks like we
+can also increase funding so as
+mentioned dr. David Dorman previously
+leaded our program here we have existing
+initiatives that are looking at the
+detection of these technologies and I
+think that it would be judicious to
+
+[00:22]
+consider expanding that funding further
+so for we can develop better insights
+here I think we can measure this and
+what I mean by measurement is Verte it's
+great but we're here now ahead of 2020
+but these technologies have been in open
+development for several years now and
+it's possible for us to read research
+papers read code talk to people and we
+could have created quantitative metrics
+for the advance of this technology for
+several years and I strongly believe
+that government should be in the
+business of measuring and assessing
+these threats by looking directly at the
+scientific literature and developing a
+base of knowledge from which to work out
+next steps being forewarned is forearmed
+here and we can do that I think we also
+need to do work at the level of norms so
+at open AI we've been thinking about
+different ways to release
+or talked about for technology but we
+develop I think that it's challenging
+
+[00:23]
+because science runs on openness and we
+need to preserve that so that science
+continues to move forward but we do need
+to consider different ways of releasing
+technology or talking to people about
+the technology what we're creating ahead
+of us releasing it finally I think we
+need comprehensive AI education none of
+this works if people don't know what
+they don't know and so we need to give
+people the tools to let them understand
+that this technology has arrived and
+though we may make a variety of
+interventions to deal with the situation
+they need to know that it exists so as I
+hope this testimony has made clear I
+don't think AI is the cause of this
+I think AI isn't accelerant to an issue
+that's been with us for some time and we
+do need to take steps here to deal with
+this problem because the pace of this is
+challenging thank you very much thank
+you mr. doorman Thank You chairman
+
+[00:24]
+Schiff ranking member Nunez
+distinguished members of the committee
+thank you for the opportunity to be here
+this morning to discuss the challenges
+of countering media manipulation at
+scale for more than five centuries
+authors have used variations of the
+phrase seeing is believing but in just
+the past half decade we've come to
+realize that that's not longer always
+true in late 2013 I was given the
+opportunity to join DARPA as a program
+manager and was able to address a
+variety of challenges facing our
+military and our intelligence
+communities although I'm no longer
+representative of DARPA I did start the
+media forensics program metaphor and it
+was created to address the many
+technical aspects about the problems
+that we're talking about today the
+general problem of metaphor is
+addressing our limited ability to
+analyze detect and address manipulated
+media that at the time was being used by
+increased frequency with increased
+frequency by our adversaries it's clear
+
+[00:25]
+that our manual processes despite being
+carried out by exceptionally competent
+analysts and personnel in the in the
+government
+at the time could not deal with the
+problem at scale that the manipulated
+content was being created and
+proliferated in typical tarpor fashion
+the government got ahead of this problem
+knowing that it was a marathon not a
+sprint and that the program was designed
+to address both current and evolving
+capable manipulation capabilities not
+with a single point solution but with
+comprehensive approach what was
+unexpected however was the speed at
+which this manipulation technology would
+evolve in just the past five years we've
+gone from a new technology that could
+produce novel results at the time but
+nowhere near what could be done manually
+with basic desktop editing software to
+open source software such as deep fakes
+that can take the manual effort
+completely out of the equation now
+there's nothing fundamentally wrong with
+or evil about the underlying technology
+
+[00:26]
+that grew rice the concerns that we're
+testifying about today like basic image
+and video desktop editors deep fakes is
+only a tool and there are a lot more
+positive applications of generative
+networks than there are negative ones as
+of today there are point solutions that
+can identify deep fakes reliably but
+it's only because the focus of those
+developing the deep fakes like
+technology have been on visual deception
+not on covering up trace evidence if
+history is any indicator it's only a
+matter of time before the current
+detection capabilities will be rendered
+less effective in part because some of
+the same mechanisms that are used to
+create this content are also used to
+cover them up I want to make it clear
+however that combating synthetic and
+multi and manipulated media at scale is
+not just a technical challenge it's a
+social one as well as I'm sure others
+witnesses will be testifying this
+morning and there's no easy solution and
+it's likely to get much worse before it
+
+[00:27]
+gets much better yet we have to continue
+to do what we can we need to get the
+tools and the processes in the hands of
+individuals rather than relying
+completely on the government or on
+social media platforms to police content
+if individuals can perform a sniff test
+and the media smells of misuse they
+should have ways to verify it or prove
+it or easily report it
+the same tool should be available to the
+press to social media sites to anyone
+who shares and uses this content because
+the truth of the matter is the people
+that share this stuff are part of the
+problem even though they don't know it
+we need to continue to work towards
+being able to apply automated detection
+and filtering at scale it's not
+sufficient to only analyze question
+content after the fact we need to be
+able to apply detection at the front end
+of the distribution pipeline and even if
+we don't take down and prevent
+manipulated media from appearing we
+should provide appropriate warning
+labels that suggest that this is not
+real or not authentic or not what is
+purported to be and that's independent
+
+[00:28]
+of whether this is done and the
+decisions are made by humans machines or
+a combination and we need to continue to
+put pressure on social media to realize
+that the way that their platforms are
+being misused is unacceptable they must
+do all they can to address today's
+issues and not allow things to get worse
+let there be no question that this is a
+race but better manipulators get the
+better detectors need to be and they're
+certainly orders of magnitude more
+manipulators than there are detectors
+it's also a race that we may never end
+it may never be one but no one where but
+it is one where we must close the gap
+and continue to make it less attractive
+financially socially politically to
+propagate false information like spam
+and malware it is easy and it's always a
+problem and it may be the case that we
+can level the playing field when the
+metaphor program was conceived at DARPA
+one thing that kept me up at night was
+the concern that someday our adversaries
+would be able to create entire events
+with minimal effort these events might
+
+[00:29]
+include images of scenes from different
+angles video content that appears from
+different devices and text that's
+delivered through various medium
+providing an overwhelming amount of
+evidence that an event has occurred and
+this could lead to social unrest or
+retaliation before it gets countered if
+the past five years or any indication
+that some day is not very far in the
+future thank you Thank You professor
+citron
+Thank You chairman chef ranking member
+Nunez and the committee for having me
+here today to talk about the phenomenon
+of deep fakes what love the risks that
+they pose and what lock Hannon should do
+about it so I'm a professor of law at
+the University of Maryland School of Law
+and there are there are a few phenomenon
+that come together that make deep fakes
+particularly troubling when they're
+provocative and destructive the first is
+that we know that as human beings we the
+video and audio is so visceral we tend
+
+[00:30]
+to believe what our eyes and ears are
+telling us and we also tend to believe
+and tend to share information that
+confirms our biases and it's
+particularly true when that information
+is novel and negative so the more
+salacious we're more willing to pass it
+on and we're seeing deep fakes or we'll
+see them in social networks that are ad
+driven so the entire enterprise is to
+have us click and share right so when we
+bring all these things together the
+provocative deep fake the salacious will
+be spread virally so so let me describe
+there are so many harms that my
+co-author Bobby Chesney I write have
+written about but I'm gonna focus on
+some of the more concrete ones and what
+law can and should do about it
+so there are concrete harms in the here
+and the now and especially for
+individuals so Ronna ayob is an
+investigative journalist in india who
+writes about government corruption and
+the persecution of religious minorities
+and she has long used to getting death
+
+[00:31]
+threats and rape threats for her it's
+sort of par for the course but she she
+wrote a provocative piece in April 2018
+and what followed was posters circulator
+of the internet deep fake sex videos of
+Rana so her face was morphed into
+pornography and that first day it goes
+viral it's it's on every social media
+site whatsapp it's on as she explained
+to me millions of phones in India and
+the next day sir paired with the deep
+fake sex video of Rana was rape threats
+her home address and the suggestion that
+she was available for sex
+now the fallout was significant she had
+to basically go offline she couldn't
+work her sense of safety and security
+was shaken it upended her life and she
+had to withdraw from online platforms
+for several months right so the the
+economic and the the the social and
+
+[00:32]
+psychological harm is profound and it's
+true that in my work on cyber stalking
+the phenomenon is going to be
+increasingly felt by women and
+minorities and for people from
+marginalized communities now of course
+it's not just individuals we can imagine
+the deep fake about sort of the night
+before an IPO time just right with the
+CEO saying something that he never said
+or did basically admitting to that the
+company was insolvent right and so the
+deep fake if the night before the EPO
+could upend the the IPO right the the
+market will respond far far faster and
+we can debunk it so the question is and
+we can imagine all sets of an eye mr.
+Watson I've talked about I'm gonna let
+him take some of the national security
+concerns like elections tipping of an
+election uh pending public safety but
+the next question is what do we do about
+it and and I feel like our panel is
+gonna be in heated agreement that
+there's no silver bullet right that we
+
+[00:33]
+need a combination of law markets and
+really societal resilience to get
+through this but law has a modest role
+to play there are civil claims that
+victims of targeted individuals can
+bring they can sue for defamation
+intentional infliction of emotional
+distress false light a privacy tort but
+the hardest thing is that it's
+incredibly expensive to sue and criminal
+law offers too few levers for us to push
+at the state level there are a handful
+of criminal defamation laws and an
+impersonation laws and at the federal
+level there is an impersonation of a
+government official statute but it's
+really enact for the sets of problems
+that we face today and so Professor Mary
+Anne Frank's and I are amidst writing a
+model statute that we might deploy one
+that is narrowly tailored that would
+address
+faul false impersonations that would
+capture some of the harm here but of
+
+[00:34]
+course there are practical hurdles for
+any legal solution you have to be able
+to find the defendant just so prosecute
+them and and you've got to have
+jurisdiction over them and so and the
+platform's the intermediaries our
+digital gatekeepers are immune from
+liability so we can't use a legal
+incentive of liability to get them on
+the case so I see my time is running out
+I look forward to your questions and
+thank you thank you very much
+mr. Watts chairman chief ranking member
+Nunez members of the committee thanks
+for having me here today all advanced
+nations recognize the power of
+artificial intelligence to revolutionize
+economies and empower militaries but
+those countries of them with the most
+advanced AI capabilities and unlimited
+access to large data troves will gain
+enormous advantages in information
+warfare AI provides purveyors of
+disinformation the ability to rapidly
+recon American social media audiences to
+
+[00:35]
+identify psychological vulnerabilities
+and to create modified content and
+digital forgeries advancing false
+narratives against Americans and
+American interest historically each
+advancement media from text to speech to
+video to virtual reality more deeply
+engages information consumers enriching
+the context of experiences and shaping a
+user's reality the falsification of
+audio video allows manipulators to dupe
+audience members and highly convincing
+ways provoking emotional responses that
+can lead to widespread mistrust and in
+times physical motive mobilizations
+false video and audio once consumed and
+believed can be extremely difficult to
+refute encounter moving forward I'd
+estimate Russia as an enduring purveyor
+of disinformation is we'll continue to
+pursue the acquisition of synthetic
+media capabilities employed the outlets
+the outputs against its adversaries
+around the world I suspect we'll be
+joined and outpaced potentially by China
+China's artificial intelligence
+capabilities rival the US are powered by
+enormous data to rose to include vast
+amounts of information stolen from the
+
+[00:36]
+US and the country has already shown a
+propensity to employ synthetic media and
+television broadcast journalism these
+two countries along with other
+authoritarian adversaries and the
+proxies will likely use deep fakes as
+part of disinformation campaign seeking
+to discredit domestic dissidents and
+foreign detractors and cite fear and
+promote conflict inside western-style
+democracies and three distort the
+reality of American audiences and the
+audience's of America's alloys deep fake
+proliferation presents to clear dangers
+over the long term deliberate
+development of fall synthetic media will
+target US officials institutions and
+democratic processes with an enduring
+goal of servername democracy
+demoralizing the Americans and just
+demoralizing the American constituency
+in the near and short-term circulation
+of deep fakes may incite physical
+mobilizations under false pretenses
+initiating public safety crises and
+sparking the outbreak of violence the
+recent spate of false conspiracies
+proliferating via whatsapp in India
+offer a relevant example of how bogus
+messages and media can fuel violence the
+
+[00:37]
+spread of deep fake capabilities will
+only increase in the frequency and
+intensity of these violent outbreaks
+will continue US diplomats and military
+personnel deployed overseas will be
+prime targets for deep fake
+disinformation conspiracies planted by
+adversaries US interests in the
+developing world where consumption has
+jumped from analog in-person
+conversations to social media sharing
+lacking any form of verification filter
+will likely be threatened by bogus
+synthetic media campaigns three examples
+would be mobilization at the US Embassy
+in Cairo the consulate in Benghazi and
+rumors of protests Incirlik airbase had
+they been accompanied with fake audio or
+video content could have been far more
+damaging in terms of that I'd also point
+to a story just out hours ago from The
+Associated Press which shows the use of
+a synthetic picture for s what appears
+to be espionage purposes on LinkedIn
+essentially a honeypot in attack recent
+public discussions of deep fake
+employment heavily focused on foreign
+adversaries but the greatest threat of
+
+[00:38]
+inauthentic contact proliferation may
+come not from abroad but from a home and
+not from nation states but from the
+private sector thus far I've focused on
+authoritarian nation-states
+I brought a chart here today but a range
+of advanced persistent manipulators will
+use their vast resources develop and
+acquire deep fakes as needed in pursuit
+of their goals recent examples of
+disinformation and miss him
+Meishan suggests it could be oligarchs
+corporations political action groups
+Public Relation firms and activists with
+significant financial support that will
+seek out these media capabilities and
+amplify deep fakes in international or
+domestic context the net effect will be
+the same degradation of democratic
+institutions elected officials lowered
+faith and electoral processes we can
+trust in social media platforms and
+potentially sporadic violence by
+individuals and groups immobilized under
+false pretenses I have several
+recommendations but I'll only hit a
+couple here in the oral remarks first
+Congress should implement legislation
+prohibiting US officials elected
+representatives and agencies from
+creating and distributing false and
+
+[00:39]
+manipulated content the US government
+must always be the purveyor of facts and
+truth to its consistent constituents
+assuring the effective administration of
+democracy be a productive policy debate
+from a shared basis of reality second
+policymakers should work jointly with
+social media companies to develop
+standards for content accountability
+third the US government should partner
+with private sector to implement digital
+verification signatures designating the
+date time and physical or origination of
+content fourth social media companies
+should enhance their labeling of
+synthetic content across platforms and
+work as an industry to codify how and
+when manipulated or fake content should
+be appropriate marked not often
+synthetic media is nefarious in nature
+but information consumers should be able
+to determine the source of the
+information and whether it's authentic
+depiction of people and events fifth and
+what I think is the most pressing right
+now is the US government from a national
+security perspective to maintain
+intelligence on adversaries capabilities
+at deploying deep fake content or the
+
+[00:40]
+proxies they employ to conduct such
+information the department's of Defense
+and state should immediately develop
+response plans for deep fake smear
+campaigns and deep fake inspired violent
+mobilizations overseas in an attempt to
+mitigate harm to US personnel and
+interest and the last I I echo my fellow
+panelists is public awareness of deep
+fakes and its signatures will greatly
+assist and tamping down attempts to
+subvert US democracy and incite violence
+I would like to see us help the public
+make better decisions about the content
+that they're consuming and how to judge
+that content thank you
+thank you all will now proceed with
+questions I recognize myself for five
+minutes two questions one for Professor
+citron and one for mr. Watts professor
+how broad is the immunity that the
+social media platforms enjoy and is it
+time to do away with that immunity so
+that the platforms are required to
+maintain a certain standard of care it
+seems to me not very practical to think
+
+[00:41]
+about bringing people to justice who are
+halfway around the world or the
+difficulties of attribution or the fact
+that given that a cheap cost of this
+technology now just how many people can
+employ it is it time to take that step
+was it appropriate for one social media
+company to leave up the Pelosi video
+even labeling it in a certain way and
+mr. Watts
+what's a proportionate response should
+the Russians start to dump deep fakes
+release a deep fake of Joe Biden to try
+to diminish his candidacy what should
+the u.s. response be should it be a
+cyber response not not a tit-for-tat in
+the sense of doing a deep fake of Putin
+but but rather some cyber reaction or
+our sanctions a better response how do
+
+[00:42]
+we deter this kind of foreign meddling
+realizing that that is only going to be
+one part of the problem a professor so
+I'm gonna start with how broad the
+immunity is and then that it is time for
+us to amend section 230 in the decency
+act so under law passed in 1996 the
+Communications Decency Act there was
+it's largely was an anti porn provision
+I maybe through we can imagine the
+internet with no porn that was the
+objective of the Communications Decency
+Act and most of that law struck down but
+what remains is a provision that's good
+it's called Good Samaritan blocking and
+filtering of offensive content and it's
+been interpreted really broadly
+to say that if you under filter content
+if you don't engage in any self
+monitoring off at all even if you
+encourage abuse but you're immune from
+liability for user-generated content so
+
+[00:43]
+that means that revenge porn operators
+can gleefully say that they're immune
+from liability while encouraging people
+to post X their exes nude photos and
+they're right they are immune from
+liability because they are not
+generating co-creating the content and
+so the question is in a world sin here
+we are 25 years later the internet we've
+got dominant players it's not the
+internet is not in its infancy
+and is it time to reassess it and I
+think the answer is yes that we should
+condition the immunity it shouldn't be a
+free pass and it should be conditioned
+on reasonable content moderation
+practices been witness and I have
+written sort of a sample statute that
+you could adopt if you so chose that
+would condition the immunity
+unreasonable content practices then the
+question of course is well in any given
+case are our platforms making the right
+choices and under an approach that would
+have us look to the reasonableness of
+
+[00:44]
+content practices we would look at the
+platform's total its its approach
+generally speaking to content moderation
+not any given decision with content so
+let's take the Pelosi video I think the
+answer is it should have been taken down
+we should have a default rule platform
+should have a default role that if we're
+gonna have impersonations or
+manipulation that do not reflect what
+we've done or said then platforms should
+once they figure it out take it down the
+technology is such a we can't detect it
+yet right
+we can't automatically filter and block
+but once we have figured it out we
+already are in a place where the public
+has deep distrust of the institutions at
+the heart of our democracy and if have
+an audience primed to believe things
+like manipulated video of lawmakers and
+I would hate to see you know the deep
+fake where a prominent lawmaker
+
+[00:45]
+Sene purported to show seen taking a
+bribe that you never took right and I
+hope that platforms come to see
+themselves if we can't require them to
+have legal liability that they come to
+see themselves as the purveyors of
+responsibly of facilitating just
+discourse online and their importance to
+democracy thank you mister what yeah I'd
+like to start off with just a basic
+principle of information warfare and so
+RH Knapp who is a professor who
+essentially studied wartime rumors his
+quote was once rumors are current they
+have a way of carrying the public public
+with them the more rumors told the
+greater its plausibility and he wrote
+that in 1944 I think that's still the
+essential thing it comes down who's
+there first and who's there the most and
+that's the danger of social media
+computational propaganda with this AI in
+terms of how we deal with this there's
+several parts one is we have to have a
+plan and it's a multi-part plan and the
+other part is we have to respond quickly
+
+[00:46]
+this has not been the tradition of our
+government for example in Iraq when
+there would be fake al Qaeda propaganda
+put out to try and inspire people to
+show up places we had Rapid Response
+Teams that would show up with video with
+audio that would shoot footage from
+there to show this is not true this has
+been disproven that's a great example
+about if this starts to get leaked out
+what is our plan right now the US
+government for any government official
+government agency should immediately
+offer a counter based on fact in terms
+of what's actually going on this
+happened in the summer of 2016 at
+Incirlik airbase there was Russian state
+sponsored propaganda put out about a
+potential coup maybe the base was
+surrounded maybe there's a protest we
+should be able to turn on the cameras at
+that airbase immediately and say this
+this is not happening the faster we do
+that the less chance people see at first
+less chance that people see of me you
+see it often and believe it the second
+part is I think it comes down to the
+political parties well I'm Republican
+and Democrat if they have these smears
+
+[00:47]
+coming through they should be able to
+rapidly refute that and put out a basis
+of truth this candidate or a candidate
+is what we're not there but that begins
+partnership also with the social media
+companies in terms of this I actually
+would not go as far as
+every piece of synthetic video that gets
+loaded up on a social media platform
+needs to come down I'm glad you brought
+up a former Vice President Biden one of
+the classic articles about former Vice
+President Biden comes from the onion and
+it was that he was waxing his Camaro in
+the driveway of the White House it was a
+comedy bit and it had manipulated photos
+manipulated content on it if we went to
+that extreme we would have a country
+where everything that's ever been
+changed or modified for any reason would
+would have to be policed and we'd be
+asking a private sector company to
+police that so I would instead offer a
+different system which is triage which
+is social media companies how do they
+accurately label content as authentic or
+not the danger with social media is the
+source is not necessarily there we saw
+
+[00:48]
+that in 2016 we see that today so they
+should be able to refer back to whatever
+the base source is quickly how do you do
+that they should be able to triage the
+three areas which I would suggest that
+they immediately triage in is if they
+see something spiking in terms of
+morality they should immediately put
+that into a cue and have it done for a
+human review linked to fact checkers
+down rate it not let it go into news
+feeds and help the mainstream media also
+understand what is manipulated content
+that's the jump that we're we're most
+concerned about the other part is
+outbreaks are potential outbreaks of
+violence and Public Safety and then
+anything related to elected officials or
+public you know institutions should
+immediately be flagged and pulled down
+and checked and then a context be given
+to it I see it as the public needs to be
+given a context that we're not really
+suppressing all freedom of speech all
+development of this context because
+there are legitimate reasons that we
+might want to use synthetic media for
+entertainment comedy all sorts of
+visualizations that are out there I go
+
+[00:49]
+to mr. Nunez but at some point I love to
+follow up and see what a proportionate
+response would be to a foreign adversary
+that deploys is I can actually if you
+give me 20 seconds I can tell you what
+it would be which is refuting number one
+number two I think offensive cyber is in
+place and I like what the NSA is
+actually done in 2018 and then number
+three more more aggressive responses in
+terms of sanctions
+I like sanctions around troll farms and
+these cutouts where this content comes
+from
+mr. Nunez thank you so how do you put in
+filters to these tech oligarch companies
+there's only a few of them you know who
+they are that doesn't it's not developed
+by partisan left-wing like it is now
+where most of the time it's
+conservatives who get banned and not and
+not Democrats like I'd close to the
+Pelosi video was taken down that's fine
+I don't have a problem with that but I
+can tell you there's videos up of
+Republicans that go on and on and on so
+it's all in who's building the filter
+right are you asking some well you were
+
+[00:50]
+the one that was talking about filters
+so no I and what I was suggesting is
+that it would be impossible to ex-ante
+filter deep fake content we really can't
+detect it as far as the state of the art
+goes now nor do I think in the arms race
+will be will be be able to really filter
+it and what I was saying is that for
+something like a video where it's
+clearly a doctored and an impersonation
+not satire not parody there are
+wonderful uses for defects that are art
+historical sort of rejuvenating for
+people to create them about themselves
+so I'm not suggesting all deep fakes but
+rather oh and I'm not but I think I
+mostly agree with you other than I just
+don't know how you I think the challenge
+here is how do you implement it right
+once you've been and these are really
+hard problems of content moderation I've
+worked with companies for about ten
+
+[00:51]
+years now in particular on the issue of
+non-consensual pornography threats and
+stalking and that's such a contextual
+question and so you can't proactively
+filter but when it's reported the
+question is that when we see videos
+going viral there's a way in which we
+company should react and react
+responsibly and absolutely should be
+bipartisan there shouldn't be ideology
+that drives the question but rather is
+this a misrepresentation in a defamatory
+way right that we would say it's a
+falsehood that is harmful to reputation
+it's an impersonation then we should
+take it down so I think the that is the
+default I'm imagining for social media
+companies but it would be ex post but
+it's a challenge I mean you talked about
+the 96 law that needs to be changed and
+I think it has to be one way or another
+right either they have to truly be an
+
+[00:52]
+open public square which which then it's
+very difficult to filter because then
+whoever's developing the filter puts
+their own bias into the filter but
+actually 1996 up bill it did not imagine
+an open public square where private
+companies couldn't filter the opposite
+it was designed to encourage self
+monitoring and to provide an immunity in
+exchange for Good Samaritan filtering
+and blocking of offensive content so the
+entire premise of section 230 is to
+encourage and so provide an immunity so
+that there was filtering and blocking
+because Congress knew will be too hard
+for Congress or the FTC to get ahead of
+all this themselves right and that was
+in 96 imagine now the scale that we face
+I think we should preserve the immunity
+but condition it on reasonable content
+moderation practices so that there are
+some sites that literally traffic and
+abuse that encourage illegality and they
+
+[00:53]
+should not enjoy immunity from liability
+right but that's and we're back to where
+we started I mean that this is the
+challenge right so how do we draft
+legislation that would yep we enable
+that happy to tell you how to do it
+right so section 230 c1 now says no
+speaker or publisher or no online
+service shall be treated as a speaker or
+publisher of centrally of someone else's
+content what we can do is change section
+230 c1 to say that no online service
+that engages in reasonable content
+moderation practices shall be treated as
+the speaker or publisher of somebody
+else's content so we can change section
+230 with some imagination it depends on
+what's the definition of reason
+and that's what law does really well
+right so every time I hear a lawyer say
+we can't figure out what's reasonable
+it's called tort law right negligence is
+built on the foundation of
+reasonableness you know so often law
+
+[00:54]
+moves in a pendulum right we often start
+with no liability because we really want
+to protect businesses and we should and
+we experiment and we realize that's a
+lot of harm and then we often overreact
+and impose strict liability and then we
+get somewhere in the middle right where
+that's where negligence lives reasonable
+practices and we have industries there's
+content moderation has been going on for
+the past ten years and I've been
+advising Twitter and Facebook all of
+that time there is meaningful reasonable
+practices that are emerging and have
+emerged in the last 10 years so we have
+a guide it's not as if this is a new
+issue in 2019 so we can come up with
+reasonable practices thank you
+mr. Himes Thank You mr. chairman
+dr. Dorman I want to get a quick sense
+from you of what the status quo is with
+respect to our ability to detect and
+where that race is but but before I do
+
+[00:55]
+that I just want to highlight something
+that I think is actually very immediate
+and intense interest to the intelligence
+community mr. Watts you said something
+which is something's happening on a base
+somewhere we can just turn on the
+cameras I'm not sure that's right right
+because if you can create a deep fake
+there's no reason why you can't create a
+deep fake from that camera to the screen
+right so in other words the point I'm
+trying to make is our intelligence
+community obviously relies on things
+like full motion video and photographs
+and that sort of thing one of the
+threats here is not just the threats
+that we might be made to look silly on
+YouTube but that our intelligence
+community using its own assets might not
+be able to tell fact from fiction is
+that correct when you say let's just
+turn on the cameras I'm not sure that's
+enough well I think it needs to be one
+of my other recommendation was digital
+verification which there's these folks
+will know better because they're more
+technically sound than I am on this but
+digital verification for date time and
+
+[00:56]
+location of actual content to include
+real
+I'm content there's already some
+blockchain registry solutions that are
+being developed that is essential part
+of that would be then if you as the US
+government turn on your cameras it can
+be verified by news agencies reporters
+we could have it on c-span we could use
+in a lot of different ways but we have
+to make sure that we have the ability to
+verify that our content is real so if
+that sort of an impersonation is done we
+can do it quickly and people will know
+which one to sort through I defer to
+them in terms of technical but that some
+of this is already being developed it's
+not quite there yet but I would want
+that accompanied with it great thank you
+that actually leads into my question for
+dr. dormant dr. maura I understand
+there's no silver bullet here this is
+going to be a cat and mouse game take a
+minute or two and just tell us where are
+we in that cat or mouse game should we
+expect to have undetectable deep fakes
+out there within a year two years five
+years ten years what where are we today
+and how imminent a challenge is this I
+think there is the the risk of having an
+undetectable content that gets that gets
+
+[00:57]
+modulated on Sherrod online right now
+things like compression if you have a
+very low resolution version of a video
+the attribution can be destroyed the
+camera fingerprint where this content
+came from can be destroyed a lot of the
+trace evidence could be destroyed with
+very simple types of manipulation on top
+of the on the top of the deep fake
+process or any any type of manipulation
+the challenge that we have though is
+that we do have point solutions for a
+lot of these components and bringing
+through them together in a useful way
+and as I said getting in the hands of
+everyone throughout the pipeline imagine
+if Facebook or YouTube or any of these
+other companies could have this up front
+and when the humans reviewers Facebook I
+
+[00:58]
+think just reported they've hired 30,000
+people to review content could have this
+ahead of time rather than saying okay I
+have a question video or a questioned
+piece of audio or something that I need
+to review now let me go and run this
+algorithm on it
+this set of algorithms do that upfront
+so they have a report associated with a
+particular image or video and then if
+there's questions to put that warning up
+there I think the public doesn't know
+enough about what's possible to demand
+that if somebody knows something the
+truth of the matter is when this stuff
+gets shared it gets created once and
+when it gets shared it gets shared
+across different platforms it gets
+shared by different people with
+different media but the truth of the
+matter is that signature for that
+particular piece of video that piece of
+audio is there and so there are tools
+that the that the the social media
+
+[00:59]
+companies could use to link those
+together and make a decision and then
+share it with everyone the same way as
+we do with with malware for example
+cyber issues we've gotten to the point
+where it's now you know we're protecting
+our front door and we need to protect
+our front door from images and video as
+well thank you doctor I'm professor
+citron I don't have time to cover this
+topic but I just want to express myself
+on this the theme of this hearing is how
+scary deep fakes are but I got to tell
+you one of the more scary things I've
+heard this morning is your statement
+that the Pelosi video should have been
+taken down there should be this I don't
+have a lot of time sadly there won't be
+a moment I think for you to answer but I
+do want to have this conversation
+because as awful as I think we all
+thought that Pelosi video was there's
+got to be a difference if the Russians
+put that up which is one thing versus if
+Mad Magazine does that as a satire as
+
+[01:00]
+you know better than me we don't have a
+lot of protections as public figures
+with respect to defamation and some of
+the language we've used here today makes
+me worry about First Amendment equities
+free expression centuries long tradition
+of satirizing people like us who richly
+deserve being satirized so anyway I'm
+expounding here I simply just wanted to
+put that on the record and hope that we
+have an opportunity this morning to hear
+more about where that boundary lies on
+how we can protect a long tradition of
+freedom
+expression with that I'll yield back dr.
+wernstrom Thank You mr. chairman thank
+you all for being here I think boy we've
+come a long way I remember Chevy Chase
+playing Gerald Ford on Saturday Night
+Live and he didn't even try to pretend
+to look like Gerald Ford and then we see
+Forrest Gump which was you know a
+wonderful movie right it was
+entertainment and I remember sitting
+there thinking how did they do that you
+know the problem we have I've always
+said that of everything bad there's a
+chance to do something good but out of
+everything good there's obviously a
+
+[01:01]
+chance for people to do something bad
+and and I think that you know we see
+that the way it sounds with where we're
+headed it's like we're all living in the
+Truman Show or something like that you
+know and we've got to be careful about
+that but I think about you know in that
+vein of out of something good something
+bad can happen I'm sure the the Wright
+brothers when they learned to fly didn't
+think and maybe we can fly this into a
+building someday and kilter right but
+that's what happens in this world
+unfortunately but as a result of that
+9/11 for example it takes a lot longer
+to get on a plane and for good reason
+and I think that you know where we need
+to be headed might be and I want your
+opinions on it obviously we got to slow
+this down you know before something just
+hits it and I think you're talking about
+this or that's the triage idea and maybe
+we label maybe unfortunately we have to
+tell people before they see something
+this is satire it's not real and you
+
+[01:02]
+have to in some way verify which is kind
+of pathetic but at the same time that
+may be what we have to do slow it down
+triage it this is not verified this is
+satire and and maybe on a global scale
+when it comes to punitive measures to
+people that are doing things nefarious
+maybe we have to have international
+extradition laws because when something
+comes from from some other country maybe
+even a friendly country that defames and
+hurts someone here maybe we both agree
+amongst those nations that will
+extradite those people and they can be
+punished in your country
+for what they did to one of your
+citizens so I'd love your opinion on on
+those the triage labeling and
+extradition whoever wants to take it
+first yeah I think that's absolutely
+right I mean one of the reasons that
+these types of manipulated images and
+video gained traction is because it's
+
+[01:03]
+almost instantaneous that they can be
+shared they can be shared around the
+world they can be shared across
+platforms you can see something on one
+platform and there's a button there to
+post it to another there's an old adage
+that says that a ally can go halfway
+around the world before the truth can
+get it shoes on and and that's and that
+and that's true I you know personally I
+don't see any reason why you know
+broadcast news does it with with live
+types of you know they have a delay
+seven second delay or 15-second delay
+there's no reason why things have to be
+instantaneous we should give our social
+media should instill these types of
+things to delay so that they can get
+these types of things online they get
+they can decide whether they should
+label it we still need to put the
+pressure on for those types of things
+but you know they've there's there's a
+seriousness issue there's from satire
+all the way up through you know child
+
+[01:04]
+pornography we've done it for child
+pornography we've done it for human
+trafficking they're serious about those
+things this is another area that's a
+little bit more in the middle but I
+think they can make the same effort in
+these areas to do that type of triage
+yeah if you say what you're about to see
+is satire and has been modified go ahead
+so I think one thing worth stressing is
+we will continue to be surprised by
+technological progress in this domain
+because the law of a lot of this stuff
+is all of these people think they're the
+Wright brothers and you know they've
+they feel that and they're all busily
+creating stuff and they have figuring
+out the second-order effects of what
+they build is difficult so I think that
+we do need to build infrastructure so
+that you have some third-party measuring
+but progression of these technologies so
+you can't
+I hate the other things in expectation
+and the labeling I think is incredibly
+
+[01:05]
+important and there are times in which
+that is the most that's the perfect you
+know rather than second-best that where
+we should err on the side of inclusion
+and label it as synthetic and be so
+required to label it and it's true that
+there are some instances though where we
+say we're labeling is just not good
+enough right that it is defamatory right
+the people will believe the live there's
+really no counter speech to some
+falsehoods right some impersonations if
+we get a chance I'd love to hear back
+from you on the notion of extradition
+laws and other punitive measures thank
+you I yield back my time zone missile
+Thank You mr. chairman
+so dr. Dorman if did you you didn't
+really answer my colleagues question
+about how far away out we from actually
+being able to detect deep Thanks so
+where I know that you at DARPA you were
+
+[01:06]
+working on that where are we either
+commercially or soar by government or
+researchers to you know technologically
+able to detect deep fakes so deep fakes
+is typically referred to as a you know
+particular technology that there's
+certain software out there for doing
+that it's not a general concept so the
+deep fakes was actually the the initial
+paper that was was published that gave
+rise to this technology came after the
+start of the of the metaphor program and
+we did adapt to start looking at those
+things
+there are point solutions out there
+today that deep fakes coming from these
+particular software's can be detected
+and again do we have the soft technology
+to actually be able to digitally verify
+the videos of photographs etc the
+problem is doing it in scale the problem
+is doing it at scale if you give me a
+particular video I can with a with high
+confidence I can tell you whether this
+
+[01:07]
+is a fake video and I can also come back
+and say okay here are the videos
+here are the images that went into it
+because typically it's so long does that
+take is that a matter of an hour 30
+minutes with the right hardware and
+things you know this it can be done with
+a with a constant delay so yes 15
+minutes 20 minutes in advance of the
+2020 elections
+what can campaigns political parties
+candidates do to prepare for the
+possibility of Deek fake content mister
+watts professor century so one thing I
+think even here on Capitol Hill and with
+political parties is urge the social
+media industry to work together to
+create unified standards so part of the
+problem with all of these incidents is
+if you're a manipulator domestic or
+international and you're making deep fix
+you're going to go to whatever platform
+allows you to post anything from
+inauthentic accounts so if they can't
+
+[01:08]
+share across accounts it's like a cancer
+they go to wherever the weak point is
+and it spreads throughout the system to
+the point where it really can't be
+policed even if Facebook or Google or
+Twitter do a good job so I think one
+thing is really pressuring the social
+media industry to work together and that
+goes for extremism disinformation
+political smear campaigns all things
+across what is the standard for policing
+and then I think the other thing is
+having rapid responses to deal with this
+stuff any sort of lag as much as defense
+is not the best way any sort of lag in
+terms of a response just allows that
+conspiracy to grow so the quicker you
+get out on it then mainstream media
+outlets can also work to help refute
+other politicians other elected
+officials can help you do that
+refutation professor what would you
+suggest that political parties and
+candidates do I think candidate should
+have clear policies about deep fakes and
+a commitment not to use them not to
+spread them and then also to have
+relationships established early on
+
+[01:09]
+relationships with social media
+companies so that when a candidate can
+say you know what I wasn't there and it
+wasn't doing or saying that at that
+particular time you have immediate
+entree to folks at the content
+moderation you know whoever it is at
+Facebook whoever it is at Twitter
+Microsoft whoever it is right that they
+have immediate sort of Rapid Response
+Teams what
+what how do we even begin to tackle this
+sort of liar dividend right I love that
+in which my phrasing in which
+politicians oh may be recorded
+committing an illegal act can deny the
+truth by claiming that the recording is
+a deep fake what do you suggest we do
+about that conundrum Oh Congress or but
+I love this that twice we've gotten some
+play right for the liars dividend which
+Bobby Chesney and I conceived in our
+California Law Review piece and what
+most worries us is that sort of in a
+environment of pervasive deep fakes
+where you know we've acculturated people
+
+[01:10]
+not to believe their eyes and ears that
+right the wrong door can seize on the
+fact that there isn't that a genuine can
+take a genuine recording of miss Jeff
+and say that's not me right that's a
+deep fake and I think so part of our so
+I have a two-fold answer part of it is
+education right part of our robust
+education that we have to have with the
+public is telling them about the
+phenomenon of the liars dividend right
+so it's not that it's not that we
+shouldn't educate people you know so
+often the response to Bobby and I as
+well do we give up right the liars
+dividend do we stop educating and our
+response is absolutely not
+that it must be a robust part of the
+learning curve is to say look we know
+that wrong doors are gonna seize on the
+deep fake phenomena to escape reality
+and we can't let them do that either and
+so we have to somewhere get in the
+middle from completely believing
+everything our eyes and ears tell us to
+being skeptical without being nihilistic
+
+[01:11]
+right because we do have a marketplace
+of ideas that's potentially functioning
+but when what we are saying is not what
+we're saying we we don't want to get
+into that space where we have a
+non-functioning marketplace of ideas
+thank you thank you
+mr. Stewart Thank You chairman and to
+the witnesses thank you for being here
+it's been a helpful panel although I
+have to say that I'm a little bit
+concerned with some of your suggestions
+I think although in an ideal world they
+would be helpful in the real
+we live in I'm afraid some of them are
+nearly impossible to implement and some
+of them have some troubling aspects in
+themselves in the sense that it's kind
+of like fact-checkers who aren't really
+fact-checkers they insert their opinion
+and this is just this reality the
+challenge we have before us sitting on
+the Intel committee I'm often asked you
+know in just conversations and casual
+discussions you know what do I think is
+the greatest threat facing the world and
+a couple of years ago I answered that
+and I said without thinking nearly
+
+[01:12]
+nearly blurted it out I said I think
+it's that no one knows what is real
+anymore and as I was driving home that
+evening I started thinking on that and I
+realized that's true I think that is the
+greatest threat facing our nation or
+where people just don't accept basic
+truths and basic falsehoods any longer
+partly because of their own interests or
+partly because they just don't
+understand what is really true and it's
+not just deep fakes by the way RT
+television for example is
+extraordinarily good at propaganda that
+many people just think is perfectly
+legitimate and perfectly real fake news
+a term that we've all unfortunately have
+become very familiar with their
+manipulation as mr. Himes has indicated
+and I we can't discuss here but
+manipulation of intelligence products
+is extraordinarily troubling to me and
+we live in a world where black is white
+and white is black and I could show you
+evidence that white is black and a lot
+of people would believe me that white is
+black and and I just think that for us
+to lose that and and by the way I think
+
+[01:13]
+we can control governments I think we
+can control to a certain extent
+legitimate businesses well we can't
+control everyone and this is going to be
+so pervasive and so available that
+virtually anyone could create this and
+it's easy to control the US government
+say well you can't create it you can't
+use it for political manipulations or
+whatever it might be but you can't
+control the other six billion people on
+the earth and and that is my my concern
+just the pure volume of it it's like
+trying to monitor every bumblebee that's
+flying around America and and last thing
+and then I'll get to my questions it
+goes both ways and this is this is my
+concern as well we could create the
+impression that a lie is real but we can
+also say that something is real
+a lie you know to use some of your
+examples a politician crowd and a bribe
+which by the way politicians do much
+worse things than that but so 1970s but
+let's go at that example politicians is
+caught in a bribe and it could be
+actually true and he would then say no
+
+[01:14]
+no it's just a deep fake you know that's
+not real and so you lose you lose the
+credibility in both ways which now
+brings me to my question the first is
+and I'll ask them both and get you to
+respond with the potential for so much
+harm should we should we have the
+algorithms that create deep fakes should
+they be open-source and and if that if
+the answer is no we've got to do that
+right now we can't wait for two or three
+years to do that because they'll already
+be pervasive throughout the world
+and the second question is and this and
+this is almost rhetorical but I would
+love your answer as their thoughts on
+this how do we prepare people to live in
+a world of deception how do we prepare
+people to live in a world where they
+just genuinely may not know what's real
+or not
+and anyone who would jump on those two
+should should the algorithms be
+open-source or should we control yeah
+I'll address the first one we made a
+conscious decision to make the metaphor
+program open you'll see even a week and
+a half from now in Long Beach at the
+
+[01:15]
+computer vision pattern-recognition
+conference there'll be a a workshop
+there that's that's dealing with this
+even though there's potential for
+adversaries learning from these things
+they're gonna learn anyway we need to
+get this type of stuff out there we need
+to get it into the hands of of users
+there are companies out there that are
+starting to take this these types of
+things so I absolutely think that these
+types of things need to be open-source
+there's nothing it's the same technology
+that's been being used in terms of deep
+learning to create this type of content
+I just wonder Stan you're saying that
+you should be open-source primarily
+because they'll get access to it anyway
+is that is that the essence of your
+response well and and and people need to
+be able to use it the more we can use it
+to educate the community educate people
+give people the tools so that they can
+make the choices for themselves that's
+all right I'll accept that although with
+some hesitation but primarily the first
+part of the answer and that is I think
+they'd get it anyway
+what about eating suggestions I'm sorry
+
+[01:16]
+on how we prepare people to live in a
+world that just is is so steeped in
+deception and I'm sure you've thought
+through that and we have ten seconds to
+answer
+so when justice Oliver Wendell Holmes
+came up with the notion of the
+marketplace of ideas he was a cynic he
+wasn't suggesting that that truth would
+always out and he worried about humanity
+but the broader endeavor is at the
+foundation of our democracy is that we
+can have a set of accepted truths so we
+can have real meaningful policy
+conversations we can't give up on the
+project well I agree with you and that's
+our hope but as I said earlier that
+foundation of accepted truths is very
+shaky at this moment thank you chairman
+Thank You mr. Carson thank you
+chairmanship in an era with prevailing
+distrust of the journalists and media do
+deep fakes risk aggravating this kind of
+distrust
+
+[01:17]
+so prior to working in AI I was a
+professional journalist for seven or
+eight years and finished up working at
+Bloomberg and Businessweek so I speak
+from some experience yes I think that
+misses a very very very severe and
+potentially under-covered fret because
+when you write a story that people don't
+like they try and attack you as V offer
+of it or they try and attack the
+integrity of the institution and this
+makes it trivial to do that and to
+produce stuff that can convince people
+that you you were not being factually
+accurate so yes not only do we see the
+journalists themselves like miss Ayub
+being attacked but what I think what is
+so corrosive is in the notion that the
+media is gonna sit on real evidence for
+fear that it's a fake and we've
+certainly already seen you know sort of
+stings with media organizations and now
+they've got to be wary of stings with
+deep fakes that are really tough to
+debunk without some legwork right with
+journalistic effort and so the corrosive
+
+[01:18]
+effort with Bobby Knight Chesney and I
+call trust decay affects not only
+politicians and our view of civic and
+political institution
+right but everything they and and
+centrally so journalism in the media if
+I could just add to that it over time if
+an information consumer does not know
+what to believe they can't tell fact
+from fiction then they will either
+believe everything or they will believe
+nothing at all if they believe nothing
+at all it leads to long-term apathy and
+that is destructive for the United
+States I I think you could look to
+Russia as an example of what is having
+internally to the Russian people and how
+the Russian government has used the the
+fire firehose of falsehoods approach
+that if you can't believe anything you
+just give up and surrender the
+consequences for democracy are political
+participation long-term apathy
+disappointment and officials that
+anything can be achieved not wanting to
+show up and do things like register or
+for the draft or show up as an
+
+[01:19]
+all-volunteer force I would tell you
+that would be one I would look at over
+the next 10 to 15 years so I think
+that's the long-term corrosive effect
+and if you look at Russia's long-term
+doctrine of subversion that's what
+they're after they just are much more
+patient than we are and willing to wait
+decades for it to come to fruition in
+addition to that so well technology
+solutions for authentication be
+available for even sufficient amounts
+for journalists or media organizations
+or fact checkers to keep up with even
+validating a piece of media before
+reporting on it like chairmanship
+crowd-surfing at South by Southwest or
+premiering his own Netflix special of
+how can you verify those things as
+journalists I think I think it's
+important to have these these tools out
+there for them it's it's where we are
+not at the the case now as I said we
+have point solutions we don't have a
+general solution we don't have a
+gatekeeper that can be automated
+completely this is a cat-and-mouse game
+
+[01:20]
+as things get better for our you know
+being able to deceive visually they're
+gonna get better and they're gonna move
+on to covering up their their trace
+evidence but I think the tools can be
+put in the hands and they should be we
+had situations where there are embedded
+reporters where you know
+somebody comes up to them with something
+on a cellphone and shows an atrocity and
+you know they they need those tools
+they'd have to know whether to report on
+that or not you know so these
+manipulations but even before the
+automated piece of deep fakes
+people were doing these types of things
+and it's a major concern it could even
+evolve into some kind of new scam where
+you have someone with piece of
+information selling it to TMZ or even a
+credible so-called credible media outlet
+you know scamming for $50,000 and the
+pieces like fake if I could add one
+dimension to this though is that how
+
+[01:21]
+lucky we are to have in a very engaged
+public in terms of actually rebutting
+things that are false and challenging
+them you know it's not just journalists
+that are doing it's also the public that
+will challenge back-and-forth one of the
+dangers that we don't think about though
+is in information environments where
+authoritarians control and eliminate all
+rebuttals that can have a very
+significant backlash to us which is why
+I would like to see widespread
+proliferation of authentication not just
+for here in the United States but on the
+other side of the world where a regime
+controls all the information flow and
+can suppress reality web stating fact
+checking is expensive and time intensive
+and the number of news organizations on
+the planet who are doing well in
+economic terms is sort of dwindling over
+time and so I think that if we were to
+go down this path you need to find a way
+to fund that because vague offer and
+volition because of the economics
+they're not going to naturally adopt
+this stuff other than a few small
+trusted institutions so it becomes
+incredibly difficult to remain a
+credible news source when you're having
+
+[01:22]
+to pay to fact-check constantly yes okay
+thank you chairman I yield back mr.
+Crawford Thank You mr. chairman we've
+come a long way since milli vanilli my I
+just in the time that we've been here I
+pulled up a videos recently posted two
+British artists teamed with an Israeli
+company if I get the name right here can
+eai I don't know if you're familiar with
+them
+they created a video of Mark Zuckerberg
+saying among other things he could
+control the future and they posted that
+on Facebook specifically to challenge
+Facebook and then Zuckerberg has
+responded by saying he's not going to
+take that down I just wonder if y'all
+could comment on that what do you think
+this is about and do you think it's a
+wise decision for Zuckerberg to not take
+it down given what we've talked about
+
+[01:23]
+and I'll start with You professor
+Citroen so I think that's a perfect
+example where based given the context
+that's satire and parody that is really
+healthy for conversation and there are
+all of these questions are hard right
+of course our default presumption as we
+approach speech online is from a
+first-amendment perspective which is we
+generally we want to keep government out
+of calling balls and strikes when it
+comes to ideas in the marketplace but
+private companies can make those kinds
+of choices they have an incredible
+amount of power they also have free
+without no any liability and I think
+they made the right choice to keep up
+the it was a conversation about
+essentially the cheap fake of Nancy
+Pelosi it seemed to be a conversation
+about the choices that they made and
+what does that mean for a society so it
+was incredibly productive I think it
+
+[01:24]
+seems correct in this instance but all
+of these companies are kind of groping
+in the dark when it comes to what
+policies they need overall because it's
+a really really really hard problem and
+so I think what would be helpful is to
+have a way for them to share policies
+across multiple companies and to sort of
+seek standardization because these
+judgment calls are very qualitative in
+nature and they're going to become more
+numerous over time I would just add
+though that while that's a comparison
+right to what happened with a you know
+the congresswoman maybe being inebriated
+a video they were trying to essentially
+duplicate that this does to point out
+the idea of context right part of that
+video it spread for one purpose only
+which was to challenge this rule so we
+would sort of discuss in this forum but
+no one really believes Mark Zuckerberg
+can control the future because he surely
+wouldn't want to show up here to testify
+or anywhere else or being the Quagmire's
+and how do you know that I'm trying to
+make a very serious point about context
+which is whenever virality spikes that's
+
+[01:25]
+where the assessment I think needs to
+come in terms of triage and that
+assessment is when it goes into human
+curation so that human curation okay we
+see four thousand chairs in ten minutes
+now we see 16,000 chairs over 15 minutes
+that is when it would should go and then
+we look at labeling we look at context
+how do we inform the public so they make
+good decisions around it we had a
+parallel to this in the analog era I I
+was a kid would show up at newsstand and
+say aliens landed at area 51 I would ask
+a mother you know friends or family
+where does this come from they say oh
+that source is just putting out
+information for entertainment that
+didn't really happen we need to help the
+consumer make a better decision around
+that so I like it that Facebook has been
+consistent in terms of their enforcement
+and I'm also not going to say that they
+should never change what those terms are
+I think they're looking to here to
+Capitol Hill to figure out what is it
+that we want to be policed what do we
+want Europe
+what does Europe want to be policed I
+
+[01:26]
+think they would like to hear from
+legislators about what falls inside
+those parameters the one thing that I do
+really like that they're doing is
+inauthentic account creation and
+inauthentic content generation they are
+enforcing that and they've increased it
+and I think that's really really good in
+terms of how they've scaled that up it's
+not perfect but it's better let me ask
+you this is there is there a particular
+company or is a particular region or
+particular nations that is especially
+adept at this technology that is
+developing at a quicker rate or or
+whatever it's it's distributed along the
+lines you'd expect of prominent research
+centers in America and China and Europe
+so it's distributed wherever you have
+good AI technologists you have the
+capability to create this stuff which
+makes it very challenging at some point
+this will be available off-the-shelf
+though right folks at home and be able
+to access it as all technology it
+
+[01:27]
+already is absolutely that's that's one
+of the big differences you know you used
+to have to go out and buy Photoshop or
+you know have some of these desktop
+editors now you know a high school
+student with a good computer and if
+they're a gamer they already have a good
+GPU card can download this can download
+data and train this type of thing
+overnight with software that's open and
+freely available so it's not something
+that you have to be an AI expert to to
+run a novice can run these types of
+things thank you yield back mr. Quigley
+Thank You mr. chairman thank you for
+your participation following up on those
+points the themes here getting easier to
+do the quality is getting better getting
+harder to detect the examples we talked
+about as victims democracy elected
+officials corporations this horrible
+
+[01:28]
+attack on a journalist but what about a
+small business with limited resources
+what about individuals who are victims
+of example you gave a professor of
+revenge porn for example and in dr. you
+talked about the scale and widespread
+authentication
+what capabilities might exist in the as
+we go forward either on social media
+platforms law enforcement or for
+individuals themselves to deal with this
+detection issue well I you know I
+envision some time where you know
+there's a button on every social media
+piece or every time you get a even a
+text message with a video attached to it
+that you can hit goes off it gathers
+information not necessarily totally
+automated if it's been vetted by one of
+many other organizations if you can
+
+[01:29]
+identify where it came from so that the
+individual can can make those decisions
+the problem is that a lot of these types
+of technologies
+just in the labs in research in
+different organizations they're not
+shared and they're not implemented at
+scale so if I want to go out and test a
+picture there was a very interesting
+picture before it's a tornado up in
+Maryland a couple of weeks ago and
+looked surreal and I immediately thought
+oh that must have been somewhere else
+you know somewhere in the Midwest you
+know years ago so I did a search there's
+a reverse image search that you can do
+and after uh you know doing some
+research I found that it indeed was real
+and it was it's practically in my
+backyard but not everybody has those
+types of capabilities nobody not
+everybody thinks to do that type of
+thing I know that I have relatives that
+you know just do this and and they see
+something and they want to share it and
+
+[01:30]
+so I think the education piece and
+getting these tools at scale is what we
+need to we need to work towards but the
+key is even with detection for the
+everyday person who has a deep fake sex
+video in the Google search of their name
+prominently featured and a platform
+refuses to take it down it is their CV
+so that even with meaning it's part of
+what everyone sees about them and so it
+is incredibly destructive and the same
+is probably true for the small business
+can't afford reputation.com if there is
+a deep fake that really cast asunder
+their business model right they may not
+be able to have it removed even though
+it is false and and it's an
+impersonation and even if it's
+defamation we know that the law moves
+really slowly
+they brought a defamation suit assuming
+they could find who the Creator is so
+that's we're gonna have this we're in
+this liminal period where and it's give
+me last year's where individuals will
+
+[01:31]
+suffer and there's it's incredibly hard
+to talk to victims because there's so
+little that I can force anyone to do and
+and we're gonna see a lot of suffering
+and the issues that we just talked about
+they are you trying to tackle those with
+your model laws that you were talking
+about yeah so I am the vice president of
+the cyber soul
+Wright's initiative and we have been
+working with lawmakers around the
+country both at the state level and the
+federal level both in terms of
+non-consensual pornography and now to
+think about how we might really
+carefully and narrowly craft a law that
+would ban deep fakes or manufactured
+video that are essentially
+impersonations that amount to criminal
+defamation so I think we've got work
+ahead of us at CCRI and and laws around
+the country it could be tackled but it's
+gonna have a really modest impact
+because law moves slowly and when you're
+doing this you're talking to local and
+state law enforcement agencies yes so in
+my work on cyber stalking I wrote a book
+
+[01:32]
+called hate crimes in cyberspace which
+was about the phenomenon of cyber
+stalking and how hard it is to teach law
+local law enforcement
+both about the technology and the laws
+themselves you know they're great at
+street crimes but when you talk to them
+about online crimes even though they're
+offline components they say I don't
+really know where to begin
+I don't know how to get a warrant for an
+online service provider to get an IP
+address to go to the ISP so we do have
+some education I know congressman Clark
+has called for funding some training a
+lo of local and you know local law
+enforcement on the question of cyber
+stalking both as a technical matter and
+then as to law and I'd love to see that
+not only with regard to cyber stalking
+and threats but more broadly thank you
+all
+mr. hurt uh yes mr. sorry Thank You
+chairman I'm gonna try to do something
+
+[01:33]
+that's probably impossible in the next
+five minutes on touch on and get y'all's
+perspective on on four areas the ability
+to detect we've touched on mr. Durham
+and you touched on authentication as a
+strategy for this how do we handle how
+do we develop a strategy in a narrow
+national security sense to counter dis
+and my first question is probably to you
+mister can you talk to us about the
+ability to do to do a pixel-by-pixel
+analysis a bit by bit analysis is there
+other areas of basic research that we
+should be focusing on in order for us to
+to help with an ability to detect well
+the DA and how easy is that now and who
+should potentially be be doing that well
+the government is putting a lot of money
+into this piece as I said there's a lot
+more manipulators than there are
+detectors so I would hope that behind
+closed doors that the social media sites
+and and the you know the youtubes of the
+world are looking into this type of
+
+[01:34]
+application I'm not sure is the ability
+to understand the various metadata or
+even getting to a point where we can do
+pixel by pixel
+you know exploration in mass is that
+going to help us in a point where you
+can do you know real authentication so
+anytime you put a video up or a picture
+up there's a green checkmark you know
+personally I don't like to use the word
+authentication because as we know
+absolutely everything that goes up
+online is modified in some way whether
+it's cropped or you know there's a
+there's a color histogram distribution
+was just meant but it's not things well
+we like to use that that things have
+been modified but it's a scale so if
+there's the modification of intent if
+you put a flower in a picture next to
+someone that has a very different effect
+than if you replace somebody's face in a
+picture and so this discussion this
+
+[01:35]
+attribution piece and the actual report
+that says this is exactly
+what was done was a big part of the
+metaphor program as well so so the
+closest you're gonna get is say all of
+these things happen to this image and
+therefore the user would have to be the
+one to make the decision on whether this
+is credible or not yes and even in an
+automated way if you are taking an image
+and you're the FBI and you're going to
+court even if you did change one pixel
+you lose the credibility but if you're a
+doing FBI and you're doing an
+investigation and you have a very
+compressed grainy surveillance video it
+still might give you information you
+believe it
+miss citron and then maybe mr. Watts
+you know disinformation is a subsection
+of covert action covert action and
+counting over action is responsibility
+of the Central Intelligence Agency yet
+the Central Intelligence Agency because
+the National Security Act of 47 can't do
+this in from account covert action in
+
+[01:36]
+the United States or America very hard
+to do it in English who should be how
+should we be looking at a government
+strategy to deal with disinformation
+especially in the context of national
+security or somebody else more
+appropriate to start with that I think
+it's two parts i I would encourage the
+social media industry and the platforms
+to focus on methods who's doing deep
+fakes digital forgeries who's doing
+computational propaganda can we have a
+listing of those they're not always
+nefarious but then we know who the
+people are that are building the
+equipment this is essential essentially
+the weapons that are being used and I
+would encourage the government then to
+focus on actors so this is in the case
+of the CIA oversees DHS in terms of
+protecting the homeland who are you know
+State Department which used to have the
+u.s. Information Agency would be out
+there outing and overtly going after
+those actors that are doing the
+manipulation I feel like we are still
+after several years now really slow to
+
+[01:37]
+do this and they're the only ones that
+can figure it out when I worked with
+social media teams and we spot actors
+that we believe are doing things we
+sometimes have to wait years for the
+government to go yes here's the malla
+report and it labels the internet
+research agency but that had already
+been out in the news so the more rapidly
+the government can do that the more the
+public and
+the more the social media companies know
+what to take down because that
+attribution really only comes down to
+the US government they're the only ones
+the tools really they can do that thank
+you
+Chairman I yield back mr. heck Thank You
+mr. chairman
+first of all professor citron I want to
+make sure that I understood correctly if
+something like happened to that reporter
+in India had happened in America did I
+understand correctly that that would not
+constitute a crime per se it might be
+
+[01:38]
+understood as cyber stalking which is a
+crime and under federal and most states
+laws the problem is it was sort of like
+death by a thousand cuts and to
+constitute cyber stalking you need a
+course of conduct a persistent
+repetition by the same person so for the
+first time if it were the friend what
+happens is it's like a cyber mob coming
+together so one person puts up the photo
+a screen shot another person puts up the
+home address yet another person puts up
+I'm available just all it says I'm
+available with a screen shot so the
+person who originated it under current
+law would likely not be subject to
+criminal prosecution right did I also
+understand you to say that even if it
+were it would have modest impact that is
+what I said was if we had criminal laws
+
+[01:39]
+that combated the sort of deep fake
+phenomenon and really tailored to
+falsehoods impersonations that create
+cognizable harm I think law is really
+important it's not that it's it's modest
+in the overall impact because we need a
+partnership with technologists right I
+want to move on but I also cannot help
+but have this terrible flash
+of Dante's Inferno abandon hope all ye
+who enter here whose job should it be to
+label that that wasn't clear I kind of
+thought it might be the media platform
+company I think will be the Creator that
+is that we could much as we do in the
+campaign finance space where we say
+there are certain disclosure rules that
+we say if you're an if it's a political
+ad you have to own it it's so if it's a
+
+[01:40]
+foreign originator how is it that we
+have any jurisdictional reach we don't I
+mean that no boundaries right and so as
+a matter of practical fact even if it's
+created in America transmitted to a
+foreign person and then retransmitted we
+have no means of enforcement labeling in
+and of itself and that might be a
+remarks above about Dante's Inferno but
+look we've got social media platforms if
+they had some responsibility they may
+and if indeed and I'm pretty skeptical
+about whether we're gonna get there in
+the near future about the technology of
+detection mm-hmm but assuming that's
+possible then a reasonable practice
+could be a disclosure saying this is uh
+this is a fake so were you with it what
+you will we actually have as it were a
+comparable a truth verification
+
+[01:41]
+mechanism currently Snopes
+and yet a member of my family who shall
+go unnamed immediate family once posted
+how outrageous is and how the
+Constitution ought to be amended because
+members of Congress can retire after one
+term immediately immediately collect
+full pension benefits every member of
+peers are this have health care for free
+for life and their children go to
+college for free
+not one word not one letter of that
+assertion is true which could have
+easily been verified if they had gone to
+Snopes they didn't and even if they did
+in a poll
+context the truth is the person who's
+perpetuating that may have a political
+agenda such that they also in a parallel
+fashion engage in ad hominem as or
+attacks against the reliability of
+Snopes they so see remarks above abandon
+
+[01:42]
+hope all ye who enter here I don't have
+much time left but I really interested
+in mr. Himes getting at the issue of
+political speech and First Amendment you
+mentioned that you know we are protected
+against being impersonated but it's not
+clear to me how we square case law which
+has created a very high barrier and it's
+incredibly important to recognize that
+everything you've just described as
+legally is totally protected speech you
+know the United States has made clear in
+a case called the United States versus
+Alvarez a plurality and occurrences of
+the court so that look we protect
+falsehoods that we're gonna Chur it
+enjoys First Amendment protection
+because as Justice Kennedy explained it
+reawakens the conscience it has us
+engaging counter speech that sort of
+recommit to citizenship but there are
+times as the court made clear that when
+falsehoods create certain kinds of
+cognizable harm that we can and should
+
+[01:43]
+regulate when that includes defamation
+even if public officials if said with
+actual malice that you know are you're
+reckless that's the truth of the matter
+asserted right so they're true threats
+incitement there there's 21 crimes made
+up of speech we can regulate certain
+words and images if it falls in one of
+those categories or if we can meet
+strict scrutiny
+so yes the presumption is that it's
+protected speech if it's a falsehood but
+falsehood that causes cognizable harm
+the court has explicitly said actually
+it's an entire Court has said that that
+is a space that we allow regulation
+thank you mr. Welch
+thank you very much you know in in this
+
+[01:44]
+is very helpful there's different
+categories and we're all trying to get
+our arms around them there's the
+question of the First Amendment which
+mr. heck and mr. Himes were talking
+about there's the question of foreign
+interference and there's the question of
+economic harm reputational harm and the
+environment and we're all learning as we
+go on this but what I've heard you'd be
+describing is essentially the whole
+world of publishing is upside down it
+doesn't exist like it did prior to the
+internet so the question is whether we
+want to get back to some of the
+principles that applied pre social media
+it's not like those principles
+necessarily have to be abandoned they
+have to be applied and they would apply
+in different ways for each of those
+different categories with so the I just
+
+[01:45]
+want to ask each of you whether we
+should get back to the requirement of an
+editorial function in a reasonable
+standard of care by treating these
+platforms as publishers and I know miss
+Citroen you said yes I'd be interested
+in what the others see just yes or no on
+that so working with a number of people
+sort of in this area I think I think the
+you know the horse is sort of left the
+gate on this I don't think we're going
+to be able to get back to that type of
+what about with our statutory change
+that miss Citroen was proposing let me
+just go on a little bit because who has
+the duty may I be clear for one second
+it wasn't that I was suggesting that
+social media platforms be understood as
+publishers strictly liable but rather
+that we conditioned their immunity
+unreasonable practices right those
+
+[01:46]
+reasonable practices may be the content
+moderation practices they use right now
+so I'm going to disagree about calling
+them
+publishers who would be strictly liable
+for defamation that's not what I'm
+suggesting okay thank you for that
+clarification but that does seem that
+seems to be one fundamental question
+that we would have to ask because that
+would be a legislative action mr. Clark
+I think you have a whack-a-mole issue
+here where people sort of online go and
+talk in and they compose their own
+Prattville platforms very very quickly
+and they compose platforms to evade
+rules but we put against platforms doing
+certain types of things so I do agree
+with dr. David Orman here that it's it's
+very difficult to contemplate
+controlling speech in this way because I
+think the habit of the entire culture of
+people has changed well what about on
+this question of somebody going online
+and putting up a fake video
+that destroys an IPO who has a duty of
+
+[01:47]
+care with respect to allowing that to be
+stated on their platform nobody has it I
+think we can authenticate content and
+users and I think that you can make
+users culpable for certain types of
+content that they post we'd have the who
+would be liable in the case of that
+false statement about an IPO that
+destroyed its value I defer to the
+lawyer the speaker the speaker the
+creator of the deep fake and so long as
+as mr. Clark suggested the platform had
+reasonable practices of Aesthetic ation
+and sort of expletives a generation
+practices but does the platform under
+current law have any duty you have no
+liability under Section 230 that seems
+like a very direct question one of the
+other issues that is debated there's a
+there's a different point of view often
+between Republicans and Democrats about
+
+[01:48]
+bias and what goes on in the platform's
+so there would have to be some standard
+that wasn't seen as tilting the the the
+playing field for Republicans or
+Democrats is that possible to do and was
+that something that was true pre social
+media in the days of yore
+thank Jack yeah I was going to save it
+for standards we can actually use
+technology a bit here to create
+technological standards for making a
+judgment call as to whether something is
+or is not faked or synthetic and that
+might take the political aspects out of
+this if you have open standards
+developed primarily by academia the
+companies chimed in on and it's
+auditable by scientists who take four
+tires and provide assurance it seems
+reasonable okay thank you all very much
+my time is up I yield back
+mrs. Demmings thank you so much mr.
+chairman and thank you to all of you for
+being here you know this conversation
+
+[01:49]
+this morning has been pretty disturbing
+and actually quite scary you know when I
+think about it the Internet is the new
+weapon of choice and as I listened to
+the testimony and the questions here you
+know as we think about an individual who
+goes out and valleys laws or creates
+harm would be held accountable I believe
+that any individual or entity that
+bullies or stalks or creates harm or a
+public safety becomes a public safety
+risk any entity that creates an
+environment for those things to happen
+should be held accountable as well and
+you know when I think about those around
+the world who are not our allies they
+want to create chaos in this country and
+what a wonderful way an easy way to be
+
+[01:50]
+able to do that the problem that you
+know of course the fate information is a
+problem but the other problem is it
+creates an environment where good people
+no longer believe the good guys and
+Boora we see in that in our country
+right now that's a that's a major
+problem all right institutions that we
+have grown to depend on and believe in
+are
+no longer being believed and that can
+create total chaos back to mr. hex
+statement about say for example a fake
+video is being created it's created in
+America but then transmitted to another
+country could not the act of
+transmitting a simple act of
+transmitting that video be the violation
+because I know there has been a lot of
+discussion about their No Boundaries how
+
+[01:51]
+do you hold someone in a foreign land
+accountable or but I'd love to hear your
+thoughts on that
+I think there are two pieces to that
+there's the sort of procedural
+jurisdictional question of whether its
+constitutional to haul them into your
+court personal jurisdiction and then
+there's the extradition question which
+I'm going to rely on
+I think mr. Watts for that but if you're
+in America and you transmit yeah video
+that creates a public safety concern or
+a national security risk could not the
+very act of transmitting it from America
+be the violation well as we talked about
+policies it's directed outside the
+United States so you're in the United
+States and you direct it outside outside
+and you transmit it from okay so that's
+order it was a different question
+because when we under the Fourteenth
+Amendment how we think about personal
+jurisdiction is that we say if you're
+aiming your activity and you're aiming a
+tort to another state you're doing it
+
+[01:52]
+purposefully you're availing yourself of
+that state we can haul you into court so
+long as there's a long-arm statute but
+now you can tell at each Civil Procedure
+but now we've confused me a little
+because then the question is when it's
+an American directing harmful activity
+abroad I would imagine that ven is
+contingent on that country's
+jurisdictional rules and our extradition
+arrangements and treaties with them
+right so mr. Watts you want to take it
+from there yeah I mean I'm not a lawyer
+obably not worked out I'm not sure if
+it's a brand aware of it but it is best
+because what has been very clear over
+the last four years is there is no
+physical boundary in these communities
+and these disinformation networks online
+and they oftentimes the smartest
+manipulators out there
+Russia China Iran they actually looked
+to enlist people in foreign lands to
+make the content look more authentic and
+they are setting people up sometimes
+they're aware of it and sometimes
+they're not aware of it those that are
+
+[01:53]
+aware of it are doing it willingly
+and so if you look at the McCrone leaks
+for example which was another hacking
+attempt trying to drive an election it
+was actually someone in North America
+that alerted the world to it right and
+and pointed the direction to it so I do
+think we need to figure out what those
+relationships and how we would handle it
+in terms of our own law enforcement
+environment because we are now going out
+to other countries and asking them to do
+that for us thank you and back to you I
+know we've talked quite a bit too about
+the intelligence community and our
+national security entities but could you
+talk just a little bit about how should
+we task the intelligence communities and
+our national security entities with
+assessing and forecasting future impacts
+of deep state technology I think there's
+two part one who are the purveyors and
+actors that are going to use that that's
+pretty straightforward I mean from the
+outside even where I work I can see a
+lot of that I think the part that might
+be missing from the government's
+perspective is where those technologies
+being developed the number one place I
+
+[01:54]
+would have someone as a liaison in the
+US government right now is Tel Aviv I
+mean this has been a central hub of
+everything from cyber tools to influence
+tools influence operations both good and
+bad you know depending on what your
+perspective is but that is a tech hub I
+feel like oftentimes when I talk to the
+government about that they're really
+well informed about what Dean state
+actors are doing but oftentimes missing
+what the private sector is openly
+available in terms of AI and other tools
+that are out there yes mr. Clark yes
+thank you okay just quickly to this
+point it's worth repeating that the
+fundamental techniques and tools for
+this are published openly online and we
+can easily compile quantitative metrics
+for the rate of improvement so we can do
+that forecasting so I agree with what
+mr. Watts said but it is easy to go and
+discover this information for ourselves
+thank you it's chairman I yield back dr.
+
+[01:55]
+winstram Thank You mr. chairman and
+thank you Miss Demings gives you address
+the question that we ran out of time on
+on the extradition laws I appreciate
+having the opportunity to hear from you
+on that and you know just getting to
+other punitive measures that we may be
+able to start talking about and thinking
+about you know with the extradition laws
+though we might end up with a lot of
+people hanging out in other people's
+embassies for many many years rather
+than being extradited but at the same
+time well as a doctor I don't often find
+myself eager to engage with trial
+lawyers but that's probably where we
+need to head with with this as you know
+people are harmed through all this so
+you know I'm going through my mind what
+kind of punitive measures you know
+certainly monetary would be included
+because people end up as we pointed out
+with huge monetary losses because of
+these fake stories and and what about
+
+[01:56]
+prison time I mean I think we really
+need to consider being pretty tough on
+this if it's to be effective
+one thing I would end the chairmanship
+brought up and I kind of ran out of time
+and the opening questions was about
+sanctions what we did see if you look at
+the GRU indictment in particular which i
+think is July of 18 they they're
+essentially being sanctioned or outed
+and so are those companies in the
+February 18 troll farm indictment that's
+very effective but you could move down
+the chain of command such that hackers
+and influencers propagandists don't want
+to be hired at those firms because they
+know the risk that they could be
+individually sanctioned I think that
+could be an effective technique it seems
+like it would be hard to execute but
+once we got good at it I think it would
+be a great facet which is if you can
+turn down the employment to where the
+best hackers and the best propagandist
+don't want to work with those
+authoritarian regimes it could change
+the nature of things I think we could
+also look at those that are pushing out
+
+[01:57]
+tools and both in terms of cyber and
+hacking tools that are being used for
+very malicious purposes and for
+influence techniques you could actually
+go after those companies which are
+oftentimes international they're not
+necessarily Thai
+to a nation-state and that would also
+send a downward pressure you know across
+the disinformation space it would also
+send it more undercover and places like
+the dark web but that's okay because
+that plays to our strengths which is we
+have great intelligence collection
+capabilities at that end and we have
+good sophisticated intelligence agencies
+and now we and now we would know where
+it is right more likely but it would be
+a black mark it changes the problem but
+I think to our advantage
+we're moving in the right direction
+other thing too is you know you
+mentioned sanctions and that does make a
+lot of sense especially if it's a
+country that there's no way you're gonna
+get some type of extradition agreement
+you know in place right right and I
+think that's the case with most of these
+locations whether it's China Iran or
+Russia those are the three big ones but
+it also would send a message out across
+
+[01:58]
+the world if you're pushing on us
+they're their options that we have i I
+do think that the time for offensive
+cyber is at hand and general knock
+Estonia I think has done some very good
+briefings recently about that talking
+about the measures that are taking if if
+these foreign manipulators makers a deep
+fakes that are working at troll farms
+cyber hackers knew that we were actually
+going to respond in a very aggressive
+way they would move away whether its
+arrest and extradition if it's sanctions
+individually or even in terms of cyber
+response right now there's not a whole
+lot of deterrence no it's proliferated
+because we have not responded thank you
+I yield back unless someone else wants
+to comment but I appreciate it thank you
+for the time thank you I just had a few
+follow-up questions can you talk a
+little bit about the oh I'm sorry mr.
+Castro Thank You chairman
+professor citron first I enjoyed your
+article with Bobby Chesney out of UT
+
+[01:59]
+Austin and had a chance to visit with
+him on some of these issues a few months
+back and you mentioned the case about
+falsehoods and I think this will be a
+monumental task for the legislative
+branch and then the judicial branch to
+grapple with how we treat deep fakes
+there's some speech like hate speech and
+fighting words that are not as protected
+obviously as political speech and in
+making that determination we have to
+figure out what the value is
+the type of speech or expression so let
+me ask you what is the value of a fake
+and just to add to that and thank you so
+much for reading our piece is the value
+to the listeners right so when we think
+about free speech theory it's the value
+to the autonomy rights of the speaker
+and as for self-governance the creator
+in this case the creator but also of
+course the listener is sure and so the
+value of the fake could be profound
+right it could be that the deep fake
+contributes to art you know Star Wars we
+had Carrie Fisher coming back right
+
+[02:00]
+there there's a lot of value in indie
+fakes at the same so I recognize what my
+co-panelists are suggesting but we do
+have guides in the law about falsehoods
+impersonation so that what that cause
+harm whether it's defamation law or its
+you know another kind of speech where we
+say fraud right so you think we may go
+down the road or the court eventually
+may go down the road where certain
+speech like hate speech is not protected
+obviously the same way as political
+speech or even ordinary speech you think
+we're gonna stay firm on hate speech I
+have a feeling I know but I mean for
+face that there will be fake certain
+fakes that are treated differently right
+another finding on the context you know
+all this is so contextual so I don't
+think we can have a one-size-fits-all
+rule for synthetic video well even as to
+impersonations because you could have
+satire and parody which is really
+valuable important at the same time
+we've got to bring context to the fore
+and say there are times when these
+
+[02:01]
+falsehoods the deep fake causes real
+harm real harm that is cognizable and
+real harm that doesn't enjoy either
+doesn't enjoy First Amendment protection
+or enjoys less rigorous protection and
+we can regulate it let me let me follow
+up I want to ask y'all you know one of
+the big challenges that we had with the
+Russian interference particularly what
+they put on Facebook and social media is
+that it seemed as though the social
+media companies were unprepared for that
+and there was there know was there was
+no infrastructure for vetting or
+moderating those things so you know I
+mean just my rough sketch obviously you
+all have thought about this a lot longer
+but I see that there's a creator who you
+software who then posts on social media
+and then the traditional media picks it
+up and then further proliferate sit into
+the bloodstream of American society so
+we're in there do we construct that
+infrastructure for betting and for
+moderating these tube fakes who is
+responsible at each of those levels well
+
+[02:02]
+I you know again I'm not the lawyer or
+the policymaker but I think there's a
+there's another piece to that that
+puzzle somebody puts something up that's
+innocent and on and it gets used by
+someone else for a different message so
+you know this is almost not even the
+deep fakes problem but something that
+gets it gets put out there and then gets
+twisted in a certain way somewhere down
+the line way out I mean there's a lot of
+people that don't realize sometimes that
+The Onion articles are actually satire
+exactly that's that's a that's a good
+example of that so I think we need these
+types of things that at every level that
+we need to be able to show the
+attribution of this information how it
+progressed and and be able to make those
+decisions at every level I would and I
+think that scenario is exactly what will
+happen going in to future elections by
+our foreign adversaries which will be to
+use as much organic American content
+
+[02:03]
+that suits their narrative and to
+amplify that and inject it back that's a
+pretty standard disinformation approach
+and especially as false content is
+proliferating you know they're more more
+people are able to make it each year
+they can make fake content that means
+that more it's more available for
+adversaries to repurpose and reuse which
+is the scenario that David just talked
+about so I think the social media
+companies need to work in terms of
+morality what are their thresholds for
+doing assessments how they do their
+content labeling and then even a triage
+within that in terms of severity of
+impact we know what some of those are
+right like mobilization to violence
+talking to violence but also in terms of
+effect to democracies and political
+institutions things related to elections
+right now I would be very worried about
+someone making a fake video about
+electoral systems being out or broken
+down on Election Day 2020 that we should
+already be building a battle drill you
+know a response plan about how we would
+handle that in the government in the
+state governments and the DHS as well as
+
+[02:04]
+with the social media companies Thank
+You chairman you'll be thank you you
+just wanted to ask a few follow-up
+questions I don't know if any of you
+know to date how many millions of views
+the doctored video speaker Pelosi has
+received but I wonder if you have a
+sense of if there are X million views of
+that video how many of those millions
+will ultimately learn that that video
+was a fake and how many will be
+permanently misled and then what's more
+if you could comment on the phenomena
+that even if you're later persuaded that
+what you have seen of the person is not
+true
+I understand that psychologists will
+tell you that you never completely lose
+the lingering negative impression you
+have of the person so I wonder if you
+could comment on those two issues fact
+
+[02:05]
+checks and clarifications tend not to
+travel nearly as far as the initial news
+which so we would expect the same to
+hold here where for people who have seen
+the doctored video tiny minority will be
+aware that it was doctored previous
+sumption so the assumption will be if
+you put this out that a very small
+minority will actually learn that it's a
+fake no matter how good you or the press
+do of putting that out there because the
+the truth in this case that what you've
+seen is false is not going to be as
+visually impact you may not be visual at
+all as seeing the video the word quickly
+put it is if you care you care about
+clarifications and fact checks but if
+you're just passively enjoying media you
+enjoy media and so the experience of
+speaker fake is you you enjoy or
+experience that media and an absolute
+minority care about whether that's true
+beyond the entertainment value you
+extract it from it and a general thing
+
+[02:06]
+you know what what should you know
+whether it's journalism or what not what
+what should
+teachers in schools be educating young
+people about these days about whether
+you can believe what you see you know
+this gets to the liars dividend and by
+the way you know in politics there's a
+saying that the first time you hear an
+expression or an anecdote or story you
+make personal attribution the second
+time you say somebody once said the
+third time it's pretty much yours
+so liars dividend is now out there but
+you know how do we how do we educate
+young people or not so young people
+about how to perceive media now without
+encouraging them to distrust everything
+in which case there is this large
+dividend it's it's true that the more
+
+[02:07]
+that what we're seeing even if it's
+totally false confirms our worldview
+social psychology studies show that we
+are just going to ignore it so that we
+will believe the lie if it confirm it's
+confirmation bias theory so you're right
+that it becomes incredibly hard for the
+fakery to be debunked because it's so
+visceral video and because if it
+confirms your worldview it's going to be
+it's really tough I guess that's the
+task of as parents as educators that as
+teachers as we talk to our students the
+critical eye 10 years ago remember the
+critical thinking was about how do we
+teach students how to do a Google search
+and what can they believe everything
+that's in the firm you know prominent a
+search and whatever they're doing and we
+saw that you know you did a search for
+the term Jew what would come up first
+was a very violently anti-semitic site
+called Jew watch and teachers struggle
+
+[02:08]
+to explain to students that just because
+it's prominent doesn't mean it's real or
+it doesn't mean that it's the authority
+I think we're gonna have the same
+struggle today right that that yes we're
+gonna teach them about deep fakes and I
+think we've also got to teach them about
+the misuse
+of the phenomenon to avoid and escape
+responsibility well I mean the other
+challenge too is we we have a white
+house that is popularized the term fake
+to describe lots of things that are real
+in fact some of the most trusted news
+sources in the country so there's
+already an environment in which there's
+license to call things fake that are
+true but but are critical and it seems
+that that's a pretty fertile ground for
+the proliferation of information that is
+truly fake and we find ourselves frankly
+trying to find other words for it false
+fraudulent because fake now has been so
+debased as a term people don't know
+
+[02:09]
+really what you mean by it I think it's
+worth noting too that when the Act
+President Trump
+referred to Acts they Access Hollywood
+tape he said people that never really
+happened the Holtz interview oh that was
+that wasn't right we've already seen the
+liars dividend happen in practice from
+the highest of the bully pulpits so I
+think we've got a real problem on our
+hands do you think there's some optimism
+for tools I've been involved in numerous
+arguments with friends where we've gone
+and checked so it's imperfect something
+like Wikipedia or you know you you end
+up using the information sources around
+you and you can train people that were a
+certain sources you can go to settle an
+argument as it were and I think that we
+can develop such tools for some of this
+technology and I think that you know
+that's a that's a great motivation for
+having this you know this information up
+front you know when when mr. heck was
+saying that you know he had a family
+member that didn't know about going to
+
+[02:10]
+Snopes if that information was attached
+to the video or the email or whatever
+ahead of time they would have had access
+to it and they wouldn't have had to go
+search for it well I'm just thinking of
+the you know applying in 2020 what we
+saw in 2016 and in 2016 among other
+things the Russians mimicked black lives
+matter to push out content to racially
+divided people
+and you can imagine a foreign bad
+actress particularly Russia dividing us
+by pushing out fake videos of police
+violence on people of color we have
+plenty of really authentic ones and but
+you could certainly push out videos that
+are enormous ly jarring and disruptive
+and and they're even more so than seeing
+
+[02:11]
+a false video of someone and still
+having that negative impression you
+can't unwind the consequences of what
+happens in the community it's hard to
+mention that not happening because it's
+such low barriers to entry and and
+there'll be such easy deniability
+if I could add there is some good news
+in that social media if you watch
+Facebook's news room they're doing
+takedowns nearly every week now so
+they've sped that up precipitously but
+we actually have the curriculum for
+evaluating information sources in the US
+government I was trained on it at the
+FBI Academy they have it at the Defense
+Intelligence Agency Central Intelligence
+Agency which is how to evaluate
+information outlets how do you evaluate
+expertise they teach this it's a
+unclassified there's no secret sort of
+course but it's how you adapt that into
+the online space the audience I'm most
+worried about is actually not young
+people in social media it is the older
+
+[02:12]
+generation who's come to this technology
+late that doesn't really understand they
+understand the way newspapers are
+produced where the outlet is coming from
+who the authors are so I was with a
+group at New York City Media Lab and
+they actually had a group of students
+that was how do we help older
+generations new to social media or has
+less experience evaluating these sources
+you can send them tips and cues do you
+know where this outlet is physically
+located at that's one do you know who
+the author is who the actual content
+provider is or it can the social media
+company tell you I think there are
+simple tools like that that we could
+develop or the social media companies
+could develop for all audiences because
+it's not just for the young people young
+people actually have more it
+often times an information evaluation
+and digitally then their parents do they
+have actually done this at times more so
+I think in terms of thinking about
+approaches it's about you know what's
+the generation what are the platforms
+they are on do they understand that
+places like HM which are known for
+extremism is based in the Philippines
+
+[02:13]
+and that's not really in the United
+States and in the sense of our ability
+to administer these things there are
+some simple tools I think we could do
+that are nothing more than widgets
+public awareness campaigns things that
+we can take from the government that
+we've already developed and really
+repackage for different audiences in the
+United States
+dr. Dorman if I could is the technology
+already at this stage we're good AI can
+produce a video that is
+indistinguishable from real to people
+with the naked eye
+in other words could AI right now fool
+you if you don't have access to computer
+analysis of whether the video is
+authentic yes I think there are examples
+out there that if taken out of context
+that if they're sent out there and there
+there's a story or a message with it
+that people will believe it and it's not
+just people that have that agenda there
+
+[02:14]
+are it was a video that was out there
+that showed a plane flying upside down
+very realistic-looking
+and I think what people will need to do
+is get confirmation from other sources
+that you know something really happened
+so a video and isolation but if you if
+that's what you're talking about
+a video in isolation you know you're
+you're given this asking is this does
+this look authentic or not independent
+of whether you know it passes the sniff
+test so to speak yes I think that type
+of technologies out there and it won't
+always be possible to disprove a video
+or audio by disproving the circumstances
+around it in other words if there were
+an audio of doctor Wenstrup
+purportedly on a phone discussing a
+bribe doctor Wenstrup wouldn't be able
+to say that I was in this place at this
+time
+and it couldn't possibly been on the
+phone because the call could have taken
+
+[02:15]
+place at any time or if there's a video
+of Al Demmings it won't always be
+possible for Val to show that she was
+somewhere else at the time is do you see
+the technology getting to the point
+where in the absence of the ability to
+prove externally that the video or audio
+is faith that the algorithms that
+produce the content will be so good that
+the best you'll be able to do is a
+computer analysis that will give you a
+percentage the likelihood this is a
+forgery is 75% but you won't ever be
+able to get to 100% are we headed for
+that day where it just won't be possible
+to show that something we have seen or
+heard is illegitimate so part of the
+metaphor program was exactly that coming
+up with a quantitative scale of what
+manipulation or what deception is I
+
+[02:16]
+don't know if they've gotten there I
+left partway through the program but yes
+I think there is going to be a point
+where we can throw absolutely everything
+that we have at this at these types of
+techniques and there's still some
+question about whether it's authentic or
+not I there there there's no you know in
+in the case of the audio you could do
+close analysis with tools and and voice
+verification all of those sorts of
+things but just like a court of law
+you're gonna have one side saying one
+thing and you're gonna have another side
+saying the other thing and there's going
+to be cases where there's nothing
+definitive I I definitely believe that
+my colleagues have aney for the
+questions on that optimistic note we
+will conclude and once again my profound
+thanks for your testimony and your
+recommendations the committee is
+adjourned
+
+[02:17]
+you
+
+</details>
+
   DeepMind discusses GPT‑2 and the importance of appropriate publication norms for generative models in their recent [discussion⁠(opens in a new window)](https://deepmind.com/blog/article/unsupervised-learning) of unsupervised learning.  
   OpenAI commences a research collaboration with the [Partnership on AI⁠(opens in a new window)](https://www.partnershiponai.org/) for publication norms in AI research. We’re trying to work with a diverse set of AI research organizations to come up with questions scientists may want to ask ahead of publication, and potential frameworks they can use to make publication decisions.
 * **June 2019**

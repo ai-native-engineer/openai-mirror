@@ -117,6 +117,59 @@ OpenAI Five averages around 150-170 actions per minute (and has a theoretical ma
 
 These differences matter most in 1v1 (where our bot had a reaction time of 67ms), but the playing field is relatively equitable as we’ve seen humans learn from and adapt to the bot. Dozens of [professionals⁠(opens in a new window)](https://www.reddit.com/r/DotA2/comments/6yp5ug/black_just_killed_open_ai/) [used⁠(opens in a new window)](https://www.reddit.com/r/DotA2/comments/6wqf5x/bulldog_gets_jebaited_hard_by_openai_bot/) our 1v1 bot for [training⁠(opens in a new window)](https://www.youtube.com/watch?v=DQ3fPS9345A) in the months after last year’s [TI⁠(opens in a new window)](https://en.wikipedia.org/wiki/The_International_(Dota_2)). According to Blitz, the 1v1 bot has changed the way people think about 1v1s (the bot adopted a fast-paced playstyle, and everyone has now adapted to keep up).
 
+<!-- yt-inline:DQ3fPS9345A -->
+[![SanDisk Speed Challenge: SumaiL vs OpenAI](https://img.youtube.com/vi/DQ3fPS9345A/hqdefault.jpg)](https://www.youtube.com/watch?v=DQ3fPS9345A)
+
+<details>
+<summary>자막: SanDisk Speed Challenge: SumaiL vs OpenAI (5:47)</summary>
+
+[00:00]
+so here's the challenge you're gonna
+play the opening I bought which you've
+played before we gave you four warm-up
+games off stream that we didn't record
+and now we're putting you up against the
+bots and see how long it takes you once
+you've had a couple bit of a little bit
+of warm up so how many games you think
+you beat it in and then okay I think
+when we did this a TI you told me three
+and I bet three is the right number and
+I'll have that ball it moe speaker to
+this okay so we'll say ten do you want
+to count the first four on your tally
+yeah okay so we'll start to take her at
+four and we'll get you in our first game
+and we'll start going get it just Phil
+let's go this is gonna be a SanDisk
+speed challenge test of true skill how
+fast can you beat the bottom sumail
+
+[00:01]
+verse open AI
+prepare for
+[Music]
+
+[00:04]
+is being
+they fought at level 1 then you just
+sold killed it in the first wave number
+
+[00:05]
+2 and what I'm gonna do
+alright you good was this six tried any
+bought fence any boss fans any a I know
+address second try on camera six try
+overall yeah we go that's pretty good
+for Santa's go just what later state now
+course laid him straight opened it no
+cares
+kiss you're done alright can the myth be
+blamed the rest
+
+</details>
+
+
 ## Surprising findings
 
 * **Binary rewards can give good performance.** Our 1v1 model had a shaped reward, including rewards for last hits, kills, and the like. We ran an experiment where we only rewarded the agent for winning or losing, and it trained an order of magnitude slower and somewhat plateaued in the middle, in contrast to the smooth learning curves we usually see. The experiment ran on 4,500 cores and 16 k80 GPUs, training to the level of semi-pros (70 [TrueSkill⁠(opens in a new window)](https://en.wikipedia.org/wiki/TrueSkill)) rather than 90 TrueSkill of our best 1v1 bot).

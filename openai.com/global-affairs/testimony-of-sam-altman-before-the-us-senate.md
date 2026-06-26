@@ -186,6 +186,1548 @@ See Sam's Senate questions for the record [here⁠](https://openai.com/global-af
 20. 20
 
     Summers, Lawrence. Bloomberg: Wall Street Week, 9 Dec. 2022, [https://www.youtube.com/watch?v=iR31ZAacyGM⁠(opens in a new window)](https://www.youtube.com/watch?v=iR31ZAacyGM).
+
+<!-- yt-inline:iR31ZAacyGM -->
+[![Wall Street Week - Full Show (12/09/2022)](https://img.youtube.com/vi/iR31ZAacyGM/hqdefault.jpg)](https://www.youtube.com/watch?v=iR31ZAacyGM)
+
+<details>
+<summary>자막: Wall Street Week - Full Show (12/09/2022) (47:41)</summary>
+
+[00:00]
+China blinks, Russia threatens, and
+Democrats seal the deal in Georgia.
+This is Bloomberg Wall Street week.
+I'm David Westin.
+This week, special contributor Larry
+Summers on the search for growth in
+China and in the United States.
+We're going to be seeing probably the
+biggest set of policy experiments that
+we've seen in China in decades.
+And Jeff Lough of related on why the
+market for upscale office space is hot.
+You look at new modern buildings with
+the right features, the right amenities,
+and the demand for those buildings is
+tremendous.
+Global Wall Street saw a week of
+confrontation as Democrat Raphael
+Warnock faced down Republican Herschel
+Walker in yet another runoff election in
+Georgia and came out the winner.
+It is my honor to honor the four most
+
+[00:01]
+powerful words ever spoken in a
+democracy.
+The people have spoken.
+Ukraine continued its bloody
+confrontation with Russia, using drones
+to strike bases inside of Russia.
+A third air field has come under attack
+by drones.
+State run Tass News Service reported
+that an oil shortage tank caught fire
+attacks where the furthest penetration
+yet on Russian soil since the invasion
+began, provoking Russian President Putin
+to raise once again the specter of
+nuclear war.
+Putin, however, I think, has used this
+nuclear card an awful lot during these
+last few months of the war.
+And what he found out from President Xi
+of China is a warning not to do that.
+And China took a hard look at the
+pushback from citizens over its 0 Covid
+policy and decided to back down at least
+a bit.
+
+[00:02]
+It includes measures such as allowing
+people who got sick to quarantine at
+home and set up a government facility.
+They're easing up on testing to get into
+public spaces, for example.
+So it's a whole series of micro measures
+that are being interpreted as another
+step away from Covid 0 by the
+authorities.
+Though it may have been encouraged by
+the dismal trade numbers, even as the
+United States kept up the pressure on
+semiconductors by breaking ground for a
+new plant in Phoenix.
+These investments are helping us build
+and strengthen the supply chain here in
+America.
+I want to be clear as we build a
+stronger supply chain, our allies and
+partners are building alongside us as
+well.
+I'm not sure where there was all that
+conflicting computation.
+It may just have been growing concerns
+over recession, but the markets were not
+in a risky mood this week as the S&P 500
+lost three point four percent over the
+week and the Nasdaq was off almost 4
+percent.
+While the yield the yield on the 10 year
+dipped under three point five in the
+middle of week, but ended up at three
+
+[00:03]
+point five, 8 percent at the end of the
+week.
+Let's bring in now Liz Ann Sonders,
+chief investment strategist for Charles
+Schwab, for her view on what we saw this
+week.
+Listen.
+Great to have you here in New York with
+us.
+I am so thrilled to be here.
+First time back in studio and a couple
+of years is a real treat for soul.
+Give us your take on what we saw this
+week.
+As I say, there were some indications
+the markets were getting a little
+nervous about risk.
+So I think the the economic data was at
+least on the margin, weaker than
+expected.
+PPE obviously came out a bit hotter than
+expected.
+And I think that there's just more
+realization that the path from here is
+to slower growth, whether we ultimately
+find it's declared an official
+recession, as you and I have talked
+about.
+I think we're in already a form of
+recession.
+It's just of a rolling variety.
+We've seen the hit areas like housing to
+certain segments within the good side of
+the economy.
+The areas that had the big surge in the
+early stage of the pandemic, that was
+also the breeding ground for the
+inflation problem we're still dealing
+
+[00:04]
+with that then went into recession type
+conditions, disinflation in the good
+side of the economy.
+Housing related.
+But we've got the offsetting lift on the
+service aside, which services is a
+larger employer?
+So that has kept the labor market
+afloat.
+But I think we're going to continue to
+see weakness roll through the economy.
+And I think whether it's ultimately
+declared an official recession is almost
+an academic exercise at this point.
+Then looking back on it, I think it's
+fair to say we had asked an inflation
+before we had real price inflation for
+consumers.
+Has the Fed been successful in pricking
+the bubble on some of the Hang Seng, as
+you mentioned, housing, for example?
+We have cryptocurrency certainly taking
+a hit for that matter.
+Big tech has come down.
+Are we starting to see some of those
+asset bubbles at least deflate a bit
+crypto sparks?
+NAFTA is certain, if not most, pockets
+of the housing market, to your point.
+Big tech, other narrative driven,
+speculation driven areas like heavily
+shorted stocks, non profitable, all of
+
+[00:05]
+those.
+What?
+Well, we've been calling micro bubbles
+undoubtedly have gotten not just
+pricked, but they sort of popped in
+spectacular fashion.
+You know, the good news is, is a lot of
+that speculative excess, even when we
+were in the heights of those bubbles,
+had not fully filtered over into the
+traditional market areas.
+And that's what we were always saying
+was very distinct from the current
+environment or the most recent
+environment and say 1999, 2000, where
+the speculative excess was concentrated
+in the major averages.
+It's been just a little bit outside that
+mainstream safe for some of the the big
+cap tech names.
+And I think it's just a valuation
+compression that was necessary in large
+part due to the inflation backdrop.
+And yet, are we really fully seeing the
+effect what the Fed is doing and saying
+in the overall inflation numbers, as you
+said, document a little hot this week.
+You miss.
+
+[00:06]
+Consumer sentiment was sort of mixed,
+had been in with the shorter term or
+longer term.
+And now we have CPI next week and the
+Fed, when we start to see a real effect
+on inflation, do they?
+Well, in the case of a metric like CPI,
+of course, it's got a large component
+that is shelter related.
+So you've got the rent a primary
+residence, you've got owners equivalent
+rent.
+They should start to those components
+should start to rollover because there
+are sort of real gauges, actual rent
+gauges that we can all track that Zillow
+has one apartment, last real page that
+have shown a significant rolling over in
+actual rents, disinflation and rents.
+It just takes a while for it to feed
+into the calculation of a metric like
+owners equivalent rent.
+So I think it's coming, but it hasn't
+come as quickly as many would like to
+see.
+And there's other services oriented
+components of the inflation data that
+just tend to be stickier.
+
+[00:07]
+So we are seeing disinflation in some of
+the goods areas where just have not yet
+seen the rollover in the services area.
+Now we've got another lift in wage
+growth, which is probably a bit
+unsettling for the Fed.
+So one more here, if I could lose it.
+And that is unfairly what we know a week
+from today, we don't know today.
+We've got CPI, we've got the Fed coming
+out.
+We think we know what the Fed is going
+to say in terms of the rates, maybe 50
+basis points.
+Will there be things that will actually
+materially affect investor a week from
+date?
+We don't know that.
+I think anything as it relates to the
+Fed, probably during the press
+conference.
+I think those are always a bit more
+interesting than what you glean from the
+statement.
+But also, remember, it's a December FOMC
+meeting.
+So we'll get new dots plot.
+We'll get a new summary of economic
+projections.
+So we'll get a sense of.
+The collection of opinions at the FOMC
+is about the directory that doesn't
+serve as a roadmap by any means, but I
+wouldn't be surprised if Powell starts
+to get peppered more in the press
+conference, not about what is the
+terminal rate.
+When do you think we'll get there?
+The notion of of a step down, will you
+do another 50, assuming they do 50?
+
+[00:08]
+But I think he's going to start to get
+more questions about the length of the
+pause and not just how long do you think
+it will be, but what are the conditions
+under which the Fed, once they pause,
+would see a green light to consider
+easing policy.
+I think that will be the next call it
+set of questions that will probably be
+more prevalent in something like the
+press conference.
+Liz Ann Sonders of Charles Schwab will
+stay with us.
+And we're going to be joined by Peter
+Kraus of amateur investors.
+As we turn to the question of why do
+investors do those, particularly those
+higher interest rates.
+That's coming up next on Wall Street
+week on Bloomberg.
+But wow, did the sky have to fall before
+investors would budge lead in the dive
+bomber attack was the Federal Reserve
+Board, which appropriately chose the
+anniversary week of Pearl Harbor to
+raise its key discount rate, a full
+
+[00:09]
+point for the second time in three
+weeks?
+As if to say now what?
+You guys believe that we're serious?
+That, of course, is Little Rock has her
+on Wall Street back in 1980.
+I'm working on a hairdo just like that.
+That was another time when the Fed was
+on a rate raising campaign.
+Private Benjamin was the number one
+movie back then and the number one song.
+Well, that was A Lady by Kenny Rogers.
+We all remember that.
+Still with us, our Liz Ann Sonders of
+Charles Schwab.
+And we are joined now by Peter Krauss of
+Aperture Investors.
+Welcome, Peter.
+Great to have you here with us.
+Good to be here.
+So once again, we're seeing rates rise,
+although not four point seventy three
+weeks, but still they're going up,
+probably going to go up again next week.
+What does that mean in a broader sense
+for investor?
+I mean, this is a different world than
+we've seen for several years now.
+Yeah, well, look, I think for if you
+look at a longer time period, think of
+it from a strategic point of view.
+Investors have been investing really in
+equities and very little in fixed income
+for 15 years.
+And people have moved away from negative
+interest rates.
+
+[00:10]
+They've got private credit.
+They bought private assets, they bought
+equities, you know, assuming that that's
+where the return was going to be.
+So now you have a paradigm shift and you
+know, you can't say, well, this is one
+what to do with my money tomorrow, but
+over the next 18 months, you're going to
+see significant shifts of capital into
+the fixed income complex.
+That will include longer duration
+securities, that will include high yield
+securities, that include investment
+grade securities, which for the first
+time will actually be attractive and
+include the short duration complex as
+well.
+I also think, interestingly enough,
+emerging markets has got to be a place
+we look at emerging markets are down,
+the NBA is down 20 percent, maybe 16
+percent as of today.
+And it's probably got a yield of 8
+percent into next year if everybody's
+predictions are wrong and the Fed
+doesn't raise rates by much.
+Everybody thinks it's are going to go
+down, then more than likely you're going
+to see some recovery in emerging market
+debt and that could yield 8 percent plus
+
+[00:11]
+some price appreciation to 10.
+So, frankly, you know, that's a place
+where I think people are looking and I
+think probably bears some thought if you
+take what Peter said and ultimately does
+that end up in cash because that's the
+shortest term investment, you can move
+them around quickly and maybe you have
+to get ready for a bounceback in 18
+months.
+So I think it depends on who the
+investor is.
+I think for investors that are much less
+risk tolerant, that if they're and I'm
+taught from the respect of individual
+investors, if they're older, if they're
+in retirement, they were forced way out
+the risk spectrum in a zero interest
+rate environment.
+And for anybody that doesn't have a high
+risk tolerance, that have those
+liquidity needs, that have the need to
+live off of income, getting a real yield
+on a cash like or very short term
+security.
+That's the first time they've
+experienced that in quite some time.
+But I also agree with Peter.
+I think there are paradigm shifts that
+happen when you go for cycles,
+particularly when you go through a full
+cycle where you have an economic
+
+[00:12]
+contraction and you go from a bull
+market to a bear market and to a new
+bull market, there's always that recency
+bias.
+There's always that obsession with
+looking at what had been the leadership
+and feeling that there's not going to be
+momentum in an asset class once you go
+back to that leadership.
+Leadership changes.
+I think there is opportunity in fixed
+income and there is opportunity
+international.
+We've got to look through the
+windshield, not the rearview mirror.
+It's interesting.
+I just saw a note from Rock Creek Senior
+Fresh Losses, a note that said something
+I hadn't focused on, which is actually
+one of the winners this year has been
+Latin America.
+The Latin America has done surprisingly
+well.
+I've not been paying any attention.
+Let American on.
+Obviously, commodity driven, oil driven,
+that that's what is driving that.
+But look, I don't think that we're
+saying don't invest in equities.
+I just think that the when you look at
+the where your money is allocated,
+you're going to start to allocate more
+money to the fixed income complex.
+And pretty much you're going to go
+through a period of volatility here
+where private assets are probably going
+
+[00:13]
+to have some challenges.
+You will go to get a new liquidity.
+They're just going to have to hold them.
+So you're going to have opportunity
+losses there.
+You've seen some of that already in
+these large pools of private assets that
+have cash withdrawals or cash
+requirements.
+And I think you're going to continue to
+see that as people try to take their
+liquidity and get 8 to 9 percent, which
+they haven't seen for 15 years.
+LaSalle, on this program, you've talked
+about form factor investing.
+Different factors.
+I wonder if one of the factors is
+ability to service debt.
+I'm already starting to see now as the
+interest rates go up, some companies are
+starting to struggle over the pain that
+we had.
+Carbon it go into a restructure this
+week of some of its debt.
+Are you going to look at that factor
+about of excess self funding strength,
+the balance sheet, high cash, lower
+debt, the ability to service share debt
+more easily?
+And you and I were talking before we
+came on about you don't you don't wish
+ill on any company or group of companies
+or their employers.
+But you know what?
+
+[00:14]
+What's happening now with this move off
+the zero bound is not just opportunities
+and asset classes like fixed income
+opportunities for active operating.
+A more level playing field relative to
+passive, but I also think price
+discovery is coming back into the mix
+reconnection of fundamentals to prices
+and maybe not an environment anymore
+that just keeps zombie companies afloat.
+For me, year after year and we're going
+through that.
+A simple way to think about what what
+we're talking about here is if you look
+at the various different credit cycles
+we've had since really 2000.
+In each case, there are between 150 and
+200 defaults and between a thousand and
+fifteen hundred downgrades.
+So this is a credit cycle that probably
+is not as severe as 0 7,
+but it's not benign.
+It's not zero.
+We know we know that economy is going to
+slow.
+We know revenues are going to are going
+to begin to reflect the financial
+constraints of the Fed.
+
+[00:15]
+So what is it, the fault rate?
+Is it 100?
+Is it 200?
+Is it, you know, the downgrades?
+A thousand or fifteen hundred?
+Is the market price for that?
+Are people ready for that?
+I don't think so.
+And I and I think it's impossible for
+that not to.
+Well, let's I wonder if people are ready
+for something else, something that's
+different, I think, than, for example, 0
+7 0 8 is how much of it is private.
+Peter mentioned earlier private credit.
+We have private equity.
+We've got a lot of things that are not
+as discoverable and are not mark to
+market, frankly.
+And I wonder if the market's prepared
+for that.
+There could be more damage out there
+than we know exists, right?
+I think you're right.
+In fact, I've looked at data on the
+broad cohort of foundations and
+endowments.
+And just over the last 20 years, looking
+at their allocation to traditional
+equities, fixed income and to the
+private markets inclusive of PE and
+venture.
+And it's more than doubled its 50 to 55
+percent of exposure to the private
+markets.
+And at a point where there's liquidity
+
+[00:16]
+needs and you've tied up that liquidity.
+I think it's a it's a very different
+environment in the next few years
+relative to what it's been in the last
+10 to 15.
+It's a really important point, Peter,
+and I don't know if this is connected
+enough.
+Well, we saw Blackstone have issues with
+their reach and really shut down some of
+their withdrawal and then their private
+credit.
+And there may be no problem there at
+all.
+But it may be as people feel more
+pressure, they need that liquidity and
+start to take it out of some of those
+funds.
+It may not be that easy.
+Well,
+I was afraid of that earlier.
+I don't think there is going to be a run
+on the bank in either B credit or B
+read, on the other hand.
+I think it is crystal clear that the
+investor is concerned about the
+potential marks in those assets and the
+lack of liquidity that they have.
+And so that's a temperature gauge on the
+point that that lesson is is mentioning.
+Look, think about it this way.
+We've been running interest rates at
+basically zero cash in three to four
+percent spreads.
+
+[00:17]
+Now we have 4 percent cash and 5 to 6
+percent spreads.
+And your income, your revenues probably
+went up because of inflation, but your
+units probably that you're selling
+probably went down.
+And so your fixed charges have changed
+dramatically to the negative.
+Now, you don't have to refinance in
+2022.
+You may not have to really if we France
+in 20 feet, but by 24, you're
+refinancing.
+And when you refinance, the banks are
+going to say, I'm not sure I'm is
+comfortable with that much debt.
+And that's where this restructuring is
+going to take.
+Well, listen, one final point on this.
+It's a question of whose temperature?
+Who's comfortable?
+Also, because it's one thing for
+institutional investor who's used to
+this can ride it out.
+No problem.
+We have a lot of retail investors now
+participating some of these funds.
+And and that is where the absence of
+liquidity.
+They might not even have realized it.
+But when push comes to shove and they
+need that money, it's harder to access.
+So is there a problem in private credit,
+do you think?
+Overall right now
+there is an unrecognized loss,
+there is a restructuring activity to
+come, and there will be investors who
+
+[00:18]
+conclude that locking up their liquidity
+for what you get in private credit is
+not as attractive as owning liquid
+securities, which now are actually
+providing attractive returns.
+So, too, to the point made earlier about
+where the allocations of capital go.
+We've seen 15 years of money moving from
+public equities and public debt to
+private credit and private equity.
+That's going to reverse.
+It's not going to zero.
+It probably isn't going back to where it
+was, but it's not going to keep growing.
+Last thought was and is there also an
+opportunity usually when there's some
+destruction going on, when there's some
+tension, there's some bargain for
+somebody to come in and say, you know, I
+can pick it up pretty cheap.
+I think that there are opportunities.
+Some of the rallies that we've seen this
+year that have not been long lived have
+been weighed down the quality spectrum.
+There are times where you want to go
+down the quality spectrum when you're
+pricing in a real significant pickup.
+I don't think we're there, but the
+opportunities come with what's dear look
+for companies with positive earnings
+
+[00:19]
+revisions, with strong operating
+leverage, with strong balance sheets.
+So there's ways to navigate.
+Thank you so much, Peter.
+Abattoir investors in Liz Ann Sonders of
+Charles Schwab for being with us on Wall
+Street week.
+Coming up, we're going to take a look at
+the mood on Wall Street as we head into
+a bumpy patch.
+That's next on Wall Street week on
+Bloomberg.
+This is Wall Street week on Bloomberg.
+This is Wall Street week.
+I'm David Westin Bloomberg, Wall Street
+reporter Sonali Basak got a ringside
+seat at the Goldman Sachs U.S.
+Financial Services Conference in New
+York this week.
+
+[00:20]
+And this is what she learned about the
+mood on Wall Street.
+Thanks, David.
+When it comes to the mood on Wall
+Street, a lot of the energy has been
+focused on talent.
+Talent is often the biggest cost.
+And for all the talk of potential job
+cuts and reductions in pay, it's worth
+taking a look at which jobs are under
+pressure, which are not, and how
+employees can adjust to new positions as
+they try to realign to a new macro
+economic environment.
+Now bankers are looking to reinvent
+themselves.
+Investment banking at Bank of America is
+on track to drop by more than 50 percent
+this year, for example.
+And that bank has actually gain market
+share in mergers and acquisitions and
+investment grade underwriting during
+this week market.
+CEO Brian Moynihan said the company is
+slowing hiring ahead of a possible
+recession, but he's also said they're
+trying to move traditional dealmakers to
+new roles within the bank.
+He spoke to me at the annual Goldman
+Sachs Financial Services Conference this
+week.
+We know we can absorb those teammates.
+We we just.
+Manager CAC carefully.
+
+[00:21]
+So what do we do?
+And at times like this, you look at your
+open positions, you look at your cell
+rate, which is how many people hires a
+pin.
+It sends you.
+People leave and you're in shape.
+That had come back in across the
+company.
+We take some ISE talent teammates,
+investment banking and bring them into
+other parts of the company at times like
+this.
+Now, while a number of banks are
+starting to cut jobs by the thousands to
+prepare for lower revenue, there are
+some rivals who see an opportunity,
+especially in the smaller investment
+banks.
+Peter Weinberg, a longtime investment
+banker who co-founded Perriello Weinberg
+Partners, said that recruiting is
+actually a key focus for his firm right
+now.
+His rivals at Lazard and moles are
+saying similar things.
+Well, this is a wonderful time for us to
+hire, and we're very focused on that
+because, well, first of all, we have a
+growth plan that is sort of undaunted.
+Independent banks aren't for everybody,
+but there there's still a lot of people
+at the large financial institutions who
+want to get back to client work.
+And they may be frustrated by the
+position they're in if that firm,
+
+[00:22]
+because they're overly burdened by
+leadership, responsibility, whatever it
+might be.
+But it's more how they kind of spend
+their their working day and their
+working life.
+And I think people and it's not just us,
+it's all the independents.
+I think people find it very attractive
+to move to the independent platform.
+Now, when I asked Goldman Sachs CEO
+David Solomon about the talent war, he
+hinted that the situation is really
+changing.
+Remember, it was Goldman where young
+bankers revolted in the last few years
+to push for higher pay.
+And then it was also Goldman where
+bankers were asked to come back earlier
+than any other financial firm
+headquartered in New York City.
+It was also Goldman Sachs where the news
+first broke this year that job cuts
+would once again be starting on Wall
+Street.
+Many firms believe that Goldman could
+create a standard and how pay and
+headcount are set for at least the next
+year.
+The talent war is is is.
+I think there are some headwinds given
+where changing economic conditions.
+But the competition for talent is still
+very, very strong.
+Now, how that evolves in 2023 is
+unknown.
+
+[00:23]
+Certainly if we have a slower economic
+environment, it will have an effect.
+There is a hope among some big banks
+that deal volumes will come back by the
+middle of 2023 as interest rates
+stabilize and markets could be less
+volatile.
+That would also cause underwriting for
+debt and equity deals to come back and
+it would recreate the need for top
+talent.
+Until then, they're trying to hold on to
+their star staff.
+David.
+Thanks to Bloomberg, Wall Street
+reporter Sonali Basak.
+Coming up, we get a view on real estate
+in a time of rising rates from Jeff
+Cloud, CEO of related companies.
+That's next on Wall Street week on
+Bloomberg.
+Real estate, it's the investment people
+turn to in times of inflation.
+The real estate market is probably the
+best major market to invest in right
+
+[00:24]
+now.
+Inflation in general is good for real
+estate.
+And Rock Creek's Afsane Beschloss says
+they are seeing portfolios shift to real
+estate as investors turn to private
+investments in an uncertain time.
+The bigger thing that is happening in
+the portfolios we're looking at is
+obviously a lot of investors.
+Institutional investors have been also
+investing in the venture of private
+equity, real estate in private forum.
+And I think that is playing to some sort
+of transformation, too.
+But with interest rates, climbing, real
+estate is becoming trickier.
+Tom SHAPIRO of GTA, Yes.
+Says the housing market is taking a real
+hit.
+The housing market is tremendously
+decelerating at this point.
+SALES are off tremendously.
+Famed investor Sam Zell says it may be
+worth less than the market thinks.
+I felt that the real estate market
+generally has been overpriced,
+particularly in the private sector.
+And now Blackstone has limited
+withdrawals from its massive real estate
+investment fund because too many people
+were taking their money out too fast,
+
+[00:25]
+which Larry Summers sees as a
+potentially ominous sign when you see
+prominent financial institutions telling
+people that they can't take their money
+out.
+That's never a happy thing.
+Makes me wonder about what's ahead.
+And we welcome back to Wall Street Week
+now.
+Somebody who knows real estate terribly
+well, he's Jeff Black.
+He's the CEO of Related and that is, of
+course, one of the largest real estate
+developers around the country.
+They have properties throughout the
+country.
+And our time I checked the largest
+landlord in New York City.
+I think Jeff went off.
+I don't know the words, but they were up
+there.
+So welcome back.
+Great to have you here.
+Good.
+So here to tell us about real estate
+right now, it has been a good hedge
+against inflation.
+Inflation is a problem at the same time.
+Interest rates are going up at this end.
+We have some real problems with some
+office occupancy.
+Right.
+So you got a lot of topics in there.
+First, if you think about what's
+happened over the last year, we've had
+the fastest rise in interest rates and
+in probably 20 plus years.
+And the impact on real estate is pretty
+
+[00:26]
+significant.
+Now you break down different parts of
+real estate because real estate broad.
+So on stabilized assets.
+Buildings that people own, whether it's
+apartment buildings or office buildings.
+In a way, inflation is good for those
+assets.
+Right.
+Rents rise.
+They go up.
+And if you did a good job managing your
+assets, you might have fixed rate long
+term debt.
+So cash flows increase.
+So in in that bucket of real estate,
+inflation is is a great hedge.
+Inflation is great for.
+For real estate assets.
+If you're in the funds business and
+many, many of your viewers are, whether
+their credit funds or equity funds.
+This is a great time for that business.
+The banks, as you know, have stopped
+lending or have certainly pulled back
+significantly.
+And so the private credit markets are
+booming because where they were
+competing with the banks in the past,
+they, in effect, could make bank type
+loans at two times the rate.
+So that's a great opportunity for credit
+funds, equity funds.
+We haven't yet seen real distress.
+
+[00:27]
+We might start seeing that in the next
+couple months.
+So I think the funds management,
+business and real estate is going to be
+very strong going into twenty three.
+The difficult part for real estate is,
+is anything you want to do new?
+New development is difficult.
+There's not a lot of financing.
+There's not a lot of construction loans.
+Costs have gone up.
+So it makes it harder to build.
+So it depends where you are in the real
+estate markets
+as to what the impact is.
+The office sector, as you mentioned,
+that's that's a whole topic unto itself.
+And I think really people that people
+ask me all the time, tell me about what
+the office market and really the office
+market is very bifurcated.
+And I don't think there's one answer
+again.
+But we have seen is a real dispersion in
+values between older buildings and brand
+new buildings.
+And it's not just new, it's new with the
+right features, the right amenities that
+tenants are looking for today.
+So we're seeing more and more
+
+[00:28]
+corporations thinking about how do they
+get people back to their office and
+thinking about using the physical space
+as the attraction to bring people back.
+But truthfully, people don't want to go
+back to old kind of quiet offices that
+are dark and have bad air circulation
+and long waits in the elevators and no
+amenities.
+So what corporations are doing is
+investing in their office space, not for
+occupancy, but for talent attraction and
+retention.
+And I think that's where you're really
+seeing the buildings and the new
+buildings that are focused on this, that
+have the right amenities, that have the
+right HBC circulation, that have
+hospitality type services, that have
+great air and light and the right type
+of build out.
+The buildout in office space is changing
+tremendously where we used to see kind
+of the old Mad Max version of a build
+out with, you know, private offices on
+the exterior wall and assistance offices
+or cubes inside.
+That's really not the way office is
+
+[00:29]
+built today.
+We're seeing much more collaboration
+space teaming space, meeting space food
+service tables around food where people
+are using for gathering and working as
+opposed to private offices.
+So this type of office of the future, we
+think can be successful and is
+successful.
+The data is there today for these new
+buildings.
+So we compared brand new buildings
+across markets in the United States, not
+just here in New York.
+And you look at new modern buildings
+with the right features, the right
+amenities, and the demand for those
+buildings is tremendous.
+And at the very same time, you can go a
+couple of blocks.
+If you take Hudson Yards, for example,
+we just opened last last week, actually,
+our first tenant moved in yesterday at
+50 Hudson Yards.
+50 Hudson Yards is a 3 million square
+foot building.
+It cost us over four billion dollars to
+build this building.
+And it's essentially 90 plus percent
+leased at this point.
+We're getting the highest rents in New
+York City in that building, over two
+
+[00:30]
+hundred dollars a foot in that building.
+And because it is it has all those
+features and amenities, it is new.
+It has all those things that we're
+talking about.
+You can go three blocks away and find as
+much space as you want in big buildings.
+That's probably listed for 60.
+And they can't lease it.
+So I want to come back to the B and C in
+a moment, but let's stand to A, because
+even with everything you say about the
+A, our people needing a little less a
+space, I mean, we had the metal
+situation actually in Brad Stone yards
+where they gave back to fifty thousand
+square feet.
+Are you seeing that more broadly?
+People saying, yes, I really like a but
+I don't need as much of it.
+So not really.
+So there's a couple of different
+situations.
+So Metta actually what Metta did is when
+we made the deal with them, they're our
+bank, one of their anchor tenants, along
+with BlackRock in 50 Hudson yards when
+we made the deal for them to move into
+50 Hudson yards.
+That was three plus years ago, four
+years ago.
+And they needed space immediately.
+So they took some swing space in 30 with
+the intent to move into 50.
+
+[00:31]
+So that's the space that they are not
+staying in today.
+Everyone thinks there was this big
+announcement, but that was that that was
+the plan.
+So they are moving the employees that
+they haven't in 30 Hudson yards, which
+was which were in swing space into 50.
+That answer your question.
+There are companies like matter today
+that are pulling back on office space in
+general, but that has nothing to do with
+their build out of the space.
+That's the tech sector is pulling back.
+They're cutting costs.
+That's based on their business.
+That's based on kind of what's happening
+in the broader economy.
+If you if you ask Meta about their
+office space per employee in their new
+types of build outs, and so they have
+actually stepped back, rethought about
+the office space of the future.
+And it's all the things that I talked
+about, much fewer private offices.
+Much more gathering and meeting spaces.
+And when you when you take the seems
+when you take the same number of
+
+[00:32]
+employees and compared the old build out
+and the new build out, the mix of public
+space and private space is completely
+different.
+But the total square footage per
+employee is the same.
+Now, if they if they're pulling back
+because of general economic issues, it's
+not a real estate issue.
+Brad Stone office space issue.
+Let's come back to the B and C
+buildings, as we call them.
+I've read about so-called zombie office
+buildings now in New York City.
+They're really empty.
+How bad a problem is that?
+What are we going to see with the fog?
+And by the way, does that also create
+some opportunities and bargains to pick
+things up cheap?
+Right.
+So I think it is a pretty significant
+issue for New York City.
+You've had some companies leave New
+York.
+You've had some companies suffer through
+the economic downturn and Covid and
+supply chain and all the things that
+have happened and have vacated space in
+those buildings.
+The problem is there's not there's not a
+lot of tenants that want to release
+those spaces.
+So we're seeing vacancy in the B
+buildings increased significantly.
+We're seeing the vacancy in the not just
+
+[00:33]
+A buildings, but in new product, a
+buildings, which is I'll create a new
+segment.
+So you'd be a and new A in new A is
+virtually no vacancy.
+So there could be opportunity.
+I don't think the opportunities to buy
+those buildings because you can buy them
+cheap.
+I think there's a potential opportunity
+for a conversion.
+It's a very difficult process.
+Everyone likes to talk about it.
+But you often these buildings don't go
+from 100 percent occupied to zero and
+then you can convert.
+So it'll go from 100 to 80 to 70.
+You still have lots of tenants in there.
+It's hard to convert.
+You've got zoning issues, cost issues
+and tenants.
+So I don't think you're going to see a
+lot of it.
+People are talking about it.
+I don't think you're going to see a lot
+of actually happen.
+Jeff, thank you so much, Jeff.
+He's CEO of Related.
+Coming up, we'll wrap up the week with
+our special contributor, Larry Summers
+of Harvard.
+This is Wall Street week on Bloomberg.
+
+[00:34]
+This is Wall Street week.
+I'm David Westin and we welcome back now
+our special contributor on Wall Street.
+He is Larry Summers of Harvard.
+So, Larry, normally we talk about what's
+happened during the week, particularly
+what the Fed might make of it, what
+might happen with rates.
+But it strikes me that there isn't a lot
+of that this week.
+Let's talk about larger issues that
+really you are focused on.
+David, I think it's important for us
+always to remember that ultimately
+trends are more important than events
+and trends.
+Most of the time are positive events.
+Most of the time were negative.
+So we have to step back and look at
+things that may be markers of trends.
+And I saw two such things this week,
+China's huge evolution away from the
+zero Covid strategy.
+And what happened with Jack G.P.S.
+from Open A.I., which may be a marker of
+a profound change in what it means to be
+
+[00:35]
+a machine and what it means to be human.
+So let's take each of those up and turn
+if we could, Larry.
+Let's start with China, because as you
+say, they really are backing off of
+their strict policy on Covid and
+isolation and that they've been pursuing
+and also a lot of the testing.
+But do we know yet whether that's
+positive or negative?
+It could be positive for the economy.
+But now, if they have a real spike in
+cases and really overload their medical
+system, we may have a problem.
+Look, I think we know two things.
+We know that a big change in China
+happens because of an expression of
+popular will and protests.
+That's a profound thing for the
+governance of that superpower with one
+point four billion people.
+You're quite right.
+We don't yet know how this is going to
+work out.
+Is this going to be a successful
+rejoining of the reality of the rest of
+
+[00:36]
+the world, or is this going to lead to
+catastrophic delegitimizing performance
+of the Chinese health care system?
+And we don't know.
+But either way, there's a big chance
+that China's going to be a quite
+different country six months from now
+than it is today.
+And so I think all of us are always
+watching China carefully.
+But we need to be watching China much
+more carefully over the next ISE, over
+the next six months when you're going to
+be seeing leadership change.
+At the same below the level of Xi
+Jinping, of course, at the same time
+that we're going to be seeing probably
+the biggest set of policy experiments
+that we've seen in China in decades.
+So let's turn to that second subject.
+They open a creation of chat G.P.S.
+I won't pretend that I understand this,
+
+[00:37]
+but I have read about it again.
+Is this a positive thing or potentially
+negative thing?
+Because we already have a lot on the
+Internet.
+We don't know where it comes from or its
+origins.
+Now we're going to have something that
+we can't even tell whether a person
+created it.
+Look, when I went to graduate school, we
+used to estimate statistical models with
+five parameters.
+Now they're going to be one hundred and
+seventy five billion parameters that go
+into one of these systems.
+The great computer scientist Alan Turing
+70 years ago said that it was going to
+be a threshold for humanity when a
+machine could sep could it could imitate
+a human being's answers to questions in
+a way where another human being wouldn't
+be able to tell the difference.
+We're somewhere in the territory of that
+right now, and that is a profound thing
+for humanity.
+
+[00:38]
+It points to a profound change in the
+way we're all going to be working.
+We're all going to have a kind of caddy
+that or many of us are going to have a
+kind of caddy that is going to augment
+our creativity, augment our capacities
+to bring knowledge to bear on what we
+do, augment our accuracy.
+But just as the printing press or
+electricity was a huge change because it
+was a general purpose technology.
+This could be the most important general
+for this technology since the wheel or
+fire.
+And that is something we are all going
+to be changed by.
+My hope is that the very transcendence
+of these kinds of events can bring a
+
+[00:39]
+kind of unity, can bring a kind of unity
+because they are so large relative to
+the differences between Democrats and
+Republicans or even the difference
+between the West and China, that these
+opportunities and threats, because they
+are both whether it's microbes, whether
+it's artificial intelligence, whether
+it's climate change, that the very
+transcendence of these global events can
+become a source of cohesion and
+progress.
+But there is no assurance at all of
+that.
+We are living in truly historic times.
+I want to talk about a different sort of
+threshold that I came across this week.
+I was a little bit surprised.
+I was reading Barno, the leader of
+YouTube.
+His new memoir called Surrender is a
+fascinating book.
+I find it very, very compelling.
+And who do I find in there?
+But one, Larry Summers, when you were,
+according to Barno, a reasonably new
+
+[00:40]
+treasury secretary, and he came in to
+meet with you and Sheryl Sandberg and
+Stephanie Flanders to talk about debt
+forgiveness for the poorest countries.
+And according to his rendition of it, it
+really started.
+You started with President Clinton, a
+real process that led to really historic
+changes in the debt.
+Some of the poorest countries in the
+world.
+What about that?
+We've still got a long way to go, don't
+we?
+David Barno is an unlikely but very
+close friend.
+I will confess it.
+I've never heard of him before.
+We had our meeting and Sheryl Sandberg
+had to force me to take the meeting
+because I thought secretaries of the
+Treasury should only meet with people
+who had a first name and a last name.
+But he was mesmerizing, both in his
+charisma and his knowledge.
+And he drove that debt relief program
+forward.
+We had an unlikely coalition, Pat
+
+[00:41]
+Robertson, Senator Jesse Helms, and we
+were able to do something that I think
+was hugely important for the African
+continent at that time.
+Sad to say, right now the world needs
+comprehensive debt relief for the
+poorest countries.
+And what the world is getting is
+grudging, incremental, partial, limited,
+small efforts.
+And we've got to find a way to do
+better.
+And I hope Borrow is going to get the
+band together again.
+I'm certainly willing to do my part to
+help.
+This time it's going to be different
+because a lot of that debt is owed to
+China and finding a way, even when
+things are vexed with China, to involve
+them in helping these countries move
+forward based on an understanding of how
+
+[00:42]
+they see.
+The issue is going to be necessary and
+profoundly important for a large number
+of human lives.
+Finally, give us a moment, if you would,
+on what we normally do on this program,
+which is talk about what happens this
+week and specifically the question of
+the likelihood of recession, we saw
+developments in the marketplace, oil
+price coming down.
+Bond yields coming down.
+Stocks coming down.
+Most people think that has to do with
+real anticipation of a significant
+recession.
+Where are you on that?
+I've been I've been saying soft landing
+is very unlikely for a while and I think
+it's looking even more unlikely right
+now.
+I noticed that the consensus, as
+reflected by the FTSE University Chicago
+survey of a group of 50 economists is
+now moving closer to where I've been.
+They're saying that we're going to have
+a recession and that the unemployment
+rate will peak at five and a half
+
+[00:43]
+percent.
+That's up from where they were way ahead
+of where the Fed is.
+I've been saying 6 percent.
+So I think there's a growing coming
+together that we probably are going to
+make more progress on inflation than
+many people expected.
+But it's because the Fed is going to do
+what's necessary.
+But there's likely to be some adverse
+aspect of that.
+But, you know, David, next week, I hope
+we can talk about what's happening
+globally because we tend to focus here
+just on the American picture.
+But the two other major polls of the
+economy, China and Europe, are both
+going to have a huge impact on how this
+all plays out globally.
+Let's do exactly that next week.
+Thank you so much to Larry Summers, our
+very special contributor here on Wall
+Street Week.
+Coming up to the winners go the spoils,
+or at least to the big time pro baseball
+players.
+That's next on Wall Street week on
+
+[00:44]
+Bloomberg.
+Finally, one more thought, maybe we're
+not really all in this together.
+Just about everyone, at least every
+economist, agrees that we are in for
+some harder economic times.
+And that includes former presidential
+economic adviser Glenn Hubbard of
+Columbia.
+I think it's still likely that we will
+see a recession if the Federal Reserve
+pursues its path to get the 2 percent
+inflation relatively quickly.
+But to say that we are all facing an
+economic downturn does not mean that we
+will all take the same hit from that
+downturn.
+Some of us will get laid off, which
+Morgan Stanley's Mike Wilson says is
+necessary and could actually be a good
+sign for investors, if not for the
+workers who are losing their jobs.
+1 Now layoff cycle picks up in earnest
+now will actually be one of the keys for
+us to get bullish because that means the
+bleeding will stop and the operating
+leverage.
+
+[00:45]
+One of the first group of workers to get
+hit has been tech, particularly big
+tech, which in some cases may have been
+overdue.
+The hiring that we saw through the
+pandemic where companies like Amazon and
+Mazza basically doubled the workforce
+more clearly to some extent need to
+unwind.
+I thought echoed by four.
+Dean Forbes, most of these layoffs at
+scale are happening in the supers,
+right?
+Happening in the masses.
+The happening in the Facebook are
+happening in Twitter.
+And to a degree, it's just kind of right
+sizing.
+Even if we're not losing our jobs, most
+of us are finding that we make less
+because of the bite of inflation.
+And now Goldman Sachs CEO David Solomon
+says that at least some of his bankers
+should expect cuts in compensation over
+and above what inflation is doing.
+It shouldn't be surprising to people
+watching the performance of the business
+this year that 20 twenty was an
+exceptional year.
+It was a record year for the firm was
+the highest revenue year ever.
+For the firm, 2022 is a different year.
+And so naturally compensation will be
+lower.
+
+[00:46]
+But never fear those layoffs and
+competence won't be reaching all
+workers, not by a long shot, and
+certainly not if you are a star pro
+baseball player.
+Just last week, the Texas Rangers took
+two time Cy Young Award winner Jacob to
+grant away from the New York Mets and in
+the process gave him a nice raise to
+thirty seven million dollars a year.
+But the Mets didn't grieve for too long.
+They turned around inside Justin
+Verlander, raising his pay to a cool
+forty three million dollars a year,
+putting him just about on a par with his
+Mets teammate now Max Scherzer.
+But then we had the Yankees step up with
+Shery Ahn 60 million dollars or nine
+years to keep star slugger Aaron.
+Judge in pinstripes, 360 million dollar
+deal for nine years with the Yankees.
+That being reported by the athletic 40
+million dollars a year.
+I'm sorry, Lisa.
+It's just simple.
+Sports winds affect, as you see in the
+signing season of baseball, big money
+speed thrown around.
+
+[00:47]
+Now, nobody can deny that all of these
+are truly great players.
+Sure.
+To make it into the Hall of Fame.
+But to put it all in a broader
+perspective.
+Mickey Mantle, surely one of the
+greatest players ever in the game,
+became the highest paid baseball player
+in the land back in 1963.
+And what do you get paid a whopping one
+hundred thousand dollars a year, and
+that is just over 2 percent of what
+Justin Verlander will make next year.
+And yes, that is adjusted for inflation.
+That does it for this episode of Wall
+Street Week.
+I'm David Westin.
+This is Bloomberg.
+See you next week.
+
+</details>
+
 21. 21
 
     “Our Approach to AI Safety.” OpenAI, 5 Apr. 2023, [https://openai.com/blog/our-approach-to-ai-safety⁠](https://openai.com/blog/our-approach-to-ai-safety).

@@ -135,6 +135,58 @@ Sarah Rose Siskind
 
 * [Watch Sarah demonstrate her joke-writing process(opens in a new window)](https://www.youtube.com/watch?v=wu_ImaC-haA)
 
+<!-- yt-inline:wu_ImaC-haA -->
+[![How to Write a Joke with ChatGPT](https://img.youtube.com/vi/wu_ImaC-haA/hqdefault.jpg)](https://www.youtube.com/watch?v=wu_ImaC-haA)
+
+<details>
+<summary>자막: How to Write a Joke with ChatGPT (1:26)</summary>
+
+[00:00]
+hi my name is Sarah Ros siskin and I'm a
+comedy writer so I'm writing jokes for a
+client today he's a software engineer
+and he's roasting his co-workers at an
+event here's how people think I use chat
+gbt write a joke about coders why do
+coders prefer dark mode because the
+light attracts bugs terrible here's how
+I actually write jokes with chat BT as a
+comedy writer I know that parodies and
+roast are all about archetypes so I know
+usually in an office there's somebody
+who's older so I'm going to start there
+what are old programmer stereotypes back
+in my day story that's a good place to
+start what are the kinds of stories they
+might
+say Okay startup stories and Nostalgia
+that sort of inspires me to think about
+when an older cooworker talks about
+meeting a famous celebrity so who are
+some famous coding
+celebrities okay I'm going to go with
+Steve wak because he's a little obscure
+to the lay public but very well known to
+the coding community and also not the
+obvious Choice like Steve Jobs okay
+
+[00:01]
+perfect now we just need to figure out
+what year would have been good to meet
+him okay 1976 that's a little too early
+we want this story to be Lamer so I'm
+going to go with 1998 reading this it
+could be Lamer still so let's have it be
+that the coworker almost met Steve wnc
+in 1998 putting it together we get big
+thanks to our veteran coder for
+regularly telling us about that time he
+almost met Steve wnc in 1998 and that's
+how I write a joke with chat GPT
+
+</details>
+
+
 ## Research and Worldbuilding
 
 Research is the writer’s gateway to new worlds. Writers are advised to write what they know, but as Tom Wolfe observed, relying solely on firsthand experience limits their creative scope. To authentically portray people and places never seen—real and imagined, past and future—writers must expand what they know through research and reportage.

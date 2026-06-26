@@ -27,6 +27,90 @@ We’re also pumped to be working with the following people for a more limited p
 * **Catherine Olsson**. [Catherine⁠(opens in a new window)](https://www.linkedin.com/in/catherineolsson) built OpenAI Gym’s [REST API⁠(opens in a new window)](https://github.com/openai/gym-http-api), which has already attracted users in [Lua⁠(opens in a new window)](https://github.com/openai/gym-http-api/tree/master/binding-lua), [C++⁠(opens in a new window)](https://github.com/openai/gym-http-api/tree/master/binding-cpp), [Java⁠(opens in a new window)](https://github.com/deeplearning4j/gym-java-client), and [Rust⁠(opens in a new window)](https://github.com/openai/gym-http-api/tree/master/binding-rust). She graduated with a perfect GPA in CS and Brain & Cognitive Science from MIT, and has extensive research experience in [computational neuroscience⁠(opens in a new window)](http://f1000research.com/posters/1098032) and [psychology⁠(opens in a new window)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TvdMDhwAAAAJ&citation_for_view=TvdMDhwAAAAJ:2osOgNQ5qMEC). Catherine has taught [programming and applied math⁠(opens in a new window)](http://www.cns.nyu.edu/~eero/math-tools14/) for six years, including outreach to women and underrepresented minorities.
 * **Harri Edwards**. [Harri⁠(opens in a new window)](https://github.com/harri-edwards) is a PhD student at the University of Edinburgh, where he is researching models that can quickly adapt to new situations by [learning to represent datasets⁠(opens in a new window)](https://arxiv.org/abs/1606.02185).
 * **Igor Mordatch**. [Igor⁠(opens in a new window)](https://people.eecs.berkeley.edu/~igor.mordatch/) is interested in optimal control, machine learning, and their applications to robotics, biomechanics, and neuroscience. His PhD was in automated discovery and learning of complex movement [behaviors⁠(opens in a new window)](https://www.youtube.com/watch?v=mhr_jtQrhVA). He will join the faculty at [CMU⁠(opens in a new window)](http://www.cmu.edu/) in September 2017.
+
+<!-- yt-inline:mhr_jtQrhVA -->
+[![Discovery of Complex Behaviors through Contact-Invariant Optimization](https://img.youtube.com/vi/mhr_jtQrhVA/hqdefault.jpg)](https://www.youtube.com/watch?v=mhr_jtQrhVA)
+
+<details>
+<summary>자막: Discovery of Complex Behaviors through Contact-Invariant Optimization (4:34)</summary>
+
+[00:00]
+We present a method for automatically
+synthesizing a wide range of complex
+character behaviors exhibiting rich
+contact interaction with environment
+objects or other characters for humanoid
+and nonh humanoid
+morphologies. Given an initial pose and
+highle goals, our algorithm optimizes
+the trajectory of the character broken
+up into phases as well as contact
+activations shown here with rectangles
+which directly control when contacts
+happen with the environment. The result
+is a physically plausible motion
+trajectory and reaction forces. Please
+refer to the paper for more
+details. By changing the target location
+goal shown here with a white cross, we
+can produce a consistent range of
+getting up
+
+[00:01]
+strategies. We can also specify the
+target orientation goal.
+By using only the target location goal
+but changing the environment, a
+different range of strategies emerges.
+The character can simply step over small
+obstacles. But for larger heights, the
+character uses all their limbs to prop
+themselves up.
+The hands are also able to grip which
+results in climbing solutions emerging
+for really tall
+
+[00:02]
+obstacles. Characters are also capable
+of agile behaviors such as preparation
+for and execution of these handstands.
+Or these target striking behaviors where
+the character anticipates the strike
+targets and appropriately chooses their
+movement
+strategy.
+Our method is not specific to humans and
+generalizes previous behaviors to other
+
+[00:03]
+character morphologies.
+Characters can also come into contact
+and interact with objects. In these
+examples, the only specified goal is the
+terminal location of the capsule.
+Nothing is specified about the motion of
+the character, and a strategy of having
+to pick up and carry the object emerges
+automatically. When there are multiple
+characters, they automatically cooperate
+to pass the
+
+[00:04]
+object. In this example, the character
+at the top is penalized for exertion and
+the character at the bottom does most of
+the work.
+Multiple characters can also come into
+contact and interact with each other.
+This is exploited when one of the
+characters heads must reach a target
+height which is achieved by cooperation
+and climbing on top of another. Again,
+no other goals are specified on the
+motion of the characters.
+
+</details>
+
 * **Taco Cohen**. [Taco⁠(opens in a new window)](http://ta.co.nl/) is a PhD student working on applied and theoretical problems in representation learning. Most recently he invented group equivariant convolutional neural networks ([G-CNNs⁠(opens in a new window)](http://jmlr.org/proceedings/papers/v48/cohenc16.pdf)), a generalization of CNNs that improves the statistical efficiency of these models by exploiting symmetries.
 * **Tambet Matiisen**. [Tambet⁠(opens in a new window)](https://github.com/tambetm/) is a PhD student from University of Tartu, Estonia. He previously worked as a software engineer and founded his own [startup⁠(opens in a new window)](http://www.korteriyhistu.net/). His recent projects range from [making deep reinforcement learning agents cooperate⁠(opens in a new window)](http://arxiv.org/abs/1511.08779) to predicting a rat’s location from its brain activity. He also wrote an [accessible introduction to deep Q-learning⁠(opens in a new window)](http://neuro.cs.ut.ee/demystifying-deep-reinforcement-learning/).
 

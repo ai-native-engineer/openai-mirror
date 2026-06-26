@@ -160,6 +160,42 @@ After the upload finishes, Prism opens the full project so you can start editing
 **Q: My Zotero integration is stuck (e.g., after changing accounts or API keys). How can it be fixed?**  
 **A**: Support will need your Zotero numeric ID (not your username) to unlink the integration from the prior/anonymous user, after which you can re-link it to your account. Example of how to do this: <https://www.youtube.com/watch?v=7vDiZ8o_eHk>
 
+<!-- yt-inline:7vDiZ8o_eHk -->
+[![How to Find Your Zotero USER ID in SECONDS!](https://img.youtube.com/vi/7vDiZ8o_eHk/hqdefault.jpg)](https://www.youtube.com/watch?v=7vDiZ8o_eHk)
+
+<details>
+<summary>자막: How to Find Your Zotero USER ID in SECONDS! (49)</summary>
+
+[00:00]
+Guys, Andrew here and in this video I'm
+going to show you how to check your
+Zotterero user ID. This is not your
+username. So I just want to make that
+clear that you don't want to get that
+confused that your username is your user
+ID. And let me go ahead and show you how
+to find that. So you want to head over
+to zotterero.org and sign into your
+account. Click your username or your
+name in the upper right hand side and
+click on settings. From here on the left
+hand side, click on security and you
+want to scroll down just below the
+browser section. There you'll have a
+section called application. And here it
+shows your user ID and it tell you that
+it is used for API calls and you can
+just enter it and it gives you your user
+ID. So that's it guys. If you're looking
+to find your user ID and you want to use
+it with API then this is where you can
+find your user ID for your Zotterero
+account. And that's all there is to it
+guys. For easy inverse simple.
+
+</details>
+
+
 ### **Git**
 
 **Q: Can I clone a Prism project via Git (GitHub/GitLab) or keep it synced with my institute Git platform?**  
