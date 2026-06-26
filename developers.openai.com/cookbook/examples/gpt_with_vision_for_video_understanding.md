@@ -36,6 +36,17 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY", "<your OpenAI API key i
 
 First, we use OpenCV to extract frames from a nature [video](https://www.youtube.com/watch?v=kQ_7GtE529M) containing bisons and wolves:
 
+<!-- yt-inline:kQ_7GtE529M -->
+[![YouTube kQ_7GtE529M](https://img.youtube.com/vi/kQ_7GtE529M/hqdefault.jpg)](https://www.youtube.com/watch?v=kQ_7GtE529M)
+
+<details>
+<summary>자막: YouTube kQ_7GtE529M</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 video = cv2.VideoCapture("data/bison.mp4")
 
 base64Frames = []

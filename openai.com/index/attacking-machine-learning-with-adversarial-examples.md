@@ -26,6 +26,17 @@ Adversarial examples have the potential to be dangerous. For example, attackers 
 
 Reinforcement learning agents can also be manipulated by adversarial examples, according to new research from UC Berkeley, OpenAI, and Pennsylvania State University, [*Adversarial Attacks on Neural Network Policies*⁠(opens in a new window)](http://rll.berkeley.edu/adversarial/), and research from the University of Nevada at Reno, [*Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks*⁠(opens in a new window)](https://arxiv.org/abs/1701.04143). The research shows that widely-used RL algorithms, such as [DQN⁠(opens in a new window)](https://arxiv.org/abs/1312.5602), [TRPO⁠(opens in a new window)](https://arxiv.org/abs/1502.05477), and [A3C⁠(opens in a new window)](https://arxiv.org/abs/1602.01783), are vulnerable to adversarial inputs. These can lead to degraded performance even in the presence of pertubations too subtle to be percieved by a human, causing an agent to move [a pong paddle down when it should go up⁠(opens in a new window)](https://www.youtube.com/watch?v=YYE26LKl-IE), or interfering with its ability to spot enemies in Seaquest.
 
+<!-- yt-inline:YYE26LKl-IE -->
+[![YouTube YYE26LKl-IE](https://img.youtube.com/vi/YYE26LKl-IE/hqdefault.jpg)](https://www.youtube.com/watch?v=YYE26LKl-IE)
+
+<details>
+<summary>자막: YouTube YYE26LKl-IE</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 If you want to experiment with breaking your own models, you can use [cleverhans⁠(opens in a new window)](https://github.com/openai/cleverhans), an open source library developed jointly by [Ian Goodfellow⁠(opens in a new window)](https://twitter.com/goodfellow_ian) and [Nicolas Papernot⁠(opens in a new window)](https://twitter.com/nicolaspapernot) to test your AI’s vulnerabilities to adversarial examples.
 
 ## Adversarial examples give us some traction on AI safety

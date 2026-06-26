@@ -32,6 +32,17 @@ To further catalyze research in this direction, we are co-organizing the [MineR
 
 This competition is a follow-up to the [MineRL 2019 Competition⁠(opens in a new window)](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition) in which the [top team’s agent⁠(opens in a new window)](https://arxiv.org/pdf/1912.08664v2.pdf) was able to [obtain an iron pickaxe⁠(opens in a new window)](https://www.youtube.com/watch?v=GHo8B4JMC38&feature=youtu.be) (the penultimate goal of the competition) under this extremely limited compute and simulator-interaction budget. Put in perspective, state-of-the-art standard reinforcement learning systems require hundreds of millions of environment interactions on large multi-GPU systems to achieve the same goal. This year, we anticipate competitors will push the state-of-the-art even further.
 
+<!-- yt-inline:GHo8B4JMC38 -->
+[![YouTube GHo8B4JMC38](https://img.youtube.com/vi/GHo8B4JMC38/hqdefault.jpg)](https://www.youtube.com/watch?v=GHo8B4JMC38)
+
+<details>
+<summary>자막: YouTube GHo8B4JMC38</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 To guarantee that competitors develop truly sample efficient algorithms, the MineRL competition organizers train the top team’s final round models from scratch with strict constraints on the hardware, compute, and simulator-interaction available. The MineRL 2020 Competition also features a novel measure to avoid hand engineering features and overfitting solutions to the domain. More details on the competition structure can be found [here⁠(opens in a new window)](https://www.aicrowd.com/challenges/neurips-2020-minerl-challenge).
 
 * [Sign up for MineRL(opens in a new window)](https://www.aicrowd.com/challenges/neurips-2020-minerl-competition)

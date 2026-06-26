@@ -42,6 +42,17 @@ Users can leverage ChatGPT’s natural language capabilities to assist with GitH
 
 [![Watch the video](https://img.youtube.com/vi/bcjybCh-x-Q/0.jpg)](https://www.youtube.com/watch?v=bcjybCh-x-Q)
 
+<!-- yt-inline:bcjybCh-x-Q -->
+[![YouTube bcjybCh-x-Q](https://img.youtube.com/vi/bcjybCh-x-Q/hqdefault.jpg)](https://www.youtube.com/watch?v=bcjybCh-x-Q)
+
+<details>
+<summary>자막: YouTube bcjybCh-x-Q</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 ## Application Information
 
 ### **Key Links**

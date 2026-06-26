@@ -142,6 +142,17 @@ Dota 2:
 * We are now at a point where a \*single experiment\* consumes 1000s of cores, and where adding more distributed compute increases performance.
 * Here is a cool video of our bot doing something rather clever: https://www.youtube.com/watch?v=Y-vxbREX5ck&feature=youtu.be&t=99.
 
+<!-- yt-inline:Y-vxbREX5ck -->
+[![YouTube Y-vxbREX5ck](https://img.youtube.com/vi/Y-vxbREX5ck/hqdefault.jpg)](https://www.youtube.com/watch?v=Y-vxbREX5ck)
+
+<details>
+<summary>자막: YouTube Y-vxbREX5ck</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 Rapid learning of new games:
 
 * Infra work is underway
@@ -152,12 +163,45 @@ Robotics:
 
 * Current status: The HER algorithm (https://www.youtube.com/watch?v=Dz\_HuzgMzxo) can learn to solve many low-dimensional robotics tasks that were previously unsolvable very rapidly. It is non-obvious, simple, and effective.
 * In 6 months, we will accomplish at least one of: single-handed Rubik’s cube, pen spinning (https://www.youtube.com/watch?v=dDavyRnEPrI), Chinese balls spinning (https://www.youtube.com/watch?v=M9N1duIl4Fc) using the HER algorithm and using a sim2real method [such as https://blog.openai.com/spam-detection-in-the-physical-world/].
+
+<!-- yt-inline:dDavyRnEPrI -->
+[![YouTube dDavyRnEPrI](https://img.youtube.com/vi/dDavyRnEPrI/hqdefault.jpg)](https://www.youtube.com/watch?v=dDavyRnEPrI)
+
+<details>
+<summary>자막: YouTube dDavyRnEPrI</summary>
+
+_(자막 없음)_
+
+</details>
+
+
+<!-- yt-inline:M9N1duIl4Fc -->
+[![YouTube M9N1duIl4Fc](https://img.youtube.com/vi/M9N1duIl4Fc/hqdefault.jpg)](https://www.youtube.com/watch?v=M9N1duIl4Fc)
+
+<details>
+<summary>자막: YouTube M9N1duIl4Fc</summary>
+
+_(자막 없음)_
+
+</details>
+
 * The above will be deployed on the robotic hand: [Link to Google Drive] [this video is human controlled, not algorithmic controlled. Need to be logged in to the OpenAI account to see the video].
 
 Self play as a key path to AGI:
 
 * Self play in multiagent environments is magical: if you place agents into an environment, then no matter how smart (or not smart) they are, the environment will provide them with the exact level of challenge, which can be faced only by outsmarting the competition. So for example, if you have a group of children, they will find each other’s company to be challenging; likewise for a collection of super intelligences of comparable intelligence. So the “solution” to self-play is to become more and more intelligent, without bound.
 * Self-play lets us get “something out of nothing.” The rules of a competitive game can be simple, but the best strategy for playing this game can be immensely complex. [motivating example: https://www.youtube.com/watch?v=u2T77mQmJYI].
+
+<!-- yt-inline:u2T77mQmJYI -->
+[![YouTube u2T77mQmJYI](https://img.youtube.com/vi/u2T77mQmJYI/hqdefault.jpg)](https://www.youtube.com/watch?v=u2T77mQmJYI)
+
+<details>
+<summary>자막: YouTube u2T77mQmJYI</summary>
+
+_(자막 없음)_
+
+</details>
+
 * Training agents in simulation to develop very good dexterity via competitive fighting, such as wrestling. Here is a video of ant-shaped robots that we trained to struggle: <redacted>
 * Current work on self-play: getting agents to learn to develop a language [gifs inhttps://blog.openai.com/learning-to-cooperate-compete-and-communicate/]. Agents are doing “stuff,” but it’s still work in progress.
 
@@ -224,6 +268,17 @@ Progress this week:
 
 * We’ve beat our top 1v1 test player (he’s top 30 in North America at 1v1, and beats the top 1v1 player about 30% of the time), but the bot can also be exploited by playing weirdly. We’re working on understanding these exploits and cracking down on them.
   + Repeated from Saturday, here’s the first match where we beat our top test player: https://www.youtube.com/watch?v=FBoUHay7XBI&feature=youtu.be&t=345
+
+<!-- yt-inline:FBoUHay7XBI -->
+[![YouTube FBoUHay7XBI](https://img.youtube.com/vi/FBoUHay7XBI/hqdefault.jpg)](https://www.youtube.com/watch?v=FBoUHay7XBI)
+
+<details>
+<summary>자막: YouTube FBoUHay7XBI</summary>
+
+_(자막 없음)_
+
+</details>
+
   + Every additional day of training makes the bot stronger and harder to exploit.
 * Robot getting closer to solving Rubik’s cube.
   + The improved cube simulation teleoperated by a human: <redacted>.

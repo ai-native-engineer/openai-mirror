@@ -59,6 +59,17 @@ OpenAI Five learns from self-play (starting from random weights), which provides
 
 In March 2017, our first [agent⁠(opens in a new window)](https://www.youtube.com/watch?v=5Fv2c4aNS2w&feature=youtu.be) defeated bots but got confused against humans. To force exploration in strategy space, during training (and only during training) we randomized the properties (health, speed, start level, etc.) of the units, and it began beating humans. Later on, when a test player was consistently beating our 1v1 bot, we increased our training randomizations and the test player started to lose. (Our robotics team concurrently applied similar randomization techniques to [physical⁠](/index/generalizing-from-simulation/) [robots⁠](/index/spam-detection-in-the-physical-world/) to transfer from simulation to the real world.)
 
+<!-- yt-inline:5Fv2c4aNS2w -->
+[![YouTube 5Fv2c4aNS2w](https://img.youtube.com/vi/5Fv2c4aNS2w/hqdefault.jpg)](https://www.youtube.com/watch?v=5Fv2c4aNS2w)
+
+<details>
+<summary>자막: YouTube 5Fv2c4aNS2w</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 OpenAI Five uses the randomizations we wrote for our 1v1 bot. It also uses a new “lane assignment” one. At the beginning of each training game, we randomly “assign” each hero to some subset of [lanes⁠(opens in a new window)](https://dota2.gamepedia.com/Lane) and penalize it for straying from those lanes until a randomly-chosen time in the game.
 
 Exploration is also helped by a good reward. [Our reward⁠(opens in a new window)](https://gist.github.com/dfarhi/66ec9d760ae0c49a5c492c9fae93984a) consists mostly of metrics humans track to decide how they’re doing in the game: net worth, kills, deaths, assists, last hits, and the like. We postprocess each agent’s reward by subtracting the other team’s average reward to prevent the agents from finding positive-sum situations.

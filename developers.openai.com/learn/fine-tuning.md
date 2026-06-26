@@ -629,6 +629,17 @@ DevDay session on model distillation techniques.
 
 video](https://www.youtube.com/watch?v=CqWpJFK-hOo)[![Model distillation overview](https://cdn.openai.com/devhub/resources/guide-1.png)
 
+<!-- yt-inline:CqWpJFK-hOo -->
+[![YouTube CqWpJFK-hOo](https://img.youtube.com/vi/CqWpJFK-hOo/hqdefault.jpg)](https://www.youtube.com/watch?v=CqWpJFK-hOo)
+
+<details>
+<summary>자막: YouTube CqWpJFK-hOo</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 #### Model distillation overview
 
 Overview of distillation techniques for creating efficient models.

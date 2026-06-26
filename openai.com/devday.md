@@ -3193,6 +3193,17 @@ No city embraces the future like San Francisco. Get inspired by local developers
 
 [Watch now(opens in a new window)](https://youtu.be/EDqQtysycT4)
 
+<!-- yt-inline:EDqQtysycT4 -->
+[![YouTube EDqQtysycT4](https://img.youtube.com/vi/EDqQtysycT4/hqdefault.jpg)](https://www.youtube.com/watch?v=EDqQtysycT4)
+
+<details>
+<summary>자막: YouTube EDqQtysycT4</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 ![Evals in Action From Frontier Research to Production Applications](https://images.ctfassets.net/kftzwdyauwt9/qFGl4suzJLT8oTJ19lEE1/1f29386ffbd6312735156865332af272/Evals_in_Action__From_Frontier_Research_to_Production_Applications.png?w=3840&q=90&fm=webp)
 
 ### Evals in Action: From Frontier Research to Production Applications

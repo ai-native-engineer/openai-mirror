@@ -124,6 +124,17 @@ DevDay session on model distillation techniques.
 
 video](https://www.youtube.com/watch?v=CqWpJFK-hOo)
 
+<!-- yt-inline:CqWpJFK-hOo -->
+[![YouTube CqWpJFK-hOo](https://img.youtube.com/vi/CqWpJFK-hOo/hqdefault.jpg)](https://www.youtube.com/watch?v=CqWpJFK-hOo)
+
+<details>
+<summary>자막: YouTube CqWpJFK-hOo</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 ### Evals
 
 You can’t measure a model’s performance or compare it to other models if you don’t have a way to evaluate it.

@@ -12,6 +12,17 @@ See the latest Codex app updates for working across more of the software develop
 
 video](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)[![Introducing the Codex app](https://cdn.openai.com/devhub/resources/video-2.png)
 
+<!-- yt-inline:Lm7-yFZ5fZQ -->
+[![YouTube Lm7-yFZ5fZQ](https://img.youtube.com/vi/Lm7-yFZ5fZQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)
+
+<details>
+<summary>자막: YouTube Lm7-yFZ5fZQ</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 #### Introducing the Codex app
 
 See the Codex app in action and how it helps you build and ship faster.
@@ -7682,6 +7693,17 @@ with codeex. Thank you all.
 DevDay session on model distillation techniques.
 
 video](https://www.youtube.com/watch?v=CqWpJFK-hOo)[![DevDay — optimization breakout](https://cdn.openai.com/devhub/resources/video-3.png)
+
+<!-- yt-inline:CqWpJFK-hOo -->
+[![YouTube CqWpJFK-hOo](https://img.youtube.com/vi/CqWpJFK-hOo/hqdefault.jpg)](https://www.youtube.com/watch?v=CqWpJFK-hOo)
+
+<details>
+<summary>자막: YouTube CqWpJFK-hOo</summary>
+
+_(자막 없음)_
+
+</details>
+
 
 #### DevDay — optimization breakout
 

@@ -165,6 +165,17 @@ OpenAI does not want to replace creators. We want our systems to be used to empo
 6. 6
 
    [https://www.youtube.com/watch?v=QM6\_YNNwZjk⁠(opens in a new window)](https://www.youtube.com/watch?v=QM6_YNNwZjk)
+
+<!-- yt-inline:QM6_YNNwZjk -->
+[![YouTube QM6_YNNwZjk](https://img.youtube.com/vi/QM6_YNNwZjk/hqdefault.jpg)](https://www.youtube.com/watch?v=QM6_YNNwZjk)
+
+<details>
+<summary>자막: YouTube QM6_YNNwZjk</summary>
+
+_(자막 없음)_
+
+</details>
+
 7. 7
 
    [https://www.newsweek.com/ai-books-art-money-artificial-intelligence-1799923⁠(opens in a new window)](https://www.newsweek.com/ai-books-art-money-artificial-intelligence-1799923)

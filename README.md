@@ -1,4 +1,11 @@
-**English** | [한국어](README.ko.md)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/openai-logo-dark.svg">
+    <img src="assets/openai-logo.svg" alt="OpenAI" height="46">
+  </picture>
+</p>
+
+<p align="center"><b>English</b> | <a href="README.ko.md">한국어</a></p>
 
 # openai-mirror
 

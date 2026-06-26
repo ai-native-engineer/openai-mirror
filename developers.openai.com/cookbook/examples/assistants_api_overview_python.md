@@ -996,3 +996,13 @@ There’s a few sections we didn’t cover for the sake of brevity, so here’s 
 * Streaming: coming soon!
 
 Now go off and build something ama[zing](https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUQcmljayByb2xsIG5vIGFkcw%3D%3D)!
+
+<!-- yt-inline:xvFZjo5PgG0 -->
+[![YouTube xvFZjo5PgG0](https://img.youtube.com/vi/xvFZjo5PgG0/hqdefault.jpg)](https://www.youtube.com/watch?v=xvFZjo5PgG0)
+
+<details>
+<summary>자막: YouTube xvFZjo5PgG0</summary>
+
+_(자막 없음)_
+
+</details>

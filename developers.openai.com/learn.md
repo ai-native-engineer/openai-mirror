@@ -58,6 +58,17 @@ See the latest Codex app updates for working across more of the software develop
 
 video](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)[![Codex code review](https://cdn.openai.com/devhub/resources/video-2.png)
 
+<!-- yt-inline:Lm7-yFZ5fZQ -->
+[![YouTube Lm7-yFZ5fZQ](https://img.youtube.com/vi/Lm7-yFZ5fZQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)
+
+<details>
+<summary>자막: YouTube Lm7-yFZ5fZQ</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 #### Codex code review
 
 Walkthrough of how Codex drives end-to-end pull request reviews with the new onboarding flow.

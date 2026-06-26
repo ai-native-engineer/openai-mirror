@@ -17,10 +17,32 @@ Our Dota 2 result shows that self-play can catapult the performance of machine l
 The project’s timeline is the following. For some perspective, 15% of players are below 1.5k [MMR⁠(opens in a new window)](https://dota.rgp.io/mmr/); 58% of players are below 3k; 99.99% are below 7.5k.
 
 * **March 1st**: had our first classical reinforcement learning [results⁠(opens in a new window)](https://www.youtube.com/watch?v=5Fv2c4aNS2w&feature=youtu.be) in a simple Dota environment, where a Drow Ranger learns to kite a hardcoded Earthshaker.
+
+<!-- yt-inline:5Fv2c4aNS2w -->
+[![YouTube 5Fv2c4aNS2w](https://img.youtube.com/vi/5Fv2c4aNS2w/hqdefault.jpg)](https://www.youtube.com/watch?v=5Fv2c4aNS2w)
+
+<details>
+<summary>자막: YouTube 5Fv2c4aNS2w</summary>
+
+_(자막 없음)_
+
+</details>
+
 * **May 8th**: 1.5k MMR tester says he’s been getting better faster than the bot.
 * **Early June**: beat 1.5k MMR tester
 * **June 30th**: winning most games against 3k MMR tester
 * **July 8th**: barely get first [win⁠(opens in a new window)](https://www.youtube.com/watch?v=FBoUHay7XBI&feature=youtu.be&t=345) against 7.5k MMR semi-pro tester.
+
+<!-- yt-inline:FBoUHay7XBI -->
+[![YouTube FBoUHay7XBI](https://img.youtube.com/vi/FBoUHay7XBI/hqdefault.jpg)](https://www.youtube.com/watch?v=FBoUHay7XBI)
+
+<details>
+<summary>자막: YouTube FBoUHay7XBI</summary>
+
+_(자막 없음)_
+
+</details>
+
 * **August 7th**: beat [Blitz⁠(opens in a new window)](http://wiki.teamliquid.net/dota2/Blitz) (6.2k former pro) 3–0, [Pajkatt⁠(opens in a new window)](http://wiki.teamliquid.net/dota2/Pajkatt) (8.5k pro) 2–1, and [CC&C⁠(opens in a new window)](http://wiki.teamliquid.net/dota2/CC%26C) (8.9k pro) 3–0. All agreed that Sumail would figure out how to beat it.
 * **August 9th**: beat Arteezy (10k pro, top player) 10–0. He says Sumail could figure out this bot.
 * **August 10th**: beat Sumail (8.3k pro, top 1v1 player) 6–0, who says it’s unbeatable. Plays the Aug 9th bot, where he goes 2–1.

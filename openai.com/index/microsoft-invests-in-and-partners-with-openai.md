@@ -14,6 +14,17 @@ Microsoft is investing $1 billion in OpenAI to support us building artificial ge
 
 Each year since 2012, the world has seen a new step function advance in AI capabilities. Though these advances are across very different fields like [vision⁠(opens in a new window)](https://medium.com/coinmonks/paper-review-of-alexnet-caffenet-winner-in-ilsvrc-2012-image-classification-b93598314160) (2012), [simple video games⁠(opens in a new window)](https://danieltakeshi.github.io/2016/12/01/going-deeper-into-reinforcement-learning-understanding-dqn/) (2013), [machine translation⁠(opens in a new window)](https://blog.acolyer.org/2016/06/02/sequence-to-sequence-learning-with-neural-networks/) (2014), [complex board games⁠(opens in a new window)](https://deepmind.com/research/alphago/) (2015), [speech synthesis⁠(opens in a new window)](https://deepmind.com/blog/wavenet-generative-model-raw-audio/) (2016), [image generation⁠(opens in a new window)](https://www.youtube.com/watch?v=G06dEcZ-QTg) (2017), [robotic control⁠](/index/learning-dexterity/) (2018), and [writing text⁠](/index/better-language-models/) (2019), they are all powered by the same approach: innovative applications of deep neural networks coupled with increasing [computational power⁠](/index/ai-and-compute/). But still, AI system building today involves a lot of manual engineering for each well-defined task.
 
+<!-- yt-inline:G06dEcZ-QTg -->
+[![YouTube G06dEcZ-QTg](https://img.youtube.com/vi/G06dEcZ-QTg/hqdefault.jpg)](https://www.youtube.com/watch?v=G06dEcZ-QTg)
+
+<details>
+<summary>자막: YouTube G06dEcZ-QTg</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 In contrast, an AGI will be a system capable of mastering a field of study to the world-expert level, and mastering more fields than any one human—like a tool which combines the skills of Curie, Turing, and Bach. An AGI working on a problem would be able to see connections across disciplines that no human could. We want AGI to work with people to solve currently intractable multi-disciplinary problems, including global challenges such as climate change, affordable and high-quality healthcare, and personalized education. We think its impact should be to give everyone economic freedom to pursue what they find most fulfilling, creating new opportunities for all of our lives that are unimaginable today.
 
 ![Openai Team Offsite 2019](https://images.ctfassets.net/kftzwdyauwt9/1c9fd6c7-4c28-4b94-98d278754119/672f117c385b927aa3dd8ba17f2ff4b9/openai-team-offsite-2019.jpg?w=3840&q=90&fm=webp)

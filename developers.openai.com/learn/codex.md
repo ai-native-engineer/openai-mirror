@@ -18,6 +18,17 @@ See the latest Codex app updates for working across more of the software develop
 
 video](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)[![Codex Prompting Guide](https://cdn.openai.com/devhub/resources/cookbook-1.png)
 
+<!-- yt-inline:Lm7-yFZ5fZQ -->
+[![YouTube Lm7-yFZ5fZQ](https://img.youtube.com/vi/Lm7-yFZ5fZQ/hqdefault.jpg)](https://www.youtube.com/watch?v=Lm7-yFZ5fZQ)
+
+<details>
+<summary>자막: YouTube Lm7-yFZ5fZQ</summary>
+
+_(자막 없음)_
+
+</details>
+
+
 #### Codex Prompting Guide
 
 Codex models advance the frontier of intelligence and efficiency and our recommended agentic coding model. Follow this guide closely to ensure you’re getting th

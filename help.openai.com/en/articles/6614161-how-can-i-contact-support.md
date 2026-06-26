@@ -55,6 +55,17 @@ See steps below:
 6. Click the download icon ("Export HAR (sanitized)..." button) to save the file to your computer.
 
 You can use [this video guide](https://www.youtube.com/watch?v=y2yanWTNxGk) (not affiliated with OpenAI) as a reference point.  
+
+<!-- yt-inline:y2yanWTNxGk -->
+[![YouTube y2yanWTNxGk](https://img.youtube.com/vi/y2yanWTNxGk/hqdefault.jpg)](https://www.youtube.com/watch?v=y2yanWTNxGk)
+
+<details>
+<summary>자막: YouTube y2yanWTNxGk</summary>
+
+_(자막 없음)_
+
+</details>
+
   
 Please be informed that HAR files may include personal or other sensitive data. You can use a tool like [Cloudflare's HAR sanitizer](https://har-sanitizer.pages.dev/) to remove any personal information before sharing. Some browsers, like Google Chrome, automatically sanitize the HAR file when saving.  
   
