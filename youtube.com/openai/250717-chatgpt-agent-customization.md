@@ -1,0 +1,87 @@
+---
+title: "ChatGPT agent Customization"
+channel: openai
+url: https://www.youtube.com/watch?v=EKMHiOQPwpc
+youtube_id: EKMHiOQPwpc
+published: 2025-07-17
+duration: "2:35"
+captions: en-orig
+---
+
+# ChatGPT agent Customization
+
+[![ChatGPT agent Customization](https://img.youtube.com/vi/EKMHiOQPwpc/hqdefault.jpg)](https://www.youtube.com/watch?v=EKMHiOQPwpc)
+
+<details>
+<summary>자막: ChatGPT agent Customization (2:35)</summary>
+
+[00:00]
+[Music]
+If you give someone a hammer, everything
+looks like a nail. Now we've got the
+whole toolbox. It can do so many
+different things. And it's smart enough
+to actually know which tool to use in
+the right situation.
+I'm Nick. I'm an engineer on the agent
+team. One of the really exciting things
+that we've done with agent now is that
+you can give it these connectors, your
+Gmail connector or your Dropbox
+connector. So, it then can understand
+who you are by learning about your
+history, what you've done, what you
+like, and with that information, go out
+and make better decisions, take better
+actions on your behalf because it knows
+you. I want to plan a date night with my
+fiance. So going to get agent to do it
+for me. I have already set up for agent
+my Google calendar connector. When I ask
+it to book me a reservation, it knows
+when I'm available. I'll just write a
+
+[00:01]
+simple task, find me a sushi restaurant
+in San Francisco, and make a reservation
+on Open Table for any night I have
+available. I've said that my fiance is
+gluten-free. That is just like a
+valuable thing for Chat GBT to always
+know about me. And so I don't want to
+have to type that in every time. It just
+knows that that's it. I can just close
+my laptop and go do something else.
+It comes up with some sort of highle
+plan. Here's what I think I'm going to
+do. I'm going to search for restaurants.
+I'm going to check Nick's availability
+and then I'm going to cross check and
+make sure that these are good
+restaurants. To do that, it has to start
+using the tools that it has at its
+disposal. So now we've provided it with
+both visual browser which it can use to
+click around and do things that are more
+visual. It also has the text browser. So
+if it just needs to ingest a lot of
+information really quickly with my
+Google calendar connector, it can just
+make an API call and get that
+information right away.
+
+[00:02]
+Basically, it got me all the way there.
+It's found this restaurant Kusakab in
+San Francisco for next week. It's a
+great choice. So, um I'm pretty happy
+with what it's done so far. Every once
+in a while I'm just, you know, taken
+aback by it a little bit. It does
+something that I didn't expect or it's
+better than I realize and it's getting
+better faster than I'm realizing. Yeah,
+I probably have that moment like once a
+week at least.
+
+</details>
