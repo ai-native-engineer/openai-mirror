@@ -12,9 +12,9 @@
 ![status: unofficial mirror](https://img.shields.io/badge/status-unofficial%20mirror-orange)
 ![last commit](https://img.shields.io/github/last-commit/ai-native-engineer/openai-mirror)
 ![repo size](https://img.shields.io/github/repo-size/ai-native-engineer/openai-mirror)
-![docs ~5.8k](https://img.shields.io/badge/docs-~5.8k-blue)
+![docs ~5.9k](https://img.shields.io/badge/docs-~5.9k-blue)
 
-> Unofficial markdown archive of **OpenAI public materials** - news, research, OpenAI Academy, developer docs, and the Model Spec.
+> Unofficial markdown archive of **OpenAI public materials** - news, research, OpenAI Academy, developer docs, the Model Spec, the OpenAI YouTube channel, and linked PDF documents (system cards, research papers).
 
 Collected as a reference source for talks and study, kept public so anyone can read.
 
@@ -34,9 +34,12 @@ Mostly text, as of the crawl snapshot. No image or video files (videos are trans
 | `model-spec.openai.com/` | OpenAI Model Spec (full text) | 1 |
 | `openaifoundation.org/` | OpenAI Foundation | ~10 |
 | `openai.fund/` | OpenAI Startup Fund | ~3 |
+| `youtube.com/@OpenAI/` | OpenAI YouTube channel - one transcript per video | ~530 |
 | `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | PDF documents linked from pages (system cards, research papers, policy docs, Academy one-pagers), kept as original files | 228 PDFs |
 
 Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions, with a visible **Watch on Vimeo** link above each transcript.
+
+The **OpenAI YouTube channel** is mirrored under `youtube.com/@OpenAI/` - one Markdown transcript per video, enumerated with `yt-dlp` and transcribed from each video's captions (videos with no captions are kept as a short stub).
 
 **Known limitation:** API reference pages under `developers.openai.com/api/` render their parameter tables via JavaScript, so the mirror keeps each endpoint's prose and overview but not the fully expanded interactive tables.
 
@@ -44,7 +47,7 @@ Academy video lessons under `academy.openai.com/public/videos/` are transcribed 
 
 ## How it's generated
 
-Crawled by an automated, sitemap-driven pipeline (no API keys). Both `openai.com` and `developers.openai.com` sit behind a Cloudflare bot challenge, so URLs come from each site's `sitemap.xml` and bodies are fetched with a Chrome browser fingerprint (`curl_cffi`) that passes the challenge without a captcha or headless browser; the pages are server-rendered, so the HTML already contains the text. Academy video lessons are transcribed from their Vimeo captions. See `AGENTS.md` for regeneration details.
+Crawled by an automated, sitemap-driven pipeline (no API keys). Both `openai.com` and `developers.openai.com` sit behind a Cloudflare bot challenge, so URLs come from each site's `sitemap.xml` and bodies are fetched with a Chrome browser fingerprint (`curl_cffi`) that passes the challenge without a captcha or headless browser; the pages are server-rendered, so the HTML already contains the text. Academy video lessons are transcribed from their Vimeo captions, and the OpenAI YouTube channel is enumerated with `yt-dlp` and transcribed from each video's captions. See `AGENTS.md` for regeneration details.
 
 ## Sources
 
@@ -54,6 +57,7 @@ Crawled by an automated, sitemap-driven pipeline (no API keys). Both `openai.com
 - https://help.openai.com (Help Center)
 - https://model-spec.openai.com (Model Spec)
 - https://openaifoundation.org , https://openai.fund
+- https://www.youtube.com/@OpenAI (YouTube channel)
 
 ## Usage
 

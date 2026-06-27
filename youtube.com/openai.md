@@ -1,0 +1,151 @@
+# openai (YouTube)
+
+영상 147개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+
+- [Verso, l'entreprise qui ne dort jamais](openai/260626-verso-l-entreprise-qui-ne-dort-jamais.md) — 2026-06-26
+- [What if plants could talk?](openai/260625-what-if-plants-could-talk.md) — 2026-06-25
+- [How Zendesk CEO Tom Eggemeier goes from Idea to Action](openai/260622-how-zendesk-ceo-tom-eggemeier-goes-from-idea-to-action.md) — 2026-06-22
+- [What Codex Unlocks for NTT Data](openai/260619-what-codex-unlocks-for-ntt-data.md) — 2026-06-19
+- [Score with ChatGPT](openai/260619-score-with-chatgpt.md) — 2026-06-19
+- [Codex as a Solutions Engineering Partner](openai/260615-codex-as-a-solutions-engineering-partner.md) — 2026-06-15
+- [How Preply combines AI and human tutors to personalize learning](openai/260612-how-preply-combines-ai-and-human-tutors-to-personalize-learn.md) — 2026-06-12
+- [Life Near OpenAI's Stargate Project](openai/260611-life-near-openai-s-stargate-project.md) — 2026-06-11
+- [Build sales account strategies and outreach with Codex](openai/260611-build-sales-account-strategies-and-outreach-with-codex.md) — 2026-06-11
+- [Creating black hole simulations with Codex](openai/260611-creating-black-hole-simulations-with-codex.md) — 2026-06-11
+- [Create campaign concepts and assets with Codex](openai/260610-create-campaign-concepts-and-assets-with-codex.md) — 2026-06-10
+- [OpenAI's CFO Presents the Future of Finance with University of California’s Chief Investment Officer](openai/260609-openai-s-cfo-presents-the-future-of-finance-with-university.md) — 2026-06-09
+- [OpenAI on OpenAI: Stacie Faggioli, Business Finance Officer Applications, OpenAI](openai/260608-openai-on-openai-stacie-faggioli-business-finance-officer-ap.md) — 2026-06-08
+- [Build and share interactive prototypes in Codex](openai/260604-build-and-share-interactive-prototypes-in-codex.md) — 2026-06-04
+- [Turn the world into cheese (or anything really) with this camera.](openai/turn-the-world-into-cheese-or-anything-really-with-this-came.md) (자막없음)
+- [Build and share apps in Codex](openai/build-and-share-apps-in-codex.md) (자막없음)
+- [Builders Unscripted: Ep. 3 - Matias Castello, Product Lead at Alchemy](openai/260529-builders-unscripted-ep-3-matias-castello-product-lead-at-alc.md) — 2026-05-29
+- [Kunal vs Motorcycle | With ChatGPT](openai/kunal-vs-motorcycle-with-chatgpt.md) (자막없음)
+- [Introducing GPT-5.5 with Box](openai/260507-introducing-gpt-5-5-with-box.md) — 2026-05-07
+- [What happens now that AI is good at math? — the OpenAI Podcast Ep. 17](openai/260428-what-happens-now-that-ai-is-good-at-math-the-openai-podcast.md) — 2026-04-28
+- [Ritu vs Case Files | With ChatGPT](openai/ritu-vs-case-files-with-chatgpt.md) (자막없음)
+- [Workspace agents in ChatGPT: Software review agent](openai/260424-workspace-agents-in-chatgpt-software-review-agent.md) — 2026-04-24
+- [ChatGPT Images — Chameleon](openai/260421-chatgpt-images-chameleon.md) — 2026-04-21
+- [This is ChatGPT Images 2.0](openai/260421-this-is-chatgpt-images-2-0.md) — 2026-04-21
+- [Codex for (almost) everything](openai/codex-for-almost-everything.md) (자막없음)
+- [Design your dream room by shopping with ChatGPT](openai/design-your-dream-room-by-shopping-with-chatgpt.md) (자막없음)
+- [LG Uplus Creates Next Gen AICC](openai/260406-lg-uplus-creates-next-gen-aicc.md) — 2026-04-06
+- [What Codex Unlocks for Ryan Hendler, dev at me&u](openai/260326-what-codex-unlocks-for-ryan-hendler-dev-at-me-u.md) — 2026-03-26
+- [The Codex app is now on Windows](openai/260305-the-codex-app-is-now-on-windows.md) — 2026-03-05
+- [Improving Web Search Results in GPT-5.3 Instant](openai/260303-improving-web-search-results-in-gpt-5-3-instant.md) — 2026-03-03
+- [Updates to deep research in ChatGPT](openai/updates-to-deep-research-in-chatgpt.md) (자막없음)
+- [How PMs use the Codex app](openai/260209-how-pms-use-the-codex-app.md) — 2026-02-09
+- [Episode 13 - The Thinking Behind Ads in ChatGPT](openai/260209-episode-13-the-thinking-behind-ads-in-chatgpt.md) — 2026-02-09
+- [Cricket Academy with ChatGPT](openai/260206-cricket-academy-with-chatgpt.md) — 2026-02-06
+- [Generations of farming | with ChatGPT | Super Bowl 2026](openai/260205-generations-of-farming-with-chatgpt-super-bowl-2026.md) — 2026-02-05
+- [Introducing the Codex app](openai/260202-introducing-the-codex-app.md) — 2026-02-02
+- [A first look at the Codex app](openai/a-first-look-at-the-codex-app.md) (자막없음)
+- [Codex in JetBrains IDEs](openai/260122-codex-in-jetbrains-ides.md) — 2026-01-22
+- [Preparing for a doctor’s appointment with ChatGPT](openai/preparing-for-a-doctor-s-appointment-with-chatgpt.md) (자막없음)
+- [BNY People uses OpenAI](openai/260106-bny-people-uses-openai.md) — 2026-01-06
+- [BNY builds “AI for everyone, everywhere” with OpenAI](openai/260105-bny-builds-ai-for-everyone-everywhere-with-openai.md) — 2026-01-05
+- [Navigating Health | with ChatGPT](openai/260105-navigating-health-with-chatgpt.md) — 2026-01-05
+- [Kirana Store with ChatGPT](openai/251222-kirana-store-with-chatgpt.md) — 2025-12-22
+- [10 years.](openai/251211-10-years.md) — 2025-12-11
+- [What's New with ChatGPT Voice](openai/251205-what-s-new-with-chatgpt-voice.md) — 2025-12-05
+- [Scania accelerates operations across its global workforce with ChatGPT](openai/251121-scania-accelerates-operations-across-its-global-workforce-wi.md) — 2025-11-21
+- [How AI is accelerating scientific discovery today and what's ahead — the OpenAI Podcast Ep. 10](openai/251120-how-ai-is-accelerating-scientific-discovery-today-and-what-s.md) — 2025-11-20
+- [Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows](openai/251114-notion-s-rebuild-for-agentic-ai-how-gpt-5-helped-unlock-auto.md) — 2025-11-14
+- [Build Hour: Agent RFT](openai/251110-build-hour-agent-rft.md) — 2025-11-10
+- [Automatic code reviews with OpenAI Codex](openai/251104-automatic-code-reviews-with-openai-codex.md) — 2025-11-04
+- [Build beautiful frontends with OpenAI Codex](openai/251027-build-beautiful-frontends-with-openai-codex.md) — 2025-10-27
+- [OpenAI Codex in your code editor](openai/251017-openai-codex-in-your-code-editor.md) — 2025-10-17
+- [Using OpenAI Codex CLI with GPT-5-Codex](openai/251014-using-openai-codex-cli-with-gpt-5-codex.md) — 2025-10-14
+- [What Work Looks Like with ChatGPT | Write, Research, Code, Create](openai/251009-what-work-looks-like-with-chatgpt-write-research-code-create.md) — 2025-10-09
+- [Developer State Of The Union](openai/251008-developer-state-of-the-union.md) — 2025-10-08
+- [A Conversation with Sam and Jony](openai/251008-a-conversation-with-sam-and-jony.md) — 2025-10-08
+- [Built for SF by SF: AI Solutions Helping Our City Thrive](openai/built-for-sf-by-sf-ai-solutions-helping-our-city-thrive.md) (자막없음)
+- [Evals in Action: From Frontier Research to Production Applications](openai/251008-evals-in-action-from-frontier-research-to-production-applica.md) — 2025-10-08
+- [Sora, ImageGen, and Codex: The Next Wave of Creative Production](openai/251008-sora-imagegen-and-codex-the-next-wave-of-creative-production.md) — 2025-10-08
+- [AMA: Scaling AI Applications into the Enterprise](openai/251008-ama-scaling-ai-applications-into-the-enterprise.md) — 2025-10-08
+- [Model Behavior: The Science of AI Style](openai/251008-model-behavior-the-science-of-ai-style.md) — 2025-10-08
+- [Measuring Agents With Interactive Evaluations](openai/251008-measuring-agents-with-interactive-evaluations.md) — 2025-10-08
+- [Shipping with Codex](openai/251008-shipping-with-codex.md) — 2025-10-08
+- [Building with Open Models](openai/251008-building-with-open-models.md) — 2025-10-08
+- [Live Demo Showcase: Tools That 10x Your Codebase](openai/251008-live-demo-showcase-tools-that-10x-your-codebase.md) — 2025-10-08
+- [OpenAI on OpenAI: Applying AI to Our Own Workflows](openai/251008-openai-on-openai-applying-ai-to-our-own-workflows.md) — 2025-10-08
+- [Orchestrating Agents at Scale](openai/251008-orchestrating-agents-at-scale.md) — 2025-10-08
+- [Context Engineering & Coding Agents with Cursor](openai/251008-context-engineering-coding-agents-with-cursor.md) — 2025-10-08
+- [Apps in ChatGPT](openai/apps-in-chatgpt.md) (자막없음)
+- [Intro to Agent Builder](openai/251006-intro-to-agent-builder.md) — 2025-10-06
+- [Sound on for Sora 2](openai/250930-sound-on-for-sora-2.md) — 2025-09-30
+- [Lowe’s gets answers faster with GPT-5](openai/250904-lowe-s-gets-answers-faster-with-gpt-5.md) — 2025-09-04
+- [Build Hour: GPT-5](openai/250903-build-hour-gpt-5.md) — 2025-09-03
+- [Build Hour: Built-In Tools](openai/250903-build-hour-built-in-tools.md) — 2025-09-03
+- [Build Hour: Agentic Tool Calling](openai/250903-build-hour-agentic-tool-calling.md) — 2025-09-03
+- [Build Hour: Image Gen](openai/250903-build-hour-image-gen.md) — 2025-09-03
+- [OpenAI to Z Challenge](openai/250828-openai-to-z-challenge.md) — 2025-08-28
+- [Surprising developers with GPT-5](openai/250807-surprising-developers-with-gpt-5.md) — 2025-08-07
+- [GPT-5: Our best model for work](openai/250807-gpt-5-our-best-model-for-work.md) — 2025-08-07
+- [Delegate work to ChatGPT agent](openai/250806-delegate-work-to-chatgpt-agent.md) — 2025-08-06
+- [A Look at ChatGPT agent](openai/a-look-at-chatgpt-agent.md) (자막없음)
+- [Personalize ChatGPT with custom instructions](openai/250512-personalize-chatgpt-with-custom-instructions.md) — 2025-05-12
+- [Collaborate and write with GPT-4o](openai/250508-collaborate-and-write-with-gpt-4o.md) — 2025-05-08
+- [Connect internal knowledge from Google Drive](openai/250508-connect-internal-knowledge-from-google-drive.md) — 2025-05-08
+- [Automate complex workflows with OpenAI o3](openai/250508-automate-complex-workflows-with-openai-o3.md) — 2025-05-08
+- [Create on-brand visuals with image generation](openai/250508-create-on-brand-visuals-with-image-generation.md) — 2025-05-08
+- [How to make Sora music videos with David Sheldrick](openai/250423-how-to-make-sora-music-videos-with-david-sheldrick.md) — 2025-04-23
+- [Pre-Training GPT-4.5](openai/250411-pre-training-gpt-4-5.md) — 2025-04-11
+- [Market research with ChatGPT](openai/250408-market-research-with-chatgpt.md) — 2025-04-08
+- [Strategic planning with ChatGPT](openai/250408-strategic-planning-with-chatgpt.md) — 2025-04-08
+- [Shipping code to your IDE with ChatGPT](openai/250408-shipping-code-to-your-ide-with-chatgpt.md) — 2025-04-08
+- [Creating a contextual workspace in ChatGPT](openai/250408-creating-a-contextual-workspace-in-chatgpt.md) — 2025-04-08
+- [Vision and voice in ChatGPT](openai/250408-vision-and-voice-in-chatgpt.md) — 2025-04-08
+- [Prototyping with canvas in ChatGPT](openai/250408-prototyping-with-canvas-in-chatgpt.md) — 2025-04-08
+- [Writing with canvas in ChatGPT](openai/250408-writing-with-canvas-in-chatgpt.md) — 2025-04-08
+- [Introducing NextGenAI: A consortium to advance research and education with AI](openai/250304-introducing-nextgenai-a-consortium-to-advance-research-and-e.md) — 2025-03-04
+- [Using custom instructions in Operator](openai/250123-using-custom-instructions-in-operator.md) — 2025-01-23
+- [Dev Day Holiday Edition—12 Days of OpenAI: Day 9](openai/241217-dev-day-holiday-edition-12-days-of-openai-day-9.md) — 2024-12-17
+- [OpenAI DevDay 2024 | Structured outputs for reliable applications](openai/241217-openai-devday-2024-structured-outputs-for-reliable-applicati.md) — 2024-12-17
+- [OpenAI DevDay 2024 | Multimodal apps with the Realtime API](openai/241217-openai-devday-2024-multimodal-apps-with-the-realtime-api.md) — 2024-12-17
+- [OpenAI DevDay 2024 | Community Spotlight | DataKind](openai/241217-openai-devday-2024-community-spotlight-datakind.md) — 2024-12-17
+- [OpenAI DevDay 2024 | Tuning powerful small models with distillation](openai/openai-devday-2024-tuning-powerful-small-models-with-distill.md) (자막없음)
+- [OpenAI DevDay 2024 | Balancing accuracy, latency, and cost at scale](openai/241217-openai-devday-2024-balancing-accuracy-latency-and-cost-at-sc.md) — 2024-12-17
+- [OpenAI DevDay 2024 | Community Spotlight | Supabase](openai/241217-openai-devday-2024-community-spotlight-supabase.md) — 2024-12-17
+- [How to loop with Sora](openai/241209-how-to-loop-with-sora.md) — 2024-12-09
+- [How to storyboard with Sora](openai/241209-how-to-storyboard-with-sora.md) — 2024-12-09
+- [Getting started with Sora](openai/241209-getting-started-with-sora.md) — 2024-12-09
+- [Lyndon Barrois & Sora](openai/241209-lyndon-barrois-sora.md) — 2024-12-09
+- [Morgan Stanley reshapes the future of financial services with AI](openai/241204-morgan-stanley-reshapes-the-future-of-financial-services-wit.md) — 2024-12-04
+- [Surreal Elderhood · Made by Katsukokoiso.AI with Sora](openai/surreal-elderhood-made-by-katsukokoiso-ai-with-sora.md) (자막없음)
+- [A State of Semi-Balance · Made by Jon Uriarte with Sora](openai/a-state-of-semi-balance-made-by-jon-uriarte-with-sora.md) (자막없음)
+- [A Day in the Life of the Dolphin Co-Worker · Made by Liana Paberza with Sora](openai/241030-a-day-in-the-life-of-the-dolphin-co-worker-made-by-liana-pab.md) — 2024-10-30
+- [Building OpenAI o1](openai/240912-building-openai-o1.md) — 2024-09-12
+- [HTML Snake with OpenAI o1](openai/240912-html-snake-with-openai-o1.md) — 2024-09-12
+- [Catherine Brownstein: OpenAI o1 & Genetics](openai/240912-catherine-brownstein-openai-o1-genetics.md) — 2024-09-12
+- [Coding with OpenAI o1](openai/240912-coding-with-openai-o1.md) — 2024-09-12
+- [Reasoning with OpenAI o1](openai/240912-reasoning-with-openai-o1.md) — 2024-09-12
+- [Counting with OpenAI o1](openai/240912-counting-with-openai-o1.md) — 2024-09-12
+- [Collaborating with The Met to Awaken “Sleeping Beauties” with AI](openai/240814-collaborating-with-the-met-to-awaken-sleeping-beauties-with.md) — 2024-08-14
+- [Baby Alpaca · Sora Showcase](openai/240718-baby-alpaca-sora-showcase.md) — 2024-07-18
+- [Character voices with GPT-4o voice](openai/240604-character-voices-with-gpt-4o-voice.md) — 2024-06-04
+- [Live demo of GPT-4o realtime conversational speech](openai/240513-live-demo-of-gpt-4o-realtime-conversational-speech.md) — 2024-05-13
+- [Math problems with GPT-4o](openai/240513-math-problems-with-gpt-4o.md) — 2024-05-13
+- [Lullabies and Whispers with GPT-4o](openai/240513-lullabies-and-whispers-with-gpt-4o.md) — 2024-05-13
+- [Gold Record Teaser · Made by Paul Trillo with Sora](openai/gold-record-teaser-made-by-paul-trillo-with-sora.md) (자막없음)
+- [OpenAI DevDay: Keynote Recap](openai/231205-openai-devday-keynote-recap.md) — 2023-12-05
+- [AI Frontiers: Chad Nelson (OpenAI DevDay)](openai/231115-ai-frontiers-chad-nelson-openai-devday.md) — 2023-11-15
+- [A Survey of Techniques for Maximizing LLM Performance](openai/231113-a-survey-of-techniques-for-maximizing-llm-performance.md) — 2023-11-13
+- [The New Stack and Ops for AI](openai/231113-the-new-stack-and-ops-for-ai.md) — 2023-11-13
+- [Introducing GPT-4](openai/230315-introducing-gpt-4.md) — 2023-03-15
+- [Talking to Your Computer with OpenAI Codex](openai/talking-to-your-computer-with-openai-codex.md) (자막없음)
+- [Characterizing Test Time Compute on Graph Structur… | Kudzo Ahegbebu | OpenAI Scholars Demo Day 2021](openai/210510-characterizing-test-time-compute-on-graph-structur-kudzo-ahe.md) — 2021-05-10
+- [Introduction by Sam Altman | OpenAI Scholars Demo Day 2021](openai/210510-introduction-by-sam-altman-openai-scholars-demo-day-2021.md) — 2021-05-10
+- [Universal Adversarial Perturbations and Language M… | Pamela Mishkin | OpenAI Scholars Demo Day 2020](openai/200709-universal-adversarial-perturbations-and-language-m-pamela-mi.md) — 2020-07-09
+- [Looking For Grammar In All The Right Places | Alethea Power | OpenAI Scholars Demo Day 2020](openai/200709-looking-for-grammar-in-all-the-right-places-alethea-power-op.md) — 2020-07-09
+- [Deephypebot | Nadja Rhodes | OpenAI Scholars Demo Day 2018](openai/200702-deephypebot-nadja-rhodes-openai-scholars-demo-day-2018.md) — 2020-07-02
+- [Music Generation | Christine Payne | OpenAI Scholars Demo Day 2018](openai/200702-music-generation-christine-payne-openai-scholars-demo-day-20.md) — 2020-07-02
+- [Pre-Match Panel Discussion | OpenAI Five Finals (2/6)](openai/190427-pre-match-panel-discussion-openai-five-finals-2-6.md) — 2019-04-27
+- [OpenAI Five vs. OG, Game 2 | OpenAI Five Finals (4/6)](openai/190427-openai-five-vs-og-game-2-openai-five-finals-4-6.md) — 2019-04-27
+- [Arena Announcement and Closing | OpenAI Five Finals (6/6)](openai/190427-arena-announcement-and-closing-openai-five-finals-6-6.md) — 2019-04-27
+- [Reinforcement Learning with Prediction-Based Rewards](openai/reinforcement-learning-with-prediction-based-rewards.md) (자막없음)
+- [Generative Modelling | Sadhika Malladi | 2018 Summer Intern Open House](openai/180911-generative-modelling-sadhika-malladi-2018-summer-intern-open.md) — 2018-09-11
+- [Investigating Model Based RL for Continuous Control | Alex Botev | 2018 Summer Intern Open House](openai/180911-investigating-model-based-rl-for-continuous-control-alex-bot.md) — 2018-09-11
+- [OpenAI Five Benchmark: Post-Game Analysis](openai/180820-openai-five-benchmark-post-game-analysis.md) — 2018-08-20
+- [Ingredients for Robotics Research](openai/180226-ingredients-for-robotics-research.md) — 2018-02-26
+- [SirActionSlacks 1v1](openai/siractionslacks-1v1.md) (자막없음)
+- [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
