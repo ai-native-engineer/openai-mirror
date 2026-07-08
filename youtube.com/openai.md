@@ -1,7 +1,17 @@
 # openai (YouTube)
 
-영상 532개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 543개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [MUFG aims to become AI-native with OpenAI](openai/260708-mufg-aims-to-become-ai-native-with-openai.md) — 2026-07-08
+- [How TPG Is Accelerating Investment Research with ChatGPT](openai/260707-how-tpg-is-accelerating-investment-research-with-chatgpt.md) — 2026-07-07
+- [Réinventer l'expérience beauté grâce à l'IA](openai/260707-r-inventer-l-exp-rience-beaut-gr-ce-l-ia.md) — 2026-07-07
+- [What does an AI-native future look like for one of the world's largest automotive marketplaces?](openai/260707-what-does-an-ai-native-future-look-like-for-one-of-the-world.md) — 2026-07-07
+- [Builders Unscripted: Ep. 5 - Derya Unutmaz](openai/260706-builders-unscripted-ep-5-derya-unutmaz.md) — 2026-07-06
+- [Thomson Reuters CEO Steve Hasker swears by this AI Routine](openai/260706-thomson-reuters-ceo-steve-hasker-swears-by-this-ai-routine.md) — 2026-07-06
+- [Codex for Solutions Engineers: Making AI Tangible for Customers](openai/260701-codex-for-solutions-engineers-making-ai-tangible-for-custome.md) — 2026-07-01
+- [Setup with ChatGPT](openai/260701-setup-with-chatgpt.md) — 2026-07-01 (자막없음)
+- [Grow With ChatGPT](openai/260701-grow-with-chatgpt.md) — 2026-07-01
+- [Advent Accelerates Deals with ChatGPT + Codex](openai/260629-advent-accelerates-deals-with-chatgpt-codex.md) — 2026-06-29
 - [Builders Unscripted: Ep. 4 - Pietro Schirano](openai/260626-builders-unscripted-ep-4-pietro-schirano.md) — 2026-06-26
 - [Verso, l'entreprise qui ne dort jamais](openai/260626-verso-l-entreprise-qui-ne-dort-jamais.md) — 2026-06-26
 - [What if plants could talk?](openai/260625-what-if-plants-could-talk.md) — 2026-06-25
@@ -13,7 +23,7 @@
 - [Improving health intelligence in ChatGPT](openai/260618-improving-health-intelligence-in-chatgpt.md) — 2026-06-18
 - [Record & Replay in Codex](openai/260618-record-replay-in-codex.md) — 2026-06-18
 - [Why Tejal Patwardhan stopped underestimating the models - Episode 21](openai/260616-why-tejal-patwardhan-stopped-underestimating-the-models-epis.md) — 2026-06-16
-- [Codex can now view and test your iOS app](openai/260615-codex-can-now-view-and-test-your-ios-app.md) — 2026-06-15 (자막없음)
+- [Build and test iOS apps without leaving Codex](openai/260615-build-and-test-ios-apps-without-leaving-codex.md) — 2026-06-15 (자막없음)
 - [How Wayfair Uses GPT-5.5 to Power Catalog Enrichment Across 40M Products](openai/260615-how-wayfair-uses-gpt-5-5-to-power-catalog-enrichment-across.md) — 2026-06-15
 - [Codex as a Solutions Engineering Partner](openai/260615-codex-as-a-solutions-engineering-partner.md) — 2026-06-15
 - [How Payward Ships Faster with Codex](openai/260614-how-payward-ships-faster-with-codex.md) — 2026-06-14
@@ -144,6 +154,7 @@
 - [Rakuten fixes issues twice as fast with Codex](openai/260311-rakuten-fixes-issues-twice-as-fast-with-codex.md) — 2026-03-11
 - [Build Hour: API & Codex](openai/260310-build-hour-api-codex.md) — 2026-03-10
 - [The Codex app is now on Windows](openai/260305-the-codex-app-is-now-on-windows.md) — 2026-03-05
+- [Interrupting and Adding Details in GPT-5.4 Thinking](openai/260305-interrupting-and-adding-details-in-gpt-5-4-thinking.md) — 2026-03-05 (자막없음)
 - [Computer Use & Frontend UI with GPT-5.4 Thinking](openai/260305-computer-use-frontend-ui-with-gpt-5-4-thinking.md) — 2026-03-05
 - [Improving Web Search Results in GPT-5.3 Instant](openai/260303-improving-web-search-results-in-gpt-5-3-instant.md) — 2026-03-03
 - [Reducing Overcaveating in GPT-5.3 Instant](openai/260303-reducing-overcaveating-in-gpt-5-3-instant.md) — 2026-03-03
