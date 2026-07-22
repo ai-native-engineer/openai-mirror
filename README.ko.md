@@ -12,7 +12,6 @@
 ![status: unofficial mirror](https://img.shields.io/badge/status-unofficial%20mirror-orange)
 ![last commit](https://img.shields.io/github/last-commit/ai-native-engineer/openai-mirror)
 ![repo size](https://img.shields.io/github/repo-size/ai-native-engineer/openai-mirror)
-![docs ~5.9k](https://img.shields.io/badge/docs-~5.9k-blue)
 
 > **OpenAI 공개 자료**(뉴스, 연구, OpenAI Academy, 개발자 문서, Model Spec, OpenAI YouTube 채널, 페이지에 링크된 PDF 문서)를 마크다운으로 정리한 비공식 아카이브.
 
@@ -23,27 +22,27 @@
 
 ## 무엇이 담겨 있나
 
-크롤 시점(스냅샷) 기준 대부분 텍스트 본문입니다. 이미지/동영상 파일은 포함하지 않지만(영상은 자막을 텍스트로 전사), 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서)는 원본 `.pdf` 파일로 보관합니다. 각 파일 상단에는 원문 링크 `<!-- source: <url> -->`가 붙어 있습니다.
+크롤 시점(스냅샷) 기준 대부분 텍스트 본문입니다. 이미지/동영상 파일은 포함하지 않지만(영상은 자막을 텍스트로 전사), 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서)는 원본 `.pdf` 파일로 보관합니다. 크롤한 Markdown 페이지는 상단에 원문 링크 `<!-- source: <url> -->`를 두고, YouTube 채널 페이지는 YAML frontmatter에 원문 URL을 저장합니다.
 
-| 경로 | 내용 | 문서 수 |
-|---|---|---|
-| `openai.com/` | 뉴스, 연구, index 기사, 정책, global affairs, 제품 페이지 | 약 1,370 |
-| `developers.openai.com/` | API 레퍼런스, 가이드, cookbook, `/codex` 하위 **Codex** 문서 전체(CLI 레퍼런스, config, hooks, MCP, subagents, sandboxing, IDE, SDK, 엔터프라이즈, use-case 80여 개) | 약 3,410 |
-| `academy.openai.com/` | OpenAI Academy 블로그 / 리소스 / 이벤트 + 영상 전사(71편) | 약 550 |
-| `help.openai.com/` | 헬프센터 article | 약 450 |
-| `model-spec.openai.com/` | OpenAI Model Spec 전문 | 1 |
-| `openaifoundation.org/` | OpenAI Foundation | 약 10 |
-| `openai.fund/` | OpenAI Startup Fund | 약 3 |
-| `youtube.com/@OpenAI/` | OpenAI YouTube 채널 - 영상 1편당 전사 1개 | 약 530 |
-| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서, Academy 원페이저), 원본 파일로 보관 | PDF 228개 |
+| 경로 | 내용 |
+|---|---|
+| `openai.com/` | 뉴스, 연구, index 기사, 정책, global affairs, 제품 페이지 |
+| `developers.openai.com/` | API 레퍼런스, 가이드, cookbook, `/codex` 하위 **Codex** 문서 전체(CLI 레퍼런스, config, hooks, MCP, subagents, sandboxing, IDE, SDK, 엔터프라이즈, use case) |
+| `academy.openai.com/` | OpenAI Academy 블로그 / 리소스 / 이벤트 + 영상 전사 |
+| `help.openai.com/` | 헬프센터 article |
+| `model-spec.openai.com/` | OpenAI Model Spec 전문 |
+| `openaifoundation.org/` | OpenAI Foundation |
+| `openai.fund/` | OpenAI Startup Fund |
+| `youtube.com/openai/` | OpenAI YouTube 채널 - 공개 영상 1편당 전사 1개 |
+| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | 페이지에 링크된 PDF 문서(system cards, 연구 논문, 정책 문서, Academy 원페이저), 원본 파일로 보관 |
 
 `academy.openai.com/public/videos/`의 영상 레슨은 Vimeo 자동생성 자막을 텍스트로 전사하고, 전사 위에 보이는 **Watch on Vimeo** 링크를 답니다.
 
-**OpenAI YouTube 채널**은 `youtube.com/@OpenAI/` 아래에 미러합니다 - `yt-dlp`로 전 영상을 열거하고 각 영상 자막을 텍스트로 전사해 영상 1편당 마크다운 1개로 둡니다(자막이 없는 영상은 짧은 stub로 남깁니다).
+**OpenAI YouTube 채널**은 `youtube.com/openai/` 아래에 미러합니다 - `yt-dlp`로 전 영상을 열거하고 각 영상 자막을 텍스트로 전사해 영상 1편당 마크다운 1개로 둡니다(자막이 없는 영상은 짧은 stub로 남깁니다).
 
 **알려진 한계:** `developers.openai.com/api/` 하위 API 레퍼런스 페이지는 파라미터 표를 JavaScript로 렌더해서, 미러는 각 엔드포인트의 산문/개요는 담지만 완전히 펼쳐진 인터랙티브 표는 담지 못합니다.
 
-**알려진 커버리지 갭** (각 sitemap 대조 측정): `openai.com`/`developers.openai.com` 약 98%, `academy.openai.com` 약 90%. 못 담은 것: 서버측 텍스트가 없는 JS 렌더 `openai.com` 페이지 약 23개, 자막 소스가 없는 academy 영상 약 20개, 얇은 academy club/목록 페이지 약 36개. JS로 로드되는 콘텐츠(위 API 표, 일부 Codex 문서의 "Expand to view all" enum 목록)도 펼쳐지지 않습니다. 이들을 담으려면 헤드리스 브라우저가 필요한데, Cloudflare 통과를 위해 쓰지 않습니다.
+**알려진 커버리지 갭:** 서버측 텍스트가 없는 JS 렌더 페이지, 자막 소스를 노출하지 않는 Academy 영상, 내용이 얇은 club/목록 페이지, 접혀 있는 API/Codex 인터랙티브 표는 완전히 담기지 않습니다. 이를 수집하려면 다른 렌더링 경로가 필요하며, 현재 미러는 Cloudflare와 호환되는 sitemap/서버 렌더 기반 흐름을 유지합니다.
 
 ## 어떻게 만들어지나
 

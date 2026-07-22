@@ -12,7 +12,6 @@
 ![status: unofficial mirror](https://img.shields.io/badge/status-unofficial%20mirror-orange)
 ![last commit](https://img.shields.io/github/last-commit/ai-native-engineer/openai-mirror)
 ![repo size](https://img.shields.io/github/repo-size/ai-native-engineer/openai-mirror)
-![docs ~5.9k](https://img.shields.io/badge/docs-~5.9k-blue)
 
 > Unofficial markdown archive of **OpenAI public materials** - news, research, OpenAI Academy, developer docs, the Model Spec, the OpenAI YouTube channel, and linked PDF documents (system cards, research papers).
 
@@ -23,27 +22,27 @@ Collected as a reference source for talks and study, kept public so anyone can r
 
 ## Contents
 
-Mostly text, as of the crawl snapshot. No image or video files (videos are transcribed from captions), but PDF documents linked from pages (system cards, research papers, policy docs) are mirrored as their original `.pdf` files. Each file keeps a `<!-- source: <url> -->` header linking back to the original page.
+Mostly text, as of the crawl snapshot. No image or video files (videos are transcribed from captions), but PDF documents linked from pages (system cards, research papers, policy docs) are mirrored as their original `.pdf` files. Crawled Markdown pages keep a `<!-- source: <url> -->` header; YouTube channel pages store the source URL in YAML frontmatter.
 
-| Path | Content | Docs |
-|---|---|---|
-| `openai.com/` | News, research, index articles, policies, global affairs, product pages | ~1,370 |
-| `developers.openai.com/` | API reference, guides, cookbook, and the full **Codex** docs under `/codex` (CLI reference, config, hooks, MCP, subagents, sandboxing, IDE, SDK, enterprise, 80+ use-cases) | ~3,410 |
-| `academy.openai.com/` | OpenAI Academy blogs / resources / events + video transcripts (71 videos) | ~550 |
-| `help.openai.com/` | Help Center articles | ~450 |
-| `model-spec.openai.com/` | OpenAI Model Spec (full text) | 1 |
-| `openaifoundation.org/` | OpenAI Foundation | ~10 |
-| `openai.fund/` | OpenAI Startup Fund | ~3 |
-| `youtube.com/@OpenAI/` | OpenAI YouTube channel - one transcript per video | ~530 |
-| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | PDF documents linked from pages (system cards, research papers, policy docs, Academy one-pagers), kept as original files | 228 PDFs |
+| Path | Content |
+|---|---|
+| `openai.com/` | News, research, index articles, policies, global affairs, product pages |
+| `developers.openai.com/` | API reference, guides, cookbook, and the full **Codex** docs under `/codex` (CLI reference, config, hooks, MCP, subagents, sandboxing, IDE, SDK, enterprise, use cases) |
+| `academy.openai.com/` | OpenAI Academy blogs / resources / events + video transcripts |
+| `help.openai.com/` | Help Center articles |
+| `model-spec.openai.com/` | OpenAI Model Spec (full text) |
+| `openaifoundation.org/` | OpenAI Foundation |
+| `openai.fund/` | OpenAI Startup Fund |
+| `youtube.com/openai/` | OpenAI YouTube channel - one transcript per available video |
+| `cdn.openai.com/`, `d2xo500swnpgl1.cloudfront.net/`, `openaiassets.blob.core.windows.net/` | PDF documents linked from pages (system cards, research papers, policy docs, Academy one-pagers), kept as original files |
 
 Academy video lessons under `academy.openai.com/public/videos/` are transcribed from Vimeo auto-generated captions, with a visible **Watch on Vimeo** link above each transcript.
 
-The **OpenAI YouTube channel** is mirrored under `youtube.com/@OpenAI/` - one Markdown transcript per video, enumerated with `yt-dlp` and transcribed from each video's captions (videos with no captions are kept as a short stub).
+The **OpenAI YouTube channel** is mirrored under `youtube.com/openai/` - one Markdown transcript per video, enumerated with `yt-dlp` and transcribed from each video's captions (videos with no captions are kept as a short stub).
 
 **Known limitation:** API reference pages under `developers.openai.com/api/` render their parameter tables via JavaScript, so the mirror keeps each endpoint's prose and overview but not the fully expanded interactive tables.
 
-**Known coverage gaps** (measured against each sitemap): ~98% for `openai.com` and `developers.openai.com`, ~90% for `academy.openai.com`. Not mirrored: about 23 JS-rendered `openai.com` pages with no server-side text, about 20 academy videos that expose no caption source, and about 36 thin academy club / listing pages. JS-loaded content (the API tables above, and "Expand to view all" enum lists in some Codex docs) is also not expanded. Capturing these would need a headless browser, which this mirror avoids to pass Cloudflare.
+**Known coverage gaps:** JS-rendered pages with no server-side text, Academy videos with no exposed caption source, thin club/listing pages, and collapsed interactive API/Codex tables are not fully represented. Capturing those would need a different rendering path; this mirror keeps the Cloudflare-compatible sitemap and server-rendered workflow.
 
 ## How it's generated
 
