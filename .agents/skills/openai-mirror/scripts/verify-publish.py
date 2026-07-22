@@ -1,0 +1,142 @@
+#!/usr/bin/env python3
+"""OpenAI 미러의 Git 변경분을 발행 전에 검증한다.
+
+실행: python3 verify-publish.py <repo> [--staged] [--allow-deletes]
+기본은 unstaged/untracked 변경, --staged는 index를 검사한다. 문제 없으면 exit 0.
+"""
+import argparse
+import os
+import subprocess
+import sys
+import tempfile
+
+
+ALLOWED_ROOTS = {
+    "academy.openai.com",
+    "cdn.openai.com",
+    "d2xo500swnpgl1.cloudfront.net",
+    "developers.openai.com",
+    "downloads.ctfassets.net",
+    "files.oaiusercontent.com",
+    "help.openai.com",
+    "model-spec.openai.com",
+    "openai.com",
+    "openai.fund",
+    "openaifoundation.org",
+    "openaiassets.blob.core.windows.net",
+    "youtube.com",
+}
+MAX_FILE_BYTES = 100 * 1024 * 1024  # GitHub 단일 파일 제한을 넘기지 않는 발행 게이트.
+
+
+def git(repo, *args):
+    return subprocess.run(
+        ["git", "-C", repo, *args], check=True, stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE, text=True,
+    ).stdout
+
+
+def worktree_changes(repo):
+    out = git(repo, "status", "--porcelain=v1", "--untracked-files=all")
+    return [(line[:2], line[3:]) for line in out.splitlines() if len(line) >= 4]
+
+
+def staged_changes(repo):
+    changes = []
+    for line in git(repo, "diff", "--cached", "--name-status").splitlines():
+        parts = line.split("\t")
+        if len(parts) >= 2:
+            changes.append((parts[0], parts[-1]))
+    return changes
+
+
+def validate_change(repo, status, path, allow_deletes=False):
+    issues = []
+    if status.startswith(("R", "C")) or "R" in status or "C" in status:
+        return [f"rename/copy는 증분 발행 범위 밖: {path}"]
+    if "D" in status:
+        return [] if allow_deletes else [f"증분 발행에서 삭제 감지: {path}"]
+
+    root = path.split("/", 1)[0]
+    if root not in ALLOWED_ROOTS:
+        return [f"예상 도메인 밖 변경: {path}"]
+    fp = os.path.join(repo, path)
+    if not os.path.isfile(fp):
+        return [f"파일을 찾을 수 없음: {path}"]
+    if os.path.getsize(fp) > MAX_FILE_BYTES:
+        issues.append(f"100MB 초과: {path}")
+
+    if path.endswith(".pdf"):
+        with open(fp, "rb") as f:
+            if f.read(5) != b"%PDF-":
+                issues.append(f"PDF 매직바이트 불일치: {path}")
+    elif path.endswith(".md"):
+        with open(fp, encoding="utf-8", errors="replace") as f:
+            first = f.readline().rstrip("\n")
+        if path == "youtube.com/openai.md":
+            if not first.startswith("# openai"):
+                issues.append(f"YouTube 인덱스 헤더 불일치: {path}")
+        elif path.startswith("youtube.com/openai/"):
+            if first != "---":
+                issues.append(f"YouTube frontmatter 누락: {path}")
+        elif root == "youtube.com":
+            issues.append(f"예상하지 않은 YouTube 발행 경로: {path}")
+        elif not first.startswith("<!-- source: https://"):
+            issues.append(f"source 헤더 누락: {path}")
+    else:
+        issues.append(f"지원하지 않는 생성물 확장자: {path}")
+    return issues
+
+
+def validate(repo, changes, allow_deletes=False):
+    issues = []
+    for status, path in changes:
+        issues.extend(validate_change(repo, status, path, allow_deletes))
+    return issues
+
+
+def self_test():
+    root = tempfile.mkdtemp()
+    files = {
+        "openai.com/index/x.md": "<!-- source: https://openai.com/index/x/ -->\n",
+        "youtube.com/openai.md": "# openai (YouTube)\n",
+        "youtube.com/openai/x.md": "---\ntitle: x\n---\n",
+        "cdn.openai.com/x.pdf": "%PDF-test",
+    }
+    for path, body in files.items():
+        fp = os.path.join(root, path)
+        os.makedirs(os.path.dirname(fp), exist_ok=True)
+        mode = "wb" if path.endswith(".pdf") else "w"
+        with open(fp, mode) as f:
+            f.write(body.encode() if mode == "wb" else body)
+    assert not validate(root, [("??", p) for p in files])
+    assert validate_change(root, "??", "README.md")
+    assert validate_change(root, "D ", "openai.com/index/x.md")
+    assert not validate_change(root, "D ", "openai.com/index/x.md", allow_deletes=True)
+    print("self-test ok")
+
+
+def main():
+    if sys.argv[1:] == ["--self-test"]:
+        self_test()
+        return 0
+    ap = argparse.ArgumentParser()
+    ap.add_argument("repo")
+    ap.add_argument("--staged", action="store_true", help="worktree 대신 Git index 검사")
+    ap.add_argument("--allow-deletes", action="store_true", help="전량 재생성처럼 의도된 삭제 허용")
+    a = ap.parse_args()
+    repo = os.path.abspath(a.repo)
+    try:
+        changes = staged_changes(repo) if a.staged else worktree_changes(repo)
+    except subprocess.CalledProcessError as e:
+        print(e.stderr.strip() or "Git 변경분을 읽지 못했습니다.", file=sys.stderr)
+        return 2
+    issues = validate(repo, changes, a.allow_deletes)
+    print(f"발행 변경 {len(changes)}개 검사: 문제 {len(issues)}개")
+    for issue in issues[:30]:
+        print(f"  {issue}")
+    return 1 if issues else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
