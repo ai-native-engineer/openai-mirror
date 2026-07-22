@@ -1,0 +1,77 @@
+<!-- source: https://openai.com/index/hugging-face-model-evaluation-security-incident/ -->
+
+July 21, 2026
+
+[Security](/news/security/)
+
+# OpenAI and Hugging Face partner to address security incident during model evaluation
+
+Loading…
+
+Share
+
+Last week, Hugging Face [disclosed a new kind of security incident⁠(opens in a new window)](https://huggingface.co/blog/security-incident-july-2026) after they detected and contained an AI agent that compromised their infrastructure, something we expect to become more commonplace with the proliferation of increasingly cyber-capable models. After investigating, we now know that this particular incident was driven by a combination of OpenAI models — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a [benchmark⁠(opens in a new window)](https://arxiv.org/abs/2605.11086) of cyber capabilities.
+
+We consider this incident to be an unprecedented cyber incident, involving state-of-the-art cyber capabilities, and are responding accordingly. We are sharing preliminary findings at this stage to help defenders understand what happened and to help calibrate on what models are now capable of. We will continue to conduct a thorough investigation alongside Hugging Face and will share more details on the vulnerabilities, incident, and findings when our investigation is complete.
+
+## What happened during this incident
+
+This incident occurred during an internal evaluation which prompts models to pursue advanced exploitation using complex attack paths, in an effort to quantify their cyber capabilities. We estimate maximal cyber capabilities by running this evaluation without production classifiers used to prevent models from pursuing high-risk cyber activity. Our benchmarks run in a highly isolated environment, with network access constrained to the ability to install packages through an internally hosted third-party software that acts as a proxy and cache for package registries.
+
+The models identified and chained vulnerabilities across OpenAI’s research environment and Hugging Face’s production infrastructure to obtain test solutions directly from Hugging Face’s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.
+
+While operating in our sandboxed testing environment, our models spent a substantial amount of inference compute finding a way to obtain open Internet access, in pursuit of solving the evaluation problem. To gain access, the models identified and exploited a zero-day vulnerability (which we’ve now responsibly disclosed to the vendor) in the package registry cache proxy. With this access, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with Internet access.
+
+After gaining Internet access, the models inferred that Hugging Face potentially hosted models, datasets and solutions for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, the model chained together multiple attack vectors, including using stolen credentials and zero-day vulnerabilities to find a remote code execution path on the Hugging Face servers. OpenAI’s security team discovered this anomalous activity internally.
+
+Hugging Face’s security team and agents detected and stopped the activity on their infrastructure and had already begun containment and forensic reconstruction with their own open-source models when our teams connected. We are actively working with them to continue to investigate the incident. We are grateful for Hugging Face’s rapid and close collaboration on investigation and remediation.
+
+## Actions we are taking now
+
+1. As part of the investigation, we are implementing strict controls in infrastructure configuration at the cost of research velocity while the vulnerabilities are patched. We are regularly briefing our Safety and Security Committee on these controls and their impact.
+2. We’re working with Hugging Face to forensically investigate the incident.
+3. We’ve responsibly disclosed the identified zero-day vulnerability in the internally-hosted third-party software and are working with them to patch.
+4. We’ve brought Hugging Face into the [trusted access⁠](https://openai.com/index/trusted-access-for-cyber/) program and are supporting their teams in rapidly using our models’ capabilities to improve their defenses.
+5. We’re improving and adding stronger protections around future training and evaluations. This week, we published a blog on [improving safety and alignment in an era of long horizon models⁠](https://openai.com/index/safety-alignment-long-horizon-models/). These deployment safeguards were intentionally not enabled during this evaluation because it was aimed at testing cyber vulnerabilities. This incident points to the need to further strengthen our model’s alignment, cyber protections during evaluation time, and monitoring during internal testing.
+
+## Our approach to evaluating advanced cyber capabilities
+
+As we [recently⁠](https://openai.com/index/scaling-trusted-access-for-cyber-defense/) shared, AI is accelerating the discovery and exploitation of vulnerabilities. The primary lesson from this incident is that model security and safety must keep pace with rapidly advancing capabilities. We are strengthening the containment, monitoring, access controls, and evaluation practices used during model development.
+
+UK AISI’s evaluation shows that models such as GPT‑5.6 Sol are increasingly able to sustain complex, multi-step cyber operations over long time horizons. This incident implies these theoretical capabilities do apply in real-world settings.
+
+![Chart from the UK AI Security Institute comparing recent open-weight models and frontier models on long-horizon cyber ranges.](https://images.ctfassets.net/kftzwdyauwt9/2lcGDb1foa8maKNkTR3ggI/01a6f9abb2614ef9bbda0e42071e6890/copydoc-display-crop-image1.png?w=3840&q=90&fm=webp)
+
+The incident also makes clear that advanced models can discover and exploit novel attack paths in real-world systems without source-code access. It highlights that advanced cyber capabilities must be developed alongside stronger safeguards and defensive tools.
+
+We believe advanced cyber capable models need to help security teams find weaknesses before attackers do, understand how vulnerabilities can be chained, and remediate them at machine speed. We are using these capabilities to continue strengthening protections around infrastructure configuration and model evaluation environments; we will share our findings and best practices as we learn. We encourage other defenders to [apply for trusted access⁠](https://openai.com/form/enterprise-trusted-access-for-cyber/) and experiment with these models now to translate these capabilities into better prevention, faster detection, and more effective incident response.
+
+> “We're grateful for the collaboration with OpenAI on this and other topics. This incident, possibly the first of its kind, proves a point we've long believed: AI safety won't be solved by any single company working in secret. It will be solved in the open, collaboratively, with broad access to AI for every defender, everywhere.”
+
+—Clem Delangue, Co-founder and CEO, Hugging Face
+
+* [2026](/news/?tags=2026)
+
+## Author
+
+## Keep reading
+
+[View all](/news/)
+
+![Expanding Daybreak Art Card](https://images.ctfassets.net/kftzwdyauwt9/735NOZviyogUBIFxd2EmWX/fa8baf9fc26e64f442ffa86d5fd9a41e/Art_Card__6_.png?w=3840&q=90&fm=webp)
+
+[Daybreak: Tools for securing every organization in the world
+
+SecurityJun 22, 2026](/index/daybreak-securing-the-world/)
+
+![Patch the Planet Art Card 1x1](https://images.ctfassets.net/kftzwdyauwt9/2PwBCyZF0Z5WLRtsbOpDdQ/338e19fbc39e5b9a63b1db664c006e74/Art_Card__5_.png?w=3840&q=90&fm=webp)
+
+[Patch the Planet: a Daybreak initiative to support open source maintainers
+
+SecurityJun 22, 2026](/index/patch-the-planet/)
+
+![codex windows > art card](https://images.ctfassets.net/kftzwdyauwt9/6ZvTl8ZL23BOhoI6jz0EmR/49d6038b9f92773d4f866f4bfacabdbf/Art_Card__5_.png?w=3840&q=90&fm=webp)
+
+[Building a safe, effective sandbox to enable Codex on Windows
+
+EngineeringMay 13, 2026](/index/building-codex-windows-sandbox/)

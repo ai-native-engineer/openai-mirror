@@ -1,0 +1,44 @@
+---
+title: "How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours"
+channel: openai
+url: https://www.youtube.com/watch?v=WwxZeU4WH14
+youtube_id: WwxZeU4WH14
+published: 2026-07-20
+duration: "50"
+captions: en-orig
+---
+
+# How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours
+
+[![How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours](https://img.youtube.com/vi/WwxZeU4WH14/hqdefault.jpg)](https://www.youtube.com/watch?v=WwxZeU4WH14)
+
+<details>
+<summary>자막: How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours (50)</summary>
+
+[00:00]
+As head of customer experience, ChatGPT
+helps me spot what customers need,
+decide what matters, and act [music]
+faster. ChatGPT allowed us to be more
+cost-efficient in time and money to
+deliver products to our teams faster.
+One of the many use cases that we found
+really valuable in Codex ChatGPT is the
+ability [music] to build custom
+dashboards and reporting interfaces
+leveraging multiple different data sets
+from multiple different sources. [music]
+This really turbocharged our insights,
+understanding, and the ability to make
+decisions that ultimately [music]
+enhance the end-to-end customer journey
+for our guests.
+>> ChatGPT's enabled us to move from idea
+to [music] feature so much quicker.
+We're able to get through the product
+life cycle so much quicker, which
+enables us to deliver new features which
+are important for our customers and put
+them in their hands.
+
+</details>

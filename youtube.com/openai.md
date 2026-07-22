@@ -1,7 +1,58 @@
 # openai (YouTube)
 
-영상 543개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 594개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Plugins in ChatGPT](openai/260721-plugins-in-chatgpt.md) — 2026-07-21
+- [How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours](openai/260720-how-virgin-atlantic-uses-chatgpt-work-to-turn-weeks-of-work.md) — 2026-07-20
+- [How BNY CEO Robin Vince Turns AI Optimism Into Action](openai/260720-how-bny-ceo-robin-vince-turns-ai-optimism-into-action.md) — 2026-07-20
+- [Celebrating 2 million with you!](openai/260719-celebrating-2-million-with-you.md) — 2026-07-19 (자막없음)
+- [How Shopify Uses ChatGPT Work to Build Faster with AI Agents](openai/260716-how-shopify-uses-chatgpt-work-to-build-faster-with-ai-agents.md) — 2026-07-16
+- [ChatGPT can now complete tasks on your computer](openai/260716-chatgpt-can-now-complete-tasks-on-your-computer.md) — 2026-07-16
+- [What racing reveals about working with AI — the OpenAI Podcast Ep. 22](openai/260716-what-racing-reveals-about-working-with-ai-the-openai-podcast.md) — 2026-07-16
+- [The AI Era Needs a Different Kind of Talent | Peter Steinberger | OpenAI France](openai/260716-the-ai-era-needs-a-different-kind-of-talent-peter-steinberge.md) — 2026-07-16
+- [Think AI-First: Emmanuel Marill on Building AI-Native Companies | OpenAI France](openai/260716-think-ai-first-emmanuel-marill-on-building-ai-native-compani.md) — 2026-07-16
+- [Stop Prompting. Start Giving AI Goals. | Katia Gil Guzman | OpenAI France](openai/260716-stop-prompting-start-giving-ai-goals-katia-gil-guzman-openai.md) — 2026-07-16
+- [From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France](openai/260716-from-ai-pilots-to-production-fran-ois-weider-on-enterprise-a.md) — 2026-07-16
+- [What Great AI Founders Do Differently | Laura Modiano | OpenAI France](openai/260716-what-great-ai-founders-do-differently-laura-modiano-openai-f.md) — 2026-07-16
+- [Have a Crazy Idea? Build It with Codex | Romain Huet | OpenAI France](openai/260716-have-a-crazy-idea-build-it-with-codex-romain-huet-openai-fra.md) — 2026-07-16
+- [Schedule tasks with ChatGPT](openai/260715-schedule-tasks-with-chatgpt.md) — 2026-07-15
+- [Introducing the Codex Micro](openai/260715-introducing-the-codex-micro.md) — 2026-07-15
+- [Codex just got better for developers](openai/260714-codex-just-got-better-for-developers.md) — 2026-07-14
+- [Background Robustness with GPT-Live](openai/260714-background-robustness-with-gpt-live.md) — 2026-07-14
+- [Improved Intelligence with GPT-Live](openai/260714-improved-intelligence-with-gpt-live.md) — 2026-07-14
+- [Build and publish web apps directly in ChatGPT](openai/260714-build-and-publish-web-apps-directly-in-chatgpt.md) — 2026-07-14
+- [Learning with AI at Any Stage of Life | Fast Campus x OpenAI](openai/260713-learning-with-ai-at-any-stage-of-life-fast-campus-x-openai.md) — 2026-07-13
+- [Meet the family running a cereal business from their dining room with GPT-5.6](openai/260711-meet-the-family-running-a-cereal-business-from-their-dining.md) — 2026-07-11
+- [Stampli scales product marketing with ChatGPT Work](openai/260710-stampli-scales-product-marketing-with-chatgpt-work.md) — 2026-07-10
+- [ChatGPT Computer Use: Now faster with Live Picture-in-Picture](openai/260710-chatgpt-computer-use-now-faster-with-live-picture-in-picture.md) — 2026-07-10
+- [RingCentral Scales Customer Programs with ChatGPT Work](openai/260710-ringcentral-scales-customer-programs-with-chatgpt-work.md) — 2026-07-10
+- [How Deutsche Telekom is rewiring telecommunications with AI](openai/260710-how-deutsche-telekom-is-rewiring-telecommunications-with-ai.md) — 2026-07-10
+- [ChatGPT Work | How NVIDIA Scales GTM with AI](openai/260709-chatgpt-work-how-nvidia-scales-gtm-with-ai.md) — 2026-07-09
+- [ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline](openai/260709-chatgpt-work-zapier-seven-figures-in-monthly-pipeline.md) — 2026-07-09
+- [Get started with ChatGPT Work](openai/260709-get-started-with-chatgpt-work.md) — 2026-07-09
+- [Meet a mathematician solving previously unsolvable math problems with GPT-5.6](openai/260709-meet-a-mathematician-solving-previously-unsolvable-math-prob.md) — 2026-07-09
+- [Meet the broccoli farmer running his farm with GPT-5.6.](openai/260709-meet-the-broccoli-farmer-running-his-farm-with-gpt-5-6.md) — 2026-07-09
+- [ChatGPT Work for Marketing Teams](openai/260709-chatgpt-work-for-marketing-teams.md) — 2026-07-09 (자막없음)
+- [Codex for Engineering teams](openai/260709-codex-for-engineering-teams.md) — 2026-07-09 (자막없음)
+- [ChatGPT Work for Sales Teams](openai/260709-chatgpt-work-for-sales-teams.md) — 2026-07-09 (자막없음)
+- [ChatGPT Work for Business Operations Teams](openai/260709-chatgpt-work-for-business-operations-teams.md) — 2026-07-09 (자막없음)
+- [ChatGPT Work for Finance Teams](openai/260709-chatgpt-work-for-finance-teams.md) — 2026-07-09 (자막없음)
+- [ChatGPT Work for Data Analytics Teams](openai/260709-chatgpt-work-for-data-analytics-teams.md) — 2026-07-09 (자막없음)
+- [Meet GPT-5.6](openai/260709-meet-gpt-5-6.md) — 2026-07-09
+- [Sol, Terra, and Luna, our GPT‑5.6 family of models are here.](openai/260709-sol-terra-and-luna-our-gpt-5-6-family-of-models-are-here.md) — 2026-07-09
+- [Meet ChatGPT Work](openai/260709-meet-chatgpt-work.md) — 2026-07-09
+- [How Bain Capital Is Scaling AI with ChatGPT](openai/260708-how-bain-capital-is-scaling-ai-with-chatgpt.md) — 2026-07-08
+- [Image interaction with GPT-Live](openai/260708-image-interaction-with-gpt-live.md) — 2026-07-08
+- [Discoverability widgets with GPT-Live](openai/260708-discoverability-widgets-with-gpt-live.md) — 2026-07-08
+- [Natural Conversations with GPT-Live](openai/260708-natural-conversations-with-gpt-live.md) — 2026-07-08
+- [Listening & Speaking with GPT-Live](openai/260708-listening-speaking-with-gpt-live.md) — 2026-07-08
+- [Temporal awareness with GPT-Live](openai/260708-temporal-awareness-with-gpt-live.md) — 2026-07-08
+- [This is the new ChatGPT Voice, powered by GPT-Live](openai/260708-this-is-the-new-chatgpt-voice-powered-by-gpt-live.md) — 2026-07-08
+- [OpenAI Academy: Parent-Coaches with the San Antonio Spurs](openai/260708-openai-academy-parent-coaches-with-the-san-antonio-spurs.md) — 2026-07-08
+- [OpenAI Academy x Veterans Forge | Building with ChatGPT: Practical AI Skills for Veterans](openai/260708-openai-academy-x-veterans-forge-building-with-chatgpt-practi.md) — 2026-07-08
+- [OpenAI Academy: Small Business Jam 2025](openai/260708-openai-academy-small-business-jam-2025.md) — 2026-07-08
+- [OpenAI Academy Abilene: Teaching AI literacy in the home of the first Stargate data center](openai/260708-openai-academy-abilene-teaching-ai-literacy-in-the-home-of-t.md) — 2026-07-08
+- [How East Bay Nonprofits Are Putting AI to Work | OpenAI Academy](openai/260708-how-east-bay-nonprofits-are-putting-ai-to-work-openai-academ.md) — 2026-07-08
 - [MUFG aims to become AI-native with OpenAI](openai/260708-mufg-aims-to-become-ai-native-with-openai.md) — 2026-07-08
 - [How TPG Is Accelerating Investment Research with ChatGPT](openai/260707-how-tpg-is-accelerating-investment-research-with-chatgpt.md) — 2026-07-07
 - [Réinventer l'expérience beauté grâce à l'IA](openai/260707-r-inventer-l-exp-rience-beaut-gr-ce-l-ia.md) — 2026-07-07

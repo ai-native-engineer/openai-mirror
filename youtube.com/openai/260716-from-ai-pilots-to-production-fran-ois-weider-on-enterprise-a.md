@@ -1,0 +1,62 @@
+---
+title: "From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France"
+channel: openai
+url: https://www.youtube.com/watch?v=W0mU8zgop60
+youtube_id: W0mU8zgop60
+published: 2026-07-16
+duration: "1:31"
+captions: en-orig
+---
+
+# From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France
+
+[![From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France](https://img.youtube.com/vi/W0mU8zgop60/hqdefault.jpg)](https://www.youtube.com/watch?v=W0mU8zgop60)
+
+<details>
+<summary>자막: From AI Pilots to Production | François Weider on Enterprise Adoption | OpenAI France (1:31)</summary>
+
+[00:00]
+What's really stands out from the
+different discussion I have with the
+customer tonight is everybody are now
+moving from pilot to production. The
+important thing is how they can
+prioritize and they have to really be
+able to measure the value they get from
+AI. It's so it's really key that we can
+work closely to help them define the
+value of the different use case and
+prioritize [music] so it makes sense in
+the long term.
+Today where we see the most value is all
+the customer that are moving from access
+[music] to automatizing process. For a
+couple of years, the main revolution was
+I can easily access to the broader
+knowledge of the enterprise and that
+bring a lot of value from a productivity
+standpoint of view. And now what we are
+seeing more and more is people starting
+to develop their own agents and broader
+than that now starting [music]
+to automate the full process in the
+organization and this is where I see the
+most value. Someone on stage just
+mentioned that she reduced the time to
+unboard someone by 80% super
+interesting.
+
+[00:01]
+I think they have to be the role model
+in the company. Look at Codex. Codex is
+mainly developed at the beginning for
+developers. Actually where we see the
+most impact is where we are starting to
+have the people from the executive
+community using Codex developing their
+own application. Being able to showcase
+this to the organization to their
+employee will really change the way they
+will work with AI.
+
+</details>

@@ -1,0 +1,55 @@
+<!-- source: https://openai.com/index/david-velez-robin-vince-join-openai-boards/ -->
+
+July 21, 2026
+
+[Company](/news/company-announcements/)
+
+# David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC
+
+David Vélez and Robin Vince bring deep experience leading global institutions and using technology to expand access and opportunity.
+
+Loading…
+
+Share
+
+We’re announcing the appointment of David Vélez and Robin Vince to the boards of the OpenAI Foundation and OpenAI Group PBC. David is the founder, Chairman, and Global CEO of Nubank, recognized as the largest digital bank in Latin America. Robin is Chairman and CEO of BNY, a leading financial services company.
+
+David and Robin bring complementary perspectives on how technology can reshape industries and drive economic growth. Both have led global institutions through significant technological and market change, pairing ambitious innovation with disciplined governance, resilience, and a focus on creating durable value for the people who use their services.
+
+They also bring perspectives that will strengthen the work of the Foundation. Both have strong commitments to philanthropy and nonprofit leadership across healthcare, education, and the arts, as well as decades of experience building institutions that expand access and economic opportunity.
+
+“David and Robin are exceptional leaders who have used technology to reshape financial services and expand opportunity at global scale. Their experience will be invaluable as OpenAI serves more businesses and people around the world, working to ensure AI benefits everyone. We’re delighted to welcome them to the boards,” said Bret Taylor, Chair of the OpenAI Foundation and OpenAI Group PBC Boards.
+
+“Technology can be a powerful force for expanding access and opportunity when it is built around people’s needs and grounded in trust. AI has the potential to help individuals, businesses, and entire economies do more, and I look forward to contributing to OpenAI’s efforts to bring useful AI to everyone.” said David Vélez.
+
+“AI can be the ultimate capacity creator, expanding what people and institutions are capable of. Realizing AI’s promise requires creativity, strong governance, and responsible deployment, and I’m honored to join the boards to contribute to OpenAI’s mission.” said Robin Vince.
+
+**David Vélez** is a Colombian entrepreneur, engineer, and banker who founded Nubank in 2013 after experiencing firsthand the cost and complexity of traditional banking in Brazil. He built Nubank around a digital-first, customer-focused model designed to make financial services simpler, more transparent, and more accessible. Under his leadership, Nubank has grown into one of the world’s largest digital financial services platforms with more than 135 million customers and has expanded access to banking for millions of people. The company is now expanding its footprint beyond Latin America and into the United States after having secured conditional approval to establish a U.S. national bank
+
+Before founding Nubank, David was a partner at Sequoia Capital focused on Latin America and worked in investment banking and growth equity at Goldman Sachs, Morgan Stanley, and General Atlantic. David and his wife, Mariel Reyes, also lead VélezReyes+, a philanthropic platform focused on democratic governance, education, and other initiatives across Latin America.
+
+**Robin Vince** is Chairman and CEO of BNY, an over 240-year-old global financial services company that puts its expertise and platforms to work to help clients operate more efficiently and accelerate growth. Since becoming CEO in 2022, he has led a broad re-imagination of the company, simplifying its operating model, accelerating investment in AI and data, and strengthening its culture of innovation and execution.
+
+Before joining BNY, Robin spent 26 years at Goldman Sachs, where he was a partner and member of the Management Committee. His leadership roles included Chief Risk Officer, Treasurer, Head of Operations, COO of the EMEA region, and CEO of Goldman Sachs International Bank. Robin serves on the boards of the Hospital for Special Surgery and the Perelman Performing Arts Center. He is a member of the Business Roundtable, the Business Council, the Partnership for New York City, the Financial Services Forum, and the International Advisory Board of the Monetary Authority of Singapore.
+
+## Keep reading
+
+[View all](/news/)
+
+![Frame](https://images.ctfassets.net/kftzwdyauwt9/7zl9bYDSqJgGmnEXobKVKJ/07bf8fb08aed9759c6439170cd40de18/Frame.png?w=3840&q=90&fm=webp)
+
+[A scorecard for the AI age
+
+CompanyJul 17, 2026](/index/a-scorecard-for-the-ai-age/)
+
+![HP early AI wins — card image](https://images.ctfassets.net/kftzwdyauwt9/6phCuFzVSdCdVCh6YqXMa6/a4207917b5d7a43179a61f5de012168d/HP-1_1.png?w=3840&q=90&fm=webp)
+
+[How HP is scaling early AI wins across the enterprise
+
+CompanyJun 28, 2026](/index/hp-frontier-partnership/)
+
+![How agents are transforming work > Cover image](https://images.ctfassets.net/kftzwdyauwt9/7hmtkjKv0DxS4Yt8mQZju2/c168bfa2010da64bcc9dd60d6b5491e8/Art_Card__1_.png?w=3840&q=90&fm=webp)
+
+[How agents are transforming work
+
+CompanyJun 25, 2026](/index/how-agents-are-transforming-work/)
