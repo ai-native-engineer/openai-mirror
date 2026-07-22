@@ -7,6 +7,7 @@
 repo root에서 실행한다.
 
 ```bash
+bash .agents/skills/openai-mirror/scripts/refresh.sh --check
 bash .agents/skills/openai-mirror/scripts/refresh.sh
 ```
 

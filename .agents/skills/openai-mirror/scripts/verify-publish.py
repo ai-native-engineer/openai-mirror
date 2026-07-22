@@ -50,16 +50,16 @@ def staged_changes(repo):
     return changes
 
 
-def validate_change(repo, status, path, allow_deletes=False):
+def validate_change(repo, status, path, allow_deletes=False, strict_paths=False):
     issues = []
+    root = path.split("/", 1)[0]
+    if root not in ALLOWED_ROOTS:
+        return [f"예상 도메인 밖 변경: {path}"] if strict_paths else []
     if status.startswith(("R", "C")) or "R" in status or "C" in status:
         return [f"rename/copy는 증분 발행 범위 밖: {path}"]
     if "D" in status:
         return [] if allow_deletes else [f"증분 발행에서 삭제 감지: {path}"]
 
-    root = path.split("/", 1)[0]
-    if root not in ALLOWED_ROOTS:
-        return [f"예상 도메인 밖 변경: {path}"]
     fp = os.path.join(repo, path)
     if not os.path.isfile(fp):
         return [f"파일을 찾을 수 없음: {path}"]
@@ -88,10 +88,10 @@ def validate_change(repo, status, path, allow_deletes=False):
     return issues
 
 
-def validate(repo, changes, allow_deletes=False):
+def validate(repo, changes, allow_deletes=False, strict_paths=False):
     issues = []
     for status, path in changes:
-        issues.extend(validate_change(repo, status, path, allow_deletes))
+        issues.extend(validate_change(repo, status, path, allow_deletes, strict_paths))
     return issues
 
 
@@ -110,7 +110,10 @@ def self_test():
         with open(fp, mode) as f:
             f.write(body.encode() if mode == "wb" else body)
     assert not validate(root, [("??", p) for p in files])
-    assert validate_change(root, "??", "README.md")
+    assert not validate_change(root, "??", "README.md")
+    assert validate_change(root, "??", "README.md", strict_paths=True)
+    assert not validate_change(root, "D ", "README.md")
+    assert validate_change(root, "D ", "README.md", strict_paths=True)
     assert validate_change(root, "D ", "openai.com/index/x.md")
     assert not validate_change(root, "D ", "openai.com/index/x.md", allow_deletes=True)
     print("self-test ok")
@@ -131,8 +134,8 @@ def main():
     except subprocess.CalledProcessError as e:
         print(e.stderr.strip() or "Git 변경분을 읽지 못했습니다.", file=sys.stderr)
         return 2
-    issues = validate(repo, changes, a.allow_deletes)
-    print(f"발행 변경 {len(changes)}개 검사: 문제 {len(issues)}개")
+    issues = validate(repo, changes, a.allow_deletes, strict_paths=a.staged)
+    print(f"Git 변경 {len(changes)}개 검사: 문제 {len(issues)}개")
     for issue in issues[:30]:
         print(f"  {issue}")
     return 1 if issues else 0

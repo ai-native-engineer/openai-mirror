@@ -4,7 +4,7 @@
 
 ## 실행 환경
 
-- `refresh.sh`는 Python 의존성과 shared `crawl` 스킬을 확인한 뒤 전체 트랙을 실행한다.
+- `refresh.sh --check`는 Python 의존성, `yt-dlp`, shared `crawl` 스킬을 확인하고 `refresh.sh`는 전체 트랙을 실행한다.
 - 인터프리터는 `OPENAI_MIRROR_PYTHON`, shared crawl 위치는 `CRAWL_SKILL_DIR`로 바꿀 수 있다.
 - 개별 수집기의 옵션은 해당 스크립트의 `--help`를 정본으로 삼는다.
 
