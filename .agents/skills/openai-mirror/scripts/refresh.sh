@@ -5,13 +5,14 @@ usage() {
   echo "Usage: refresh.sh [--check|--force|--self-test]"
 }
 
-force=()
+# bash 3.2 (macOS) treats empty-array expansion as unbound under `set -u`; keep $force a plain word.
+force=
 self_test=false
 check_only=false
 case "${1:-}" in
   "") ;;
   --check) check_only=true ;;
-  --force) force=(--force) ;;
+  --force) force=--force ;;
   --self-test) self_test=true ;;
   -h|--help) usage; exit 0 ;;
   *) usage >&2; exit 2 ;;
@@ -68,10 +69,10 @@ fi
 export CRAWL_MIRROR_PATH="$crawl_dir/crawl-mirror.py"
 cd "$repo"
 
-"$python" "$skill_dir/scripts/crawl-site.py" . "${force[@]}"
-"$python" "$skill_dir/scripts/academy-extract.py" . "${force[@]}"
-"$python" "$skill_dir/scripts/docs-extract.py" . "${force[@]}"
-python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A "${force[@]}"
+"$python" "$skill_dir/scripts/crawl-site.py" . $force
+"$python" "$skill_dir/scripts/academy-extract.py" . $force
+"$python" "$skill_dir/scripts/docs-extract.py" . $force
+python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $force
 bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
 python3 "$crawl_dir/inline-transcripts.py" .
 python3 "$crawl_dir/render-video-refs.py" .
