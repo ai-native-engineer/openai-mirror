@@ -46,6 +46,7 @@
 ## YouTube와 영상 후처리
 
 - `youtube-channels.py`는 `yt-dlp --flat-playlist`로 전 영상을 열거하고 `_yt-cache/<ID>.md`를 재사용한다.
+- `_yt-cache/`는 gitignored라 새 clone이나 worktree에는 없다. 캐시 없이 실행하면 채널 전 영상의 자막을 다시 받아 429를 부르므로, 다른 체크아웃에서 돌릴 때는 기존 `_yt-cache/`를 먼저 복사한다.
 - 채널 발행물은 `youtube.com/openai/<yymmdd>-<slug>.md`, 인덱스는 `youtube.com/openai.md`다.
 - 자막이 없으면 `captions: none` stub과 썸네일만 남긴다.
 - `--render-only`는 캐시에서 다시 렌더하고, `--force`는 발행 파일을 다시 렌더하며, `--refetch`는 자막을 다시 받는다.

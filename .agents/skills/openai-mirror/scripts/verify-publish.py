@@ -37,16 +37,35 @@ def git(repo, *args):
 
 
 def worktree_changes(repo):
-    out = git(repo, "status", "--porcelain=v1", "--untracked-files=all")
-    return [(line[:2], line[3:]) for line in out.splitlines() if len(line) >= 4]
+    # -z를 쓴다. 기본 출력은 공백·비ASCII 경로를 따옴표로 감싸 경로가 실제 파일과 어긋난다.
+    out = git(repo, "status", "--porcelain=v1", "-z", "--untracked-files=all")
+    fields = out.split("\0")
+    changes = []
+    i = 0
+    while i < len(fields):
+        entry = fields[i]
+        i += 1
+        if len(entry) < 4:
+            continue
+        status = entry[:2]
+        changes.append((status, entry[3:]))
+        if "R" in status or "C" in status:
+            i += 1  # rename/copy는 원본 경로를 다음 필드로 흘린다.
+    return changes
 
 
 def staged_changes(repo):
+    fields = git(repo, "diff", "--cached", "--name-status", "-z").split("\0")
     changes = []
-    for line in git(repo, "diff", "--cached", "--name-status").splitlines():
-        parts = line.split("\t")
-        if len(parts) >= 2:
-            changes.append((parts[0], parts[-1]))
+    i = 0
+    while i + 1 < len(fields) and fields[i]:
+        status = fields[i]
+        if status[0] in ("R", "C") and i + 2 < len(fields):
+            changes.append((status, fields[i + 2]))  # 대상 경로가 원본 다음에 온다.
+            i += 3
+        else:
+            changes.append((status, fields[i + 1]))
+            i += 2
     return changes
 
 
@@ -95,6 +114,18 @@ def validate(repo, changes, allow_deletes=False, strict_paths=False):
     return issues
 
 
+def parsing_self_test():
+    root = tempfile.mkdtemp()
+    git(root, "init", "-q")
+    spaced = "openai.com/index/with space.md"
+    os.makedirs(os.path.join(root, "openai.com/index"), exist_ok=True)
+    with open(os.path.join(root, spaced), "w") as f:
+        f.write("<!-- source: https://openai.com/index/x/ -->\n")
+    assert spaced in {p for _, p in worktree_changes(root)}
+    git(root, "add", "-A")
+    assert spaced in {p for _, p in staged_changes(root)}
+
+
 def self_test():
     root = tempfile.mkdtemp()
     files = {
@@ -116,6 +147,7 @@ def self_test():
     assert validate_change(root, "D ", "README.md", strict_paths=True)
     assert validate_change(root, "D ", "openai.com/index/x.md")
     assert not validate_change(root, "D ", "openai.com/index/x.md", allow_deletes=True)
+    parsing_self_test()
     print("self-test ok")
 
 
