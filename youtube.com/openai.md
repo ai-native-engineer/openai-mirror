@@ -1,7 +1,16 @@
 # openai (YouTube)
 
-영상 594개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 603개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Building at the pace of AI innovation | Grant Lee, Gamma](openai/260724-building-at-the-pace-of-ai-innovation-grant-lee-gamma.md) — 2026-07-24
+- [How IT Admins can manage ChatGPT Work at scale | OpenAI](openai/260723-how-it-admins-can-manage-chatgpt-work-at-scale-openai.md) — 2026-07-23
+- [How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic](openai/260723-how-enterprise-teams-use-chatgpt-work-zapier-shopify-virgin.md) — 2026-07-23
+- [Building with ChatGPT Voice | OpenAI](openai/260723-building-with-chatgpt-voice-openai.md) — 2026-07-23
+- [Health in ChatGPT is coming to U.S. users](openai/260723-health-in-chatgpt-is-coming-to-u-s-users.md) — 2026-07-23 (자막없음)
+- [Work with docs, sheets, and slides in ChatGPT](openai/260723-work-with-docs-sheets-and-slides-in-chatgpt.md) — 2026-07-23
+- [How AI Agents Will Redesign Enterprise Work | Barak Kaufman, Wonderful](openai/260723-how-ai-agents-will-redesign-enterprise-work-barak-kaufman-wo.md) — 2026-07-23
+- [How European Small Businesses Are Using ChatGPT and Codex | OpenAI Academy](openai/260722-how-european-small-businesses-are-using-chatgpt-and-codex-op.md) — 2026-07-22
+- [How California Small Businesses Are Using ChatGPT | OpenAI Academy](openai/260722-how-california-small-businesses-are-using-chatgpt-openai-aca.md) — 2026-07-22
 - [Plugins in ChatGPT](openai/260721-plugins-in-chatgpt.md) — 2026-07-21
 - [How Virgin Atlantic Uses ChatGPT Work to Turn Weeks of Work Into Hours](openai/260720-how-virgin-atlantic-uses-chatgpt-work-to-turn-weeks-of-work.md) — 2026-07-20
 - [How BNY CEO Robin Vince Turns AI Optimism Into Action](openai/260720-how-bny-ceo-robin-vince-turns-ai-optimism-into-action.md) — 2026-07-20
