@@ -85,6 +85,7 @@ bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
 python3 "$crawl_dir/inline-transcripts.py" .
 python3 "$crawl_dir/render-video-refs.py" .
 python3 "$crawl_dir/pdf-mirror.py" . \
+  --oversize-dir _pdf-cache \
   --host openai.com \
   --host d2xo500swnpgl1.cloudfront.net \
   --host openaiassets.blob.core.windows.net \

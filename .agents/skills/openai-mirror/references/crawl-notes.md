@@ -61,7 +61,7 @@
 
 - `refresh.sh`의 허용 호스트만 원본 PDF로 미러한다. arxiv, 학회, 정부, 대학 등 외부 인용 PDF는 제외한다.
 - PDF는 OCR이나 Markdown 변환을 하지 않고 `%PDF-`와 크기를 검증한다.
-- GitHub 한도인 100MB를 넘는 파일은 내려받지 않고 source link만 유지한다.
+- GitHub 한도인 100MB를 넘는 파일은 `_pdf-cache/`에 원본 URL 경로로 내려받고, gitignored 로컬 자료로만 유지한다.
 
 ## 증분과 범위
 

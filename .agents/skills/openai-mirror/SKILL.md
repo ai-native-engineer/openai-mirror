@@ -20,4 +20,5 @@ description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 
 
 - 최신 상태만 제자리 갱신하고 이력은 git에 둔다.
 - `_yt-cache/`는 gitignored 작업 캐시이며 발행하지 않는다.
+- `_pdf-cache/`는 100MB 초과 PDF의 gitignored 로컬 보관소이며 발행하지 않는다.
 - 외부 인용 PDF는 제외하고 OpenAI 소유 PDF만 원본으로 미러한다.
