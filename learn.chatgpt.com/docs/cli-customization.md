@@ -1,0 +1,48 @@
+<!-- source: https://learn.chatgpt.com/docs/cli-customization -->
+
+OverviewFeaturesConfigurationDevelopersSecurityAdministrationUse CasesResourcesDocs sectionDevelopers
+
+The Codex CLI provides terminal-specific options for how interactive sessions
+look and how you enter commands and prompts.
+
+## Syntax highlighting and themes
+
+The terminal UI (TUI) syntax-highlights fenced Markdown code blocks and file
+diffs. Run `/theme` to open the theme picker, preview themes, and save your
+selection to `tui.theme` in `$CODEX_HOME/config.toml`.
+
+To add a custom theme, place a `.tmTheme` file in `$CODEX_HOME/themes`, then
+select it from the theme picker.
+
+## Shell completions
+
+Generate a completion script for Bash, the Z shell, Fish, or PowerShell:
+
+```
+codex completion zsh
+```
+
+Load the script from your shell configuration. For the Z shell, add:
+
+```
+eval "$(codex completion zsh)"
+```
+
+If the Z shell reports `command not found: compdef`, initialize its completion system
+before loading the Codex completions:
+
+```
+autoload -Uz compinit && compinit
+eval "$(codex completion zsh)"
+```
+
+Restart the shell, type `codex`, and press `Tab` to verify completion.
+
+## Prompt editor
+
+For longer prompts, press `Ctrl`+`G` in the composer to open
+the editor configured by `VISUAL`, or `EDITOR` when `VISUAL` isn’t set. Save
+and close the editor to return the text to the composer before sending it.
+
+For interactive keyboard controls and the full command and option list, see
+[Commands](/codex/developer-commands?surface=cli#cli-interactive-shortcuts).

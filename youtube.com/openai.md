@@ -1,7 +1,8 @@
 # openai (YouTube)
 
-영상 603개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 708개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Build Hour: Valuemaxxing with GPT-5.6](openai/260724-build-hour-valuemaxxing-with-gpt-5-6.md) — 2026-07-24
 - [Building at the pace of AI innovation | Grant Lee, Gamma](openai/260724-building-at-the-pace-of-ai-innovation-grant-lee-gamma.md) — 2026-07-24
 - [How IT Admins can manage ChatGPT Work at scale | OpenAI](openai/260723-how-it-admins-can-manage-chatgpt-work-at-scale-openai.md) — 2026-07-23
 - [How Enterprise Teams Use ChatGPT Work | Zapier, Shopify & Virgin Atlantic](openai/260723-how-enterprise-teams-use-chatgpt-work-zapier-shopify-virgin.md) — 2026-07-23
@@ -605,3 +606,107 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [What is AI Slop?](openai/260723-what-is-ai-slop.md) — 2026-07-23
+- [Now it won’t take you 10 years to get tickets](openai/260723-now-it-won-t-take-you-10-years-to-get-tickets.md) — 2026-07-23
+- [How Shopify Uses ChatGPT Work to Build Faster with AI Agents](openai/260716-how-shopify-uses-chatgpt-work-to-build-faster-with-ai-agents-fnPMkE.md) — 2026-07-16
+- [Give Yourself a Red Card with Codex](openai/260715-give-yourself-a-red-card-with-codex.md) — 2026-07-15 (자막없음)
+- [RingCentral Scales Customer Programs with ChatGPT Work](openai/260710-ringcentral-scales-customer-programs-with-chatgpt-work-MdTqoR.md) — 2026-07-10
+- [Stampli scales product marketing with ChatGPT Work](openai/260710-stampli-scales-product-marketing-with-chatgpt-work-eD5lc1.md) — 2026-07-10
+- [ChatGPT Work | NVIDIA’s GTM Team Uses AI to Scale Faster](openai/260709-chatgpt-work-nvidia-s-gtm-team-uses-ai-to-scale-faster.md) — 2026-07-09
+- [ChatGPT Work | Zapier: Seven Figures in Monthly Pipeline](openai/260709-chatgpt-work-zapier-seven-figures-in-monthly-pipeline-md5t5N.md) — 2026-07-09
+- [How TPG Is Accelerating Investment Research with ChatGPT](openai/260707-how-tpg-is-accelerating-investment-research-with-chatgpt-mC8nKd.md) — 2026-07-07
+- [ChatGPT Futures, Class of 2026: The Next Generation of AI Leaders](openai/260623-chatgpt-futures-class-of-2026-the-next-generation-of-ai-lead.md) — 2026-06-23
+- [Meet the ChatGPT Futures, Class of 2026](openai/260622-meet-the-chatgpt-futures-class-of-2026.md) — 2026-06-22
+- [Build and test iOS apps without leaving Codex!](openai/260617-build-and-test-ios-apps-without-leaving-codex.md) — 2026-06-17 (자막없음)
+- [Codex is your BFF when things are everything, everywhere, all at once 💫](openai/260604-codex-is-your-bff-when-things-are-everything-everywhere-all.md) — 2026-06-04
+- [These Models are Crazy!](openai/260529-these-models-are-crazy.md) — 2026-05-29
+- [Join us for Builders Unscripted Episode 3 on 5/29](openai/260527-join-us-for-builders-unscripted-episode-3-on-5-29.md) — 2026-05-27
+- [Now in preview: Codex in the ChatGPT mobile app.](openai/260514-now-in-preview-codex-in-the-chatgpt-mobile-app.md) — 2026-05-14 (자막없음)
+- [Life before Codex, and after Codex - Endava](openai/260511-life-before-codex-and-after-codex-endava.md) — 2026-05-11
+- [GPT-5.5 is a game changer for finance](openai/260507-gpt-5-5-is-a-game-changer-for-finance.md) — 2026-05-07
+- [What Codex Unlocks for Virgin Atlantic](openai/260430-what-codex-unlocks-for-virgin-atlantic-TXEgpK.md) — 2026-04-30
+- [GPT-5.5 is SOTA for Databricks](openai/260429-gpt-5-5-is-sota-for-databricks.md) — 2026-04-29
+- [First impressions of GPT-5.5](openai/260423-first-impressions-of-gpt-5-5.md) — 2026-04-23
+- [What Codex Unlocks for Wasmer](openai/260414-what-codex-unlocks-for-wasmer-H104L-.md) — 2026-04-14
+- [What Codex Unlocks for Braintrust](openai/260409-what-codex-unlocks-for-braintrust-AIZ_v_.md) — 2026-04-09
+- [Shopping in ChatGPT just got a whole lot more helpful](openai/260327-shopping-in-chatgpt-just-got-a-whole-lot-more-helpful.md) — 2026-03-27
+- [ChatGPT Shopping | Research and compare products without all the tabs.](openai/260326-chatgpt-shopping-research-and-compare-products-without-all-t.md) — 2026-03-26 (자막없음)
+- [What Codex Unlocks for Ryan Hendler, dev at me&u](openai/260326-what-codex-unlocks-for-ryan-hendler-dev-at-me-u-yUjfp2.md) — 2026-03-26
+- [What Codex Unlocks for Notion](openai/260324-what-codex-unlocks-for-notion-qHEUIX.md) — 2026-03-24
+- [Rakuten x Codex: AI can empower you](openai/260317-rakuten-x-codex-ai-can-empower-you.md) — 2026-03-17 (자막없음)
+- [Rakuten x Codex: Recovery Time Reduced by 50%](openai/260311-rakuten-x-codex-recovery-time-reduced-by-50.md) — 2026-03-11 (자막없음)
+- [OpenClaw Creator Peter Steinberger's advice for developers](openai/260224-openclaw-creator-peter-steinberger-s-advice-for-developers.md) — 2026-02-24
+- [Peter Steinberger on the team that built OpenClaw](openai/260224-peter-steinberger-on-the-team-that-built-openclaw.md) — 2026-02-24
+- [Peter Steinberger on the excitement around OpenClaw](openai/260224-peter-steinberger-on-the-excitement-around-openclaw.md) — 2026-02-24
+- [The Codex app enables massively parallel work](openai/260219-the-codex-app-enables-massively-parallel-work.md) — 2026-02-19
+- [ChatGPT Go is rolling out everywhere ChatGPT is available.](openai/260116-chatgpt-go-is-rolling-out-everywhere-chatgpt-is-available.md) — 2026-01-16 (자막없음)
+- [Codex brings concepts into view.](openai/251203-codex-brings-concepts-into-view.md) — 2025-12-03
+- [New personalities in ChatGPT](openai/251114-new-personalities-in-chatgpt.md) — 2025-11-14 (자막없음)
+- [ChatGPT Atlas](openai/251023-chatgpt-atlas.md) — 2025-10-23
+- [Real Talk: ChatGPT Study Mode](openai/250730-real-talk-chatgpt-study-mode.md) — 2025-07-30
+- [5 More ChatGPT Prompts to Add to Your Collection](openai/250721-5-more-chatgpt-prompts-to-add-to-your-collection.md) — 2025-07-21
+- [ChatGPT ‘Day In My Future Life’ Trend](openai/250718-chatgpt-day-in-my-future-life-trend.md) — 2025-07-18
+- [Say hello to ChatGPT agent.](openai/250718-say-hello-to-chatgpt-agent.md) — 2025-07-18
+- [Here's how to make these in ChatGPT](openai/250716-here-s-how-to-make-these-in-chatgpt.md) — 2025-07-16 (자막없음)
+- [What's an AI Agent?](openai/250715-what-s-an-ai-agent.md) — 2025-07-15
+- [It speaks!](openai/250710-it-speaks.md) — 2025-07-10
+- [OpenAI 🤝 @chipganassiracing](openai/250708-openai-chipganassiracing.md) — 2025-07-08 (자막없음)
+- [ChatGPT almost wasn't named ChatGPT](openai/250702-chatgpt-almost-wasn-t-named-chatgpt.md) — 2025-07-02
+- [A quick guide | How to search in ChatGPT](openai/250627-a-quick-guide-how-to-search-in-chatgpt.md) — 2025-06-27
+- [UCLA student shares how he was using ChatGPT](openai/250625-ucla-student-shares-how-he-was-using-chatgpt.md) — 2025-06-25
+- [If ChatGPT were your wingman…](openai/250623-if-chatgpt-were-your-wingman.md) — 2025-06-23
+- [The real ways college students use ChatGPT](openai/250618-the-real-ways-college-students-use-chatgpt.md) — 2025-06-18
+- [What was the last thing you ChatGPT'd?](openai/250605-what-was-the-last-thing-you-chatgpt-d.md) — 2025-06-05
+- [Moms use ChatGPT for the first time #Shorts](openai/250511-moms-use-chatgpt-for-the-first-time-shorts.md) — 2025-05-11
+- [ChatGPT Has Multiple Voices?!](openai/250502-chatgpt-has-multiple-voices.md) — 2025-05-02
+- [Meet ChatGPT's New Voice, Monday 🙄](openai/250401-meet-chatgpt-s-new-voice-monday.md) — 2025-04-01
+- [New ChatGPT voice mode updates ⬇️](openai/250324-new-chatgpt-voice-mode-updates.md) — 2025-03-24
+- [Stop ChatGPT from interrupting you 🙄](openai/250319-stop-chatgpt-from-interrupting-you.md) — 2025-03-19
+- [ChatGPT's Team Reacts To How You're Using Voice and Video](openai/250318-chatgpt-s-team-reacts-to-how-you-re-using-voice-and-video.md) — 2025-03-18
+- [What’s your favorite accent to use on ChatGPT Advanced Voice?](openai/250313-what-s-your-favorite-accent-to-use-on-chatgpt-advanced-voice.md) — 2025-03-13
+- [💬 ChatGPT's Team Responds to Your Advanced Voice Questions #Shorts](openai/250312-chatgpt-s-team-responds-to-your-advanced-voice-questions-sho.md) — 2025-03-12
+- [1-800-ChatGPT is Here](openai/241219-1-800-chatgpt-is-here.md) — 2024-12-19
+- [How to search the web faster with ChatGPT #shorts](openai/241217-how-to-search-the-web-faster-with-chatgpt-shorts.md) — 2024-12-17
+- [How to Organize Your ChatGPT Chats #Shorts](openai/241214-how-to-organize-your-chatgpt-chats-shorts.md) — 2024-12-14
+- [How to share your screen inside ChatGPT #Shorts](openai/241213-how-to-share-your-screen-inside-chatgpt-shorts.md) — 2024-12-13
+- [How to Speak with ChatGPT's New Santa Voice #Shorts](openai/241212-how-to-speak-with-chatgpt-s-new-santa-voice-shorts.md) — 2024-12-12 (자막없음)
+- [How to Video Chat and Screenshare with ChatGPT #shorts](openai/241212-how-to-video-chat-and-screenshare-with-chatgpt-shorts.md) — 2024-12-12
+- [Why does ChatGPT sound so human?! #shorts](openai/241206-why-does-chatgpt-sound-so-human-shorts.md) — 2024-12-06
+- [SMS3D · Sora Showcase](openai/240718-sms3d-sora-showcase.md) — 2024-07-18 (자막없음)
+- [Sell your old stuff with this custom GPT](openai/240618-sell-your-old-stuff-with-this-custom-gpt.md) — 2024-06-18 (자막없음)
+- [Grocery list for pros.](openai/240318-grocery-list-for-pros.md) — 2024-03-18
+- [Introducing ChatGPT Work, powered by Codex and GPT-5.6](openai/260709-introducing-chatgpt-work-powered-by-codex-and-gpt-5-6.md) — 2026-07-09
+- [The next generation of ChatGPT Voice](openai/260708-the-next-generation-of-chatgpt-voice.md) — 2026-07-08
+- [Introducing ChatGPT Images 2.0](openai/260421-introducing-chatgpt-images-2-0.md) — 2026-04-21
+- [OpenAI Town Hall with Sam Altman](openai/260127-openai-town-hall-with-sam-altman.md) — 2026-01-27
+- [Introducing ChatGPT Atlas](openai/251021-introducing-chatgpt-atlas-8UWKxJ.md) — 2025-10-21
+- [Live from DevDay — the OpenAI Podcast Ep. 7](openai/251006-live-from-devday-the-openai-podcast-ep-7.md) — 2025-10-06
+- [OpenAI DevDay 2025: Opening Keynote with Sam Altman](openai/251006-openai-devday-2025-opening-keynote-with-sam-altman.md) — 2025-10-06
+- [Introducing Sora 2](openai/250930-introducing-sora-2.md) — 2025-09-30
+- [Introducing gpt-realtime in the API](openai/250828-introducing-gpt-realtime-in-the-api.md) — 2025-08-28
+- [Introducing GPT-5](openai/250807-introducing-gpt-5.md) — 2025-08-07
+- [Introduction to ChatGPT agent](openai/250717-introduction-to-chatgpt-agent.md) — 2025-07-17
+- [ChatGPT for Business Updates](openai/250604-chatgpt-for-business-updates.md) — 2025-06-04
+- [A research preview of Codex in ChatGPT](openai/250516-a-research-preview-of-codex-in-chatgpt.md) — 2025-05-16
+- [OpenAI o3 & o4-mini](openai/250416-openai-o3-o4-mini.md) — 2025-04-16
+- [GPT 4.1 in the API](openai/250414-gpt-4-1-in-the-api.md) — 2025-04-14
+- [4o Image Generation in ChatGPT and Sora](openai/250325-4o-image-generation-in-chatgpt-and-sora.md) — 2025-03-25
+- [Audio Models in the API](openai/250320-audio-models-in-the-api.md) — 2025-03-20
+- [New tools for building agents with the API](openai/250311-new-tools-for-building-agents-with-the-api.md) — 2025-03-11
+- [Introduction to GPT-4.5](openai/250227-introduction-to-gpt-4-5.md) — 2025-02-27
+- [Introduction to Operator & Agents](openai/250123-introduction-to-operator-agents.md) — 2025-01-23
+- [OpenAI o3 and o3-mini—12 Days of OpenAI: Day 12](openai/241220-openai-o3-and-o3-mini-12-days-of-openai-day-12.md) — 2024-12-20
+- [Work with Apps—12 Days of OpenAI: Day 11](openai/241219-work-with-apps-12-days-of-openai-day-11.md) — 2024-12-19
+- [1-800-CHAT-GPT—12 Days of OpenAI: Day 10](openai/241218-1-800-chat-gpt-12-days-of-openai-day-10.md) — 2024-12-18
+- [Search—12 Days of OpenAI: Day 8](openai/241216-search-12-days-of-openai-day-8.md) — 2024-12-16
+- [Projects—12 Days of OpenAI: Day 7](openai/241213-projects-12-days-of-openai-day-7.md) — 2024-12-13
+- [Santa Mode & Video in Advanced Voice—12 Days of OpenAI: Day 6](openai/241212-santa-mode-video-in-advanced-voice-12-days-of-openai-day-6.md) — 2024-12-12
+- [ChatGPT x Apple Intelligence—12 Days of OpenAI: Day 5](openai/241211-chatgpt-x-apple-intelligence-12-days-of-openai-day-5.md) — 2024-12-11
+- [Canvas—12 Days of OpenAI: Day 4](openai/241210-canvas-12-days-of-openai-day-4.md) — 2024-12-10
+- [Sora–12 Days of OpenAI: Day 3](openai/241209-sora-12-days-of-openai-day-3.md) — 2024-12-09
+- [Introducing GPT-4o](openai/240513-introducing-gpt-4o.md) — 2024-05-13
+- [OpenAI DevDay: Opening Keynote](openai/231106-openai-devday-opening-keynote.md) — 2023-11-06
+- [GPT-4 Developer Livestream](openai/230314-gpt-4-developer-livestream.md) — 2023-03-14
+- [OpenAI Scholars Demo Day 2019](openai/190515-openai-scholars-demo-day-2019.md) — 2019-05-15
+- [OpenAI Robotics Symposium 2019](openai/190428-openai-robotics-symposium-2019.md) — 2019-04-28 (자막없음)
+- [OpenAI Spinning Up in Deep RL Workshop](openai/190202-openai-spinning-up-in-deep-rl-workshop.md) — 2019-02-02
