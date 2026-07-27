@@ -12,20 +12,22 @@
 
 | 표면 | 수집기 | 발견 방식 |
 |---|---|---|
-| openai.com | `crawl-site.py` | sitemap + 허브 내부 링크 |
-| openaifoundation.org / openai.fund | `crawl-site.py` | 같은 도메인 링크 1-depth |
+| openai.com | `crawl-site.py` | sitemap + 허브/기존 생성물의 내부 링크 |
+| Foundation / Fund / Alignment / Spinning Up / Progress / DevDay | `crawl-site.py` | 같은 도메인 링크 BFS |
 | academy.openai.com | `academy-extract.py` | sitemap + Vimeo 자막 |
-| developers.openai.com | `docs-extract.py` | sitemap |
+| developers.openai.com | `docs-extract.py` | sitemap + 모델 상세 인덱스 |
 | help.openai.com | `docs-extract.py` | collections/articles BFS |
 | model-spec.openai.com | `docs-extract.py` | 루트가 가리키는 최신 문서 |
-| OpenAI YouTube | shared `youtube-channels.py` | 채널 전 영상 + 자막 |
+| learn.chatgpt.com / deploymentsafety.openai.com | `docs-extract.py` | sitemap |
+| trust.openai.com | `docs-extract.py` | 비로그인 루트 개요 |
+| OpenAI YouTube | shared `youtube-channels.py` | videos + shorts + streams + 자막 |
 | OpenAI 소유 PDF | shared `pdf-mirror.py` | 허용 호스트의 원본 PDF |
 
 ## 공개 사이트
 
 - openai.com은 Cloudflare bot challenge 뒤에 있다. headless browser 대신 `curl_cffi`의 Chrome 지문을 사용한다.
 - 본문은 SSR HTML의 `<main>`, `<article>`, `<body>` 순으로 추출하고 공통 nav/footer를 제거한다.
-- sitemap에 없는 제품/마케팅 페이지는 홈과 허브의 내부 링크로 보강한다.
+- sitemap에 없는 제품/마케팅 페이지는 홈·허브와 기존 생성물의 절대 링크로 보강한다.
 - `thin`, 404, network/extract 실패는 저장하지 않아 다음 증분 실행에서 다시 확인한다.
 - SSR 본문이 없는 폼, 인터랙티브 랜딩, 일부 고객 사례는 계속 thin일 수 있다. 이를 위해 browser 경로를 추가하지 않는다.
 
@@ -38,14 +40,17 @@
 
 ## 공식 문서
 
-- developers.openai.com은 `sitemap-0.xml`, Help Center는 collection/article BFS를 사용한다.
+- developers.openai.com은 `sitemap-0.xml`과 모델 목록의 상세 링크, Help Center는 collection/article BFS를 사용한다.
 - Model Spec 루트의 meta refresh가 가리키는 최신 HTML을 저장한다.
+- ChatGPT Learn은 sitemap index를 재귀 열거하고, Deployment Safety의 sitemap에 잘못 기록된 `localhost` origin은 공개 host로 교정한다.
+- Trust Center는 비로그인 루트 개요만 저장한다. 상세 자료는 쿼리 기반 포털 UI이고 접근 요청/인증이 필요해 제외한다.
 - developers API의 JavaScript 파라미터 표처럼 SSR에 없는 인터랙티브 내용은 수집하지 못한다.
 - platform.openai.com/docs는 developers.openai.com으로 이관되어 별도 수집하지 않는다.
 
 ## YouTube와 영상 후처리
 
-- `youtube-channels.py`는 `yt-dlp --flat-playlist`로 전 영상을 열거하고 `_yt-cache/<ID>.md`를 재사용한다.
+- `youtube-channels.py`는 `yt-dlp --flat-playlist`로 videos/shorts/streams 탭을 합쳐 열거하고 `_yt-cache/<ID>.md`를 재사용한다.
+- 같은 ID의 제목이 바뀌어 파일명이 달라지면 구 생성물을 보고한다. 삭제 승인 후 `--prune-stale`로만 정리한다.
 - `_yt-cache/`는 gitignored라 새 clone이나 worktree에는 없다. 캐시 없이 실행하면 채널 전 영상의 자막을 다시 받아 429를 부르므로, 다른 체크아웃에서 돌릴 때는 기존 `_yt-cache/`를 먼저 복사한다.
 - 채널 발행물은 `youtube.com/openai/<yymmdd>-<slug>.md`, 인덱스는 `youtube.com/openai.md`다.
 - 자막이 없으면 `captions: none` stub과 썸네일만 남긴다.

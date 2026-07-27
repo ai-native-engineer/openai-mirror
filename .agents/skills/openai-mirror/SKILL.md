@@ -1,6 +1,6 @@
 ---
 name: openai-mirror
-description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 전량 재수집하고, 생성물을 검증해 로컬 커밋한다. openai.com, OpenAI Academy, 개발자 문서, Help Center, Model Spec, OpenAI YouTube 자막, OpenAI 소유 PDF를 수집한다. Use when 'OpenAI 미러 갱신/재생성', '누락 페이지 복구', 'Academy/YouTube/PDF 재수집', 'openai-mirror'를 요청할 때. Do NOT use for OpenAI API/제품 사용 질문(openai-docs), 저장된 미러 검색, 단일 URL 크롤(crawl), Anthropic/Claude 미러."
+description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 전량 재수집하고, 생성물을 검증해 로컬 커밋한다. openai.com, Academy, 개발자·Help·Model Spec·ChatGPT Learn·Deployment Safety 문서, 공식 연구 사이트, OpenAI YouTube 자막, OpenAI 소유 PDF를 수집한다. Use when 'OpenAI 미러 갱신/재생성', '누락 페이지 복구', 'Academy/YouTube/PDF 재수집', 'openai-mirror'를 요청할 때. Do NOT use for OpenAI API/제품 사용 질문(openai-docs), 저장된 미러 검색, 단일 URL 크롤(crawl), Anthropic/Claude 미러."
 ---
 
 # OpenAI Mirror

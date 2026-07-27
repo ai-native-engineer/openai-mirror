@@ -13,17 +13,24 @@ import tempfile
 
 ALLOWED_ROOTS = {
     "academy.openai.com",
+    "alignment.openai.com",
     "cdn.openai.com",
     "d2xo500swnpgl1.cloudfront.net",
     "developers.openai.com",
+    "deploymentsafety.openai.com",
     "downloads.ctfassets.net",
     "files.oaiusercontent.com",
     "help.openai.com",
+    "learn.chatgpt.com",
     "model-spec.openai.com",
     "openai.com",
     "openai.fund",
     "openaifoundation.org",
     "openaiassets.blob.core.windows.net",
+    "progress.openai.com",
+    "spinningup.openai.com",
+    "devday.openai.com",
+    "trust.openai.com",
     "youtube.com",
 }
 MAX_FILE_BYTES = 100 * 1024 * 1024  # GitHub 단일 파일 제한을 넘기지 않는 발행 게이트.
@@ -72,6 +79,8 @@ def staged_changes(repo):
 def validate_change(repo, status, path, allow_deletes=False, strict_paths=False):
     issues = []
     root = path.split("/", 1)[0]
+    if "/" not in path and root.endswith(".md"):
+        root = root.removesuffix(".md")
     if root not in ALLOWED_ROOTS:
         return [f"예상 도메인 밖 변경: {path}"] if strict_paths else []
     if status.startswith(("R", "C")) or "R" in status or "C" in status:
@@ -130,6 +139,7 @@ def self_test():
     root = tempfile.mkdtemp()
     files = {
         "openai.com/index/x.md": "<!-- source: https://openai.com/index/x/ -->\n",
+        "trust.openai.com.md": "<!-- source: https://trust.openai.com/ -->\n",
         "youtube.com/openai.md": "# openai (YouTube)\n",
         "youtube.com/openai/x.md": "---\ntitle: x\n---\n",
         "cdn.openai.com/x.pdf": "%PDF-test",

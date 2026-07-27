@@ -13,7 +13,7 @@
 ![last commit](https://img.shields.io/github/last-commit/ai-native-engineer/openai-mirror)
 ![repo size](https://img.shields.io/github/repo-size/ai-native-engineer/openai-mirror)
 
-OpenAI 공개 자료를 검색하기 쉬운 마크다운으로 보관하는 비공식 아카이브입니다. 기사, Academy 리소스, 개발자·도움말 문서, Model Spec, YouTube 전사, OpenAI가 호스팅하는 PDF를 담습니다.
+OpenAI 공개 자료를 검색하기 쉬운 마크다운으로 보관하는 비공식 아카이브입니다. 기사, Academy 리소스, 공식 문서·연구 사이트, YouTube 전사, OpenAI가 호스팅하는 PDF를 담습니다.
 
 > [!WARNING]
 > OpenAI가 만들거나 운영하는 저장소가 아닙니다. 보관된 자료의 저작권은 OpenAI에 있습니다. 최신 공식 정보는 반드시 원문에서 확인하세요.
@@ -26,6 +26,9 @@ OpenAI 공개 자료를 검색하기 쉬운 마크다운으로 보관하는 비�
 | [`developers.openai.com/`](developers.openai.com/) | API, cookbook, Codex 문서 |
 | [`help.openai.com/`](help.openai.com/) | 도움말 센터 문서 |
 | [`model-spec.openai.com/`](model-spec.openai.com/) | Model Spec |
+| [`learn.chatgpt.com/`](learn.chatgpt.com/), [`deploymentsafety.openai.com/`](deploymentsafety.openai.com/) | ChatGPT Learn과 배포 안전 문서 |
+| [`alignment.openai.com/`](alignment.openai.com/), [`spinningup.openai.com/`](spinningup.openai.com/) | Alignment Research와 Spinning Up |
+| [`progress.openai.com`](progress.openai.com.md), [`devday.openai.com`](devday.openai.com.md), [`trust.openai.com`](trust.openai.com.md) | Progress, DevDay, Trust Center 공개 개요 |
 | [`academy.openai.com/`](academy.openai.com/) | Academy 리소스, 이벤트, 영상 전사 |
 | [`openaifoundation.org/`](openaifoundation.org/), [`openai.fund/`](openai.fund/) | Foundation 및 Startup Fund 페이지 |
 | [`youtube.com/openai/`](youtube.com/openai/) | 영상별 전사 또는 자막 상태 stub |

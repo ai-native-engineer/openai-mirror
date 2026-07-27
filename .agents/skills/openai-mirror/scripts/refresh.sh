@@ -40,7 +40,10 @@ for file in "${local_required[@]}"; do
 done
 
 if $self_test; then
+  "$python" "$skill_dir/scripts/crawl-site.py" --self-test >/dev/null
+  "$python" "$skill_dir/scripts/docs-extract.py" --self-test >/dev/null
   python3 "$skill_dir/scripts/verify-publish.py" --self-test >/dev/null
+  python3 "$crawl_dir/youtube-channels.py" --self-test >/dev/null
   # 수집기 호출부와 같은 전개를 태운다. 빈 값이 set -u에서 죽거나 --force가 빠지면 여기서 걸린다.
   probe=; set -- . $probe
   [[ "$#" -eq 1 ]] || { echo "self-test: 기본 실행에 인자가 붙었다" >&2; exit 1; }

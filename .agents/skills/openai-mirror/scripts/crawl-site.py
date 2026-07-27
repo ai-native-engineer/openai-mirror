@@ -27,6 +27,10 @@ SITEMAP = "https://openai.com/sitemap.xml"
 ROOT = "https://openai.com/"
 FOUNDATION = "https://openaifoundation.org/"
 FUND = "https://openai.fund/"
+ALIGNMENT = "https://alignment.openai.com/"
+SPINNING_UP = "https://spinningup.openai.com/en/latest/"
+PROGRESS = "https://progress.openai.com/"
+DEVDAY = "https://devday.openai.com/"
 IMPERSONATE = "chrome"
 # sitemap에 없는 제품·마케팅 페이지(chatgpt·gpt-5·apps·customer-stories 등)를 잡기 위한 내부 링크 발견 허브
 HUBS = [ROOT] + [ROOT.rstrip("/") + p for p in [
@@ -72,6 +76,28 @@ def discover_internal():
             u = urljoin(h, a["href"]).split("#")[0].split("?")[0]
             if urlsplit(u).netloc == "openai.com" and not u.endswith((".xml", ".pdf")):
                 found.add(u if u.endswith("/") else u + "/")
+    return found
+
+
+def discover_local(out, host):
+    """기존 생성물이 알고 있는 절대 링크를 재사용. 고정 허브가 놓친 깊은 페이지를 다음 증분에서 복구한다."""
+    root = os.path.join(out, host)
+    found = set()
+    if not os.path.isdir(root):
+        return found
+    for base, _, files in os.walk(root):
+        for name in files:
+            if not name.endswith(".md"):
+                continue
+            with open(os.path.join(base, name), encoding="utf-8", errors="ignore") as f:
+                text = f.read()
+            for raw in re.findall(r"https?://[^\s<>\"'`)\]]+", text):
+                u = raw.rstrip(".,;:!?")
+                p = urlsplit(u)
+                if u.isascii() and p.netloc == host and not p.query and not p.fragment and not p.path.lower().endswith(
+                    (".css", ".gif", ".ico", ".jpg", ".jpeg", ".js", ".json", ".png", ".svg", ".webp", ".xml", ".pdf")
+                ):
+                    found.add(u)
     return found
 
 
@@ -129,19 +155,26 @@ def crawl(urls, concurrency):
     return pages, fails
 
 
-def crawl_sibling(base, dom, concurrency, out, force):
-    """sitemap 없는 형제 사이트(openaifoundation.org·openai.fund): 루트 + 같은 도메인 링크 1-depth.
+def crawl_sibling(base, dom, concurrency, out, force, depth=1, cap=120):
+    """sitemap 없는 형제 사이트: 루트 + 같은 도메인 링크 BFS.
     트랙 A와 같은 증분: 기존 .md는 skip(없으면 재크롤 시 boilerplate 차이로 헛 diff가 생긴다)."""
-    status, html = get(base)
-    if status != 200:
-        return {}
-    soup = BeautifulSoup(html, "html.parser")
-    links = {base}
-    for a in soup.find_all("a", href=True):
-        u = urljoin(base, a["href"])
-        if urlsplit(u).netloc.endswith(dom):
-            links.add(u.split("#")[0])
-    links = sorted(links)[:60]
+    links, seen, queue = {base}, set(), [(base, 0)]
+    while queue and len(links) < cap:
+        current, level = queue.pop(0)
+        if current in seen or level >= depth:
+            continue
+        seen.add(current)
+        status, html = get(current)
+        if status != 200:
+            continue
+        for a in BeautifulSoup(html, "html.parser").find_all("a", href=True):
+            u = urljoin(current, a["href"]).split("#")[0].split("?")[0]
+            p = urlsplit(u)
+            if p.netloc == dom and not p.path.lower().endswith((".xml", ".pdf")) and u not in links:
+                links.add(u)
+                queue.append((u, level + 1))
+    links |= discover_local(out, dom)
+    links = sorted(links)[:cap]
     if not force:
         links = [l for l in links if not os.path.exists(cm.dest(out, l)[0])]
     pages, _ = crawl(links, concurrency) if links else ({}, [])
@@ -153,6 +186,13 @@ def main():
         assert failure_kind("") == "thin"
         assert failure_kind("status=404") == "http-404"
         assert failure_kind("timed out") == "network/extract"
+        import tempfile
+        d = tempfile.mkdtemp()
+        os.makedirs(os.path.join(d, "openai.com"))
+        with open(os.path.join(d, "openai.com", "x.md"), "w") as f:
+            f.write("[ok](https://openai.com/index/deep/) ![](https://openai.com/x.png) "
+                    "[other](https://example.com/x) [bad](https://openai.com/about\u2060)")
+        assert discover_local(d, "openai.com") == {"https://openai.com/index/deep/"}
         print("self-test ok")
         return
     ap = argparse.ArgumentParser()
@@ -171,7 +211,7 @@ def main():
     print("sitemap 수집 중...", flush=True)
     urls = sitemap_urls()
     if not a.no_discover and not a.limit:
-        extra = discover_internal()
+        extra = discover_internal() | discover_local(a.out, "openai.com")
         new = extra - {u if u.endswith("/") else u + "/" for u in urls}
         urls |= extra
         print(f"내부 링크 발견: +{len(new)} (sitemap 외)", flush=True)
@@ -191,10 +231,16 @@ def main():
         pages, fails = crawl(urls, a.concurrency)
 
     if not inc and not a.limit:
-        for label, base, dom in [("foundation", FOUNDATION, "openaifoundation.org"),
-                                 ("fund", FUND, "openai.fund")]:
+        for label, base, dom, depth, cap in [
+            ("foundation", FOUNDATION, "openaifoundation.org", 2, 120),
+            ("fund", FUND, "openai.fund", 2, 120),
+            ("alignment", ALIGNMENT, "alignment.openai.com", 2, 120),
+            ("spinning-up", SPINNING_UP, "spinningup.openai.com", 3, 160),
+            ("progress", PROGRESS, "progress.openai.com", 1, 20),
+            ("devday", DEVDAY, "devday.openai.com", 1, 20),
+        ]:
             try:
-                sp = crawl_sibling(base, dom, a.concurrency, a.out, a.force)
+                sp = crawl_sibling(base, dom, a.concurrency, a.out, a.force, depth, cap)
                 pages.update(sp)
                 print(f"{label}: {len(sp)} pages", flush=True)
             except Exception as e:

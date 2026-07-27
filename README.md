@@ -13,7 +13,7 @@
 ![last commit](https://img.shields.io/github/last-commit/ai-native-engineer/openai-mirror)
 ![repo size](https://img.shields.io/github/repo-size/ai-native-engineer/openai-mirror)
 
-An unofficial, searchable Markdown archive of OpenAI public materials: articles, Academy resources, developer and help documentation, the Model Spec, YouTube transcripts, and OpenAI-hosted PDFs.
+An unofficial, searchable Markdown archive of OpenAI public materials: articles, Academy resources, official documentation and research sites, YouTube transcripts, and OpenAI-hosted PDFs.
 
 > [!WARNING]
 > This repository is not created or operated by OpenAI. OpenAI retains the copyright to the archived material. Check the official source for current, authoritative information.
@@ -26,6 +26,9 @@ An unofficial, searchable Markdown archive of OpenAI public materials: articles,
 | [`developers.openai.com/`](developers.openai.com/) | API, cookbook, and Codex documentation |
 | [`help.openai.com/`](help.openai.com/) | Help Center articles |
 | [`model-spec.openai.com/`](model-spec.openai.com/) | Model Spec |
+| [`learn.chatgpt.com/`](learn.chatgpt.com/), [`deploymentsafety.openai.com/`](deploymentsafety.openai.com/) | ChatGPT Learn and deployment safety documentation |
+| [`alignment.openai.com/`](alignment.openai.com/), [`spinningup.openai.com/`](spinningup.openai.com/) | Alignment Research and Spinning Up |
+| [`progress.openai.com`](progress.openai.com.md), [`devday.openai.com`](devday.openai.com.md), [`trust.openai.com`](trust.openai.com.md) | Progress, DevDay, and the public Trust Center overview |
 | [`academy.openai.com/`](academy.openai.com/) | Academy resources, events, and video transcripts |
 | [`openaifoundation.org/`](openaifoundation.org/), [`openai.fund/`](openai.fund/) | Foundation and Startup Fund pages |
 | [`youtube.com/openai/`](youtube.com/openai/) | One transcript or caption-status stub per video |
