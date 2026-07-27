@@ -1,0 +1,41128 @@
+<!-- source: https://developers.openai.com/api/reference/ruby/resources/beta/subresources/responses/methods/retrieve/ -->
+<!-- part of: https://developers.openai.com/api/reference/ruby/resources/beta/subresources/responses/methods/retrieve/ -->
+
+<!-- chunk-start -->
+
+[API Reference](/api/reference/ruby)
+
+[Beta](/api/reference/ruby/resources/beta)
+
+[Responses](/api/reference/ruby/resources/beta/subresources/responses)
+
+# Get a model response
+
+beta.responses.retrieve(response\_id, \*\*kwargs) -> [BetaResponse](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response%20%3E%20(schema)) { id, created\_at, error, 31 more }
+
+GET/responses/{response\_id}
+
+Retrieves a model response with the given ID.
+
+##### ParametersExpand Collapse
+
+response\_id: String
+
+include: Array[[BetaResponseIncludable](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_includable%20%3E%20(schema))]
+
+Additional fields to include in the response. See the `include`
+parameter for Response creation above for more information.
+
+:"file\_search\_call.results"
+
+:"web\_search\_call.results"
+
+:"web\_search\_call.action.sources"
+
+:"message.input\_image.image\_url"
+
+:"computer\_call\_output.output.image\_url"
+
+:"code\_interpreter\_call.outputs"
+
+:"reasoning.encrypted\_content"
+
+:"message.output\_text.logprobs"
+
+include\_obfuscation: bool
+
+When true, stream obfuscation will be enabled. Stream obfuscation adds
+random characters to an `obfuscation` field on streaming delta events
+to normalize payload sizes as a mitigation to certain side-channel
+attacks. These obfuscation fields are included by default, but add a
+small amount of overhead to the data stream. You can set
+`include_obfuscation` to false to optimize for bandwidth if you trust
+the network links between your application and the OpenAI API.
+
+starting\_after: Integer
+
+The sequence number of the event after which to start streaming.
+
+stream: bool
+
+If set to true, the model response data will be streamed to the client
+as it is generated using [server-sent events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events#Event_stream_format).
+See the [Streaming section below](https://platform.openai.com/docs/api-reference/responses-streaming)
+for more information.
+
+betas: Array[:"responses\_multi\_agent=v1"]
+
+##### ReturnsExpand Collapse
+
+class BetaResponse { id, created\_at, error, 31 more }
+
+id: String
+
+Unique identifier for this Response.
+
+created\_at: Float
+
+Unix timestamp (in seconds) of when this Response was created.
+
+formatunixtime
+
+error: [BetaResponseError](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_error%20%3E%20(schema)) { code, message }
+
+An error object returned when the model fails to generate a Response.
+
+code: :server\_error | :rate\_limit\_exceeded | :invalid\_prompt | 16 more
+
+The error code for the response.
+
+:server\_error
+
+:rate\_limit\_exceeded
+
+:invalid\_prompt
+
+:bio\_policy
+
+:vector\_store\_timeout
+
+:invalid\_image
+
+:invalid\_image\_format
+
+:invalid\_base64\_image
+
+:invalid\_image\_url
+
+:image\_too\_large
+
+:image\_too\_small
+
+:image\_parse\_error
+
+:image\_content\_policy\_violation
+
+:invalid\_image\_mode
+
+:image\_file\_too\_large
+
+:unsupported\_image\_media\_type
+
+:empty\_image\_file
+
+:failed\_to\_download\_image
+
+:image\_file\_not\_found
+
+message: String
+
+A human-readable description of the error.
+
+incomplete\_details: IncompleteDetails{ reason}
+
+Details about why the response is incomplete.
+
+reason: :max\_output\_tokens | :content\_filter
+
+The reason why the response is incomplete.
+
+:max\_output\_tokens
+
+:content\_filter
+
+instructions: String | Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A system (or developer) message inserted into the model’s context.
+
+When using along with `previous_response_id`, the instructions from a previous
+response will not be carried over to the next response. This makes it simple
+to swap out system (or developer) messages in new responses.
+
+String = String
+
+A text input to the model, equivalent to a text input with the
+`developer` role.
+
+InputItemList = Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A list of one or many input items to the model, containing
+different content types.
+
+class BetaEasyInputMessage { content, role, phase, type }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+content: String | [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+String = String
+
+BetaResponseInputMessageContentList = Array[[BetaResponseInputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_content%20%3E%20(schema))]
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :assistant | :system | :developer
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+:user
+
+:assistant
+
+:system
+
+:developer
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+type: :message
+
+The type of the message input. Always `message`.
+
+class Message { content, role, agent, 2 more }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role.
+
+content: [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :system | :developer
+
+:user
+
+:system
+
+:developer
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ComputerCallOutput { call\_id, output, type, 4 more }
+
+The output of a computer tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_call\_output
+
+id: String
+
+The ID of the computer tool call output.
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the message input. One of `in_progress`, `completed`, or `incomplete`. Populated when input items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class FunctionCallOutput { call\_id, output, type, 4 more }
+
+The output of a function tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: String | [BetaResponseFunctionCallOutputItemList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or file output of the function tool call.
+
+String = String
+
+A JSON string of the output of the function tool call.
+
+BetaResponseFunctionCallOutputItemList = Array[[BetaResponseFunctionCallOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item%20%3E%20(schema))]
+
+An array of content outputs (text, image, file) for the function tool call.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFileContent { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+The base64-encoded data of the file to be sent to the model.
+
+maxLength73400320
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :function\_call\_output
+
+id: String
+
+The unique ID of the function tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`. Populated when items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AgentMessage { author, content, recipient, 3 more }
+
+A message routed between agents.
+
+author: String
+
+content: Array[[BetaResponseInputTextContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text_content%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImageContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image_content%20%3E%20(schema)) { type, detail, file\_id, 2 more }  | EncryptedContent{ encrypted\_content, type}]
+
+Plaintext, image, or encrypted content sent between agents.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+maxLength10485760
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The item type. Always `agent_message`.
+
+id: String
+
+The unique ID of this agent message item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { action, arguments, call\_id, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action that was executed.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The action arguments as a JSON string.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :multi\_agent\_call
+
+The item type. Always `multi_agent_call`.
+
+id: String
+
+The unique ID of this multi-agent call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { action, call\_id, output, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[Output{ text, type, annotations}]
+
+text: String
+
+The text content.
+
+maxLength10485760
+
+type: :output\_text
+
+The content type. Always `output_text`.
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more}]
+
+Citations associated with the text content.
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+minimum0
+
+type: :file\_citation
+
+The citation type. Always `file_citation`.
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+title: String
+
+The title of the cited resource.
+
+type: :url\_citation
+
+The citation type. Always `url_citation`.
+
+url: String
+
+The URL of the cited resource.
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+The ID of the container.
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+type: :container\_file\_citation
+
+The citation type. Always `container_file_citation`.
+
+type: :multi\_agent\_call\_output
+
+The item type. Always `multi_agent_call_output`.
+
+id: String
+
+The unique ID of this multi-agent call output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ToolSearchCall { arguments, type, id, 4 more }
+
+arguments: untyped
+
+The arguments supplied to the tool search call.
+
+type: :tool\_search\_call
+
+The item type. Always `tool_search_call`.
+
+id: String
+
+The unique ID of this tool search call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseToolSearchOutputItemParam { tools, type, id, 4 more }
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by the tool search output.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The item type. Always `tool_search_output`.
+
+id: String
+
+The unique ID of this tool search output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AdditionalTools { role, tools, type, 2 more }
+
+role: :developer
+
+The role that provided the additional tools. Only `developer` is supported.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+A list of additional tools made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The item type. Always `additional_tools`.
+
+id: String
+
+The unique ID of this additional tools item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseCompactionItemParam { encrypted\_content, type, id, agent }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+encrypted\_content: String
+
+The encrypted content of the compaction summary.
+
+maxLength10485760
+
+type: :compaction
+
+id: String
+
+The ID of the compaction item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCall { action, call\_id, type, 5 more }
+
+A tool representing a request to execute one or more shell commands.
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+Ordered shell commands for the execution environment to run.
+
+max\_output\_length: Integer
+
+Maximum number of UTF-8 characters to capture from combined stdout and stderr output.
+
+timeout\_ms: Integer
+
+Maximum wall-clock time in milliseconds to allow the shell commands to run.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :shell\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+environment: [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+The environment to execute the shell commands in.
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCallOutput { call\_id, output, type, 5 more }
+
+The streamed output items emitted by a shell tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[[BetaResponseFunctionShellCallOutputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_shell_call_output_content%20%3E%20(schema)) { outcome, stderr, stdout } ]
+
+Captured chunks of stdout and stderr output, along with their associated outcomes.
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+The exit or timeout outcome associated with this shell call.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+The exit code returned by the shell process.
+
+type: :exit
+
+stderr: String
+
+Captured stderr output for the shell call.
+
+maxLength10485760
+
+stdout: String
+
+Captured stdout output for the shell call.
+
+maxLength10485760
+
+type: :shell\_call\_output
+
+The type of the item. Always `shell_call_output`.
+
+id: String
+
+The unique ID of the shell tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+max\_output\_length: Integer
+
+The maximum number of UTF-8 characters captured for this shell call’s combined output.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ApplyPatchCall { call\_id, operation, status, 4 more }
+
+A tool call representing a request to create, delete, or update files using diff patches.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+The specific create, delete, or update instruction for the apply\_patch tool call.
+
+class CreateFile { diff, path, type }
+
+Instruction for creating a new file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply when creating the file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to create relative to the workspace root.
+
+minLength1
+
+type: :create\_file
+
+The operation type. Always `create_file`.
+
+class DeleteFile { path, type }
+
+Instruction for deleting an existing file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete relative to the workspace root.
+
+minLength1
+
+type: :delete\_file
+
+The operation type. Always `delete_file`.
+
+class UpdateFile { diff, path, type }
+
+Instruction for updating an existing file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply to the existing file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to update relative to the workspace root.
+
+minLength1
+
+type: :update\_file
+
+The operation type. Always `update_file`.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class ApplyPatchCallOutput { call\_id, status, type, 4 more }
+
+The streamed output emitted by an apply patch tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+output: String
+
+Optional human-readable log text from the apply patch tool (e.g., patch results or errors).
+
+maxLength10485760
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { approval\_request\_id, approve, type, 3 more }
+
+A response to an MCP approval request.
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class BetaResponseCustomToolCallOutput { call\_id, output, type, 3 more }
+
+call\_id: String
+
+The call ID, used to map this custom tool call output to a custom tool call.
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the custom tool call generated by your code.
+
+String = String
+
+A string of the output of the custom tool call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the custom tool call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :custom\_tool\_call\_output
+
+The type of the custom tool call output. Always `custom_tool_call_output`.
+
+id: String
+
+The unique ID of the custom tool call output in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class CompactionTrigger { type, agent }
+
+Compacts the current context. Must be the final input item.
+
+type: :compaction\_trigger
+
+The type of the item. Always `compaction_trigger`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ItemReference { id, agent, type }
+
+An internal identifier for an item to reference.
+
+id: String
+
+The ID of the item to reference.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+type: :item\_reference
+
+The type of item to reference. Always `item_reference`.
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of this program item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+code: String
+
+maxLength10485760
+
+fingerprint: String
+
+maxLength10485760
+
+type: :program
+
+The item type. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of this program output item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+result: String
+
+maxLength10485760
+
+status: :completed | :incomplete
+
+The terminal status of the program output.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The item type. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+metadata: Hash[Symbol, String]
+
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+model: :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more | String
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+Model = :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+:"gpt-5.6-sol"
+
+:"gpt-5.6-terra"
+
+:"gpt-5.6-luna"
+
+:"gpt-5.4"
+
+:"gpt-5.4-mini"
+
+:"gpt-5.4-nano"
+
+:"gpt-5.4-mini-2026-03-17"
+
+:"gpt-5.4-nano-2026-03-17"
+
+:"gpt-5.3-chat-latest"
+
+:"gpt-5.2"
+
+:"gpt-5.2-2025-12-11"
+
+:"gpt-5.2-chat-latest"
+
+:"gpt-5.2-pro"
+
+:"gpt-5.2-pro-2025-12-11"
+
+:"gpt-5.1"
+
+:"gpt-5.1-2025-11-13"
+
+:"gpt-5.1-codex"
+
+:"gpt-5.1-mini"
+
+:"gpt-5.1-chat-latest"
+
+:"gpt-5"
+
+:"gpt-5-mini"
+
+:"gpt-5-nano"
+
+:"gpt-5-2025-08-07"
+
+:"gpt-5-mini-2025-08-07"
+
+:"gpt-5-nano-2025-08-07"
+
+:"gpt-5-chat-latest"
+
+:"gpt-4.1"
+
+:"gpt-4.1-mini"
+
+:"gpt-4.1-nano"
+
+:"gpt-4.1-2025-04-14"
+
+:"gpt-4.1-mini-2025-04-14"
+
+:"gpt-4.1-nano-2025-04-14"
+
+:"o4-mini"
+
+:"o4-mini-2025-04-16"
+
+:o3
+
+:"o3-2025-04-16"
+
+:"o3-mini"
+
+:"o3-mini-2025-01-31"
+
+:o1
+
+:"o1-2024-12-17"
+
+:"o1-preview"
+
+:"o1-preview-2024-09-12"
+
+:"o1-mini"
+
+:"o1-mini-2024-09-12"
+
+:"gpt-4o"
+
+:"gpt-4o-2024-11-20"
+
+:"gpt-4o-2024-08-06"
+
+:"gpt-4o-2024-05-13"
+
+:"gpt-4o-audio-preview"
+
+:"gpt-4o-audio-preview-2024-10-01"
+
+:"gpt-4o-audio-preview-2024-12-17"
+
+:"gpt-4o-audio-preview-2025-06-03"
+
+:"gpt-4o-mini-audio-preview"
+
+:"gpt-4o-mini-audio-preview-2024-12-17"
+
+:"gpt-4o-search-preview"
+
+:"gpt-4o-mini-search-preview"
+
+:"gpt-4o-search-preview-2025-03-11"
+
+:"gpt-4o-mini-search-preview-2025-03-11"
+
+:"chatgpt-4o-latest"
+
+:"codex-mini-latest"
+
+:"gpt-4o-mini"
+
+:"gpt-4o-mini-2024-07-18"
+
+:"gpt-4-turbo"
+
+:"gpt-4-turbo-2024-04-09"
+
+:"gpt-4-0125-preview"
+
+:"gpt-4-turbo-preview"
+
+:"gpt-4-1106-preview"
+
+:"gpt-4-vision-preview"
+
+:"gpt-4"
+
+:"gpt-4-0314"
+
+:"gpt-4-0613"
+
+:"gpt-4-32k"
+
+:"gpt-4-32k-0314"
+
+:"gpt-4-32k-0613"
+
+:"gpt-3.5-turbo"
+
+:"gpt-3.5-turbo-16k"
+
+:"gpt-3.5-turbo-0301"
+
+:"gpt-3.5-turbo-0613"
+
+:"gpt-3.5-turbo-1106"
+
+:"gpt-3.5-turbo-0125"
+
+:"gpt-3.5-turbo-16k-0613"
+
+:"o1-pro"
+
+:"o1-pro-2025-03-19"
+
+:"o3-pro"
+
+:"o3-pro-2025-06-10"
+
+:"o3-deep-research"
+
+:"o3-deep-research-2025-06-26"
+
+:"o4-mini-deep-research"
+
+:"o4-mini-deep-research-2025-06-26"
+
+:"computer-use-preview"
+
+:"computer-use-preview-2025-03-11"
+
+:"gpt-5-codex"
+
+:"gpt-5-pro"
+
+:"gpt-5-pro-2025-10-06"
+
+:"gpt-5.1-codex-max"
+
+String = String
+
+object: :response
+
+The object type of this resource - always set to `response`.
+
+output: Array[[BetaResponseOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_item%20%3E%20(schema))]
+
+An array of content items generated by the model.
+
+* The length and order of items in the `output` array is dependent
+  on the model’s response.
+* Rather than accessing the first item in the `output` array and
+  assuming it’s an `assistant` message with the content generated by
+  the model, you might consider using the `output_text` property where
+  supported in SDKs.
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the function call tool output.
+
+call\_id: String
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the function call generated by your code.
+
+String = String
+
+A string of the output of the function call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the function call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :function\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AgentMessage { id, author, content, 3 more }
+
+id: String
+
+The unique ID of the agent message.
+
+author: String
+
+content: Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | Text{ text, type} | 7 more]
+
+Encrypted content sent between agents.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class Text { text, type }
+
+A text content.
+
+text: String
+
+type: :text
+
+class SummaryText { text, type }
+
+A summary text from the model.
+
+text: String
+
+type: :summary\_text
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class ComputerScreenshot { detail, file\_id, image\_url, 2 more }
+
+A screenshot of a computer.
+
+detail: :low | :high | :auto | :original
+
+The detail level of the screenshot image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The type of the item. Always `agent_message`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { id, action, arguments, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action to execute.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The JSON string of arguments generated for the action.
+
+call\_id: String
+
+type: :multi\_agent\_call
+
+The type of the multi-agent call. Always `multi_agent_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { id, action, call\_id, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call output item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+output: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs } ]
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+type: :multi\_agent\_call\_output
+
+The type of the multi-agent result. Always `multi_agent_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the computer call tool output.
+
+call\_id: String
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+status: :completed | :incomplete | :failed | :in\_progress
+
+:completed
+
+:incomplete
+
+:failed
+
+:in\_progress
+
+type: :computer\_call\_output
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the
+developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of the program item.
+
+call\_id: String
+
+code: String
+
+fingerprint: String
+
+type: :program
+
+The type of the item. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of the program output item.
+
+call\_id: String
+
+result: String
+
+status: :completed | :incomplete
+
+The terminal status of the program output item.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The type of the item. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseToolSearchCall { id, arguments, call\_id, 5 more }
+
+id: String
+
+The unique ID of the tool search call item.
+
+arguments: untyped
+
+Arguments used for the tool search call.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :tool\_search\_call
+
+The type of the item. Always `tool_search_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseToolSearchOutputItem { id, call\_id, execution, 5 more }
+
+id: String
+
+The unique ID of the tool search output item.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by tool search.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The type of the item. Always `tool_search_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AdditionalTools { id, role, tools, 2 more }
+
+id: String
+
+The unique ID of the additional tools item.
+
+role: :unknown | :user | :assistant | 5 more
+
+The role that provided the additional tools.
+
+:unknown
+
+:user
+
+:assistant
+
+:system
+
+:critic
+
+:discriminator
+
+:developer
+
+:tool
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The additional tool definitions made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The type of the item. Always `additional_tools`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCompactionItem { id, encrypted\_content, type, 2 more }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+id: String
+
+The unique ID of the compaction item.
+
+encrypted\_content: String
+
+The encrypted content that was produced by compaction.
+
+type: :compaction
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionShellToolCall { id, action, call\_id, 6 more }
+
+A tool call that executes one or more shell commands in a managed environment.
+
+id: String
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+max\_output\_length: Integer
+
+Optional maximum number of characters to return from each command.
+
+timeout\_ms: Integer
+
+Optional timeout in milliseconds for the commands.
+
+call\_id: String
+
+environment: [BetaResponseLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_local_environment%20%3E%20(schema)) { type }  | [BetaResponseContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_container_reference%20%3E%20(schema)) { container\_id, type }
+
+Represents the use of a local environment to perform shell actions.
+
+class BetaResponseLocalEnvironment { type }
+
+Represents the use of a local environment to perform shell actions.
+
+type: :local
+
+The environment type. Always `local`.
+
+class BetaResponseContainerReference { container\_id, type }
+
+Represents a container created with /v1/containers.
+
+container\_id: String
+
+type: :container\_reference
+
+The environment type. Always `container_reference`.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseFunctionShellToolCallOutput { id, call\_id, max\_output\_length, 6 more }
+
+The output of a shell tool call that was emitted.
+
+id: String
+
+The unique ID of the shell call output. Populated when this item is returned via API.
+
+call\_id: String
+
+max\_output\_length: Integer
+
+The maximum length of the shell command output. This is generated by the model and should be passed back with the raw output.
+
+output: Array[Output{ outcome, stderr, stdout, created\_by}]
+
+An array of shell call output contents
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+Represents either an exit outcome (with an exit code) or a timeout outcome for a shell call output chunk.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+Exit code from the shell process.
+
+type: :exit
+
+stderr: String
+
+The standard error output that was captured.
+
+stdout: String
+
+The standard output that was captured.
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call\_output
+
+The type of the shell call output. Always `shell_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseApplyPatchToolCall { id, call\_id, operation, 5 more }
+
+A tool call that applies file diffs by creating, deleting, or updating files.
+
+id: String
+
+call\_id: String
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+One of the create\_file, delete\_file, or update\_file operations applied via apply\_patch.
+
+class CreateFile { diff, path, type }
+
+Instruction describing how to create a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to create.
+
+type: :create\_file
+
+Create a new file with the provided diff.
+
+class DeleteFile { path, type }
+
+Instruction describing how to delete a file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete.
+
+type: :delete\_file
+
+Delete the specified file.
+
+class UpdateFile { diff, path, type }
+
+Instruction describing how to update a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to update.
+
+type: :update\_file
+
+Update an existing file with the provided diff.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseApplyPatchToolCallOutput { id, call\_id, status, 5 more }
+
+The output emitted by an apply patch tool call.
+
+id: String
+
+call\_id: String
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call output.
+
+output: String
+
+Optional textual output returned by the apply patch tool.
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { id, approval\_request\_id, approve, 3 more }
+
+A response to an MCP approval request.
+
+id: String
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class BetaResponseCustomToolCallOutputItem { id, status, created\_by }
+
+id: String
+
+The unique ID of the custom tool call output item.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+parallel\_tool\_calls: bool
+
+Whether to allow the model to run tool calls in parallel.
+
+temperature: Float
+
+What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
+We generally recommend altering this or `top_p` but not both.
+
+minimum0
+
+maximum2
+
+tool\_choice: [BetaToolChoiceOptions](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_options%20%3E%20(schema)) | [BetaToolChoiceAllowed](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_allowed%20%3E%20(schema)) { mode, tools, type }  | [BetaToolChoiceTypes](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_types%20%3E%20(schema)) { type }  | 6 more
+
+How the model should select which tool (or tools) to use when generating
+a response. See the `tools` parameter to see how to specify which tools
+the model can call.
+
+BetaToolChoiceOptions = :none | :auto | :required
+
+Controls which (if any) tool is called by the model.
+
+`none` means the model will not call any tool and instead generates a message.
+
+`auto` means the model can pick between generating a message or calling one or
+more tools.
+
+`required` means the model must call one or more tools.
+
+:none
+
+:auto
+
+:required
+
+class BetaToolChoiceAllowed { mode, tools, type }
+
+Constrains the tools available to the model to a pre-defined set.
+
+mode: :auto | :required
+
+Constrains the tools available to the model to a pre-defined set.
+
+`auto` allows the model to pick from among the allowed tools and generate a
+message.
+
+`required` requires the model to call one or more of the allowed tools.
+
+:auto
+
+:required
+
+tools: Array[Hash[Symbol, untyped]]
+
+A list of tool definitions that the model should be allowed to call.
+
+For the Responses API, the list of tool definitions might look like:
+
+  { "type": "function", "name": "get_weather" },
+  { "type": "mcp", "server_label": "deepwiki" },
+  { "type": "image_generation" }
+
+type: :allowed\_tools
+
+Allowed tool configuration type. Always `allowed_tools`.
+
+class BetaToolChoiceTypes { type }
+
+Indicates that the model should use a built-in tool to generate a response.
+[Learn more about built-in tools](https://platform.openai.com/docs/guides/tools).
+
+type: :file\_search | :web\_search\_preview | :computer | 5 more
+
+The type of hosted tool the model should to use. Learn more about
+[built-in tools](https://platform.openai.com/docs/guides/tools).
+
+Allowed values are:
+
+* `file_search`
+* `web_search_preview`
+* `computer`
+* `computer_use_preview`
+* `computer_use`
+* `code_interpreter`
+* `image_generation`
+
+:file\_search
+
+:web\_search\_preview
+
+:computer
+
+:computer\_use\_preview
+
+:computer\_use
+
+:web\_search\_preview\_2025\_03\_11
+
+:image\_generation
+
+:code\_interpreter
+
+class BetaToolChoiceFunction { name, type }
+
+Use this option to force the model to call a specific function.
+
+name: String
+
+type: :function
+
+For function calling, the type is always `function`.
+
+class BetaToolChoiceMcp { server\_label, type, name }
+
+Use this option to force the model to call a specific tool on a remote MCP server.
+
+server\_label: String
+
+The label of the MCP server to use.
+
+type: :mcp
+
+For MCP tools, the type is always `mcp`.
+
+name: String
+
+The name of the tool to call on the server.
+
+class BetaToolChoiceCustom { name, type }
+
+Use this option to force the model to call a specific custom tool.
+
+name: String
+
+The name of the custom tool to call.
+
+type: :custom
+
+For custom tool calling, the type is always `custom`.
+
+class BetaSpecificProgrammaticToolCallingParam { type }
+
+type: :programmatic\_tool\_calling
+
+The tool to call. Always `programmatic_tool_calling`.
+
+class BetaToolChoiceApplyPatch { type }
+
+Forces the model to call the apply\_patch tool when executing a tool call.
+
+type: :apply\_patch
+
+The tool to call. Always `apply_patch`.
+
+class BetaToolChoiceShell { type }
+
+Forces the model to call the shell tool when a tool call is required.
+
+type: :shell
+
+The tool to call. Always `shell`.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+An array of tools the model may call while generating a response. You
+can specify which tool to use by setting the `tool_choice` parameter.
+
+We support the following categories of tools:
+
+* **Built-in tools**: Tools that are provided by OpenAI that extend the
+  model’s capabilities, like [web search](https://platform.openai.com/docs/guides/tools-web-search)
+  or [file search](https://platform.openai.com/docs/guides/tools-file-search). Learn more about
+  [built-in tools](https://platform.openai.com/docs/guides/tools).
+* **MCP Tools**: Integrations with third-party systems via custom MCP servers
+  or predefined connectors such as Google Drive and SharePoint. Learn more about
+  [MCP Tools](https://platform.openai.com/docs/guides/tools-connectors-mcp).
+* **Function calls (custom tools)**: Functions that are defined by you,
+  enabling the model to call your own code with strongly typed arguments
+  and outputs. Learn more about
+  [function calling](https://platform.openai.com/docs/guides/function-calling). You can also use
+  custom tools to call your own code.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+top\_p: Float
+
+An alternative to sampling with temperature, called nucleus sampling,
+where the model considers the results of the tokens with top\_p probability
+mass. So 0.1 means only the tokens comprising the top 10% probability mass
+are considered.
+
+We generally recommend altering this or `temperature` but not both.
+
+minimum0
+
+maximum1
+
+background: bool
+
+Whether to run the model response in the background.
+[Learn more](https://platform.openai.com/docs/guides/background).
+
+completed\_at: Float
+
+Unix timestamp (in seconds) of when this Response was completed.
+Only present when the status is `completed`.
+
+formatunixtime
+
+conversation: Conversation{ id}
+
+The conversation that this response belonged to. Input items and output items from this response were automatically added to this conversation.
+
+id: String
+
+The unique ID of the conversation that this response was associated with.
+
+max\_output\_tokens: Integer
+
+An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](https://platform.openai.com/docs/guides/reasoning).
+
+max\_tool\_calls: Integer
+
+The maximum number of total calls to built-in tools that can be processed in a response. This maximum number applies across all built-in tool calls, not per individual tool. Any further attempts to call a tool by the model will be ignored.
+
+moderation: Moderation{ input, output}
+
+Moderation results for the response input and output, if moderated completions were requested.
+
+input: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response input.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+output: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response output.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+previous\_response\_id: String
+
+The unique ID of the previous response to the model. Use this to
+create multi-turn conversations. Learn more about
+[conversation state](https://platform.openai.com/docs/guides/conversation-state). Cannot be used in conjunction with `conversation`.
+
+prompt: [BetaResponsePrompt](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_prompt%20%3E%20(schema)) { id, variables, version }
+
+Reference to a prompt template and its variables.
+[Learn more](https://platform.openai.com/docs/guides/text?api-mode=responses#reusable-prompts).
+
+id: String
+
+The unique identifier of the prompt template to use.
+
+variables: Hash[Symbol, String | [BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Optional map of values to substitute in for variables in your
+prompt. The substitution values can either be strings, or other
+Response input types like images or files.
+
+String = String
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+version: String
+
+Optional version of the prompt template.
+
+prompt\_cache\_key: String
+
+Used by OpenAI to cache responses for similar requests to optimize your cache hit rates. Replaces the `user` field. [Learn more](https://platform.openai.com/docs/guides/prompt-caching).
+
+prompt\_cache\_options: PromptCacheOptions{ mode, ttl}
+
+The prompt-caching options that were applied to the response. Supported for `gpt-5.6` and later models.
+
+mode: :implicit | :explicit
+
+Whether implicit prompt-cache breakpoints were enabled.
+
+:implicit
+
+:explicit
+
+ttl: :"30m"
+
+The minimum lifetime applied to each cache breakpoint.
+
+Deprecatedprompt\_cache\_retention: :in\_memory | :"24h"
+
+Deprecated. Use `prompt_cache_options.ttl` instead.
+
+The retention policy for the prompt cache. Set to `24h` to enable extended prompt caching, which keeps cached prefixes active for longer, up to a maximum of 24 hours. [Learn more](https://platform.openai.com/docs/guides/prompt-caching#prompt-cache-retention).
+This field expresses a maximum retention policy, while
+`prompt_cache_options.ttl` expresses a minimum cache lifetime. The two
+fields are independent and do not interact.
+For `gpt-5.5`, `gpt-5.5-pro`, and future models, only `24h` is supported.
+
+For older models that support both `in_memory` and `24h`, the default depends on your organization’s data retention policy:
+
+* Organizations without ZDR enabled default to `24h`.
+* Organizations with ZDR enabled default to `in_memory` when `prompt_cache_retention` is not specified.
+
+:in\_memory
+
+:"24h"
+
+reasoning: Reasoning{ context, effort, generate\_summary, 2 more}
+
+**gpt-5 and o-series models only**
+
+Configuration options for
+[reasoning models](https://platform.openai.com/docs/guides/reasoning).
+
+context: :auto | :current\_turn | :all\_turns
+
+Controls which reasoning items are rendered back to the model on later turns.
+When returned on a response, this is the effective reasoning context mode
+used for the response.
+
+:auto
+
+:current\_turn
+
+:all\_turns
+
+effort: :none | :minimal | :low | 4 more
+
+Constrains effort on reasoning for reasoning models. Currently supported
+values are `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, and `max`.
+Reducing reasoning effort can result in faster responses and fewer tokens
+used on reasoning in a response. Not all reasoning models support every
+value. See the
+[reasoning guide](https://platform.openai.com/docs/guides/reasoning)
+for model-specific support.
+
+:none
+
+:minimal
+
+:low
+
+:medium
+
+:high
+
+:xhigh
+
+:max
+
+Deprecatedgenerate\_summary: :auto | :concise | :detailed
+
+**Deprecated:** use `summary` instead.
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+:auto
+
+:concise
+
+:detailed
+
+mode: String | :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+String = String
+
+Mode = :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+:standard
+
+:pro
+
+summary: :auto | :concise | :detailed
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+`concise` is supported for `computer-use-preview` models and all reasoning models after `gpt-5`.
+
+:auto
+
+:concise
+
+:detailed
+
+safety\_identifier: String
+
+A stable identifier used to help detect users of your application that may be violating OpenAI’s usage policies.
+The IDs should be a string that uniquely identifies each user, with a maximum length of 64 characters. We recommend hashing their username or email address, in order to avoid sending us any identifying information. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+maxLength64
+
+service\_tier: :auto | :default | :flex | 2 more
+
+Specifies the processing type used for serving the request.
+
+* If set to ‘auto’, then the request will be processed with the service tier configured in the Project settings. Unless otherwise configured, the Project will use ‘default’.
+* If set to ‘default’, then the request will be processed with the standard pricing and performance for the selected model.
+* If set to ‘[flex](https://platform.openai.com/docs/guides/flex-processing)’ or ‘[priority](https://openai.com/api-priority-processing/)’, then the request will be processed with the corresponding service tier.
+* When not set, the default behavior is ‘auto’.
+
+When the `service_tier` parameter is set, the response body will include the `service_tier` value based on the processing mode actually used to serve the request. This response value may be different from the value set in the parameter.
+
+:auto
+
+:default
+
+:flex
+
+:scale
+
+:priority
+
+status: [BetaResponseStatus](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_status%20%3E%20(schema))
+
+The status of the response generation. One of `completed`, `failed`,
+`in_progress`, `cancelled`, `queued`, or `incomplete`.
+
+:completed
+
+:failed
+
+:in\_progress
+
+:cancelled
+
+:queued
+
+:incomplete
+
+text: [BetaResponseTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_text_config%20%3E%20(schema)) { format\_, verbosity }
+
+Configuration options for a text response from the model. Can be plain
+text or structured JSON data. Learn more:
+
+* [Text inputs and outputs](https://platform.openai.com/docs/guides/text)
+* [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs)
+
+format\_: [BetaResponseFormatTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_format_text_config%20%3E%20(schema))
+
+An object specifying the format that the model must output.
+
+Configuring `{ "type": "json_schema" }` enables Structured Outputs,
+which ensures the model will match your supplied JSON schema. Learn more in the
+[Structured Outputs guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+The default format is `{ "type": "text" }` with no additional options.
+
+**Not recommended for gpt-4o and newer models:**
+
+Setting to `{ "type": "json_object" }` enables the older JSON mode, which
+ensures the message the model generates is valid JSON. Using `json_schema`
+is preferred for models that support it.
+
+class Text { type }
+
+Default response format. Used to generate text responses.
+
+type: :text
+
+The type of response format being defined. Always `text`.
+
+class BetaResponseFormatTextJSONSchemaConfig { name, schema, type, 2 more }
+
+JSON Schema response format. Used to generate structured JSON responses.
+Learn more about [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs).
+
+name: String
+
+The name of the response format. Must be a-z, A-Z, 0-9, or contain
+underscores and dashes, with a maximum length of 64.
+
+schema: Hash[Symbol, untyped]
+
+The schema for the response format, described as a JSON Schema object.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+type: :json\_schema
+
+The type of response format being defined. Always `json_schema`.
+
+description: String
+
+A description of what the response format is for, used by the model to
+determine how to respond in the format.
+
+strict: bool
+
+Whether to enable strict schema adherence when generating the output.
+If set to true, the model will always follow the exact schema defined
+in the `schema` field. Only a subset of JSON Schema is supported when
+`strict` is `true`. To learn more, read the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+class JSONObject { type }
+
+JSON object response format. An older method of generating JSON responses.
+Using `json_schema` is recommended for models that support it. Note that the
+model will not generate JSON without a system or user message instructing it
+to do so.
+
+type: :json\_object
+
+The type of response format being defined. Always `json_object`.
+
+verbosity: :low | :medium | :high
+
+Constrains the verbosity of the model’s response. Lower values will result in
+more concise responses, while higher values will result in more verbose responses.
+Currently supported values are `low`, `medium`, and `high`.
+
+:low
+
+:medium
+
+:high
+
+top\_logprobs: Integer
+
+An integer between 0 and 20 specifying the maximum number of most likely
+tokens to return at each token position, each with an associated log
+probability. In some cases, the number of returned tokens may be fewer than
+requested.
+
+minimum0
+
+maximum20
+
+truncation: :auto | :disabled
+
+The truncation strategy to use for the model response.
+
+* `auto`: If the input to this Response exceeds
+  the model’s context window size, the model will truncate the
+  response to fit the context window by dropping items from the beginning of the conversation.
+* `disabled` (default): If the input size will exceed the context window
+  size for a model, the request will fail with a 400 error.
+
+:auto
+
+:disabled
+
+usage: [BetaResponseUsage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_usage%20%3E%20(schema)) { input\_tokens, input\_tokens\_details, output\_tokens, 2 more }
+
+Represents token usage details including input tokens, output tokens,
+a breakdown of output tokens, and the total tokens used.
+
+input\_tokens: Integer
+
+The number of input tokens.
+
+input\_tokens\_details: InputTokensDetails{ cache\_write\_tokens, cached\_tokens}
+
+A detailed breakdown of the input tokens.
+
+cache\_write\_tokens: Integer
+
+The number of input tokens that were written to the cache.
+
+cached\_tokens: Integer
+
+The number of tokens that were retrieved from the cache.
+[More on prompt caching](https://platform.openai.com/docs/guides/prompt-caching).
+
+output\_tokens: Integer
+
+The number of output tokens.
+
+output\_tokens\_details: OutputTokensDetails{ reasoning\_tokens}
+
+A detailed breakdown of the output tokens.
+
+reasoning\_tokens: Integer
+
+The number of reasoning tokens.
+
+total\_tokens: Integer
+
+The total number of tokens used.
+
+Deprecateduser: String
+
+This field is being replaced by `safety_identifier` and `prompt_cache_key`. Use `prompt_cache_key` instead to maintain caching optimizations.
+A stable identifier for your end-users.
+Used to boost cache hit rates by better bucketing similar requests and to help OpenAI detect and prevent abuse. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+BetaResponseStreamEvent = [BetaResponseAudioDeltaEvent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_audio_delta_event%20%3E%20(schema)) { delta, sequence\_number, type, agent }  | [BetaResponseAudioDoneEvent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_audio_done_event%20%3E%20(schema)) { sequence\_number, type, agent }  | [BetaResponseAudioTranscriptDeltaEvent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_audio_transcript_delta_event%20%3E%20(schema)) { delta, sequence\_number, type, agent }  | 50 more
+
+Emitted when there is a partial audio response.
+
+class BetaResponseAudioDeltaEvent { delta, sequence\_number, type, agent }
+
+Emitted when there is a partial audio response.
+
+delta: String
+
+A chunk of Base64 encoded response audio bytes.
+
+sequence\_number: Integer
+
+A sequence number for this chunk of the stream response.
+
+type: :"response.audio.delta"
+
+The type of the event. Always `response.audio.delta`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseAudioDoneEvent { sequence\_number, type, agent }
+
+Emitted when the audio response is complete.
+
+sequence\_number: Integer
+
+The sequence number of the delta.
+
+type: :"response.audio.done"
+
+The type of the event. Always `response.audio.done`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseAudioTranscriptDeltaEvent { delta, sequence\_number, type, agent }
+
+Emitted when there is a partial transcript of audio.
+
+delta: String
+
+The partial transcript of the audio response.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.audio.transcript.delta"
+
+The type of the event. Always `response.audio.transcript.delta`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseAudioTranscriptDoneEvent { sequence\_number, type, agent }
+
+Emitted when the full audio transcript is completed.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.audio.transcript.done"
+
+The type of the event. Always `response.audio.transcript.done`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterCallCodeDeltaEvent { delta, item\_id, output\_index, 3 more }
+
+Emitted when a partial code snippet is streamed by the code interpreter.
+
+delta: String
+
+The partial code snippet being streamed by the code interpreter.
+
+item\_id: String
+
+The unique identifier of the code interpreter tool call item.
+
+output\_index: Integer
+
+The index of the output item in the response for which the code is being streamed.
+
+sequence\_number: Integer
+
+The sequence number of this event, used to order streaming events.
+
+type: :"response.code\_interpreter\_call\_code.delta"
+
+The type of the event. Always `response.code_interpreter_call_code.delta`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterCallCodeDoneEvent { code, item\_id, output\_index, 3 more }
+
+Emitted when the code snippet is finalized by the code interpreter.
+
+code: String
+
+The final code snippet output by the code interpreter.
+
+item\_id: String
+
+The unique identifier of the code interpreter tool call item.
+
+output\_index: Integer
+
+The index of the output item in the response for which the code is finalized.
+
+sequence\_number: Integer
+
+The sequence number of this event, used to order streaming events.
+
+type: :"response.code\_interpreter\_call\_code.done"
+
+The type of the event. Always `response.code_interpreter_call_code.done`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterCallCompletedEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when the code interpreter call is completed.
+
+item\_id: String
+
+The unique identifier of the code interpreter tool call item.
+
+output\_index: Integer
+
+The index of the output item in the response for which the code interpreter call is completed.
+
+sequence\_number: Integer
+
+The sequence number of this event, used to order streaming events.
+
+type: :"response.code\_interpreter\_call.completed"
+
+The type of the event. Always `response.code_interpreter_call.completed`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterCallInProgressEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when a code interpreter call is in progress.
+
+item\_id: String
+
+The unique identifier of the code interpreter tool call item.
+
+output\_index: Integer
+
+The index of the output item in the response for which the code interpreter call is in progress.
+
+sequence\_number: Integer
+
+The sequence number of this event, used to order streaming events.
+
+type: :"response.code\_interpreter\_call.in\_progress"
+
+The type of the event. Always `response.code_interpreter_call.in_progress`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterCallInterpretingEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when the code interpreter is actively interpreting the code snippet.
+
+item\_id: String
+
+The unique identifier of the code interpreter tool call item.
+
+output\_index: Integer
+
+The index of the output item in the response for which the code interpreter is interpreting code.
+
+sequence\_number: Integer
+
+The sequence number of this event, used to order streaming events.
+
+type: :"response.code\_interpreter\_call.interpreting"
+
+The type of the event. Always `response.code_interpreter_call.interpreting`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCompletedEvent { response, sequence\_number, type, agent }
+
+Emitted when the model response is complete.
+
+response: [BetaResponse](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response%20%3E%20(schema)) { id, created\_at, error, 31 more }
+
+Properties of the completed response.
+
+id: String
+
+Unique identifier for this Response.
+
+created\_at: Float
+
+Unix timestamp (in seconds) of when this Response was created.
+
+formatunixtime
+
+error: [BetaResponseError](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_error%20%3E%20(schema)) { code, message }
+
+An error object returned when the model fails to generate a Response.
+
+code: :server\_error | :rate\_limit\_exceeded | :invalid\_prompt | 16 more
+
+The error code for the response.
+
+:server\_error
+
+:rate\_limit\_exceeded
+
+:invalid\_prompt
+
+:bio\_policy
+
+:vector\_store\_timeout
+
+:invalid\_image
+
+:invalid\_image\_format
+
+:invalid\_base64\_image
+
+:invalid\_image\_url
+
+:image\_too\_large
+
+:image\_too\_small
+
+:image\_parse\_error
+
+:image\_content\_policy\_violation
+
+:invalid\_image\_mode
+
+:image\_file\_too\_large
+
+:unsupported\_image\_media\_type
+
+:empty\_image\_file
+
+:failed\_to\_download\_image
+
+:image\_file\_not\_found
+
+message: String
+
+A human-readable description of the error.
+
+incomplete\_details: IncompleteDetails{ reason}
+
+Details about why the response is incomplete.
+
+reason: :max\_output\_tokens | :content\_filter
+
+The reason why the response is incomplete.
+
+:max\_output\_tokens
+
+:content\_filter
+
+instructions: String | Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A system (or developer) message inserted into the model’s context.
+
+When using along with `previous_response_id`, the instructions from a previous
+response will not be carried over to the next response. This makes it simple
+to swap out system (or developer) messages in new responses.
+
+String = String
+
+A text input to the model, equivalent to a text input with the
+`developer` role.
+
+InputItemList = Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A list of one or many input items to the model, containing
+different content types.
+
+class BetaEasyInputMessage { content, role, phase, type }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+content: String | [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+String = String
+
+BetaResponseInputMessageContentList = Array[[BetaResponseInputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_content%20%3E%20(schema))]
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :assistant | :system | :developer
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+:user
+
+:assistant
+
+:system
+
+:developer
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+type: :message
+
+The type of the message input. Always `message`.
+
+class Message { content, role, agent, 2 more }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role.
+
+content: [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :system | :developer
+
+:user
+
+:system
+
+:developer
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ComputerCallOutput { call\_id, output, type, 4 more }
+
+The output of a computer tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_call\_output
+
+id: String
+
+The ID of the computer tool call output.
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the message input. One of `in_progress`, `completed`, or `incomplete`. Populated when input items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class FunctionCallOutput { call\_id, output, type, 4 more }
+
+The output of a function tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: String | [BetaResponseFunctionCallOutputItemList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or file output of the function tool call.
+
+String = String
+
+A JSON string of the output of the function tool call.
+
+BetaResponseFunctionCallOutputItemList = Array[[BetaResponseFunctionCallOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item%20%3E%20(schema))]
+
+An array of content outputs (text, image, file) for the function tool call.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFileContent { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+The base64-encoded data of the file to be sent to the model.
+
+maxLength73400320
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :function\_call\_output
+
+id: String
+
+The unique ID of the function tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`. Populated when items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AgentMessage { author, content, recipient, 3 more }
+
+A message routed between agents.
+
+author: String
+
+content: Array[[BetaResponseInputTextContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text_content%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImageContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image_content%20%3E%20(schema)) { type, detail, file\_id, 2 more }  | EncryptedContent{ encrypted\_content, type}]
+
+Plaintext, image, or encrypted content sent between agents.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+maxLength10485760
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The item type. Always `agent_message`.
+
+id: String
+
+The unique ID of this agent message item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { action, arguments, call\_id, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action that was executed.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The action arguments as a JSON string.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :multi\_agent\_call
+
+The item type. Always `multi_agent_call`.
+
+id: String
+
+The unique ID of this multi-agent call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { action, call\_id, output, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[Output{ text, type, annotations}]
+
+text: String
+
+The text content.
+
+maxLength10485760
+
+type: :output\_text
+
+The content type. Always `output_text`.
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more}]
+
+Citations associated with the text content.
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+minimum0
+
+type: :file\_citation
+
+The citation type. Always `file_citation`.
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+title: String
+
+The title of the cited resource.
+
+type: :url\_citation
+
+The citation type. Always `url_citation`.
+
+url: String
+
+The URL of the cited resource.
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+The ID of the container.
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+type: :container\_file\_citation
+
+The citation type. Always `container_file_citation`.
+
+type: :multi\_agent\_call\_output
+
+The item type. Always `multi_agent_call_output`.
+
+id: String
+
+The unique ID of this multi-agent call output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ToolSearchCall { arguments, type, id, 4 more }
+
+arguments: untyped
+
+The arguments supplied to the tool search call.
+
+type: :tool\_search\_call
+
+The item type. Always `tool_search_call`.
+
+id: String
+
+The unique ID of this tool search call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseToolSearchOutputItemParam { tools, type, id, 4 more }
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by the tool search output.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The item type. Always `tool_search_output`.
+
+id: String
+
+The unique ID of this tool search output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AdditionalTools { role, tools, type, 2 more }
+
+role: :developer
+
+The role that provided the additional tools. Only `developer` is supported.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+A list of additional tools made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The item type. Always `additional_tools`.
+
+id: String
+
+The unique ID of this additional tools item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseCompactionItemParam { encrypted\_content, type, id, agent }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+encrypted\_content: String
+
+The encrypted content of the compaction summary.
+
+maxLength10485760
+
+type: :compaction
+
+id: String
+
+The ID of the compaction item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCall { action, call\_id, type, 5 more }
+
+A tool representing a request to execute one or more shell commands.
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+Ordered shell commands for the execution environment to run.
+
+max\_output\_length: Integer
+
+Maximum number of UTF-8 characters to capture from combined stdout and stderr output.
+
+timeout\_ms: Integer
+
+Maximum wall-clock time in milliseconds to allow the shell commands to run.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :shell\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+environment: [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+The environment to execute the shell commands in.
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCallOutput { call\_id, output, type, 5 more }
+
+The streamed output items emitted by a shell tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[[BetaResponseFunctionShellCallOutputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_shell_call_output_content%20%3E%20(schema)) { outcome, stderr, stdout } ]
+
+Captured chunks of stdout and stderr output, along with their associated outcomes.
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+The exit or timeout outcome associated with this shell call.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+The exit code returned by the shell process.
+
+type: :exit
+
+stderr: String
+
+Captured stderr output for the shell call.
+
+maxLength10485760
+
+stdout: String
+
+Captured stdout output for the shell call.
+
+maxLength10485760
+
+type: :shell\_call\_output
+
+The type of the item. Always `shell_call_output`.
+
+id: String
+
+The unique ID of the shell tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+max\_output\_length: Integer
+
+The maximum number of UTF-8 characters captured for this shell call’s combined output.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ApplyPatchCall { call\_id, operation, status, 4 more }
+
+A tool call representing a request to create, delete, or update files using diff patches.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+The specific create, delete, or update instruction for the apply\_patch tool call.
+
+class CreateFile { diff, path, type }
+
+Instruction for creating a new file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply when creating the file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to create relative to the workspace root.
+
+minLength1
+
+type: :create\_file
+
+The operation type. Always `create_file`.
+
+class DeleteFile { path, type }
+
+Instruction for deleting an existing file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete relative to the workspace root.
+
+minLength1
+
+type: :delete\_file
+
+The operation type. Always `delete_file`.
+
+class UpdateFile { diff, path, type }
+
+Instruction for updating an existing file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply to the existing file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to update relative to the workspace root.
+
+minLength1
+
+type: :update\_file
+
+The operation type. Always `update_file`.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class ApplyPatchCallOutput { call\_id, status, type, 4 more }
+
+The streamed output emitted by an apply patch tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+output: String
+
+Optional human-readable log text from the apply patch tool (e.g., patch results or errors).
+
+maxLength10485760
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { approval\_request\_id, approve, type, 3 more }
+
+A response to an MCP approval request.
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class BetaResponseCustomToolCallOutput { call\_id, output, type, 3 more }
+
+call\_id: String
+
+The call ID, used to map this custom tool call output to a custom tool call.
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the custom tool call generated by your code.
+
+String = String
+
+A string of the output of the custom tool call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the custom tool call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :custom\_tool\_call\_output
+
+The type of the custom tool call output. Always `custom_tool_call_output`.
+
+id: String
+
+The unique ID of the custom tool call output in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class CompactionTrigger { type, agent }
+
+Compacts the current context. Must be the final input item.
+
+type: :compaction\_trigger
+
+The type of the item. Always `compaction_trigger`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ItemReference { id, agent, type }
+
+An internal identifier for an item to reference.
+
+id: String
+
+The ID of the item to reference.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+type: :item\_reference
+
+The type of item to reference. Always `item_reference`.
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of this program item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+code: String
+
+maxLength10485760
+
+fingerprint: String
+
+maxLength10485760
+
+type: :program
+
+The item type. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of this program output item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+result: String
+
+maxLength10485760
+
+status: :completed | :incomplete
+
+The terminal status of the program output.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The item type. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+metadata: Hash[Symbol, String]
+
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+model: :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more | String
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+Model = :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+:"gpt-5.6-sol"
+
+:"gpt-5.6-terra"
+
+:"gpt-5.6-luna"
+
+:"gpt-5.4"
+
+:"gpt-5.4-mini"
+
+:"gpt-5.4-nano"
+
+:"gpt-5.4-mini-2026-03-17"
+
+:"gpt-5.4-nano-2026-03-17"
+
+:"gpt-5.3-chat-latest"
+
+:"gpt-5.2"
+
+:"gpt-5.2-2025-12-11"
+
+:"gpt-5.2-chat-latest"
+
+:"gpt-5.2-pro"
+
+:"gpt-5.2-pro-2025-12-11"
+
+:"gpt-5.1"
+
+:"gpt-5.1-2025-11-13"
+
+:"gpt-5.1-codex"
+
+:"gpt-5.1-mini"
+
+:"gpt-5.1-chat-latest"
+
+:"gpt-5"
+
+:"gpt-5-mini"
+
+:"gpt-5-nano"
+
+:"gpt-5-2025-08-07"
+
+:"gpt-5-mini-2025-08-07"
+
+:"gpt-5-nano-2025-08-07"
+
+:"gpt-5-chat-latest"
+
+:"gpt-4.1"
+
+:"gpt-4.1-mini"
+
+:"gpt-4.1-nano"
+
+:"gpt-4.1-2025-04-14"
+
+:"gpt-4.1-mini-2025-04-14"
+
+:"gpt-4.1-nano-2025-04-14"
+
+:"o4-mini"
+
+:"o4-mini-2025-04-16"
+
+:o3
+
+:"o3-2025-04-16"
+
+:"o3-mini"
+
+:"o3-mini-2025-01-31"
+
+:o1
+
+:"o1-2024-12-17"
+
+:"o1-preview"
+
+:"o1-preview-2024-09-12"
+
+:"o1-mini"
+
+:"o1-mini-2024-09-12"
+
+:"gpt-4o"
+
+:"gpt-4o-2024-11-20"
+
+:"gpt-4o-2024-08-06"
+
+:"gpt-4o-2024-05-13"
+
+:"gpt-4o-audio-preview"
+
+:"gpt-4o-audio-preview-2024-10-01"
+
+:"gpt-4o-audio-preview-2024-12-17"
+
+:"gpt-4o-audio-preview-2025-06-03"
+
+:"gpt-4o-mini-audio-preview"
+
+:"gpt-4o-mini-audio-preview-2024-12-17"
+
+:"gpt-4o-search-preview"
+
+:"gpt-4o-mini-search-preview"
+
+:"gpt-4o-search-preview-2025-03-11"
+
+:"gpt-4o-mini-search-preview-2025-03-11"
+
+:"chatgpt-4o-latest"
+
+:"codex-mini-latest"
+
+:"gpt-4o-mini"
+
+:"gpt-4o-mini-2024-07-18"
+
+:"gpt-4-turbo"
+
+:"gpt-4-turbo-2024-04-09"
+
+:"gpt-4-0125-preview"
+
+:"gpt-4-turbo-preview"
+
+:"gpt-4-1106-preview"
+
+:"gpt-4-vision-preview"
+
+:"gpt-4"
+
+:"gpt-4-0314"
+
+:"gpt-4-0613"
+
+:"gpt-4-32k"
+
+:"gpt-4-32k-0314"
+
+:"gpt-4-32k-0613"
+
+:"gpt-3.5-turbo"
+
+:"gpt-3.5-turbo-16k"
+
+:"gpt-3.5-turbo-0301"
+
+:"gpt-3.5-turbo-0613"
+
+:"gpt-3.5-turbo-1106"
+
+:"gpt-3.5-turbo-0125"
+
+:"gpt-3.5-turbo-16k-0613"
+
+:"o1-pro"
+
+:"o1-pro-2025-03-19"
+
+:"o3-pro"
+
+:"o3-pro-2025-06-10"
+
+:"o3-deep-research"
+
+:"o3-deep-research-2025-06-26"
+
+:"o4-mini-deep-research"
+
+:"o4-mini-deep-research-2025-06-26"
+
+:"computer-use-preview"
+
+:"computer-use-preview-2025-03-11"
+
+:"gpt-5-codex"
+
+:"gpt-5-pro"
+
+:"gpt-5-pro-2025-10-06"
+
+:"gpt-5.1-codex-max"
+
+String = String
+
+object: :response
+
+The object type of this resource - always set to `response`.
+
+output: Array[[BetaResponseOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_item%20%3E%20(schema))]
+
+An array of content items generated by the model.
+
+* The length and order of items in the `output` array is dependent
+  on the model’s response.
+* Rather than accessing the first item in the `output` array and
+  assuming it’s an `assistant` message with the content generated by
+  the model, you might consider using the `output_text` property where
+  supported in SDKs.
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the function call tool output.
+
+call\_id: String
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the function call generated by your code.
+
+String = String
+
+A string of the output of the function call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the function call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :function\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AgentMessage { id, author, content, 3 more }
+
+id: String
+
+The unique ID of the agent message.
+
+author: String
+
+content: Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | Text{ text, type} | 7 more]
+
+Encrypted content sent between agents.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class Text { text, type }
+
+A text content.
+
+text: String
+
+type: :text
+
+class SummaryText { text, type }
+
+A summary text from the model.
+
+text: String
+
+type: :summary\_text
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class ComputerScreenshot { detail, file\_id, image\_url, 2 more }
+
+A screenshot of a computer.
+
+detail: :low | :high | :auto | :original
+
+The detail level of the screenshot image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The type of the item. Always `agent_message`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { id, action, arguments, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action to execute.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The JSON string of arguments generated for the action.
+
+call\_id: String
+
+type: :multi\_agent\_call
+
+The type of the multi-agent call. Always `multi_agent_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { id, action, call\_id, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call output item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+output: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs } ]
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+type: :multi\_agent\_call\_output
+
+The type of the multi-agent result. Always `multi_agent_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the computer call tool output.
+
+call\_id: String
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+status: :completed | :incomplete | :failed | :in\_progress
+
+:completed
+
+:incomplete
+
+:failed
+
+:in\_progress
+
+type: :computer\_call\_output
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the
+developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of the program item.
+
+call\_id: String
+
+code: String
+
+fingerprint: String
+
+type: :program
+
+The type of the item. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of the program output item.
+
+call\_id: String
+
+result: String
+
+status: :completed | :incomplete
+
+The terminal status of the program output item.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The type of the item. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseToolSearchCall { id, arguments, call\_id, 5 more }
+
+id: String
+
+The unique ID of the tool search call item.
+
+arguments: untyped
+
+Arguments used for the tool search call.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :tool\_search\_call
+
+The type of the item. Always `tool_search_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseToolSearchOutputItem { id, call\_id, execution, 5 more }
+
+id: String
+
+The unique ID of the tool search output item.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by tool search.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The type of the item. Always `tool_search_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AdditionalTools { id, role, tools, 2 more }
+
+id: String
+
+The unique ID of the additional tools item.
+
+role: :unknown | :user | :assistant | 5 more
+
+The role that provided the additional tools.
+
+:unknown
+
+:user
+
+:assistant
+
+:system
+
+:critic
+
+:discriminator
+
+:developer
+
+:tool
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The additional tool definitions made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The type of the item. Always `additional_tools`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCompactionItem { id, encrypted\_content, type, 2 more }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+id: String
+
+The unique ID of the compaction item.
+
+encrypted\_content: String
+
+The encrypted content that was produced by compaction.
+
+type: :compaction
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionShellToolCall { id, action, call\_id, 6 more }
+
+A tool call that executes one or more shell commands in a managed environment.
+
+id: String
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+max\_output\_length: Integer
+
+Optional maximum number of characters to return from each command.
+
+timeout\_ms: Integer
+
+Optional timeout in milliseconds for the commands.
+
+call\_id: String
+
+environment: [BetaResponseLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_local_environment%20%3E%20(schema)) { type }  | [BetaResponseContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_container_reference%20%3E%20(schema)) { container\_id, type }
+
+Represents the use of a local environment to perform shell actions.
+
+class BetaResponseLocalEnvironment { type }
+
+Represents the use of a local environment to perform shell actions.
+
+type: :local
+
+The environment type. Always `local`.
+
+class BetaResponseContainerReference { container\_id, type }
+
+Represents a container created with /v1/containers.
+
+container\_id: String
+
+type: :container\_reference
+
+The environment type. Always `container_reference`.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseFunctionShellToolCallOutput { id, call\_id, max\_output\_length, 6 more }
+
+The output of a shell tool call that was emitted.
+
+id: String
+
+The unique ID of the shell call output. Populated when this item is returned via API.
+
+call\_id: String
+
+max\_output\_length: Integer
+
+The maximum length of the shell command output. This is generated by the model and should be passed back with the raw output.
+
+output: Array[Output{ outcome, stderr, stdout, created\_by}]
+
+An array of shell call output contents
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+Represents either an exit outcome (with an exit code) or a timeout outcome for a shell call output chunk.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+Exit code from the shell process.
+
+type: :exit
+
+stderr: String
+
+The standard error output that was captured.
+
+stdout: String
+
+The standard output that was captured.
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call\_output
+
+The type of the shell call output. Always `shell_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseApplyPatchToolCall { id, call\_id, operation, 5 more }
+
+A tool call that applies file diffs by creating, deleting, or updating files.
+
+id: String
+
+call\_id: String
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+One of the create\_file, delete\_file, or update\_file operations applied via apply\_patch.
+
+class CreateFile { diff, path, type }
+
+Instruction describing how to create a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to create.
+
+type: :create\_file
+
+Create a new file with the provided diff.
+
+class DeleteFile { path, type }
+
+Instruction describing how to delete a file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete.
+
+type: :delete\_file
+
+Delete the specified file.
+
+class UpdateFile { diff, path, type }
+
+Instruction describing how to update a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to update.
+
+type: :update\_file
+
+Update an existing file with the provided diff.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseApplyPatchToolCallOutput { id, call\_id, status, 5 more }
+
+The output emitted by an apply patch tool call.
+
+id: String
+
+call\_id: String
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call output.
+
+output: String
+
+Optional textual output returned by the apply patch tool.
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { id, approval\_request\_id, approve, 3 more }
+
+A response to an MCP approval request.
+
+id: String
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class BetaResponseCustomToolCallOutputItem { id, status, created\_by }
+
+id: String
+
+The unique ID of the custom tool call output item.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+parallel\_tool\_calls: bool
+
+Whether to allow the model to run tool calls in parallel.
+
+temperature: Float
+
+What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
+We generally recommend altering this or `top_p` but not both.
+
+minimum0
+
+maximum2
+
+tool\_choice: [BetaToolChoiceOptions](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_options%20%3E%20(schema)) | [BetaToolChoiceAllowed](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_allowed%20%3E%20(schema)) { mode, tools, type }  | [BetaToolChoiceTypes](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_types%20%3E%20(schema)) { type }  | 6 more
+
+How the model should select which tool (or tools) to use when generating
+a response. See the `tools` parameter to see how to specify which tools
+the model can call.
+
+BetaToolChoiceOptions = :none | :auto | :required
+
+Controls which (if any) tool is called by the model.
+
+`none` means the model will not call any tool and instead generates a message.
+
+`auto` means the model can pick between generating a message or calling one or
+more tools.
+
+`required` means the model must call one or more tools.
+
+:none
+
+:auto
+
+:required
+
+class BetaToolChoiceAllowed { mode, tools, type }
+
+Constrains the tools available to the model to a pre-defined set.
+
+mode: :auto | :required
+
+Constrains the tools available to the model to a pre-defined set.
+
+`auto` allows the model to pick from among the allowed tools and generate a
+message.
+
+`required` requires the model to call one or more of the allowed tools.
+
+:auto
+
+:required
+
+tools: Array[Hash[Symbol, untyped]]
+
+A list of tool definitions that the model should be allowed to call.
+
+For the Responses API, the list of tool definitions might look like:
+
+  { "type": "function", "name": "get_weather" },
+  { "type": "mcp", "server_label": "deepwiki" },
+  { "type": "image_generation" }
+
+type: :allowed\_tools
+
+Allowed tool configuration type. Always `allowed_tools`.
+
+class BetaToolChoiceTypes { type }
+
+Indicates that the model should use a built-in tool to generate a response.
+[Learn more about built-in tools](https://platform.openai.com/docs/guides/tools).
+
+type: :file\_search | :web\_search\_preview | :computer | 5 more
+
+The type of hosted tool the model should to use. Learn more about
+[built-in tools](https://platform.openai.com/docs/guides/tools).
+
+Allowed values are:
+
+* `file_search`
+* `web_search_preview`
+* `computer`
+* `computer_use_preview`
+* `computer_use`
+* `code_interpreter`
+* `image_generation`
+
+:file\_search
+
+:web\_search\_preview
+
+:computer
+
+:computer\_use\_preview
+
+:computer\_use
+
+:web\_search\_preview\_2025\_03\_11
+
+:image\_generation
+
+:code\_interpreter
+
+class BetaToolChoiceFunction { name, type }
+
+Use this option to force the model to call a specific function.
+
+name: String
+
+type: :function
+
+For function calling, the type is always `function`.
+
+class BetaToolChoiceMcp { server\_label, type, name }
+
+Use this option to force the model to call a specific tool on a remote MCP server.
+
+server\_label: String
+
+The label of the MCP server to use.
+
+type: :mcp
+
+For MCP tools, the type is always `mcp`.
+
+name: String
+
+The name of the tool to call on the server.
+
+class BetaToolChoiceCustom { name, type }
+
+Use this option to force the model to call a specific custom tool.
+
+name: String
+
+The name of the custom tool to call.
+
+type: :custom
+
+For custom tool calling, the type is always `custom`.
+
+class BetaSpecificProgrammaticToolCallingParam { type }
+
+type: :programmatic\_tool\_calling
+
+The tool to call. Always `programmatic_tool_calling`.
+
+class BetaToolChoiceApplyPatch { type }
+
+Forces the model to call the apply\_patch tool when executing a tool call.
+
+type: :apply\_patch
+
+The tool to call. Always `apply_patch`.
+
+class BetaToolChoiceShell { type }
+
+Forces the model to call the shell tool when a tool call is required.
+
+type: :shell
+
+The tool to call. Always `shell`.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+An array of tools the model may call while generating a response. You
+can specify which tool to use by setting the `tool_choice` parameter.
+
+We support the following categories of tools:
+
+* **Built-in tools**: Tools that are provided by OpenAI that extend the
+  model’s capabilities, like [web search](https://platform.openai.com/docs/guides/tools-web-search)
+  or [file search](https://platform.openai.com/docs/guides/tools-file-search). Learn more about
+  [built-in tools](https://platform.openai.com/docs/guides/tools).
+* **MCP Tools**: Integrations with third-party systems via custom MCP servers
+  or predefined connectors such as Google Drive and SharePoint. Learn more about
+  [MCP Tools](https://platform.openai.com/docs/guides/tools-connectors-mcp).
+* **Function calls (custom tools)**: Functions that are defined by you,
+  enabling the model to call your own code with strongly typed arguments
+  and outputs. Learn more about
+  [function calling](https://platform.openai.com/docs/guides/function-calling). You can also use
+  custom tools to call your own code.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+top\_p: Float
+
+An alternative to sampling with temperature, called nucleus sampling,
+where the model considers the results of the tokens with top\_p probability
+mass. So 0.1 means only the tokens comprising the top 10% probability mass
+are considered.
+
+We generally recommend altering this or `temperature` but not both.
+
+minimum0
+
+maximum1
+
+background: bool
+
+Whether to run the model response in the background.
+[Learn more](https://platform.openai.com/docs/guides/background).
+
+completed\_at: Float
+
+Unix timestamp (in seconds) of when this Response was completed.
+Only present when the status is `completed`.
+
+formatunixtime
+
+conversation: Conversation{ id}
+
+The conversation that this response belonged to. Input items and output items from this response were automatically added to this conversation.
+
+id: String
+
+The unique ID of the conversation that this response was associated with.
+
+max\_output\_tokens: Integer
+
+An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](https://platform.openai.com/docs/guides/reasoning).
+
+max\_tool\_calls: Integer
+
+The maximum number of total calls to built-in tools that can be processed in a response. This maximum number applies across all built-in tool calls, not per individual tool. Any further attempts to call a tool by the model will be ignored.
+
+moderation: Moderation{ input, output}
+
+Moderation results for the response input and output, if moderated completions were requested.
+
+input: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response input.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+output: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response output.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+previous\_response\_id: String
+
+The unique ID of the previous response to the model. Use this to
+create multi-turn conversations. Learn more about
+[conversation state](https://platform.openai.com/docs/guides/conversation-state). Cannot be used in conjunction with `conversation`.
+
+prompt: [BetaResponsePrompt](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_prompt%20%3E%20(schema)) { id, variables, version }
+
+Reference to a prompt template and its variables.
+[Learn more](https://platform.openai.com/docs/guides/text?api-mode=responses#reusable-prompts).
+
+id: String
+
+The unique identifier of the prompt template to use.
+
+variables: Hash[Symbol, String | [BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Optional map of values to substitute in for variables in your
+prompt. The substitution values can either be strings, or other
+Response input types like images or files.
+
+String = String
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+version: String
+
+Optional version of the prompt template.
+
+prompt\_cache\_key: String
+
+Used by OpenAI to cache responses for similar requests to optimize your cache hit rates. Replaces the `user` field. [Learn more](https://platform.openai.com/docs/guides/prompt-caching).
+
+prompt\_cache\_options: PromptCacheOptions{ mode, ttl}
+
+The prompt-caching options that were applied to the response. Supported for `gpt-5.6` and later models.
+
+mode: :implicit | :explicit
+
+Whether implicit prompt-cache breakpoints were enabled.
+
+:implicit
+
+:explicit
+
+ttl: :"30m"
+
+The minimum lifetime applied to each cache breakpoint.
+
+Deprecatedprompt\_cache\_retention: :in\_memory | :"24h"
+
+Deprecated. Use `prompt_cache_options.ttl` instead.
+
+The retention policy for the prompt cache. Set to `24h` to enable extended prompt caching, which keeps cached prefixes active for longer, up to a maximum of 24 hours. [Learn more](https://platform.openai.com/docs/guides/prompt-caching#prompt-cache-retention).
+This field expresses a maximum retention policy, while
+`prompt_cache_options.ttl` expresses a minimum cache lifetime. The two
+fields are independent and do not interact.
+For `gpt-5.5`, `gpt-5.5-pro`, and future models, only `24h` is supported.
+
+For older models that support both `in_memory` and `24h`, the default depends on your organization’s data retention policy:
+
+* Organizations without ZDR enabled default to `24h`.
+* Organizations with ZDR enabled default to `in_memory` when `prompt_cache_retention` is not specified.
+
+:in\_memory
+
+:"24h"
+
+reasoning: Reasoning{ context, effort, generate\_summary, 2 more}
+
+**gpt-5 and o-series models only**
+
+Configuration options for
+[reasoning models](https://platform.openai.com/docs/guides/reasoning).
+
+context: :auto | :current\_turn | :all\_turns
+
+Controls which reasoning items are rendered back to the model on later turns.
+When returned on a response, this is the effective reasoning context mode
+used for the response.
+
+:auto
+
+:current\_turn
+
+:all\_turns
+
+effort: :none | :minimal | :low | 4 more
+
+Constrains effort on reasoning for reasoning models. Currently supported
+values are `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, and `max`.
+Reducing reasoning effort can result in faster responses and fewer tokens
+used on reasoning in a response. Not all reasoning models support every
+value. See the
+[reasoning guide](https://platform.openai.com/docs/guides/reasoning)
+for model-specific support.
+
+:none
+
+:minimal
+
+:low
+
+:medium
+
+:high
+
+:xhigh
+
+:max
+
+Deprecatedgenerate\_summary: :auto | :concise | :detailed
+
+**Deprecated:** use `summary` instead.
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+:auto
+
+:concise
+
+:detailed
+
+mode: String | :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+String = String
+
+Mode = :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+:standard
+
+:pro
+
+summary: :auto | :concise | :detailed
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+`concise` is supported for `computer-use-preview` models and all reasoning models after `gpt-5`.
+
+:auto
+
+:concise
+
+:detailed
+
+safety\_identifier: String
+
+A stable identifier used to help detect users of your application that may be violating OpenAI’s usage policies.
+The IDs should be a string that uniquely identifies each user, with a maximum length of 64 characters. We recommend hashing their username or email address, in order to avoid sending us any identifying information. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+maxLength64
+
+service\_tier: :auto | :default | :flex | 2 more
+
+Specifies the processing type used for serving the request.
+
+* If set to ‘auto’, then the request will be processed with the service tier configured in the Project settings. Unless otherwise configured, the Project will use ‘default’.
+* If set to ‘default’, then the request will be processed with the standard pricing and performance for the selected model.
+* If set to ‘[flex](https://platform.openai.com/docs/guides/flex-processing)’ or ‘[priority](https://openai.com/api-priority-processing/)’, then the request will be processed with the corresponding service tier.
+* When not set, the default behavior is ‘auto’.
+
+When the `service_tier` parameter is set, the response body will include the `service_tier` value based on the processing mode actually used to serve the request. This response value may be different from the value set in the parameter.
+
+:auto
+
+:default
+
+:flex
+
+:scale
+
+:priority
+
+status: [BetaResponseStatus](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_status%20%3E%20(schema))
+
+The status of the response generation. One of `completed`, `failed`,
+`in_progress`, `cancelled`, `queued`, or `incomplete`.
+
+:completed
+
+:failed
+
+:in\_progress
+
+:cancelled
+
+:queued
+
+:incomplete
+
+text: [BetaResponseTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_text_config%20%3E%20(schema)) { format\_, verbosity }
+
+Configuration options for a text response from the model. Can be plain
+text or structured JSON data. Learn more:
+
+* [Text inputs and outputs](https://platform.openai.com/docs/guides/text)
+* [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs)
+
+format\_: [BetaResponseFormatTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_format_text_config%20%3E%20(schema))
+
+An object specifying the format that the model must output.
+
+Configuring `{ "type": "json_schema" }` enables Structured Outputs,
+which ensures the model will match your supplied JSON schema. Learn more in the
+[Structured Outputs guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+The default format is `{ "type": "text" }` with no additional options.
+
+**Not recommended for gpt-4o and newer models:**
+
+Setting to `{ "type": "json_object" }` enables the older JSON mode, which
+ensures the message the model generates is valid JSON. Using `json_schema`
+is preferred for models that support it.
+
+class Text { type }
+
+Default response format. Used to generate text responses.
+
+type: :text
+
+The type of response format being defined. Always `text`.
+
+class BetaResponseFormatTextJSONSchemaConfig { name, schema, type, 2 more }
+
+JSON Schema response format. Used to generate structured JSON responses.
+Learn more about [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs).
+
+name: String
+
+The name of the response format. Must be a-z, A-Z, 0-9, or contain
+underscores and dashes, with a maximum length of 64.
+
+schema: Hash[Symbol, untyped]
+
+The schema for the response format, described as a JSON Schema object.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+type: :json\_schema
+
+The type of response format being defined. Always `json_schema`.
+
+description: String
+
+A description of what the response format is for, used by the model to
+determine how to respond in the format.
+
+strict: bool
+
+Whether to enable strict schema adherence when generating the output.
+If set to true, the model will always follow the exact schema defined
+in the `schema` field. Only a subset of JSON Schema is supported when
+`strict` is `true`. To learn more, read the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+class JSONObject { type }
+
+JSON object response format. An older method of generating JSON responses.
+Using `json_schema` is recommended for models that support it. Note that the
+model will not generate JSON without a system or user message instructing it
+to do so.
+
+type: :json\_object
+
+The type of response format being defined. Always `json_object`.
+
+verbosity: :low | :medium | :high
+
+Constrains the verbosity of the model’s response. Lower values will result in
+more concise responses, while higher values will result in more verbose responses.
+Currently supported values are `low`, `medium`, and `high`.
+
+:low
+
+:medium
+
+:high
+
+top\_logprobs: Integer
+
+An integer between 0 and 20 specifying the maximum number of most likely
+tokens to return at each token position, each with an associated log
+probability. In some cases, the number of returned tokens may be fewer than
+requested.
+
+minimum0
+
+maximum20
+
+truncation: :auto | :disabled
+
+The truncation strategy to use for the model response.
+
+* `auto`: If the input to this Response exceeds
+  the model’s context window size, the model will truncate the
+  response to fit the context window by dropping items from the beginning of the conversation.
+* `disabled` (default): If the input size will exceed the context window
+  size for a model, the request will fail with a 400 error.
+
+:auto
+
+:disabled
+
+usage: [BetaResponseUsage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_usage%20%3E%20(schema)) { input\_tokens, input\_tokens\_details, output\_tokens, 2 more }
+
+Represents token usage details including input tokens, output tokens,
+a breakdown of output tokens, and the total tokens used.
+
+input\_tokens: Integer
+
+The number of input tokens.
+
+input\_tokens\_details: InputTokensDetails{ cache\_write\_tokens, cached\_tokens}
+
+A detailed breakdown of the input tokens.
+
+cache\_write\_tokens: Integer
+
+The number of input tokens that were written to the cache.
+
+cached\_tokens: Integer
+
+The number of tokens that were retrieved from the cache.
+[More on prompt caching](https://platform.openai.com/docs/guides/prompt-caching).
+
+output\_tokens: Integer
+
+The number of output tokens.
+
+output\_tokens\_details: OutputTokensDetails{ reasoning\_tokens}
+
+A detailed breakdown of the output tokens.
+
+reasoning\_tokens: Integer
+
+The number of reasoning tokens.
+
+total\_tokens: Integer
+
+The total number of tokens used.
+
+Deprecateduser: String
+
+This field is being replaced by `safety_identifier` and `prompt_cache_key`. Use `prompt_cache_key` instead to maintain caching optimizations.
+A stable identifier for your end-users.
+Used to boost cache hit rates by better bucketing similar requests and to help OpenAI detect and prevent abuse. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+sequence\_number: Integer
+
+The sequence number for this event.
+
+type: :"response.completed"
+
+The type of the event. Always `response.completed`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseContentPartAddedEvent { content\_index, item\_id, output\_index, 4 more }
+
+Emitted when a new content part is added.
+
+content\_index: Integer
+
+The index of the content part that was added.
+
+item\_id: String
+
+The ID of the output item that the content part was added to.
+
+output\_index: Integer
+
+The index of the output item that the content part was added to.
+
+part: [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type }  | ReasoningText{ text, type}
+
+The content part that was added.
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.content\_part.added"
+
+The type of the event. Always `response.content_part.added`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseContentPartDoneEvent { content\_index, item\_id, output\_index, 4 more }
+
+Emitted when a content part is done.
+
+content\_index: Integer
+
+The index of the content part that is done.
+
+item\_id: String
+
+The ID of the output item that the content part was added to.
+
+output\_index: Integer
+
+The index of the output item that the content part was added to.
+
+part: [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type }  | ReasoningText{ text, type}
+
+The content part that is done.
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.content\_part.done"
+
+The type of the event. Always `response.content_part.done`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseCreatedEvent { response, sequence\_number, type, agent }
+
+An event that is emitted when a response is created.
+
+response: [BetaResponse](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response%20%3E%20(schema)) { id, created\_at, error, 31 more }
+
+The response that was created.
+
+id: String
+
+Unique identifier for this Response.
+
+created\_at: Float
+
+Unix timestamp (in seconds) of when this Response was created.
+
+formatunixtime
+
+error: [BetaResponseError](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_error%20%3E%20(schema)) { code, message }
+
+An error object returned when the model fails to generate a Response.
+
+code: :server\_error | :rate\_limit\_exceeded | :invalid\_prompt | 16 more
+
+The error code for the response.
+
+:server\_error
+
+:rate\_limit\_exceeded
+
+:invalid\_prompt
+
+:bio\_policy
+
+:vector\_store\_timeout
+
+:invalid\_image
+
+:invalid\_image\_format
+
+:invalid\_base64\_image
+
+:invalid\_image\_url
+
+:image\_too\_large
+
+:image\_too\_small
+
+:image\_parse\_error
+
+:image\_content\_policy\_violation
+
+:invalid\_image\_mode
+
+:image\_file\_too\_large
+
+:unsupported\_image\_media\_type
+
+:empty\_image\_file
+
+:failed\_to\_download\_image
+
+:image\_file\_not\_found
+
+message: String
+
+A human-readable description of the error.
+
+incomplete\_details: IncompleteDetails{ reason}
+
+Details about why the response is incomplete.
+
+reason: :max\_output\_tokens | :content\_filter
+
+The reason why the response is incomplete.
+
+:max\_output\_tokens
+
+:content\_filter
+
+instructions: String | Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A system (or developer) message inserted into the model’s context.
+
+When using along with `previous_response_id`, the instructions from a previous
+response will not be carried over to the next response. This makes it simple
+to swap out system (or developer) messages in new responses.
+
+String = String
+
+A text input to the model, equivalent to a text input with the
+`developer` role.
+
+InputItemList = Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A list of one or many input items to the model, containing
+different content types.
+
+class BetaEasyInputMessage { content, role, phase, type }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+content: String | [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+String = String
+
+BetaResponseInputMessageContentList = Array[[BetaResponseInputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_content%20%3E%20(schema))]
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :assistant | :system | :developer
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+:user
+
+:assistant
+
+:system
+
+:developer
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+type: :message
+
+The type of the message input. Always `message`.
+
+class Message { content, role, agent, 2 more }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role.
+
+content: [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :system | :developer
+
+:user
+
+:system
+
+:developer
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ComputerCallOutput { call\_id, output, type, 4 more }
+
+The output of a computer tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_call\_output
+
+id: String
+
+The ID of the computer tool call output.
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the message input. One of `in_progress`, `completed`, or `incomplete`. Populated when input items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class FunctionCallOutput { call\_id, output, type, 4 more }
+
+The output of a function tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: String | [BetaResponseFunctionCallOutputItemList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or file output of the function tool call.
+
+String = String
+
+A JSON string of the output of the function tool call.
+
+BetaResponseFunctionCallOutputItemList = Array[[BetaResponseFunctionCallOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item%20%3E%20(schema))]
+
+An array of content outputs (text, image, file) for the function tool call.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFileContent { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+The base64-encoded data of the file to be sent to the model.
+
+maxLength73400320
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :function\_call\_output
+
+id: String
+
+The unique ID of the function tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`. Populated when items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AgentMessage { author, content, recipient, 3 more }
+
+A message routed between agents.
+
+author: String
+
+content: Array[[BetaResponseInputTextContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text_content%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImageContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image_content%20%3E%20(schema)) { type, detail, file\_id, 2 more }  | EncryptedContent{ encrypted\_content, type}]
+
+Plaintext, image, or encrypted content sent between agents.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+maxLength10485760
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The item type. Always `agent_message`.
+
+id: String
+
+The unique ID of this agent message item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { action, arguments, call\_id, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action that was executed.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The action arguments as a JSON string.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :multi\_agent\_call
+
+The item type. Always `multi_agent_call`.
+
+id: String
+
+The unique ID of this multi-agent call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { action, call\_id, output, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[Output{ text, type, annotations}]
+
+text: String
+
+The text content.
+
+maxLength10485760
+
+type: :output\_text
+
+The content type. Always `output_text`.
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more}]
+
+Citations associated with the text content.
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+minimum0
+
+type: :file\_citation
+
+The citation type. Always `file_citation`.
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+title: String
+
+The title of the cited resource.
+
+type: :url\_citation
+
+The citation type. Always `url_citation`.
+
+url: String
+
+The URL of the cited resource.
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+The ID of the container.
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+type: :container\_file\_citation
+
+The citation type. Always `container_file_citation`.
+
+type: :multi\_agent\_call\_output
+
+The item type. Always `multi_agent_call_output`.
+
+id: String
+
+The unique ID of this multi-agent call output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ToolSearchCall { arguments, type, id, 4 more }
+
+arguments: untyped
+
+The arguments supplied to the tool search call.
+
+type: :tool\_search\_call
+
+The item type. Always `tool_search_call`.
+
+id: String
+
+The unique ID of this tool search call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseToolSearchOutputItemParam { tools, type, id, 4 more }
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by the tool search output.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The item type. Always `tool_search_output`.
+
+id: String
+
+The unique ID of this tool search output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AdditionalTools { role, tools, type, 2 more }
+
+role: :developer
+
+The role that provided the additional tools. Only `developer` is supported.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+A list of additional tools made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The item type. Always `additional_tools`.
+
+id: String
+
+The unique ID of this additional tools item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseCompactionItemParam { encrypted\_content, type, id, agent }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+encrypted\_content: String
+
+The encrypted content of the compaction summary.
+
+maxLength10485760
+
+type: :compaction
+
+id: String
+
+The ID of the compaction item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCall { action, call\_id, type, 5 more }
+
+A tool representing a request to execute one or more shell commands.
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+Ordered shell commands for the execution environment to run.
+
+max\_output\_length: Integer
+
+Maximum number of UTF-8 characters to capture from combined stdout and stderr output.
+
+timeout\_ms: Integer
+
+Maximum wall-clock time in milliseconds to allow the shell commands to run.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :shell\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+environment: [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+The environment to execute the shell commands in.
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCallOutput { call\_id, output, type, 5 more }
+
+The streamed output items emitted by a shell tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[[BetaResponseFunctionShellCallOutputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_shell_call_output_content%20%3E%20(schema)) { outcome, stderr, stdout } ]
+
+Captured chunks of stdout and stderr output, along with their associated outcomes.
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+The exit or timeout outcome associated with this shell call.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+The exit code returned by the shell process.
+
+type: :exit
+
+stderr: String
+
+Captured stderr output for the shell call.
+
+maxLength10485760
+
+stdout: String
+
+Captured stdout output for the shell call.
+
+maxLength10485760
+
+type: :shell\_call\_output
+
+The type of the item. Always `shell_call_output`.
+
+id: String
+
+The unique ID of the shell tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+max\_output\_length: Integer
+
+The maximum number of UTF-8 characters captured for this shell call’s combined output.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ApplyPatchCall { call\_id, operation, status, 4 more }
+
+A tool call representing a request to create, delete, or update files using diff patches.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+The specific create, delete, or update instruction for the apply\_patch tool call.
+
+class CreateFile { diff, path, type }
+
+Instruction for creating a new file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply when creating the file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to create relative to the workspace root.
+
+minLength1
+
+type: :create\_file
+
+The operation type. Always `create_file`.
+
+class DeleteFile { path, type }
+
+Instruction for deleting an existing file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete relative to the workspace root.
+
+minLength1
+
+type: :delete\_file
+
+The operation type. Always `delete_file`.
+
+class UpdateFile { diff, path, type }
+
+Instruction for updating an existing file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply to the existing file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to update relative to the workspace root.
+
+minLength1
+
+type: :update\_file
+
+The operation type. Always `update_file`.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class ApplyPatchCallOutput { call\_id, status, type, 4 more }
+
+The streamed output emitted by an apply patch tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+output: String
+
+Optional human-readable log text from the apply patch tool (e.g., patch results or errors).
+
+maxLength10485760
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { approval\_request\_id, approve, type, 3 more }
+
+A response to an MCP approval request.
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class BetaResponseCustomToolCallOutput { call\_id, output, type, 3 more }
+
+call\_id: String
+
+The call ID, used to map this custom tool call output to a custom tool call.
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the custom tool call generated by your code.
+
+String = String
+
+A string of the output of the custom tool call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the custom tool call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :custom\_tool\_call\_output
+
+The type of the custom tool call output. Always `custom_tool_call_output`.
+
+id: String
+
+The unique ID of the custom tool call output in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class CompactionTrigger { type, agent }
+
+Compacts the current context. Must be the final input item.
+
+type: :compaction\_trigger
+
+The type of the item. Always `compaction_trigger`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ItemReference { id, agent, type }
+
+An internal identifier for an item to reference.
+
+id: String
+
+The ID of the item to reference.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+type: :item\_reference
+
+The type of item to reference. Always `item_reference`.
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of this program item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+code: String
+
+maxLength10485760
+
+fingerprint: String
+
+maxLength10485760
+
+type: :program
+
+The item type. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of this program output item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+result: String
+
+maxLength10485760
+
+status: :completed | :incomplete
+
+The terminal status of the program output.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The item type. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+metadata: Hash[Symbol, String]
+
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+model: :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more | String
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+Model = :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+:"gpt-5.6-sol"
+
+:"gpt-5.6-terra"
+
+:"gpt-5.6-luna"
+
+:"gpt-5.4"
+
+:"gpt-5.4-mini"
+
+:"gpt-5.4-nano"
+
+:"gpt-5.4-mini-2026-03-17"
+
+:"gpt-5.4-nano-2026-03-17"
+
+:"gpt-5.3-chat-latest"
+
+:"gpt-5.2"
+
+:"gpt-5.2-2025-12-11"
+
+:"gpt-5.2-chat-latest"
+
+:"gpt-5.2-pro"
+
+:"gpt-5.2-pro-2025-12-11"
+
+:"gpt-5.1"
+
+:"gpt-5.1-2025-11-13"
+
+:"gpt-5.1-codex"
+
+:"gpt-5.1-mini"
+
+:"gpt-5.1-chat-latest"
+
+:"gpt-5"
+
+:"gpt-5-mini"
+
+:"gpt-5-nano"
+
+:"gpt-5-2025-08-07"
+
+:"gpt-5-mini-2025-08-07"
+
+:"gpt-5-nano-2025-08-07"
+
+:"gpt-5-chat-latest"
+
+:"gpt-4.1"
+
+:"gpt-4.1-mini"
+
+:"gpt-4.1-nano"
+
+:"gpt-4.1-2025-04-14"
+
+:"gpt-4.1-mini-2025-04-14"
+
+:"gpt-4.1-nano-2025-04-14"
+
+:"o4-mini"
+
+:"o4-mini-2025-04-16"
+
+:o3
+
+:"o3-2025-04-16"
+
+:"o3-mini"
+
+:"o3-mini-2025-01-31"
+
+:o1
+
+:"o1-2024-12-17"
+
+:"o1-preview"
+
+:"o1-preview-2024-09-12"
+
+:"o1-mini"
+
+:"o1-mini-2024-09-12"
+
+:"gpt-4o"
+
+:"gpt-4o-2024-11-20"
+
+:"gpt-4o-2024-08-06"
+
+:"gpt-4o-2024-05-13"
+
+:"gpt-4o-audio-preview"
+
+:"gpt-4o-audio-preview-2024-10-01"
+
+:"gpt-4o-audio-preview-2024-12-17"
+
+:"gpt-4o-audio-preview-2025-06-03"
+
+:"gpt-4o-mini-audio-preview"
+
+:"gpt-4o-mini-audio-preview-2024-12-17"
+
+:"gpt-4o-search-preview"
+
+:"gpt-4o-mini-search-preview"
+
+:"gpt-4o-search-preview-2025-03-11"
+
+:"gpt-4o-mini-search-preview-2025-03-11"
+
+:"chatgpt-4o-latest"
+
+:"codex-mini-latest"
+
+:"gpt-4o-mini"
+
+:"gpt-4o-mini-2024-07-18"
+
+:"gpt-4-turbo"
+
+:"gpt-4-turbo-2024-04-09"
+
+:"gpt-4-0125-preview"
+
+:"gpt-4-turbo-preview"
+
+:"gpt-4-1106-preview"
+
+:"gpt-4-vision-preview"
+
+:"gpt-4"
+
+:"gpt-4-0314"
+
+:"gpt-4-0613"
+
+:"gpt-4-32k"
+
+:"gpt-4-32k-0314"
+
+:"gpt-4-32k-0613"
+
+:"gpt-3.5-turbo"
+
+:"gpt-3.5-turbo-16k"
+
+:"gpt-3.5-turbo-0301"
+
+:"gpt-3.5-turbo-0613"
+
+:"gpt-3.5-turbo-1106"
+
+:"gpt-3.5-turbo-0125"
+
+:"gpt-3.5-turbo-16k-0613"
+
+:"o1-pro"
+
+:"o1-pro-2025-03-19"
+
+:"o3-pro"
+
+:"o3-pro-2025-06-10"
+
+:"o3-deep-research"
+
+:"o3-deep-research-2025-06-26"
+
+:"o4-mini-deep-research"
+
+:"o4-mini-deep-research-2025-06-26"
+
+:"computer-use-preview"
+
+:"computer-use-preview-2025-03-11"
+
+:"gpt-5-codex"
+
+:"gpt-5-pro"
+
+:"gpt-5-pro-2025-10-06"
+
+:"gpt-5.1-codex-max"
+
+String = String
+
+object: :response
+
+The object type of this resource - always set to `response`.
+
+output: Array[[BetaResponseOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_item%20%3E%20(schema))]
+
+An array of content items generated by the model.
+
+* The length and order of items in the `output` array is dependent
+  on the model’s response.
+* Rather than accessing the first item in the `output` array and
+  assuming it’s an `assistant` message with the content generated by
+  the model, you might consider using the `output_text` property where
+  supported in SDKs.
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the function call tool output.
+
+call\_id: String
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the function call generated by your code.
+
+String = String
+
+A string of the output of the function call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the function call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :function\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AgentMessage { id, author, content, 3 more }
+
+id: String
+
+The unique ID of the agent message.
+
+author: String
+
+content: Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | Text{ text, type} | 7 more]
+
+Encrypted content sent between agents.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class Text { text, type }
+
+A text content.
+
+text: String
+
+type: :text
+
+class SummaryText { text, type }
+
+A summary text from the model.
+
+text: String
+
+type: :summary\_text
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class ComputerScreenshot { detail, file\_id, image\_url, 2 more }
+
+A screenshot of a computer.
+
+detail: :low | :high | :auto | :original
+
+The detail level of the screenshot image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The type of the item. Always `agent_message`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { id, action, arguments, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action to execute.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The JSON string of arguments generated for the action.
+
+call\_id: String
+
+type: :multi\_agent\_call
+
+The type of the multi-agent call. Always `multi_agent_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { id, action, call\_id, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call output item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+output: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs } ]
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+type: :multi\_agent\_call\_output
+
+The type of the multi-agent result. Always `multi_agent_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the computer call tool output.
+
+call\_id: String
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+status: :completed | :incomplete | :failed | :in\_progress
+
+:completed
+
+:incomplete
+
+:failed
+
+:in\_progress
+
+type: :computer\_call\_output
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the
+developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of the program item.
+
+call\_id: String
+
+code: String
+
+fingerprint: String
+
+type: :program
+
+The type of the item. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of the program output item.
+
+call\_id: String
+
+result: String
+
+status: :completed | :incomplete
+
+The terminal status of the program output item.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The type of the item. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseToolSearchCall { id, arguments, call\_id, 5 more }
+
+id: String
+
+The unique ID of the tool search call item.
+
+arguments: untyped
+
+Arguments used for the tool search call.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :tool\_search\_call
+
+The type of the item. Always `tool_search_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseToolSearchOutputItem { id, call\_id, execution, 5 more }
+
+id: String
+
+The unique ID of the tool search output item.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by tool search.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The type of the item. Always `tool_search_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AdditionalTools { id, role, tools, 2 more }
+
+id: String
+
+The unique ID of the additional tools item.
+
+role: :unknown | :user | :assistant | 5 more
+
+The role that provided the additional tools.
+
+:unknown
+
+:user
+
+:assistant
+
+:system
+
+:critic
+
+:discriminator
+
+:developer
+
+:tool
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The additional tool definitions made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The type of the item. Always `additional_tools`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCompactionItem { id, encrypted\_content, type, 2 more }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+id: String
+
+The unique ID of the compaction item.
+
+encrypted\_content: String
+
+The encrypted content that was produced by compaction.
+
+type: :compaction
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionShellToolCall { id, action, call\_id, 6 more }
+
+A tool call that executes one or more shell commands in a managed environment.
+
+id: String
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+max\_output\_length: Integer
+
+Optional maximum number of characters to return from each command.
+
+timeout\_ms: Integer
+
+Optional timeout in milliseconds for the commands.
+
+call\_id: String
+
+environment: [BetaResponseLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_local_environment%20%3E%20(schema)) { type }  | [BetaResponseContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_container_reference%20%3E%20(schema)) { container\_id, type }
+
+Represents the use of a local environment to perform shell actions.
+
+class BetaResponseLocalEnvironment { type }
+
+Represents the use of a local environment to perform shell actions.
+
+type: :local
+
+The environment type. Always `local`.
+
+class BetaResponseContainerReference { container\_id, type }
+
+Represents a container created with /v1/containers.
+
+container\_id: String
+
+type: :container\_reference
+
+The environment type. Always `container_reference`.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseFunctionShellToolCallOutput { id, call\_id, max\_output\_length, 6 more }
+
+The output of a shell tool call that was emitted.
+
+id: String
+
+The unique ID of the shell call output. Populated when this item is returned via API.
+
+call\_id: String
+
+max\_output\_length: Integer
+
+The maximum length of the shell command output. This is generated by the model and should be passed back with the raw output.
+
+output: Array[Output{ outcome, stderr, stdout, created\_by}]
+
+An array of shell call output contents
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+Represents either an exit outcome (with an exit code) or a timeout outcome for a shell call output chunk.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+Exit code from the shell process.
+
+type: :exit
+
+stderr: String
+
+The standard error output that was captured.
+
+stdout: String
+
+The standard output that was captured.
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call\_output
+
+The type of the shell call output. Always `shell_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseApplyPatchToolCall { id, call\_id, operation, 5 more }
+
+A tool call that applies file diffs by creating, deleting, or updating files.
+
+id: String
+
+call\_id: String
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+One of the create\_file, delete\_file, or update\_file operations applied via apply\_patch.
+
+class CreateFile { diff, path, type }
+
+Instruction describing how to create a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to create.
+
+type: :create\_file
+
+Create a new file with the provided diff.
+
+class DeleteFile { path, type }
+
+Instruction describing how to delete a file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete.
+
+type: :delete\_file
+
+Delete the specified file.
+
+class UpdateFile { diff, path, type }
+
+Instruction describing how to update a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to update.
+
+type: :update\_file
+
+Update an existing file with the provided diff.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseApplyPatchToolCallOutput { id, call\_id, status, 5 more }
+
+The output emitted by an apply patch tool call.
+
+id: String
+
+call\_id: String
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call output.
+
+output: String
+
+Optional textual output returned by the apply patch tool.
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { id, approval\_request\_id, approve, 3 more }
+
+A response to an MCP approval request.
+
+id: String
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class BetaResponseCustomToolCallOutputItem { id, status, created\_by }
+
+id: String
+
+The unique ID of the custom tool call output item.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+parallel\_tool\_calls: bool
+
+Whether to allow the model to run tool calls in parallel.
+
+temperature: Float
+
+What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
+We generally recommend altering this or `top_p` but not both.
+
+minimum0
+
+maximum2
+
+tool\_choice: [BetaToolChoiceOptions](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_options%20%3E%20(schema)) | [BetaToolChoiceAllowed](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_allowed%20%3E%20(schema)) { mode, tools, type }  | [BetaToolChoiceTypes](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_types%20%3E%20(schema)) { type }  | 6 more
+
+How the model should select which tool (or tools) to use when generating
+a response. See the `tools` parameter to see how to specify which tools
+the model can call.
+
+BetaToolChoiceOptions = :none | :auto | :required
+
+Controls which (if any) tool is called by the model.
+
+`none` means the model will not call any tool and instead generates a message.
+
+`auto` means the model can pick between generating a message or calling one or
+more tools.
+
+`required` means the model must call one or more tools.
+
+:none
+
+:auto
+
+:required
+
+class BetaToolChoiceAllowed { mode, tools, type }
+
+Constrains the tools available to the model to a pre-defined set.
+
+mode: :auto | :required
+
+Constrains the tools available to the model to a pre-defined set.
+
+`auto` allows the model to pick from among the allowed tools and generate a
+message.
+
+`required` requires the model to call one or more of the allowed tools.
+
+:auto
+
+:required
+
+tools: Array[Hash[Symbol, untyped]]
+
+A list of tool definitions that the model should be allowed to call.
+
+For the Responses API, the list of tool definitions might look like:
+
+  { "type": "function", "name": "get_weather" },
+  { "type": "mcp", "server_label": "deepwiki" },
+  { "type": "image_generation" }
+
+type: :allowed\_tools
+
+Allowed tool configuration type. Always `allowed_tools`.
+
+class BetaToolChoiceTypes { type }
+
+Indicates that the model should use a built-in tool to generate a response.
+[Learn more about built-in tools](https://platform.openai.com/docs/guides/tools).
+
+type: :file\_search | :web\_search\_preview | :computer | 5 more
+
+The type of hosted tool the model should to use. Learn more about
+[built-in tools](https://platform.openai.com/docs/guides/tools).
+
+Allowed values are:
+
+* `file_search`
+* `web_search_preview`
+* `computer`
+* `computer_use_preview`
+* `computer_use`
+* `code_interpreter`
+* `image_generation`
+
+:file\_search
+
+:web\_search\_preview
+
+:computer
+
+:computer\_use\_preview
+
+:computer\_use
+
+:web\_search\_preview\_2025\_03\_11
+
+:image\_generation
+
+:code\_interpreter
+
+class BetaToolChoiceFunction { name, type }
+
+Use this option to force the model to call a specific function.
+
+name: String
+
+type: :function
+
+For function calling, the type is always `function`.
+
+class BetaToolChoiceMcp { server\_label, type, name }
+
+Use this option to force the model to call a specific tool on a remote MCP server.
+
+server\_label: String
+
+The label of the MCP server to use.
+
+type: :mcp
+
+For MCP tools, the type is always `mcp`.
+
+name: String
+
+The name of the tool to call on the server.
+
+class BetaToolChoiceCustom { name, type }
+
+Use this option to force the model to call a specific custom tool.
+
+name: String
+
+The name of the custom tool to call.
+
+type: :custom
+
+For custom tool calling, the type is always `custom`.
+
+class BetaSpecificProgrammaticToolCallingParam { type }
+
+type: :programmatic\_tool\_calling
+
+The tool to call. Always `programmatic_tool_calling`.
+
+class BetaToolChoiceApplyPatch { type }
+
+Forces the model to call the apply\_patch tool when executing a tool call.
+
+type: :apply\_patch
+
+The tool to call. Always `apply_patch`.
+
+class BetaToolChoiceShell { type }
+
+Forces the model to call the shell tool when a tool call is required.
+
+type: :shell
+
+The tool to call. Always `shell`.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+An array of tools the model may call while generating a response. You
+can specify which tool to use by setting the `tool_choice` parameter.
+
+We support the following categories of tools:
+
+* **Built-in tools**: Tools that are provided by OpenAI that extend the
+  model’s capabilities, like [web search](https://platform.openai.com/docs/guides/tools-web-search)
+  or [file search](https://platform.openai.com/docs/guides/tools-file-search). Learn more about
+  [built-in tools](https://platform.openai.com/docs/guides/tools).
+* **MCP Tools**: Integrations with third-party systems via custom MCP servers
+  or predefined connectors such as Google Drive and SharePoint. Learn more about
+  [MCP Tools](https://platform.openai.com/docs/guides/tools-connectors-mcp).
+* **Function calls (custom tools)**: Functions that are defined by you,
+  enabling the model to call your own code with strongly typed arguments
+  and outputs. Learn more about
+  [function calling](https://platform.openai.com/docs/guides/function-calling). You can also use
+  custom tools to call your own code.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+top\_p: Float
+
+An alternative to sampling with temperature, called nucleus sampling,
+where the model considers the results of the tokens with top\_p probability
+mass. So 0.1 means only the tokens comprising the top 10% probability mass
+are considered.
+
+We generally recommend altering this or `temperature` but not both.
+
+minimum0
+
+maximum1
+
+background: bool
+
+Whether to run the model response in the background.
+[Learn more](https://platform.openai.com/docs/guides/background).
+
+completed\_at: Float
+
+Unix timestamp (in seconds) of when this Response was completed.
+Only present when the status is `completed`.
+
+formatunixtime
+
+conversation: Conversation{ id}
+
+The conversation that this response belonged to. Input items and output items from this response were automatically added to this conversation.
+
+id: String
+
+The unique ID of the conversation that this response was associated with.
+
+max\_output\_tokens: Integer
+
+An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](https://platform.openai.com/docs/guides/reasoning).
+
+max\_tool\_calls: Integer
+
+The maximum number of total calls to built-in tools that can be processed in a response. This maximum number applies across all built-in tool calls, not per individual tool. Any further attempts to call a tool by the model will be ignored.
+
+moderation: Moderation{ input, output}
+
+Moderation results for the response input and output, if moderated completions were requested.
+
+input: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response input.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+output: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response output.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+previous\_response\_id: String
+
+The unique ID of the previous response to the model. Use this to
+create multi-turn conversations. Learn more about
+[conversation state](https://platform.openai.com/docs/guides/conversation-state). Cannot be used in conjunction with `conversation`.
+
+prompt: [BetaResponsePrompt](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_prompt%20%3E%20(schema)) { id, variables, version }
+
+Reference to a prompt template and its variables.
+[Learn more](https://platform.openai.com/docs/guides/text?api-mode=responses#reusable-prompts).
+
+id: String
+
+The unique identifier of the prompt template to use.
+
+variables: Hash[Symbol, String | [BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Optional map of values to substitute in for variables in your
+prompt. The substitution values can either be strings, or other
+Response input types like images or files.
+
+String = String
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+version: String
+
+Optional version of the prompt template.
+
+prompt\_cache\_key: String
+
+Used by OpenAI to cache responses for similar requests to optimize your cache hit rates. Replaces the `user` field. [Learn more](https://platform.openai.com/docs/guides/prompt-caching).
+
+prompt\_cache\_options: PromptCacheOptions{ mode, ttl}
+
+The prompt-caching options that were applied to the response. Supported for `gpt-5.6` and later models.
+
+mode: :implicit | :explicit
+
+Whether implicit prompt-cache breakpoints were enabled.
+
+:implicit
+
+:explicit
+
+ttl: :"30m"
+
+The minimum lifetime applied to each cache breakpoint.
+
+Deprecatedprompt\_cache\_retention: :in\_memory | :"24h"
+
+Deprecated. Use `prompt_cache_options.ttl` instead.
+
+The retention policy for the prompt cache. Set to `24h` to enable extended prompt caching, which keeps cached prefixes active for longer, up to a maximum of 24 hours. [Learn more](https://platform.openai.com/docs/guides/prompt-caching#prompt-cache-retention).
+This field expresses a maximum retention policy, while
+`prompt_cache_options.ttl` expresses a minimum cache lifetime. The two
+fields are independent and do not interact.
+For `gpt-5.5`, `gpt-5.5-pro`, and future models, only `24h` is supported.
+
+For older models that support both `in_memory` and `24h`, the default depends on your organization’s data retention policy:
+
+* Organizations without ZDR enabled default to `24h`.
+* Organizations with ZDR enabled default to `in_memory` when `prompt_cache_retention` is not specified.
+
+:in\_memory
+
+:"24h"
+
+reasoning: Reasoning{ context, effort, generate\_summary, 2 more}
+
+**gpt-5 and o-series models only**
+
+Configuration options for
+[reasoning models](https://platform.openai.com/docs/guides/reasoning).
+
+context: :auto | :current\_turn | :all\_turns
+
+Controls which reasoning items are rendered back to the model on later turns.
+When returned on a response, this is the effective reasoning context mode
+used for the response.
+
+:auto
+
+:current\_turn
+
+:all\_turns
+
+effort: :none | :minimal | :low | 4 more
+
+Constrains effort on reasoning for reasoning models. Currently supported
+values are `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, and `max`.
+Reducing reasoning effort can result in faster responses and fewer tokens
+used on reasoning in a response. Not all reasoning models support every
+value. See the
+[reasoning guide](https://platform.openai.com/docs/guides/reasoning)
+for model-specific support.
+
+:none
+
+:minimal
+
+:low
+
+:medium
+
+:high
+
+:xhigh
+
+:max
+
+Deprecatedgenerate\_summary: :auto | :concise | :detailed
+
+**Deprecated:** use `summary` instead.
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+:auto
+
+:concise
+
+:detailed
+
+mode: String | :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+String = String
+
+Mode = :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+:standard
+
+:pro
+
+summary: :auto | :concise | :detailed
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+`concise` is supported for `computer-use-preview` models and all reasoning models after `gpt-5`.
+
+:auto
+
+:concise
+
+:detailed
+
+safety\_identifier: String
+
+A stable identifier used to help detect users of your application that may be violating OpenAI’s usage policies.
+The IDs should be a string that uniquely identifies each user, with a maximum length of 64 characters. We recommend hashing their username or email address, in order to avoid sending us any identifying information. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+maxLength64
+
+service\_tier: :auto | :default | :flex | 2 more
+
+Specifies the processing type used for serving the request.
+
+* If set to ‘auto’, then the request will be processed with the service tier configured in the Project settings. Unless otherwise configured, the Project will use ‘default’.
+* If set to ‘default’, then the request will be processed with the standard pricing and performance for the selected model.
+* If set to ‘[flex](https://platform.openai.com/docs/guides/flex-processing)’ or ‘[priority](https://openai.com/api-priority-processing/)’, then the request will be processed with the corresponding service tier.
+* When not set, the default behavior is ‘auto’.
+
+When the `service_tier` parameter is set, the response body will include the `service_tier` value based on the processing mode actually used to serve the request. This response value may be different from the value set in the parameter.
+
+:auto
+
+:default
+
+:flex
+
+:scale
+
+:priority
+
+status: [BetaResponseStatus](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_status%20%3E%20(schema))
+
+The status of the response generation. One of `completed`, `failed`,
+`in_progress`, `cancelled`, `queued`, or `incomplete`.
+
+:completed
+
+:failed
+
+:in\_progress
+
+:cancelled
+
+:queued
+
+:incomplete
+
+text: [BetaResponseTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_text_config%20%3E%20(schema)) { format\_, verbosity }
+
+Configuration options for a text response from the model. Can be plain
+text or structured JSON data. Learn more:
+
+* [Text inputs and outputs](https://platform.openai.com/docs/guides/text)
+* [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs)
+
+format\_: [BetaResponseFormatTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_format_text_config%20%3E%20(schema))
+
+An object specifying the format that the model must output.
+
+Configuring `{ "type": "json_schema" }` enables Structured Outputs,
+which ensures the model will match your supplied JSON schema. Learn more in the
+[Structured Outputs guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+The default format is `{ "type": "text" }` with no additional options.
+
+**Not recommended for gpt-4o and newer models:**
+
+Setting to `{ "type": "json_object" }` enables the older JSON mode, which
+ensures the message the model generates is valid JSON. Using `json_schema`
+is preferred for models that support it.
+
+class Text { type }
+
+Default response format. Used to generate text responses.
+
+type: :text
+
+The type of response format being defined. Always `text`.
+
+class BetaResponseFormatTextJSONSchemaConfig { name, schema, type, 2 more }
+
+JSON Schema response format. Used to generate structured JSON responses.
+Learn more about [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs).
+
+name: String
+
+The name of the response format. Must be a-z, A-Z, 0-9, or contain
+underscores and dashes, with a maximum length of 64.
+
+schema: Hash[Symbol, untyped]
+
+The schema for the response format, described as a JSON Schema object.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+type: :json\_schema
+
+The type of response format being defined. Always `json_schema`.
+
+description: String
+
+A description of what the response format is for, used by the model to
+determine how to respond in the format.
+
+strict: bool
+
+Whether to enable strict schema adherence when generating the output.
+If set to true, the model will always follow the exact schema defined
+in the `schema` field. Only a subset of JSON Schema is supported when
+`strict` is `true`. To learn more, read the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+class JSONObject { type }
+
+JSON object response format. An older method of generating JSON responses.
+Using `json_schema` is recommended for models that support it. Note that the
+model will not generate JSON without a system or user message instructing it
+to do so.
+
+type: :json\_object
+
+The type of response format being defined. Always `json_object`.
+
+verbosity: :low | :medium | :high
+
+Constrains the verbosity of the model’s response. Lower values will result in
+more concise responses, while higher values will result in more verbose responses.
+Currently supported values are `low`, `medium`, and `high`.
+
+:low
+
+:medium
+
+:high
+
+top\_logprobs: Integer
+
+An integer between 0 and 20 specifying the maximum number of most likely
+tokens to return at each token position, each with an associated log
+probability. In some cases, the number of returned tokens may be fewer than
+requested.
+
+minimum0
+
+maximum20
+
+truncation: :auto | :disabled
+
+The truncation strategy to use for the model response.
+
+* `auto`: If the input to this Response exceeds
+  the model’s context window size, the model will truncate the
+  response to fit the context window by dropping items from the beginning of the conversation.
+* `disabled` (default): If the input size will exceed the context window
+  size for a model, the request will fail with a 400 error.
+
+:auto
+
+:disabled
+
+usage: [BetaResponseUsage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_usage%20%3E%20(schema)) { input\_tokens, input\_tokens\_details, output\_tokens, 2 more }
+
+Represents token usage details including input tokens, output tokens,
+a breakdown of output tokens, and the total tokens used.
+
+input\_tokens: Integer
+
+The number of input tokens.
+
+input\_tokens\_details: InputTokensDetails{ cache\_write\_tokens, cached\_tokens}
+
+A detailed breakdown of the input tokens.
+
+cache\_write\_tokens: Integer
+
+The number of input tokens that were written to the cache.
+
+cached\_tokens: Integer
+
+The number of tokens that were retrieved from the cache.
+[More on prompt caching](https://platform.openai.com/docs/guides/prompt-caching).
+
+output\_tokens: Integer
+
+The number of output tokens.
+
+output\_tokens\_details: OutputTokensDetails{ reasoning\_tokens}
+
+A detailed breakdown of the output tokens.
+
+reasoning\_tokens: Integer
+
+The number of reasoning tokens.
+
+total\_tokens: Integer
+
+The total number of tokens used.
+
+Deprecateduser: String
+
+This field is being replaced by `safety_identifier` and `prompt_cache_key`. Use `prompt_cache_key` instead to maintain caching optimizations.
+A stable identifier for your end-users.
+Used to boost cache hit rates by better bucketing similar requests and to help OpenAI detect and prevent abuse. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+sequence\_number: Integer
+
+The sequence number for this event.
+
+type: :"response.created"
+
+The type of the event. Always `response.created`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseErrorEvent { code, message, param, 3 more }
+
+Emitted when an error occurs.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+param: String
+
+The error parameter.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :error
+
+The type of the event. Always `error`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFileSearchCallCompletedEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when a file search call is completed (results found).
+
+item\_id: String
+
+The ID of the output item that the file search call is initiated.
+
+output\_index: Integer
+
+The index of the output item that the file search call is initiated.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.file\_search\_call.completed"
+
+The type of the event. Always `response.file_search_call.completed`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFileSearchCallInProgressEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when a file search call is initiated.
+
+item\_id: String
+
+The ID of the output item that the file search call is initiated.
+
+output\_index: Integer
+
+The index of the output item that the file search call is initiated.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.file\_search\_call.in\_progress"
+
+The type of the event. Always `response.file_search_call.in_progress`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFileSearchCallSearchingEvent { item\_id, output\_index, sequence\_number, 2 more }
+
+Emitted when a file search is currently searching.
+
+item\_id: String
+
+The ID of the output item that the file search call is initiated.
+
+output\_index: Integer
+
+The index of the output item that the file search call is searching.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.file\_search\_call.searching"
+
+The type of the event. Always `response.file_search_call.searching`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFunctionCallArgumentsDeltaEvent { delta, item\_id, output\_index, 3 more }
+
+Emitted when there is a partial function-call arguments delta.
+
+delta: String
+
+The function-call arguments delta that is added.
+
+item\_id: String
+
+The ID of the output item that the function-call arguments delta is added to.
+
+output\_index: Integer
+
+The index of the output item that the function-call arguments delta is added to.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.function\_call\_arguments.delta"
+
+The type of the event. Always `response.function_call_arguments.delta`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFunctionCallArgumentsDoneEvent { arguments, item\_id, name, 4 more }
+
+Emitted when function-call arguments are finalized.
+
+arguments: String
+
+The function-call arguments.
+
+item\_id: String
+
+The ID of the item.
+
+name: String
+
+The name of the function that was called.
+
+output\_index: Integer
+
+The index of the output item.
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.function\_call\_arguments.done"
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseInProgressEvent { response, sequence\_number, type, agent }
+
+Emitted when the response is in progress.
+
+response: [BetaResponse](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response%20%3E%20(schema)) { id, created\_at, error, 31 more }
+
+The response that is in progress.
+
+id: String
+
+Unique identifier for this Response.
+
+created\_at: Float
+
+Unix timestamp (in seconds) of when this Response was created.
+
+formatunixtime
+
+error: [BetaResponseError](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_error%20%3E%20(schema)) { code, message }
+
+An error object returned when the model fails to generate a Response.
+
+code: :server\_error | :rate\_limit\_exceeded | :invalid\_prompt | 16 more
+
+The error code for the response.
+
+:server\_error
+
+:rate\_limit\_exceeded
+
+:invalid\_prompt
+
+:bio\_policy
+
+:vector\_store\_timeout
+
+:invalid\_image
+
+:invalid\_image\_format
+
+:invalid\_base64\_image
+
+:invalid\_image\_url
+
+:image\_too\_large
+
+:image\_too\_small
+
+:image\_parse\_error
+
+:image\_content\_policy\_violation
+
+:invalid\_image\_mode
+
+:image\_file\_too\_large
+
+:unsupported\_image\_media\_type
+
+:empty\_image\_file
+
+:failed\_to\_download\_image
+
+:image\_file\_not\_found
+
+message: String
+
+A human-readable description of the error.
+
+incomplete\_details: IncompleteDetails{ reason}
+
+Details about why the response is incomplete.
+
+reason: :max\_output\_tokens | :content\_filter
+
+The reason why the response is incomplete.
+
+:max\_output\_tokens
+
+:content\_filter
+
+instructions: String | Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A system (or developer) message inserted into the model’s context.
+
+When using along with `previous_response_id`, the instructions from a previous
+response will not be carried over to the next response. This makes it simple
+to swap out system (or developer) messages in new responses.
+
+String = String
+
+A text input to the model, equivalent to a text input with the
+`developer` role.
+
+InputItemList = Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A list of one or many input items to the model, containing
+different content types.
+
+class BetaEasyInputMessage { content, role, phase, type }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+content: String | [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+String = String
+
+BetaResponseInputMessageContentList = Array[[BetaResponseInputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_content%20%3E%20(schema))]
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :assistant | :system | :developer
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+:user
+
+:assistant
+
+:system
+
+:developer
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+type: :message
+
+The type of the message input. Always `message`.
+
+class Message { content, role, agent, 2 more }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role.
+
+content: [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :system | :developer
+
+:user
+
+:system
+
+:developer
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ComputerCallOutput { call\_id, output, type, 4 more }
+
+The output of a computer tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_call\_output
+
+id: String
+
+The ID of the computer tool call output.
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the message input. One of `in_progress`, `completed`, or `incomplete`. Populated when input items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class FunctionCallOutput { call\_id, output, type, 4 more }
+
+The output of a function tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: String | [BetaResponseFunctionCallOutputItemList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or file output of the function tool call.
+
+String = String
+
+A JSON string of the output of the function tool call.
+
+BetaResponseFunctionCallOutputItemList = Array[[BetaResponseFunctionCallOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item%20%3E%20(schema))]
+
+An array of content outputs (text, image, file) for the function tool call.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFileContent { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+The base64-encoded data of the file to be sent to the model.
+
+maxLength73400320
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :function\_call\_output
+
+id: String
+
+The unique ID of the function tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`. Populated when items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AgentMessage { author, content, recipient, 3 more }
+
+A message routed between agents.
+
+author: String
+
+content: Array[[BetaResponseInputTextContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text_content%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImageContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image_content%20%3E%20(schema)) { type, detail, file\_id, 2 more }  | EncryptedContent{ encrypted\_content, type}]
+
+Plaintext, image, or encrypted content sent between agents.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+maxLength10485760
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The item type. Always `agent_message`.
+
+id: String
+
+The unique ID of this agent message item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { action, arguments, call\_id, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action that was executed.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The action arguments as a JSON string.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :multi\_agent\_call
+
+The item type. Always `multi_agent_call`.
+
+id: String
+
+The unique ID of this multi-agent call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { action, call\_id, output, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[Output{ text, type, annotations}]
+
+text: String
+
+The text content.
+
+maxLength10485760
+
+type: :output\_text
+
+The content type. Always `output_text`.
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more}]
+
+Citations associated with the text content.
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+minimum0
+
+type: :file\_citation
+
+The citation type. Always `file_citation`.
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+title: String
+
+The title of the cited resource.
+
+type: :url\_citation
+
+The citation type. Always `url_citation`.
+
+url: String
+
+The URL of the cited resource.
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+The ID of the container.
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+type: :container\_file\_citation
+
+The citation type. Always `container_file_citation`.
+
+type: :multi\_agent\_call\_output
+
+The item type. Always `multi_agent_call_output`.
+
+id: String
+
+The unique ID of this multi-agent call output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ToolSearchCall { arguments, type, id, 4 more }
+
+arguments: untyped
+
+The arguments supplied to the tool search call.
+
+type: :tool\_search\_call
+
+The item type. Always `tool_search_call`.
+
+id: String
+
+The unique ID of this tool search call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseToolSearchOutputItemParam { tools, type, id, 4 more }
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by the tool search output.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The item type. Always `tool_search_output`.
+
+id: String
+
+The unique ID of this tool search output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AdditionalTools { role, tools, type, 2 more }
+
+role: :developer
+
+The role that provided the additional tools. Only `developer` is supported.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+A list of additional tools made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The item type. Always `additional_tools`.
+
+id: String
+
+The unique ID of this additional tools item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseCompactionItemParam { encrypted\_content, type, id, agent }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+encrypted\_content: String
+
+The encrypted content of the compaction summary.
+
+maxLength10485760
+
+type: :compaction
+
+id: String
+
+The ID of the compaction item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCall { action, call\_id, type, 5 more }
+
+A tool representing a request to execute one or more shell commands.
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+Ordered shell commands for the execution environment to run.
+
+max\_output\_length: Integer
+
+Maximum number of UTF-8 characters to capture from combined stdout and stderr output.
+
+timeout\_ms: Integer
+
+Maximum wall-clock time in milliseconds to allow the shell commands to run.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :shell\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+environment: [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+The environment to execute the shell commands in.
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCallOutput { call\_id, output, type, 5 more }
+
+The streamed output items emitted by a shell tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[[BetaResponseFunctionShellCallOutputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_shell_call_output_content%20%3E%20(schema)) { outcome, stderr, stdout } ]
+
+Captured chunks of stdout and stderr output, along with their associated outcomes.
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+The exit or timeout outcome associated with this shell call.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+The exit code returned by the shell process.
+
+type: :exit
+
+stderr: String
+
+Captured stderr output for the shell call.
+
+maxLength10485760
+
+stdout: String
+
+Captured stdout output for the shell call.
+
+maxLength10485760
+
+type: :shell\_call\_output
+
+The type of the item. Always `shell_call_output`.
+
+id: String
+
+The unique ID of the shell tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+max\_output\_length: Integer
+
+The maximum number of UTF-8 characters captured for this shell call’s combined output.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ApplyPatchCall { call\_id, operation, status, 4 more }
+
+A tool call representing a request to create, delete, or update files using diff patches.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+The specific create, delete, or update instruction for the apply\_patch tool call.
+
+class CreateFile { diff, path, type }
+
+Instruction for creating a new file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply when creating the file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to create relative to the workspace root.
+
+minLength1
+
+type: :create\_file
+
+The operation type. Always `create_file`.
+
+class DeleteFile { path, type }
+
+Instruction for deleting an existing file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete relative to the workspace root.
+
+minLength1
+
+type: :delete\_file
+
+The operation type. Always `delete_file`.
+
+class UpdateFile { diff, path, type }
+
+Instruction for updating an existing file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply to the existing file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to update relative to the workspace root.
+
+minLength1
+
+type: :update\_file
+
+The operation type. Always `update_file`.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class ApplyPatchCallOutput { call\_id, status, type, 4 more }
+
+The streamed output emitted by an apply patch tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+output: String
+
+Optional human-readable log text from the apply patch tool (e.g., patch results or errors).
+
+maxLength10485760
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { approval\_request\_id, approve, type, 3 more }
+
+A response to an MCP approval request.
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class BetaResponseCustomToolCallOutput { call\_id, output, type, 3 more }
+
+call\_id: String
+
+The call ID, used to map this custom tool call output to a custom tool call.
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the custom tool call generated by your code.
+
+String = String
+
+A string of the output of the custom tool call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the custom tool call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :custom\_tool\_call\_output
+
+The type of the custom tool call output. Always `custom_tool_call_output`.
+
+id: String
+
+The unique ID of the custom tool call output in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class CompactionTrigger { type, agent }
+
+Compacts the current context. Must be the final input item.
+
+type: :compaction\_trigger
+
+The type of the item. Always `compaction_trigger`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ItemReference { id, agent, type }
+
+An internal identifier for an item to reference.
+
+id: String
+
+The ID of the item to reference.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+type: :item\_reference
+
+The type of item to reference. Always `item_reference`.
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of this program item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+code: String
+
+maxLength10485760
+
+fingerprint: String
+
+maxLength10485760
+
+type: :program
+
+The item type. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of this program output item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+result: String
+
+maxLength10485760
+
+status: :completed | :incomplete
+
+The terminal status of the program output.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The item type. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+metadata: Hash[Symbol, String]
+
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+model: :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more | String
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+Model = :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+:"gpt-5.6-sol"
+
+:"gpt-5.6-terra"
+
+:"gpt-5.6-luna"
+
+:"gpt-5.4"
+
+:"gpt-5.4-mini"
+
+:"gpt-5.4-nano"
+
+:"gpt-5.4-mini-2026-03-17"
+
+:"gpt-5.4-nano-2026-03-17"
+
+:"gpt-5.3-chat-latest"
+
+:"gpt-5.2"
+
+:"gpt-5.2-2025-12-11"
+
+:"gpt-5.2-chat-latest"
+
+:"gpt-5.2-pro"
+
+:"gpt-5.2-pro-2025-12-11"
+
+:"gpt-5.1"
+
+:"gpt-5.1-2025-11-13"
+
+:"gpt-5.1-codex"
+
+:"gpt-5.1-mini"
+
+:"gpt-5.1-chat-latest"
+
+:"gpt-5"
+
+:"gpt-5-mini"
+
+:"gpt-5-nano"
+
+:"gpt-5-2025-08-07"
+
+:"gpt-5-mini-2025-08-07"
+
+:"gpt-5-nano-2025-08-07"
+
+:"gpt-5-chat-latest"
+
+:"gpt-4.1"
+
+:"gpt-4.1-mini"
+
+:"gpt-4.1-nano"
+
+:"gpt-4.1-2025-04-14"
+
+:"gpt-4.1-mini-2025-04-14"
+
+:"gpt-4.1-nano-2025-04-14"
+
+:"o4-mini"
+
+:"o4-mini-2025-04-16"
+
+:o3
+
+:"o3-2025-04-16"
+
+:"o3-mini"
+
+:"o3-mini-2025-01-31"
+
+:o1
+
+:"o1-2024-12-17"
+
+:"o1-preview"
+
+:"o1-preview-2024-09-12"
+
+:"o1-mini"
+
+:"o1-mini-2024-09-12"
+
+:"gpt-4o"
+
+:"gpt-4o-2024-11-20"
+
+:"gpt-4o-2024-08-06"
+
+:"gpt-4o-2024-05-13"
+
+:"gpt-4o-audio-preview"
+
+:"gpt-4o-audio-preview-2024-10-01"
+
+:"gpt-4o-audio-preview-2024-12-17"
+
+:"gpt-4o-audio-preview-2025-06-03"
+
+:"gpt-4o-mini-audio-preview"
+
+:"gpt-4o-mini-audio-preview-2024-12-17"
+
+:"gpt-4o-search-preview"
+
+:"gpt-4o-mini-search-preview"
+
+:"gpt-4o-search-preview-2025-03-11"
+
+:"gpt-4o-mini-search-preview-2025-03-11"
+
+:"chatgpt-4o-latest"
+
+:"codex-mini-latest"
+
+:"gpt-4o-mini"
+
+:"gpt-4o-mini-2024-07-18"
+
+:"gpt-4-turbo"
+
+:"gpt-4-turbo-2024-04-09"
+
+:"gpt-4-0125-preview"
+
+:"gpt-4-turbo-preview"
+
+:"gpt-4-1106-preview"
+
+:"gpt-4-vision-preview"
+
+:"gpt-4"
+
+:"gpt-4-0314"
+
+:"gpt-4-0613"
+
+:"gpt-4-32k"
+
+:"gpt-4-32k-0314"
+
+:"gpt-4-32k-0613"
+
+:"gpt-3.5-turbo"
+
+:"gpt-3.5-turbo-16k"
+
+:"gpt-3.5-turbo-0301"
+
+:"gpt-3.5-turbo-0613"
+
+:"gpt-3.5-turbo-1106"
+
+:"gpt-3.5-turbo-0125"
+
+:"gpt-3.5-turbo-16k-0613"
+
+:"o1-pro"
+
+:"o1-pro-2025-03-19"
+
+:"o3-pro"
+
+:"o3-pro-2025-06-10"
+
+:"o3-deep-research"
+
+:"o3-deep-research-2025-06-26"
+
+:"o4-mini-deep-research"
+
+:"o4-mini-deep-research-2025-06-26"
+
+:"computer-use-preview"
+
+:"computer-use-preview-2025-03-11"
+
+:"gpt-5-codex"
+
+:"gpt-5-pro"
+
+:"gpt-5-pro-2025-10-06"
+
+:"gpt-5.1-codex-max"
+
+String = String
+
+object: :response
+
+The object type of this resource - always set to `response`.
+
+output: Array[[BetaResponseOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_item%20%3E%20(schema))]
+
+An array of content items generated by the model.
+
+* The length and order of items in the `output` array is dependent
+  on the model’s response.
+* Rather than accessing the first item in the `output` array and
+  assuming it’s an `assistant` message with the content generated by
+  the model, you might consider using the `output_text` property where
+  supported in SDKs.
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the function call tool output.
+
+call\_id: String
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the function call generated by your code.
+
+String = String
+
+A string of the output of the function call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the function call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :function\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AgentMessage { id, author, content, 3 more }
+
+id: String
+
+The unique ID of the agent message.
+
+author: String
+
+content: Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | Text{ text, type} | 7 more]
+
+Encrypted content sent between agents.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class Text { text, type }
+
+A text content.
+
+text: String
+
+type: :text
+
+class SummaryText { text, type }
+
+A summary text from the model.
+
+text: String
+
+type: :summary\_text
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class ComputerScreenshot { detail, file\_id, image\_url, 2 more }
+
+A screenshot of a computer.
+
+detail: :low | :high | :auto | :original
+
+The detail level of the screenshot image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The type of the item. Always `agent_message`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { id, action, arguments, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action to execute.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The JSON string of arguments generated for the action.
+
+call\_id: String
+
+type: :multi\_agent\_call
+
+The type of the multi-agent call. Always `multi_agent_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { id, action, call\_id, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call output item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+output: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs } ]
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+type: :multi\_agent\_call\_output
+
+The type of the multi-agent result. Always `multi_agent_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the computer call tool output.
+
+call\_id: String
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+status: :completed | :incomplete | :failed | :in\_progress
+
+:completed
+
+:incomplete
+
+:failed
+
+:in\_progress
+
+type: :computer\_call\_output
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the
+developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of the program item.
+
+call\_id: String
+
+code: String
+
+fingerprint: String
+
+type: :program
+
+The type of the item. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of the program output item.
+
+call\_id: String
+
+result: String
+
+status: :completed | :incomplete
+
+The terminal status of the program output item.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The type of the item. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseToolSearchCall { id, arguments, call\_id, 5 more }
+
+id: String
+
+The unique ID of the tool search call item.
+
+arguments: untyped
+
+Arguments used for the tool search call.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :tool\_search\_call
+
+The type of the item. Always `tool_search_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseToolSearchOutputItem { id, call\_id, execution, 5 more }
+
+id: String
+
+The unique ID of the tool search output item.
+
+call\_id: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output item that was recorded.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by tool search.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The type of the item. Always `tool_search_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AdditionalTools { id, role, tools, 2 more }
+
+id: String
+
+The unique ID of the additional tools item.
+
+role: :unknown | :user | :assistant | 5 more
+
+The role that provided the additional tools.
+
+:unknown
+
+:user
+
+:assistant
+
+:system
+
+:critic
+
+:discriminator
+
+:developer
+
+:tool
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The additional tool definitions made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The type of the item. Always `additional_tools`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCompactionItem { id, encrypted\_content, type, 2 more }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+id: String
+
+The unique ID of the compaction item.
+
+encrypted\_content: String
+
+The encrypted content that was produced by compaction.
+
+type: :compaction
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionShellToolCall { id, action, call\_id, 6 more }
+
+A tool call that executes one or more shell commands in a managed environment.
+
+id: String
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+max\_output\_length: Integer
+
+Optional maximum number of characters to return from each command.
+
+timeout\_ms: Integer
+
+Optional timeout in milliseconds for the commands.
+
+call\_id: String
+
+environment: [BetaResponseLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_local_environment%20%3E%20(schema)) { type }  | [BetaResponseContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_container_reference%20%3E%20(schema)) { container\_id, type }
+
+Represents the use of a local environment to perform shell actions.
+
+class BetaResponseLocalEnvironment { type }
+
+Represents the use of a local environment to perform shell actions.
+
+type: :local
+
+The environment type. Always `local`.
+
+class BetaResponseContainerReference { container\_id, type }
+
+Represents a container created with /v1/containers.
+
+container\_id: String
+
+type: :container\_reference
+
+The environment type. Always `container_reference`.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseFunctionShellToolCallOutput { id, call\_id, max\_output\_length, 6 more }
+
+The output of a shell tool call that was emitted.
+
+id: String
+
+The unique ID of the shell call output. Populated when this item is returned via API.
+
+call\_id: String
+
+max\_output\_length: Integer
+
+The maximum length of the shell command output. This is generated by the model and should be passed back with the raw output.
+
+output: Array[Output{ outcome, stderr, stdout, created\_by}]
+
+An array of shell call output contents
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+Represents either an exit outcome (with an exit code) or a timeout outcome for a shell call output chunk.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+Exit code from the shell process.
+
+type: :exit
+
+stderr: String
+
+The standard error output that was captured.
+
+stdout: String
+
+The standard output that was captured.
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :shell\_call\_output
+
+The type of the shell call output. Always `shell_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class BetaResponseApplyPatchToolCall { id, call\_id, operation, 5 more }
+
+A tool call that applies file diffs by creating, deleting, or updating files.
+
+id: String
+
+call\_id: String
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+One of the create\_file, delete\_file, or update\_file operations applied via apply\_patch.
+
+class CreateFile { diff, path, type }
+
+Instruction describing how to create a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to create.
+
+type: :create\_file
+
+Create a new file with the provided diff.
+
+class DeleteFile { path, type }
+
+Instruction describing how to delete a file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete.
+
+type: :delete\_file
+
+Delete the specified file.
+
+class UpdateFile { diff, path, type }
+
+Instruction describing how to update a file via the apply\_patch tool.
+
+diff: String
+
+Diff to apply.
+
+path: String
+
+Path of the file to update.
+
+type: :update\_file
+
+Update an existing file with the provided diff.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call.
+
+class BetaResponseApplyPatchToolCallOutput { id, call\_id, status, 5 more }
+
+The output emitted by an apply patch tool call.
+
+id: String
+
+call\_id: String
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+created\_by: String
+
+The ID of the entity that created this tool call output.
+
+output: String
+
+Optional textual output returned by the apply patch tool.
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { id, approval\_request\_id, approve, 3 more }
+
+A response to an MCP approval request.
+
+id: String
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class BetaResponseCustomToolCallOutputItem { id, status, created\_by }
+
+id: String
+
+The unique ID of the custom tool call output item.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+parallel\_tool\_calls: bool
+
+Whether to allow the model to run tool calls in parallel.
+
+temperature: Float
+
+What sampling temperature to use, between 0 and 2. Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
+We generally recommend altering this or `top_p` but not both.
+
+minimum0
+
+maximum2
+
+tool\_choice: [BetaToolChoiceOptions](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_options%20%3E%20(schema)) | [BetaToolChoiceAllowed](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_allowed%20%3E%20(schema)) { mode, tools, type }  | [BetaToolChoiceTypes](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool_choice_types%20%3E%20(schema)) { type }  | 6 more
+
+How the model should select which tool (or tools) to use when generating
+a response. See the `tools` parameter to see how to specify which tools
+the model can call.
+
+BetaToolChoiceOptions = :none | :auto | :required
+
+Controls which (if any) tool is called by the model.
+
+`none` means the model will not call any tool and instead generates a message.
+
+`auto` means the model can pick between generating a message or calling one or
+more tools.
+
+`required` means the model must call one or more tools.
+
+:none
+
+:auto
+
+:required
+
+class BetaToolChoiceAllowed { mode, tools, type }
+
+Constrains the tools available to the model to a pre-defined set.
+
+mode: :auto | :required
+
+Constrains the tools available to the model to a pre-defined set.
+
+`auto` allows the model to pick from among the allowed tools and generate a
+message.
+
+`required` requires the model to call one or more of the allowed tools.
+
+:auto
+
+:required
+
+tools: Array[Hash[Symbol, untyped]]
+
+A list of tool definitions that the model should be allowed to call.
+
+For the Responses API, the list of tool definitions might look like:
+
+  { "type": "function", "name": "get_weather" },
+  { "type": "mcp", "server_label": "deepwiki" },
+  { "type": "image_generation" }
+
+type: :allowed\_tools
+
+Allowed tool configuration type. Always `allowed_tools`.
+
+class BetaToolChoiceTypes { type }
+
+Indicates that the model should use a built-in tool to generate a response.
+[Learn more about built-in tools](https://platform.openai.com/docs/guides/tools).
+
+type: :file\_search | :web\_search\_preview | :computer | 5 more
+
+The type of hosted tool the model should to use. Learn more about
+[built-in tools](https://platform.openai.com/docs/guides/tools).
+
+Allowed values are:
+
+* `file_search`
+* `web_search_preview`
+* `computer`
+* `computer_use_preview`
+* `computer_use`
+* `code_interpreter`
+* `image_generation`
+
+:file\_search
+
+:web\_search\_preview
+
+:computer
+
+:computer\_use\_preview
+
+:computer\_use
+
+:web\_search\_preview\_2025\_03\_11
+
+:image\_generation
+
+:code\_interpreter
+
+class BetaToolChoiceFunction { name, type }
+
+Use this option to force the model to call a specific function.
+
+name: String
+
+type: :function
+
+For function calling, the type is always `function`.
+
+class BetaToolChoiceMcp { server\_label, type, name }
+
+Use this option to force the model to call a specific tool on a remote MCP server.
+
+server\_label: String
+
+The label of the MCP server to use.
+
+type: :mcp
+
+For MCP tools, the type is always `mcp`.
+
+name: String
+
+The name of the tool to call on the server.
+
+class BetaToolChoiceCustom { name, type }
+
+Use this option to force the model to call a specific custom tool.
+
+name: String
+
+The name of the custom tool to call.
+
+type: :custom
+
+For custom tool calling, the type is always `custom`.
+
+class BetaSpecificProgrammaticToolCallingParam { type }
+
+type: :programmatic\_tool\_calling
+
+The tool to call. Always `programmatic_tool_calling`.
+
+class BetaToolChoiceApplyPatch { type }
+
+Forces the model to call the apply\_patch tool when executing a tool call.
+
+type: :apply\_patch
+
+The tool to call. Always `apply_patch`.
+
+class BetaToolChoiceShell { type }
+
+Forces the model to call the shell tool when a tool call is required.
+
+type: :shell
+
+The tool to call. Always `shell`.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+An array of tools the model may call while generating a response. You
+can specify which tool to use by setting the `tool_choice` parameter.
+
+We support the following categories of tools:
+
+* **Built-in tools**: Tools that are provided by OpenAI that extend the
+  model’s capabilities, like [web search](https://platform.openai.com/docs/guides/tools-web-search)
+  or [file search](https://platform.openai.com/docs/guides/tools-file-search). Learn more about
+  [built-in tools](https://platform.openai.com/docs/guides/tools).
+* **MCP Tools**: Integrations with third-party systems via custom MCP servers
+  or predefined connectors such as Google Drive and SharePoint. Learn more about
+  [MCP Tools](https://platform.openai.com/docs/guides/tools-connectors-mcp).
+* **Function calls (custom tools)**: Functions that are defined by you,
+  enabling the model to call your own code with strongly typed arguments
+  and outputs. Learn more about
+  [function calling](https://platform.openai.com/docs/guides/function-calling). You can also use
+  custom tools to call your own code.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+top\_p: Float
+
+An alternative to sampling with temperature, called nucleus sampling,
+where the model considers the results of the tokens with top\_p probability
+mass. So 0.1 means only the tokens comprising the top 10% probability mass
+are considered.
+
+We generally recommend altering this or `temperature` but not both.
+
+minimum0
+
+maximum1
+
+background: bool
+
+Whether to run the model response in the background.
+[Learn more](https://platform.openai.com/docs/guides/background).
+
+completed\_at: Float
+
+Unix timestamp (in seconds) of when this Response was completed.
+Only present when the status is `completed`.
+
+formatunixtime
+
+conversation: Conversation{ id}
+
+The conversation that this response belonged to. Input items and output items from this response were automatically added to this conversation.
+
+id: String
+
+The unique ID of the conversation that this response was associated with.
+
+max\_output\_tokens: Integer
+
+An upper bound for the number of tokens that can be generated for a response, including visible output tokens and [reasoning tokens](https://platform.openai.com/docs/guides/reasoning).
+
+max\_tool\_calls: Integer
+
+The maximum number of total calls to built-in tools that can be processed in a response. This maximum number applies across all built-in tool calls, not per individual tool. Any further attempts to call a tool by the model will be ignored.
+
+moderation: Moderation{ input, output}
+
+Moderation results for the response input and output, if moderated completions were requested.
+
+input: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response input.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+output: ModerationResult{ categories, category\_applied\_input\_types, category\_scores, 3 more} | Error{ code, message, type}
+
+Moderation for the response output.
+
+class ModerationResult { categories, category\_applied\_input\_types, category\_scores, 3 more }
+
+A moderation result produced for the response input or output.
+
+categories: Hash[Symbol, bool]
+
+A dictionary of moderation categories to booleans, True if the input is flagged under this category.
+
+category\_applied\_input\_types: Hash[Symbol, Array[:text | :image]]
+
+Which modalities of input are reflected by the score for each category.
+
+:text
+
+:image
+
+category\_scores: Hash[Symbol, Float]
+
+A dictionary of moderation categories to scores.
+
+flagged: bool
+
+A boolean indicating whether the content was flagged by any category.
+
+model: String
+
+The moderation model that produced this result.
+
+type: :moderation\_result
+
+The object type, which was always `moderation_result` for successful moderation results.
+
+class Error { code, message, type }
+
+An error produced while attempting moderation for the response input or output.
+
+code: String
+
+The error code.
+
+message: String
+
+The error message.
+
+type: :error
+
+The object type, which was always `error` for moderation failures.
+
+previous\_response\_id: String
+
+The unique ID of the previous response to the model. Use this to
+create multi-turn conversations. Learn more about
+[conversation state](https://platform.openai.com/docs/guides/conversation-state). Cannot be used in conjunction with `conversation`.
+
+prompt: [BetaResponsePrompt](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_prompt%20%3E%20(schema)) { id, variables, version }
+
+Reference to a prompt template and its variables.
+[Learn more](https://platform.openai.com/docs/guides/text?api-mode=responses#reusable-prompts).
+
+id: String
+
+The unique identifier of the prompt template to use.
+
+variables: Hash[Symbol, String | [BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Optional map of values to substitute in for variables in your
+prompt. The substitution values can either be strings, or other
+Response input types like images or files.
+
+String = String
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+version: String
+
+Optional version of the prompt template.
+
+prompt\_cache\_key: String
+
+Used by OpenAI to cache responses for similar requests to optimize your cache hit rates. Replaces the `user` field. [Learn more](https://platform.openai.com/docs/guides/prompt-caching).
+
+prompt\_cache\_options: PromptCacheOptions{ mode, ttl}
+
+The prompt-caching options that were applied to the response. Supported for `gpt-5.6` and later models.
+
+mode: :implicit | :explicit
+
+Whether implicit prompt-cache breakpoints were enabled.
+
+:implicit
+
+:explicit
+
+ttl: :"30m"
+
+The minimum lifetime applied to each cache breakpoint.
+
+Deprecatedprompt\_cache\_retention: :in\_memory | :"24h"
+
+Deprecated. Use `prompt_cache_options.ttl` instead.
+
+The retention policy for the prompt cache. Set to `24h` to enable extended prompt caching, which keeps cached prefixes active for longer, up to a maximum of 24 hours. [Learn more](https://platform.openai.com/docs/guides/prompt-caching#prompt-cache-retention).
+This field expresses a maximum retention policy, while
+`prompt_cache_options.ttl` expresses a minimum cache lifetime. The two
+fields are independent and do not interact.
+For `gpt-5.5`, `gpt-5.5-pro`, and future models, only `24h` is supported.
+
+For older models that support both `in_memory` and `24h`, the default depends on your organization’s data retention policy:
+
+* Organizations without ZDR enabled default to `24h`.
+* Organizations with ZDR enabled default to `in_memory` when `prompt_cache_retention` is not specified.
+
+:in\_memory
+
+:"24h"
+
+reasoning: Reasoning{ context, effort, generate\_summary, 2 more}
+
+**gpt-5 and o-series models only**
+
+Configuration options for
+[reasoning models](https://platform.openai.com/docs/guides/reasoning).
+
+context: :auto | :current\_turn | :all\_turns
+
+Controls which reasoning items are rendered back to the model on later turns.
+When returned on a response, this is the effective reasoning context mode
+used for the response.
+
+:auto
+
+:current\_turn
+
+:all\_turns
+
+effort: :none | :minimal | :low | 4 more
+
+Constrains effort on reasoning for reasoning models. Currently supported
+values are `none`, `minimal`, `low`, `medium`, `high`, `xhigh`, and `max`.
+Reducing reasoning effort can result in faster responses and fewer tokens
+used on reasoning in a response. Not all reasoning models support every
+value. See the
+[reasoning guide](https://platform.openai.com/docs/guides/reasoning)
+for model-specific support.
+
+:none
+
+:minimal
+
+:low
+
+:medium
+
+:high
+
+:xhigh
+
+:max
+
+Deprecatedgenerate\_summary: :auto | :concise | :detailed
+
+**Deprecated:** use `summary` instead.
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+:auto
+
+:concise
+
+:detailed
+
+mode: String | :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+String = String
+
+Mode = :standard | :pro
+
+Controls the reasoning execution mode for the request.
+
+When returned on a response, this is the effective execution mode.
+
+:standard
+
+:pro
+
+summary: :auto | :concise | :detailed
+
+A summary of the reasoning performed by the model. This can be
+useful for debugging and understanding the model’s reasoning process.
+One of `auto`, `concise`, or `detailed`.
+
+`concise` is supported for `computer-use-preview` models and all reasoning models after `gpt-5`.
+
+:auto
+
+:concise
+
+:detailed
+
+safety\_identifier: String
+
+A stable identifier used to help detect users of your application that may be violating OpenAI’s usage policies.
+The IDs should be a string that uniquely identifies each user, with a maximum length of 64 characters. We recommend hashing their username or email address, in order to avoid sending us any identifying information. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+maxLength64
+
+service\_tier: :auto | :default | :flex | 2 more
+
+Specifies the processing type used for serving the request.
+
+* If set to ‘auto’, then the request will be processed with the service tier configured in the Project settings. Unless otherwise configured, the Project will use ‘default’.
+* If set to ‘default’, then the request will be processed with the standard pricing and performance for the selected model.
+* If set to ‘[flex](https://platform.openai.com/docs/guides/flex-processing)’ or ‘[priority](https://openai.com/api-priority-processing/)’, then the request will be processed with the corresponding service tier.
+* When not set, the default behavior is ‘auto’.
+
+When the `service_tier` parameter is set, the response body will include the `service_tier` value based on the processing mode actually used to serve the request. This response value may be different from the value set in the parameter.
+
+:auto
+
+:default
+
+:flex
+
+:scale
+
+:priority
+
+status: [BetaResponseStatus](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_status%20%3E%20(schema))
+
+The status of the response generation. One of `completed`, `failed`,
+`in_progress`, `cancelled`, `queued`, or `incomplete`.
+
+:completed
+
+:failed
+
+:in\_progress
+
+:cancelled
+
+:queued
+
+:incomplete
+
+text: [BetaResponseTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_text_config%20%3E%20(schema)) { format\_, verbosity }
+
+Configuration options for a text response from the model. Can be plain
+text or structured JSON data. Learn more:
+
+* [Text inputs and outputs](https://platform.openai.com/docs/guides/text)
+* [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs)
+
+format\_: [BetaResponseFormatTextConfig](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_format_text_config%20%3E%20(schema))
+
+An object specifying the format that the model must output.
+
+Configuring `{ "type": "json_schema" }` enables Structured Outputs,
+which ensures the model will match your supplied JSON schema. Learn more in the
+[Structured Outputs guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+The default format is `{ "type": "text" }` with no additional options.
+
+**Not recommended for gpt-4o and newer models:**
+
+Setting to `{ "type": "json_object" }` enables the older JSON mode, which
+ensures the message the model generates is valid JSON. Using `json_schema`
+is preferred for models that support it.
+
+class Text { type }
+
+Default response format. Used to generate text responses.
+
+type: :text
+
+The type of response format being defined. Always `text`.
+
+class BetaResponseFormatTextJSONSchemaConfig { name, schema, type, 2 more }
+
+JSON Schema response format. Used to generate structured JSON responses.
+Learn more about [Structured Outputs](https://platform.openai.com/docs/guides/structured-outputs).
+
+name: String
+
+The name of the response format. Must be a-z, A-Z, 0-9, or contain
+underscores and dashes, with a maximum length of 64.
+
+schema: Hash[Symbol, untyped]
+
+The schema for the response format, described as a JSON Schema object.
+Learn how to build JSON schemas [here](https://json-schema.org/).
+
+type: :json\_schema
+
+The type of response format being defined. Always `json_schema`.
+
+description: String
+
+A description of what the response format is for, used by the model to
+determine how to respond in the format.
+
+strict: bool
+
+Whether to enable strict schema adherence when generating the output.
+If set to true, the model will always follow the exact schema defined
+in the `schema` field. Only a subset of JSON Schema is supported when
+`strict` is `true`. To learn more, read the [Structured Outputs
+guide](https://platform.openai.com/docs/guides/structured-outputs).
+
+class JSONObject { type }
+
+JSON object response format. An older method of generating JSON responses.
+Using `json_schema` is recommended for models that support it. Note that the
+model will not generate JSON without a system or user message instructing it
+to do so.
+
+type: :json\_object
+
+The type of response format being defined. Always `json_object`.
+
+verbosity: :low | :medium | :high
+
+Constrains the verbosity of the model’s response. Lower values will result in
+more concise responses, while higher values will result in more verbose responses.
+Currently supported values are `low`, `medium`, and `high`.
+
+:low
+
+:medium
+
+:high
+
+top\_logprobs: Integer
+
+An integer between 0 and 20 specifying the maximum number of most likely
+tokens to return at each token position, each with an associated log
+probability. In some cases, the number of returned tokens may be fewer than
+requested.
+
+minimum0
+
+maximum20
+
+truncation: :auto | :disabled
+
+The truncation strategy to use for the model response.
+
+* `auto`: If the input to this Response exceeds
+  the model’s context window size, the model will truncate the
+  response to fit the context window by dropping items from the beginning of the conversation.
+* `disabled` (default): If the input size will exceed the context window
+  size for a model, the request will fail with a 400 error.
+
+:auto
+
+:disabled
+
+usage: [BetaResponseUsage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_usage%20%3E%20(schema)) { input\_tokens, input\_tokens\_details, output\_tokens, 2 more }
+
+Represents token usage details including input tokens, output tokens,
+a breakdown of output tokens, and the total tokens used.
+
+input\_tokens: Integer
+
+The number of input tokens.
+
+input\_tokens\_details: InputTokensDetails{ cache\_write\_tokens, cached\_tokens}
+
+A detailed breakdown of the input tokens.
+
+cache\_write\_tokens: Integer
+
+The number of input tokens that were written to the cache.
+
+cached\_tokens: Integer
+
+The number of tokens that were retrieved from the cache.
+[More on prompt caching](https://platform.openai.com/docs/guides/prompt-caching).
+
+output\_tokens: Integer
+
+The number of output tokens.
+
+output\_tokens\_details: OutputTokensDetails{ reasoning\_tokens}
+
+A detailed breakdown of the output tokens.
+
+reasoning\_tokens: Integer
+
+The number of reasoning tokens.
+
+total\_tokens: Integer
+
+The total number of tokens used.
+
+Deprecateduser: String
+
+This field is being replaced by `safety_identifier` and `prompt_cache_key`. Use `prompt_cache_key` instead to maintain caching optimizations.
+A stable identifier for your end-users.
+Used to boost cache hit rates by better bucketing similar requests and to help OpenAI detect and prevent abuse. [Learn more](https://platform.openai.com/docs/guides/safety-best-practices#safety-identifiers).
+
+sequence\_number: Integer
+
+The sequence number of this event.
+
+type: :"response.in\_progress"
+
+The type of the event. Always `response.in_progress`.
+
+agent: Agent{ agent\_name}
+
+The agent that owns this multi-agent streaming event.
+
+agent\_name: String
+
+class BetaResponseFailedEvent { response, sequence\_number, type, agent }
+
+An event that is emitted when a response fails.
+
+response: [BetaResponse](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response%20%3E%20(schema)) { id, created\_at, error, 31 more }
+
+The response that failed.
+
+id: String
+
+Unique identifier for this Response.
+
+created\_at: Float
+
+Unix timestamp (in seconds) of when this Response was created.
+
+formatunixtime
+
+error: [BetaResponseError](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_error%20%3E%20(schema)) { code, message }
+
+An error object returned when the model fails to generate a Response.
+
+code: :server\_error | :rate\_limit\_exceeded | :invalid\_prompt | 16 more
+
+The error code for the response.
+
+:server\_error
+
+:rate\_limit\_exceeded
+
+:invalid\_prompt
+
+:bio\_policy
+
+:vector\_store\_timeout
+
+:invalid\_image
+
+:invalid\_image\_format
+
+:invalid\_base64\_image
+
+:invalid\_image\_url
+
+:image\_too\_large
+
+:image\_too\_small
+
+:image\_parse\_error
+
+:image\_content\_policy\_violation
+
+:invalid\_image\_mode
+
+:image\_file\_too\_large
+
+:unsupported\_image\_media\_type
+
+:empty\_image\_file
+
+:failed\_to\_download\_image
+
+:image\_file\_not\_found
+
+message: String
+
+A human-readable description of the error.
+
+incomplete\_details: IncompleteDetails{ reason}
+
+Details about why the response is incomplete.
+
+reason: :max\_output\_tokens | :content\_filter
+
+The reason why the response is incomplete.
+
+:max\_output\_tokens
+
+:content\_filter
+
+instructions: String | Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A system (or developer) message inserted into the model’s context.
+
+When using along with `previous_response_id`, the instructions from a previous
+response will not be carried over to the next response. This makes it simple
+to swap out system (or developer) messages in new responses.
+
+String = String
+
+A text input to the model, equivalent to a text input with the
+`developer` role.
+
+InputItemList = Array[[BetaResponseInputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_item%20%3E%20(schema))]
+
+A list of one or many input items to the model, containing
+different content types.
+
+class BetaEasyInputMessage { content, role, phase, type }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role. Messages with the
+`assistant` role are presumed to have been generated by the model in previous
+interactions.
+
+content: String | [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or audio input to the model, used to generate a response.
+Can also contain previous assistant responses.
+
+String = String
+
+BetaResponseInputMessageContentList = Array[[BetaResponseInputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_content%20%3E%20(schema))]
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :assistant | :system | :developer
+
+The role of the message input. One of `user`, `assistant`, `system`, or
+`developer`.
+
+:user
+
+:assistant
+
+:system
+
+:developer
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+type: :message
+
+The type of the message input. Always `message`.
+
+class Message { content, role, agent, 2 more }
+
+A message input to the model with a role indicating instruction following
+hierarchy. Instructions given with the `developer` or `system` role take
+precedence over instructions given with the `user` role.
+
+content: [BetaResponseInputMessageContentList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_message_content_list%20%3E%20(schema)) { , ,  }
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+role: :user | :system | :developer
+
+:user
+
+:system
+
+:developer
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+actions: [BetaComputerActionList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action_list%20%3E%20(schema)) { Click, DoubleClick, Drag, 6 more }
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
+
+y\_: Integer
+
+The y-coordinate.
+
+type: :drag
+
+Specifies the event type. For a drag action, this property is always set to `drag`.
+
+keys: Array[String]
+
+The keys being held while dragging the mouse.
+
+class Keypress { keys, type }
+
+A collection of keypresses the model would like to perform.
+
+keys: Array[String]
+
+The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.
+
+type: :keypress
+
+Specifies the event type. For a keypress action, this property is always set to `keypress`.
+
+class Move { type, x, y\_, keys }
+
+A mouse move action.
+
+type: :move
+
+Specifies the event type. For a move action, this property is always set to `move`.
+
+x: Integer
+
+The x-coordinate to move to.
+
+y\_: Integer
+
+The y-coordinate to move to.
+
+keys: Array[String]
+
+The keys being held while moving the mouse.
+
+class Screenshot { type }
+
+A screenshot action.
+
+type: :screenshot
+
+Specifies the event type. For a screenshot action, this property is always set to `screenshot`.
+
+class Scroll { scroll\_x, scroll\_y, type, 3 more }
+
+A scroll action.
+
+scroll\_x: Integer
+
+The horizontal scroll distance.
+
+scroll\_y: Integer
+
+The vertical scroll distance.
+
+type: :scroll
+
+Specifies the event type. For a scroll action, this property is always set to `scroll`.
+
+x: Integer
+
+The x-coordinate where the scroll occurred.
+
+y\_: Integer
+
+The y-coordinate where the scroll occurred.
+
+keys: Array[String]
+
+The keys being held while scrolling.
+
+class Type { text, type }
+
+An action to type in text.
+
+text: String
+
+The text to type.
+
+type: :type
+
+Specifies the event type. For a type action, this property is always set to `type`.
+
+class Wait { type }
+
+A wait action.
+
+type: :wait
+
+Specifies the event type. For a wait action, this property is always set to `wait`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ComputerCallOutput { call\_id, output, type, 4 more }
+
+The output of a computer tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: [BetaResponseComputerToolCallOutputScreenshot](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_computer_tool_call_output_screenshot%20%3E%20(schema)) { type, file\_id, image\_url }
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is
+always set to `computer_screenshot`.
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_call\_output
+
+id: String
+
+The ID of the computer tool call output.
+
+acknowledged\_safety\_checks: Array[AcknowledgedSafetyCheck{ id, code, message}]
+
+The safety checks reported by the API that have been acknowledged by the developer.
+
+id: String
+
+code: String
+
+message: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the message input. One of `in_progress`, `completed`, or `incomplete`. Populated when input items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class FunctionCallOutput { call\_id, output, type, 4 more }
+
+The output of a function tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: String | [BetaResponseFunctionCallOutputItemList](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item_list%20%3E%20(schema)) { , ,  }
+
+Text, image, or file output of the function tool call.
+
+String = String
+
+A JSON string of the output of the function tool call.
+
+BetaResponseFunctionCallOutputItemList = Array[[BetaResponseFunctionCallOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_call_output_item%20%3E%20(schema))]
+
+An array of content outputs (text, image, file) for the function tool call.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFileContent { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+The base64-encoded data of the file to be sent to the model.
+
+maxLength73400320
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :function\_call\_output
+
+id: String
+
+The unique ID of the function tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the item. One of `in_progress`, `completed`, or `incomplete`. Populated when items are returned via API.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AgentMessage { author, content, recipient, 3 more }
+
+A message routed between agents.
+
+author: String
+
+content: Array[[BetaResponseInputTextContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text_content%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImageContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image_content%20%3E%20(schema)) { type, detail, file\_id, 2 more }  | EncryptedContent{ encrypted\_content, type}]
+
+Plaintext, image, or encrypted content sent between agents.
+
+class BetaResponseInputTextContent { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+maxLength10485760
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImageContent { type, detail, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision)
+
+type: :input\_image
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+maxLength20971520
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+maxLength10485760
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The item type. Always `agent_message`.
+
+id: String
+
+The unique ID of this agent message item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { action, arguments, call\_id, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action that was executed.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The action arguments as a JSON string.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :multi\_agent\_call
+
+The item type. Always `multi_agent_call`.
+
+id: String
+
+The unique ID of this multi-agent call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { action, call\_id, output, 3 more }
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[Output{ text, type, annotations}]
+
+text: String
+
+The text content.
+
+maxLength10485760
+
+type: :output\_text
+
+The content type. Always `output_text`.
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more}]
+
+Citations associated with the text content.
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+minimum0
+
+type: :file\_citation
+
+The citation type. Always `file_citation`.
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+title: String
+
+The title of the cited resource.
+
+type: :url\_citation
+
+The citation type. Always `url_citation`.
+
+url: String
+
+The URL of the cited resource.
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+The ID of the container.
+
+end\_index: Integer
+
+The index of the last character of the citation in the message.
+
+minimum0
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+The index of the first character of the citation in the message.
+
+minimum0
+
+type: :container\_file\_citation
+
+The citation type. Always `container_file_citation`.
+
+type: :multi\_agent\_call\_output
+
+The item type. Always `multi_agent_call_output`.
+
+id: String
+
+The unique ID of this multi-agent call output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ToolSearchCall { arguments, type, id, 4 more }
+
+arguments: untyped
+
+The arguments supplied to the tool search call.
+
+type: :tool\_search\_call
+
+The item type. Always `tool_search_call`.
+
+id: String
+
+The unique ID of this tool search call.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search call.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseToolSearchOutputItemParam { tools, type, id, 4 more }
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+The loaded tool definitions returned by the tool search output.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :tool\_search\_output
+
+The item type. Always `tool_search_output`.
+
+id: String
+
+The unique ID of this tool search output.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+execution: :server | :client
+
+:server
+
+:client
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the tool search output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class AdditionalTools { role, tools, type, 2 more }
+
+role: :developer
+
+The role that provided the additional tools. Only `developer` is supported.
+
+tools: Array[[BetaTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_tool%20%3E%20(schema))]
+
+A list of additional tools made available at this item.
+
+class BetaFunctionTool { name, parameters, strict, 5 more }
+
+name: String
+
+parameters: Hash[Symbol, untyped]
+
+strict: bool
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+class BetaFileSearchTool { type, vector\_store\_ids, filters, 2 more }
+
+type: :file\_search
+
+vector\_store\_ids: Array[String]
+
+filters: ComparisonFilter{ key, type, value} | CompoundFilter{ filters, type}
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+class CompoundFilter { filters, type }
+
+filters: Array[ComparisonFilter{ key, type, value} | untyped]
+
+class ComparisonFilter { key, type, value }
+
+key: String
+
+type: :eq | :ne | :gt | 5 more
+
+:eq
+
+:ne
+
+:gt
+
+:gte
+
+:lt
+
+:lte
+
+:in
+
+:nin
+
+value: String | Float | bool | Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+UnionMember3 = Array[String | Float]
+
+String = String
+
+Float = Float
+
+UnionMember1 = untyped
+
+type: :and | :or
+
+:and
+
+:or
+
+max\_num\_results: Integer
+
+ranking\_options: RankingOptions{ hybrid\_search, ranker, score\_threshold}
+
+hybrid\_search: HybridSearch{ embedding\_weight, text\_weight}
+
+embedding\_weight: Float
+
+text\_weight: Float
+
+ranker: :auto | :"default-2024-11-15"
+
+:auto
+
+:"default-2024-11-15"
+
+score\_threshold: Float
+
+class BetaComputerTool { type }
+
+type: :computer
+
+class BetaComputerUsePreviewTool { display\_height, display\_width, environment, type }
+
+display\_height: Integer
+
+display\_width: Integer
+
+environment: :windows | :mac | :linux | 2 more
+
+:windows
+
+:mac
+
+:linux
+
+:ubuntu
+
+:browser
+
+type: :computer\_use\_preview
+
+class BetaWebSearchTool { type, filters, search\_context\_size, user\_location }
+
+[web search tool](https://platform.openai.com/docs/guides/tools-web-search).
+
+type: :web\_search | :web\_search\_2025\_08\_26
+
+:web\_search
+
+:web\_search\_2025\_08\_26
+
+filters: Filters{ allowed\_domains}
+
+allowed\_domains: Array[String]
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ city, country, region, 2 more}
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+type: :approximate
+
+class Mcp { server\_label, type, allowed\_callers, 9 more }
+
+Give the model access to additional tools via remote Model Context Protocol
+(MCP) servers. [Learn more about MCP](https://platform.openai.com/docs/guides/tools-remote-mcp).
+
+server\_label: String
+
+type: :mcp
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+allowed\_tools: Array[String] | McpToolFilter{ read\_only, tool\_names}
+
+McpAllowedTools = Array[String]
+
+A string array of allowed tool names
+
+class McpToolFilter { read\_only, tool\_names }
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+authorization: String
+
+connector\_id: :connector\_dropbox | :connector\_gmail | :connector\_googlecalendar | 5 more
+
+about service connectors [here](https://platform.openai.com/docs/guides/tools-remote-mcp#connectors).
+
+:connector\_dropbox
+
+:connector\_gmail
+
+:connector\_googlecalendar
+
+:connector\_googledrive
+
+:connector\_microsoftteams
+
+:connector\_outlookcalendar
+
+:connector\_outlookemail
+
+:connector\_sharepoint
+
+defer\_loading: bool
+
+headers: Hash[Symbol, String]
+
+require\_approval: McpToolApprovalFilter{ always, never} | :always | :never
+
+class McpToolApprovalFilter { always, never }
+
+always: Always{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+never: Never{ read\_only, tool\_names}
+
+read\_only: bool
+
+tool\_names: Array[String]
+
+McpToolApprovalSetting = :always | :never
+
+Specify a single approval policy for all tools. One of `always` or
+`never`. When set to `always`, all tools will require approval. When
+set to `never`, all tools will not require approval.
+
+:always
+
+:never
+
+server\_description: String
+
+server\_url: String
+
+tunnel\_id: String
+
+class CodeInterpreter { container, type, allowed\_callers }
+
+A tool that runs Python code to help generate a response to a prompt.
+
+container: String | CodeInterpreterToolAuto{ type, file\_ids, memory\_limit, network\_policy}
+
+String = String
+
+The container ID.
+
+class CodeInterpreterToolAuto { type, file\_ids, memory\_limit, network\_policy }
+
+type: :auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+type: :code\_interpreter
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+class ProgrammaticToolCalling { type }
+
+type: :programmatic\_tool\_calling
+
+The type of the tool. Always `programmatic_tool_calling`.
+
+class ImageGeneration { type, action, background, 9 more }
+
+A tool that generates images using the GPT image models.
+
+type: :image\_generation
+
+action: :generate | :edit | :auto
+
+:generate
+
+:edit
+
+:auto
+
+background: :transparent | :opaque | :auto
+
+Allows to set transparency for the background of the generated image(s).
+This parameter is only supported for GPT image models that support
+transparent backgrounds. Must be one of `transparent`, `opaque`, or
+`auto` (default value). When `auto` is used, the model will
+automatically determine the best background for the image.
+
+`gpt-image-2` and `gpt-image-2-2026-04-21` do not support
+transparent backgrounds. Requests with `background` set to
+`transparent` will return an error for these models; use `opaque` or
+`auto` instead.
+
+If `transparent`, the output format needs to support transparency,
+so it should be set to either `png` (default value) or `webp`.
+
+:transparent
+
+:opaque
+
+:auto
+
+input\_fidelity: :high | :low
+
+:high
+
+:low
+
+input\_image\_mask: InputImageMask{ file\_id, image\_url}
+
+file\_id: String
+
+image\_url: String
+
+model: String | :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+String = String
+
+Model = :"gpt-image-1" | :"gpt-image-1-mini" | :"gpt-image-2" | 3 more
+
+:"gpt-image-1"
+
+:"gpt-image-1-mini"
+
+:"gpt-image-2"
+
+:"gpt-image-2-2026-04-21"
+
+:"gpt-image-1.5"
+
+:"chatgpt-image-latest"
+
+moderation: :auto | :low
+
+:auto
+
+:low
+
+output\_compression: Integer
+
+minimum0
+
+maximum100
+
+output\_format: :png | :webp | :jpeg
+
+:png
+
+:webp
+
+:jpeg
+
+partial\_images: Integer
+
+minimum0
+
+maximum3
+
+quality: :low | :medium | :high | :auto
+
+:low
+
+:medium
+
+:high
+
+:auto
+
+size: String | :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+String = String
+
+Size = :"1024x1024" | :"1024x1536" | :"1536x1024" | :auto
+
+:"1024x1024"
+
+:"1024x1536"
+
+:"1536x1024"
+
+:auto
+
+class LocalShell { type }
+
+A tool that allows the model to execute shell commands in a local environment.
+
+type: :local\_shell
+
+The type of the local shell tool. Always `local_shell`.
+
+class BetaFunctionShellTool { type, allowed\_callers, environment }
+
+type: :shell
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+environment: [BetaContainerAuto](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_auto%20%3E%20(schema)) { type, file\_ids, memory\_limit, 2 more }  | [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+class BetaContainerAuto { type, file\_ids, memory\_limit, 2 more }
+
+type: :container\_auto
+
+file\_ids: Array[String]
+
+memory\_limit: :"1g" | :"4g" | :"16g" | :"64g"
+
+:"1g"
+
+:"4g"
+
+:"16g"
+
+:"64g"
+
+network\_policy: [BetaContainerNetworkPolicyDisabled](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_disabled%20%3E%20(schema)) { type }  | [BetaContainerNetworkPolicyAllowlist](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_allowlist%20%3E%20(schema)) { allowed\_domains, type, domain\_secrets }
+
+class BetaContainerNetworkPolicyDisabled { type }
+
+type: :disabled
+
+class BetaContainerNetworkPolicyAllowlist { allowed\_domains, type, domain\_secrets }
+
+allowed\_domains: Array[String]
+
+type: :allowlist
+
+domain\_secrets: Array[[BetaContainerNetworkPolicyDomainSecret](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_network_policy_domain_secret%20%3E%20(schema)) { domain, name, value } ]
+
+domain: String
+
+minLength1
+
+name: String
+
+minLength1
+
+value: String
+
+maxLength10485760
+
+minLength1
+
+skills: Array[[BetaSkillReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_skill_reference%20%3E%20(schema)) { skill\_id, type, version }  | [BetaInlineSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill%20%3E%20(schema)) { description, name, source, type } ]
+
+class BetaSkillReference { skill\_id, type, version }
+
+skill\_id: String
+
+maxLength64
+
+minLength1
+
+type: :skill\_reference
+
+version: String
+
+class BetaInlineSkill { description, name, source, type }
+
+description: String
+
+name: String
+
+source: [BetaInlineSkillSource](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_inline_skill_source%20%3E%20(schema)) { data, media\_type, type }
+
+data: String
+
+Base64-encoded skill zip bundle.
+
+maxLength70254592
+
+minLength1
+
+media\_type: :"application/zip"
+
+The media type of the inline skill payload. Must be `application/zip`.
+
+type: :base64
+
+The type of the inline skill source. Must be `base64`.
+
+type: :inline
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+class BetaNamespaceTool { description, name, tools, type }
+
+description: String
+
+minLength1
+
+name: String
+
+minLength1
+
+tools: Array[Function{ name, type, allowed\_callers, 5 more} | [BetaCustomTool](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_custom_tool%20%3E%20(schema)) { name, type, allowed\_callers, 3 more } ]
+
+class Function { name, type, allowed\_callers, 5 more }
+
+name: String
+
+maxLength128
+
+minLength1
+
+type: :function
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+output\_schema: Hash[Symbol, untyped]
+
+parameters: untyped
+
+strict: bool
+
+class BetaCustomTool { name, type, allowed\_callers, 3 more }
+
+A custom tool that processes input using a specified format. Learn more about [custom tools](https://platform.openai.com/docs/guides/function-calling#custom-tools)
+
+name: String
+
+type: :custom
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+defer\_loading: bool
+
+description: String
+
+format\_: Text{ type} | Grammar{ definition, syntax, type}
+
+class Text { type }
+
+Unconstrained free-form text.
+
+type: :text
+
+Unconstrained text format. Always `text`.
+
+class Grammar { definition, syntax, type }
+
+definition: String
+
+syntax: :lark | :regex
+
+:lark
+
+:regex
+
+type: :grammar
+
+type: :namespace
+
+class BetaToolSearchTool { type, description, execution, parameters }
+
+type: :tool\_search
+
+description: String
+
+execution: :server | :client
+
+:server
+
+:client
+
+parameters: untyped
+
+class BetaWebSearchPreviewTool { type, search\_content\_types, search\_context\_size, user\_location }
+
+type: :web\_search\_preview | :web\_search\_preview\_2025\_03\_11
+
+:web\_search\_preview
+
+:web\_search\_preview\_2025\_03\_11
+
+search\_content\_types: Array[:text | :image]
+
+:text
+
+:image
+
+search\_context\_size: :low | :medium | :high
+
+:low
+
+:medium
+
+:high
+
+user\_location: UserLocation{ type, city, country, 2 more}
+
+type: :approximate
+
+city: String
+
+country: String
+
+region: String
+
+timezone: String
+
+class BetaApplyPatchTool { type, allowed\_callers }
+
+type: :apply\_patch
+
+allowed\_callers: Array[:direct | :programmatic]
+
+:direct
+
+:programmatic
+
+type: :additional\_tools
+
+The item type. Always `additional_tools`.
+
+id: String
+
+The unique ID of this additional tools item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseReasoningItem { id, summary, type, 4 more }
+
+[managing context](https://platform.openai.com/docs/guides/conversation-state).
+
+id: String
+
+summary: Array[Summary{ text, type}]
+
+text: String
+
+type: :summary\_text
+
+type: :reasoning
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+content: Array[Content{ text, type}]
+
+text: String
+
+type: :reasoning\_text
+
+encrypted\_content: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseCompactionItemParam { encrypted\_content, type, id, agent }
+
+A compaction item generated by the [`v1/responses/compact` API](https://platform.openai.com/docs/api-reference/responses/compact).
+
+encrypted\_content: String
+
+The encrypted content of the compaction summary.
+
+maxLength10485760
+
+type: :compaction
+
+id: String
+
+The ID of the compaction item.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ImageGenerationCall { id, result, status, 2 more }
+
+An image generation request made by the model.
+
+id: String
+
+result: String
+
+status: :in\_progress | :completed | :generating | :failed
+
+:in\_progress
+
+:completed
+
+:generating
+
+:failed
+
+type: :image\_generation\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseCodeInterpreterToolCall { id, code, container\_id, 4 more }
+
+id: String
+
+code: String
+
+container\_id: String
+
+outputs: Array[Logs{ logs, type} | Image{ type, url}]
+
+class Logs { logs, type }
+
+logs: String
+
+type: :logs
+
+class Image { type, url }
+
+type: :image
+
+url: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:interpreting
+
+:failed
+
+type: :code\_interpreter\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCall { id, action, call\_id, 3 more }
+
+A tool call to run a command on the local shell.
+
+id: String
+
+action: Action{ command, env, type, 3 more}
+
+command: Array[String]
+
+env: Hash[Symbol, String]
+
+type: :exec
+
+timeout\_ms: Integer
+
+user: String
+
+working\_directory: String
+
+call\_id: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :local\_shell\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class LocalShellCallOutput { id, output, type, 2 more }
+
+The output of a local shell tool call.
+
+id: String
+
+output: String
+
+type: :local\_shell\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCall { action, call\_id, type, 5 more }
+
+A tool representing a request to execute one or more shell commands.
+
+action: Action{ commands, max\_output\_length, timeout\_ms}
+
+commands: Array[String]
+
+Ordered shell commands for the execution environment to run.
+
+max\_output\_length: Integer
+
+Maximum number of UTF-8 characters to capture from combined stdout and stderr output.
+
+timeout\_ms: Integer
+
+Maximum wall-clock time in milliseconds to allow the shell commands to run.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+type: :shell\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+environment: [BetaLocalEnvironment](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_environment%20%3E%20(schema)) { type, skills }  | [BetaContainerReference](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_container_reference%20%3E%20(schema)) { container\_id, type }
+
+The environment to execute the shell commands in.
+
+class BetaLocalEnvironment { type, skills }
+
+type: :local
+
+skills: Array[[BetaLocalSkill](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_local_skill%20%3E%20(schema)) { description, name, path } ]
+
+description: String
+
+name: String
+
+path: String
+
+class BetaContainerReference { container\_id, type }
+
+container\_id: String
+
+type: :container\_reference
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ShellCallOutput { call\_id, output, type, 5 more }
+
+The streamed output items emitted by a shell tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+output: Array[[BetaResponseFunctionShellCallOutputContent](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_function_shell_call_output_content%20%3E%20(schema)) { outcome, stderr, stdout } ]
+
+Captured chunks of stdout and stderr output, along with their associated outcomes.
+
+outcome: Timeout{ type} | Exit{ exit\_code, type}
+
+The exit or timeout outcome associated with this shell call.
+
+class Timeout { type }
+
+Indicates that the shell call exceeded its configured time limit.
+
+type: :timeout
+
+The outcome type. Always `timeout`.
+
+class Exit { exit\_code, type }
+
+exit\_code: Integer
+
+The exit code returned by the shell process.
+
+type: :exit
+
+stderr: String
+
+Captured stderr output for the shell call.
+
+maxLength10485760
+
+stdout: String
+
+Captured stdout output for the shell call.
+
+maxLength10485760
+
+type: :shell\_call\_output
+
+The type of the item. Always `shell_call_output`.
+
+id: String
+
+The unique ID of the shell tool call output. Populated when this item is returned via API.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+max\_output\_length: Integer
+
+The maximum number of UTF-8 characters captured for this shell call’s combined output.
+
+status: :in\_progress | :completed | :incomplete
+
+The status of the shell call output.
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class ApplyPatchCall { call\_id, operation, status, 4 more }
+
+A tool call representing a request to create, delete, or update files using diff patches.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+operation: CreateFile{ diff, path, type} | DeleteFile{ path, type} | UpdateFile{ diff, path, type}
+
+The specific create, delete, or update instruction for the apply\_patch tool call.
+
+class CreateFile { diff, path, type }
+
+Instruction for creating a new file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply when creating the file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to create relative to the workspace root.
+
+minLength1
+
+type: :create\_file
+
+The operation type. Always `create_file`.
+
+class DeleteFile { path, type }
+
+Instruction for deleting an existing file via the apply\_patch tool.
+
+path: String
+
+Path of the file to delete relative to the workspace root.
+
+minLength1
+
+type: :delete\_file
+
+The operation type. Always `delete_file`.
+
+class UpdateFile { diff, path, type }
+
+Instruction for updating an existing file via the apply\_patch tool.
+
+diff: String
+
+Unified diff content to apply to the existing file.
+
+maxLength10485760
+
+path: String
+
+Path of the file to update relative to the workspace root.
+
+minLength1
+
+type: :update\_file
+
+The operation type. Always `update_file`.
+
+status: :in\_progress | :completed
+
+:in\_progress
+
+:completed
+
+type: :apply\_patch\_call
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class ApplyPatchCallOutput { call\_id, status, type, 4 more }
+
+The streamed output emitted by an apply patch tool call.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+status: :completed | :failed
+
+:completed
+
+:failed
+
+type: :apply\_patch\_call\_output
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+output: String
+
+Optional human-readable log text from the apply patch tool (e.g., patch results or errors).
+
+maxLength10485760
+
+class McpListTools { id, server\_label, tools, 3 more }
+
+A list of tools available on an MCP server.
+
+id: String
+
+server\_label: String
+
+tools: Array[Tool{ input\_schema, name, annotations, description}]
+
+input\_schema: untyped
+
+name: String
+
+annotations: untyped
+
+description: String
+
+type: :mcp\_list\_tools
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+error: String
+
+class McpApprovalRequest { id, arguments, name, 3 more }
+
+A request for human approval of a tool invocation.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_approval\_request
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class McpApprovalResponse { approval\_request\_id, approve, type, 3 more }
+
+A response to an MCP approval request.
+
+approval\_request\_id: String
+
+approve: bool
+
+type: :mcp\_approval\_response
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+reason: String
+
+class McpCall { id, arguments, name, 7 more }
+
+An invocation of a tool on an MCP server.
+
+id: String
+
+arguments: String
+
+name: String
+
+server\_label: String
+
+type: :mcp\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+approval\_request\_id: String
+
+error: String
+
+output: String
+
+status: :in\_progress | :completed | :incomplete | 2 more
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+:calling
+
+:failed
+
+class BetaResponseCustomToolCallOutput { call\_id, output, type, 3 more }
+
+call\_id: String
+
+The call ID, used to map this custom tool call output to a custom tool call.
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the custom tool call generated by your code.
+
+String = String
+
+A string of the output of the custom tool call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the custom tool call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+type: :custom\_tool\_call\_output
+
+The type of the custom tool call output. Always `custom_tool_call_output`.
+
+id: String
+
+The unique ID of the custom tool call output in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+class BetaResponseCustomToolCall { call\_id, input, name, 5 more }
+
+call\_id: String
+
+An identifier used to map this custom tool call to a tool call output.
+
+input: String
+
+The input for the custom tool call generated by the model.
+
+name: String
+
+The name of the custom tool being called.
+
+type: :custom\_tool\_call
+
+The type of the custom tool call. Always `custom_tool_call`.
+
+id: String
+
+The unique ID of the custom tool call in the OpenAI platform.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the custom tool being called.
+
+class CompactionTrigger { type, agent }
+
+Compacts the current context. Must be the final input item.
+
+type: :compaction\_trigger
+
+The type of the item. Always `compaction_trigger`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ItemReference { id, agent, type }
+
+An internal identifier for an item to reference.
+
+id: String
+
+The ID of the item to reference.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+type: :item\_reference
+
+The type of item to reference. Always `item_reference`.
+
+class Program { id, call\_id, code, 3 more }
+
+id: String
+
+The unique ID of this program item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+code: String
+
+maxLength10485760
+
+fingerprint: String
+
+maxLength10485760
+
+type: :program
+
+The item type. Always `program`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class ProgramOutput { id, call\_id, result, 3 more }
+
+id: String
+
+The unique ID of this program output item.
+
+call\_id: String
+
+maxLength64
+
+minLength1
+
+result: String
+
+maxLength10485760
+
+status: :completed | :incomplete
+
+The terminal status of the program output.
+
+:completed
+
+:incomplete
+
+type: :program\_output
+
+The item type. Always `program_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+metadata: Hash[Symbol, String]
+
+format, and querying for objects via API or the dashboard.
+
+Keys are strings with a maximum length of 64 characters. Values are strings
+with a maximum length of 512 characters.
+
+model: :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more | String
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+Model = :"gpt-5.6-sol" | :"gpt-5.6-terra" | :"gpt-5.6-luna" | 92 more
+
+Model ID used to generate the response, like `gpt-4o` or `o3`. OpenAI
+offers a wide range of models with different capabilities, performance
+characteristics, and price points. Refer to the [model guide](https://platform.openai.com/docs/models)
+to browse and compare available models.
+
+:"gpt-5.6-sol"
+
+:"gpt-5.6-terra"
+
+:"gpt-5.6-luna"
+
+:"gpt-5.4"
+
+:"gpt-5.4-mini"
+
+:"gpt-5.4-nano"
+
+:"gpt-5.4-mini-2026-03-17"
+
+:"gpt-5.4-nano-2026-03-17"
+
+:"gpt-5.3-chat-latest"
+
+:"gpt-5.2"
+
+:"gpt-5.2-2025-12-11"
+
+:"gpt-5.2-chat-latest"
+
+:"gpt-5.2-pro"
+
+:"gpt-5.2-pro-2025-12-11"
+
+:"gpt-5.1"
+
+:"gpt-5.1-2025-11-13"
+
+:"gpt-5.1-codex"
+
+:"gpt-5.1-mini"
+
+:"gpt-5.1-chat-latest"
+
+:"gpt-5"
+
+:"gpt-5-mini"
+
+:"gpt-5-nano"
+
+:"gpt-5-2025-08-07"
+
+:"gpt-5-mini-2025-08-07"
+
+:"gpt-5-nano-2025-08-07"
+
+:"gpt-5-chat-latest"
+
+:"gpt-4.1"
+
+:"gpt-4.1-mini"
+
+:"gpt-4.1-nano"
+
+:"gpt-4.1-2025-04-14"
+
+:"gpt-4.1-mini-2025-04-14"
+
+:"gpt-4.1-nano-2025-04-14"
+
+:"o4-mini"
+
+:"o4-mini-2025-04-16"
+
+:o3
+
+:"o3-2025-04-16"
+
+:"o3-mini"
+
+:"o3-mini-2025-01-31"
+
+:o1
+
+:"o1-2024-12-17"
+
+:"o1-preview"
+
+:"o1-preview-2024-09-12"
+
+:"o1-mini"
+
+:"o1-mini-2024-09-12"
+
+:"gpt-4o"
+
+:"gpt-4o-2024-11-20"
+
+:"gpt-4o-2024-08-06"
+
+:"gpt-4o-2024-05-13"
+
+:"gpt-4o-audio-preview"
+
+:"gpt-4o-audio-preview-2024-10-01"
+
+:"gpt-4o-audio-preview-2024-12-17"
+
+:"gpt-4o-audio-preview-2025-06-03"
+
+:"gpt-4o-mini-audio-preview"
+
+:"gpt-4o-mini-audio-preview-2024-12-17"
+
+:"gpt-4o-search-preview"
+
+:"gpt-4o-mini-search-preview"
+
+:"gpt-4o-search-preview-2025-03-11"
+
+:"gpt-4o-mini-search-preview-2025-03-11"
+
+:"chatgpt-4o-latest"
+
+:"codex-mini-latest"
+
+:"gpt-4o-mini"
+
+:"gpt-4o-mini-2024-07-18"
+
+:"gpt-4-turbo"
+
+:"gpt-4-turbo-2024-04-09"
+
+:"gpt-4-0125-preview"
+
+:"gpt-4-turbo-preview"
+
+:"gpt-4-1106-preview"
+
+:"gpt-4-vision-preview"
+
+:"gpt-4"
+
+:"gpt-4-0314"
+
+:"gpt-4-0613"
+
+:"gpt-4-32k"
+
+:"gpt-4-32k-0314"
+
+:"gpt-4-32k-0613"
+
+:"gpt-3.5-turbo"
+
+:"gpt-3.5-turbo-16k"
+
+:"gpt-3.5-turbo-0301"
+
+:"gpt-3.5-turbo-0613"
+
+:"gpt-3.5-turbo-1106"
+
+:"gpt-3.5-turbo-0125"
+
+:"gpt-3.5-turbo-16k-0613"
+
+:"o1-pro"
+
+:"o1-pro-2025-03-19"
+
+:"o3-pro"
+
+:"o3-pro-2025-06-10"
+
+:"o3-deep-research"
+
+:"o3-deep-research-2025-06-26"
+
+:"o4-mini-deep-research"
+
+:"o4-mini-deep-research-2025-06-26"
+
+:"computer-use-preview"
+
+:"computer-use-preview-2025-03-11"
+
+:"gpt-5-codex"
+
+:"gpt-5-pro"
+
+:"gpt-5-pro-2025-10-06"
+
+:"gpt-5.1-codex-max"
+
+String = String
+
+object: :response
+
+The object type of this resource - always set to `response`.
+
+output: Array[[BetaResponseOutputItem](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_item%20%3E%20(schema))]
+
+An array of content items generated by the model.
+
+* The length and order of items in the `output` array is dependent
+  on the model’s response.
+* Rather than accessing the first item in the `output` array and
+  assuming it’s an `assistant` message with the content generated by
+  the model, you might consider using the `output_text` property where
+  supported in SDKs.
+
+class BetaResponseOutputMessage { id, content, role, 4 more }
+
+id: String
+
+content: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | [BetaResponseOutputRefusal](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_refusal%20%3E%20(schema)) { refusal, type } ]
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+role: :assistant
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :message
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+phase: :commentary | :final\_answer
+
+:commentary
+
+:final\_answer
+
+class BetaResponseFileSearchToolCall { id, queries, status, 3 more }
+
+[file search guide](https://platform.openai.com/docs/guides/tools-file-search) for more information.
+
+id: String
+
+queries: Array[String]
+
+status: :in\_progress | :searching | :completed | 2 more
+
+:in\_progress
+
+:searching
+
+:completed
+
+:incomplete
+
+:failed
+
+type: :file\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+results: Array[Result{ attributes, file\_id, filename, 2 more}]
+
+attributes: Hash[Symbol, String | Float | bool]
+
+String = String
+
+Float = Float
+
+UnionMember2 = bool
+
+file\_id: String
+
+filename: String
+
+score: Float
+
+formatfloat
+
+text: String
+
+class BetaResponseFunctionToolCall { arguments, call\_id, name, 6 more }
+
+[function calling guide](https://platform.openai.com/docs/guides/function-calling) for more information.
+
+arguments: String
+
+A JSON string of the arguments to pass to the function.
+
+call\_id: String
+
+name: String
+
+The name of the function to run.
+
+type: :function\_call
+
+The type of the function tool call. Always `function_call`.
+
+id: String
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+type: :program
+
+namespace: String
+
+The namespace of the function to run.
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+class BetaResponseFunctionToolCallOutputItem { id, call\_id, output, 5 more }
+
+id: String
+
+The unique ID of the function call tool output.
+
+call\_id: String
+
+output: String | Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+The output from the function call generated by your code.
+
+String = String
+
+A string of the output of the function call.
+
+OutputContentList = Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseInputImage](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_image%20%3E%20(schema)) { detail, type, file\_id, 2 more }  | [BetaResponseInputFile](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_file%20%3E%20(schema)) { type, detail, file\_data, 4 more } ]
+
+Text, image, or file output of the function call.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :function\_call\_output
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+caller\_: Direct{ type} | Program{ caller\_id, type}
+
+class Direct { type }
+
+type: :direct
+
+The caller type. Always `direct`.
+
+class Program { caller\_id, type }
+
+caller\_id: String
+
+maxLength64
+
+minLength1
+
+type: :program
+
+created\_by: String
+
+The identifier of the actor that created the item.
+
+class AgentMessage { id, author, content, 3 more }
+
+id: String
+
+The unique ID of the agent message.
+
+author: String
+
+content: Array[[BetaResponseInputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_input_text%20%3E%20(schema)) { text, type, prompt\_cache\_breakpoint }  | [BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs }  | Text{ text, type} | 7 more]
+
+Encrypted content sent between agents.
+
+class BetaResponseInputText { text, type, prompt\_cache\_breakpoint }
+
+text: String
+
+type: :input\_text
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseOutputText { annotations, text, type, logprobs }
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+class Text { text, type }
+
+A text content.
+
+text: String
+
+type: :text
+
+class SummaryText { text, type }
+
+A summary text from the model.
+
+text: String
+
+type: :summary\_text
+
+class ReasoningText { text, type }
+
+text: String
+
+type: :reasoning\_text
+
+class BetaResponseOutputRefusal { refusal, type }
+
+refusal: String
+
+type: :refusal
+
+class BetaResponseInputImage { detail, type, file\_id, 2 more }
+
+An image input to the model. Learn about [image inputs](https://platform.openai.com/docs/guides/vision).
+
+detail: :low | :high | :auto | :original
+
+:low
+
+:high
+
+:auto
+
+:original
+
+type: :input\_image
+
+file\_id: String
+
+image\_url: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class ComputerScreenshot { detail, file\_id, image\_url, 2 more }
+
+A screenshot of a computer.
+
+detail: :low | :high | :auto | :original
+
+The detail level of the screenshot image to be sent to the model. One of `high`, `low`, `auto`, or `original`. Defaults to `auto`.
+
+:low
+
+:high
+
+:auto
+
+:original
+
+file\_id: String
+
+image\_url: String
+
+type: :computer\_screenshot
+
+Specifies the event type. For a computer screenshot, this property is always set to `computer_screenshot`.
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class BetaResponseInputFile { type, detail, file\_data, 4 more }
+
+type: :input\_file
+
+detail: :auto | :low | :high
+
+:auto
+
+:low
+
+:high
+
+file\_data: String
+
+file\_id: String
+
+file\_url: String
+
+filename: String
+
+prompt\_cache\_breakpoint: PromptCacheBreakpoint{ mode}
+
+mode: :explicit
+
+class EncryptedContent { encrypted\_content, type }
+
+encrypted\_content: String
+
+type: :encrypted\_content
+
+recipient: String
+
+type: :agent\_message
+
+The type of the item. Always `agent_message`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCall { id, action, arguments, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+The multi-agent action to execute.
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+arguments: String
+
+The JSON string of arguments generated for the action.
+
+call\_id: String
+
+type: :multi\_agent\_call
+
+The type of the multi-agent call. Always `multi_agent_call`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class MultiAgentCallOutput { id, action, call\_id, 3 more }
+
+id: String
+
+The unique ID of the multi-agent call output item.
+
+action: :spawn\_agent | :interrupt\_agent | :list\_agents | 3 more
+
+:spawn\_agent
+
+:interrupt\_agent
+
+:list\_agents
+
+:send\_message
+
+:followup\_task
+
+:wait\_agent
+
+call\_id: String
+
+output: Array[[BetaResponseOutputText](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_response_output_text%20%3E%20(schema)) { annotations, text, type, logprobs } ]
+
+annotations: Array[FileCitation{ file\_id, filename, index, type} | URLCitation{ end\_index, start\_index, title, 2 more} | ContainerFileCitation{ container\_id, end\_index, file\_id, 3 more} | FilePath{ file\_id, index, type}]
+
+class FileCitation { file\_id, filename, index, type }
+
+file\_id: String
+
+filename: String
+
+index: Integer
+
+type: :file\_citation
+
+class URLCitation { end\_index, start\_index, title, 2 more }
+
+end\_index: Integer
+
+start\_index: Integer
+
+title: String
+
+type: :url\_citation
+
+url: String
+
+class ContainerFileCitation { container\_id, end\_index, file\_id, 3 more }
+
+container\_id: String
+
+end\_index: Integer
+
+file\_id: String
+
+filename: String
+
+start\_index: Integer
+
+type: :container\_file\_citation
+
+class FilePath { file\_id, index, type }
+
+file\_id: String
+
+index: Integer
+
+type: :file\_path
+
+text: String
+
+type: :output\_text
+
+logprobs: Array[Logprob{ token, bytes, logprob, top\_logprobs}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+top\_logprobs: Array[TopLogprob{ token, bytes, logprob}]
+
+token: String
+
+bytes: Array[Integer]
+
+logprob: Float
+
+type: :multi\_agent\_call\_output
+
+The type of the multi-agent result. Always `multi_agent_call_output`.
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseFunctionWebSearch { id, action, status, 2 more }
+
+[web search guide](https://platform.openai.com/docs/guides/tools-web-search) for more information.
+
+id: String
+
+action: Search{ type, queries, query, sources} | OpenPage{ type, url} | FindInPage{ pattern, type, url}
+
+class Search { type, queries, query, sources }
+
+type: :search
+
+queries: Array[String]
+
+Deprecatedquery: String
+
+sources: Array[Source{ type, url}]
+
+type: :url
+
+url: String
+
+class OpenPage { type, url }
+
+type: :open\_page
+
+url: String
+
+class FindInPage { pattern, type, url }
+
+pattern: String
+
+type: :find\_in\_page
+
+url: String
+
+status: :in\_progress | :searching | :completed | :failed
+
+:in\_progress
+
+:searching
+
+:completed
+
+:failed
+
+type: :web\_search\_call
+
+agent: Agent{ agent\_name}
+
+agent\_name: String
+
+class BetaResponseComputerToolCall { id, call\_id, pending\_safety\_checks, 5 more }
+
+[computer use guide](https://platform.openai.com/docs/guides/tools-computer-use) for more information.
+
+id: String
+
+call\_id: String
+
+pending\_safety\_checks: Array[PendingSafetyCheck{ id, code, message}]
+
+id: String
+
+code: String
+
+message: String
+
+status: :in\_progress | :completed | :incomplete
+
+:in\_progress
+
+:completed
+
+:incomplete
+
+type: :computer\_call
+
+action: [BetaComputerAction](/api/reference/ruby/resources/beta#(resource)%20beta.responses%20%3E%20(model)%20beta_computer_action%20%3E%20(schema))
+
+class Click { button, type, x, 2 more }
+
+button: :left | :right | :wheel | 2 more
+
+Indicates which mouse button was pressed during the click. One of `left`, `right`, `wheel`, `back`, or `forward`.
+
+:left
+
+:right
+
+:wheel
+
+:back
+
+:forward
+
+type: :click
+
+Specifies the event type. For a click action, this property is always `click`.
+
+x: Integer
+
+The x-coordinate where the click occurred.
+
+y\_: Integer
+
+The y-coordinate where the click occurred.
+
+keys: Array[String]
+
+The keys being held while clicking.
+
+class DoubleClick { keys, type, x, y\_ }
+
+A double click action.
+
+keys: Array[String]
+
+The keys being held while double-clicking.
+
+type: :double\_click
+
+Specifies the event type. For a double click action, this property is always set to `double_click`.
+
+x: Integer
+
+The x-coordinate where the double click occurred.
+
+y\_: Integer
+
+The y-coordinate where the double click occurred.
+
+class Drag { path, type, keys }
+
+A drag action.
+
+path: Array[Path{ x, y\_}]
+
+An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg
+
+  { x: 100, y: 200 },
+  { x: 200, y: 300 }
+
+x: Integer
+
+The x-coordinate.
