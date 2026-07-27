@@ -81,6 +81,7 @@ def discover_internal():
 
 def discover_local(out, host):
     """기존 생성물이 알고 있는 절대 링크를 재사용. 고정 허브가 놓친 깊은 페이지를 다음 증분에서 복구한다."""
+    # ponytail: 폐기 링크도 재확인한다. 갱신 시간이 문제가 될 때만 TTL miss cache를 추가한다.
     root = os.path.join(out, host)
     found = set()
     if not os.path.isdir(root):
@@ -117,7 +118,7 @@ def html_to_md(html):
     node = max(cands, key=lambda c: len(c.get_text(strip=True)))
     for t in node(["nav", "header", "footer", "form"]):
         t.decompose()
-    return md(str(node), heading_style="ATX").strip()
+    return "\n".join(line.rstrip() for line in md(str(node), heading_style="ATX").strip().splitlines())
 
 
 def fetch_one(url):

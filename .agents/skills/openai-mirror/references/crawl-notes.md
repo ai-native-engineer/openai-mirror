@@ -18,7 +18,7 @@
 | developers.openai.com | `docs-extract.py` | sitemap + 모델 상세 인덱스 |
 | help.openai.com | `docs-extract.py` | collections/articles BFS |
 | model-spec.openai.com | `docs-extract.py` | 루트가 가리키는 최신 문서 |
-| learn.chatgpt.com / deploymentsafety.openai.com | `docs-extract.py` | sitemap |
+| learn.chatgpt.com / deploymentsafety.openai.com | `docs-extract.py` | sitemap / 상위 시스템 카드 |
 | trust.openai.com | `docs-extract.py` | 비로그인 루트 개요 |
 | OpenAI YouTube | shared `youtube-channels.py` | videos + shorts + streams + 자막 |
 | OpenAI 소유 PDF | shared `pdf-mirror.py` | 허용 호스트의 원본 PDF |
@@ -42,7 +42,7 @@
 
 - developers.openai.com은 `sitemap-0.xml`과 모델 목록의 상세 링크, Help Center는 collection/article BFS를 사용한다.
 - Model Spec 루트의 meta refresh가 가리키는 최신 HTML을 저장한다.
-- ChatGPT Learn은 sitemap index를 재귀 열거하고, Deployment Safety의 sitemap에 잘못 기록된 `localhost` origin은 공개 host로 교정한다.
+- ChatGPT Learn은 sitemap index를 재귀 열거한다. Deployment Safety는 sitemap의 `localhost` origin을 공개 host로 교정한 뒤, 각 섹션이 카드 전체를 반복 렌더하므로 루트와 23개 상위 시스템 카드만 저장한다.
 - Trust Center는 비로그인 루트 개요만 저장한다. 상세 자료는 쿼리 기반 포털 UI이고 접근 요청/인증이 필요해 제외한다.
 - developers API의 JavaScript 파라미터 표처럼 SSR에 없는 인터랙티브 내용은 수집하지 못한다.
 - platform.openai.com/docs는 developers.openai.com으로 이관되어 별도 수집하지 않는다.

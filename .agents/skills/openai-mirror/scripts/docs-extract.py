@@ -53,7 +53,7 @@ def html_to_md(html):
     node = max(cands, key=lambda c: len(c.get_text(strip=True)))
     for t in node(["nav", "header", "footer", "form"]):
         t.decompose()
-    return md(str(node), heading_style="ATX").strip()
+    return "\n".join(line.rstrip() for line in md(str(node), heading_style="ATX").strip().splitlines())
 
 
 def fetch_one(url):
@@ -131,6 +131,16 @@ def model_urls(html):
     }
 
 
+def deployment_pages(urls):
+    """섹션 URL마다 카드 전체를 반복 렌더하므로 루트 + 상위 시스템 카드만 남긴다."""
+    pages = {DEPLOYMENT_BASE + "/"}
+    for url in urls:
+        parts = [p for p in urlsplit(url).path.split("/") if p]
+        if parts:
+            pages.add(f"{DEPLOYMENT_BASE}/{parts[0]}/")
+    return pages
+
+
 def developers(out, conc, force, limit):
     print("developers.openai.com sitemap...", flush=True)
     locs = sitemap_urls(DEV_SITEMAP) | model_urls(get(DEV_MODELS).text)
@@ -141,13 +151,26 @@ def developers(out, conc, force, limit):
         print(f"developers 저장: {n} / 실패: {len(fails)}", flush=True)
 
 
-def sitemap_site(label, sitemap, out, conc, force, limit, replace_origin=""):
-    print(f"{label} sitemap...", flush=True)
-    urls = to_crawl(sitemap_urls(sitemap, replace_origin), out, force, limit)
+def sitemap_site(label, pages, out, conc, force, limit):
+    urls = to_crawl(pages, out, force, limit)
     print(f"{label} 대상: {len(urls)}", flush=True)
     if urls:
         n, fails = crawl_urls(urls, out, conc)
         print(f"{label} 저장: {n} / 실패: {len(fails)}", flush=True)
+
+
+def prune_host(out, host, pages):
+    desired = {os.path.abspath(cm.dest(out, url)[0]) for url in pages}
+    root = os.path.join(out, host)
+    stale = []
+    for base, _, files in os.walk(root):
+        for name in files:
+            fp = os.path.abspath(os.path.join(base, name))
+            if name.endswith(".md") and fp not in desired:
+                stale.append(fp)
+    for fp in stale:
+        os.unlink(fp)
+    return len(stale)
 
 
 def single_page(label, url, out, force):
@@ -210,12 +233,17 @@ def main():
         }
         assert replace_origin("http://localhost:4321/gpt-5/system-card/", DEPLOYMENT_BASE) == \
                "https://deploymentsafety.openai.com/gpt-5/system-card/"
+        assert deployment_pages({
+            "https://deploymentsafety.openai.com/gpt-5/",
+            "https://deploymentsafety.openai.com/gpt-5/agent-evaluations/",
+        }) == {DEPLOYMENT_BASE + "/", DEPLOYMENT_BASE + "/gpt-5/"}
         print("self-test ok")
         return
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
     ap.add_argument("--only", default="developers,help,model-spec,learn,deployment-safety,trust", help="대상 csv")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--prune-stale", action="store_true", help="현재 열거에서 제외된 해당 host의 구 생성물 삭제")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--concurrency", type=int, default=8)
     a = ap.parse_args()
@@ -228,10 +256,15 @@ def main():
     if "model-spec" in only:
         model_spec(a.out)
     if "learn" in only:
-        sitemap_site("learn.chatgpt.com", LEARN_SITEMAP, a.out, a.concurrency, a.force, a.limit)
+        print("learn.chatgpt.com sitemap...", flush=True)
+        sitemap_site("learn.chatgpt.com", sitemap_urls(LEARN_SITEMAP), a.out,
+                     a.concurrency, a.force, a.limit)
     if "deployment-safety" in only:
-        sitemap_site("deploymentsafety.openai.com", DEPLOYMENT_SITEMAP, a.out, a.concurrency,
-                     a.force, a.limit, DEPLOYMENT_BASE)
+        print("deploymentsafety.openai.com sitemap...", flush=True)
+        pages = deployment_pages(sitemap_urls(DEPLOYMENT_SITEMAP, DEPLOYMENT_BASE))
+        sitemap_site("deploymentsafety.openai.com", pages, a.out, a.concurrency, a.force, a.limit)
+        if a.prune_stale and not a.limit:
+            print(f"deploymentsafety.openai.com 구 생성물 정리: {prune_host(a.out, 'deploymentsafety.openai.com', pages)}", flush=True)
     if "trust" in only:
         single_page("trust.openai.com", TRUST, a.out, a.force)
 
