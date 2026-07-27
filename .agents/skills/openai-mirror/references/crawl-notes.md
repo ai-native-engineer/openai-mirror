@@ -65,7 +65,7 @@
 
 ## 증분과 범위
 
-- `split-markdown.py`는 큰 생성 문서를 768KiB 이하의 순서가 보존된 조각으로 나눠 GitHub 렌더와 gbrain text-search 상한을 피한다.
+- `split-markdown.py`는 큰 생성 문서를 768KiB 이하의 순서가 보존된 조각으로 나눠 GitHub 렌더 상한을 피한다.
 - 기본 실행은 기존 파일을 건너뛰고 신규/과거 실패분만 수집한다.
 - `refresh.sh --force`는 사이트, Academy, 공식 문서 본문을 다시 받고 YouTube 발행 파일을 다시 렌더한다. YouTube 자막 재수집은 `--refetch`가 별도다.
 - chatgpt.com, Sora, openai.fm, community.openai.com, status.openai.com은 제품 앱, 데모, 사용자/운영 콘텐츠라 제외한다.

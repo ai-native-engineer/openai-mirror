@@ -43,18 +43,20 @@ Browse on GitHub, search locally with `rg`, or clone the archive:
 ```bash
 git clone https://github.com/ai-native-engineer/openai-mirror.git
 cd openai-mirror
-rg "reasoning models"
+rg -i -n -C 2 --glob '*.md' 'harness engineering|agent harness'
+rg -l -i --glob '*.md' 'reasoning models|test-time compute'
+rg --files | rg -i 'harness|reasoning'
 ```
 
-For optional RAG search with [gbrain](https://github.com/garrytan/gbrain), register this clone once, sync it, and query from anywhere inside the repository:
+The first command shows matching Markdown with line numbers and surrounding context. The second lists matching documents, and the third searches file paths. Most archived text is English, so start with English terms and synonyms.
+
+`rg` cannot search compressed PDF contents directly. To search Markdown and every PDF text layer together, install `pdftotext` (Poppler; `brew install poppler` on macOS) and run:
 
 ```bash
-gbrain sources add openai-mirror --path "$PWD" --no-federated
-gbrain sync --source openai-mirror --no-pull --no-extract --no-embed
-gbrain query "How do reasoning models work?"
+./search-archive.sh 'harness engineering|agent harness'
 ```
 
-The checked-in `.gbrain-source` file automatically scopes queries to this archive. Re-run the sync after refreshing the mirror. Omit `--no-embed` to add vector retrieval; that sends archive text to the configured embedding provider and may incur usage charges.
+PDF result line numbers refer to extracted text, not PDF page numbers.
 
 ## Coverage
 
