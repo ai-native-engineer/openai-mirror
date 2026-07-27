@@ -46,6 +46,16 @@ cd openai-mirror
 rg "reasoning models"
 ```
 
+For optional RAG search with [gbrain](https://github.com/garrytan/gbrain), register this clone once, sync it, and query from anywhere inside the repository:
+
+```bash
+gbrain sources add openai-mirror --path "$PWD" --no-federated
+gbrain sync --source openai-mirror --no-pull --no-extract --no-embed
+gbrain query "How do reasoning models work?"
+```
+
+The checked-in `.gbrain-source` file automatically scopes queries to this archive. Re-run the sync after refreshing the mirror. Omit `--no-embed` to add vector retrieval; that sends archive text to the configured embedding provider and may incur usage charges.
+
 ## Coverage
 
 The archive is regenerated in place and keeps only the latest crawl. Git preserves earlier revisions.

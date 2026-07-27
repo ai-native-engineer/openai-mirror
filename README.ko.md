@@ -46,6 +46,16 @@ cd openai-mirror
 rg "reasoning models"
 ```
 
+선택적으로 [gbrain](https://github.com/garrytan/gbrain)을 이용해 RAG 검색을 할 수 있습니다. 이 클론을 한 번 등록하고 동기화하면 저장소 안 어디서든 질의할 수 있습니다.
+
+```bash
+gbrain sources add openai-mirror --path "$PWD" --no-federated
+gbrain sync --source openai-mirror --no-pull --no-extract --no-embed
+gbrain query "추론 모델은 어떻게 동작하나요?"
+```
+
+저장소의 `.gbrain-source` 파일이 질의 범위를 이 아카이브로 자동 제한합니다. 미러를 갱신한 뒤에는 동기화를 다시 실행하세요. 벡터 검색까지 추가하려면 `--no-embed`를 빼세요. 이 경우 아카이브 텍스트가 설정된 임베딩 제공자에게 전송되고 사용료가 발생할 수 있습니다.
+
 ## 수집 범위
 
 아카이브는 같은 위치에 다시 생성하며 최신 크롤만 유지합니다. 이전 버전은 Git 이력으로 확인할 수 있습니다.

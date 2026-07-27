@@ -53,7 +53,7 @@ if $self_test; then
   exit 0
 fi
 
-required=(crawl-mirror.py youtube-channels.py youtube-transcripts.sh inline-transcripts.py render-video-refs.py pdf-mirror.py)
+required=(crawl-mirror.py youtube-channels.py youtube-transcripts.sh inline-transcripts.py render-video-refs.py split-markdown.py pdf-mirror.py)
 for file in "${required[@]}"; do
   [[ -f "$crawl_dir/$file" ]] || { echo "crawl skill dependency not found: $crawl_dir/$file" >&2; exit 1; }
 done
@@ -84,6 +84,7 @@ python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $forc
 bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
 python3 "$crawl_dir/inline-transcripts.py" .
 python3 "$crawl_dir/render-video-refs.py" .
+python3 "$crawl_dir/split-markdown.py" . --limit 786432
 python3 "$crawl_dir/pdf-mirror.py" . \
   --oversize-dir _pdf-cache \
   --host openai.com \
