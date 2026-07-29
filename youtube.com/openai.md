@@ -1,7 +1,13 @@
 # openai (YouTube)
 
-영상 708개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 714개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Introducing gpt-transcribe and gpt-live-transcribe](openai/260728-introducing-gpt-transcribe-and-gpt-live-transcribe.md) — 2026-07-28
+- [ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders](openai/260728-chatgpt-work-for-sales-revenue-intelligence-for-sales-leader.md) — 2026-07-28
+- [ChatGPT Work for Sales: Account Research and Customer Outreach](openai/260728-chatgpt-work-for-sales-account-research-and-customer-outreac.md) — 2026-07-28
+- [ChatGPT Work for Sales: Account Planning and Meeting Prep](openai/260728-chatgpt-work-for-sales-account-planning-and-meeting-prep.md) — 2026-07-28
+- [ChatGPT Work for Sales: Pipeline and Forecast Intelligence](openai/260728-chatgpt-work-for-sales-pipeline-and-forecast-intelligence.md) — 2026-07-28
+- [Navigating AI Transformation in the Legal Industry | Jonathan Williams, Head of France, Legora](openai/260727-navigating-ai-transformation-in-the-legal-industry-jonathan.md) — 2026-07-27
 - [Build Hour: Valuemaxxing with GPT-5.6](openai/260724-build-hour-valuemaxxing-with-gpt-5-6.md) — 2026-07-24
 - [Building at the pace of AI innovation | Grant Lee, Gamma](openai/260724-building-at-the-pace-of-ai-innovation-grant-lee-gamma.md) — 2026-07-24
 - [How IT Admins can manage ChatGPT Work at scale | OpenAI](openai/260723-how-it-admins-can-manage-chatgpt-work-at-scale-openai.md) — 2026-07-23
