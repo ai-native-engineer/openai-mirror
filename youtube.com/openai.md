@@ -1,7 +1,9 @@
 # openai (YouTube)
 
-영상 714개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 716개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Using Voice in ChatGPT Work](openai/260729-using-voice-in-chatgpt-work.md) — 2026-07-29
+- [We're giving 100,000 academic researchers free access to our frontier models](openai/260729-we-re-giving-100-000-academic-researchers-free-access-to-our.md) — 2026-07-29
 - [Introducing gpt-transcribe and gpt-live-transcribe](openai/260728-introducing-gpt-transcribe-and-gpt-live-transcribe.md) — 2026-07-28
 - [ChatGPT Work for Sales: Revenue Intelligence for Sales Leaders](openai/260728-chatgpt-work-for-sales-revenue-intelligence-for-sales-leader.md) — 2026-07-28
 - [ChatGPT Work for Sales: Account Research and Customer Outreach](openai/260728-chatgpt-work-for-sales-account-research-and-customer-outreac.md) — 2026-07-28
