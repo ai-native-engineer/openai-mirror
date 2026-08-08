@@ -56,12 +56,54 @@ def html_to_md(html):
     return "\n".join(line.rstrip() for line in md(str(node), heading_style="ATX").strip().splitlines())
 
 
-def fetch_one(url):
+def markdown_twin(url):
+    """developers/learn 문서는 path.md 로 text/markdown 원문을 제공한다."""
+    p = urlsplit(url)
+    if p.netloc not in {"developers.openai.com", "learn.chatgpt.com"}:
+        return ""
+    path = p.path.rstrip("/")
+    if not path or path.endswith(".md"):
+        return ""
     try:
+        r = get(f"{p.scheme}://{p.netloc}{path}.md")
+    except Exception:
+        return ""
+    ct = r.headers.get("content-type", "")
+    body = r.text.strip()
+    if r.status_code == 200 and body and ("text/markdown" in ct or body.lstrip().startswith("#")):
+        return body
+    return ""
+
+
+def soft_redirect_target(url, body):
+    """클라이언트 soft-redirect 페이지: 'Redirecting from `/a` to `/b`'."""
+    m = re.search(r"Redirecting from\s+`[^`]+`\s+to\s+`([^`]+)`", body)
+    if not m:
+        m = re.search(r"Redirecting from\s+\S+\s+to\s+`?(/[^`'\s\]]+)`?", body)
+    if not m:
+        return ""
+    return urljoin(url, m.group(1))
+
+
+def fetch_one(url, depth=0):
+    try:
+        md_body = markdown_twin(url)
+        if len(md_body) >= 200:
+            return url, md_body, ""
         r = get(url)
         if r.status_code != 200:
             return url, "", f"status={r.status_code}"
-        return url, html_to_md(r.text), "thin"
+        body = html_to_md(r.text)
+        if len(body) < 200 and depth < 2:
+            tgt = soft_redirect_target(url, body)
+            host = urlsplit(tgt).netloc if tgt else ""
+            if tgt and host in {urlsplit(url).netloc, "developers.openai.com", "learn.chatgpt.com"}:
+                _, body2, err = fetch_one(tgt, depth + 1)
+                if body2 and len(body2) >= 200:
+                    # sitemap 원 URL 경로에 저장해 증분 재시도를 끝낸다.
+                    return url, body2, ""
+                return url, body2, err or "thin"
+        return url, body, "thin" if len(body) < 200 else ""
     except Exception as e:
         return url, "", str(e)[:80]
 
@@ -76,18 +118,24 @@ def crawl_urls(urls, out, concurrency, min_len=200):
             if body and len(body) >= min_len:
                 pages[url] = body
             else:
-                fails.append((url, err))
+                fails.append((url, err or "thin"))
             if done % 100 == 0:
                 print(f"  {done}/{len(urls)} (성공 {len(pages)}, 실패 {len(fails)})", flush=True)
     # boilerplate: 표본 200개로 공통 라인 도출 후 전체 strip (대량 셋 비용 절감)
-    vals = list(pages.values())
+    # native markdown(.md) 본문은 공통 nav 라인이 없어 strip 대상에서 제외한다.
+    html_pages = {u: m for u, m in pages.items() if not m.lstrip().startswith("# ")}
+    vals = list(html_pages.values())
     if len(vals) >= 5:
         boiler = cm.find_boilerplate(vals[:200], 0.4)
         if boiler:
-            pages = {u: cm.strip_boilerplate(m, boiler) for u, m in pages.items()}
+            for u in html_pages:
+                pages[u] = cm.strip_boilerplate(pages[u], boiler)
             print(f"  boilerplate: {len(boiler)} lines removed", flush=True)
     for u, m in pages.items():
         cm.save(out, u, m, False)
+    if fails:
+        for u, err in fails[:15]:
+            print(f"  fail: {u} [{err}]", flush=True)
     return len(pages), fails
 
 
@@ -237,6 +285,10 @@ def main():
             "https://deploymentsafety.openai.com/gpt-5/",
             "https://deploymentsafety.openai.com/gpt-5/agent-evaluations/",
         }) == {DEPLOYMENT_BASE + "/", DEPLOYMENT_BASE + "/gpt-5/"}
+        assert soft_redirect_target(
+            "https://developers.openai.com/resources/agents/",
+            "[Redirecting from `/resources/agents/` to `/learn/agents`](/learn/agents)",
+        ) == "https://developers.openai.com/learn/agents"
         print("self-test ok")
         return
     ap = argparse.ArgumentParser()

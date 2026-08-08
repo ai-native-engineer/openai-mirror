@@ -30,6 +30,7 @@
 - sitemap에 없는 제품/마케팅 페이지는 홈·허브와 기존 생성물의 절대 링크로 보강한다.
 - `thin`, 404, network/extract 실패는 저장하지 않아 다음 증분 실행에서 다시 확인한다.
 - SSR 본문이 없는 폼, 인터랙티브 랜딩, 일부 고객 사례는 계속 thin일 수 있다. 이를 위해 browser 경로를 추가하지 않는다.
+- 개발자 문서로 이관된 openai.com 경로(`/api/docs*`, `/api/reference*`, `/plugins/*`, `/ads/*` 허브 제외, `/codex/*` 허브 제외)는 크롤 대상에서 빼고 `docs-extract.py` 정본만 따른다.
 
 ## OpenAI Academy
 
@@ -41,11 +42,13 @@
 ## 공식 문서
 
 - developers.openai.com은 `sitemap-0.xml`과 모델 목록의 상세 링크, Help Center는 collection/article BFS를 사용한다.
+- developers/learn 문서는 가능하면 `path.md` text/markdown 원문을 우선 받고, soft-redirect(`Redirecting from … to …`)면 대상 URL 본문을 원 sitemap 경로에 저장한다.
 - Model Spec 루트의 meta refresh가 가리키는 최신 HTML을 저장한다.
 - ChatGPT Learn은 sitemap index를 재귀 열거한다. Deployment Safety는 sitemap의 `localhost` origin을 공개 host로 교정한 뒤, 각 섹션이 카드 전체를 반복 렌더하므로 루트와 23개 상위 시스템 카드만 저장한다.
 - Trust Center는 비로그인 루트 개요만 저장한다. 상세 자료는 쿼리 기반 포털 UI이고 접근 요청/인증이 필요해 제외한다.
 - developers API의 JavaScript 파라미터 표처럼 SSR에 없는 인터랙티브 내용은 수집하지 못한다.
 - platform.openai.com/docs는 developers.openai.com으로 이관되어 별도 수집하지 않는다.
+- Academy `/public/.../externals/*` 는 클라이언트 전용 셸(본문 SSR 없음)인 경우가 많아 thin skip이 정상이다.
 
 ## YouTube와 영상 후처리
 

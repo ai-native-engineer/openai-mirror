@@ -107,6 +107,29 @@ def seg(url):
     return parts[0] if parts else ""
 
 
+def is_migrated_docs_url(url):
+    """openai.com 아래 죽은 개발자 문서 미러. 정본은 developers/learn 쪽 docs-extract가 담당.
+
+    - /api/docs*, /plugins/*: developers.openai.com 으로 이관
+    - /ads/* (허브 제외): developers ads 문서
+    - /codex/* (허브 /codex/ 제외): developers/learn codex 문서
+    마케팅 허브(/codex/, /ads/ 리다이렉트)는 남긴다.
+    """
+    p = urlsplit(url)
+    if p.netloc != "openai.com":
+        return False
+    path = p.path if p.path.endswith("/") else p.path + "/"
+    if path.startswith("/api/docs") or path.startswith("/api/reference"):
+        return True
+    if path.startswith("/plugins/"):
+        return True
+    if path.startswith("/ads/") and path != "/ads/":
+        return True
+    if path.startswith("/codex/") and path != "/codex/":
+        return True
+    return False
+
+
 def html_to_md(html):
     """본문 컨테이너(main/article/body 중 텍스트가 가장 많은 것)를 추출해 nav/footer/script 제거 후 markdown."""
     soup = BeautifulSoup(html, "html.parser")
@@ -187,6 +210,10 @@ def main():
         assert failure_kind("") == "thin"
         assert failure_kind("status=404") == "http-404"
         assert failure_kind("timed out") == "network/extract"
+        assert is_migrated_docs_url("https://openai.com/api/docs/pricing/")
+        assert is_migrated_docs_url("https://openai.com/codex/long-running-work/")
+        assert not is_migrated_docs_url("https://openai.com/codex/")
+        assert not is_migrated_docs_url("https://openai.com/index/hello/")
         import tempfile
         d = tempfile.mkdtemp()
         os.makedirs(os.path.join(d, "openai.com"))
@@ -220,6 +247,10 @@ def main():
         urls = {u for u in urls if seg(u) in inc or u == ROOT}
     if exc:
         urls = {u for u in urls if seg(u) not in exc}
+    migrated = {u for u in urls if is_migrated_docs_url(u)}
+    if migrated:
+        urls -= migrated
+        print(f"이관 docs skip: {len(migrated)} (developers/learn 정본 사용)", flush=True)
     if not a.force:
         urls = {u for u in urls if not os.path.exists(cm.dest(a.out, u)[0])}
     urls = sorted(urls)
