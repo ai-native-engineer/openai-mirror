@@ -1,0 +1,63 @@
+---
+title: "Introducing Agent Plugins"
+channel: openai
+url: https://www.youtube.com/watch?v=UaeWJK_vv-Y
+youtube_id: UaeWJK_vv-Y
+published: 2026-08-06
+duration: "1:35"
+captions: en
+---
+
+# Introducing Agent Plugins
+
+[![Introducing Agent Plugins](https://img.youtube.com/vi/UaeWJK_vv-Y/hqdefault.jpg)](https://www.youtube.com/watch?v=UaeWJK_vv-Y)
+
+<details>
+<summary>자막: Introducing Agent Plugins (1:35)</summary>
+
+[00:00]
+Skills and MCP servers are making agents
+more capable, and
+plugins give developers a way to package
+those capabilities so
+they can be shared and reused.
+But today, every agent product expects a
+different manifest, folder structure,
+and setup process.
+That's why contributors from AWS,
+Cursor, GitHub, Microsoft, OpenAI,
+and Vercel came together to create
+Agent Plugins, an open, vendor-neutral
+way to package extensions for agents.
+One format for people building plugins,
+and one predictable way for agent tools
+to find them. At its simplest,
+an agent plugin is just a folder,
+with a manifest called plugin.json at
+the root. This first release focuses on
+two things developers already use,
+agent skills for reusable instructions
+and workflows, and MCP servers,
+which connect agents to tools and
+data. You can put these resources in the
+standard locations, and
+the same package is much easier to
+support across different products.
+
+[00:01]
+For plugin authors,
+the payoff is less platform-specific
+glue and one version format to build
+against. Agent products can support
+skills, MCPs, or both, and
+extend the format without changing its
+portable core. This spec standardizes
+packaging and discovery,
+not marketplaces, permissions, or
+runtimes. Agent Plugins is open and
+ready to build with. Package your
+capability, add support in your product,
+and go check it out yourself.
+Get started at agentplugins.org.
+
+</details>

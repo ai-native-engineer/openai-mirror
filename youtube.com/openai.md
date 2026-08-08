@@ -1,7 +1,12 @@
 # openai (YouTube)
 
-영상 716개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 721개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [How to Schedule a Weekly Metrics Report With ChatGPT Work](openai/260806-how-to-schedule-a-weekly-metrics-report-with-chatgpt-work.md) — 2026-08-06
+- [How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work](openai/260806-how-to-turn-a-forecast-spreadsheet-into-an-interactive-plann.md) — 2026-08-06
+- [Introducing Agent Plugins](openai/260806-introducing-agent-plugins.md) — 2026-08-06
+- [How AI Helps Solve Medical Mysteries at Boston Children’s Hospital | OpenAI Forum](openai/260804-how-ai-helps-solve-medical-mysteries-at-boston-children-s-ho.md) — 2026-08-04
+- [Meet Birding Pal](openai/260804-meet-birding-pal.md) — 2026-08-04
 - [Using Voice in ChatGPT Work](openai/260729-using-voice-in-chatgpt-work.md) — 2026-07-29
 - [We're giving 100,000 academic researchers free access to our frontier models](openai/260729-we-re-giving-100-000-academic-researchers-free-access-to-our.md) — 2026-07-29
 - [Introducing gpt-transcribe and gpt-live-transcribe](openai/260728-introducing-gpt-transcribe-and-gpt-live-transcribe.md) — 2026-07-28
