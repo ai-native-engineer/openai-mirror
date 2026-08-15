@@ -1,7 +1,18 @@
 # openai (YouTube)
 
-영상 721개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 732개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed](openai/260814-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed.md) — 2026-08-14
+- [Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals](openai/260814-inside-cricket-s-smartest-backroom-rajasthan-royals-chatgpt.md) — 2026-08-14
+- [Computer History in ChatGPT](openai/260813-computer-history-in-chatgpt.md) — 2026-08-13
+- [Get a daily CFO briefing with ChatGPT Work](openai/260813-get-a-daily-cfo-briefing-with-chatgpt-work.md) — 2026-08-13
+- [Build custom financial forecasting apps with ChatGPT Work](openai/260813-build-custom-financial-forecasting-apps-with-chatgpt-work.md) — 2026-08-13
+- [Reconcile quarter-end financials with ChatGPT Work](openai/260813-reconcile-quarter-end-financials-with-chatgpt-work.md) — 2026-08-13
+- [Use ChatGPT Work to deliver board-ready reporting](openai/260813-use-chatgpt-work-to-deliver-board-ready-reporting.md) — 2026-08-13
+- [Use ChatGPT Work to build custom forecasting apps](openai/260813-use-chatgpt-work-to-build-custom-forecasting-apps.md) — 2026-08-13
+- [You can just launch Sites | ChatGPT Work](openai/260813-you-can-just-launch-sites-chatgpt-work.md) — 2026-08-13 (자막없음)
+- [You can just finish the work | ChatGPT Work](openai/260813-you-can-just-finish-the-work-chatgpt-work.md) — 2026-08-13 (자막없음)
+- [How Model ML Uses GPT-5.6 Sol to Get Finance Work Done More Efficiently](openai/260810-how-model-ml-uses-gpt-5-6-sol-to-get-finance-work-done-more.md) — 2026-08-10
 - [How to Schedule a Weekly Metrics Report With ChatGPT Work](openai/260806-how-to-schedule-a-weekly-metrics-report-with-chatgpt-work.md) — 2026-08-06
 - [How to Turn a Forecast Spreadsheet Into an Interactive Planning Tool With ChatGPT Work](openai/260806-how-to-turn-a-forecast-spreadsheet-into-an-interactive-plann.md) — 2026-08-06
 - [Introducing Agent Plugins](openai/260806-introducing-agent-plugins.md) — 2026-08-06
