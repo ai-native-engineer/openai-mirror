@@ -1,11 +1,13 @@
 # openai (YouTube)
 
-영상 737개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 738개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Make information visual with ChatGPT](openai/260824-make-information-visual-with-chatgpt.md) — 2026-08-24
+- [You can just use your voice | ChatGPT Work](openai/260824-you-can-just-use-your-voice-chatgpt-work.md) — 2026-08-24
 - [How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial](openai/260818-how-to-turn-a-business-question-into-a-strategy-deck-with-ch.md) — 2026-08-18 (자막없음)
 - [How to Create a Solid Blog Draft With ChatGPT Work | Tutorial](openai/260818-how-to-create-a-solid-blog-draft-with-chatgpt-work-tutorial.md) — 2026-08-18 (자막없음)
 - [How to Prepare for Customer Meetings With ChatGPT Work | Tutorial](openai/260818-how-to-prepare-for-customer-meetings-with-chatgpt-work-tutor.md) — 2026-08-18 (자막없음)
-- [You can just keep the work moving](openai/260817-you-can-just-keep-the-work-moving.md) — 2026-08-17 (자막없음)
+- [You can just keep the work moving | ChatGPT Work](openai/260817-you-can-just-keep-the-work-moving-chatgpt-work.md) — 2026-08-17 (자막없음)
 - [How Base44 Uses GPT-5.6 to Build Apps With 20% Fewer Tokens](openai/260817-how-base44-uses-gpt-5-6-to-build-apps-with-20-fewer-tokens.md) — 2026-08-17 (자막없음)
 - [Previewing Ultrafast mode: GPT‑5.6 Sol at up to 14X the speed](openai/260814-previewing-ultrafast-mode-gpt-5-6-sol-at-up-to-14x-the-speed.md) — 2026-08-14
 - [Inside Cricket’s Smartest Backroom | Rajasthan Royals | ChatGPT @rajasthanroyals](openai/260814-inside-cricket-s-smartest-backroom-rajasthan-royals-chatgpt.md) — 2026-08-14
@@ -107,7 +109,6 @@
 - [What if plants could talk?](openai/260625-what-if-plants-could-talk.md) — 2026-06-25
 - [How Omio is building the future of conversational travel](openai/260623-how-omio-is-building-the-future-of-conversational-travel.md) — 2026-06-23
 - [How Zendesk CEO Tom Eggemeier goes from Idea to Action](openai/260622-how-zendesk-ceo-tom-eggemeier-goes-from-idea-to-action.md) — 2026-06-22
-- [What Codex Unlocks for NTT Data](openai/260619-what-codex-unlocks-for-ntt-data.md) — 2026-06-19
 - [Plan with ChatGPT](openai/260619-plan-with-chatgpt.md) — 2026-06-19
 - [Score with ChatGPT](openai/260619-score-with-chatgpt.md) — 2026-06-19
 - [Improving health intelligence in ChatGPT](openai/260618-improving-health-intelligence-in-chatgpt.md) — 2026-06-18
