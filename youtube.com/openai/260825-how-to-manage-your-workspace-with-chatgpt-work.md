@@ -1,0 +1,105 @@
+---
+title: "How to Manage Your Workspace With ChatGPT Work"
+channel: openai
+url: https://www.youtube.com/watch?v=29SyCndnMZs
+youtube_id: 29SyCndnMZs
+published: 2026-08-25
+duration: "2:24"
+captions: en
+---
+
+# How to Manage Your Workspace With ChatGPT Work
+
+[![How to Manage Your Workspace With ChatGPT Work](https://img.youtube.com/vi/29SyCndnMZs/hqdefault.jpg)](https://www.youtube.com/watch?v=29SyCndnMZs)
+
+<details>
+<summary>자막: How to Manage Your Workspace With ChatGPT Work (2:24)</summary>
+
+[00:00]
+Managing a workspace day-to-day means
+sorting through a lot of information,
+deciding what needs attention, and
+taking action. Today that often means
+switching between settings,
+analytics, and reports, a manual process
+that takes time. The ChatGPT admin plugin
+brings all
+that work into a single conversation,
+making it easier to analyze
+information,
+change settings,
+and take action on requests with the
+permissions that you already have.
+Let me show you how it works in
+ChatGPT Work.
+So first, I'll navigate to the plugins tab
+in the sidebar,
+and search for the ChatGPT admin plugin,
+and install it. I'm preparing for our
+AI rollout review.
+In the Work tab, I'll ask,
+help me prepare for our monthly AI rollout
+review, show how adoption is
+changing across ChatGPT, Codex,
+and Work over the last 30 days. Also,
+compare how credit usage is
+changing by team over the last 30 days,
+use two charts, and call out the biggest
+changes.
+Now I can see the trend as
+
+[00:01]
+well as the teams driving it.
+Finance seems to have the largest
+increase,
+so let's dive in more there.
+What's driving
+the increase in Finance? Visualize the
+breakdown by
+product, model, and reasoning effort.
+So that gives me a reason
+behind the change,
+not just a number.
+Now to finish off the task,
+I can say, update our monthly AI rollout
+deck with these charts and
+takeaways, add a short summary of what's
+changed, and share it in the AI rollout
+Slack channel.
+Now I'll take a look at what
+limit requests
+need attention. Show me the pending usage
+limits,
+include current usage, the effective
+limit, and the justification submitted.
+I can open any request,
+review the context, and approve or
+deny it, all in this same
+conversation.
+So I'll open the one with
+the highest current
+usage and say, open the request with the
+highest current
+usage, show its recent trend and
+the proposed limit.
+That checks out, so I'll approve it.
+Approve this request at
+the proposed limit,
+
+[00:02]
+add a note that it's approved
+for the upcoming
+launch.
+With the ChatGPT admin plugin,
+I was able
+to analyze information and
+review and
+approve requests in a
+single conversation without having to
+piece that context together
+across multiple
+screens. So install the plugin today and
+bring your
+next admin task to ChatGPT Work.
+
+</details>

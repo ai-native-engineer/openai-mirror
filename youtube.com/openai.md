@@ -1,7 +1,11 @@
 # openai (YouTube)
 
-영상 738개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 742개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [How to Manage Your Workspace With ChatGPT Work](openai/260825-how-to-manage-your-workspace-with-chatgpt-work.md) — 2026-08-25
+- [Build agent-ready sites with WebMCP](openai/260825-build-agent-ready-sites-with-webmcp.md) — 2026-08-25
+- [Codex, but make it weird. Hahahacks.](openai/260825-codex-but-make-it-weird-hahahacks.md) — 2026-08-25
+- [No Limits on Text Chats with ChatGPT](openai/260825-no-limits-on-text-chats-with-chatgpt.md) — 2026-08-25
 - [Make information visual with ChatGPT](openai/260824-make-information-visual-with-chatgpt.md) — 2026-08-24
 - [You can just use your voice | ChatGPT Work](openai/260824-you-can-just-use-your-voice-chatgpt-work.md) — 2026-08-24
 - [How to Turn a Business Question Into a Strategy Deck With ChatGPT Work | Tutorial](openai/260818-how-to-turn-a-business-question-into-a-strategy-deck-with-ch.md) — 2026-08-18 (자막없음)
