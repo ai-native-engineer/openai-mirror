@@ -1,0 +1,67 @@
+---
+title: "Scheduled Tasks"
+channel: openai
+url: https://www.youtube.com/watch?v=urXc4xxixVU
+youtube_id: urXc4xxixVU
+published: 2026-08-28
+duration: "2:10"
+captions: en
+---
+
+# Scheduled Tasks
+
+[![Scheduled Tasks](https://img.youtube.com/vi/urXc4xxixVU/hqdefault.jpg)](https://www.youtube.com/watch?v=urXc4xxixVU)
+
+<details>
+<summary>자막: Scheduled Tasks (2:10)</summary>
+
+[00:00]
+If you find yourself asking ChatGPT
+to do the same thing every day,
+turn it into a scheduled task.
+With ChatGPT Work, I can create a scheduled task
+to handle it automatically whenever I choose:
+hourly, daily, weekly, you name it.
+Let me show you how I use one
+to get ready for my meetings
+before the day even starts.
+I'm using the desktop app, but you can also do this
+in ChatGPT Work on the web or mobile at chatgpt.com.
+For this, ChatGPT needs to use my calendar and email.
+I'll open Plugins and make sure
+Google Calendar and Gmail are connected.
+If either one isn't, I'll select Install
+and connect my account.
+Before I schedule anything,
+I want to make sure the result is actually useful.
+I'll ask ChatGPT to look at today's meetings,
+find relevant emails,
+and make me a short brief for each one.
+
+[00:01]
+Great. That's exactly what I need.
+Now I'll ask ChatGPT to do the same thing
+every weekday at nine.
+Now if I open Scheduled in the sidebar
+I can see the task, the schedule,
+and when it's running next.
+I can change the time, pause it,
+or remove it whenever I want.
+You can also use scheduled tasks with skills.
+A skill remembers how I like the work done.
+The scheduled task decides when it happens.
+I'm updating the scheduled task
+to use my meeting prep skill,
+so the document is formatted exactly how I like.
+You can use the same idea for a twice a day
+an urgent inbox check
+Finding cool events in the city
+Or hunting for sold out tickets
+to a show you've been wanting to see
+Just say what you want and when you want it.
+
+[00:02]
+Same routine, way less effort.
+That's ChatGPT Work.
+
+</details>

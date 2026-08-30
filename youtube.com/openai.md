@@ -1,7 +1,26 @@
 # openai (YouTube)
 
-영상 742개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 762개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Magic Manga Girl (:30)](openai/260829-magic-manga-girl-30.md) — 2026-08-29 (자막없음)
+- [Tennis (:30)](openai/260829-tennis-30.md) — 2026-08-29
+- [Use ChatGPT Work on Your Phone](openai/260828-use-chatgpt-work-on-your-phone.md) — 2026-08-28
+- [Create Slides, Docs, and Templates](openai/260828-create-slides-docs-and-templates.md) — 2026-08-28
+- [Talk to ChatGPT Work](openai/260828-talk-to-chatgpt-work.md) — 2026-08-28
+- [Use Your Computer and Browser](openai/260828-use-your-computer-and-browser.md) — 2026-08-28
+- [Scheduled Tasks](openai/260828-scheduled-tasks.md) — 2026-08-28
+- [Plugins & Skills](openai/260828-plugins-skills.md) — 2026-08-28
+- [Build a Shareable Site](openai/260828-build-a-shareable-site.md) — 2026-08-28
+- [Getting Started with ChatGPT Work](openai/260828-getting-started-with-chatgpt-work.md) — 2026-08-28
+- [How to Build a Personalized Meal Planner with ChatGPT Work](openai/260827-how-to-build-a-personalized-meal-planner-with-chatgpt-work.md) — 2026-08-27
+- [Retirement](openai/260827-retirement.md) — 2026-08-27
+- [Lost Cat](openai/260827-lost-cat.md) — 2026-08-27 (자막없음)
+- [Soccer](openai/260827-soccer.md) — 2026-08-27 (자막없음)
+- [Mochi](openai/260827-mochi.md) — 2026-08-27 (자막없음)
+- [Tennis](openai/260827-tennis.md) — 2026-08-27 (자막없음)
+- [Science Class](openai/260827-science-class.md) — 2026-08-27 (자막없음)
+- [Magic Manga Girl](openai/260827-magic-manga-girl.md) — 2026-08-27 (자막없음)
+- [What Codex Unlocks for loveholidays](openai/260826-what-codex-unlocks-for-loveholidays.md) — 2026-08-26
 - [How to Manage Your Workspace With ChatGPT Work](openai/260825-how-to-manage-your-workspace-with-chatgpt-work.md) — 2026-08-25
 - [Build agent-ready sites with WebMCP](openai/260825-build-agent-ready-sites-with-webmcp.md) — 2026-08-25
 - [Codex, but make it weird. Hahahacks.](openai/260825-codex-but-make-it-weird-hahahacks.md) — 2026-08-25
@@ -640,6 +659,7 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [Delivering more meals to more moms with ChatGPT](openai/260827-delivering-more-meals-to-more-moms-with-chatgpt.md) — 2026-08-27
 - [What is AI Slop?](openai/260723-what-is-ai-slop.md) — 2026-07-23
 - [Now it won’t take you 10 years to get tickets](openai/260723-now-it-won-t-take-you-10-years-to-get-tickets.md) — 2026-07-23
 - [How Shopify Uses ChatGPT Work to Build Faster with AI Agents](openai/260716-how-shopify-uses-chatgpt-work-to-build-faster-with-ai-agents-fnPMkE.md) — 2026-07-16
