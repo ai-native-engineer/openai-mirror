@@ -1,9 +1,17 @@
 # openai (YouTube)
 
-영상 762개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 763개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
-- [Magic Manga Girl (:30)](openai/260829-magic-manga-girl-30.md) — 2026-08-29 (자막없음)
-- [Tennis (:30)](openai/260829-tennis-30.md) — 2026-08-29
+- [GPT-6 Astra with Ben Davis](openai/260905-gpt-6-astra-with-ben-davis.md) — 2026-09-05
+- [Introducing GPT-6 Astra for developers](openai/260904-introducing-gpt-6-astra-for-developers.md) — 2026-09-04
+- [Use ChatGPT Work to analyze ad performance and refine creative](openai/260904-use-chatgpt-work-to-analyze-ad-performance-and-refine-creati.md) — 2026-09-04
+- [Use ChatGPT Work to build custom creative tools](openai/260904-use-chatgpt-work-to-build-custom-creative-tools.md) — 2026-09-04
+- [Use ChatGPT Images to explore campaign concepts](openai/260904-use-chatgpt-images-to-explore-campaign-concepts.md) — 2026-09-04
+- [Use ChatGPT Work to create campaign emails](openai/260904-use-chatgpt-work-to-create-campaign-emails.md) — 2026-09-04
+- [Use ChatGPT Work to pressure-test marketing campaign briefs](openai/260904-use-chatgpt-work-to-pressure-test-marketing-campaign-briefs.md) — 2026-09-04
+- [Use ChatGPT Work to turn marketing ideas into finished work](openai/260904-use-chatgpt-work-to-turn-marketing-ideas-into-finished-work.md) — 2026-09-04
+- [First impressions of GPT-6 Astra from developers](openai/260903-first-impressions-of-gpt-6-astra-from-developers.md) — 2026-09-03
+- [Introducing GPT-6 Astra: the most intelligent and aligned model in the world.](openai/260903-introducing-gpt-6-astra-the-most-intelligent-and-aligned-mod.md) — 2026-09-03
 - [Use ChatGPT Work on Your Phone](openai/260828-use-chatgpt-work-on-your-phone.md) — 2026-08-28
 - [Create Slides, Docs, and Templates](openai/260828-create-slides-docs-and-templates.md) — 2026-08-28
 - [Talk to ChatGPT Work](openai/260828-talk-to-chatgpt-work.md) — 2026-08-28
@@ -13,13 +21,6 @@
 - [Build a Shareable Site](openai/260828-build-a-shareable-site.md) — 2026-08-28
 - [Getting Started with ChatGPT Work](openai/260828-getting-started-with-chatgpt-work.md) — 2026-08-28
 - [How to Build a Personalized Meal Planner with ChatGPT Work](openai/260827-how-to-build-a-personalized-meal-planner-with-chatgpt-work.md) — 2026-08-27
-- [Retirement](openai/260827-retirement.md) — 2026-08-27
-- [Lost Cat](openai/260827-lost-cat.md) — 2026-08-27 (자막없음)
-- [Soccer](openai/260827-soccer.md) — 2026-08-27 (자막없음)
-- [Mochi](openai/260827-mochi.md) — 2026-08-27 (자막없음)
-- [Tennis](openai/260827-tennis.md) — 2026-08-27 (자막없음)
-- [Science Class](openai/260827-science-class.md) — 2026-08-27 (자막없음)
-- [Magic Manga Girl](openai/260827-magic-manga-girl.md) — 2026-08-27 (자막없음)
 - [What Codex Unlocks for loveholidays](openai/260826-what-codex-unlocks-for-loveholidays.md) — 2026-08-26
 - [How to Manage Your Workspace With ChatGPT Work](openai/260825-how-to-manage-your-workspace-with-chatgpt-work.md) — 2026-08-25
 - [Build agent-ready sites with WebMCP](openai/260825-build-agent-ready-sites-with-webmcp.md) — 2026-08-25
