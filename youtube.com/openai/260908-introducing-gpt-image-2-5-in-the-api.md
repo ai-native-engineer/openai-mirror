@@ -1,0 +1,54 @@
+---
+title: "Introducing GPT-Image-2.5 in the API"
+channel: openai
+url: https://www.youtube.com/watch?v=A7MSwdXj86k
+youtube_id: A7MSwdXj86k
+published: 2026-09-08
+duration: "1:01"
+captions: en
+---
+
+# Introducing GPT-Image-2.5 in the API
+
+[![Introducing GPT-Image-2.5 in the API](https://img.youtube.com/vi/A7MSwdXj86k/hqdefault.jpg)](https://www.youtube.com/watch?v=A7MSwdXj86k)
+
+<details>
+<summary>자막: Introducing GPT-Image-2.5 in the API (1:01)</summary>
+
+[00:00]
+Today, we're launching two
+new image generation models.
+GPT Image 2.5 Sunburst and Flare.
+Sunburst is our most capable
+model for image generation.
+It brings significant advances
+in visual fidelity, including
+sharper detail rendering, more
+natural lighting, and richer textures.
+With Sunburst, you can bring
+high-quality visual ideas to life
+with stronger style and detail.
+You can also refine an idea over
+multiple edits, like exploring different
+setups for your dream living room,
+with better preservation
+of the details you want to keep.
+This model follows detailed
+instructions more closely,
+down to which hand someone writes with.
+The second model, Flare, is our
+fastest image generation model to date.
+It's over 50% faster than GPT Image 2,
+while delivering equal quality,
+so you can explore more ideas faster.
+Both models handle transparent
+backgrounds, so you can create
+intricate assets for everything,
+from infographics to games.
+So, use Sunburst for your most advanced
+image generation workflows, and Flare
+for quickly generating quality images.
+They're both available now in the API,
+ChatGPT, and Codex.
+
+</details>

@@ -1,7 +1,13 @@
 # openai (YouTube)
 
-영상 763개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 770개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Introducing GPT-Image-2.5 in the API](openai/260908-introducing-gpt-image-2-5-in-the-api.md) — 2026-09-08
+- [Templates with ChatGPT Images 2.5](openai/260908-templates-with-chatgpt-images-2-5.md) — 2026-09-08 (자막없음)
+- [Sketch with ChatGPT Images 2.5](openai/260908-sketch-with-chatgpt-images-2-5.md) — 2026-09-08 (자막없음)
+- [Introducing ChatGPT Images 2.5](openai/260908-introducing-chatgpt-images-2-5.md) — 2026-09-08
+- [GPT-6 Astra with Tom Krcha](openai/260907-gpt-6-astra-with-tom-krcha.md) — 2026-09-07
+- [GPT-6 Astra with Peter Gostev](openai/260906-gpt-6-astra-with-peter-gostev.md) — 2026-09-06
 - [GPT-6 Astra with Ben Davis](openai/260905-gpt-6-astra-with-ben-davis.md) — 2026-09-05
 - [Introducing GPT-6 Astra for developers](openai/260904-introducing-gpt-6-astra-for-developers.md) — 2026-09-04
 - [Use ChatGPT Work to analyze ad performance and refine creative](openai/260904-use-chatgpt-work-to-analyze-ad-performance-and-refine-creati.md) — 2026-09-04
@@ -660,6 +666,7 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [GPT-6 Astra cracked a DEF CON puzzle](openai/260906-gpt-6-astra-cracked-a-def-con-puzzle.md) — 2026-09-06
 - [Delivering more meals to more moms with ChatGPT](openai/260827-delivering-more-meals-to-more-moms-with-chatgpt.md) — 2026-08-27
 - [What is AI Slop?](openai/260723-what-is-ai-slop.md) — 2026-07-23
 - [Now it won’t take you 10 years to get tickets](openai/260723-now-it-won-t-take-you-10-years-to-get-tickets.md) — 2026-07-23
