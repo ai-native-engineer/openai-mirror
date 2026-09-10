@@ -1,7 +1,9 @@
 # openai (YouTube)
 
-영상 770개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 773개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [ChatGPT Work, now powered by GPT-6 Astra](openai/260909-chatgpt-work-now-powered-by-gpt-6-astra.md) — 2026-09-09 (자막없음)
+- [GPT-6 Astra First Impressions From Businesses](openai/260909-gpt-6-astra-first-impressions-from-businesses.md) — 2026-09-09
 - [Introducing GPT-Image-2.5 in the API](openai/260908-introducing-gpt-image-2-5-in-the-api.md) — 2026-09-08
 - [Templates with ChatGPT Images 2.5](openai/260908-templates-with-chatgpt-images-2-5.md) — 2026-09-08 (자막없음)
 - [Sketch with ChatGPT Images 2.5](openai/260908-sketch-with-chatgpt-images-2-5.md) — 2026-09-08 (자막없음)
@@ -666,6 +668,7 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [GPT-6 Astra turned London into a game](openai/260909-gpt-6-astra-turned-london-into-a-game.md) — 2026-09-09
 - [GPT-6 Astra cracked a DEF CON puzzle](openai/260906-gpt-6-astra-cracked-a-def-con-puzzle.md) — 2026-09-06
 - [Delivering more meals to more moms with ChatGPT](openai/260827-delivering-more-meals-to-more-moms-with-chatgpt.md) — 2026-08-27
 - [What is AI Slop?](openai/260723-what-is-ai-slop.md) — 2026-07-23
