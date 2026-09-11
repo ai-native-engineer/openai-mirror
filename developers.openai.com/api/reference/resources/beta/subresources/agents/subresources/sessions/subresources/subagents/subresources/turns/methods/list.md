@@ -1,0 +1,289 @@
+<!-- source: https://developers.openai.com/api/reference/resources/beta/subresources/agents/subresources/sessions/subresources/subagents/subresources/turns/methods/list/ -->
+
+[Sessions](/api/reference/resources/beta/subresources/agents/subresources/sessions)
+
+[Subagents](/api/reference/resources/beta/subresources/agents/subresources/sessions/subresources/subagents)
+
+[Turns](/api/reference/resources/beta/subresources/agents/subresources/sessions/subresources/subagents/subresources/turns)
+
+# List subagent turns
+
+GET/agents/sessions/{session\_id}/subagents/{subagent\_id}/turns
+
+Lists all turns of this subagent, including turns after a resume. See [subagent workflows](/api/docs/guides/agents-api/multi-agent).
+
+session\_id: string
+
+subagent\_id: string
+
+##### Query ParametersExpand Collapse
+
+after: optional string
+
+Return resources after this resource ID in the selected order.
+
+limit: optional number
+
+The maximum number of resources to return, between 1 and 100. Defaults to 20.
+
+minimum1
+
+maximum100
+
+order: optional "asc" or "desc"
+
+The order in which resources are returned. Defaults to `desc`.
+
+"asc"
+
+Returns resources in ascending order.
+
+"desc"
+
+Returns resources in descending order.
+
+data: array of [Turn](/api/reference/resources/beta#(resource)%20beta.agents.sessions.turns%20%3E%20(model)%20turn%20%3E%20(schema)) { id, agent\_id, completed\_at, 8 more }
+
+The resources returned in this page, in the requested sort order.
+
+The ID of the turn.
+
+agent\_id: string
+
+The ID of the agent that ran the turn.
+
+completed\_at: number or null
+
+The Unix timestamp, in seconds, when the turn reached a terminal state.
+
+The Unix timestamp, in seconds, used to order the turn by creation time. Subagent turns use their start time, falling back to completion time or the subagent opening time when the preceding timestamps are unavailable.
+
+error: [SessionTurnError](/api/reference/resources/beta#(resource)%20beta.agents%20%3E%20(model)%20session_turn_error%20%3E%20(schema)) { code, message }  or null
+
+A customer-safe error describing why a session request failed.
+
+code: "context\_length\_exceeded" or "session\_budget\_exceeded" or "usage\_limit\_exceeded" or 13 more
+
+A stable, machine-readable failure category.
+
+"context\_length\_exceeded"
+
+The request exceeds the model’s context window.
+
+"session\_budget\_exceeded"
+
+The session has reached its usage budget.
+
+"usage\_limit\_exceeded"
+
+The organization has reached a usage, plan, or billing limit.
+
+"rate\_limit\_exceeded"
+
+The request exceeds the available rate limit.
+
+"server\_overloaded"
+
+The model service is temporarily overloaded.
+
+"cyber\_policy"
+
+The request was rejected by a safety policy.
+
+"connection\_failed"
+
+The request could not connect to the model service.
+
+"server\_error"
+
+The model service encountered an unexpected error.
+
+"authentication\_error"
+
+The API credentials are invalid or lack the required access.
+
+"invalid\_request"
+
+The request contains invalid input or configuration.
+
+"resource\_not\_found"
+
+The requested model or resource is unavailable.
+
+"sandbox\_error"
+
+The request could not complete in its execution environment.
+
+"executor\_version\_incompatible"
+
+The executor must be upgraded before it can run this turn.
+
+"active\_turn\_not\_steerable"
+
+The session cannot accept additional input while a request is running.
+
+"request\_timeout"
+
+The request timed out before the model service responded.
+
+"internal\_error"
+
+An unexpected internal error prevented the session request from completing.
+
+message: string
+
+A customer-safe explanation of the failure.
+
+object: "agent.session.turn"
+
+The object type. Always `agent.session.turn`.
+
+session\_id: string
+
+The ID of the session that owns the turn.
+
+started\_at: number or null
+
+The Unix timestamp, in seconds, when the turn started.
+
+status: "queued" or "in\_progress" or "waiting" or 3 more
+
+The current status of the turn.
+
+"queued"
+
+The turn is waiting to start.
+
+"in\_progress"
+
+The turn is in progress.
+
+"waiting"
+
+The turn is waiting for external input.
+
+"completed"
+
+The turn completed successfully.
+
+"failed"
+
+The turn failed.
+
+"cancelled"
+
+The turn was cancelled.
+
+subagent\_id: string or null
+
+The ID of the subagent that ran the turn, if applicable.
+
+usage: [TokenUsage](/api/reference/resources/beta#(resource)%20beta.agents%20%3E%20(model)%20token_usage%20%3E%20(schema)) { input\_tokens, input\_tokens\_details, output\_tokens, 2 more }  or null
+
+Recorded token usage for a session or turn. Usage is best effort and may change.
+
+input\_tokens: number
+
+The number of input tokens used by the agent.
+
+input\_tokens\_details: object { cached\_tokens }
+
+A breakdown of the agent’s input token usage.
+
+cached\_tokens: number
+
+The number of input tokens retrieved from the prompt cache.
+
+output\_tokens: number
+
+The number of output tokens generated by the agent.
+
+output\_tokens\_details: object { reasoning\_tokens }
+
+A breakdown of the agent’s output token usage.
+
+reasoning\_tokens: number
+
+The number of output tokens used for reasoning.
+
+total\_tokens: number
+
+The total number of input and output tokens used by the agent.
+
+first\_id: string or null
+
+The ID of the first resource in `data`, or `null` if the page is empty.
+
+has\_more: boolean
+
+Whether there are more resources to retrieve after this page.
+
+last\_id: string or null
+
+The ID of the last resource in `data`, or `null` if the page is empty. Pass this as `after` with the same order and filters.
+
+object: "list"
+
+The object type, which is always `list`.
+
+### List subagent turns
+
+curl https://api.openai.com/v1/agents/sessions/$SESSION_ID/subagents/$SUBAGENT_ID/turns \
+
+  "data": [
+      "agent_id": "agent_id",
+      "completed_at": 0,
+      "created_at": 0,
+      "error": {
+        "code": "context_length_exceeded",
+        "message": "message"
+      },
+      "object": "agent.session.turn",
+      "session_id": "session_id",
+      "started_at": 0,
+      "status": "queued",
+      "subagent_id": "subagent_id",
+      "usage": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 0
+  ],
+  "first_id": "first_id",
+  "has_more": true,
+  "last_id": "last_id",
+  "object": "list"
+
+  "data": [
+      "agent_id": "agent_id",
+      "completed_at": 0,
+      "created_at": 0,
+      "error": {
+        "code": "context_length_exceeded",
+        "message": "message"
+      },
+      "object": "agent.session.turn",
+      "session_id": "session_id",
+      "started_at": 0,
+      "status": "queued",
+      "subagent_id": "subagent_id",
+      "usage": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 0
+  ],
+  "first_id": "first_id",
+  "has_more": true,
+  "last_id": "last_id",
+  "object": "list"

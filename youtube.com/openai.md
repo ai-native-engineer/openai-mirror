@@ -1,7 +1,13 @@
 # openai (YouTube)
 
-영상 773개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 779개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Introducing the Agents API](openai/260910-introducing-the-agents-api.md) — 2026-09-10
+- [In Harmony](openai/260910-in-harmony.md) — 2026-09-10 (자막없음)
+- [Two blind brothers using ChatGPT to navigate life and run their nonprofit](openai/260910-two-blind-brothers-using-chatgpt-to-navigate-life-and-run-th.md) — 2026-09-10
+- [Helping a small business go big with ChatGPT](openai/260910-helping-a-small-business-go-big-with-chatgpt.md) — 2026-09-10
+- [Discovering new antibiotics with ChatGPT](openai/260910-discovering-new-antibiotics-with-chatgpt.md) — 2026-09-10
+- [Data agent in ChatGPT Work](openai/260910-data-agent-in-chatgpt-work.md) — 2026-09-10 (자막없음)
 - [ChatGPT Work, now powered by GPT-6 Astra](openai/260909-chatgpt-work-now-powered-by-gpt-6-astra.md) — 2026-09-09 (자막없음)
 - [GPT-6 Astra First Impressions From Businesses](openai/260909-gpt-6-astra-first-impressions-from-businesses.md) — 2026-09-09
 - [Introducing GPT-Image-2.5 in the API](openai/260908-introducing-gpt-image-2-5-in-the-api.md) — 2026-09-08

@@ -1,0 +1,276 @@
+<!-- source: https://developers.openai.com/api/reference/resources/live/subresources/sessions/methods/fork/ -->
+
+[Live](/api/reference/resources/live)
+
+[Sessions](/api/reference/resources/live/subresources/sessions)
+
+# Fork session
+
+POST/live/sessions/{session\_id}/fork
+
+Fork a stored Live session onto a new WebRTC connection.
+
+session\_id: string
+
+##### Body ParametersJSONExpand Collapse
+
+transport: object { sdp, type }
+
+WebRTC transport with an SDP offer for the new connection to the forked session.
+
+sdp: string
+
+Session Description Protocol message for the WebRTC connection.
+
+minLength1
+
+type: "webrtc"
+
+The transport used for the Live session. Always `webrtc`.
+
+session: optional [MediaSessionForkConfig](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20media_session_fork_config%20%3E%20(schema)) { client, delegation, store }
+
+Optional configuration overrides for the new Live session. Omit this object or send an empty object to inherit the stored session’s settings.
+
+client: optional [ClientConfig](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20client_config%20%3E%20(schema)) { data\_channel }
+
+Startup-only capabilities for an untrusted frontend attached to a unified WebRTC session. Trusted sideband connections are unaffected.
+
+data\_channel: [DataChannelConfig](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20data_channel_config%20%3E%20(schema)) { allowed\_client\_events, allowed\_server\_events }
+
+Client and server event permissions for the WebRTC frontend data channel.
+
+allowed\_client\_events: optional "all" or array of string
+
+Client event types that the frontend data channel may send. Use ‘all’ to allow every client event; an empty array allows none. Omission preserves the existing allow-all behavior.
+
+"all"
+
+array of string
+
+allowed\_server\_events: optional "all" or array of [ServerEventSelector](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20server_event_selector%20%3E%20(schema)) { type, response\_event }
+
+Server events that may be sent to the frontend data channel. Use ‘all’ to allow every server event; an empty array allows none. Omission preserves the existing allow-all behavior. Responses events use an object with type ‘response.event’ and a response\_event selector.
+
+"all"
+
+array of [ServerEventSelector](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20server_event_selector%20%3E%20(schema)) { type, response\_event }
+
+type: string
+
+The outer Live server event type. Use ‘response.event’ for Responses events.
+
+minLength1
+
+maxLength256
+
+response\_event: optional string
+
+The nested Responses event type. Required when type is ‘response.event’; forbidden for other event types.
+
+minLength1
+
+maxLength256
+
+delegation: optional object { type, responses }
+
+Update the Responses backend for an existing Live session without changing delegation ownership.
+
+type: "responses"
+
+The delegation owner. Always `responses` for tasks handled by the Responses API.
+
+responses: optional [ResponsesDelegationUpdateConfig](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20responses_delegation_update_config%20%3E%20(schema)) { instructions, max\_output\_tokens, model, 6 more }
+
+Responses backend settings to update. Omitted settings keep their existing values.
+
+instructions: optional string or null
+
+Instructions for the delegated Responses model, separate from Live instructions. See [backend prompting](/api/docs/guides/live-delegation#start-with-your-existing-backend-prompt).
+
+max\_output\_tokens: optional number or null
+
+Maximum number of output tokens for each delegated response.
+
+minimum16
+
+model: optional string
+
+The Responses backend model to use for subsequent delegated requests. Omit to keep the current backend model.
+
+parallel\_tool\_calls: optional boolean or null
+
+Whether the delegated Responses model may request multiple tool calls in a single response.
+
+reasoning: optional object { effort, summary }  or null
+
+Reasoning settings passed to each delegated Responses request.
+
+effort: optional "none" or "minimal" or "low" or 3 more or null
+
+How much reasoning effort the delegated Responses model should use. Supported values depend on the backend model.
+
+"none"
+
+"minimal"
+
+"low"
+
+"medium"
+
+"high"
+
+"xhigh"
+
+summary: optional "concise" or "detailed" or "auto" or null
+
+The reasoning summary to request from the delegated Responses model, when supported.
+
+"concise"
+
+"detailed"
+
+"auto"
+
+service\_tier: optional "auto" or "default" or "fast\_tier\_temp\_pilot" or 3 more or null
+
+Service tier for delegated Responses requests.
+
+"auto"
+
+"default"
+
+"fast\_tier\_temp\_pilot"
+
+"flex"
+
+"priority"
+
+"ultrafast"
+
+text: optional object { verbosity }  or null
+
+Text generation settings passed to each delegated Responses request.
+
+verbosity: optional "low" or "medium" or "high" or null
+
+The amount of detail in text generated by the Responses backend. This does not configure the Live model’s spoken delivery.
+
+"low"
+
+"medium"
+
+"high"
+
+tool\_choice: optional "auto" or "none" or "required" or object { name, type }  or object { name, server\_label, type }
+
+Controls which tool the Responses backend uses when handling a task delegated by the Live model.
+
+LiveToolChoiceEnum = "auto" or "none" or "required"
+
+"auto"
+
+"none"
+
+"required"
+
+LiveFunctionToolChoiceParam object { name, type }
+
+minLength1
+
+maxLength64
+
+type: "function"
+
+LiveMCPToolChoiceParam object { name, server\_label, type }
+
+minLength1
+
+maxLength64
+
+server\_label: string
+
+minLength1
+
+maxLength64
+
+type: "mcp"
+
+tools: optional array of [FunctionTool](/api/reference/resources/live#(resource)%20live%20%3E%20(model)%20function_tool%20%3E%20(schema)) { name, type, description, 2 more }  or object { type }
+
+Tools available to the Responses backend while it handles tasks delegated by the Live model.
+
+FunctionTool object { name, type, description, 2 more }
+
+A function tool available to the Responses backend when the Live model delegates a task.
+
+The name the delegated Responses model uses when calling this function.
+
+type: "function"
+
+The tool type. Always `function`.
+
+description: optional string or null
+
+What the function does and when the delegated Responses model should call it.
+
+parameters: optional map[unknown] or null
+
+A JSON Schema object describing the arguments accepted by the function.
+
+strict: optional boolean or null
+
+Whether the delegated Responses model must follow the function’s parameter schema exactly.
+
+WebSearch object { type }
+
+A web search tool available to the Live session’s Responses backend.
+
+type: "web\_search"
+
+The tool type. Always `web_search`.
+
+store: optional boolean
+
+Whether to store the forked session. Omission inherits the stored session’s setting.
+
+session: object { id }
+
+The newly created Live session. Use its ID for session controls and sideband connections.
+
+Opaque session identifier. Preserve the returned value unchanged, including its prefix.
+
+transport: object { sdp, type }
+
+WebRTC transport with the SDP answer.
+
+sdp: string
+
+Session Description Protocol message for the WebRTC connection.
+
+minLength1
+
+type: "webrtc"
+
+The transport used for the Live session. Always `webrtc`.
+
+### Fork session
+
+curl https://api.openai.com/v1/live/sessions/live_123/fork \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"session":{},"transport":{"type":"webrtc","sdp":"<SDP offer>"}}'
+
+  "session": {
+    "id": "id"
+  },
+  "transport": {
+    "sdp": "x",
+    "type": "webrtc"
+
+  "session": {
+    "id": "id"
+  },
+  "transport": {
+    "sdp": "x",
+    "type": "webrtc"
