@@ -1,7 +1,8 @@
 # openai (YouTube)
 
-영상 779개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 783개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [GPT-Live-1 is now in the API](openai/260911-gpt-live-1-is-now-in-the-api.md) — 2026-09-11
 - [Introducing the Agents API](openai/260910-introducing-the-agents-api.md) — 2026-09-10
 - [In Harmony](openai/260910-in-harmony.md) — 2026-09-10 (자막없음)
 - [Two blind brothers using ChatGPT to navigate life and run their nonprofit](openai/260910-two-blind-brothers-using-chatgpt-to-navigate-life-and-run-th.md) — 2026-09-10
@@ -674,6 +675,9 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [GPT-6 Astra added unexpected details](openai/260911-gpt-6-astra-added-unexpected-details.md) — 2026-09-11
+- [GPT-6 Astra handles the editing busywork](openai/260911-gpt-6-astra-handles-the-editing-busywork.md) — 2026-09-11
+- [GPT-6 Astra built a font playground](openai/260911-gpt-6-astra-built-a-font-playground.md) — 2026-09-11
 - [GPT-6 Astra turned London into a game](openai/260909-gpt-6-astra-turned-london-into-a-game.md) — 2026-09-09
 - [GPT-6 Astra cracked a DEF CON puzzle](openai/260906-gpt-6-astra-cracked-a-def-con-puzzle.md) — 2026-09-06
 - [Delivering more meals to more moms with ChatGPT](openai/260827-delivering-more-meals-to-more-moms-with-chatgpt.md) — 2026-08-27
