@@ -1,6 +1,6 @@
 # openai (YouTube)
 
-영상 783개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 784개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
 - [GPT-Live-1 is now in the API](openai/260911-gpt-live-1-is-now-in-the-api.md) — 2026-09-11
 - [Introducing the Agents API](openai/260910-introducing-the-agents-api.md) — 2026-09-10
@@ -675,6 +675,7 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [GPT-6 Astra needs less babysitting](openai/260912-gpt-6-astra-needs-less-babysitting.md) — 2026-09-12
 - [GPT-6 Astra added unexpected details](openai/260911-gpt-6-astra-added-unexpected-details.md) — 2026-09-11
 - [GPT-6 Astra handles the editing busywork](openai/260911-gpt-6-astra-handles-the-editing-busywork.md) — 2026-09-11
 - [GPT-6 Astra built a font playground](openai/260911-gpt-6-astra-built-a-font-playground.md) — 2026-09-11
