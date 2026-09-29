@@ -1,7 +1,9 @@
 # openai (YouTube)
 
-영상 812개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 814개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [GPT-6 Astra in practice: Turning ideas into projects](openai/260928-gpt-6-astra-in-practice-turning-ideas-into-projects.md) — 2026-09-28
+- [The Defender's Window: Cyber security keynote](openai/260928-the-defender-s-window-cyber-security-keynote.md) — 2026-09-28 (자막없음)
 - [Get Stuff Done with ChatGPT Voice](openai/260923-get-stuff-done-with-chatgpt-voice.md) — 2026-09-23 (자막없음)
 - [Figma Gave GPT-6 Astra a Moonshot. Here's what happened.](openai/260921-figma-gave-gpt-6-astra-a-moonshot-here-s-what-happened.md) — 2026-09-21 (자막없음)
 - [One Prompt. A Feature Built and Tested. | Ramp × GPT-6 Astra](openai/260921-one-prompt-a-feature-built-and-tested-ramp-gpt-6-astra.md) — 2026-09-21 (자막없음)
