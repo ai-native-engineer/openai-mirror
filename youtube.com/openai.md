@@ -1,7 +1,36 @@
 # openai (YouTube)
 
-영상 779개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 814개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [GPT-6 Astra in practice: Turning ideas into projects](openai/260928-gpt-6-astra-in-practice-turning-ideas-into-projects.md) — 2026-09-28
+- [The Defender's Window: Cyber security keynote](openai/260928-the-defender-s-window-cyber-security-keynote.md) — 2026-09-28 (자막없음)
+- [Get Stuff Done with ChatGPT Voice](openai/260923-get-stuff-done-with-chatgpt-voice.md) — 2026-09-23 (자막없음)
+- [Figma Gave GPT-6 Astra a Moonshot. Here's what happened.](openai/260921-figma-gave-gpt-6-astra-a-moonshot-here-s-what-happened.md) — 2026-09-21 (자막없음)
+- [One Prompt. A Feature Built and Tested. | Ramp × GPT-6 Astra](openai/260921-one-prompt-a-feature-built-and-tested-ramp-gpt-6-astra.md) — 2026-09-21 (자막없음)
+- [“A Staff Engineer Collaborator” | Notion’s First Look at GPT-6 Astra](openai/260921-a-staff-engineer-collaborator-notion-s-first-look-at-gpt-6-a.md) — 2026-09-21 (자막없음)
+- [“A Jaw Drop. Literally.” How Cooley Is Reimagining IPOs with OpenAI](openai/260921-a-jaw-drop-literally-how-cooley-is-reimagining-ipos-with-ope.md) — 2026-09-21 (자막없음)
+- [“It Blew Me Away” | Box’s First Look at GPT-6 Astra](openai/260921-it-blew-me-away-box-s-first-look-at-gpt-6-astra.md) — 2026-09-21 (자막없음)
+- [Use ChatGPT Work to ground analysis in your semantic layer](openai/260918-use-chatgpt-work-to-ground-analysis-in-your-semantic-layer.md) — 2026-09-18 (자막없음)
+- [Use ChatGPT Work to build dashboards from a business question](openai/260918-use-chatgpt-work-to-build-dashboards-from-a-business-questio.md) — 2026-09-18 (자막없음)
+- [Use ChatGPT Work to tailor dashboards for every stakeholder](openai/260918-use-chatgpt-work-to-tailor-dashboards-for-every-stakeholder.md) — 2026-09-18 (자막없음)
+- [Use ChatGPT Work to help teams answer their own data questions](openai/260918-use-chatgpt-work-to-help-teams-answer-their-own-data-questio.md) — 2026-09-18 (자막없음)
+- [Use ChatGPT Work to turn product insights into a team action plan](openai/260918-use-chatgpt-work-to-turn-product-insights-into-a-team-action.md) — 2026-09-18 (자막없음)
+- [Use ChatGPT Work to build your data agent](openai/260918-use-chatgpt-work-to-build-your-data-agent.md) — 2026-09-18 (자막없음)
+- [Meet the Data Agent in ChatGPT Work](openai/260918-meet-the-data-agent-in-chatgpt-work.md) — 2026-09-18 (자막없음)
+- [Astra for Law: Frontier intelligence built for your practice.](openai/260917-astra-for-law-frontier-intelligence-built-for-your-practice.md) — 2026-09-17 (자막없음)
+- [ChatGPT for Word is now available](openai/260917-chatgpt-for-word-is-now-available.md) — 2026-09-17 (자막없음)
+- [Jump Trading points GPT-6 Astra to its most ambiguous, difficult tasks](openai/260917-jump-trading-points-gpt-6-astra-to-its-most-ambiguous-diffic.md) — 2026-09-17 (자막없음)
+- [Reimagining IT with ChatGPT](openai/260917-reimagining-it-with-chatgpt.md) — 2026-09-17 (자막없음)
+- [Meet ChatGPT: Ask Your First Question | OpenAI Academy](openai/260916-meet-chatgpt-ask-your-first-question-openai-academy.md) — 2026-09-16 (자막없음)
+- [How to Ask ChatGPT Better Questions | OpenAI Academy](openai/260916-how-to-ask-chatgpt-better-questions-openai-academy.md) — 2026-09-16 (자막없음)
+- [Use ChatGPT to Organize Everyday Tasks | OpenAI Academy](openai/260916-use-chatgpt-to-organize-everyday-tasks-openai-academy.md) — 2026-09-16 (자막없음)
+- [How to Spot Scam Messages with ChatGPT | OpenAI Academy](openai/260916-how-to-spot-scam-messages-with-chatgpt-openai-academy.md) — 2026-09-16 (자막없음)
+- [ChatGPT Privacy: What Not to Share and When to Double-Check | OpenAI Academy](openai/260916-chatgpt-privacy-what-not-to-share-and-when-to-double-check-o.md) — 2026-09-16 (자막없음)
+- [Create a Coloring Page with ChatGPT | OpenAI Academy](openai/260916-create-a-coloring-page-with-chatgpt-openai-academy.md) — 2026-09-16
+- [Assess Usage and Value of ChatGPT Work](openai/260916-assess-usage-and-value-of-chatgpt-work.md) — 2026-09-16
+- [Detecting wildfires with ChatGPT](openai/260914-detecting-wildfires-with-chatgpt.md) — 2026-09-14
+- [How Fyxer built an AI executive assistant people trust](openai/260914-how-fyxer-built-an-ai-executive-assistant-people-trust.md) — 2026-09-14 (자막없음)
+- [GPT-Live-1 is now in the API](openai/260911-gpt-live-1-is-now-in-the-api.md) — 2026-09-11
 - [Introducing the Agents API](openai/260910-introducing-the-agents-api.md) — 2026-09-10
 - [In Harmony](openai/260910-in-harmony.md) — 2026-09-10 (자막없음)
 - [Two blind brothers using ChatGPT to navigate life and run their nonprofit](openai/260910-two-blind-brothers-using-chatgpt-to-navigate-life-and-run-th.md) — 2026-09-10
@@ -674,6 +703,12 @@
 - [Physical Adversarial Example](openai/170717-physical-adversarial-example.md) — 2017-07-17 (자막없음)
 - [Emergence of Grounded Compositional Language in Multi-Agent Populations](openai/170517-emergence-of-grounded-compositional-language-in-multi-agent.md) — 2017-05-17 (자막없음)
 - [Robots that Learn](openai/170517-robots-that-learn.md) — 2017-05-17
+- [Today’s forecast? Nothing but 80s, baby.](openai/260923-today-s-forecast-nothing-but-80s-baby.md) — 2026-09-23
+- [Stay on top of the pack with ChatGPT Work.](openai/260915-stay-on-top-of-the-pack-with-chatgpt-work.md) — 2026-09-15 (자막없음)
+- [GPT-6 Astra needs less babysitting](openai/260912-gpt-6-astra-needs-less-babysitting.md) — 2026-09-12
+- [GPT-6 Astra added unexpected details](openai/260911-gpt-6-astra-added-unexpected-details.md) — 2026-09-11
+- [GPT-6 Astra handles the editing busywork](openai/260911-gpt-6-astra-handles-the-editing-busywork.md) — 2026-09-11
+- [GPT-6 Astra built a font playground](openai/260911-gpt-6-astra-built-a-font-playground.md) — 2026-09-11
 - [GPT-6 Astra turned London into a game](openai/260909-gpt-6-astra-turned-london-into-a-game.md) — 2026-09-09
 - [GPT-6 Astra cracked a DEF CON puzzle](openai/260906-gpt-6-astra-cracked-a-def-con-puzzle.md) — 2026-09-06
 - [Delivering more meals to more moms with ChatGPT](openai/260827-delivering-more-meals-to-more-moms-with-chatgpt.md) — 2026-08-27

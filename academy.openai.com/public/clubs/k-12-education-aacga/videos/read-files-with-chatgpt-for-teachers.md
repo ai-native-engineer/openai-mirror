@@ -1,0 +1,14 @@
+<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/read-files-with-chatgpt-for-teachers -->
+
+# Read Files with ChatGPT for Teachers
+
+<!-- vimeo: 1226039347 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1226039347)
+
+<details>
+<summary>자막: Read Files with ChatGPT for Teachers</summary>
+
+Another really practical thing that ChatGPT can do is it can work with files. And this is important in schools, right? A lot of the work might already live in a document. So meeting notes, family comms, school improvement plans, reports. A lot of the day-to-day work is already sitting in a file somewhere. So ChatGPT can read and it can understand most file types, and then it can use that information in its response. So you could attach a file directly or just drag and drop it into a new chat, and I'll show you what that looks like here. If I wanted to upload a file, I could click this plus button and click Add photos and files. Alternatively, I can drag and drop something from my desktop. So here we're going to ask it to review these school leadership notes. So I dragged it in, it's processing for a moment, and I'm going to say, "Chat, can you pull out the key action items from these school leadership notes? And I want you to turn them into a clear to-do list with owners and deadlines and next steps." And so these meeting notes that I uploaded were super messy, but I'm asking it to pull out the next steps, the owners, the deadlines. You'll see it's going to start to create this document. Once this finishes, I'll actually be able to interact with it and check things off. There's a few different ways that you can kind of go from here. I could continue pushing back and asking ChatGPT to make changes to this document. Alternatively, I could copy it by using this copy button and paste it into a separate document. I could download it. I get the ability to download it into PDF or Microsoft Word, and if I wanted a larger view, I could just open the editor here and directly interact in here. But this is a nice example because it's simple, it's real. Schools are constantly sitting on notes and updates and planning documents, and they need to get turned into action. And so ChatGPT is really great at saving time on these types of work. I would also say the quality of the output will depend on the quality of the document that you upload. So if the notes are super vague or they're missing decisions, ChatGPT might be able to help organize them, but you would still need a human in the loop to make sure the owners and deadlines and next steps actually make sense. It'll only have the context that you give it in that document, unless you've chatted about these to-do lists previously, and it's maybe pulling that from its memory. So again, think about this as almost acceleration, right? It helps you move from a messy document to a usable draft much, much faster.
+
+</details>

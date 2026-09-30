@@ -1,0 +1,14 @@
+<!-- source: https://academy.openai.com/public/videos/schedule-tasks-with-chatgpt-for-teachers -->
+
+# Schedule Tasks with ChatGPT for Teachers
+
+<!-- vimeo: 1226039348 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1226039348)
+
+<details>
+<summary>자막: Schedule Tasks with ChatGPT for Teachers</summary>
+
+So the next capability I want to share with you is scheduled tasks. So this is really nice for schoolwork that can already happen on a regular sort of rhythm. So something that we want to schedule on a certain cadence, something that we might do over and over, and we want to make sure that this runs kind of automatically in the cloud without me having to invoke it. So scheduled tasks will let ChatGPT do something later on or on a recurring schedule. So think about any sort of work that repeats every week, like lesson prep or communication with families in your class, monitoring policies, reminders. Instead of remembering to rerun the same request every time, you can actually just set that cadence once. So for a teacher, a first example we'll look at today is just creating a weekly current events resource that I can share with my class. So for this first example, imagine a fifth-grade teacher who wants one age-appropriate current event-ready discussion prompt every Monday for their class. They want to take something that's going on in the world that's appropriate for their class and share it with them every Monday. So what we're going to do is paste in this chat. We're going to say, "Create a recurring task for every Sunday at 6:00 PM. Each week, search for one current event story that's appropriate for fifth graders." And then I ask for a couple more things here. I go into a little bit of detail here into what I want, but I don't really have to make it too long. It's going to think for a few seconds, and then it's going to create that scheduled task right in front of me. So now I have every Sunday this fifth-grade current event, and the prompt is searching for one current event story and the output. If I wanted to ever change the frequency or how often I want it to repeat or when, I could do that. And then if I ever wanted to turn this off, I can just use this pause button up here
+
+</details>
