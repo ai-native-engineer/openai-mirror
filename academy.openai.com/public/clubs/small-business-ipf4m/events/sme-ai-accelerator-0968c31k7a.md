@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/events/sme-ai-accelerator-0968c31k7a -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-[navigation.events](/en/public/clubs/small-business-ipf4m/events)
+[navigation.events](/public/clubs/small-business-ipf4m/events)
 
 ![SME AI Accelerator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/SME-Accelerator-48f9e888-d094-41dd-82ec-8af58ec7f47d-1774357468865.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+4:00 PM - 5:00 PM GMT
+
+May 21, 2026
 
 # SME AI Accelerator
 
@@ -15,6 +19,8 @@ LIVESTREAM
 # Workplace & Business
 
 # Awareness
+
+# Work
 
 *This content for small business owners was a part of the OpenAI SME AI Accelerator event series.*
 
@@ -30,9 +36,11 @@ This skills webinar is designed for small and medium businesses for example rest
 
 ## Why attend?
 
-1. **Practical, fast results:** in one hour, you’ll learn the fundamentals of prompting, build your first workflow, and leave with a usable AI tool for a real business task - for example marketing, customer service or operations.
-2. **Beginner-friendly:** No coding or tech background required. We’ll walk through everything step-by-step.
-3. **Free to join:** Registration is FREE for all small businesses.
+* **Practical, fast results:** in one hour, you’ll learn the fundamentals of prompting, build your first workflow, and leave with a usable AI tool for a real business task - for example marketing, customer service or operations.
+
+* **Beginner-friendly:** No coding or tech background required. We’ll walk through everything step-by-step.
+
+* **Free to join:** Registration is FREE for all small businesses.
 
 ## Speakers
 
@@ -46,7 +54,9 @@ View Profile
 
 Event has finished
 
-May 21, 4:00 PM GMT
+4:00 PM - 5:00 PM GMT
+
+May 21, 2026
 
 Online
 
@@ -60,7 +70,9 @@ OpenAI Academy
 
 Event has finished
 
-May 21, 4:00 PM GMT
+4:00 PM - 5:00 PM GMT
+
+May 21, 2026
 
 Online
 

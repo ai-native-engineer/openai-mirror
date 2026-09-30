@@ -1,27 +1,6 @@
 <!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/events/beyond-the-prompt-building-repeatable-ai-workflows-for-nonprofit-fundraisers-58z1cb27na -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
-[Communities](/home/clubs)
-
-/
-
 [Nonprofits](/public/clubs/nonprofits-8kc1e/overview)
-
-/
 
 [navigation.events](/public/clubs/nonprofits-8kc1e/events)
 
@@ -49,10 +28,13 @@ Impact Overflow is a free, virtual gathering for nonprofit professionals produce
 
 ### What to expect
 
-1. Identify fundraising work that is repeatable, stable, and easy to verify
-2. Plan a multistep workflow using trusted files, clear goals, and human approval points
-3. See how a year-end campaign process can become a reusable Skill or recurring update
-4. Explore an approach that can also support grants, donor stewardship, and fundraising operations
+* Identify fundraising work that is repeatable, stable, and easy to verify
+
+* Plan a multistep workflow using trusted files, clear goals, and human approval points
+
+* See how a year-end campaign process can become a reusable Skill or recurring update
+
+* Explore an approach that can also support grants, donor stewardship, and fundraising operations
 
 ### Who should attend
 
@@ -60,16 +42,21 @@ Fundraising, development, communications, and nonprofit operations professionals
 
 ### Event details
 
-1. **Date:** Thursday, October 1, 2026
-2. **Time:** 2:00–2:45 p.m. ET
-3. **Location:** Online via Airmeet
-4. **Speaker:** Alex Nawar, Head of OpenAI Academy, OpenAI
-5. **Host:** CauseVox
-6. **Cost:** Free
+* **Date:** Thursday, October 1, 2026
+
+* **Time:** 2:00–2:45 p.m. ET
+
+* **Location:** Online via Airmeet
+
+* **Speaker:** Alex Nawar, Head of OpenAI Academy, OpenAI
+
+* **Host:** CauseVox
+
+* **Cost:** Free
 
 ### Registration
 
-Register through the [CauseVox event page](https://www.causevox.com/nonprofit-fundraising-summit/).
+Register through the  [CauseVox event page](https://www.causevox.com/nonprofit-fundraising-summit/).
 
 *CauseVox produces the summit and manages registration, scheduling, and event logistics. OpenAI Academy is participating as a session presenter.*
 
@@ -83,7 +70,7 @@ Head of OpenAI Academy @ OpenAI
 
 View Profile
 
-Live in 40 days 17 hours
+Live in 1 day 7 hours
 
 6:00 PM - 6:45 PM GMT
 
@@ -99,7 +86,7 @@ Nonprofits
 
 Add to calendar
 
-Live in 40 days 17 hours
+Live in 1 day 7 hours
 
 6:00 PM - 6:45 PM GMT
 

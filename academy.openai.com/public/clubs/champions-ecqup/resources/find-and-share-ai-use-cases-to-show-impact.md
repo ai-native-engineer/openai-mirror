@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 Article
 
@@ -13,6 +13,8 @@ August 5, 2025 · Last updated on June 12, 2026
 ![Capture and share use cases and impact](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Capture-and-share-use-cases-and-impact-style-thumb-4b80e358-0de0-4e2a-b9e8-19e2bdb2d039-1781280730423.jpeg?fit=scale-down&width=1200)
 
 # Workplace & Business
+
+# Work
 
 # Telling Value and ROI Story
 
@@ -233,7 +235,7 @@ For Activators, the result is a practical way to turn local experimentation into
 
 For Leaders, the result is clearer evidence about where AI is beginning to create value and where additional support may be needed.
 
-Like
+1
 
 Sign in or Join the community
 
@@ -241,50 +243,44 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[Scope, test, and rollout AI workflows](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
-[Use cases for Codex by department](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
+[Use cases for Codex by department](/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
 
-May 5th, 2026 • Views 310
+May 5th, 2026 • Views 699
 
-Blog
+[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
 
-[Segmenting users and driving habit formation](/en/public/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07)
+Aug 13th, 2026 • Views 473
 
-May 7th, 2026 • Views 133
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+Sep 17th, 2025 • Views 6.5K
 
-Sep 17th, 2025 • Views 5.7K
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[Use cases for Codex by department](/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
 
-[Use cases for Codex by department](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
+May 5th, 2026 • Views 699
 
-May 5th, 2026 • Views 310
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+Sep 17th, 2025 • Views 6.5K
 
-Sep 17th, 2025 • Views 5.7K
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
 
-Blog
-
-[Segmenting users and driving habit formation](/en/public/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07)
-
-May 7th, 2026 • Views 133
+Aug 13th, 2026 • Views 473

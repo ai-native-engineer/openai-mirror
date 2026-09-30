@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/team-communication -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 Article
 
-August 5, 2025 · Last updated on May 29, 2026
+August 5, 2025 · Last updated on July 14, 2026
 
 # Communicating about ChatGPT Enterprise to your team
 
@@ -16,15 +16,17 @@ August 5, 2025 · Last updated on May 29, 2026
 
 # Awareness
 
-## Email templates to support your rollout
+# Work
+
+## Email and chat templates to support your rollout
 
 ![Communicating about ChatGPT Enterprise to your team](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Admins-Cover-Images-18--8e5473a4-484f-41a6-b548-0767cb714e0f-1754316611205.jpeg?fit=scale-down&width=1200)
 
-This toolkit contains a series of email and chat templates designed to support various stages of your ChatGPT Enterprise deployment.
+This toolkit contains email and chat templates for each stage of your ChatGPT Enterprise rollout. Tailor the language to your audience: everyone can use Chat for questions and short drafts, while some users may also have access to ChatGPT Work for longer, multi-step deliverables or Codex for software and technical work.
 
 These templates are intended as starting points to help you communicate with your users. We encourage you to edit and customize the content to reflect your company’s unique needs, audience, and internal structure. Specific text to modify is highlighted in yellow.
 
-*💡 Tip: Use canvas in ChatGPT to edit these templates by adding in more context on your company’s rollout plan.*
+*💡 Tip: Use Chat for quick tailoring, or use ChatGPT Work—where enabled—to revise the full toolkit with your rollout plan, audience, policies, and preferred tone.*
 
 ## Announcement to new users
 
@@ -34,23 +36,25 @@ Hi [Team],
 
 We’re thrilled to announce that ChatGPT Enterprise is now available at [Company Name]! AI is evolving rapidly, and this is your opportunity to explore how ChatGPT can enhance your daily work—whether it’s streamlining workflows, analyzing data, generating content, or brainstorming new ideas.
 
-**Why This Matters**Protecting [Company Name]’s data is our top priority. With ChatGPT Enterprise, none of our data is used to train the model, and enterprise-level security measures make it safer to use than personal accounts.
+**Why This Matters**
 
-**What’s Included in ChatGPT Enterprise**
+Protecting [Company Name]’s data is our priority. ChatGPT Enterprise includes workspace-level access controls, encryption in transit and at rest, and no training on business data by default. Follow your organization’s policies for approved data, plugins, connected systems, and actions.
 
-* **The most advanced language and reasoning models, deep research, data analysis, web search & advanced voice mode:** Work with the most advanced AI models to quickly gather insights, get real-time information from the web, and even interact via voice.
+**Choose the right ChatGPT experience**
 
-* **Canvas & custom GPTs:** Collaborate with ChatGPT for writing, coding, and brainstorming. You can also create tailored ChatGPT experiences for specific needs.
+* **Chat: Ask questions, search the web, brainstorm, compare options, summarize information, or create a short draft**.
 
-* **Image generation:** Generate images from simple descriptions for presentations, projects, and more—no design skills required!
+* **ChatGPT Work (where enabled): Delegate longer, multi-step tasks that use files, plugins, and approved tools to create review-ready documents, presentations, spreadsheets, Sites, analyses, or recurring updates**.
+
+* **Codex (where enabled): Use a dedicated coding experience for software and technical tasks such as understanding a codebase, implementing features, debugging, running tests, and reviewing pull requests**!
 
 **How to Get Started**
 
 * Log in at [Login instructions] using [preferred login method]
 
-* Review user resources at the [OpenAI Academy for Work](https://academy.openai.com/home/clubs/work-users-ynjqu/overview?linkMenu=Users)﻿
+* Review user resources at the  [OpenAI Academy for Work](https://academy.openai.com/home/clubs/work-users-ynjqu/overview?linkMenu=Users)﻿
 
-* Use the [ChatGPT Use Cases for Work GPT](https://chatgpt.com/g/g-h5aUtVu0G-chatgpt-use-cases-for-work) to brainstorm use cases
+* Choose Chat for quick help, ChatGPT Work (where enabled) for finished deliverables, or Codex (where enabled) for technical tasks
 
 **[Additional information about where to go for resources or support]**
 
@@ -64,11 +68,11 @@ Best,
 
 🚀 ChatGPT Enterprise is now live at [Company Name]!
 
-This means you now have access to powerful tools like deep research, image generation, canvas, custom GPTs, and more—all with enterprise-grade security (your data stays private).
+Your ChatGPT Enterprise workspace gives you a secure place to use Chat for questions, research, brainstorming, and short drafts. Depending on your role and workspace settings, you may also have ChatGPT Work for substantial, reviewable deliverables or Codex for software and technical tasks.
 
 * Get started: [Login instructions]
 
-* Review user resources at the [OpenAI Academy for Work](https://academy.openai.com/home/clubs/work-users-ynjqu/overview?linkMenu=Users)﻿
+* Review user resources at the  [OpenAI Academy for Work](https://academy.openai.com/home/clubs/work-users-ynjqu/overview?linkMenu=Users)﻿
 
 Excited to see what you create!
 
@@ -84,21 +88,21 @@ As part of our effort to centralize tools and enhance security, you should have 
 
 **Why this matters:**
 
-* **Unified Security & Compliance:** By migrating to our Enterprise plan, all usage is governed under our data controls and will ensure that your data is not trained on.
+* **Enterprise workspace controls: Work-related activity in ChatGPT Enterprise is governed by your organization’s identity, access, retention, and data policies, with no training on business data by default**.
 
-* **Seamless Experience:** If you already have a ChatGPT account tied to your email address, on your next login, you’ll see a migration wizard to transfer any existing chat history—or export/delete it if you prefer—into the Enterprise workspace.
+* **Separate work and personal activity: Accept the invitation using the work email address your organization specifies, then confirm that you are in the [Company Name] workspace before using company data**.
 
-* **Collaborate with Your Teammates:** ChatGPT Enterprise will allow you to share GPTs, canvases, chats, and more with your colleagues in a secure fashion.
+* **Collaborate with teammates: Use the sharing options enabled by your organization to work together on approved chats, projects, files, deliverables, agents, and technical tasks**.
 
-* **Subscription Cleanup:** If you currently hold a ChatGPT Plus subscription under your work email, it will be automatically canceled once you complete the migration.
+* **Account setup: If you already use ChatGPT personally, follow your admin’s instructions for keeping work and personal activity in the appropriate workspace**.
 
 **Next Steps:**
 
 1. Locate the invitation email from OpenAI (subject line: “You’ve been invited to join ChatGPT Enterprise”).
 
-2. Click “Accept Invitation” and follow the migration wizard (if applicable).
+2. Click “Accept Invitation” and follow the workspace setup prompts.
 
-3. Confirm that your chat history (if any) has been migrated or exported (if applicable).
+3. Confirm that you are working in the [Company Name] workspace before using company data.
 
 4. Log in exclusively to ChatGPT Enterprise going forward.
 
@@ -119,7 +123,7 @@ Why it matters:
 
 * Lets you collaborate with teammates
 
-* Cancels any existing Plus plan tied to your work email
+* Keeps work activity in your organization’s approved workspace under your work email
 
 Next steps:
 
@@ -127,7 +131,7 @@ Next steps:
 
 2. Click Accept Invitation and follow the prompts.
 
-3. Use ChatGPT Enterprise going forward.
+3. Use the [Company Name] workspace for work-related activity.
 
 Questions? Contact <IT/admin contact> .
 
@@ -137,7 +141,7 @@ Questions? Contact <IT/admin contact> .
 
 **Subject:** Discover how to use ChatGPT in your role
 
-ChatGPT is designed to be intuitive and user-friendly, providing valuable support across various roles and functions. If you aren’t sure how ChatGPT can help you, log in and copy/paste one of these prompts into the chat bar:
+ChatGPT can support many roles and functions. Start by choosing the experience that matches the outcome: use Chat for a quick answer, explanation, brainstorm, or short draft; use ChatGPT Work—where enabled—for a substantial, reviewable deliverable; and use Codex—where enabled—for software or technical work. If you want ideas for your role, try one of these prompts in Chat:
 
 * “How can a [YOUR ROLE] at [YOUR COMPANY] use ChatGPT to support their work? Provide example prompts.”
 
@@ -149,18 +153,13 @@ We want to hear from you on how you are using ChatGPT Enterprise!  Can you plea
 
 ### **Email template:**
 
-**Subject:** Brainstorm Use Case Ideas with the “Use Cases for Work GPT”
-Let ChatGPT identify ways it can help you based on your company and role. To get started, simply open the [ChatGPT Use Cases for Work GPT](https://chatgpt.com/g/g-h5aUtVu0G-chatgpt-use-cases-for-work-gpt) and start chatting.
+**Subject: Choose the right ChatGPT experience for your task — Use Chat when you want to ask a question, brainstorm, compare options, summarize information, or create a short draft. Use ChatGPT Work—where enabled—when you want a completed, reviewable deliverable such as a report, deck, analysis, spreadsheet, Site, project plan, or recurring update. Use Codex—where enabled—for software and technical tasks**.
 
-After getting to know you a bit, the GPT will provide a few tailored use cases and generate a list of sample prompts for each of the use cases that it suggests. See which use cases it recommends for you!
-We want to hear from you on how you are using ChatGPT Enterprise! Can you please reply to this email if you have an interesting way it has helped you with a work task?
+Start with the outcome you need, add the files or approved plugins that provide context, and explain any constraints, quality bar, or review point. We want to hear how Chat, Work, or Codex helped—reply with an example from your role?
 
 ### **Chat template:**
 
-Brainstorm Use Case Ideas with the “Use Cases for Work GPT”. Let ChatGPT identify ways it can help you based on your company and role.
-To get started, simply open the [ChatGPT Use Cases for Work GPT](https://chatgpt.com/g/g-h5aUtVu0G-chatgpt-use-cases-for-work-gpt) and start chatting.
-After getting to know you a bit, the GPT will provide a few tailored use cases and generate a list of sample prompts for each of the use cases that it suggests. See which use cases it recommends for you! 🙌
-We want to hear from you on how you are using ChatGPT Enterprise! Can you please reply if you have an interesting way it has helped you with a work task?
+Not sure where to start? Use Chat for quick questions, brainstorming, research, and short drafts. Use ChatGPT Work—where enabled—for longer, multi-step work that should produce a reviewable file or finished result. Use Codex—where enabled—for software and technical work. Share a useful example from your role?
 
 ## Use case inspiration
 
@@ -204,9 +203,9 @@ If you’re looking for some inspiration, we’ve compiled a list of common use 
 
 **Check out these resources to make the most of ChatGPT:**
 
-* Learn about [prompt engineering](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting) and [advanced features](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/advanced-features-68825bcbff76ca6fdcc91549)﻿
+* Learn current prompting practices and how to choose among Chat, Work, and Codex experience [s](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/advanced-features-68825bcbff76ca6fdcc91549)﻿
 
-* Check out more role-specific guidance in [Guides for Your Job](https://sites.google.com/openai.com/chatgptatwork/guides-for-your-job)﻿
+* Check out more role-specific guidance in  [Guides for Your Job](https://sites.google.com/openai.com/chatgptatwork/guides-for-your-job)﻿
 
 ### **Chat template:**
 
@@ -220,7 +219,7 @@ Hi team! 👋 If you're looking for inspiration on how to use ChatGPT in your da
 
 * "Create a project plan outline for launching an internal newsletter"
 
-Check out more about [prompting](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting) and [guides for your role](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/prompt-packs-6849a0f98c613939acef841c).
+Check out more about  [prompting](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting) and  [guides for your role](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/prompt-packs-6849a0f98c613939acef841c).
 
 Let us know what you’re exploring—we’d love to hear! As you find new use cases, add them to our internal Use Case Library.
 
@@ -231,7 +230,7 @@ Let us know what you’re exploring—we’d love to hear! As you find new use c
 **Subject:** **Maximize the potential of ChatGPT with better prompts**
 Get the most out of ChatGPT by creating detailed prompts! The most effective prompts usually provide the model with 3 components - a specific task, some relevant context, and a clearly defined output.
 If you need help, ChatGPT is great at generating detailed and efficient prompts for you, just tell it what you’re trying to do and ask it to create a prompt based on your description. You can always adjust the prompt if the result wasn’t quite what you were looking for.
-Watch a 90-sec video [to create more effective prompts](https://www.loom.com/share/35fed0fecebb43bd9cdce449814b54a9?sid=bd03e569-9939-43d3-b9f7-db6305c700c9).
+Watch a 90-sec video  [to create more effective prompts](https://www.loom.com/share/35fed0fecebb43bd9cdce449814b54a9?sid=bd03e569-9939-43d3-b9f7-db6305c700c9).
 We want to hear from you on how you are using ChatGPT Enterprise! Can you please reply to this email if you have an interesting way it has helped you with a work task?
 
 ### **Chat template:**
@@ -252,42 +251,40 @@ Let us know what you’re exploring—we’d love to hear! As you find new use c
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Enterprise-AI-Communication-Toolkit-3--2b0b2edc-ba4e-4d91-89ba-12795f8ec215-1755025236791.pdf) the file to view.
 
-Table Of Contents
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+[Data governance and compliance](/public/clubs/admins-6o6xf/resources/data-governance-and-compliance)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Mar 10th, 2026 • Views 13.9K
 
-Mar 10th, 2026 • Views 9.7K
+[Planning your ChatGPT rollout](/public/clubs/admins-6o6xf/resources/planning-your-chatgpt-rollout)
 
-[Planning your ChatGPT rollout](/en/public/clubs/admins-6o6xf/resources/planning-your-chatgpt-rollout)
+Jul 11th, 2025 • Views 7K
 
-Jul 11th, 2025 • Views 5.8K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+Jul 8th, 2025 • Views 9.8K
 
-Jul 8th, 2025 • Views 6.8K
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+Jul 5th, 2025 • Views 19.4K
 
-Jul 5th, 2025 • Views 16K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Mar 10th, 2026 • Views 13.9K
 
-Mar 10th, 2026 • Views 9.7K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+Jul 8th, 2025 • Views 9.8K
 
-Jul 8th, 2025 • Views 6.8K
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+Jul 5th, 2025 • Views 19.4K
 
-Jul 5th, 2025 • Views 16K
+[Planning your ChatGPT rollout](/public/clubs/admins-6o6xf/resources/planning-your-chatgpt-rollout)
 
-[Planning your ChatGPT rollout](/en/public/clubs/admins-6o6xf/resources/planning-your-chatgpt-rollout)
-
-Jul 11th, 2025 • Views 5.8K
+Jul 11th, 2025 • Views 7K

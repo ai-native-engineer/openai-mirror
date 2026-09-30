@@ -4,11 +4,25 @@
 
 [Content](/public/clubs/india-gkubq/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # How to Automate Tasks with Custom GPTs (Hindi)
 
 Posted Jun 05, 2025 | Views 1.9K
 
+# Educators & Students
+
+# Advanced & Builder Skills
+
+# Education
+
 # India; Hindi
+
+Share
+
+## SUMMARY
 
 In this video, you’ll learn how to use the free GPT Store to automate repetitive tasks and how to build your own personalised GPT Bot without writing any code.
 
@@ -23,11 +37,21 @@ Whether you're a student, teacher, content creator, or business owner, this less
 
 Perfect if you're a student, teacher, content creator, or business owner, this episode will teach you how to build your own AI assistants and save hours of work every day.
 
++ Read More
+
+## Watch More
+
 [4:56](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
 [How to Automate Tasks with Custom GPTs](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
 Posted Jun 05, 2025 | Views 5K
+
+# Educators & Students
+
+# Advanced & Builder Skills
+
+# Education
 
 # India
 
@@ -40,6 +64,8 @@ Posted Jun 05, 2025 | Views 1.7K
 # General Learners
 
 # OpenAI API
+
+# Advanced & Builder Skills
 
 # Personal
 
@@ -59,4 +85,10 @@ Posted Jun 05, 2025 | Views 7K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+<!-- vimeo: 1091257921 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1091257921)

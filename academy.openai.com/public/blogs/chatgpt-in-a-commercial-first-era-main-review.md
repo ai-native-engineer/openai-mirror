@@ -334,60 +334,50 @@ It’s about asking better questions and using the right tools to explore them.
 
 Blog
 
-[How a Bangalore school is training teachers for the AI era](/en/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)
-
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
+[How a Bangalore school is training teachers for the AI era](/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)
 
 Blog
 
-[Build a Custom GPT That Catches What You Miss](/en/public/blogs/custom-gpt-main-review)
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
 
-Jun 14th, 2026 • Views 225
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
 Blog
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/blogs/legislative-planning-main-review)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 14th, 2026 • Views 204
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+Sep 29th, 2026 • Views 16
 
 Blog
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/blogs/legislative-planning-main-review)
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
 
-Jun 14th, 2026 • Views 204
+Sep 28th, 2026 • Views 41
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
 
 Blog
 
-[Build a Custom GPT That Catches What You Miss](/en/public/blogs/custom-gpt-main-review)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 14th, 2026 • Views 225
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
+
+Blog
+
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
+
+Sep 28th, 2026 • Views 41

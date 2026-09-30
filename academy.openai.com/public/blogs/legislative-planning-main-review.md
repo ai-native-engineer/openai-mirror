@@ -36,60 +36,56 @@ Start your August planning now with ChatGPT and reduce your worries of looking a
 
 Like
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
 Blog
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/clubs/government/blogs/legislative-planning)
+[Here Comes August: Help Your Boss Make the Most of Time in the District](/public/clubs/government/blogs/legislative-planning)
 
-Jun 9th, 2026 • Views 3
+Jun 9th, 2026 • Views 54
 
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+Sep 29th, 2026 • Views 33
 
 External Content
 
-[The AI Educator Brain on Prompting: Mastering the Art of AI Responses in the Classroom](/en/public/externals/the-ai-educator-brain-on-prompting-mastering-the-art-of-ai-responses-in-the-classroom-2025-03-20)
+[The AI Educator Brain on Prompting: Mastering the Art of AI Responses in the Classroom](/public/externals/the-ai-educator-brain-on-prompting-mastering-the-art-of-ai-responses-in-the-classroom-2025-03-20)
 
 Mar 20th, 2025 • Views 7.6K
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
 
 Blog
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/clubs/government/blogs/legislative-planning)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 9th, 2026 • Views 3
+Sep 29th, 2026 • Views 16
+
+Blog
+
+[Here Comes August: Help Your Boss Make the Most of Time in the District](/public/clubs/government/blogs/legislative-planning)
+
+Jun 9th, 2026 • Views 54
 
 External Content
 
-[The AI Educator Brain on Prompting: Mastering the Art of AI Responses in the Classroom](/en/public/externals/the-ai-educator-brain-on-prompting-mastering-the-art-of-ai-responses-in-the-classroom-2025-03-20)
+[The AI Educator Brain on Prompting: Mastering the Art of AI Responses in the Classroom](/public/externals/the-ai-educator-brain-on-prompting-mastering-the-art-of-ai-responses-in-the-classroom-2025-03-20)
 
 Mar 20th, 2025 • Views 7.6K
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+Blog
 
-Jun 23rd, 2026 • Views 83
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+Sep 29th, 2026 • Views 16
 
-Video
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+Sep 29th, 2026 • Views 33

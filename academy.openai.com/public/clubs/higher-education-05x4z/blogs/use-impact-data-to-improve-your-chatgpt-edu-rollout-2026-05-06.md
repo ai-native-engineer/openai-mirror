@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -12,9 +12,13 @@ May 6, 2026
 
 ![Use Impact Data To Improve Your ChatGPT Edu Rollout](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-18--b30e4869-fa85-4d44-b7ec-b6f31f096b6e-1778084527526.jpeg?fit=scale-down&width=1200)
 
+# Educators & Students
+
 # Leaders & Admins
 
 # Deployment & Adoption
+
+# Education
 
 # Higher Ed Admins - Deployment
 
@@ -58,7 +62,7 @@ There are two survey paths to plan around:
 
 * OpenAI-created surveys: OpenAI-created impact surveys are scheduled at Day 120 and Day 240 after workspace creation, each with a 30-day response window. Treat these as lifecycle checkpoints for reviewing broader impact and updating your plan.
 
-Learn more details about managing impact surveys [here](https://help.openai.com/en/articles/20001149-managing-impact-surveys-in-workspace-analytics).
+Learn more details about managing impact surveys  [here](https://help.openai.com/en/articles/20001149-managing-impact-surveys-in-workspace-analytics).
 
 ## Turn Findings Into Action
 
@@ -80,76 +84,64 @@ For example:
 | --- |
 | Help me turn our ChatGPT Edu rollout data into an action plan.  ﻿  Here are the signals we have:  - Usage trends: [paste summary]  - Survey themes: [paste summary]  - Support issues: [paste summary]  - Strong examples: [paste examples]  ﻿  Please create:  1. the top three rollout insights  2. what each insight means  3. the enablement action we should take  4. the owner  5. the next data point to review |
 
-﻿[Try it in ChatGPT here](https://chatgpt.com/?q=Help%20me%20turn%20our%20ChatGPT%20Edu%20rollout%20data%20into%20an%20action%20plan.%0A%0AHere%20are%20the%20signals%20we%20have%3A%0A-%20Usage%20trends%3A%20%5Bpaste%20summary%5D%0A-%20Survey%20themes%3A%20%5Bpaste%20summary%5D%0A-%20Support%20issues%3A%20%5Bpaste%20summary%5D%0A-%20Strong%20examples%3A%20%5Bpaste%20examples%5D%0A%0APlease%20create%3A%0A1.%20the%20top%20three%20rollout%20insights%0A2.%20what%20each%20insight%20means%0A3.%20the%20enablement%20action%20we%20should%20take%0A4.%20the%20owner%0A5.%20the%20next%20data%20point%20to%20review)﻿
+﻿ [Try it in ChatGPT here](https://chatgpt.com/?q=Help%20me%20turn%20our%20ChatGPT%20Edu%20rollout%20data%20into%20an%20action%20plan.%0A%0AHere%20are%20the%20signals%20we%20have%3A%0A-%20Usage%20trends%3A%20%5Bpaste%20summary%5D%0A-%20Survey%20themes%3A%20%5Bpaste%20summary%5D%0A-%20Support%20issues%3A%20%5Bpaste%20summary%5D%0A-%20Strong%20examples%3A%20%5Bpaste%20examples%5D%0A%0APlease%20create%3A%0A1.%20the%20top%20three%20rollout%20insights%0A2.%20what%20each%20insight%20means%0A3.%20the%20enablement%20action%20we%20should%20take%0A4.%20the%20owner%0A5.%20the%20next%20data%20point%20to%20review)﻿
 
 ## Next Step
 
 Put a recurring impact review on the rollout calendar. Review usage, surveys, support themes, and examples together, then turn the findings into specific updates to enablement and communications.
 
-## Popular
+Blog
+
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
 Blog
 
-[Improve Your Papers Without Losing Your Voice](/en/public/clubs/higher-education-05x4z/blogs/improve-your-papers-without-losing-your-voice-2026-05-18)
+[Improve Your Papers Without Losing Your Voice](/public/clubs/higher-education-05x4z/blogs/improve-your-papers-without-losing-your-voice-2026-05-18)
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
-
-Resource
-
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
-
-Dive in
-
-## Related
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 185
+May 6th, 2026 • Views 480
 
-Blog
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 478
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
 Blog
 
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
 
-Apr 23rd, 2026 • Views 438
-
-Resource
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.5K
+Jul 24th, 2026 • Views 571
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
 
-May 6th, 2026 • Views 185
-
-Blog
-
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
-
-Apr 23rd, 2026 • Views 438
-
-Resource
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.5K
+Apr 23rd, 2026 • Views 1.1K
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-May 20th, 2026 • Views 478
+May 6th, 2026 • Views 480
+
+Blog
+
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
+
+Jul 24th, 2026 • Views 571
+
+Blog
+
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+
+Apr 23rd, 2026 • Views 1.1K
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K

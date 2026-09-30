@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-basics -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # ChatGPT fundamentals
 
@@ -11,6 +11,8 @@
 # Workplace & Business
 
 # Foundations
+
+# Work
 
 ## Learn the basics of ChatGPT
 
@@ -59,11 +61,11 @@ Large Language Models (LLMs) are AI algorithms trained on vast amounts of text a
 
 ## **Starting your first conversation**
 
-﻿[Open ChatGPT.](http://www.chatgpt.com) A new chat is already waiting for you.
+﻿ [Open ChatGPT.](http://www.chatgpt.com/) A new chat is already waiting for you.
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcBjdr_KRIHx4KBr1PgmEzisyqtXfRZLOjcVVE2qK8WMTP-EW_m_RjV14oDGM9ZLl7XYPHZxfaXMUD_0_Qc2Uo4PeUrxPh_FUUC92XJEHH6muS_4GWOeYMxGEuj5rlE7WAEynXnMg?key=0GQfd8VDgIprxAJeiq-paQ)
 
-To get started, simply enter a prompt. A prompt is a question or instruction you type into the chat window. You can find out [more about prompting here.](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting)﻿
+To get started, simply enter a prompt. A prompt is a question or instruction you type into the chat window. You can find out  [more about prompting here.](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting)﻿
 
 Not sure where to begin? Copy and paste this prompt to see what ChatGPT can do for you:
 
@@ -99,7 +101,7 @@ You can also choose additional GPT-5 options directly from the top of the model 
 
 **Pro** — research-grade intelligence
 
-See more about [GPT-5 in the OpenAI Help Center](https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt).
+See more about  [GPT-5 in the OpenAI Help Center](https://help.openai.com/en/articles/11909943-gpt-5-in-chatgpt).
 
 ## **Personalizing ChatGPT**
 
@@ -124,7 +126,7 @@ See more about [GPT-5 in the OpenAI Help Center](https://help.openai.com/en/arti
 
 ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcGlIZHu2Qz5YXlPT5hmQXM5HJ_RBaEmvPX9Pa9P1nFff6Pd3A-UVf39a3ZER64p1qB79IG09jKdri4WK4SKjLOZlZ--gYX7xuCNcwqPJaeThx7OdmbS2AUJNXVgyPtXMsWgrgetA?key=0GQfd8VDgIprxAJeiq-paQ)
 
-You can also type **“What do you remember about me?”** to see stored details, or **“Forget that”** to remove a specific memory without opening settings. See [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq) for more details.
+You can also type **“What do you remember about me?”** to see stored details, or **“Forget that”** to remove a specific memory without opening settings. See  [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq) for more details.
 
 ### **Custom Instructions**
 
@@ -152,60 +154,58 @@ You can also type **“What do you remember about me?”** to see stored details
 
    ![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc-xowZATkYHkT1aTCSLRPd_5VSjj0_i6fai_RC-8aHyoFutpt0AsXxBElk4h_wesUrPMJNfP9CCOFcdI2zjWt11yqd9QRvC1-gw4QnrTmxlvscj0Fx6iQOobUGgoGdMktiCsvu?key=0GQfd8VDgIprxAJeiq-paQ)
 
-Even small details such as your role, preferred writing style, or typical tasks help ChatGPT tailor its answers to you. See the [Customization FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq) for more details.
+Even small details such as your role, preferred writing style, or typical tasks help ChatGPT tailor its answers to you. See the  [Customization FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq) for more details.
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770

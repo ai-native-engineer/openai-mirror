@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11 -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 August 11, 2026 · Last updated on August 31, 2026
@@ -11,6 +15,8 @@ August 11, 2026 · Last updated on August 31, 2026
 ## Leveraging ChatGPT Work for government executive assistants
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![ From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-13--79ce919e-3ea1-4ead-9fe6-6fd01466c497-1786464844212.jpeg?fit=scale-down&width=1200)
 
@@ -96,30 +102,62 @@ Capabilities may also depend on your ChatGPT Enterprise seat, workspace settings
 
 ![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/resource-from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11-image-1-79f99717-bca4-43f1-a4a3-d56150abe075-1788167045154.png)
 
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry
+
+Blog
+
 [Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
+By Laura Keenan • Sep 9th, 2026 • Views 219
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
+
+[ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 44
+
+Blog
+
+[ChatGPT Prompt Pack for Legislative Assistants](/public/clubs/government/blogs/chatgpt-congressional-legislative-assistant-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 58
+
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
+By Laura Keenan • Jul 24th, 2026 • Views 189
 
-[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
-
-By Amanda Bullock • Aug 19th, 2026 • Views 21
+Blog
 
 [Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
+By Laura Keenan • Sep 9th, 2026 • Views 219
+
+Blog
+
+[ChatGPT Prompt Pack for Legislative Assistants](/public/clubs/government/blogs/chatgpt-congressional-legislative-assistant-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 58
+
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
+By Laura Keenan • Jul 24th, 2026 • Views 189
 
-[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
+Blog
 
-By Amanda Bullock • Aug 19th, 2026 • Views 21
+[ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+By Laura Keenan • Sep 21st, 2026 • Views 44

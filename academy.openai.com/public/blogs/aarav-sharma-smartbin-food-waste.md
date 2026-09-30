@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/aarav-sharma-smartbin-food-waste -->
 
+Article
+
 August 5, 2026
 
 # How Aarav Sharma built SmartBin to help schools understand food waste
@@ -36,6 +38,8 @@ Questions from those classmates are already shaping the next module. After stude
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
+Video
+
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 [Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
@@ -46,19 +50,27 @@ External Content
 
 Mar 11th, 2025 • Views 3.9K
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+[1:48](/public/videos/spot-scam-messages-older-adults)
 
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Video
 
-By Amanda Bullock • Aug 6th, 2026 • Views 5
+[How to Spot Scam Messages with ChatGPT](/public/videos/spot-scam-messages-older-adults)
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+Sep 17th, 2026 • Views 162
 
-Aug 6th, 2026 • Views 18
+Blog
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
-By David Sperry • Aug 6th, 2026 • Views 0
+Aug 28th, 2026 • Views 298
+
+[1:48](/public/videos/ask-better-questions-older-adults)
+
+Video
+
+[How to Ask ChatGPT Better Questions](/public/videos/ask-better-questions-older-adults)
+
+Sep 17th, 2026 • Views 222
 
 External Content
 
@@ -66,16 +78,24 @@ External Content
 
 Mar 11th, 2025 • Views 3.9K
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+Blog
 
-Aug 6th, 2026 • Views 18
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+Aug 28th, 2026 • Views 298
 
-By David Sperry • Aug 6th, 2026 • Views 0
+[1:48](/public/videos/ask-better-questions-older-adults)
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Video
 
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+[How to Ask ChatGPT Better Questions](/public/videos/ask-better-questions-older-adults)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 5
+Sep 17th, 2026 • Views 222
+
+[1:48](/public/videos/spot-scam-messages-older-adults)
+
+Video
+
+[How to Spot Scam Messages with ChatGPT](/public/videos/spot-scam-messages-older-adults)
+
+Sep 17th, 2026 • Views 162

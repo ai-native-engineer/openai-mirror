@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/education-ai -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Education
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -62,7 +64,7 @@ At Scripps Research, PhD candidate Marco Uytiepo studies how neural circuits sto
 
 # Awareness
 
-# Work](/en/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
+# Work](/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
 
 ### Clinical reasoning, practiced like a skill
 
@@ -76,7 +78,7 @@ Clinical Mind AI is a Stanford-origin platform and research program led by Marco
 
 # Advanced & Builder Skills
 
-# Education](/en/public/blogs/clinical-reasoning-practiced-like-a-skill-2025-12-11)[Blog
+# Education](/public/blogs/clinical-reasoning-practiced-like-a-skill-2025-12-11)[Blog
 
 ### Restoring signal to law school students' testing
 
@@ -86,7 +88,7 @@ Sean Harrington, who teaches AI and law at the University of Oklahoma and leads 
 
 # Awareness
 
-# Education](/en/public/blogs/restoring-signal-to-law-school-students-testing-2025-12-17)[Blog
+# Education](/public/blogs/restoring-signal-to-law-school-students-testing-2025-12-17)[Blog
 
 ### Turning high-school students' curiosity into engaged writing
 
@@ -96,7 +98,7 @@ Casey Cuny, a 10th-grade Honors English and Senior Mythology teacher at Valencia
 
 # Awareness
 
-# Education](/en/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)[Blog
+# Education](/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)[Blog
 
 ### An undergraduate with a tutor in his pocket
 
@@ -108,7 +110,7 @@ Iowa State software engineering student Brandon Pieczka is moving fast, stacking
 
 # Awareness
 
-# Education](/en/public/blogs/an-undergraduate-with-a-tutor-in-his-pocket)[Blog
+# Education](/public/blogs/an-undergraduate-with-a-tutor-in-his-pocket)[Blog
 
 ### Two majors, many paths, one ChatGPT assistant
 
@@ -120,7 +122,7 @@ Micah Blum, a sophomore at American University double-majoring in Justice & Law 
 
 # Deployment & Adoption
 
-# Education](/en/public/blogs/two-majors-many-paths-one-chatgpt-assistant)[Blog
+# Education](/public/blogs/two-majors-many-paths-one-chatgpt-assistant)[Blog
 
 ### Learning that sticks, students who engage
 
@@ -132,7 +134,7 @@ Conor Grennan, NYU Stern’s chief AI architect and CEO of AI Mindset, is workin
 
 # Education
 
-# North America](/en/public/blogs/learning-that-sticks)[Blog
+# North America](/public/blogs/learning-that-sticks)[Blog
 
 ### How a Bangalore school is training teachers for the AI era
 
@@ -146,7 +148,7 @@ In 2025, Principal Manju Balasubramanyam led Delhi Public School Bangalore North
 
 # Education
 
-# India](/en/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)[Blog
+# India](/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)[Blog
 
 ### From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin
 
@@ -156,9 +158,9 @@ Jaxsen Day uses ChatGPT to bypass the fragmented pipeline of OCR tools, database
 
 # Deployment & Adoption
 
-# Personal](/en/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)[Blog
+# Personal](/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)[Blog
 
-### How Physicists Are Using AI to Chase New Physics
+### How Researchers Are Using AI to Chase a New Physics
 
 A team at UC Santa Barbara and the Kavli Institute for Theoretical Physics is using OpenAI models to accelerate “ambulance chasing,” the process of generating and testing explanations for anomalous collider data that might point to physics beyond the Standard Model. Their system, FERMIACC, combines reasoning models, agents, and established simulation tools to turn a workflow that once consumed weeks of graduate-student time into a closed-loop pipeline that can produce and evaluate hypotheses in under ten minutes.
 
@@ -168,7 +170,7 @@ A team at UC Santa Barbara and the Kavli Institute for Theoretical Physics is us
 
 # Advanced & Builder Skills
 
-# Education](/en/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)[Blog
+# Education](/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)[Blog
 
 ### How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student
 
@@ -178,20 +180,90 @@ Doreen Mayrell uses custom GPTs to turn college algebra lessons into conversatio
 
 # Advanced & Builder Skills
 
-# Education](/en/public/blogs/doreen-mayrell-chatgpt-algebra-support)[Blog
+# Education](/public/blogs/doreen-mayrell-chatgpt-algebra-support)[Blog
 
 ### How Sarah Dully uses ChatGPT to keep high school lessons current
 
 Sarah Dully uses ChatGPT to adapt English, practical literacy, and true crime lessons to the students in front of her, giving her more time to focus on teaching.
 
-# education](/en/public/blogs/sarah-dully-chatgpt-high-school-lessons)
+# Education](/public/blogs/sarah-dully-chatgpt-high-school-lessons)[Blog
+
+### Taiyo Inoue uses Codex to reclaim hours for teaching
+
+Taiyo Inoue uses Codex and the Canvas API to update course shells, calendars, files, and announcements—then spends the recovered time running a more active math classroom.
+
+# Education
+
+# Codex
+
+# Educators & Students](/public/blogs/taiyo-inoue-codex-canvas-teaching)[Blog
+
+### Shelby Grossman is making school board meetings searchable with custom GPTs
+
+Shelby Grossman’s team built custom GPTs for Arizona school districts, helping parents find relevant board-meeting exchanges while keeping transcripts and video as the final check.
+
+# Journalism
+
+# Education](/public/blogs/shelby-grossman-custom-gpts-school-board-meetings)[Blog
+
+### How Ava Morton uses ChatGPT to make learning more accessible
+
+Eighth-grade special-education teacher Ava Morton uses ChatGPT to adapt literature, personalize classroom explanations, and communicate with families across languages.
+
+# Educators & Students
+
+# Education
+
+# Accessibility
+
+# Use Cases](/public/blogs/ava-morton-chatgpt-accessible-special-education)[Blog
+
+### How one drama teacher uses ChatGPT to keep school theater running
+
+At North Davis Junior High in Clearfield, Utah, Adam Hellewell uses custom ChatGPT skills to organize the work behind school theater so students can focus on performance and empathy.
+
+# Education
+
+# Educators & Students
+
+# Utah](/public/blogs/adam-hellewell-chatgpt-school-theater)[Blog
+
+### How one school administrator uses AI to turn data into better feedback in schools
+
+Ryan Hansen uses an OpenAI tool to analyze a year of online-school results at Utah’s Davis School District. He asks follow-up questions to investigate patterns in student performance and prepare feedback on teachers’ strengths and areas for improvement.
+
+# Utah
+
+# Education
+
+# Schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)[Blog
+
+### Making more time for teaching with ChatGPT Work
+
+With up to 32 fifth graders working at different levels, Ashtin Johnson uses ChatGPT to adapt assignments, build online courses in Canvas and plan projects around students’ interests. She estimates AI saves her tens of hours each week—time she can redirect toward the classroom she loves, with more energy left for her three children at home.
+
+# Education
+
+# Utah](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)[Blog
+
+### How a high school student built a civil-rights archive with ChatGPT
+
+High school student Max Kornstein used Codex and ChatGPT to build Campus Evidence Lab, an archive of public campus civil-rights records. He says Codex helped him gather and organize roughly 150,000 records in a single day, bringing material from government investigations, court dockets, and institutional responses into one collection.
+
+# Georgia
+
+# Teen builder
+
+# Student
+
+# Civil rights](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

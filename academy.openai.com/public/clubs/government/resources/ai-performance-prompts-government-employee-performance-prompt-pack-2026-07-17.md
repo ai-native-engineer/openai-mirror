@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/ai-performance-prompts-government-employee-performance-prompt-pack-2026-07-17 -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Resource Hub
 
 July 17, 2026 · Last updated on August 4, 2026
@@ -10,9 +14,13 @@ July 17, 2026 · Last updated on August 4, 2026
 
 # AI Techniques
 
+# Government
+
 ## Use ChatGPT Work as a reflection partner. Prompts to help with self reviews, feedback, 1:1s, career planning, goal setting, development, and internal mobility
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![AI performance prompts: Government employee performance prompt pack](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-3--7a4a1bbb-0182-4b9f-bb98-915b67103a34-1784297479648.jpeg?fit=scale-down&width=1200)
 
@@ -112,34 +120,52 @@ Compare my experience to this internal role description. Identify transferable s
 
 examples to highlight, questions for the hiring manager, and a short internal mobility pitch that is honest and specific.
 
+Like
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry
+
+Blog
+
+[Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
+
+By Laura Keenan
+
+Blog
+
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
 By Laura Keenan
 
-[46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
-
-[AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
-
 [AI performance prompts: Government manager/leader performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-leader-performance-prompt-pack)
 
-By Laura Keenan • Jul 20th, 2026 • Views 72
+By Laura Keenan • Jul 20th, 2026 • Views 305
 
-By David Sperry • Jul 19th, 2025 • Views 181
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry • Jul 19th, 2025 • Views 272
 
 [The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
 
-By Laura Keenan • Jul 28th, 2026 • Views 36
+By Laura Keenan • Jul 28th, 2026 • Views 203
 
-By David Sperry • Jul 19th, 2025 • Views 210
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry • Jul 19th, 2025 • Views 334
 
 [AI performance prompts: Government manager/leader performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-leader-performance-prompt-pack)
 
-By Laura Keenan • Jul 20th, 2026 • Views 72
+By Laura Keenan • Jul 20th, 2026 • Views 305
 
 [The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
 
-By Laura Keenan • Jul 28th, 2026 • Views 36
+By Laura Keenan • Jul 28th, 2026 • Views 203
 
-By David Sperry • Jul 19th, 2025 • Views 210
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-By David Sperry • Jul 19th, 2025 • Views 181
+By David Sperry • Jul 19th, 2025 • Views 334
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry • Jul 19th, 2025 • Views 272

@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/jason-aten-chatgpt-heart-failure -->
 
+Article
+
 August 6, 2026
 
 # How ChatGPT helped Jason Aten recognize a medical emergency
@@ -30,44 +32,62 @@ A later MRI showed that his heart function had mostly returned toward normal. To
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
-[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/resources/govt-prompt-pack-it-staff)
-
-By David Sperry
-
-[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/resources/govt-prompt-pack-for-leaders)
-
-By David Sperry
-
-[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
-
-Apr 10th, 2026 • Views 1.9K
+Blog
 
 [How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
 
-May 8th, 2026 • Views 1.8K
+Blog
 
-[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+[Agha Nazih: The student who turned ChatGPT into a personal physics tutor](/public/blogs/agha-nazih-chatgpt-personal-physics-tutor)
 
-Feb 5th, 2026 • Views 2.6K
-
-[How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack](/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care)
-
-Aug 5th, 2026 • Views 25
+Blog
 
 [How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
 
-Apr 10th, 2026 • Views 1.9K
+Apr 10th, 2026 • Views 3.5K
+
+Blog
+
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
+
+Sep 28th, 2026 • Views 41
+
+Blog
 
 [How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
-Feb 5th, 2026 • Views 2.6K
+Feb 5th, 2026 • Views 3K
+
+Blog
 
 [How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack](/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care)
 
-Aug 5th, 2026 • Views 25
+Aug 5th, 2026 • Views 275
 
-[How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
+Blog
 
-May 8th, 2026 • Views 1.8K
+[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
+
+Apr 10th, 2026 • Views 3.5K
+
+Blog
+
+[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+
+Feb 5th, 2026 • Views 3K
+
+Blog
+
+[How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack](/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care)
+
+Aug 5th, 2026 • Views 275
+
+Blog
+
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
+
+Sep 28th, 2026 • Views 41

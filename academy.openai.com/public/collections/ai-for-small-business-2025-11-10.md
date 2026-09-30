@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/ai-for-small-business-2025-11-10 -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 AI for Small Business
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -63,28 +65,32 @@ ChatGPT 101 introduces small business owners to the essentials of using ChatGPT 
 
 # Use Cases
 
+# Work
+
 ![Juliann Igo](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/1722019004102-4c419576-e710-4bb4-91fb-7208ae0552b0-1746650892941.jpeg?fit=scale-down&width=52)
 
 Juliann Igo · Nov 18th, 2025
 
-34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)[Video
+34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)[Video
 
 · Small Business
 
 ### ChatGPT 102 for Small Businesses
 
 This content for small business owners was a part of the Small Business Jam and created in collaboration with our partners at DoorDash.
-ChatGPT 102 shows small businesses how to take their skills further by using ChatGPT for deeper research, connecting to internal tools, organizing projects, and creating custom GPTs. It’s designed to help you streamline operations and build more powerful, personalized workflows. Follow along with our resource guide here: https://academy.openai.com/home/resources/resource-guides-for-small-business-videos
+ChatGPT 102 shows small businesses how to take their skills further by using ChatGPT for deeper research, connecting to internal tools, and organizing projects. It’s designed to help you streamline operations and build more powerful, personalized workflows. Follow along with our resource guide here: https://academy.openai.com/home/resources/resource-guides-for-small-business-videos
 
 # Workplace & Business
 
 # Use Cases
 
+# Work
+
 ![Juliann Igo](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/1722019004102-4c419576-e710-4bb4-91fb-7208ae0552b0-1746650892941.jpeg?fit=scale-down&width=52)
 
 Juliann Igo · Nov 18th, 2025
 
-22:14](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)[Resource
+22:14](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)[Resource
 
 ### Resource Guides for Small Business Videos
 
@@ -92,14 +98,14 @@ Juliann Igo · Nov 18th, 2025
 
 # Use Cases
 
-# Work](/en/public/resources/resource-guides-for-small-business-videos)
+# Work](/public/resources/resource-guides-for-small-business-videos)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

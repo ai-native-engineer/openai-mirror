@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/canvas -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Canvas
 
@@ -13,6 +13,8 @@
 # Workplace & Business
 
 # Advanced & Builder Skills
+
+# Work
 
 ## Collaborate with ChatGPT in real time
 
@@ -64,60 +66,71 @@ Canvas is a collaborative editing space where you and ChatGPT can create, edit, 
 
 ## **Learn more**
 
-﻿[What is Canvas and how to use it](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)﻿
+﻿ [What is Canvas and how to use it](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)﻿
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# ChatGPT for Writing & Code
+
+<!-- vimeo: 1050607492 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1050607492)
+
+<details>
+<summary>자막: ChatGPT for Writing & Code</summary>
+
+Canvas is a ChatGPT interface for writing and coding projects. It's a collaborative workspace in a separate window where you can partner with ChatGPT to edit, update, and refine content in real-time. Canvas gives you more control, offering shortcuts for editing, debugging, and adjusting text or code. Let's see how it works. So I'm going to start in my general chat window, and I'm going to click Tools and then Canvas. Now I'll paste a blog post that I already wrote, but know that Canvas can also help you draft content. You can see that the blog post appears here on the right side, and then my chat window actually moves over to the left. Already, ChatGPT is making some suggestions. I can edit this blog post directly here. I can also ask ChatGPT to edit only certain parts of it. So let's say I think this first paragraph is too long. I'll ask ChatGPT make this longer and concise. And then instead of regenerating the entire piece of content, ChatGPT will only focus on the part that I highlighted and make just that first paragraph more concise. I can then revert back to a previous version if I don't like its edits and see the edits and changes that was made. I can also use ChatGPT as an editing partner. So let's say add in some comments as suggestions to make this more friendly for luxur- luxury travel. And now ChatGPT is adding in comments, but it's not making any edits. So it allows me to have a little bit more control over what the edits are that it makes. I can click into these comments directly and then apply them if I like them. I can also upload documents here. So I can upload examples of other blog posts that I've written to suggest changes to make it more like my writing style, or I could upload research articles or anything else that I want ChatGPT to compare this content to. Finally, there is a little edit icon on the bottom right where ChatGPT can suggest edits, adjust the length, adjust the reading level, add final polish, or add emojis. Let's say I want to adjust the length because I am going to post this on a social website. You'll see that it regenerates the content and adjusts the length. Now let's take a look at an example for coding. I'm going to start a new chat here, which will take me back to my ChatGPT homepage. In this example, I'm going to choose Canvas again, and I'm going to ask it to help me debug this code. And then I am going to paste some code that I'm having trouble with. So you can see the edits that it's making, where it fixed a typo, removed a missing section... And then it gives me a summary here on the left sidebar. It'll also allow me to take it one step further, saying, "Do you want me to show you a more modern responsive version?" I can say yes, and then you'll see that it will render those suggestions. So as you can see, Canvas can be a great partner as you are creating, writing, editing any sort of text or code project
+
+</details>

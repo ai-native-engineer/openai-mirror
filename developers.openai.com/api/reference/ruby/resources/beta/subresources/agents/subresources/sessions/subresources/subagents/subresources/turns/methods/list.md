@@ -1,0 +1,252 @@
+<!-- source: https://developers.openai.com/api/reference/ruby/resources/beta/subresources/agents/subresources/sessions/subresources/subagents/subresources/turns/methods/list/ -->
+
+## List subagent turns
+
+`beta.agents.sessions.subagents.turns.list(subagent_id, **kwargs) -> CursorPage<Turn>`
+
+**get** `/agents/sessions/{session_id}/subagents/{subagent_id}/turns`
+
+Lists all turns of this subagent, including turns after a resume. See [subagent workflows](/api/docs/guides/agents-api/multi-agent).
+
+- `session_id: String`
+
+- `subagent_id: String`
+
+- `after: String`
+
+  Return resources after this resource ID in the selected order.
+
+- `limit: Integer`
+
+  The maximum number of resources to return, between 1 and 100. Defaults to 20.
+
+- `order: :asc | :desc`
+
+  The order in which resources are returned. Defaults to `desc`.
+
+  - `:asc`
+
+    Returns resources in ascending order.
+
+  - `:desc`
+
+    Returns resources in descending order.
+
+- `class Turn`
+
+  The canonical public representation of a session turn.
+
+  - `id: String`
+
+    The ID of the turn.
+
+  - `agent_id: String`
+
+    The ID of the agent that ran the turn.
+
+  - `completed_at: Integer`
+
+    The Unix timestamp, in seconds, when the turn reached a terminal state.
+
+  - `created_at: Integer`
+
+    The Unix timestamp, in seconds, used to order the turn by creation time. Subagent turns use their start time, falling back to completion time or the subagent opening time when the preceding timestamps are unavailable.
+
+  - `error: SessionTurnError`
+
+    A customer-safe error. Non-null only for a failed turn.
+
+    - `code: :context_length_exceeded | :session_budget_exceeded | :usage_limit_exceeded | 16 more`
+
+      A stable, machine-readable failure category.
+
+      - `:context_length_exceeded`
+
+        The request exceeds the model's context window.
+
+      - `:session_budget_exceeded`
+
+        The session has reached its usage budget.
+
+      - `:usage_limit_exceeded`
+
+        The organization has reached a usage, plan, or billing limit.
+
+      - `:credit_balance_exhausted`
+
+        The organization has no API credits remaining.
+
+      - `:rate_limit_exceeded`
+
+        The request exceeds the available rate limit.
+
+      - `:flex_unavailable`
+
+        Flex processing is temporarily unavailable.
+
+      - `:server_overloaded`
+
+        The model service is temporarily overloaded.
+
+      - `:cyber_policy`
+
+        The request was rejected by a safety policy.
+
+      - `:misalignment_policy_violation`
+
+        The request was blocked by the safety systems.
+
+      - `:connection_failed`
+
+        The request could not connect to the model service.
+
+      - `:server_error`
+
+        The model service encountered an unexpected error.
+
+      - `:authentication_error`
+
+        The API credentials are invalid or lack the required access.
+
+      - `:invalid_request`
+
+        The request contains invalid input or configuration.
+
+      - `:resource_not_found`
+
+        The requested model or resource is unavailable.
+
+      - `:sandbox_error`
+
+        The request could not complete in its execution environment.
+
+      - `:executor_version_incompatible`
+
+        The executor must be upgraded before it can run this turn.
+
+      - `:active_turn_not_steerable`
+
+        The session cannot accept additional input while a request is running.
+
+      - `:request_timeout`
+
+        The request timed out before the model service responded.
+
+      - `:internal_error`
+
+        An unexpected internal error prevented the session request from completing.
+
+    - `message: String`
+
+      A customer-safe explanation of the failure.
+
+  - `object: :"agent.session.turn"`
+
+    The object type. Always `agent.session.turn`.
+
+    - `:"agent.session.turn"`
+
+  - `session_id: String`
+
+    The ID of the session that owns the turn.
+
+  - `started_at: Integer`
+
+    The Unix timestamp, in seconds, when the turn started.
+
+  - `status: :queued | :in_progress | :waiting | 3 more`
+
+    The current status of the turn.
+
+    - `:queued`
+
+      The turn is waiting to start.
+
+    - `:in_progress`
+
+      The turn is in progress.
+
+    - `:waiting`
+
+      The turn is waiting for external input.
+
+    - `:completed`
+
+      The turn completed successfully.
+
+    - `:failed`
+
+      The turn failed.
+
+    - `:cancelled`
+
+      The turn was cancelled.
+
+  - `subagent_id: String`
+
+    The ID of the subagent that ran the turn, if applicable.
+
+  - `usage: TokenUsage`
+
+    Best-effort token usage for the turn, or null if unknown. Recorded usage may change.
+
+    - `input_tokens: Integer`
+
+      The number of input tokens used by the agent.
+
+    - `input_tokens_details: InputTokensDetails{ cached_tokens}`
+
+      A breakdown of the agent's input token usage.
+
+      - `cached_tokens: Integer`
+
+        The number of input tokens retrieved from the prompt cache.
+
+    - `output_tokens: Integer`
+
+      The number of output tokens generated by the agent.
+
+    - `output_tokens_details: OutputTokensDetails{ reasoning_tokens}`
+
+      A breakdown of the agent's output token usage.
+
+      - `reasoning_tokens: Integer`
+
+        The number of output tokens used for reasoning.
+
+    - `total_tokens: Integer`
+
+      The total number of input and output tokens used by the agent.
+
+```ruby
+require "openai"
+
+openai = OpenAI::Client.new(api_key: "My API Key")
+
+page = openai.beta.agents.sessions.subagents.turns.list("subagent_id", session_id: "session_id")
+
+puts(page)
+
+  "data": [
+      "agent_id": "agent_id",
+      "completed_at": 0,
+      "error": {
+        "code": "context_length_exceeded",
+        "message": "message"
+      "object": "agent.session.turn",
+      "session_id": "session_id",
+      "started_at": 0,
+      "status": "queued",
+      "subagent_id": "subagent_id",
+      "usage": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        "total_tokens": 0
+  "first_id": "first_id",
+  "has_more": true,
+  "last_id": "last_id",
+  "object": "list"

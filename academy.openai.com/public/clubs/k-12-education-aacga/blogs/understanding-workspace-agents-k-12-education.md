@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -32,7 +32,7 @@ Kirk Gulezian
 
 ![Understanding Workspace Agents in K-12 education](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-04-23-at-1-35-05-PM-e7151cc7-2ca9-4bf4-bde1-4b8737db7d6e-1776965725730.jpeg?fit=scale-down&width=1200)
 
-*This article provides an overview of what workspace agents are and how they can support useful, repeatable workflows in education settings. For detailed guidance on how to set up workspace agents, please review* [*this Help Center article*](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)*.*
+*This article provides an overview of what workspace agents are and how they can support useful, repeatable workflows in education settings. For detailed guidance on how to set up workspace agents, please review*  [*this Help Center article*](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)*.*
 
 Districts and schools manage a lot of work that repeats across campuses, grade levels, departments, and school years.
 
@@ -214,7 +214,7 @@ The strongest agents usually begin with familiar work: the weekly update, the st
 
 Start small, learn from real use, and expand thoughtfully as your district understands where agents can be most useful.
 
-2
+3
 
 Comments (0)
 
@@ -226,72 +226,74 @@ Comment
 
 Load more
 
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
-
-Blog
-
-[Write Better Prompts - Teachers](/en/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
-
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[33:02](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
 
 Video
 
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[Beyond Chat: Getting More Done with ChatGPT Work for K–12 Educators - Webinar Replay](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
 
 Blog
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+[Write Better Prompts - Teachers](/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
 
-May 28th, 2026 • Views 86
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 262
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Blog
 
-[Draft Family Communications In Canvas](/en/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
+[Research Current Education Trends with Web Search](/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
 
-May 22nd, 2026 • Views 63
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Video
-
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 376
+May 28th, 2026 • Views 513
 
 Blog
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+[Use the K-12 Educator Plugin to Create Classroom-Ready Instructional Materials](/public/clubs/k-12-education-aacga/blogs/k-12-educator-plugin-classroom-materials)
 
-May 28th, 2026 • Views 86
+Aug 4th, 2026 • Views 759
+
+[1:00:04](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
+
+Video
+
+[ChatGPT Edu 102 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
+
+Aug 21st, 2026 • Views 1.3K
+
+[55:24](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
+
+Video
+
+[ChatGPT Edu 101 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
+
+Aug 21st, 2026 • Views 817
 
 Blog
 
-[Draft Family Communications In Canvas](/en/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
+[Research Current Education Trends with Web Search](/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
 
-May 22nd, 2026 • Views 63
+May 28th, 2026 • Views 513
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Video
-
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 376
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[1:00:04](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[ChatGPT Edu 102 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
-Jun 3rd, 2026 • Views 262
+Aug 21st, 2026 • Views 1.3K
+
+[55:24](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
+
+Video
+
+[ChatGPT Edu 101 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
+
+Aug 21st, 2026 • Views 817
+
+Blog
+
+[Use the K-12 Educator Plugin to Create Classroom-Ready Instructional Materials](/public/clubs/k-12-education-aacga/blogs/k-12-educator-plugin-classroom-materials)
+
+Aug 4th, 2026 • Views 759

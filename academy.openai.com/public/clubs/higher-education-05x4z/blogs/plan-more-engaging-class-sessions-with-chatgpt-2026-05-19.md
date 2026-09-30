@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -48,7 +48,7 @@ That sequence is useful because it preserves faculty choice. You are not asking 
 | --- |
 | I’m preparing a university lecture or seminar for next week on [TOPIC].  Suggest 4 interactive activities I could use to engage students.  ﻿  For each activity, include:  - what students would do  - how long it would take  - what kind of learning it supports  ﻿  Then I will choose one for you to expand into a session outline. |
 
-﻿[Try in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20preparing%20a%20university%20lecture%20or%20seminar%20for%20next%20week%20on%20%5BTOPIC%5D.%0ASuggest%204%20interactive%20activities%20I%20could%20use%20to%20engage%20students.%0A%0AFor%20each%20activity%2C%20include%3A%0A-%20what%20students%20would%20do%0A-%20how%20long%20it%20would%20take%0A-%20what%20kind%20of%20learning%20it%20supports%0A%0AThen%20I%20will%20choose%20one%20for%20you%20to%20expand%20into%20a%20session%20outline.)﻿
+﻿ [Try in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20preparing%20a%20university%20lecture%20or%20seminar%20for%20next%20week%20on%20%5BTOPIC%5D.%0ASuggest%204%20interactive%20activities%20I%20could%20use%20to%20engage%20students.%0A%0AFor%20each%20activity%2C%20include%3A%0A-%20what%20students%20would%20do%0A-%20how%20long%20it%20would%20take%0A-%20what%20kind%20of%20learning%20it%20supports%0A%0AThen%20I%20will%20choose%20one%20for%20you%20to%20expand%20into%20a%20session%20outline.)﻿
 
 ## What Good Looks Like
 
@@ -84,58 +84,66 @@ Strong classroom design depends on your knowledge of students, context, and cour
 
 After planning the session, use ChatGPT to draft discussion questions, a handout, or a short debrief prompt that matches the activity you chose.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 691
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 19th, 2026 • Views 145
-
-Blog
-
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
-
-Jun 2nd, 2026 • Views 358
+Aug 4th, 2026 • Views 1.6K
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
+May 19th, 2026 • Views 1.1K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 9th, 2026 • Views 400
+Video
 
-Blog
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 145
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+May 19th, 2026 • Views 691
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-Jun 2nd, 2026 • Views 358
+May 19th, 2026 • Views 1.1K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K

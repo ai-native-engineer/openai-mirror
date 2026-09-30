@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/stories-hub -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Stories
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -62,7 +64,7 @@ Junevity is a new biotech co-founded by entrepreneur Rob Cahill, UCSF scientists
 
 # Awareness
 
-# Work](/en/public/blogs/junevity-startup-longevity)[Blog
+# Work](/public/blogs/junevity-startup-longevity)[Blog
 
 ### From decades without answers to a diagnosis in weeks
 
@@ -72,7 +74,7 @@ Probably Genetic funds free at-home genetic testing and counseling, pairing it w
 
 # Awareness
 
-# Personal](/en/public/blogs/from-decades-without-answers-to-a-diagnosis-in-weeks-2025-12-11)[Blog
+# Personal](/public/blogs/from-decades-without-answers-to-a-diagnosis-in-weeks-2025-12-11)[Blog
 
 ### A new playbook for drug repurposing
 
@@ -82,7 +84,7 @@ Immunologist Dr. Oral Alpan is using GPT-5 Pro to surface new uses for existing 
 
 # Awareness
 
-# Work](/en/public/blogs/using-gpt-5-pro-repurposing-existing-drugs-2025-12-11)[Blog
+# Work](/public/blogs/using-gpt-5-pro-repurposing-existing-drugs-2025-12-11)[Blog
 
 ### Clinical reasoning, practiced like a skill
 
@@ -96,7 +98,7 @@ Clinical Mind AI is a Stanford-origin platform and research program led by Marco
 
 # Advanced & Builder Skills
 
-# Education](/en/public/blogs/clinical-reasoning-practiced-like-a-skill-2025-12-11)[Blog
+# Education](/public/blogs/clinical-reasoning-practiced-like-a-skill-2025-12-11)[Blog
 
 ### When a wet lab needs a software stack
 
@@ -108,7 +110,7 @@ At Scripps Research, PhD candidate Marco Uytiepo studies how neural circuits sto
 
 # Awareness
 
-# Work](/en/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
+# Work](/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
 
 ### Human care at digital speed
 
@@ -118,7 +120,7 @@ Dr. Fleurique Franke, a general practitioner in the Netherlands, uses custom GPT
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/human-care-at-digital-speed-2025-12-11)[Blog
+# Work](/public/blogs/human-care-at-digital-speed-2025-12-11)[Blog
 
 ### A coach for the hardest career change
 
@@ -130,7 +132,7 @@ Navy veteran and educator Stephen K. Hudson founded AI Ready Veteran to give ser
 
 # Deployment & Adoption
 
-# Education](/en/public/blogs/a-coach-for-the-hardest-career-change)[Blog
+# Education](/public/blogs/a-coach-for-the-hardest-career-change)[Blog
 
 ### From hypothesis to dashboard in an hour
 
@@ -142,7 +144,7 @@ Aidan McLaughlin, a researcher on OpenAI’s core models team, uses Codex to tra
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/from-hypothesis-to-dashboard-in-an-hour)[Blog
+# Work](/public/blogs/from-hypothesis-to-dashboard-in-an-hour)[Blog
 
 ### Turning high-school students' curiosity into engaged writing
 
@@ -152,7 +154,7 @@ Casey Cuny, a 10th-grade Honors English and Senior Mythology teacher at Valencia
 
 # Awareness
 
-# Education](/en/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)[Blog
+# Education](/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)[Blog
 
 ### Restoring signal to law school students' testing
 
@@ -162,7 +164,7 @@ Sean Harrington, who teaches AI and law at the University of Oklahoma and leads 
 
 # Awareness
 
-# Education](/en/public/blogs/restoring-signal-to-law-school-students-testing-2025-12-17)[Blog
+# Education](/public/blogs/restoring-signal-to-law-school-students-testing-2025-12-17)[Blog
 
 ### An undergraduate with a tutor in his pocket
 
@@ -174,7 +176,7 @@ Iowa State software engineering student Brandon Pieczka is moving fast, stacking
 
 # Awareness
 
-# Education](/en/public/blogs/an-undergraduate-with-a-tutor-in-his-pocket)[Blog
+# Education](/public/blogs/an-undergraduate-with-a-tutor-in-his-pocket)[Blog
 
 ### Two majors, many paths, one ChatGPT assistant
 
@@ -186,7 +188,7 @@ Micah Blum, a sophomore at American University double-majoring in Justice & Law 
 
 # Deployment & Adoption
 
-# Education](/en/public/blogs/two-majors-many-paths-one-chatgpt-assistant)[Blog
+# Education](/public/blogs/two-majors-many-paths-one-chatgpt-assistant)[Blog
 
 ### Learning that sticks, students who engage
 
@@ -198,7 +200,7 @@ Conor Grennan, NYU Stern’s chief AI architect and CEO of AI Mindset, is workin
 
 # Education
 
-# North America](/en/public/blogs/learning-that-sticks)[Blog
+# North America](/public/blogs/learning-that-sticks)[Blog
 
 ### Six linguists, twenty-five agencies, one translation engine
 
@@ -210,7 +212,7 @@ Minnesota’s new Enterprise Translations Office (ETO) was created in 2022 to se
 
 # Deployment & Adoption
 
-# Government](/en/public/blogs/six-linguists-twenty-five-agencies-one-translation-engine)[Blog
+# Government](/public/blogs/six-linguists-twenty-five-agencies-one-translation-engine)[Blog
 
 ### Turning benefits eligibility into groceries with AI
 
@@ -222,7 +224,7 @@ mRelief co-founders Rose Afriyie and Genevieve Nielsen are using ChatGPT to expa
 
 # Deployment & Adoption
 
-# Work](/en/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)[Blog
+# Work](/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)[Blog
 
 ### Mission-focused work, minus the fine-print risk
 
@@ -232,7 +234,7 @@ United Way adopted OpenAI Enterprise to improve quality and productivity across 
 
 # Deployment & Adoption
 
-# Work](/en/public/blogs/mission-focused-work-minus-the-fine-print-risk)[Blog
+# Work](/public/blogs/mission-focused-work-minus-the-fine-print-risk)[Blog
 
 ### From 90 applications to 200, without losing rigor
 
@@ -242,7 +244,7 @@ When the Carl B. and Florence E. King Foundation received more than 200 grant ap
 
 # Awareness
 
-# Personal](/en/public/blogs/from-90-applications-to-200-without-losing-rigor)[Blog
+# Personal](/public/blogs/from-90-applications-to-200-without-losing-rigor)[Blog
 
 ### Twelve minutes to fund the arts
 
@@ -254,7 +256,7 @@ When the Greenville Arts Council learned at 4:48 PM that a $20,000 grant proposa
 
 # Personal
 
-# North America](/en/public/blogs/twelve-minutes-to-fund-the-arts)[Blog
+# North America](/public/blogs/twelve-minutes-to-fund-the-arts)[Blog
 
 ### Breaking things, building a business
 
@@ -264,7 +266,9 @@ Kaija Pack turned grief after her husband’s sudden death into Break Life Houst
 
 # Awareness
 
-# North America](/en/public/blogs/breaking-things-building-a-business)[Blog
+# Work
+
+# North America](/public/blogs/breaking-things-building-a-business)[Blog
 
 ### Two weeks to sell out, one AI playbook
 
@@ -274,7 +278,7 @@ Facing a tight two-week window to sell out a leadership summit in Bangkok, Woody
 
 # Awareness
 
-# Work](/en/public/blogs/two-weeks-to-sell-out-one-ai-playbook)[Blog
+# Work](/public/blogs/two-weeks-to-sell-out-one-ai-playbook)[Blog
 
 ### How GPT-5 turns equipment procurement into a lever for US reindustrialization
 
@@ -284,7 +288,7 @@ Diagon, founded by longtime manufacturing procurement leader Will Drewery, appli
 
 # Awareness
 
-# Work](/en/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)[Blog
+# Work](/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)[Blog
 
 ### Designing the emotional map of recovery
 
@@ -296,7 +300,7 @@ After breast cancer, Allison Leeds found that medicine could explain a surgical 
 
 # Awareness
 
-# Work](/en/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)[Blog
+# Work](/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)[Blog
 
 ### A cultural remix of Christmas, built for the shelves
 
@@ -308,7 +312,7 @@ When Jasmine Hudson and her team at Black Paper Party wanted to reimagine “The
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/a-cultural-remix-of-christmas-built-for-the-shelves-2026-01-06)[Blog
+# Work](/public/blogs/a-cultural-remix-of-christmas-built-for-the-shelves-2026-01-06)[Blog
 
 ### A 12-week AI pilot for faster audits and more unclaimed property returned
 
@@ -320,7 +324,7 @@ North Carolina’s Department of State Treasurer ran a 12-week pilot with OpenAI
 
 # Government
 
-# North America](/en/public/blogs/north-carolina-department-of-state-treasurer-chatgpt-pilot-audit)[Blog
+# North America](/public/blogs/north-carolina-department-of-state-treasurer-chatgpt-pilot-audit)[Blog
 
 ### Beating the paperwork that stands between patients and care
 
@@ -330,7 +334,7 @@ After a life-threatening rare autoimmune clotting disorder left Rich Kaplan faci
 
 # Awareness
 
-# Personal](/en/public/blogs/rich-kaplan-chatgpt-insurance-approval-medication-risks-healthcare)[Blog
+# Personal](/public/blogs/rich-kaplan-chatgpt-insurance-approval-medication-risks-healthcare)[Blog
 
 ### How Alex Lupsasca learned to trust AI for real physics
 
@@ -340,7 +344,7 @@ Physicist Alex Lupsasca approached AI the way he approaches big claims in scienc
 
 # Awareness
 
-# Personal](/en/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)[Blog
+# Personal](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)[Blog
 
 ### ChatGPT as research partner in mathematical optimization
 
@@ -352,7 +356,7 @@ Mathematician Ernest Ryu, one of more than 1 million weekly ChatGPT users workin
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/chatgpt-as-research-partner-in-mathematical-optimization-2026-02-02)[Blog
+# Work](/public/blogs/chatgpt-as-research-partner-in-mathematical-optimization-2026-02-02)[Blog
 
 · Stories
 
@@ -364,7 +368,7 @@ In Miles City, Montana (pop. 8,400), family physician Dr. Marjorie Albers practi
 
 # Awareness
 
-# Personal](/en/public/clubs/stories-au9zt/blogs/practicing-medicine-where-doctors-are-scarce-montana-chatgpt-2026-01-22)[Blog
+# Personal](/public/clubs/stories-au9zt/blogs/practicing-medicine-where-doctors-are-scarce-montana-chatgpt-2026-01-22)[Blog
 
 ### Supporting her mother an ocean away
 
@@ -376,7 +380,7 @@ With ChatGPT, Ayrin Santoso found a way to navigate care for her mother, Fifi, w
 
 # Personal
 
-# Indonesia; North America](/en/public/blogs/supporting-her-mother-an-ocean-away-indonesia-healthcare-chatgpt-2026-01-22)[Blog
+# Indonesia; North America](/public/blogs/supporting-her-mother-an-ocean-away-indonesia-healthcare-chatgpt-2026-01-22)[Blog
 
 ### How ChatGPT helped turn a home kitchen into a Thai restaurant
 
@@ -386,14 +390,14 @@ Matt Rosenberg and his wife, Chef Kamonwan, used ChatGPT to evaluate neighborhoo
 
 # Awareness
 
-# Work](/en/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+# Work](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

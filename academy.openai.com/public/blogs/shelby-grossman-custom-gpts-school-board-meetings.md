@@ -8,9 +8,9 @@ June 30, 2026
 
 ![Shelby Grossman is making school board meetings searchable with custom GPTs](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/237A8964-66419443-5675-45e3-ac87-3cec3b82c1e6-1782784637858.jpeg?fit=scale-down&width=1200)
 
-# journalism
+# Journalism
 
-# education
+# Education
 
 ## At The Beam, parents can ask their own questions across hours of Arizona school-board transcripts and trace every answer back to the original meeting.
 
@@ -20,7 +20,7 @@ Shelby Grossman trains journalism students to use ChatGPT, but one of her newest
 
 At the Howard Center for Investigative Journalism at Arizona State University, Shelby looks for practical ways AI can help reporters pursue ambitious work. Her newest testing ground is The Beam, an Arizona outlet where professional journalists work alongside student apprentices. Its first beat is accountability in education.
 
-﻿[The Beam](https://thebeam.org) first considered publishing AI-generated meeting summaries. Its pilot showed that parents wanted to ask their own questions: Did my child’s school come up? Was it discussed in connection with closures? What did the board say about 3D-printed knives infiltrating schools?
+﻿ [The Beam](https://thebeam.org/) first considered publishing AI-generated meeting summaries. Its pilot showed that parents wanted to ask their own questions: Did my child’s school come up? Was it discussed in connection with closures? What did the board say about 3D-printed knives infiltrating schools?
 
 Grossman’s team built eight custom GPTs, one for each district in the initial launch. Each used transcripts from the district’s latest YouTube recordings. A parent could ask a question in ordinary language, find the relevant exchange, and check the answer against the transcript. People with free ChatGPT accounts could ask about five questions a day at launch. Within 48 hours, parents asked The Beam to add their districts, and Grossman added them within hours. The outlet plans to cover all 74 Arizona districts that post board meetings on YouTube.
 
@@ -30,70 +30,60 @@ Grossman uses the same principle in her ASU classes: AI should bring reporters c
 
 She also uses AI to share reporting across the newsroom. When a student drops an interview transcript into a Google Drive folder, an automated summary goes to the team’s Slack channel so everyone can see what was learned and what needs reporting next.
 
-## Popular
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-Resource
-
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Resource
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-Dive in
-
-## Related
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
 Blog
 
-[GroundVue is making public meetings searchable with Codex](/en/public/blogs/groundvue-codex-searchable-public-meetings)
+[GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 4th, 2026 • Views 248
-
-Blog
-
-[Taiyo Inoue uses Codex to reclaim hours for teaching](/en/public/blogs/taiyo-inoue-codex-canvas-teaching)
-
-Jun 30th, 2026 • Views 232
-
-Resource
-
-[Managing FOIA Requests with Custom GPTs](/en/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)
-
-By Lauren Oliphant • Oct 4th, 2025 • Views 2.9K
+Jun 4th, 2026 • Views 725
 
 Blog
 
-[Nasha Fitter is using ChatGPT to help rare-disease families find answers](/en/public/blogs/nasha-fitter-chatgpt-foxg1-rare-disease)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 30th, 2026 • Views 166
+Sep 29th, 2026 • Views 16
 
-Blog
+[Managing FOIA Requests with Custom GPTs](/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)
 
-[GroundVue is making public meetings searchable with Codex](/en/public/blogs/groundvue-codex-searchable-public-meetings)
+By Lauren Oliphant • Oct 4th, 2025 • Views 3.2K
 
-Jun 4th, 2026 • Views 248
+[4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
-Resource
+Video
 
-[Managing FOIA Requests with Custom GPTs](/en/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)
+[ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
-By Lauren Oliphant • Oct 4th, 2025 • Views 2.9K
-
-Blog
-
-[Nasha Fitter is using ChatGPT to help rare-disease families find answers](/en/public/blogs/nasha-fitter-chatgpt-foxg1-rare-disease)
-
-Jun 30th, 2026 • Views 166
+By Amanda Bullock • Aug 6th, 2026 • Views 149
 
 Blog
 
-[Taiyo Inoue uses Codex to reclaim hours for teaching](/en/public/blogs/taiyo-inoue-codex-canvas-teaching)
+[GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 30th, 2026 • Views 232
+Jun 4th, 2026 • Views 725
+
+[Managing FOIA Requests with Custom GPTs](/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)
+
+By Lauren Oliphant • Oct 4th, 2025 • Views 3.2K
+
+[4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+
+Video
+
+[ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+
+By Amanda Bullock • Aug 6th, 2026 • Views 149
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16

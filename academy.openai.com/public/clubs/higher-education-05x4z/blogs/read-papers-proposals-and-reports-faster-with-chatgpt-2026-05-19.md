@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -44,7 +44,7 @@ That map is useful because it changes how you spend your attention. Instead of m
 
 ## **Try This Prompt**
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=A%20colleague%20shared%20this%20document%20with%20me.%0APlease%20summarize%20the%20key%20findings%20and%20main%20arguments%20in%2010%20bullet%20points%20or%20fewer.%0A%0AAfter%20that%2C%20tell%20me%3A%0A-%20what%20the%20author%20seems%20to%20be%20claiming%20most%20strongly%0A-%20what%20evidence%20or%20reasoning%20the%20claim%20depends%20on%0A-%20what%20I%20should%20read%20closely%20myself%20before%20relying%20on%20this%20summary)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=A%20colleague%20shared%20this%20document%20with%20me.%0APlease%20summarize%20the%20key%20findings%20and%20main%20arguments%20in%2010%20bullet%20points%20or%20fewer.%0A%0AAfter%20that%2C%20tell%20me%3A%0A-%20what%20the%20author%20seems%20to%20be%20claiming%20most%20strongly%0A-%20what%20evidence%20or%20reasoning%20the%20claim%20depends%20on%0A-%20what%20I%20should%20read%20closely%20myself%20before%20relying%20on%20this%20summary)﻿
 
 |  |
 | --- |
@@ -84,62 +84,64 @@ Do not treat a summary as a substitute for reading when decisions, citations, or
 
 After you have a first-pass summary, use ChatGPT to extract questions, identify gaps, or build a structured reading note you can keep for later.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Video
+
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
 By Juliann Igo
 
 Blog
 
-[Create Briefs and Agendas using ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
+[Create Briefs and Agendas using ChatGPT](/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 48
-
-Blog
-
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
-
-May 20th, 2026 • Views 156
+May 19th, 2026 • Views 394
 
 Blog
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 174
-
-Blog
-
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 145
+May 20th, 2026 • Views 1.2K
 
 Blog
 
-[Create Briefs and Agendas using ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 48
-
-Blog
-
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 174
+May 19th, 2026 • Views 1.2K
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 145
+May 19th, 2026 • Views 691
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Create Briefs and Agendas using ChatGPT](/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
 
-May 20th, 2026 • Views 156
+May 19th, 2026 • Views 394
+
+Blog
+
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 1.2K
+
+Blog
+
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 691
+
+Blog
+
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+
+May 20th, 2026 • Views 1.2K

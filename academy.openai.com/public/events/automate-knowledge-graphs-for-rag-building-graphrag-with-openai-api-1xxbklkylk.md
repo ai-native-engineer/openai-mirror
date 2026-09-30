@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+10:00 PM - 11:00 PM GMT
+
+April 7, 2025
+
 # Automate Knowledge Graphs for RAG: Building GraphRAG with OpenAI API
 
 [Replay](https://academy.openai.com/home/videos/automate-knowledge-graphs)
@@ -14,9 +18,11 @@ LIVESTREAM
 
 # Advanced & Builder Skills
 
+# Work
+
 ## Presented by DeepStation, in partnership with Miami Dade College for community outreach and engagement.
 
-*This resource was produced by [DeepStation](http://www.deepstation.ai), a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views.*
+*This resource was produced by*  [*DeepStation*](http://www.deepstation.ai/)*, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views.*
 
 Discover how to leverage the OpenAI API to automatically generate comprehensive Knowledge Graphs from text documents. The session breaks down a powerful yet accessible process that significantly enhances RAG (Retrieval-Augmented Generation) capabilities beyond traditional Vector-based approaches. You'll learn how Knowledge Graphs create contextual connections between information, resulting in more accurate, nuanced AI responses and deeper insights from your data. Perfect for developers and AI practitioners looking to advance their document processing capabilities.
 
@@ -42,7 +48,9 @@ View Profile
 
 Event has finished
 
-April 07, 10:00 PM GMT
+10:00 PM - 11:00 PM GMT
+
+April 7, 2025
 
 Online
 
@@ -60,7 +68,9 @@ DeepStation](https://deepstation.ai/)
 
 Event has finished
 
-April 07, 10:00 PM GMT
+10:00 PM - 11:00 PM GMT
+
+April 7, 2025
 
 Online
 

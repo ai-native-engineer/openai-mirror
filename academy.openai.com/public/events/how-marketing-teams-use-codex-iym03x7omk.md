@@ -1,16 +1,22 @@
 <!-- source: https://academy.openai.com/public/events/how-marketing-teams-use-codex-iym03x7omk -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.events](/en/public/clubs/work-users-ynjqu/events)
+[navigation.events](/public/clubs/work-users-ynjqu/events)
 
 ![How marketing teams use Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-Work-Users-5c281be7-917a-4cea-8625-1dbf86e33ec3-1781117825848.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+June 23, 2026
+
 # How marketing teams use Codex
 
 [Replay](https://academy.openai.com/home/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+
+# Work
 
 # Codex for Work
 
@@ -24,9 +30,11 @@ Join us for **How marketing teams use Codex**, a practical session on where Code
 
 In this webinar, we’ll cover:
 
-1. Where Codex can fit into marketing workflows
-2. How to move from scattered inputs to usable deliverables
-3. How to review and refine Codex output
+* Where Codex can fit into marketing workflows
+
+* How to move from scattered inputs to usable deliverables
+
+* How to review and refine Codex output
 
 This session is designed to help marketing teams see what’s possible and leave with starter prompts they can adapt once their use cases are clearer.
 
@@ -66,7 +74,9 @@ View Profile
 
 Event has finished
 
-June 23, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 23, 2026
 
 Online
 
@@ -74,7 +84,9 @@ Online
 
 Event has finished
 
-June 23, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 23, 2026
 
 Online
 

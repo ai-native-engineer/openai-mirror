@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/codex-on-campus-cjhlsrvumc -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.events](/en/public/clubs/higher-education-05x4z/events)
+[navigation.events](/public/clubs/higher-education-05x4z/events)
 
 ![Codex on Campus](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-8ed2039e-9eb5-4513-af79-9737f38d23e9-1774382894282.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+11:00 PM GMT
+
+Apr 14 – Apr 15, 2026
 
 # Codex on Campus
 
@@ -38,7 +42,9 @@ View Profile
 
 Event has finished
 
-April 14, 11:00 PM GMT
+11:00 PM GMT
+
+Apr 14 – Apr 15, 2026
 
 Online
 
@@ -52,7 +58,9 @@ OpenAI Academy
 
 Event has finished
 
-April 14, 11:00 PM GMT
+11:00 PM GMT
+
+Apr 14 – Apr 15, 2026
 
 Online
 

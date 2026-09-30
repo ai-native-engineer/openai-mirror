@@ -12,6 +12,8 @@ March 29, 2026 · Last updated on May 29, 2026
 
 # Use Cases
 
+# Work
+
 ## Resource Page
 
 ![AI Skills Jam for Disaster Management Professionals](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-99796be3-1a10-4e51-bcf4-c69257e42112-1774794767027.jpeg?fit=scale-down&width=1200)
@@ -26,9 +28,9 @@ March 29, 2026 · Last updated on May 29, 2026
 
 # **Quick Links**
 
-* ﻿[Today’s slides](https://drive.google.com/file/d/1sv1Wzj8M9oHw2bGipm1s9SagS-ZoopZj/view?usp=drive_link)﻿
+* ﻿ [Today’s slides](https://drive.google.com/file/d/1sv1Wzj8M9oHw2bGipm1s9SagS-ZoopZj/view?usp=drive_link)﻿
 
-* ﻿[Sample files](https://drive.google.com/drive/folders/1qiptGD-e1rn1f_KD8hwSRtD7_ZfFdJxA?usp=sharing)﻿
+* ﻿ [Sample files](https://drive.google.com/drive/folders/1qiptGD-e1rn1f_KD8hwSRtD7_ZfFdJxA?usp=sharing)﻿
 
 # **Today’s Program**
 
@@ -87,9 +89,9 @@ Goal: turn technical preparedness guidance into plain-language materials that pe
 
 Use these files:
 
-* ﻿[1\_Flood\_Preparedness\_Protocol\_Excerpt\_WORKSHOP.txt](https://drive.google.com/file/d/1i4yIfp4jF8EPmIBtDePPn5d-eial3BDH/view?usp=drive_link)﻿
+* ﻿ [1\_Flood\_Preparedness\_Protocol\_Excerpt\_WORKSHOP.txt](https://drive.google.com/file/d/1i4yIfp4jF8EPmIBtDePPn5d-eial3BDH/view?usp=drive_link)﻿
 
-* ﻿[1\_Community\_Message\_Style\_Guide\_WORKSHOP.txt](https://drive.google.com/file/d/1MhW3Qh8ptLwMQBt8c1_Ta9rRlJINI2Ko/view?usp=drive_link)﻿
+* ﻿ [1\_Community\_Message\_Style\_Guide\_WORKSHOP.txt](https://drive.google.com/file/d/1MhW3Qh8ptLwMQBt8c1_Ta9rRlJINI2Ko/view?usp=drive_link)﻿
 
 Recommended flow:
 
@@ -129,9 +131,9 @@ Goal: start with a file, understand what it contains, add context, and turn it i
 
 Use these files:
 
-* ﻿[2\_Nepal\_PDNA\_District\_Snapshot\_WORKSHOP.csv](https://drive.google.com/file/d/1Ytx_rLoCMRGLUXK53uFVI5UuZ-Kd5wQr/view?usp=drive_link)﻿
+* ﻿ [2\_Nepal\_PDNA\_District\_Snapshot\_WORKSHOP.csv](https://drive.google.com/file/d/1Ytx_rLoCMRGLUXK53uFVI5UuZ-Kd5wQr/view?usp=drive_link)﻿
 
-* ﻿[2\_Nepal\_PDNA\_Field\_Notes\_WORKSHOP.txt](https://drive.google.com/file/d/1t3zzT7Uc8L2o7QoukrtkU1BGqbz-Oyjr/view?usp=drive_link)﻿
+* ﻿ [2\_Nepal\_PDNA\_Field\_Notes\_WORKSHOP.txt](https://drive.google.com/file/d/1t3zzT7Uc8L2o7QoukrtkU1BGqbz-Oyjr/view?usp=drive_link)﻿
 
 Recommended flow:
 
@@ -208,9 +210,9 @@ Best for: turning incident notes, district tables, and assessment snippets into 
 
 Upload these knowledge files:
 
-* ﻿[Internal\_SitRep\_Format\_v3.docx](https://docs.google.com/document/d/1NIWB9cCImEyiK07FSYloVIKSxcs7rLmx/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Internal\_SitRep\_Format\_v3.docx](https://docs.google.com/document/d/1NIWB9cCImEyiK07FSYloVIKSxcs7rLmx/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
-* ﻿[Duty\_Officer\_Briefing\_Review\_Checklist.docx](https://docs.google.com/document/d/1vlufFLppv9ynb3ToxGL1ItPUn8GUBZu1/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Duty\_Officer\_Briefing\_Review\_Checklist.docx](https://docs.google.com/document/d/1vlufFLppv9ynb3ToxGL1ItPUn8GUBZu1/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
 #### **Paste into GPT instructions**
 
@@ -236,9 +238,9 @@ Best for: turning public signals, alert tables, and desk notes into a short watc
 
 Upload these knowledge files:
 
-* ﻿[Daily\_Risk\_Watchlist\_Format.docx](https://docs.google.com/document/d/1n3SRupdmUow18hCpmEQ6vRXEl6Jk3xfT/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Daily\_Risk\_Watchlist\_Format.docx](https://docs.google.com/document/d/1n3SRupdmUow18hCpmEQ6vRXEl6Jk3xfT/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
-* ﻿[Signal\_Interpretation\_Guide\_Rainfall\_and\_River\_Alerts.docx](https://docs.google.com/document/d/1UxJXObVTPMQ6fWg81b-Riwra-lhHv2k6/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Signal\_Interpretation\_Guide\_Rainfall\_and\_River\_Alerts.docx](https://docs.google.com/document/d/1UxJXObVTPMQ6fWg81b-Riwra-lhHv2k6/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
 #### **Paste into GPT instructions**
 
@@ -264,11 +266,11 @@ Best for: turning technical updates into clear, calm messages for communities or
 
 Upload these knowledge files:
 
-* ﻿[Public\_Message\_Style\_Guide\_v2.docx](https://docs.google.com/document/d/1u72DuZeAEqNNfe_7RrS-Zpgz-ZVXfG8G/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Public\_Message\_Style\_Guide\_v2.docx](https://docs.google.com/document/d/1u72DuZeAEqNNfe_7RrS-Zpgz-ZVXfG8G/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
-* ﻿[Local\_Review\_Checklist\_Public\_Updates.docx](https://docs.google.com/document/d/1Q-z4svK7YVqIKAAdZSYlh-4-SEZ8pDjC/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Local\_Review\_Checklist\_Public\_Updates.docx](https://docs.google.com/document/d/1Q-z4svK7YVqIKAAdZSYlh-4-SEZ8pDjC/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
-* ﻿[Audience\_and\_Channel\_Reference\_Sheet.docx](https://docs.google.com/document/d/1HUicmyG0_203UnXQG3nIRBWjhlmOw_Pk/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [Audience\_and\_Channel\_Reference\_Sheet.docx](https://docs.google.com/document/d/1HUicmyG0_203UnXQG3nIRBWjhlmOw_Pk/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
 #### **Paste into GPT instructions**
 
@@ -296,66 +298,46 @@ Upload these knowledge files:
 
 * Tell us what worked, what still feels hard, and what would help you continue practicing.
 
-Table Of Contents
+[India Nonprofit AI Jam - Resource Hub](/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
 
-[15:39](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-prompting-101-2025-07-15)
+[AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Video
-
-[AI for Nonprofits: Prompting 101](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-prompting-101-2025-07-15)
-
-By Kyle Behrend
-
-[13:31](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
+[1:32:34](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
 
 Video
 
-[AI for Academic Success: Research, Writing, and Studying Made Easier](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
+[AI for Nonprofits 101](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
 
-[1:02:30](/en/public/clubs/nonprofits-8kc1e/videos/3-steps-to-ai-literacy-101-2025-06-30)
+By Mohammed Husain
 
-Video
+[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
 
-[Part 1: AI 101 for Nonprofits](/en/public/clubs/nonprofits-8kc1e/videos/3-steps-to-ai-literacy-101-2025-06-30)
+Jun 10th, 2026 • Views 667
 
-By Rich Leimsider
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/en/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
+Jul 23rd, 2026 • Views 127
 
-Jun 10th, 2026 • Views 320
+[AI Skills Jam for Older Adults](/public/resources/ai-skills-jam-for-older-adults-2026-09-16)
 
-[AI Reflection Form for Higher Education](/en/public/resources/ai-reflection-form)
+Sep 18th, 2026 • Views 346
 
-By Siya Raj Purohit • Jul 17th, 2025 • Views 4.6K
+[AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-[India Nonprofit AI Jam - Resource Hub](/en/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
+Jul 23rd, 2026 • Views 268
 
-Jan 14th, 2026 • Views 2.2K
+[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
 
-[1:32:34](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
+Jun 10th, 2026 • Views 667
 
-Video
+[AI Skills Jam for Older Adults](/public/resources/ai-skills-jam-for-older-adults-2026-09-16)
 
-[AI for Nonprofits 101](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
+Sep 18th, 2026 • Views 346
 
-By Mohammed Husain • Apr 9th, 2025 • Views 14.5K
+[AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/en/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
+Jul 23rd, 2026 • Views 268
 
-Jun 10th, 2026 • Views 320
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-[India Nonprofit AI Jam - Resource Hub](/en/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
-
-Jan 14th, 2026 • Views 2.2K
-
-[1:32:34](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
-
-Video
-
-[AI for Nonprofits 101](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
-
-By Mohammed Husain • Apr 9th, 2025 • Views 14.5K
-
-[AI Reflection Form for Higher Education](/en/public/resources/ai-reflection-form)
-
-By Siya Raj Purohit • Jul 17th, 2025 • Views 4.6K
+Jul 23rd, 2026 • Views 127

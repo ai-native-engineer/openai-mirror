@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/introduction-to-codex-io1hg00gow -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Introduction to Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-56--f039b32f-9528-4107-814e-ce6eb81c58d7-1771349355640.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+8:00 PM - 8:45 PM GMT
+
+February 27, 2026
 
 # Introduction to Codex
 
@@ -17,6 +21,8 @@ LIVESTREAM
 # Codex
 
 # Advanced & Builder Skills
+
+# Work
 
 Join us for a beginner friendly, high-level overview of Codex — the AI system that powers code generation. We’ll explain what Codex is, explore examples of how people are using it for real work and everyday tasks, and show how non-technical professionals can benefit from it today. Whether you’re curious about the future of AI and software, want to better collaborate with technical teams, or simply want to understand the possibilities, this webinar is your starting point. No coding experience needed!
 
@@ -32,7 +38,9 @@ View Profile
 
 Event has finished
 
-February 27, 8:00 PM GMT
+8:00 PM - 8:45 PM GMT
+
+February 27, 2026
 
 Online
 
@@ -46,7 +54,9 @@ OpenAI Academy
 
 Event has finished
 
-February 27, 8:00 PM GMT
+8:00 PM - 8:45 PM GMT
+
+February 27, 2026
 
 Online
 

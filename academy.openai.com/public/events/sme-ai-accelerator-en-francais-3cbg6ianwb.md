@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+2:00 PM - 3:00 PM GMT
+
+June 18, 2026
+
 # SME AI Accelerator - en français
 
 # Industry & Community
@@ -22,9 +26,11 @@ Ce webinaire de formation est conçu pour les petites et moyennes entreprises, p
 
 ## Pourquoi participer ?
 
-1. **Des résultats pratiques et rapides :** en une heure, vous apprendrez les bases de la rédaction de prompts, créerez votre premier flux de travail et repartirez avec un outil d’IA utilisable pour une tâche réelle de votre entreprise, comme le marketing, le service client ou les opérations.
-2. **Accessible aux débutants :** aucune compétence en codage ni expérience technique n’est requise. Nous vous guiderons étape par étape.
-3. **Participation gratuite :** l’inscription est GRATUITE pour toutes les petites entreprises.
+* **Des résultats pratiques et rapides :** en une heure, vous apprendrez les bases de la rédaction de prompts, créerez votre premier flux de travail et repartirez avec un outil d’IA utilisable pour une tâche réelle de votre entreprise, comme le marketing, le service client ou les opérations.
+
+* **Accessible aux débutants :** aucune compétence en codage ni expérience technique n’est requise. Nous vous guiderons étape par étape.
+
+* **Participation gratuite :** l’inscription est GRATUITE pour toutes les petites entreprises.
 
 ## Speakers
 
@@ -38,12 +44,16 @@ View Profile
 
 Event has finished
 
-June 18, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+June 18, 2026
 
 Online
 
 Event has finished
 
-June 18, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+June 18, 2026
 
 Online

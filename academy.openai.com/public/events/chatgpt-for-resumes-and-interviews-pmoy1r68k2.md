@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+March 13, 2026
+
 # ChatGPT for Resumes and Interviews
 
 [Replay](https://academy.openai.com/home/videos/chatgpt-for-resumes-and-interviews-2026-03-26)
@@ -28,7 +32,9 @@ View Profile
 
 Event has finished
 
-March 13, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+March 13, 2026
 
 Online
 
@@ -42,7 +48,9 @@ OpenAI Academy
 
 Event has finished
 
-March 13, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+March 13, 2026
 
 Online
 

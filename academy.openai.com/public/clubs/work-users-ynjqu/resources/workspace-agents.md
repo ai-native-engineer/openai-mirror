@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/workspace-agents -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Workspace agents
 
@@ -16,15 +16,21 @@
 
 # Advanced & Builder Skills
 
+# Work
+
+# Portfolio Academy Cyber
+
+# Portfolio Academy Knowledge Work
+
 ## Learn how to build your first workspace agent.
 
-April 9, 2026 · Last updated on May 29, 2026
+April 9, 2026 · Last updated on September 4, 2026
 
 ![Workspace agents ](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-87--2b856e04-0f04-42a7-b443-6830be29fe2d-1776869904513.jpeg?fit=scale-down&width=1200)
 
 Most ChatGPT users already know how to use AI for one-off tasks—like drafting, summarizing, brainstorming, or answering questions. The next phase of AI use is broader and more embedded in day-to-day work. Instead of helping with isolated moments, AI is increasingly being used to support repeatable workflows that depend on shared systems, standard handoffs, consistent outputs, and real-world constraints like timing, accuracy, and process.
 
-That’s where **workspace agents** in ChatGPT fit. They’re designed to be used for repeatable workflows—work you’d otherwise do manually, re-explaining the steps each time, and copying information between tools. Learn more about workspace agents in our [blog post](https://openai-dotcom-preview.vercel.app/index/introducing-workspace-agents-in-chatgpt/).
+That’s where **workspace agents** in ChatGPT fit. They’re designed to be used for repeatable workflows—work you’d otherwise do manually, re-explaining the steps each time, and copying information between tools. Learn more about workspace agents in our  [blog post](https://openai-dotcom-preview.vercel.app/index/introducing-workspace-agents-in-chatgpt/).
 
 If you’re new to agent building, let’s focus on the core concepts first so when you start building, you’ll know how to set up your workspace agent for consistent results.
 
@@ -55,7 +61,7 @@ Agents are also different from traditional API workflows you may have built in t
 
 ## Anatomy of an agent
 
-A helpful way to design a workspace agent is to break it into parts. Think about what you would clarify before handing work to a person: what they are responsible for, when they should begin, what should make them pause or stop, which tools and information they can use, the process they should follow, and the rules they must stay within. An agent may require access to apps. Learn more about [apps in ChatGPT.⁠](https://chatgpt.com/features/apps/?openaicom-did=5e12b0e0-3adb-4d9e-9f84-23044e39a98c&openaicom_referred=true)﻿
+A helpful way to design a workspace agent is to break it into parts. Think about what you would clarify before handing work to a person: what they are responsible for, when they should begin, what should make them pause or stop, which tools and information they can use, the process they should follow, and the rules they must stay within. An agent may require access to apps. Learn more about  [apps in ChatGPT.⁠](https://chatgpt.com/features/apps/?openaicom-did=5e12b0e0-3adb-4d9e-9f84-23044e39a98c&openaicom_referred=true)﻿
 
 See some examples of agent breakdowns below:
 
@@ -129,58 +135,69 @@ When you share an agent, be explicit about what it’s for. In the description, 
 
 Remember that workspace admins manage connector and feature access through role-based access control (RBAC), so teammates may need the appropriate permissions for the agent to work with systems like Slack, Gmail, or other tools.
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# What is an agent?
+
+<!-- vimeo: 1177399057 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1177399057)
+
+<details>
+<summary>자막: What is an agent?</summary>
+
+An agent is a system that can follow instructions, use skills, work across tools, and complete actions. In this example, the trigger is a new message in ChatGPT from a teammate asking the agent to prepare a follow-up. The agent reads the instructions, summarize the request, draft the follow-up, prepare a CRM note, and wait for review before anything is sent. It loads the skills follow-up writer and customer tone, then uses CRM, email, and docs to do the actual work. The outputs are an email draft and a CRM note ready in ChatGPT for a teammate to review. That is what an agent does. It turns a request into work completed through a clear process.
+
+</details>

@@ -1,14 +1,20 @@
 <!-- source: https://academy.openai.com/public/events/how-business-operations-teams-use-codex-ew1s25bm56 -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.events](/en/public/clubs/work-users-ynjqu/events)
+[navigation.events](/public/clubs/work-users-ynjqu/events)
 
 ![How business operations teams use Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/codexbizopscover-a1834db5-3898-4175-88f9-34386c861821-1780599667954.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+June 18, 2026
+
 # How business operations teams use Codex
+
+# Work
 
 # Codex for Work
 
@@ -22,9 +28,11 @@ Join us for **How business operations teams use Codex**, a practical session on 
 
 In this webinar, we’ll cover:
 
-1. Where Codex can fit into business operations workflows
-2. How to turn scattered context into useful deliverables
-3. How to review and refine Codex output
+* Where Codex can fit into business operations workflows
+
+* How to turn scattered context into useful deliverables
+
+* How to review and refine Codex output
 
 This session is designed to help business operations teams understand what’s possible and leave with starter prompts they can adapt as their use cases become clearer.
 
@@ -64,12 +72,16 @@ View Profile
 
 Event has finished
 
-June 18, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 18, 2026
 
 Online
 
 Event has finished
 
-June 18, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 18, 2026
 
 Online

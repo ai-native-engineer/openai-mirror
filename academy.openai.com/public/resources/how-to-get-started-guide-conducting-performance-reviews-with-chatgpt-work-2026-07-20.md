@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20 -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Resource Hub
 
 July 20, 2026 · Last updated on August 4, 2026
@@ -8,11 +12,15 @@ July 20, 2026 · Last updated on August 4, 2026
 
 ![How to get started guide: Conducting performance reviews with ChatGPT Work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-5--1bfeff50-3c3c-4986-b872-b596c4174c54-1784565722725.jpeg?fit=scale-down&width=1200)
 
+# Government
+
 # AI Techniques
 
 ## Use ChatGPT Work to draft clearer, more consistent performance reviews while keeping manager judgment at the center.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![How to get started guide: Conducting performance reviews with ChatGPT Work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-5--1bfeff50-3c3c-4986-b872-b596c4174c54-1784565722725.jpeg?fit=scale-down&width=1200)
 
@@ -164,42 +172,58 @@ Leader review checklist
 
 The goal is to make important work harder to forget, easier to coach, and more useful for employee growth.
 
+Like
+
 [From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
 
 By Laura Keenan
 
-[A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Laura Keenan • Jul 31st, 2026 • Views 7
+Video
 
-[Talk It Through: A Government Employee’s Guide to ChatGPT Voice](/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Laura Keenan • Jul 24th, 2026 • Views 16
+External Content
 
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-By David Sperry • Jul 19th, 2025 • Views 114
-
-[From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
-
-By Laura Keenan • Aug 4th, 2026 • Views 30
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
 
 [A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
 
-By Laura Keenan • Jul 31st, 2026 • Views 7
-
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-By David Sperry • Jul 19th, 2025 • Views 114
-
-[From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
-
-By Laura Keenan • Aug 4th, 2026 • Views 30
+By Laura Keenan • Jul 31st, 2026 • Views 117
 
 [Talk It Through: A Government Employee’s Guide to ChatGPT Voice](/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice)
 
-By Laura Keenan • Jul 24th, 2026 • Views 16
+By Laura Keenan • Jul 24th, 2026 • Views 106
+
+[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
+
+Video
+
+[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
+
+By David Sperry • Jul 19th, 2025 • Views 291
+
+[From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
+
+By Laura Keenan • Aug 4th, 2026 • Views 144
+
+[A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
+
+By Laura Keenan • Jul 31st, 2026 • Views 117
+
+[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
+
+Video
+
+[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
+
+By David Sperry • Jul 19th, 2025 • Views 291
+
+[From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
+
+By Laura Keenan • Aug 4th, 2026 • Views 144
+
+[Talk It Through: A Government Employee’s Guide to ChatGPT Voice](/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice)
+
+By Laura Keenan • Jul 24th, 2026 • Views 106

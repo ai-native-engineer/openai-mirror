@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/resources/getting-started-as-an-ai-activator-2026-06-08 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Getting Started as an Agent Activator
 
@@ -16,7 +16,7 @@
 
 ## Turn recurring team or functional work into safe, reliable AI workflows people can use and sustain.
 
-June 9, 2026 · Last updated on July 17, 2026
+June 9, 2026 · Last updated on August 10, 2026
 
 ![Getting Started as an Agent Activator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Getting-started-as-an-AI-Activator-style-thumb--57038f1d-dc7b-4864-856a-1c2ac6b23ad8-1781279788586.jpeg?fit=scale-down&width=1200)
 
@@ -30,20 +30,21 @@ Workflow ownership—not title or coding ability—is the defining characteristi
 
 Agent Activators do not personally make every technical, policy, security, or business decision. They make the workflow and its dependencies clear, involve the people who understand and approve the work, and operate within defined authority. Organizations formally authorize and resource Agent Activators with the time, access, decision rights, and backing required to sustain the workflow over time.
 
-# How Activators fit into a broader AI transformation effort
+# How Agent Activators fit into a broader AI transformation effort
 
-Making AI useful across an organization depends on three kinds of contribution. We describe them as Sponsor, Deploy, and Reimagine:
+Making AI useful across an organization depends on four connected contributions. These roles describe responsibilities, not fixed job titles. One person may contribute through more than one role.
 
 |  |  |  |
 | --- | --- | --- |
-| **Contribution** | **Who contributes** | **What they do** |
-| **Sponsor** | Exec Sponsors | Set direction and create the conditions for transformation. |
-| **Deploy** | Transformation Leaders | Build the plans and systems needed to adopt and scale AI. |
-| **Reimagine** | Agent Activators | Own or materially shape recurring team or functional workflows. |
+| **Contribution** | **Who contributes** | What they lead |
+| **Sponsor** | Executive Sponsors | Set direction. |
+| **Deploy** | Transformation Leaders | Lead the deployment and adoption of AI across their organization. |
+| **Reimagine** | Agent Activators | Use AI to improve workflows and how teams work. |
+| Optimize | Admins | Create and continually improve the trusted enterprise environment AI requires. |
 
-Exec Sponsors create priority, permission, and organizational support. Transformation Leaders build the cross-functional pathways, governance, enablement, and measurement systems that make responsible adoption possible. Agent Activators reimagine recurring work and make those conditions real for a team or function.
+Agent Activators work closest to the workflow. They define the process, boundaries, outcomes, requirements, and evidence needed to move recurring work from an opportunity into responsible operation.
 
-The relationship works in both directions. Agent Activators surface evidence, blockers, operating needs, and lessons from real workflows. Transformation Leaders use those signals to improve the broader adoption system. Exec Sponsors use them to reinforce priorities, remove material blockers, and decide where further investment is warranted.
+The roles work as a feedback loop. Executive Sponsors establish direction, approve priorities, and remove material barriers. Transformation Leaders sequence the opportunity, coordinate adoption, clarify accountable ownership, and connect the work to measurable value. Admins translate workflow requirements into secure access, practical controls, reliable operations, and a usable environment. Agent Activators bring back evidence, blockers, and lessons from real use so the other roles can adjust priorities, governance, support, and rollout.
 
 # What Agent Activators do
 
@@ -143,7 +144,7 @@ You do not need every answer before you begin. Start with the work. Involve the 
 
 That is how Agent Activators turn AI capabilities into safe, reliable, and sustainable ways of working.
 
-Like
+1
 
 Sign in or Join the community
 
@@ -151,68 +152,48 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-Resource
+[54:00](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Video
 
-Resource
+[[RECORDING] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+Jul 23rd, 2026 • Views 810
 
-Dive in
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-## Related
+Sep 17th, 2025 • Views 11.2K
 
-Resource
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-[Activator Labs 101 participant workbook](/en/public/clubs/champions-ecqup/resources/activator-labs-101-participant-workbook-2026-07-08)
+Jul 23rd, 2026 • Views 406
 
-Jul 8th, 2026 • Views 176
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-Resource
+Jul 9th, 2026 • Views 1.2K
 
-[Gather appropriate evidence of value](/en/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
+[54:00](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-Jul 17th, 2026 • Views 48
+Video
 
-Resource
+[[RECORDING] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
+Jul 23rd, 2026 • Views 810
 
-Jul 9th, 2026 • Views 312
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-Resource
+Jul 23rd, 2026 • Views 406
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-Sep 17th, 2025 • Views 9.7K
+Jul 9th, 2026 • Views 1.2K
 
-Resource
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Activator Labs 101 participant workbook](/en/public/clubs/champions-ecqup/resources/activator-labs-101-participant-workbook-2026-07-08)
-
-Jul 8th, 2026 • Views 176
-
-Resource
-
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
-
-Jul 9th, 2026 • Views 312
-
-Resource
-
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
-
-Sep 17th, 2025 • Views 9.7K
-
-Resource
-
-[Gather appropriate evidence of value](/en/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
-
-Jul 17th, 2026 • Views 48
+Sep 17th, 2025 • Views 11.2K

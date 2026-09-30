@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 July 31, 2026 · Last updated on August 4, 2026
@@ -11,6 +15,8 @@ July 31, 2026 · Last updated on August 4, 2026
 ## A guide for veterans and transitioning service members on using ChatGPT to translate military experience, build a civilian résumé, prepare for interviews, and develop AI skills for the workplace.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![A veteran's guide to using ChatGPT Work for a career transition](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-12--9715e34c-356c-40dc-b3a4-2e40b51e184f-1785248728797.jpeg?fit=scale-down&width=1200)
 
@@ -268,38 +274,60 @@ ChatGPT Work can help you translate those strengths, build a résumé based on y
 
 **﻿**
 
-[How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
+Like
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
+By David Sperry
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
 
-[5:56](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+By David Sperry
 
-[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-By David Sperry • Jul 19th, 2025 • Views 53
-
-[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
-
-By Laura Keenan • Aug 11th, 2026 • Views 14
+By David Sperry
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
-[5:56](/public/clubs/government/videos/doc-drafting-chatgpt-government)
-
-[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/public/clubs/government/videos/doc-drafting-chatgpt-government)
-
-By David Sperry • Jul 19th, 2025 • Views 53
-
-[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
-
-By Laura Keenan • Aug 11th, 2026 • Views 14
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
+By Laura Keenan • Jul 24th, 2026 • Views 189
+
+[5:56](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+
+Video
+
+[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+
+By David Sperry • Jul 19th, 2025 • Views 153
+
+[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+
+By Laura Keenan • Aug 11th, 2026 • Views 80
+
+[How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
+
+By Laura Keenan • Jul 20th, 2026 • Views 99
+
+[5:56](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+
+Video
+
+[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/public/clubs/government/videos/doc-drafting-chatgpt-government)
+
+By David Sperry • Jul 19th, 2025 • Views 153
+
+[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+
+By Laura Keenan • Aug 11th, 2026 • Views 80
+
+Blog
+
+[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
+
+By Laura Keenan • Jul 24th, 2026 • Views 189

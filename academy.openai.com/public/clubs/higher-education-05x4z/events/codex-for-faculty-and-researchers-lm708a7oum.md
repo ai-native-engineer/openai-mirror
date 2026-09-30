@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/events/codex-for-faculty-and-researchers-lm708a7oum -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.events](/en/public/clubs/higher-education-05x4z/events)
+[navigation.events](/public/clubs/higher-education-05x4z/events)
 
 ![Codex for Faculty and Researchers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-14--8cc6be39-0ecc-481b-aed7-52541afb6ec5-1778077343947.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+2:00 PM - 3:00 PM GMT
+
+June 12, 2026
 
 # Codex for Faculty and Researchers
 
@@ -36,7 +40,9 @@ View Profile
 
 Event has finished
 
-June 12, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+June 12, 2026
 
 Online
 
@@ -48,7 +54,9 @@ Higher Education
 
 Event has finished
 
-June 12, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+June 12, 2026
 
 Online
 

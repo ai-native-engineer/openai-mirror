@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-codex-6cvoh4bj2q -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-9--7ba0240c-67d5-404e-aec3-04e059aa73ca-1776711001780.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 14, 2026
 
 # Builder Bootcamp: Codex
 
@@ -17,6 +21,8 @@ LIVESTREAM
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 In this session, you’ll learn how to use Codex to plan, build, and ship real code changes in an existing repository. We’ll cover how to explore a codebase, use plan mode, define repo guidance with AGENTS.md, create reusable skills, and keep implementation scoped and reviewable.
 
@@ -42,12 +48,16 @@ View Profile
 
 Event has finished
 
-May 14, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 14, 2026
 
 Online
 
 Event has finished
 
-May 14, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 14, 2026
 
 Online

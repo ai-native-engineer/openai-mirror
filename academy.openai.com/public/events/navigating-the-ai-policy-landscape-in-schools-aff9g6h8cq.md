@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+7:00 PM - 8:00 PM GMT
+
+June 12, 2025
+
 # Navigating the AI Policy Landscape in Schools
 
 [Replay](https://academy.openai.com/home/videos/navigating-the-ai-policy-landscape-in-schools-2025-06-16)
@@ -16,16 +20,19 @@ LIVESTREAM
 
 ### This session is presented by our community partner, Common Sense.
 
-*This resource was produced by Common Sense Media, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. Common Sense Media is a nonprofit dedicated to improving the lives of kids and families by providing the trustworthy information, education, and independent voice they need to thrive. They conduct research, ratings, education, and advocacy efforts in service of this mission.*
+*This resource was produced by Common Sense Media, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. Common Sense Media is a nonprofit dedicated to improving the lives of kids and families by providing the trustworthy information, education, and independent voice they need to thrive. They conduct research, ratings, education, and advocacy efforts in service of this mission.*
 
 Join Common Sense for an insightful webinar focused on strategies for developing clear, adaptable AI policies in K-12 education. Whether you're crafting new guidelines or determining how existing tech policies apply to AI tools, this session provides actionable frameworks for responsible implementation.
 
 Topics include:
 
-1. **Navigating the policy landscape**: Learn from different approaches to crafting clear and adaptable policies that promote safe, ethical, and responsible AI use centered in your mission, vision, and values
-2. **The power and the pitfalls:** Address critical concerns including equitable access and student data privacy
-3. **Engaging stakeholders and building AI literacy**: Discover effective approaches to develop AI understanding among educators, students, and families
-4. **Empower your district:** Explore real-world examples and best practices aligned with [Common Sense Media's AI Toolkit for School Districts](https://www.commonsense.org/education/AI-toolkit-for-school-districts)
+* **Navigating the policy landscape**: Learn from different approaches to crafting clear and adaptable policies that promote safe, ethical, and responsible AI use centered in your mission, vision, and values
+
+* **The power and the pitfalls:** Address critical concerns including equitable access and student data privacy
+
+* **Engaging stakeholders and building AI literacy**: Discover effective approaches to develop AI understanding among educators, students, and families
+
+* **Empower your district:** Explore real-world examples and best practices aligned with  [Common Sense Media's AI Toolkit for School Districts](https://www.commonsense.org/education/AI-toolkit-for-school-districts)﻿
 
 This session is intended for K-12 district administrators, technology directors, and school leaders focused on establishing and aligning their district's/school's AI policies.
 
@@ -57,7 +64,9 @@ View Profile
 
 Event has finished
 
-June 12, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+June 12, 2025
 
 Online
 
@@ -75,7 +84,9 @@ Common Sense](https://commonsense.org/)
 
 Event has finished
 
-June 12, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+June 12, 2025
 
 Online
 

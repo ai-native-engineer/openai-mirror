@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/codex-fundamentals-an2pl5654l -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Codex Fundamentals](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-eac5d6d1-227d-43e3-b407-b75e6e1ce595-1777408391385.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 15, 2026
 
 # Codex Fundamentals
 
@@ -15,6 +19,8 @@ LIVESTREAM
 # Codex
 
 # Advanced & Builder Skills
+
+# Work
 
 Join us for a technical overview of Codex, the AI software engineering agent that can help developers write features, debug code, run tests, and navigate large codebases. In this session, we’ll demonstrate how engineers are using Codex to accelerate development workflows, automate repetitive tasks, and collaborate more effectively with AI during the software development lifecycle.
 
@@ -48,12 +54,16 @@ View Profile
 
 Event has finished
 
-May 15, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 15, 2026
 
 Online
 
 Event has finished
 
-May 15, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 15, 2026
 
 Online

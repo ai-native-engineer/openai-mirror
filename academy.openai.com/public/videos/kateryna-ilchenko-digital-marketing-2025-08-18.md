@@ -2,32 +2,13 @@
 
 # Kateryna Ilchenko (Digital Marketing)
 
-Posted Aug 02, 2025 | Views 2K
+<!-- vimeo: 1109871723 | track: English (auto-generated) -->
 
-# Leaders & Admins
+[▶ Watch on Vimeo](https://vimeo.com/1109871723)
 
-Kateryna Ilchenko - Lecturer of Digital Marketing and Sales at Arden University
+<details>
+<summary>자막: Kateryna Ilchenko (Digital Marketing)</summary>
 
-Educator with a business mindset, featured in Forbes as a bootstrapper. 15+ years as a digital entrepreneur taught me lessons no book ever could. I’m passionate about how AI transforms education, and I want to be part of those changes in how we learn, teach, and grow.
+Hello from Berlin. My name is Ka Chenko and I'm lecturer of Digital marketing and Sales in Arden University. In this video, I'll share with you four my best practices, which I use, how I use ai, uh, in my educational approach. And, you know, as a lecturers, we are very often holding different hats. Sometimes as a teacher, sometimes as administrator, as a module leader, as a researcher. As a developer, yeah, we always juggling with the different tasks. So this, my case studies would be from this different perspectives. To give you a bit of context, uh, whom I'm working with, I primarily work with the master level students and, uh, MBA level. Uh, these are international people who are coming from all over the world in Germany, not just to get a diploma. They mostly have already a master's degree, and definitely they have bachelor's. And their aim is to come to the next level in career, in life. They want to get not a diploma. They want to get knowledge and success in life. Uh, case number one is when I'm acting as a teacher, as a lecturer designing classes, one of the most effective formats of running a class to my mind is, uh, simulations. Example. We have a topic, uh, creating a marketing strategy. Uh, after giving short theoretical material, I split students into teams. And, uh, every team is acting as a marketing agency. With the help of ai, I create a case study, a company with a specific budget, with the specific objectives and the timeframe. Every agency should create their vision of a strategy, and they will pitch it after, at the end of a class. So for running real life simulations, AI helps me to invent a case study, and it gives just in seconds, um, to create slides. AI is a brainstorm partner for every marketing agency. And when they are pitching, um, and they have their pitch deck, I also, uh, upload these, uh, pitch decks inside. Uh, my, uh, AI assistant and assistant gives formative feedback per every pitch deck. What is wrong? What is good? I also give feedback. And at the end of a class, everyone votes, uh, whose presentation was the best in business point of view because business votes with the money. Uh, second case is very short, but I love it. Uh, when I act, uh, as administrator, I working a lot with a laptop, uh, writing emails, formative feedback to students. Uh, very often my eyes are swollen. Mm-hmm. And of course, I want to save some time and also reduce a bit pressure on my eyes. If you are also wearing glasses, you know what I mean? What helps me in this case is voice dictation mode. Oh my God, I love this function. I'm not writing emails at all. I'm only dictating emails. Uh, also while checking the student work, uh, I'm, uh, dictating the feedback, uh, which is specific per every paragraph for every section, and it reduces time and reduces pressure on my eyes. Oh my God, thank the person who invaded this, uh, voice dictation mode, case number three. And as a perspective, uh, of a module leader, when you are a module leader, you have to ensure that all tutors who are leading the same module, uh, have the same standards, uh, the same information. They are aware of, uh, typical mistakes, difficulties of running the module. I have 18 different lecturers and the problem that they allocated in different countries around the globe as our university is very big, uh, and different countries, uh, uh, means different time zones. And this problem I made gt I've taught this gt the rubrics, the assessment, the marketing standards, the typical, uh, questions, typical mistakes, what to pay attention throughout the classes, and a part of having a tutor spec. I also share this custom GPT with, uh, all lecturers who are leading in the same module. We, I'm a model leader, and this, uh, gives them opportunity to get immediate question answers, immediate answers to their questions, uh, without problem of, um, waiting for my answer and without, uh, delays because of, uh, different time zone. And case number four, as a perspective of educational content designer, very often I have to create some new workshop, a new module, uh, or the latest case. Uh, I invented educational game, so it, uh, was born in my mind. I have a concept. I created content while playing this game. Uh, People are learning how to build and scale their business in terms of sales, in terms of marketing, uh, in terms of finances and business model, et cetera. So once I had this idea in my mind, I asked AI to help me with formulation, the content, uh, formatting the content into different shapes, link it in post newsletter, uh, summary instructions. And the biggest benefit is with coding. I would never, ever think that I could code something because I'm not a coder. Uh, I'm a marketer. I'm an entrepreneur, but not a coder. But AI helped me with that. And, uh, the release of this game would be in September, 2025. And I invite you to test it, test talking about outcomes, quantitative outcomes, uh, such metric as submission rate in all my groups are between 90 and hundred percent. Success rate is always 85 plus percent. I always implementing different approaches, different formats, uh, like simulations, brainstorming, debating, uh, practical skills, focus on practical skills. So it's very easy to make a final project when you have a skill, not just a knowledge. And qualitative, uh, outcomes. This is the best in my work as a market, as a teacher, when you're getting such feedbacks. I found a job. Thank you. I passed my probation period and now I'm working. Um, thank you. My parents are praying that, uh, I got such a great teacher, oh my god, in such uh, moments. Um, I'm about to cry. Honestly. The last I would like to say in this video is this. I truly believe that AI is not a competitor for higher education. Because to be able to use AI properly, students have, uh, need to get the basic knowledge, how it works, the logic, the processes, the structure, and all these we do in higher, um, education. But AI helps to get skills faster if they're not lazy. And using artificial intelligence together with natural intelligence, this is the best combination and.
 
-ChatGPT in My Academic Life. Four specific cases of how I use AI daily: in teaching, academic administration, content design, and module leadership. Simplify tasks, improve quality, and stay sane.
-
-[10:00](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
-
-[Arkapravo Sarkar (Marketing)](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
-
-Posted Aug 01, 2025 | Views 739
-
-[10:00](/public/videos/ayse-ozturk-marketing-strategy-2025-08-19)
-
-[Ayse Ozturk (Marketing Strategy)](/public/videos/ayse-ozturk-marketing-strategy-2025-08-19)
-
-Posted Aug 01, 2025 | Views 738
-
-# Industry & Community
-
-[10:00](/public/videos/yuen-ben-siu-marketing-2025-08-19)
-
-[Yuen Ben Siu (Marketing)](/public/videos/yuen-ben-siu-marketing-2025-08-19)
-
-Posted Aug 01, 2025 | Views 641
+</details>

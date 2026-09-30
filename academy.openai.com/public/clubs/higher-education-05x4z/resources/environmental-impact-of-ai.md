@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/environmental-impact-of-ai -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -32,13 +32,13 @@ We know there are growing questions about AI’s environmental impact—and we w
 
 Some claims circulating online suggest that a single ChatGPT query consumes up to **3 watt-hours** of electricity. But those figures are often based on speculation and outdated assumptions.
 
-In contrast, [independent analysis by Epoch AI](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) found that typical ChatGPT queries using GPT-4o likely consume **~0.3 watt-hours**—**10x less** than earlier estimates. That’s roughly equivalent to running a laptop or LED lightbulb for a few minutes.
+In contrast,  [independent analysis by Epoch AI](https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use) found that typical ChatGPT queries using GPT-4o likely consume **~0.3 watt-hours**—**10x less** than earlier estimates. That’s roughly equivalent to running a laptop or LED lightbulb for a few minutes.
 
 “Even for a heavy chat user, the energy cost of ChatGPT will be a small fraction of the overall electricity consumption of a developed-country resident.” — Epoch AI
 
 ### 🔬 What do the researchers say?
 
-The [University of Michigan’s ML Energy Initiative](https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/) has been at the forefront of measuring actual AI energy usage. Their team developed a tool called ZeusMonitor to track real-time GPU power consumption and built the [ML.Energy Leaderboard](https://ml.energy/leaderboard/?__theme=light) to benchmark various models.
+The  [University of Michigan’s ML Energy Initiative](https://arstechnica.com/ai/2025/03/can-we-make-ai-less-power-hungry-these-researchers-are-working-on-it/) has been at the forefront of measuring actual AI energy usage. Their team developed a tool called ZeusMonitor to track real-time GPU power consumption and built the  [ML.Energy Leaderboard](https://ml.energy/leaderboard/?__theme=light) to benchmark various models.
 
 Their findings? Many open-source LLMs use **far less energy per query** than is often reported. While proprietary models like GPT-4 are not yet benchmarked on the leaderboard, the data points toward an improving trend in energy efficiency across the board.
 
@@ -64,60 +64,66 @@ We're also:
 
 * Collaborating with researchers and policymakers to **develop better industry standards**.
 
-* Advocating for **credible benchmarks** and **open research**, like the work done by the [ML Energy Initiative](https://ml.energy/).
+* Advocating for **credible benchmarks** and **open research**, like the work done by the  [ML Energy Initiative](https://ml.energy/).
 
 We take this seriously. Our mission is to ensure that AGI benefits all of humanity—and that includes minimizing our environmental footprint. We’ll continue to engage transparently, learn from independent researchers, and invest in technologies that make AI more sustainable.
 
-Table Of Contents
-
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 6th, 2026 • Views 233
+Aug 4th, 2026 • Views 1.6K
 
-Blog
+[AI Communication Toolkit](/public/clubs/higher-education-05x4z/resources/ai-communication-toolkit)
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+Aug 22nd, 2025 • Views 20.2K
 
-Jun 2nd, 2026 • Views 358
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[AI Communication Toolkit](/en/public/clubs/higher-education-05x4z/resources/ai-communication-toolkit)
+Video
 
-Aug 22nd, 2025 • Views 19.4K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 233
+May 6th, 2026 • Views 1.2K
 
-[AI Communication Toolkit](/en/public/clubs/higher-education-05x4z/resources/ai-communication-toolkit)
+[AI Communication Toolkit](/public/clubs/higher-education-05x4z/resources/ai-communication-toolkit)
 
-Aug 22nd, 2025 • Views 19.4K
+Aug 22nd, 2025 • Views 20.2K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 9th, 2026 • Views 400
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Jun 2nd, 2026 • Views 358
+Aug 4th, 2026 • Views 1.6K

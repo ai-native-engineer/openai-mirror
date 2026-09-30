@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/working-with-files -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Article
 
-August 6, 2025 · Last updated on May 29, 2026
+August 6, 2025 · Last updated on September 4, 2026
 
 # Working with files
 
@@ -15,6 +15,12 @@ August 6, 2025 · Last updated on May 29, 2026
 # Workplace & Business
 
 # Foundations
+
+# Work
+
+# Portfolio Company Finance
+
+# Portfolio Academy Knowledge Work
 
 ## Learn how to upload your own files to ChatGPT to give more context to your prompt
 
@@ -30,7 +36,7 @@ Instead of switching between tools or manually copying content, you can bring yo
 
 1. **Start a chat** with ChatGPT.
 
-2. **Upload your file** using the paperclip icon (supported formats include CSV, XLSX, PDF, DOCX, JPEG, PNG, TXT, and more). You can even upload images! You can also use search directly or use [connectors](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors) if your workspace has enabled it.
+2. **Upload your file** using the paperclip icon (supported formats include CSV, XLSX, PDF, DOCX, JPEG, PNG, TXT, and more). You can even upload images! You can also use search directly or use  [connectors](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors) if your workspace has enabled it.
 
 3. **Ask a question or give a task** — for example:
 
@@ -63,66 +69,77 @@ Instead of switching between tools or manually copying content, you can bring yo
 
 ### Related resources
 
-* ﻿[OpenAI Help Center: File Uploads FAQ](https://help.openai.com/en/articles/8555545-file-uploads-faq)﻿
+* ﻿ [OpenAI Help Center: File Uploads FAQ](https://help.openai.com/en/articles/8555545-file-uploads-faq)﻿
 
-* ﻿[OpenAI Help Center: Retention Policies in ChatGPT](https://help.openai.com/en/articles/8983778-chat-and-file-retention-policies-in-chatgpt)﻿
+* ﻿ [OpenAI Help Center: Retention Policies in ChatGPT](https://help.openai.com/en/articles/8983778-chat-and-file-retention-policies-in-chatgpt)﻿
 
-* ﻿[OpenAI Academy for Work: Data Analysis](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis)﻿
+* ﻿ [OpenAI Academy for Work: Data Analysis](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis)﻿
 
-* ﻿[OpenAI Academy for Work: Connectors](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)﻿
+* ﻿ [OpenAI Academy for Work: Connectors](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)﻿
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+By Diana Stegall • Aug 4th, 2026 • Views 3K
 
-Jun 23rd, 2026 • Views 175
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-Video
-
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
-
-Jun 18th, 2026 • Views 646
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[36:31](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[Get started with ChatGPT Work [on-demand recording]](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
 
-Jun 23rd, 2026 • Views 400
+Jul 28th, 2026 • Views 8.5K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 23rd, 2026 • Views 400
+Sep 14th, 2026 • Views 1.5K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 4th, 2026 • Views 3K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[36:31](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Get started with ChatGPT Work [on-demand recording]](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
 
-Jun 18th, 2026 • Views 646
+Jul 28th, 2026 • Views 8.5K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+# Uploading a File to ChatGPT
+
+<!-- vimeo: 1116807602 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116807602)
+
+<details>
+<summary>자막: Uploading a File to ChatGPT</summary>
+
+Chat. GBT isn't just for typing. You can upload files and work with them directly in a conversation. Let's say I've got a PDF onboarding guide, and I want to quickly understand what's in it without reading the whole thing. There are a few ways I can upload a file to chat GBT. Let's first see the direct file attachment option. Think of this like attachment a file to an email. I'll click the plus sign, then add photos and files and choose a file directly from my desktop. You may also see the option to add the file directly from another internal system like Google Drive. I see here that I've already connected my Google Drive, so I can search for the Google Doc directly rather than having to download and re-upload it. If you don't see the option to upload directly from something like Google Drive, SharePoint, or OneDrive, contact your workspace administrator if you'd like to enable this feature. Now I'm going to ask a question about the file that I uploaded. I'm going to ask chat GPT to summarize this document in five bullet points in just a few seconds. Chat. GPT pulls out the highlights. It's a fast way to digest long documents, perfect for internal guides, reports, or training materials. Now, let's say I'm using this as part of a new hire experience. I can tailor the prompt a little bit more. I'll say I'm creating a getting started guide for new employees. Summarize this document with a focus on what someone would need to know in their first week and suggest three tips they could apply right away. This output is much more specific. It's reframed with a new employee in mind and includes practical tips. Uploading a file and providing a clear prompt is one of the most effective ways to extract the information that's most relevant to your goals.
+
+</details>

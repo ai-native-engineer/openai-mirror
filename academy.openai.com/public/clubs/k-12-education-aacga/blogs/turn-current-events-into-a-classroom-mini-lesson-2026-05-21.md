@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -42,7 +42,7 @@ You can run this as needed, or set it up as a recurring task if you want a weekl
 
 ### Try It
 
-﻿[Try in ChatGPT](https://chatgpt.com/?q=Find%20one%20current%20event%20from%20this%20week%20that%20is%20appropriate%20for%20fifth%20graders%20and%20connected%20to%20%5Btopic%20or%20class%20theme%5D.%20Give%20me%20a%20student-friendly%20summary%2C%20three%20vocabulary%20words%2C%20a%20five-minute%20mini-lesson%2C%20three%20discussion%20questions%2C%20one%20quick%20bell-ringer%2C%20and%20a%20short%20family%20note%20explaining%20what%20we%20discussed.)﻿
+﻿ [Try in ChatGPT](https://chatgpt.com/?q=Find%20one%20current%20event%20from%20this%20week%20that%20is%20appropriate%20for%20fifth%20graders%20and%20connected%20to%20%5Btopic%20or%20class%20theme%5D.%20Give%20me%20a%20student-friendly%20summary%2C%20three%20vocabulary%20words%2C%20a%20five-minute%20mini-lesson%2C%20three%20discussion%20questions%2C%20one%20quick%20bell-ringer%2C%20and%20a%20short%20family%20note%20explaining%20what%20we%20discussed.)﻿
 
 |  |
 | --- |
@@ -50,68 +50,70 @@ You can run this as needed, or set it up as a recurring task if you want a weekl
 
 Blog
 
-[Build A Complete Lesson Resource Pack](/en/public/clubs/k-12-education-aacga/blogs/build-a-complete-lesson-resource-pack-2026-05-21)
+[Build A Complete Lesson Resource Pack](/public/clubs/k-12-education-aacga/blogs/build-a-complete-lesson-resource-pack-2026-05-21)
 
-Blog
-
-[Develop A Classroom Newsletter Helper With A Custom GPT](/en/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
-
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
-
-Blog
-
-[Turn Classroom Images Into Study Materials](/en/public/clubs/k-12-education-aacga/blogs/turn-classroom-images-into-study-materials-2026-05-21)
-
-May 22nd, 2026 • Views 59
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 262
+[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
 Blog
 
-[Turn Student Data Into A Reteach Plan](/en/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
-
-May 28th, 2026 • Views 79
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Video
-
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 376
+[Develop A Classroom Newsletter Helper With A Custom GPT](/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
 
 Blog
 
-[Turn Classroom Images Into Study Materials](/en/public/clubs/k-12-education-aacga/blogs/turn-classroom-images-into-study-materials-2026-05-21)
+[Turn Classroom Images Into Study Materials](/public/clubs/k-12-education-aacga/blogs/turn-classroom-images-into-study-materials-2026-05-21)
 
-May 22nd, 2026 • Views 59
+May 22nd, 2026 • Views 444
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540
 
 Blog
 
-[Turn Student Data Into A Reteach Plan](/en/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
+[Turn Student Data Into A Reteach Plan](/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
 
-May 28th, 2026 • Views 79
+May 28th, 2026 • Views 604
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Video
-
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 376
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 3rd, 2026 • Views 262
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Turn Classroom Images Into Study Materials](/public/clubs/k-12-education-aacga/blogs/turn-classroom-images-into-study-materials-2026-05-21)
+
+May 22nd, 2026 • Views 444
+
+Blog
+
+[Turn Student Data Into A Reteach Plan](/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
+
+May 28th, 2026 • Views 604
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540

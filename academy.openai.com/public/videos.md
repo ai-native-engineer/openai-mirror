@@ -8,6 +8,10 @@
 
 # Codex
 
+# Advanced & Builder Skills
+
+# Work
+
 # Portfolio Company SDLC
 
 [## Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
@@ -34,17 +38,29 @@ Ryan Taylor
 
 ---
 
-[## Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
-
-Sean Lubbers
+[## Intro to Codex (April 09, 2026)](/public/videos/intro-to-codex-april-09-2026)
 
 ---
 
-[## MCP for Builders](/public/clubs/builders-etkn1/resources/mcp-for-builders)
+[## Codex on Campus](/public/videos/codex-on-campus-2026-04-21)
+
+Gaurav Kaila & Shaig Abduragimov
 
 # All Content
 
 Popular topics
+
+# Education
+
+# Educators & Students
+
+# Work
+
+# Awareness
+
+# Advanced & Builder Skills
+
+# Workplace & Business
 
 # Deployment & Adoption
 
@@ -128,6 +144,8 @@ The session featured practical examples and workflows that newsroom teams could 
 # Use Case
 
 # Use Cases
+
+# Work
 
 # Portfolio Company Knowledge Work
 

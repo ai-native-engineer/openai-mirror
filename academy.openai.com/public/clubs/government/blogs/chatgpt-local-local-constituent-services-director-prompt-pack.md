@@ -1,47 +1,95 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/chatgpt-local-local-constituent-services-director-prompt-pack -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
+Article
+
+September 21, 2026
+
 # ChatGPT for Local Constituent Services Director: A practical prompt pack
 
 ![ChatGPT for Local Constituent Services Director: A practical prompt pack](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-11-d7233844-3aac-4fda-8911-cc7b9a93edac-1790024401222.jpeg?fit=scale-down&width=1200)
+
+# Government
 
 ## 30 prompts for resident request intake, department referrals, and reliable follow-through.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
 
+Laura Keenan
+
 ![ChatGPT for Local Constituent Services Director: A practical prompt pack](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-11-d7233844-3aac-4fda-8911-cc7b9a93edac-1790024401222.jpeg?fit=scale-down&width=1200)
 
 Use this ChatGPT Enterprise prompt pack to help with resident request intake, department referrals, and reliable follow-through. It includes 30 prompts you can copy and adapt.
 
+Why it matters
+Clear drafts make it easier for your team to spot missing information, prepare for conversations, and follow through on agreed work.
+
+How to use it
+Download the PDF below. Choose a prompt, replace the bracketed text, and paste the relevant notes. Review the result, then ask for changes.
+
+Use only information allowed in your approved workspace. Check facts and follow your jurisdiction’s procedures before using or sharing a draft.
+
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/11-local-constituent-services-director-ChatGPT-Enterprise-9509bf9c-9f2f-46cc-a5b7-24e4bfa5a432-1790025081570.pdf) the file to view.
 
-[ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 15
+By David Sperry
 
-[ChatGPT for Local Human Resources Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-human-resources-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By David Sperry
 
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By David Sperry
 
-[ChatGPT for Local Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-emergency-management-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 7
+Blog
 
 [ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 15
+By Laura Keenan • Sep 22nd, 2026 • Views 50
 
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
-
-[ChatGPT for Local Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-emergency-management-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 7
+Blog
 
 [ChatGPT for Local Human Resources Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-human-resources-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By Laura Keenan • Sep 21st, 2026 • Views 76
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[ChatGPT for Local Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 24
+
+Blog
+
+[ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 50
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[ChatGPT for Local Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 24
+
+Blog
+
+[ChatGPT for Local Human Resources Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-human-resources-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 76

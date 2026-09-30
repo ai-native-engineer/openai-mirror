@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 # How to Use ChatGPT to Land Your Dream Job
 
@@ -28,9 +28,9 @@ College career prep can feel like trying to assemble a plane while it’s alread
 
 Used well, ChatGPT can be your career practice room: a private place to rehearse, ask basic questions without embarrassment, pressure-test your thinking, sharpen your communication, and turn messy ambition into a plan.
 
-Students are already using it this way. [Nae Nae Chairatchaneeboon](https://www.linkedin.com/in/naenaemontawan/), a BS Economics student in the Class of 2025, used ChatGPT throughout her recruiting process for investment banking and venture capital roles.
+Students are already using it this way.  [Nae Nae Chairatchaneeboon](https://www.linkedin.com/in/naenaemontawan/), a BS Economics student in the Class of 2025, used ChatGPT throughout her recruiting process for investment banking and venture capital roles.
 
-*“When I was applying and preparing for investment banking interviews, I used ChatGPT as a mock interviewer for both behavioral and technical questions. For example, I’d ask it to pretend to be a ‘first-year investment banking analyst’ or ‘managing director’ and have it run a ~30-minute interview while I answered. I also used Voice mode to make it feel more like a real interview.” -*  [Nae Nae Chairatchaneeboon](https://www.linkedin.com/in/naenaemontawan/)﻿
+*“When I was applying and preparing for investment banking interviews, I used ChatGPT as a mock interviewer for both behavioral and technical questions. For example, I’d ask it to pretend to be a ‘first-year investment banking analyst’ or ‘managing director’ and have it run a ~30-minute interview while I answered. I also used Voice mode to make it feel more like a real interview.” -*   [Nae Nae Chairatchaneeboon](https://www.linkedin.com/in/naenaemontawan/)﻿
 
 ## Below are 8 practical ways to start.
 
@@ -274,60 +274,60 @@ Load more
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
-
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 233
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 132
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 20th, 2026 • Views 334
-
-Blog
-
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 145
+May 6th, 2026 • Views 1.2K
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
-May 6th, 2026 • Views 233
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.2K
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
-May 19th, 2026 • Views 145
+May 20th, 2026 • Views 1.4K
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-May 6th, 2026 • Views 132
+May 19th, 2026 • Views 691
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K
+
+Blog
+
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+
+May 20th, 2026 • Views 1.4K
+
+Blog
+
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 691
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+Aug 4th, 2026 • Views 1.2K

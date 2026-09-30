@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -32,7 +32,7 @@ Kirk Gulezian
 
 ![Understanding Workspace Agents in higher education](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-04-23-at-1-06-53-PM-375d2949-12c6-4ce6-92a9-0fa5c7879f56-1776964036229.jpeg?fit=scale-down&width=1200)
 
-*This article provides an overview of what workspace agents are and how they can support useful, repeatable workflows in education settings. For detailed guidance on how to set up workspace agents, please review* [*this Help Center article*](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)*.*
+*This article provides an overview of what workspace agents are and how they can support useful, repeatable workflows in education settings. For detailed guidance on how to set up workspace agents, please review*  [*this Help Center article*](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)*.*
 
 Colleges and universities run on work that repeats across departments, terms, programs, and academic years.
 
@@ -230,56 +230,56 @@ Load more
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-Blog
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
-
-May 6th, 2026 • Views 348
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
+By Juliann Igo
 
 Blog
 
-[Deploying Codex in Higher Education](/en/public/clubs/higher-education-05x4z/blogs/deploying-codex-in-higher-education-2026-04-09)
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
-Apr 9th, 2026 • Views 843
+May 6th, 2026 • Views 905
 
-Blog
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
-
-Jun 2nd, 2026 • Views 358
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[Deploying Codex in Higher Education](/public/clubs/higher-education-05x4z/blogs/deploying-codex-in-higher-education-2026-04-09)
 
-May 6th, 2026 • Views 348
-
-Blog
-
-[Deploying Codex in Higher Education](/en/public/clubs/higher-education-05x4z/blogs/deploying-codex-in-higher-education-2026-04-09)
-
-Apr 9th, 2026 • Views 843
+Apr 9th, 2026 • Views 2.2K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
 
-Jun 2nd, 2026 • Views 358
+Jun 2nd, 2026 • Views 1K
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+Blog
 
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+
+May 6th, 2026 • Views 905
+
+Blog
+
+[Deploying Codex in Higher Education](/public/clubs/higher-education-05x4z/blogs/deploying-codex-in-higher-education-2026-04-09)
+
+Apr 9th, 2026 • Views 2.2K
+
+Blog
+
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+
+Jun 2nd, 2026 • Views 1K
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K

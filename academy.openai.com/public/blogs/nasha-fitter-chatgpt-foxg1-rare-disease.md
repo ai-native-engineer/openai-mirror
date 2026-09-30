@@ -8,9 +8,9 @@ June 30, 2026
 
 ![Nasha Fitter is using ChatGPT to help rare-disease families find answers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Nasha-and-Amara-on-Stairs-6f78351a-414c-4c72-b8a6-6f9d4b77e9c2-1782781509044.jpeg?fit=scale-down&width=1200)
 
-# health
+# Health
 
-# research
+# Research
 
 ## After her daughter Amara was diagnosed with FOXG1 syndrome, Nasha helped move a gene therapy toward human trials and built a platform that turns scattered medical evidence into practical guidance.
 
@@ -30,92 +30,74 @@ For Amara, that meant finding a clue after severe GI pain sent the family from s
 
 Amara is now 10. Nasha began by trying to help her daughter. She went on to help advance a therapy toward human trials and build a platform that turns hard-won patient knowledge into guidance other rare-disease families can use.
 
-## Popular
-
-[34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 Video
 
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 By Juliann Igo
 
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
 
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Video
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Dive in
-
-## Related
-
-[10:39](/en/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[Using ChatGPT to Spot Scams](/en/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-By Jack Stubbs • Sep 26th, 2025 • Views 9.3K
-
-[5:56](/en/public/videos/doc-drafting-chatgpt-govt)
+[10:39](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
 
 Video
 
-[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/en/public/videos/doc-drafting-chatgpt-govt)
+[Using ChatGPT to Spot Scams](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
 
-By David Sperry • Jul 16th, 2025 • Views 1K
+By Jack Stubbs • Sep 26th, 2025 • Views 10.2K
 
-[17:29](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
-
-Video
-
-[AI for Nonprofits: Using ChatGPT Projects](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
-
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.9K
-
-[8:32](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[17:29](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
 
 Video
 
-[AI for Nonprofits: Using Canva in ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[AI for Nonprofits: Using ChatGPT Projects](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
 
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.4K
+By Kyle Behrend • Feb 3rd, 2026 • Views 4.9K
 
-[10:39](/en/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+Blog
 
-Video
+[A nonprofit founder uses ChatGPT to help more workers in crisis](/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02)
 
-[Using ChatGPT to Spot Scams](/en/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+Sep 2nd, 2026 • Views 183
 
-By Jack Stubbs • Sep 26th, 2025 • Views 9.3K
+[A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
 
-[17:29](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
+By Laura Keenan • Jul 31st, 2026 • Views 117
 
-Video
-
-[AI for Nonprofits: Using ChatGPT Projects](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
-
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.9K
-
-[8:32](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[10:39](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
 
 Video
 
-[AI for Nonprofits: Using Canva in ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[Using ChatGPT to Spot Scams](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
 
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.4K
+By Jack Stubbs • Sep 26th, 2025 • Views 10.2K
 
-[5:56](/en/public/videos/doc-drafting-chatgpt-govt)
+Blog
+
+[A nonprofit founder uses ChatGPT to help more workers in crisis](/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02)
+
+Sep 2nd, 2026 • Views 183
+
+[A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
+
+By Laura Keenan • Jul 31st, 2026 • Views 117
+
+[17:29](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
 
 Video
 
-[Rapid Document Drafting for Government Teams Using ChatGPT Enterprise](/en/public/videos/doc-drafting-chatgpt-govt)
+[AI for Nonprofits: Using ChatGPT Projects](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03)
 
-By David Sperry • Jul 16th, 2025 • Views 1K
+By Kyle Behrend • Feb 3rd, 2026 • Views 4.9K

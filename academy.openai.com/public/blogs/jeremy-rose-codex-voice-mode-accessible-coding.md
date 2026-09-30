@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/jeremy-rose-codex-voice-mode-accessible-coding -->
 
+Article
+
 August 5, 2026
 
 # How Codex voice mode helps Jeremy Rose keep coding with less pain
@@ -26,46 +28,52 @@ In his personal life, he has set up recurring Codex jobs that sort tax-deductibl
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
+Video
+
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 [Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+[3:34](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
-Aug 6th, 2026 • Views 18
+Video
 
-[4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+[Use Voice Mode with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
-[ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+Sep 11th, 2026 • Views 91
 
-By Amanda Bullock • Aug 6th, 2026 • Views 2
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+Sep 28th, 2026 • Views 63
 
-By David Sperry • Aug 6th, 2026 • Views 0
+Blog
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Sep 29th, 2026 • Views 16
 
-By Amanda Bullock • Aug 6th, 2026 • Views 5
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+Sep 29th, 2026 • Views 33
 
-Aug 6th, 2026 • Views 18
+[3:34](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+Video
 
-By David Sperry • Aug 6th, 2026 • Views 0
+[Use Voice Mode with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Sep 11th, 2026 • Views 91
 
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Blog
 
-By Amanda Bullock • Aug 6th, 2026 • Views 5
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+Sep 29th, 2026 • Views 16
 
-[ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 2
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

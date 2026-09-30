@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 # Workspace Agents for Faculty-Staff Follow-Along Resource Guide
 
@@ -110,52 +110,52 @@ Use this template to adapt the demo pattern to your own team.
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
 By Siya Raj Purohit
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
 By Siya Raj Purohit
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-Jun 9th, 2026 • Views 400
+Jun 9th, 2026 • Views 2.8K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
-
-Blog
-
-[Understanding Workspace Agents in higher education](/en/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
-
-By Kirk Gulezian • Apr 23rd, 2026 • Views 1.3K
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+May 13th, 2026 • Views 1.3K
 
 Blog
 
-[Understanding Workspace Agents in higher education](/en/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
+[Understanding Workspace Agents in higher education](/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
 
-By Kirk Gulezian • Apr 23rd, 2026 • Views 1.3K
+By Kirk Gulezian • Apr 23rd, 2026 • Views 1.9K
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-May 13th, 2026 • Views 354
+Jun 9th, 2026 • Views 2.8K
+
+Blog
+
+[Understanding Workspace Agents in higher education](/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
+
+By Kirk Gulezian • Apr 23rd, 2026 • Views 1.9K
+
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
+
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+
+May 13th, 2026 • Views 1.3K

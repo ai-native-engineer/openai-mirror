@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/better-powerpoint-slides-clearer-decisions-for-government-presentations-2026-07-24 -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 July 27, 2026 · Last updated on August 4, 2026
@@ -10,9 +14,13 @@ July 27, 2026 · Last updated on August 4, 2026
 
 # AI Techniques
 
+# Government
+
 ## Turn approved source material into clearer, editable presentations and give every slide a job to do.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Better Powerpoint slides. Clearer decisions for government presentations.](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-10--e6f00a3d-cb93-4ae2-b8a5-e972df2b8c54-1784913202084.jpeg?fit=scale-down&width=1200)
 
@@ -264,38 +272,66 @@ The final story—and the responsibility for telling it—still belongs to you.
 
 **Ready to give your next briefing deck a stronger first draft?**  [**Explore ChatGPT for PowerPoint**](https://chatgpt.com/apps/powerpoint/)**.**
 
+Like
+
+[46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+
+Video
+
+[AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+
 [11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
+
+Video
 
 [Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
 
-[From status updates to decisions: Visualize for government program managers](/public/clubs/government/blogs/visualize-for-government-program-managers)
+By David Sperry
 
-By Laura Keenan • Sep 8th, 2026 • Views 11
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
 
-By David Sperry • Jul 19th, 2025 • Views 181
+By David Sperry
 
-[2:00](/public/clubs/government/videos/better-prompting-for-federal-work)
-
-[Better Prompting for Federal Work](/public/clubs/government/videos/better-prompting-for-federal-work)
-
-By Amanda Bullock • Aug 14th, 2026 • Views 13
-
-[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
-
-By Amanda Bullock • Aug 19th, 2026 • Views 21
+Blog
 
 [From status updates to decisions: Visualize for government program managers](/public/clubs/government/blogs/visualize-for-government-program-managers)
 
-By Laura Keenan • Sep 8th, 2026 • Views 11
+By Laura Keenan • Sep 8th, 2026 • Views 139
 
-[2:00](/public/clubs/government/videos/better-prompting-for-federal-work)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-[Better Prompting for Federal Work](/public/clubs/government/videos/better-prompting-for-federal-work)
-
-By Amanda Bullock • Aug 14th, 2026 • Views 13
+By David Sperry • Jul 19th, 2025 • Views 272
 
 [ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
 
-By Amanda Bullock • Aug 19th, 2026 • Views 21
+By Amanda Bullock • Aug 19th, 2026 • Views 92
 
-By David Sperry • Jul 19th, 2025 • Views 181
+[2:00](/public/clubs/government/videos/better-prompting-for-federal-work)
+
+Video
+
+[Better Prompting for Federal Work](/public/clubs/government/videos/better-prompting-for-federal-work)
+
+By Amanda Bullock • Aug 14th, 2026 • Views 90
+
+Blog
+
+[From status updates to decisions: Visualize for government program managers](/public/clubs/government/blogs/visualize-for-government-program-managers)
+
+By Laura Keenan • Sep 8th, 2026 • Views 139
+
+[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
+
+By Amanda Bullock • Aug 19th, 2026 • Views 92
+
+[2:00](/public/clubs/government/videos/better-prompting-for-federal-work)
+
+Video
+
+[Better Prompting for Federal Work](/public/clubs/government/videos/better-prompting-for-federal-work)
+
+By Amanda Bullock • Aug 14th, 2026 • Views 90
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry • Jul 19th, 2025 • Views 272

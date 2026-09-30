@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -46,7 +46,7 @@ A teacher or school team could use Canvas to draft a clear explanation of an att
 
 Use this when you need a family-facing message that should be clear, warm, and easy to revise.
 
-﻿[Try in ChatGPT](https://chatgpt.com/?q=Open%20this%20in%20Canvas.%0A%0AHelp%20me%20draft%20a%20family-friendly%20message%20about%20%5Btopic%5D.%0A%0AUse%20this%20context%3A%0A-%20Audience%3A%20%5Bfamilies%2C%20caregivers%2C%20grade%20level%2C%20program%5D%0A-%20Main%20point%20families%20need%20to%20understand%3A%20%5Badd%20point%5D%0A-%20Required%20details%3A%20%5Bdates%2C%20policy%20language%2C%20links%2C%20contacts%5D%0A-%20Tone%3A%20warm%2C%20clear%2C%20practical%2C%20and%20respectful%0A-%20Reading%20level%3A%20easy%20to%20understand%20for%20busy%20families%0A%0AAfter%20drafting%2C%20include%20a%20short%20checklist%20of%20anything%20I%20should%20verify%20before%20sending.)﻿
+﻿ [Try in ChatGPT](https://chatgpt.com/?q=Open%20this%20in%20Canvas.%0A%0AHelp%20me%20draft%20a%20family-friendly%20message%20about%20%5Btopic%5D.%0A%0AUse%20this%20context%3A%0A-%20Audience%3A%20%5Bfamilies%2C%20caregivers%2C%20grade%20level%2C%20program%5D%0A-%20Main%20point%20families%20need%20to%20understand%3A%20%5Badd%20point%5D%0A-%20Required%20details%3A%20%5Bdates%2C%20policy%20language%2C%20links%2C%20contacts%5D%0A-%20Tone%3A%20warm%2C%20clear%2C%20practical%2C%20and%20respectful%0A-%20Reading%20level%3A%20easy%20to%20understand%20for%20busy%20families%0A%0AAfter%20drafting%2C%20include%20a%20short%20checklist%20of%20anything%20I%20should%20verify%20before%20sending.)﻿
 
 |  |
 | --- |
@@ -68,72 +68,74 @@ Weekly classroom updates
 
 * Translated versions of reviewed school communication
 
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
-
 Blog
 
-[Write Better Prompts - Teachers](/en/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
+[Write Better Prompts - Teachers](/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
 
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-Video
-
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 139
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 3rd, 2026 • Views 376
-
-Blog
-
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
-
-May 29th, 2026 • Views 194
-
-Blog
-
-[Understanding Workspace Agents in K-12 education](/en/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education)
-
-By Kirk Gulezian • Apr 23rd, 2026 • Views 453
-
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 139
+Jun 3rd, 2026 • Views 602
 
-Blog
-
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
-
-May 29th, 2026 • Views 194
-
-Blog
-
-[Understanding Workspace Agents in K-12 education](/en/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education)
-
-By Kirk Gulezian • Apr 23rd, 2026 • Views 453
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 376
+Sep 11th, 2026 • Views 181
+
+Blog
+
+[Support Family Conversations With Voice Mode](/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+
+May 29th, 2026 • Views 683
+
+Blog
+
+[Understanding Workspace Agents in K-12 education](/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education)
+
+By Kirk Gulezian • Apr 23rd, 2026 • Views 953
+
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Video
+
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Jun 3rd, 2026 • Views 602
+
+Blog
+
+[Support Family Conversations With Voice Mode](/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+
+May 29th, 2026 • Views 683
+
+Blog
+
+[Understanding Workspace Agents in K-12 education](/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education)
+
+By Kirk Gulezian • Apr 23rd, 2026 • Views 953
+
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Video
+
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 181

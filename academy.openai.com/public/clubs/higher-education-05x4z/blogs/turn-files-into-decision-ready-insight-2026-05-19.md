@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/turn-files-into-decision-ready-insight-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -36,7 +36,7 @@ Higher Ed staff work with spreadsheets, reports, notes, slide decks, policy draf
 | --- |
 | Analyze the uploaded enrollment dataset.  ﻿  Please:  1. Identify the five biggest changes in the funnel from applications to admits to deposits, and quantify them.  2. Segment yield by student type and program. If you cannot support a claim statistically, say so directly.  3. Highlight early warning indicators for this cycle.  4. Write a cabinet-ready narrative in no more than 250 words explaining what changed and why it matters.  5. Create a table with two columns: Hypotheses to Validate and Data We Should Pull Next. |
 
-﻿[Try this in ChatGPT](https://chatgpt.com/?q=Analyze%20the%20uploaded%20enrollment%20dataset.%0A%0APlease%3A%0A1.%20Identify%20the%20five%20biggest%20changes%20in%20the%20funnel%20from%20applications%20to%20admits%20to%20deposits%2C%20and%20quantify%20them.%0A2.%20Segment%20yield%20by%20student%20type%20and%20program.%20If%20you%20cannot%20support%20a%20claim%20statistically%2C%20say%20so%20directly.%0A3.%20Highlight%20early%20warning%20indicators%20for%20this%20cycle.%0A4.%20Write%20a%20cabinet-ready%20narrative%20in%20no%20more%20than%20250%20words%20explaining%20what%20changed%20and%20why%20it%20matters.%0A5.%20Create%20a%20table%20with%20two%20columns%3A%20Hypotheses%20to%20Validate%20and%20Data%20We%20Should%20Pull%20Next.)﻿
+﻿ [Try this in ChatGPT](https://chatgpt.com/?q=Analyze%20the%20uploaded%20enrollment%20dataset.%0A%0APlease%3A%0A1.%20Identify%20the%20five%20biggest%20changes%20in%20the%20funnel%20from%20applications%20to%20admits%20to%20deposits%2C%20and%20quantify%20them.%0A2.%20Segment%20yield%20by%20student%20type%20and%20program.%20If%20you%20cannot%20support%20a%20claim%20statistically%2C%20say%20so%20directly.%0A3.%20Highlight%20early%20warning%20indicators%20for%20this%20cycle.%0A4.%20Write%20a%20cabinet-ready%20narrative%20in%20no%20more%20than%20250%20words%20explaining%20what%20changed%20and%20why%20it%20matters.%0A5.%20Create%20a%20table%20with%20two%20columns%3A%20Hypotheses%20to%20Validate%20and%20Data%20We%20Should%20Pull%20Next.)﻿
 
 ## What Good Looks Like
 
@@ -68,58 +68,66 @@ Cleaner inputs usually produce better outputs. De-identify or aggregate student 
 
 When your internal files raise questions you cannot answer locally, use Deep Research to add external benchmarks, practices, and citations.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Turn Readings and Notes into Study Materials](/public/clubs/higher-education-05x4z/blogs/turn-readings-and-notes-into-study-materials-2026-05-18)
+
+May 18th, 2026 • Views 951
 
 Blog
 
-[Turn Readings and Notes into Study Materials](/en/public/clubs/higher-education-05x4z/blogs/turn-readings-and-notes-into-study-materials-2026-05-18)
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
-May 18th, 2026 • Views 135
+Aug 4th, 2026 • Views 1.2K
 
-Blog
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+Video
 
-May 20th, 2026 • Views 334
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Turn Readings and Notes into Study Materials](/en/public/clubs/higher-education-05x4z/blogs/turn-readings-and-notes-into-study-materials-2026-05-18)
-
-May 18th, 2026 • Views 135
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Aug 4th, 2026 • Views 1.6K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Turn Readings and Notes into Study Materials](/public/clubs/higher-education-05x4z/blogs/turn-readings-and-notes-into-study-materials-2026-05-18)
 
-Jun 2nd, 2026 • Views 358
+May 18th, 2026 • Views 951
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.6K
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+Aug 4th, 2026 • Views 1.2K

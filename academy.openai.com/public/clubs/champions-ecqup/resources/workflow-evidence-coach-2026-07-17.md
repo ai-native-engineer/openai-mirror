@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Workflow evidence coach
 
@@ -14,9 +14,11 @@
 
 # Telling Value and ROI Story
 
+# Portfolio Company Finance
+
 ## Develop a evidence-based case for what comes next for an AI workflow solution.
 
-July 17, 2026
+July 17, 2026 · Last updated on September 28, 2026
 
 ![Workflow evidence coach](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/workflow-evidence-coach-style-thumb-a8e3b44e-7015-42fc-8f8f-45b421668818-1784310935299.jpeg?fit=scale-down&width=1200)
 
@@ -104,7 +106,7 @@ Do not block progress when some context is missing. Draft from what is known and
 
 ### 2. Inventory the available material
 
-Review supplied design specifications, PRDs, workflow maps, prompts, GPTs, test cases, adoption plans, training materials, reusable templates, screenshots, usage exports, surveys, stakeholder feedback, metrics, and recordings.
+Review supplied design specifications, PRDs, workflow maps, prompts, test cases, adoption plans, training materials, reusable templates, screenshots, usage exports, surveys, stakeholder feedback, metrics, and recordings.
 
 Create a compact source ledger with:
 
@@ -202,9 +204,7 @@ Use bracketed placeholders only for information the user must supply. Do not hid
 - Read `references/evidence-framework.md` when evaluating evidence, recommending an expansion step, designing an evidence log, or identifying measurement gaps.
 ```
 
-﻿
-
-Like
+1
 
 Sign in or Join the community
 
@@ -212,68 +212,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-Resource
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-Resource
+[AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+May 5th, 2026 • Views 1.1K
 
-Resource
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-Dive in
+[Gather appropriate evidence of value](/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
 
-## Related
+Jul 17th, 2026 • Views 239
 
-Resource
+[Workflow adoption planner](/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
 
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
+Jul 8th, 2026 • Views 476
 
-May 5th, 2026 • Views 511
+[AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-Resource
+May 5th, 2026 • Views 1.1K
 
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
+[Gather appropriate evidence of value](/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
 
-Jul 7th, 2026 • Views 299
+Jul 17th, 2026 • Views 239
 
-Resource
+[Workflow adoption planner](/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
 
-[Gather appropriate evidence of value](/en/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
+Jul 8th, 2026 • Views 476
 
-Jul 17th, 2026 • Views 48
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Resource
-
-[Workflow adoption planner](/en/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
-
-Jul 8th, 2026 • Views 119
-
-Resource
-
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-May 5th, 2026 • Views 511
-
-Resource
-
-[Gather appropriate evidence of value](/en/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)
-
-Jul 17th, 2026 • Views 48
-
-Resource
-
-[Workflow adoption planner](/en/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
-
-Jul 8th, 2026 • Views 119
-
-Resource
-
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
-
-Jul 7th, 2026 • Views 299
+Jul 7th, 2026 • Views 1.2K

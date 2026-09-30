@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/whats-new -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 What's New
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -62,23 +64,9 @@ Projects can help you keep your chats, knowledge, and instructions organized in 
 
 # Advanced & Builder Skills
 
-# Work](/en/public/clubs/work-users-ynjqu/resources/projects)[Resource
+# Work
 
-· K-12 Education
-
-### ChatGPT Foundations for Teachers
-
-# Educators & Students
-
-# Use Cases
-
-# Education
-
-# K12 Teachers - Get Started
-
-![Olivia Pavco-Giaccia](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/olivia-bb7da885-3510-4a2f-bec7-48aba4258a04-1764953582542.jpeg?fit=scale-down&width=52)
-
-Olivia Pavco-Giaccia · Dec 9th, 2025](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)[Video
+# Portfolio Company Knowledge Work](/public/clubs/work-users-ynjqu/resources/projects)[Video
 
 ### Using ChatGPT to Spot Scams
 
@@ -94,14 +82,14 @@ This video teaches people how to use ChatGPT to help spot and avoid scams. OpenA
 
 Jack Stubbs · Sep 26th, 2025
 
-10:39](/en/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+10:39](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

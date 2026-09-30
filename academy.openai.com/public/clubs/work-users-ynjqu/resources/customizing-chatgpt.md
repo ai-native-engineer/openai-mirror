@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/customizing-chatgpt -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Customizing ChatGPT
 
@@ -12,19 +12,21 @@
 
 # Foundations
 
+# Work
+
 ## Give ChatGPT context about your role, preferences, and style
 
-September 25, 2025 · Last updated on May 29, 2026
+September 25, 2025 · Last updated on September 17, 2026
 
 ![Customizing ChatGPT](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-66--d7e19052-45f1-4707-9c58-f793289109b8-1758818154204.jpeg?fit=scale-down&width=1200)
 
-# **Customizing ChatGPT for your role**
+# **CSet project instructions that define the style and tone for a specific body of work.ustomizing ChatGPT for: your role**
 
-Custom Instructions let you shape how ChatGPT responds to you. You can provide preferences on tone, level of detail, and areas of focus so the AI can better match your needs. Combined with prompt engineering, memory, GPTs, and projects, you have multiple ways to make ChatGPT sound like you and reflect your working style.This saves editing time, reduces back-and-forth, and helps you build trust in ChatGPT’s outputs.
+Custom Instructions let you shape how ChatGPT responds to you. You can provide preferences on tone, level of detail, and areas of focus so the AI can better match your needs. Combined with prompt engineering, memory and projects, you have multiple ways to make ChatGPT sound like you and reflect your working style.This saves editing time, reduces back-and-forth, and helps you build trust in ChatGPT’s outputs.
 
 ## **Try it out**
 
-There are a few ways to better customize ChatGPT’s responses. You can set instructions at multiple levels: at the user level through settings, within a specific project’s instructions, inside a custom GPT, or even just in the chat itself when you need a one-off adjustment.
+There are a few ways to better customize ChatGPT’s responses. You can set instructions at multiple levels: at the user level through settings, within a specific project’s instructions, or even just in the chat itself when you need a one-off adjustment.
 
 * **Set custom instructions through settings:** Go to your profile and then click “Personalize.”
 
@@ -46,9 +48,9 @@ There are a few ways to better customize ChatGPT’s responses. You can set inst
 
 *﻿*
 
-* **Us****e memory:** Enable memory so ChatGPT can remember your style preferences and reuse them across conversations. With memory turned on, ChatGPT can recall not just tone but also recurring details like preferred formats, terminology, or audiences. See [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq).
+* **Us****e memory:** Enable memory so ChatGPT can remember your style preferences and reuse them across conversations. With memory turned on, ChatGPT can recall not just tone but also recurring details like preferred formats, terminology, or audiences. See  [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq).
 
-* **Use instructions in GPTs and projects:** You can create a custom GPT that always responds in your preferred format or voice, or set project instructions that define the style and tone for a specific body of work. See [custom GPTs](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/custom-gpts) and [Projects.](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects)﻿
+* Use project instructions: Set project instructions that define the style and tone for a specific body of work. See  [Projects.](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects)﻿
 
 ## **Use cases for your role**
 
@@ -63,46 +65,57 @@ There are a few ways to better customize ChatGPT’s responses. You can set inst
 
 ## **Related resources**
 
-* ﻿[OpenAI Help Center: Custom Instructions](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions)﻿
+* ﻿ [OpenAI Help Center: Custom Instructions](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions)﻿
 
-* ﻿[OpenAI Help Center: Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq)﻿
+* ﻿ [OpenAI Help Center: Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq)﻿
 
-Table Of Contents
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for IT](/public/clubs/work-users-ynjqu/resources/use-cases-it)
 
-[ChatGPT for IT](/en/public/clubs/work-users-ynjqu/resources/use-cases-it)
+[ChatGPT for Healthcare](/public/clubs/work-users-ynjqu/resources/chatgpt-for-healthcare)
 
-[ChatGPT for Healthcare](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-healthcare)
+Jan 8th, 2026 • Views 18.8K
 
-Jan 8th, 2026 • Views 15.6K
+[ChatGPT for engineers](/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
 
-[ChatGPT for engineers](/en/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
+Jul 21st, 2025 • Views 242.3K
 
-Jul 21st, 2025 • Views 234.9K
+[ChatGPT for sales](/public/clubs/work-users-ynjqu/resources/use-cases-sales)
 
-[ChatGPT for sales](/en/public/clubs/work-users-ynjqu/resources/use-cases-sales)
+Jul 21st, 2025 • Views 245.8K
 
-Jul 21st, 2025 • Views 238.2K
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+Jul 21st, 2025 • Views 250.5K
 
-Jul 21st, 2025 • Views 244.6K
+[ChatGPT for Healthcare](/public/clubs/work-users-ynjqu/resources/chatgpt-for-healthcare)
 
-[ChatGPT for Healthcare](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-healthcare)
+Jan 8th, 2026 • Views 18.8K
 
-Jan 8th, 2026 • Views 15.6K
+[ChatGPT for sales](/public/clubs/work-users-ynjqu/resources/use-cases-sales)
 
-[ChatGPT for sales](/en/public/clubs/work-users-ynjqu/resources/use-cases-sales)
+Jul 21st, 2025 • Views 245.8K
 
-Jul 21st, 2025 • Views 238.2K
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+Jul 21st, 2025 • Views 250.5K
 
-Jul 21st, 2025 • Views 244.6K
+[ChatGPT for engineers](/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
 
-[ChatGPT for engineers](/en/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
+Jul 21st, 2025 • Views 242.3K
 
-Jul 21st, 2025 • Views 234.9K
+# Customizing ChatGPT
+
+<!-- vimeo: 1116808405 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116808405)
+
+<details>
+<summary>자막: Customizing ChatGPT</summary>
+
+Let's take a look at how to make chat GBT feel more tailored to you. In the top right or bottom left of your screen, you'll see your account icon. Click there and then choose customized chat, GBT. This is where you can tell chat GBT more about you like your role, your goals, or how you like responses formatted. That helps the model respond in ways that fit how you work. For example, I wrote that I'm on the go-to-market team at OpenAI and I wanna tell Chachi BT that I prefer concise action-oriented responses in sentence format. And I use the Oxford comma and click save. Now back to your account icon. Click it and you'll see settings. Under personalization you'll see memory. Memory. Lets cha GBT. Remember facts that you've shared, like your name, preferences, or ongoing projects so that you don't have to keep repeating them. You can manage your memories here. Let's try to add a memory. I'm going to tell Cha, GBTI live in New York City. Add that to memory and you can see that the memory's been updated. Let's go back to our managed memory and you can see that it knows that I'm located in New York City.
+
+</details>

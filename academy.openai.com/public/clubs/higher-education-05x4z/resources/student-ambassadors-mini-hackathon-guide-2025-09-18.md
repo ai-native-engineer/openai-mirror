@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/student-ambassadors-mini-hackathon-guide-2025-09-18 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -41,7 +41,7 @@ The mini hackathon gives your fellow students a fast-paced, creative space to:
 * **Share Knowledge**: Learn from each other’s ideas, prompts, and creative approaches.
 
 **Have Fun:** Work with peers, spark new connections, and maybe walk away with bragging rights or small prizes.
-**Don't forget to** [**log your event via the Ambassador form**](https://forms.gle/HUmraQpuc9JWsDnL7) **or share with [[email protected]](/cdn-cgi/l/email-protection)!**
+**Don't forget to**  [**log your event via the Ambassador form**](https://forms.gle/HUmraQpuc9JWsDnL7) **or share with [[email protected]](/cdn-cgi/l/email-protection)!**
 
 # Playbook
 
@@ -139,9 +139,9 @@ Group votes or judges pick winners (e.g., Most Creative, Most Useful, Funniest I
 
 * Encourage participants to keep experimenting with ChatGPT Edu and share their own use cases.
 
-## ﻿[**Submit An Event Recap**](https://forms.gle/HUmraQpuc9JWsDnL7)﻿
+## ﻿ [**Submit An Event Recap**](https://forms.gle/HUmraQpuc9JWsDnL7)﻿
 
-Like
+1
 
 Comments (0)
 
@@ -153,54 +153,54 @@ Comment
 
 Load more
 
-Table Of Contents
+Blog
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
 By Juliann Igo
 
-[AI Communication Toolkit](/en/public/clubs/higher-education-05x4z/resources/ai-communication-toolkit)
+Blog
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
 
-Jun 9th, 2026 • Views 400
+Aug 4th, 2026 • Views 529
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.6K
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
-
-Blog
-
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
-
-Jun 2nd, 2026 • Views 358
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
+Jun 9th, 2026 • Views 2.8K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
 
-Jun 2nd, 2026 • Views 358
+Aug 4th, 2026 • Views 529
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.6K
+
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+
+Jun 9th, 2026 • Views 2.8K
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K

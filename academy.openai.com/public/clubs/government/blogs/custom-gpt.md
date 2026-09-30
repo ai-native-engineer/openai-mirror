@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/custom-gpt -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 June 23, 2026
@@ -10,7 +14,7 @@ June 23, 2026
 
 # AI Techniques
 
-# ChatGPT
+# Government
 
 # Procurement
 
@@ -242,34 +246,78 @@ That is not cutting corners.
 
 That is how you stop letting preventable errors ride shotgun on otherwise solid acquisition work.
 
+Like
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+Blog
+
 [Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/clubs/government/blogs/technical-editor-gpt)
 
-Jun 30th, 2026 • Views 1
+Jun 30th, 2026 • Views 46
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+Blog
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
 
 [4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
+Video
+
 [ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 2
+By Amanda Bullock • Aug 6th, 2026 • Views 149
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+[44:46](/public/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
+
+Video
+
+[OpenAI OneGov 2.0: What Government Leaders Need to Know](/public/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
+
+By Alexis Bonnell • Sep 16th, 2026 • Views 483
+
+Blog
 
 [Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/clubs/government/blogs/technical-editor-gpt)
 
-Jun 30th, 2026 • Views 1
+Jun 30th, 2026 • Views 46
 
 [4:00](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
+Video
+
 [ChatGPT Projects vs Custom GPTs for Federal Workers](/public/clubs/government/videos/chatgpt-projects-vs-custom-gpts-for-federal-workers-2026-08-06)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 2
+By Amanda Bullock • Aug 6th, 2026 • Views 149
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+[44:46](/public/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+Video
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+[OpenAI OneGov 2.0: What Government Leaders Need to Know](/public/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
+
+By Alexis Bonnell • Sep 16th, 2026 • Views 483
+
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70

@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Projects
 
@@ -12,15 +12,19 @@
 
 # Advanced & Builder Skills
 
+# Work
+
+# Portfolio Company Knowledge Work
+
 ## Organize your ChatGPT work—now with team collaboration
 
-July 23, 2025 · Last updated on May 29, 2026
+July 23, 2025 · Last updated on September 17, 2026
 
 ![Projects](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-32--b3ba1856-dd9c-4a1a-8fd8-cd8f071a8ba6-1754317393422.jpeg?fit=scale-down&width=1200)
 
 # **What are projects?**
 
-***9/25/2025: Projects now allow for collaboration with other team members. Check out our blog announcement*** [***here***](https://openai.com/index/more-ways-to-work-with-your-team)***.***
+***9/25/2025: Projects now allow for collaboration with other team members. Check out our blog announcement***  [***here***](https://openai.com/index/more-ways-to-work-with-your-team)***.***
 
 Projects in ChatGPT let you organize work into dedicated spaces where you can gather context, files, and instructions. You can now invite teammates to collaborate in the same project—making it easier than ever to align on goals, share progress, and build together in ChatGPT.
 
@@ -61,24 +65,15 @@ Projects turn ChatGPT into a true team collaboration tool.
 | Finance | Work on budget models, track reporting files, document assumptions |
 | Product | Centralize PRDs, research, and roadmap notes with engineering and design |
 
-## **Projects vs. GPTs**
-
-Projects and GPTs both help you streamline work and bring context into in ChatGPT, but they’re designed for slightly different purposes:
-
-* **GPTs** are customized, private versions of ChatGPT—“single-player” by design, even if shared across a company. They’re discoverable in an internal GPT store, built to scale knowledge top-down, and remain static and curated by internal creators.
+## **Projects** for teamwork
 
 * **Projects** are structured containers where teams upload files, share chats, and preserve evolving context around a topic or workstream. They enable collaboration, organize work, and build shared knowledge over time as people add chats and files.
-
-| ﻿ | **GPTs** | **Shared Projects** |
-| --- | --- | --- |
-| **Best for** | ﻿  * Extending a department’s expertise to others  * Providing “official” curated guidance  * Templated use cases to help drive AI adoption across the org  * [Advanced] automating updates in other tools with custom actions | ﻿  * Multi-session work with an end goal or deliverable  * Ongoing work where teams can work off the same context (files, chats, instructions, project-only memory)  * Multiple people contributing new context and building on memory as the project evolves |
-| **Outcomes** | ﻿  * Consistency & speed: Employees get instant, standardized answers and processes without hunting across wikis.  * Scalable expertise: A single GPT can serve hundreds of employees, reducing redundant training and support tickets.  * Governance: Content remains static and vetted, giving admins control and trust. | ﻿  * Team alignment: Everyone works from the same live source of truth—fewer “where’s that file?” messages.  * Faster onboarding: Parallel work and shared memory cut ramp-up time on complex projects.  * Knowledge capture: Context compounds over time, so teammates can pick up where others left off. |
 
 ## Project-only memory
 
 Project-only memory is useful when you want to create a dedicated context environment, avoiding any context spillover from other work. This is especially useful for client management or multi-phase projects where you want ChatGPT’s context to stay anchored to that project’s specific tone, feedback, goals, and history. When you choose **project-only memory** during project creation:
 
-* Your previously [saved memories](https://help.openai.com/en/articles/11146739-how-does-reference-saved-memories-work) are not referenced during chats
+* Your previously  [saved memories](https://help.openai.com/en/articles/11146739-how-does-reference-saved-memories-work) are not referenced during chats
 
 * Chats can reference other conversations within the same project
 
@@ -86,7 +81,7 @@ Project-only memory is useful when you want to create a dedicated context enviro
 
 ![](https://downloads.intercomcdn.com/i/o/dgkjq2bp/1681929175/300e953ae37f790950b275e1e978/AD_4nXepUU2-qMUku-vgB8WX4sfZxibH5t_7Usym85X11VpDmm9DeraCyWWBYTm1k2PDcQO6bovpMC9SCAzNzwD7rcnG8-UGIPM2PUrZZ_HjKJSatXoE4cwJprWbBtB7OT2GTzogaVISIA?expires=1756131300&signature=086509c198260479bac6b95e2853b49c26c420bfa774d1b43a4d5b0e84841c6e&req=dSYvF8B8lIBYXPMW1HO4zddStPVI4y6F0HSR45KwYuT0mxqAk2N13JcjlbY2%0AsuFAd5yOWP53iG7EbDM%3D%0A)
 
-***Note*****:** *To use project‑only memory, enable* [***Reference saved memories***](https://intercom.help/openai/en/articles/11146739-how-does-reference-saved-memories-work) *and* [***Reference chat history***](https://intercom.help/openai/en/articles/11146739-how-does-reference-saved-memories-work) *in your personal settings. Additionally, It’s available only for* ***ChatGPT Enterprise and ChatGPT Business*** *users when* ***Memory*** *is enabled at the workspace level.*
+***Note*****:** *To use project‑only memory, enable*  [***Reference saved memories***](https://intercom.help/openai/en/articles/11146739-how-does-reference-saved-memories-work) *and*  [***Reference chat history***](https://intercom.help/openai/en/articles/11146739-how-does-reference-saved-memories-work) *in your personal settings. Additionally, It’s available only for* ***ChatGPT Enterprise and ChatGPT Business*** *users when* ***Memory*** *is enabled at the workspace level.*
 
 ### Examples for when to use project-only memory:
 
@@ -108,62 +103,56 @@ Project-only memory is useful when you want to create a dedicated context enviro
 
 ## **Related resources**
 
-* ﻿[Help Center: Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt#h_e8f291686b)﻿
+* ﻿ [Help Center: Projects in ChatGPT](https://help.openai.com/en/articles/10169521-projects-in-chatgpt#h_e8f291686b)﻿
 
-* OpenAI Blog: [More ways to work with your team (September 2025)](https://openai.com/index/more-ways-to-work-with-your-team)﻿
+* OpenAI Blog:  [More ways to work with your team (September 2025)](https://openai.com/index/more-ways-to-work-with-your-team)﻿
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[Skill Lab Handout: Planning Cross-Functional Projects](/public/clubs/work-users-ynjqu/resources/skill-lab-handout-planning-cross-functional-projects-2026-08-03)
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+Aug 3rd, 2026 • Views 1.1K
 
-Jun 23rd, 2026 • Views 175
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
-Video
-
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
-
-Jun 18th, 2026 • Views 646
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 23rd, 2026 • Views 400
+Sep 14th, 2026 • Views 1.5K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[Skill Lab Handout: Planning Cross-Functional Projects](/public/clubs/work-users-ynjqu/resources/skill-lab-handout-planning-cross-functional-projects-2026-08-03)
 
-Jun 23rd, 2026 • Views 175
+Aug 3rd, 2026 • Views 1.1K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+<!-- vimeo: 1121953894 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1121953894)

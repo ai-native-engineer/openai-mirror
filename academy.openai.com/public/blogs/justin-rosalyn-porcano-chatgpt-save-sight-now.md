@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/justin-rosalyn-porcano-chatgpt-save-sight-now -->
 
+Article
+
 August 5, 2026
 
 # Their second shift: racing to save their daughter’s sight
@@ -30,62 +32,52 @@ After work, once Lia is in bed, her parents begin their second shift. Justin use
 
 Their weeks move between gene-editing research, grant writing, school advocacy, and calls with newly diagnosed families—work that would typically require researchers, nonprofit staff, fundraisers, and administrators. ChatGPT helps two parents learn faster and communicate more clearly as they work alongside advisors and researchers toward one goal: developing treatments in time to help Lia and other children with Usher syndrome keep their sight.
 
-[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[14:48](/public/videos/introduction-to-chatgpt-edu-2025-03-20)
-
-[Introduction to ChatGPT Edu: Your AI-Powered Academic Companion](/public/videos/introduction-to-chatgpt-edu-2025-03-20)
-
-[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
-
-[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
-
-By Derrick Choi • Mar 2nd, 2026 • Views 44.4K
-
-[10:39](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
-
-[Using ChatGPT to Spot Scams](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
-
-By Jack Stubbs • Sep 26th, 2025 • Views 9.6K
-
-[6:40](/public/videos/introduction-to-gpts-2025-02-13)
-
-[Introduction to GPTs](/public/videos/introduction-to-gpts-2025-02-13)
-
-Mar 5th, 2025 • Views 54.2K
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Mar 8th, 2025 • Views 428.7K
-
-[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
-
-[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
-
-By Derrick Choi • Mar 2nd, 2026 • Views 44.4K
-
-[6:40](/public/videos/introduction-to-gpts-2025-02-13)
-
-[Introduction to GPTs](/public/videos/introduction-to-gpts-2025-02-13)
-
-Mar 5th, 2025 • Views 54.2K
-
-[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
+Video
 
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Mar 8th, 2025 • Views 428.7K
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[10:39](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+Blog
 
-[Using ChatGPT to Spot Scams](/public/videos/using-chatgpt-to-spot-scams-2025-09-25)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-By Jack Stubbs • Sep 26th, 2025 • Views 9.6K
+Sep 29th, 2026 • Views 16
+
+Blog
+
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
+
+Sep 28th, 2026 • Views 41
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
+
+Blog
+
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
+
+Sep 28th, 2026 • Views 41

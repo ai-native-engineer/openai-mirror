@@ -4,9 +4,17 @@
 
 [Content](/public/clubs/work-users-ynjqu/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # ChatGPT Work for business operations teams [Recording]
 
-Posted Aug 26, 2026 | Views 769
+Posted Aug 26, 2026 | Views 770
+
+# Work
+
+# Workplace & Business
 
 # ChatGPT for Work
 
@@ -14,13 +22,23 @@ Posted Aug 26, 2026 | Views 769
 
 # Portfolio Company Knowledge Work
 
+Share
+
+## SUMMARY
+
 Follow along using our resource guide: <https://academy.openai.com/home/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26>
+
++ Read More
+
+## Watch More
 
 [26:13](/public/videos/how-business-operations-teams-use-codex-2026-06-17)
 
 [How business operations teams use Codex [Recording]](/public/videos/how-business-operations-teams-use-codex-2026-06-17)
 
 Posted Jun 18, 2026 | Views 2.7K
+
+# Work
 
 # Codex for Work
 
@@ -34,6 +52,10 @@ Posted Aug 13, 2026 | Views 2K
 
 # ChatGPT for Work
 
+# Work
+
+# Workplace & Business
+
 # Use Cases
 
 # Portfolio Company Finance
@@ -46,6 +68,14 @@ Posted Aug 06, 2026 | Views 1.1K
 
 # ChatGPT for Work
 
+# Work
+
+# Workplace & Business
+
 # Use Cases
 
 # Portfolio Company Sales
+
+<!-- vimeo: 1221350415 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1221350415)

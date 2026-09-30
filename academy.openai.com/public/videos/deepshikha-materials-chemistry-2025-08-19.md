@@ -2,48 +2,13 @@
 
 # Deepshikha (Materials Chemistry)
 
-Posted Aug 01, 2025 | Views 639
+<!-- vimeo: 1111378822 | track: English (auto-generated) -->
 
-Dr. Deepshikha - Queen Mary University of London - School of Engineering and Materials Science
+[▶ Watch on Vimeo](https://vimeo.com/1111378822)
 
-The project, EduMark AI, explores how generative AI can streamline assessment workflows by providing faster (50-60% reduction in grading time), more consistent feedback and scores for both formative and summative assignments.
+<details>
+<summary>자막: Deepshikha (Materials Chemistry)</summary>
 
-Dr. Deepshikha is a Chemistry educator and researcher with over 15 years of international experience in teaching Chemistry, Nanotechnology, and Materials Science. A Fellow of the Higher Education Academy (FHEA) and Member of the Royal Society of Chemistry (MRSC). She currently leads the AI-driven EduMark AI project at Queen Mary University of London.
+Hello everyone. I'm Dr. Deep Sheika from Queen Mary University of London, where I teach material science and engineering courses, particularly materials chemistry and nanotechnology to U-G-N-P-G students. I did like to begin by taking a few minutes to share the background of how we have applied AI to transform assessment and feedback in higher education. We developed Dumar AI and AI driven grading and personalized student feedback system designed to save educator time. This project is supported by Droppers Fund for Innovation in Learning and teaching at Queen Mary. This initiative leverages cutting edge artificial intelligence to revolutionize grading and feedback processes in education. So this was not a solo effort. As the project lead, I led a cross-disciplinary team of experts from Queen Mary School of Engineering and Material Science, business studies and biological sciences. One of the key motivations behind the ERI project is to address the persistent challenges educator face in grading and feedback such as managing large student cohorts, addressing diverse learner needs, coping with the increasing academic workload, time consuming grading processes, potential subjective biases and delays in providing feedback to students, all of which significantly affect teaching quality and student satisfaction. To address these problems, we created a comprehensive solution ED with five key objectives, which are significant time savings for educators, enhanced consistency and objectivity in grading quicker personalized feedback for students, detailed data analysis of results and options for time prohibited forms of assessment. So thereby making assessment faster, fair, and more responsive to student needs. Through ai, we aim to reimagine assessment practices, ultimately transforming learning and teaching experiences. Our approach was methodical and evidence-based. We conducted a comparative analysis of four AI systems, chat, GPT, Google, Gemini, grade, and timely grader to assess their strengths and suitability for different assessment types. Overall chat G PT emerged as most balanced and adaptable foundation for EDU mark AI in terms of accuracy, speed, scalability, file, format, and integration. We then ran pilot testing in various, uh, queen Mary, uh, London and China campus modules and conducted simultaneous manual grading to establish benchmarks. The key was developing the optimized AI prompts and instructions specific to our subject areas, ensuring that the system understood the implications of scientific assessment. Then we collected student surveys for qualitative feedback and performed statistical analysis for grading accuracy, time efficiency, and satisfaction. The reserves exceeded our expectations. Our consistency analysis showed remarkable alignment between AI and educator grading across all mark ranges. Most importantly, the student feedback was overwhelmingly positive. Students rated the AI feedback quality as excellent or good, found it extremely clear and noted at it was very consistent or even better than traditional educator feedback. All students survey would recommend using AI grading. In other modules, students highlighted the clarity and specificity of comments. They appreciated that aju mark feedback identified areas for improvement, offered concrete examples of errors and provided actionable guidance to achieve higher marks. So overall, make it a lot easier for students to identify what went well and what needs improving. We achieved a 50 to 60% reduction in grading time, potentially saving 50% of time per educator for class of 50 plus students. And with enhanced feedback, quality and consistency, we are now expanding the pilot testing to other modules and developing the training materials for broader AI integration. Here is our user friendly web application EDU mark AI app interface, which we have developed. To simplify the educator experience educators, they can easily upload the rubrics, the exam papers, answer sheets and marking schemes. The system then provide automated grading with detailed, uh, and personalized feedback for every student. So this interface makes AI powered grading accessible to educators regardless of their technical background. A mark AI demonstrates that thoughtfully implemented AI can enhance rather than replace human expertise in education. Finally, I would like to express my sincere gratitude to Queen Mary University for their unwavering support throughout this project. Most importantly, a special thanks to open AI for empowering this educational transformation Through their technology and for giving us this opportunity to showcase our work to the global academic community. Thanks for listening. Thank you.
 
-Like
-
-Comments (0)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Posted Mar 08, 2025 | Views 439.1K
-
-# Foundations
-
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Posted Mar 23, 2025 | Views 273.4K
-
-[44:20](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-Posted Aug 24, 2026 | Views 251.1K
-
-# Use Cases
-
-# Portfolio Company Knowledge Work
+</details>

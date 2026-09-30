@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/the-ai-champion-role -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 Article
 
@@ -19,6 +19,8 @@ August 5, 2025 · Last updated on June 12, 2026
 # Leaders & Admins
 
 # Activators
+
+# Work
 
 ## Driving adoption, shaping change, and making AI stick.
 
@@ -118,7 +120,7 @@ They help identify where AI can create meaningful value, prioritize the opportun
 * Engage sponsors to provide air cover, resources, and accountability
 
 Leaders help the organization move from broad AI ambition to a focused set of priorities with visible sponsorship and a clear definition of value.
-[Explore resources to help you lead AI adoption.](https://academy.openai.com/home/clubs/champions-ecqup/collections/lead-2026-06-09)﻿
+ [Explore resources to help you lead AI adoption.](https://academy.openai.com/home/clubs/champions-ecqup/collections/lead-2026-06-09)﻿
 
 #### Deploy: Coordinate a successful AI rollout
 
@@ -142,7 +144,7 @@ They help teams plan launches, clarify governance requirements, secure the right
 
 Leaders help the organization move from a product or program announcement to a coordinated and responsible rollout.
 
-﻿[Explore resources to help you deploy AI at your organization.](https://academy.openai.com/home/clubs/champions-ecqup/collections/deploy-2026-06-09)﻿
+﻿ [Explore resources to help you deploy AI at your organization.](https://academy.openai.com/home/clubs/champions-ecqup/collections/deploy-2026-06-09)﻿
 
 #### Enable: Help people build the fluency they need to adopt AI with confidence
 
@@ -166,7 +168,7 @@ They shape adoption and education programs that connect product capabilities to 
 
 Leaders help the organization move from access to informed and confident use.
 
-﻿[Explore resources to help you enable your organization to adopt AI successfully.](https://academy.openai.com/home/clubs/champions-ecqup/collections/enable-2026-06-09)﻿
+﻿ [Explore resources to help you enable your organization to adopt AI successfully.](https://academy.openai.com/home/clubs/champions-ecqup/collections/enable-2026-06-09)﻿
 
 #### Integrate: Make AI part of how the team works
 
@@ -192,7 +194,7 @@ Because they are close to the work, Activators can see where AI fits, where a pr
 
 Activators help AI move from a general capability to an integrated part of how teams work and create impact.
 
-﻿[Explore resources to help you integrate AI into how your team gets work done.](https://academy.openai.com/home/clubs/champions-ecqup/collections/integrate-2026-06-09)﻿
+﻿ [Explore resources to help you integrate AI into how your team gets work done.](https://academy.openai.com/home/clubs/champions-ecqup/collections/integrate-2026-06-09)﻿
 
 # What Strong Champions Do Differently
 
@@ -282,7 +284,7 @@ The Champion Community on OpenAI Academy is a place to learn practical adoption 
 
 Use the Champion Community to find examples, join webinars, and bring useful ideas back to your team.
 
-Next step: [RSVP for our next event on AI adoption trends or a use case showcase that looks interesting to you.](https://academy.openai.com/home/clubs/champions-ecqup/events)﻿
+Next step:  [RSVP for our next event on AI adoption trends or a use case showcase that looks interesting to you.](https://academy.openai.com/home/clubs/champions-ecqup/events)﻿
 
 ### OpenAI Enterprise Champion Network
 
@@ -292,46 +294,44 @@ The OpenAI Enterprise Champion Network gives Enterprise Champions a private spac
 
 Members join discussion-based programs, learn from customer examples, share adoption feedback, and explore common challenges around sponsorship, governance, enablement, measurement, and workflow adoption.
 
-Next step: [**Join the OpenAI Enterprise Champion Network.**](https://champions.openai.com/home)﻿
+Next step:  [**Join the OpenAI Enterprise Champion Network.**](https://champions.openai.com/home)﻿
 
-Like
+2
 
-Table Of Contents
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+Jun 17th, 2026 • Views 1.2K
 
-Jun 17th, 2026 • Views 117
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-May 5th, 2026 • Views 244
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Jul 8th, 2026 • Views 1.7K
 
-Jun 12th, 2026 • Views 3.1K
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jun 12th, 2026 • Views 27.3K
 
-May 7th, 2026 • Views 323
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+Jun 17th, 2026 • Views 1.2K
 
-Jun 17th, 2026 • Views 117
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Jul 8th, 2026 • Views 1.7K
 
-Jun 12th, 2026 • Views 3.1K
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jun 12th, 2026 • Views 27.3K
 
-May 7th, 2026 • Views 323
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 244
+Jul 7th, 2026 • Views 1.2K

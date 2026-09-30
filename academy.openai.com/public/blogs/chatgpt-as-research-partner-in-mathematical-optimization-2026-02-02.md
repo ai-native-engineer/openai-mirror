@@ -14,6 +14,8 @@ February 2, 2026
 
 # Advanced & Builder Skills
 
+# Work
+
 ## A mathematician traces the leap from curiosity to publishable results.
 
 ![ChatGPT as research partner in mathematical optimization](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ryu-headshot-f39f0ca1-63fb-4e78-b6a1-ff75954bd962-1770060564782.jpeg?fit=scale-down&width=1200)
@@ -34,60 +36,64 @@ Since then, Ryu has joined OpenAI’s synthetic data team, where his core focus 
 
 External Content
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
+[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[8:32](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[AI for Nonprofits: Using Canva in ChatGPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
 
-[Deep Research in action](/en/public/resources/deep-research-in-action-2025-10-31)
+By Kyle Behrend
 
-By Lauren Oliphant • Nov 1st, 2025 • Views 3.1K
+Blog
 
-[8:32](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+[Deep Research in action](/public/resources/deep-research-in-action-2025-10-31)
+
+By Lauren Oliphant • Nov 1st, 2025 • Views 3.5K
+
+Blog
+
+[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
+
+Apr 1st, 2026 • Views 1.8K
+
+[4:26](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
 Video
 
-[AI for Nonprofits: Using Canva in ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[Use Deep Research with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.3K
-
-Blog
-
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
-
-Jun 14th, 2026 • Views 231
+Sep 11th, 2026 • Views 171
 
 Blog
 
-[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/en/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
+[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
 
-Apr 1st, 2026 • Views 998
+Jun 14th, 2026 • Views 837
 
-[Deep Research in action](/en/public/resources/deep-research-in-action-2025-10-31)
+[Deep Research in action](/public/resources/deep-research-in-action-2025-10-31)
 
-By Lauren Oliphant • Nov 1st, 2025 • Views 3.1K
+By Lauren Oliphant • Nov 1st, 2025 • Views 3.5K
 
-Blog
-
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
-
-Jun 14th, 2026 • Views 231
-
-Blog
-
-[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/en/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
-
-Apr 1st, 2026 • Views 998
-
-[8:32](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[4:26](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
 Video
 
-[AI for Nonprofits: Using Canva in ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03)
+[Use Deep Research with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
-By Kyle Behrend • Feb 3rd, 2026 • Views 2.3K
+Sep 11th, 2026 • Views 171
+
+Blog
+
+[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+
+Jun 14th, 2026 • Views 837
+
+Blog
+
+[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
+
+Apr 1st, 2026 • Views 1.8K

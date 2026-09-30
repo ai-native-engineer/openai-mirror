@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/before-the-first-meeting-a-morning-brief-for-government-chiefs-of-staff -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 9, 2026
@@ -8,11 +12,15 @@ September 9, 2026
 
 ![Before the first meeting: A morning brief for government chiefs of staff](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/academy-cover-v2-37c6d41f-ee1f-4fe3-8956-35c74c2f0ff7-1788874933039.jpeg?fit=scale-down&width=1200)
 
+# Government
+
 # Productivity
 
 ## How to use scheduled tasks in ChatGPT to build a repeatable briefing routine—with staff review built in.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Before the first meeting: A morning brief for government chiefs of staff](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/academy-cover-v2-37c6d41f-ee1f-4fe3-8956-35c74c2f0ff7-1788874933039.jpeg?fit=scale-down&width=1200)
 
@@ -150,38 +158,58 @@ That's ChatGPT Work.
 
 *Images are AI-generated editorial illustrations, not product screenshots or depictions of an actual government office.*
 
-[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-By Laura Keenan
+By David Sperry
 
-[A face behind the service: 5 image prompts for welcoming veterans](/public/clubs/government/blogs/a-face-behind-the-service-5-image-prompts-for-welcoming-veterans)
-
-By Laura Keenan
-
-By David Sperry • Jul 19th, 2025 • Views 210
-
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-By David Sperry • Jul 19th, 2025 • Views 114
-
-By David Sperry • Jul 19th, 2025 • Views 211
+Blog
 
 [Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
+By Laura Keenan
 
-By David Sperry • Jul 19th, 2025 • Views 210
+Blog
 
-By David Sperry • Jul 19th, 2025 • Views 211
+[ChatGPT for Governor’s Chief of Staff: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-governor-s-chief-of-staff-prompt-pack)
 
-[Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
+By Laura Keenan
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
+Blog
 
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
+[ChatGPT Prompt Pack for Deputy Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-deputy-chief-of-staff-prompt-pack)
 
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
+By Laura Keenan • Sep 21st, 2026 • Views 32
 
-By David Sperry • Jul 19th, 2025 • Views 114
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry • Jul 19th, 2025 • Views 330
+
+Blog
+
+[ChatGPT Prompt Pack for Congressional Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-chief-of-staff-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry • Jul 19th, 2025 • Views 334
+
+Blog
+
+[ChatGPT Prompt Pack for Deputy Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-deputy-chief-of-staff-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 32
+
+Blog
+
+[ChatGPT Prompt Pack for Congressional Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-chief-of-staff-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry • Jul 19th, 2025 • Views 334
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry • Jul 19th, 2025 • Views 330

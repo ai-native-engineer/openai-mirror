@@ -55,9 +55,9 @@ Through free in‑person events and online resources, we:
 
 Ready to go deeper after the event? Check out these resources to continue your AI learning journey:
 
-* Upcoming Academy [events](https://academy.openai.com/public/events).
+* Upcoming Academy  [events](https://academy.openai.com/public/events).
 
-* ﻿[**Codex for beginners**](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) - Codex is an AI agent you can delegate real work to. Learn how to get started with this webinar.
+* ﻿ [**Codex for beginners**](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) - Codex is an AI agent you can delegate real work to. Learn how to get started with this webinar.
 
 ## **🤝 Stay Connected**
 
@@ -213,56 +213,60 @@ The Academy series is an extension of the EU SME Accelerator Series: our overarc
 
 *AI is moving quickly, but the goal of this work is steady: give public servants better tools to serve the public, strengthen oversight, and support an economy where more people can benefit from innovation.*
 
-Table Of Contents
+[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
 
-[5:34](/en/public/videos/openai-llms-and-chatgpt-2025-02-13)
-
-Video
-
-[OpenAI, LLMs & ChatGPT](/en/public/videos/openai-llms-and-chatgpt-2025-02-13)
-
-[53:24](/en/public/videos/automate-knowledge-graphs)
+[53:24](/public/videos/automate-knowledge-graphs)
 
 Video
 
-[Automate Knowledge Graphs for RAG: Building GraphRAG with OpenAI API](/en/public/videos/automate-knowledge-graphs)
+[Automate Knowledge Graphs for RAG: Building GraphRAG with OpenAI API](/public/videos/automate-knowledge-graphs)
 
 By Gianni Crivello
 
-[Welcome to the OpenAI Builder Community](/en/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
+Blog
 
-[OpenAI Academy Code of Conduct](/en/public/resources/openai-academy-code-of-conduct-2026-06-11)
+[How Ariso uses OpenAI models to build a workplace coach](/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27)
 
-Jun 11th, 2026 • Views 11.5K
+[OpenAI Academy Code of Conduct](/public/resources/openai-academy-code-of-conduct-2026-06-11)
 
-External Content
+Jun 11th, 2026 • Views 17.8K
 
-[Learn more about the OpenAI Academy](/en/public/externals/learn-more-about-the-openai-academy-2025-02-20)
+[5:34](/public/videos/openai-llms-and-chatgpt-2025-02-13)
 
-Feb 20th, 2025 • Views 3.7K
+Video
 
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+[OpenAI, LLMs & ChatGPT](/public/videos/openai-llms-and-chatgpt-2025-02-13)
 
-Apr 15th, 2026 • Views 1.8K
+Mar 6th, 2025 • Views 44.1K
 
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
 
-By Calvin Landrum • Jun 4th, 2026 • Views 1K
-
-[OpenAI Academy Code of Conduct](/en/public/resources/openai-academy-code-of-conduct-2026-06-11)
-
-Jun 11th, 2026 • Views 11.5K
-
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
-
-Apr 15th, 2026 • Views 1.8K
-
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
-
-By Calvin Landrum • Jun 4th, 2026 • Views 1K
+Apr 15th, 2026 • Views 2.6K
 
 External Content
 
-[Learn more about the OpenAI Academy](/en/public/externals/learn-more-about-the-openai-academy-2025-02-20)
+[Learn more about the OpenAI Academy](/public/externals/learn-more-about-the-openai-academy-2025-02-20)
 
-Feb 20th, 2025 • Views 3.7K
+Feb 20th, 2025 • Views 3.8K
+
+[OpenAI Academy Code of Conduct](/public/resources/openai-academy-code-of-conduct-2026-06-11)
+
+Jun 11th, 2026 • Views 17.8K
+
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+
+Apr 15th, 2026 • Views 2.6K
+
+External Content
+
+[Learn more about the OpenAI Academy](/public/externals/learn-more-about-the-openai-academy-2025-02-20)
+
+Feb 20th, 2025 • Views 3.8K
+
+[5:34](/public/videos/openai-llms-and-chatgpt-2025-02-13)
+
+Video
+
+[OpenAI, LLMs & ChatGPT](/public/videos/openai-llms-and-chatgpt-2025-02-13)
+
+Mar 6th, 2025 • Views 44.1K

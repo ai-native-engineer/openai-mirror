@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29 -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.content](/en/public/clubs/k-12-it-and-technical-staff-axv4l/content)
+[Content](/public/clubs/k-12-it-and-technical-staff-axv4l/content)
 
 Article
 
@@ -43,14 +43,14 @@ Make sure you have:
 |  |  |  |  |
 | --- | --- | --- | --- |
 | Step | Action | What to do | Resource |
-| 1 | Confirm you are in the right workspace | * Accept the workspace invitation  * Open ChatGPT  * Use the workspace switcher to confirm you are configuring the district workspace rather than a personal or test workspace (bottom left) | ﻿[ChatGPT Workspace](https://help.openai.com/en/articles/8265430-what-is-a-chatgpt-enterprise-workspace-how-can-i-switch-workspaces)﻿ |
-| 2 | Rename the workspace for staff | * In workspace settings, update the name to the district-facing name staff should see in ChatGPT. | ﻿[Change Workspace Name and Image](https://help.openai.com/en/articles/8596238-how-can-i-edit-my-workspace-name-or-change-my-workspace-image)﻿ |
-| 3 | Add the district logo | * Upload an approved district logo or workspace image. | ﻿[Change Workspace Name and Image](https://help.openai.com/en/articles/8596238-how-can-i-edit-my-workspace-name-or-change-my-workspace-image)﻿ |
+| 1 | Confirm you are in the right workspace | * Accept the workspace invitation  * Open ChatGPT  * Use the workspace switcher to confirm you are configuring the district workspace rather than a personal or test workspace (bottom left) | ﻿ [ChatGPT Workspace](https://help.openai.com/en/articles/8265430-what-is-a-chatgpt-enterprise-workspace-how-can-i-switch-workspaces)﻿ |
+| 2 | Rename the workspace for staff | * In workspace settings, update the name to the district-facing name staff should see in ChatGPT. | ﻿ [Change Workspace Name and Image](https://help.openai.com/en/articles/8596238-how-can-i-edit-my-workspace-name-or-change-my-workspace-image)﻿ |
+| 3 | Add the district logo | * Upload an approved district logo or workspace image. | ﻿ [Change Workspace Name and Image](https://help.openai.com/en/articles/8596238-how-can-i-edit-my-workspace-name-or-change-my-workspace-image)﻿ |
 | 4 | Save support identifiers | * Record the organization ID and workspace ID in launch notes. | ﻿ |
-| 5 | Add initial owners and administrators | * Invite a small setup team  * Assign “Owner” for full configuration and billing access.  * Assign “Administrator” for operational management.  * Assign “Member” or standard access. | ﻿[Add Members](https://help.openai.com/en/articles/8266401-managing-members-seat-types-roles-and-access-in-chatgpt-enterprise)﻿ |
-| 6 | Add a workspace policy if needed | * Add a policy acknowledgment if the district wants staff to accept guidance before using ChatGPT. Cover intended use, data boundaries, output review, and support path. | ﻿[Manage Policy Modal](https://help.openai.com/en/articles/8411955-managing-workspace-settings-in-chatgpt-enterprise#manage-the-ai-policy-modal)﻿ |
-| 7 | Configure baseline workspace settings | * Use the K-12 Workspace Settings guide to configure settings  * Use Custom Roles to provide additional permissions | ﻿[K12 Workspace Settings Guide](https://academy.openai.com/home/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)﻿ |
-| 8 | Decide how users will be provisioned | * Use manual invites for a small setup group.  * For district-wide rollout, verify the domain, configure SSO, configure SCIM sync, and map groups to roles and shared resources. | ﻿[Getting Started with Identity and Provisioning](https://help.openai.com/en/articles/9672121-getting-started-with-identity-and-provisioning-in-chatgpt-enterprise-edu-and-chatgpt-for-teachers) |
+| 5 | Add initial owners and administrators | * Invite a small setup team  * Assign “Owner” for full configuration and billing access.  * Assign “Administrator” for operational management.  * Assign “Member” or standard access. | ﻿ [Add Members](https://help.openai.com/en/articles/8266401-managing-members-seat-types-roles-and-access-in-chatgpt-enterprise)﻿ |
+| 6 | Add a workspace policy if needed | * Add a policy acknowledgment if the district wants staff to accept guidance before using ChatGPT. Cover intended use, data boundaries, output review, and support path. | ﻿ [Manage Policy Modal](https://help.openai.com/en/articles/8411955-managing-workspace-settings-in-chatgpt-enterprise#manage-the-ai-policy-modal)﻿ |
+| 7 | Configure baseline workspace settings | * Use the K-12 Workspace Settings guide to configure settings  * Use Custom Roles to provide additional permissions | ﻿ [K12 Workspace Settings Guide](https://academy.openai.com/home/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)﻿ |
+| 8 | Decide how users will be provisioned | * Use manual invites for a small setup group.  * For district-wide rollout, verify the domain, configure SSO, configure SCIM sync, and map groups to roles and shared resources. | ﻿ [Getting Started with Identity and Provisioning](https://help.openai.com/en/articles/9672121-getting-started-with-identity-and-provisioning-in-chatgpt-enterprise-edu-and-chatgpt-for-teachers) |
 | 9 | Test with a small group | * Invite a small group that includes IT, instructional leaders, and representative users. Validate the full access flow before inviting all staff. | ﻿ |
 | 10 | Document the launch | * Create a short internal runbook for the setup team  * Make note of settings, groups, IDs, and other important information. | ﻿ |
 
@@ -60,48 +60,56 @@ Your workspace is ready for broader access when the workspace name and logo are 
 
 Blog
 
-[Configure Custom Roles for District Rollout](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
-
-May 29th, 2026 • Views 81
+[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
 
 Blog
 
-[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
+[Configure Custom Roles for District Rollout](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
 
-May 29th, 2026 • Views 101
-
-Blog
-
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
-
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+May 29th, 2026 • Views 648
 
 Blog
 
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+[Manage Connected Applications in ChatGPT](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
 
-May 29th, 2026 • Views 173
-
-Blog
-
-[Configure Custom Roles for District Rollout](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
-
-May 29th, 2026 • Views 81
+May 29th, 2026 • Views 1.4K
 
 Blog
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
 
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+By Juliann Igo • May 12th, 2025 • Views 9.8K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+[Configure Custom Roles for District Rollout](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
 
-May 29th, 2026 • Views 173
+May 29th, 2026 • Views 648
 
 Blog
 
-[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
 
-May 29th, 2026 • Views 101
+By Juliann Igo • May 12th, 2025 • Views 9.8K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Manage Connected Applications in ChatGPT](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+
+May 29th, 2026 • Views 1.4K

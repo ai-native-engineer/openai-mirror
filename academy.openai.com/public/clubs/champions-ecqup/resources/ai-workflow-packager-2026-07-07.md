@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # AI workflow packager
 
@@ -10,7 +10,7 @@
 
 # Activators
 
-# champions
+# Champions
 
 # Deployment & Adoption
 
@@ -149,10 +149,6 @@ Before finalizing, check whether another person could repeat the workflow withou
 | Human review | What someone must verify, edit, approve, or decide. |
 | Owner | The person or team responsible for keeping the workflow and supporting asset current. |
 
-﻿
-
-﻿
-
 Like
 
 Sign in or Join the community
@@ -161,68 +157,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-Resource
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Redesign one recurring workflow with AI](/public/clubs/champions-ecqup/resources/redesign-one-recurring-workflow-with-ai-2026-08-21)
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Aug 13th, 2026 • Views 305
 
-Resource
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+May 5th, 2026 • Views 1.1K
 
-Dive in
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-## Related
+Jul 7th, 2026 • Views 1.5K
 
-Resource
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
+May 7th, 2026 • Views 1.3K
 
-Jul 7th, 2026 • Views 7
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-Resource
+Aug 13th, 2026 • Views 305
 
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-May 5th, 2026 • Views 325
+Jul 7th, 2026 • Views 1.5K
 
-Resource
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+May 7th, 2026 • Views 1.3K
 
-May 7th, 2026 • Views 405
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-Resource
-
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 305
-
-Resource
-
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
-
-Jul 7th, 2026 • Views 7
-
-Resource
-
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 405
-
-Resource
-
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 305
-
-Resource
-
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-May 5th, 2026 • Views 325
+May 5th, 2026 • Views 1.1K

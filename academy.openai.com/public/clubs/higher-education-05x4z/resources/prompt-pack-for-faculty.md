@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -66,50 +66,48 @@ This page provides faculty with ready-to-use prompt examples to maximize the ben
 
 “Using the data set [link to CSV or spreadsheet], generate clear bar charts and scatter plots showing significant correlations. Provide annotated explanations so students can easily grasp the key insights and interpret the data with minimal guidance.”
 
-Table Of Contents
-
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
 By Siya Raj Purohit
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 42.9K
+By Juliann Igo • Aug 22nd, 2025 • Views 52.2K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-Jun 9th, 2026 • Views 400
+Jun 9th, 2026 • Views 2.8K
 
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
 
-Aug 22nd, 2025 • Views 13.9K
+Aug 22nd, 2025 • Views 15.8K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
+May 13th, 2026 • Views 1.3K
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 42.9K
+By Juliann Igo • Aug 22nd, 2025 • Views 52.2K
 
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
 
-Aug 22nd, 2025 • Views 13.9K
+Aug 22nd, 2025 • Views 15.8K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
+May 13th, 2026 • Views 1.3K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-Jun 9th, 2026 • Views 400
+Jun 9th, 2026 • Views 2.8K

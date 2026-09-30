@@ -242,74 +242,76 @@ That is not cutting corners.
 
 That is how you stop letting preventable errors ride shotgun on otherwise solid acquisition work.
 
-1
+3
 
 Blog
 
-[How GPT-5 turns equipment procurement into a lever for US reindustrialization](/en/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)
+[How GPT-5 turns equipment procurement into a lever for US reindustrialization](/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)
 
 Blog
 
-[Luke Xing used Codex to build a tool for his hearing loss](/en/public/blogs/luke-xing-codex-hearing-audio-tool)
-
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Luke Xing used Codex to build a tool for his hearing loss](/public/blogs/luke-xing-codex-hearing-audio-tool)
 
 Blog
 
-[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/en/public/blogs/technical-editor-gpt-main-review)
-
-Jun 14th, 2026 • Views 132
-
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Video
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Mar 23rd, 2025 • Views 267.1K
-
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
-
-Video
-
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
-
-By Kyle Behrend • Jul 17th, 2025 • Views 6.7K
-
-[58:22](/en/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
-
-Video
-
-[GPT-4o mini Fine-Tuning Build Hour](/en/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
-
-Feb 7th, 2025 • Views 13.5K
+[How Ariso uses OpenAI models to build a workplace coach](/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27)
 
 Blog
 
-[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/en/public/blogs/technical-editor-gpt-main-review)
+[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/blogs/technical-editor-gpt-main-review)
 
-Jun 14th, 2026 • Views 132
+Jun 14th, 2026 • Views 609
 
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
-
-Video
-
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
-
-By Kyle Behrend • Jul 17th, 2025 • Views 6.7K
-
-[58:22](/en/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[GPT-4o mini Fine-Tuning Build Hour](/en/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Feb 7th, 2025 • Views 13.5K
+Mar 23rd, 2025 • Views 273.4K
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[13:02](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 Video
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[AI for Nonprofits: Creating a Custom GPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
-Mar 23rd, 2025 • Views 267.1K
+By Kyle Behrend • Jul 17th, 2025 • Views 7.4K
+
+[58:22](/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+
+Video
+
+[GPT-4o mini Fine-Tuning Build Hour](/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+
+Feb 7th, 2025 • Views 13.7K
+
+Blog
+
+[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/blogs/technical-editor-gpt-main-review)
+
+Jun 14th, 2026 • Views 609
+
+[13:02](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+
+Video
+
+[AI for Nonprofits: Creating a Custom GPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+
+By Kyle Behrend • Jul 17th, 2025 • Views 7.4K
+
+[58:22](/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+
+Video
+
+[GPT-4o mini Fine-Tuning Build Hour](/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)
+
+Feb 7th, 2025 • Views 13.7K
+
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
+
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Mar 23rd, 2025 • Views 273.4K

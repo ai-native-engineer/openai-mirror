@@ -1,0 +1,667 @@
+<!-- source: https://developers.openai.com/api/reference/go/resources/beta/subresources/agents/methods/create/ -->
+
+## Create an agent
+
+`client.Beta.Agents.New(ctx, body) (*Agent, error)`
+
+**post** `/agents`
+
+Creates a reusable agent without storing credentials. See [agent configuration](/api/docs/guides/agents-api/configuration).
+
+- `body BetaAgentNewParams`
+
+  - `Model param.Field[string]`
+
+    The model to use for the agent. The requested model name is preserved.
+
+  - `Instructions param.Field[string]`
+
+    Additional instructions appended to the agent's default base instructions. Omit or set to null to add no custom instructions.
+
+  - `Metadata param.Field[map[string, string]]`
+
+    Up to 16 string key-value pairs, with keys up to 64 and values up to 512 characters. Omission or null defaults to an empty map.
+
+  - `MultiAgent param.Field[MultiAgentConfigParamResp]`
+
+    Configuration for creating and coordinating subagents. Subagent tools are disabled by default.
+
+  - `Name param.Field[string]`
+
+    A human-readable name for the agent. Omission or null leaves the agent unnamed.
+
+  - `Reasoning param.Field[AgentReasoningParamResp]`
+
+    Configuration for model reasoning. Omission uses the model's default effort.
+
+  - `ServiceTier param.Field[BetaAgentNewParamsServiceTier]`
+
+    The service tier used for model requests. Defaults to `auto`.
+
+    - `const BetaAgentNewParamsServiceTierAuto BetaAgentNewParamsServiceTier = "auto"`
+
+      Selects the service tier automatically.
+
+    - `const BetaAgentNewParamsServiceTierDefault BetaAgentNewParamsServiceTier = "default"`
+
+      Uses the default service tier.
+
+    - `const BetaAgentNewParamsServiceTierFlex BetaAgentNewParamsServiceTier = "flex"`
+
+      Uses the flex service tier.
+
+    - `const BetaAgentNewParamsServiceTierPriority BetaAgentNewParamsServiceTier = "priority"`
+
+      Uses the priority service tier.
+
+    - `const BetaAgentNewParamsServiceTierFast BetaAgentNewParamsServiceTier = "fast"`
+
+      Uses the fast service tier.
+
+    - `const BetaAgentNewParamsServiceTierUltrafast BetaAgentNewParamsServiceTier = "ultrafast"`
+
+      Uses the ultrafast service tier.
+
+  - `Text param.Field[AgentTextParamResp]`
+
+    Configuration for generated text. Defaults to the `text` format and medium verbosity.
+
+  - `Tools param.Field[[]PersistedAgentToolParamUnionResp]`
+
+    Tools available to the agent. Defaults to an empty list.
+
+    - `PersistedAgentToolParamFunctionResp`
+
+      - `Description string`
+
+        A description of what the function does.
+
+      - `Name string`
+
+        The name of the function.
+
+      - `Parameters map[string, any]`
+
+        A JSON Schema object describing the function's arguments.
+
+      - `Type Function`
+
+        The type of the object. Always `function`.
+
+        - `const FunctionFunction Function = "function"`
+
+      - `DeferLoading bool`
+
+        Whether this function is deferred and discovered through tool search. Defaults to `false`.
+
+    - `PersistedAgentToolParamToolSearchResp`
+
+      - `Type ToolSearch`
+
+        The type of the object. Always `tool_search`.
+
+        - `const ToolSearchToolSearch ToolSearch = "tool_search"`
+
+    - `PersistedAgentToolParamProgrammaticToolCallingResp`
+
+      - `Type ProgrammaticToolCalling`
+
+        The type of the object. Always `programmatic_tool_calling`.
+
+        - `const ProgrammaticToolCallingProgrammaticToolCalling ProgrammaticToolCalling = "programmatic_tool_calling"`
+
+      - `Enabled bool`
+
+        Whether tools can be called from model-generated code. Defaults to `true`.
+
+    - `PersistedAgentToolParamMcpResp`
+
+      - `ServerLabel string`
+
+        A label used to identify the MCP server in tool calls.
+
+      - `Transport PersistedMcpTransportParamUnionResp`
+
+        The credential-free transport used to connect to the MCP server.
+
+        - `PersistedMcpTransportParamHTTPResp`
+
+          - `ServerURL string`
+
+            The URL of the MCP server.
+
+          - `Type HTTP`
+
+            The type of the object. Always `http`.
+
+            - `const HTTPHTTP HTTP = "http"`
+
+          - `Headers map[string, string]`
+
+            Non-secret HTTP headers sent to the MCP server.
+
+        - `PersistedMcpTransportParamStdioResp`
+
+          - `Command string`
+
+            The command used to start the MCP server.
+
+          - `Cwd string`
+
+            The working directory used to start the MCP server.
+
+          - `Type Stdio`
+
+            The type of the object. Always `stdio`.
+
+            - `const StdioStdio Stdio = "stdio"`
+
+          - `Args []string`
+
+            Arguments passed to the MCP server command.
+
+          - `EnvVars []string`
+
+            Environment variable names to inherit from the selected execution environment.
+
+      - `Type Mcp`
+
+        The type of the object. Always `mcp`.
+
+        - `const McpMcp Mcp = "mcp"`
+
+      - `AllowedTools []string`
+
+        The MCP tools the agent may call. All server tools are allowed when omitted.
+
+      - `ConnectionOrigin string`
+
+        Selects where outbound MCP HTTP connections originate.
+
+        - `const PersistedAgentToolParamMcpConnectionOriginService PersistedAgentToolParamMcpConnectionOrigin = "service"`
+
+          Uses the Managed Agents service network.
+
+        - `const PersistedAgentToolParamMcpConnectionOriginEnvironment PersistedAgentToolParamMcpConnectionOrigin = "environment"`
+
+          Uses the session's execution environment.
+
+      - `CredentialID string`
+
+        The vault credential selected for this MCP server. Optional when exactly one attached credential matches the server URL.
+
+      - `RequestMetadata map[string, any]`
+
+        Metadata included with requests to this MCP server.
+
+      - `Required bool`
+
+        Whether this MCP server must initialize before the first turn. Defaults to `false`.
+
+    - `PersistedAgentToolParamWebSearchResp`
+
+      - `Type WebSearch`
+
+        The type of the object. Always `web_search`.
+
+        - `const WebSearchWebSearch WebSearch = "web_search"`
+
+      - `AllowedDomains []string`
+
+        Domains the search may include.
+
+      - `ContextSize string`
+
+        The amount of search context made available to the model. Defaults to `medium`.
+
+        - `const PersistedAgentToolParamWebSearchContextSizeLow PersistedAgentToolParamWebSearchContextSize = "low"`
+
+        - `const PersistedAgentToolParamWebSearchContextSizeMedium PersistedAgentToolParamWebSearchContextSize = "medium"`
+
+        - `const PersistedAgentToolParamWebSearchContextSizeHigh PersistedAgentToolParamWebSearchContextSize = "high"`
+
+      - `Location PersistedAgentToolParamWebSearchLocationResp`
+
+        Approximate location used to localize search results.
+
+        - `City string`
+
+          The city name.
+
+        - `Country string`
+
+          The two-letter ISO country code, such as `US`.
+
+        - `Region string`
+
+          The region or state name.
+
+        - `Timezone string`
+
+          The IANA timezone, such as `America/Los_Angeles`.
+
+      - `Mode string`
+
+        The source used for web search results. Defaults to `live`.
+
+        - `const PersistedAgentToolParamWebSearchModeDisabled PersistedAgentToolParamWebSearchMode = "disabled"`
+
+          Disables web search.
+
+        - `const PersistedAgentToolParamWebSearchModeCached PersistedAgentToolParamWebSearchMode = "cached"`
+
+          Uses cached search results.
+
+        - `const PersistedAgentToolParamWebSearchModeLive PersistedAgentToolParamWebSearchMode = "live"`
+
+          Searches the live web.
+
+    - `PersistedAgentToolParamComputerUseResp`
+
+      - `Type ComputerUse`
+
+        The type of the object. Always `computer_use`.
+
+        - `const ComputerUseComputerUse ComputerUse = "computer_use"`
+
+      - `IncludeScreenshots bool`
+
+        Whether computer tool outputs include screenshots. Defaults to `false`.
+
+- `type Agent struct{…}`
+
+  A reusable agent scoped to the caller's project.
+
+  - `ID string`
+
+    The ID of the reusable agent.
+
+  - `CreatedAt int64`
+
+    The Unix timestamp, in seconds, when the agent was created.
+
+  - `Instructions string`
+
+    Custom instructions appended to the agent's default base instructions.
+
+  - `Metadata map[string, string]`
+
+    Custom string key-value pairs attached to the agent.
+
+  - `Model string`
+
+    The requested model name used for inference.
+
+  - `MultiAgent MultiAgentConfig`
+
+    The resolved configuration for creating and coordinating subagents.
+
+    - `Enabled bool`
+
+      Whether subagent tools are enabled. Defaults to false.
+
+    - `MaxConcurrentSubagents int64`
+
+      Maximum number of subagents that may run concurrently, or null when disabled. Defaults to 6 when enabled.
+
+  - `Name string`
+
+    A human-readable name for the agent, or null if it is unnamed.
+
+  - `Object Agent`
+
+    The object type. Always `agent`.
+
+    - `const AgentAgent Agent = "agent"`
+
+  - `Reasoning AgentReasoning`
+
+    The resolved reasoning configuration, including the model default for an omitted effort.
+
+    - `Effort AgentReasoningEffort`
+
+      The requested reasoning effort, or `null` when the model selects its own default.
+
+      - `const AgentReasoningEffortNone AgentReasoningEffort = "none"`
+
+      - `const AgentReasoningEffortMinimal AgentReasoningEffort = "minimal"`
+
+      - `const AgentReasoningEffortLow AgentReasoningEffort = "low"`
+
+      - `const AgentReasoningEffortMedium AgentReasoningEffort = "medium"`
+
+      - `const AgentReasoningEffortHigh AgentReasoningEffort = "high"`
+
+      - `const AgentReasoningEffortXhigh AgentReasoningEffort = "xhigh"`
+
+      - `const AgentReasoningEffortMax AgentReasoningEffort = "max"`
+
+    - `Summary AgentReasoningSummary`
+
+      The requested reasoning summary format, or `null` when summaries are disabled.
+
+      - `const AgentReasoningSummaryConcise AgentReasoningSummary = "concise"`
+
+        Returns a concise reasoning summary when supported.
+
+      - `const AgentReasoningSummaryDetailed AgentReasoningSummary = "detailed"`
+
+        Returns a detailed reasoning summary when supported.
+
+      - `const AgentReasoningSummaryAuto AgentReasoningSummary = "auto"`
+
+        Automatically selects the most detailed summary supported by the model.
+
+  - `ServiceTier AgentServiceTier`
+
+    The resolved service-tier policy used for model requests.
+
+    - `const AgentServiceTierAuto AgentServiceTier = "auto"`
+
+    - `const AgentServiceTierDefault AgentServiceTier = "default"`
+
+    - `const AgentServiceTierFlex AgentServiceTier = "flex"`
+
+    - `const AgentServiceTierPriority AgentServiceTier = "priority"`
+
+    - `const AgentServiceTierFast AgentServiceTier = "fast"`
+
+    - `const AgentServiceTierUltrafast AgentServiceTier = "ultrafast"`
+
+  - `Text AgentText`
+
+    The resolved configuration for text generated by the agent.
+
+    - `Format TextFormatUnion`
+
+      The effective output format. Defaults to ordinary text.
+
+      - `type TextFormatText struct{…}`
+
+        Generates ordinary text without a structured-output constraint.
+
+        - `Type Text`
+
+          The type of the object. Always `text`.
+
+          - `const TextText Text = "text"`
+
+      - `type TextFormatJSONSchema struct{…}`
+
+        Constrains generated text to a JSON Schema.
+
+        - `Schema map[string, any]`
+
+          The JSON Schema that generated text must match.
+
+        - `Type JSONSchema`
+
+          The type of the object. Always `json_schema`.
+
+          - `const JSONSchemaJSONSchema JSONSchema = "json_schema"`
+
+    - `Verbosity AgentTextVerbosity`
+
+      The amount of text produced by the agent. Defaults to `medium`.
+
+      - `const AgentTextVerbosityLow AgentTextVerbosity = "low"`
+
+      - `const AgentTextVerbosityMedium AgentTextVerbosity = "medium"`
+
+      - `const AgentTextVerbosityHigh AgentTextVerbosity = "high"`
+
+  - `Tools []PersistedAgentToolUnion`
+
+    Tools available to the agent.
+
+    - `type PersistedAgentToolFunction struct{…}`
+
+      A function defined by the application.
+
+      - `DeferLoading bool`
+
+        Whether the function is deferred and discovered through tool search.
+
+      - `Description string`
+
+        A description of what the function does.
+
+      - `Name string`
+
+        The name of the function.
+
+      - `Parameters map[string, any]`
+
+        A JSON Schema object describing the function's arguments.
+
+      - `Type Function`
+
+        The type of the object. Always `function`.
+
+        - `const FunctionFunction Function = "function"`
+
+    - `type PersistedAgentToolToolSearch struct{…}`
+
+      Discovers deferred function tools and loads them into the model context.
+
+      - `Type ToolSearch`
+
+        The type of the object. Always `tool_search`.
+
+        - `const ToolSearchToolSearch ToolSearch = "tool_search"`
+
+    - `type PersistedAgentToolProgrammaticToolCalling struct{…}`
+
+      Enables calling tools from model-generated code.
+
+      - `Enabled bool`
+
+        Whether tools can be called from model-generated code.
+
+      - `Type ProgrammaticToolCalling`
+
+        The type of the object. Always `programmatic_tool_calling`.
+
+        - `const ProgrammaticToolCallingProgrammaticToolCalling ProgrammaticToolCalling = "programmatic_tool_calling"`
+
+    - `type PersistedAgentToolMcp struct{…}`
+
+      Tools provided by a remote MCP server without stored credentials.
+
+      - `AllowedTools []string`
+
+        The MCP tools the agent may call, or null when all server tools are allowed.
+
+      - `ConnectionOrigin string`
+
+        Where outbound MCP HTTP connections originate.
+
+        - `const PersistedAgentToolMcpConnectionOriginService PersistedAgentToolMcpConnectionOrigin = "service"`
+
+        - `const PersistedAgentToolMcpConnectionOriginEnvironment PersistedAgentToolMcpConnectionOrigin = "environment"`
+
+      - `CredentialID string`
+
+        The vault credential selected for this MCP server, if any.
+
+      - `RequestMetadata map[string, any]`
+
+        Metadata included with requests to this MCP server.
+
+      - `Required bool`
+
+        Whether this MCP server must initialize before the first turn.
+
+      - `ServerLabel string`
+
+        A label used to identify the MCP server in tool calls.
+
+      - `Transport PersistedMcpTransportUnion`
+
+        The credential-free transport used to connect to the MCP server.
+
+        - `type PersistedMcpTransportHTTP struct{…}`
+
+          Connects to an MCP server over HTTP.
+
+          - `Headers map[string, string]`
+
+            Non-secret HTTP headers sent to the MCP server.
+
+          - `ServerURL string`
+
+            The URL of the MCP server.
+
+          - `Type HTTP`
+
+            The type of the object. Always `http`.
+
+            - `const HTTPHTTP HTTP = "http"`
+
+        - `type PersistedMcpTransportStdio struct{…}`
+
+          Starts an MCP server as a local process.
+
+          - `Args []string`
+
+            Arguments passed to the MCP server command.
+
+          - `Command string`
+
+            The command used to start the MCP server.
+
+          - `Cwd string`
+
+            The working directory used to start the MCP server.
+
+          - `EnvVars []string`
+
+            Environment variable names inherited from the execution environment.
+
+          - `Type Stdio`
+
+            The type of the object. Always `stdio`.
+
+            - `const StdioStdio Stdio = "stdio"`
+
+      - `Type Mcp`
+
+        The type of the object. Always `mcp`.
+
+        - `const McpMcp Mcp = "mcp"`
+
+    - `type PersistedAgentToolWebSearch struct{…}`
+
+      Web search.
+
+      - `AllowedDomains []string`
+
+        Allowed search domains, or `null` when the search is unrestricted.
+
+      - `ContextSize string`
+
+        The amount of search context made available to the model. Defaults to `medium`.
+
+        - `const PersistedAgentToolWebSearchContextSizeLow PersistedAgentToolWebSearchContextSize = "low"`
+
+        - `const PersistedAgentToolWebSearchContextSizeMedium PersistedAgentToolWebSearchContextSize = "medium"`
+
+        - `const PersistedAgentToolWebSearchContextSizeHigh PersistedAgentToolWebSearchContextSize = "high"`
+
+      - `Location PersistedAgentToolWebSearchLocation`
+
+        Approximate location used to localize search results, if provided.
+
+        - `City string`
+
+          The city name.
+
+        - `Country string`
+
+          The two-letter ISO country code, such as `US`.
+
+        - `Region string`
+
+          The region or state name.
+
+        - `Timezone string`
+
+          The IANA timezone, such as `America/Los_Angeles`.
+
+      - `Mode string`
+
+        The source used for web search results.
+
+        - `const PersistedAgentToolWebSearchModeDisabled PersistedAgentToolWebSearchMode = "disabled"`
+
+        - `const PersistedAgentToolWebSearchModeCached PersistedAgentToolWebSearchMode = "cached"`
+
+        - `const PersistedAgentToolWebSearchModeLive PersistedAgentToolWebSearchMode = "live"`
+
+      - `Type WebSearch`
+
+        The type of the object. Always `web_search`.
+
+        - `const WebSearchWebSearch WebSearch = "web_search"`
+
+    - `type PersistedAgentToolComputerUse struct{…}`
+
+      Browser use in an OpenAI-hosted session.
+
+      - `IncludeScreenshots bool`
+
+        Whether computer tool outputs include screenshots.
+
+      - `Type ComputerUse`
+
+        The type of the object. Always `computer_use`.
+
+        - `const ComputerUseComputerUse ComputerUse = "computer_use"`
+
+  - `UpdatedAt int64`
+
+    The Unix timestamp, in seconds, when the agent was last updated.
+
+```go
+package main
+
+import (
+  "context"
+  "fmt"
+
+  "github.com/openai/openai-go"
+  "github.com/openai/openai-go/option"
+
+func main() {
+  client := openai.NewClient(
+    option.WithAPIKey("My API Key"),
+  agent, err := client.Beta.Agents.New(context.TODO(), openai.BetaAgentNewParams{
+    Model: "model",
+  })
+  if err != nil {
+    panic(err.Error())
+  fmt.Printf("%+v\n", agent.ID)
+
+  "instructions": "instructions",
+  "metadata": {
+    "foo": "string"
+  "model": "model",
+  "multi_agent": {
+    "enabled": true,
+    "max_concurrent_subagents": 1
+  "object": "agent",
+  "reasoning": {
+    "effort": "none",
+    "summary": "concise"
+  "service_tier": "auto",
+  "text": {
+    "format": {
+      "type": "text"
+    "verbosity": "low"
+  "tools": [
+      "defer_loading": true,
+      "description": "description",
+      "parameters": {
+        "foo": "bar"
+      "type": "function"
+  "updated_at": 0

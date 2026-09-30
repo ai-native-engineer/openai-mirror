@@ -2,11 +2,11 @@
 
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-August 20, 2026
+August 20, 2026 · Last updated on August 27, 2026
 
 # ChatGPT Work for data teams: Webinar Resource Guide
 
@@ -19,6 +19,10 @@ August 20, 2026
 # Workplace & Business
 
 # Use Cases
+
+# Portfolio Company Sales
+
+# Portfolio Company Finance
 
 ## Follow along with our webinar ChatGPT Work for data teams
 
@@ -106,7 +110,9 @@ Chat is useful when you need one focused answer from a connected source. That an
 
 Start a new Chat with your approved data connection available, then use this prompt:
 
+```
 In the latest available launch-readiness data, what is recorded as the main constraint on build capacity, and which source supports that answer?
+```
 
 In the webinar data, Chat identifies retail packaging as the recorded constraint. That is useful, but it only reports what one source says. It does not establish whether the supporting data is complete, whether another source disagrees, or whether the finding is ready to share.
 
@@ -118,6 +124,7 @@ Work can review the approved views together, flag issues that need attention, cr
 
 Start a new Work task, invoke  `@Data`  and your connected data-source plugin, then use this prompt. If you are working outside the webinar environment, replace the three demo view names and destination channel with approved sources and tools from your workspace.
 
+```
 @Data Use only these approved views in the connected Databricks workspace:
 
 - launch_build_gap
@@ -149,6 +156,7 @@ Identify the views, fields, and records used. Record when the review was run. St
 Separate source facts from interpretations and recommendations. Do not imply a trend or a cause unless the data supports it. Do not modify any source data. Do not claim the data is current or complete when that cannot be verified.
 
 When the workbook is ready, post a weekly data-health digest to the analytics team’s Slack channel. Include the overall status, the number of metric exceptions and data-quality issues, the highest-priority analyst check, anything that is not ready to share, and a link to the workbook.
+```
 
 The prompt limits Work to approved sources, defines a repeatable workbook structure, and states what Work must not infer or change.
 
@@ -158,7 +166,9 @@ In the webinar data, Work returns a **Blocked** review status, one critical exce
 
 Ask Work to show how it reached the most important finding:
 
+```
 Show your work for the packaging contradiction. Cite the Databricks views and records, and separate confirmed facts from what still needs verification.
+```
 
 The response should trace the contradiction to the supporting records without claiming to know why the sources disagree.
 
@@ -166,11 +176,13 @@ The response should trace the contradiction to the supporting records without cl
 
 After you approve the instructions, workbook structure, and Slack digest, use this prompt:
 
+```
 Schedule this workflow to run every Monday at 7:30 a.m.
 
 Each week, use only the three approved Databricks views. Create a new dated Google Sheet with the same four tabs, preserve all earlier weekly workbooks, and post the same data-health digest to the analytics team’s Slack channel.
 
 When a previous weekly workbook is available, compare the saved reviews and label each flagged item as new, ongoing, or no longer present. Base that comparison only on the saved weekly reviews. Do not modify the source data.
+```
 
 Each run should create a new workbook. Comparisons across weeks should use the saved review workbooks, not unsupported history inferred from point-in-time source data.
 
@@ -212,11 +224,13 @@ In the webinar, the assignment is to examine the packaging contradiction and cre
 
 Start a new Work task, invoke the Data and Databricks plugins, and make the **Blossom Labs Metric Diagnostic One-Pager Template** available. If you are adapting the workflow, use an approved template from your organization.
 
+```
 @Data @Blossom Labs Databricks MCP
 
 Using only launch_build_gap, component_readiness, and supplier_scorecard, investigate the packaging contradiction: it is recorded as the build constraint for both products, but its readiness is green with zero risk and missing inventory values.
 
 Create a new one-page Google Doc from the Blossom Labs Metric Diagnostic One-Pager Template for analytics review. Cite supporting records, separate confirmed evidence from open questions, and do not infer trends or causes from these point-in-time views.
+```
 
 This prompt defines the question, approved sources, requested document, audience, and limits of the evidence. Work decides how to perform the comparison and place the findings within the supplied template.
 
@@ -224,7 +238,9 @@ This prompt defines the question, approved sources, requested document, audience
 
 The presenter skips a second live spot-check in this demo. To practice the same review method yourself, choose one material claim and trace it back to the supporting records. For the webinar data, use:
 
+```
 Verify that packaging is recorded as the constraint for both products. Show the supporting Databricks views and records, and separate confirmed facts from what still needs verification.
+```
 
 ### What to review
 
@@ -256,7 +272,9 @@ The specific exception will change, but the review standard can stay the same. T
 
 Use this prompt:
 
+```
 Create a skill called metric-diagnostic-review from this workflow. Keep the template, evidence checks, and citation rules, but not this dataset or its findings. Ask for the metric, approved sources, and audience each time.
+```
 
 ### Find and share the skill
 
@@ -298,7 +316,9 @@ The simplest way to choose is to look at what you need back. If you need working
 
 You do not need to design the perfect workflow before you begin. Ask Work to suggest a few tasks based on your recent activity, then wait for your choice:
 
+```
 Based on my recent work, suggest three data science or analytics tasks I could hand off to ChatGPT Work. For each one, tell me what you would create and where I should start. Don’t begin until I choose.
+```
 
 ## Learn: Use Work across surfaces
 
@@ -338,34 +358,36 @@ Thanks for joining!
 
 [ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
-[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
+By Juliann Igo
 
-Aug 13th, 2026 • Views 215
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-[How data science teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-data-science-teams-use-codex-webinar-resource-guide-2026-05-28)
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-May 28th, 2026 • Views 1.5K
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-[ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
-
-Aug 6th, 2026 • Views 323
-
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
-
-By Diana Stegall • Aug 4th, 2026 • Views 1.2K
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
 [ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-Aug 13th, 2026 • Views 215
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 323
+Aug 6th, 2026 • Views 824
 
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Diana Stegall • Aug 4th, 2026 • Views 1.2K
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[How data science teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-data-science-teams-use-codex-webinar-resource-guide-2026-05-28)
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-May 28th, 2026 • Views 1.5K
+Aug 13th, 2026 • Views 851
+
+[ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
+
+Aug 6th, 2026 • Views 824
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K

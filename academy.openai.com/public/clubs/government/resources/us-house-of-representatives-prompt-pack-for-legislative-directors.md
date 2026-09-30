@@ -16,8 +16,6 @@ September 18, 2026
 
 # Congressional Staffers
 
-# ChatGPT
-
 # Legislative Planning
 
 ## 30 ChatGPT Enterprise prompts for Legislative Directors and their teams
@@ -73,12 +71,6 @@ The PDF includes all 30 prompts, recommended inputs, and guidance for adapting t
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/House-Legislative-Director-ChatGPT-Enterprise-Prompt-Pack-88cef6bb-1f0b-49e6-93c2-583c77177c4c-1789767685786.pdf) the file to view.
 
-﻿
-
-﻿
-
-## Popular
-
 [32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
 
 Video
@@ -87,66 +79,56 @@ Video
 
 By Lee Dunn
 
-Resource
+Blog
+
+[ChatGPT Prompt Pack for Congressional Field Representatives](/public/clubs/government/blogs/chatgpt-congressional-field-representative-prompt-pack)
+
+By Laura Keenan
 
 [Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
 By David Sperry
 
-Resource
-
-[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
-
-By David Sperry
-
-Dive in
-
-## Related
-
-Resource
-
 [U.S. House of Representatives Prompt Pack for Communications Directors](/public/clubs/government/resources/us-house-of-representatives-prompt-pack-for-communications-directors)
 
-By Laura Keenan • Sep 18th, 2026 • Views 77
+By Laura Keenan • Sep 18th, 2026 • Views 125
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Assistants](/public/clubs/government/blogs/chatgpt-congressional-legislative-assistant-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By Laura Keenan • Sep 21st, 2026 • Views 58
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Directors](/public/clubs/government/blogs/chatgpt-congressional-legislative-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 17
+By Laura Keenan • Sep 21st, 2026 • Views 60
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Correspondents](/public/clubs/government/blogs/chatgpt-congressional-legislative-correspondent-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 12
-
-Resource
+By Laura Keenan • Sep 21st, 2026 • Views 31
 
 [U.S. House of Representatives Prompt Pack for Communications Directors](/public/clubs/government/resources/us-house-of-representatives-prompt-pack-for-communications-directors)
 
-By Laura Keenan • Sep 18th, 2026 • Views 77
+By Laura Keenan • Sep 18th, 2026 • Views 125
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Directors](/public/clubs/government/blogs/chatgpt-congressional-legislative-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 17
+By Laura Keenan • Sep 21st, 2026 • Views 60
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Correspondents](/public/clubs/government/blogs/chatgpt-congressional-legislative-correspondent-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 12
+By Laura Keenan • Sep 21st, 2026 • Views 31
 
 Blog
 
 [ChatGPT Prompt Pack for Legislative Assistants](/public/clubs/government/blogs/chatgpt-congressional-legislative-assistant-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By Laura Keenan • Sep 21st, 2026 • Views 58

@@ -1,0 +1,756 @@
+<!-- source: https://developers.openai.com/api/reference/ruby/resources/beta/subresources/agents/methods/create/ -->
+
+## Create an agent
+
+`beta.agents.create(**kwargs) -> Agent`
+
+**post** `/agents`
+
+Creates a reusable agent without storing credentials. See [agent configuration](/api/docs/guides/agents-api/configuration).
+
+- `model: String`
+
+  The model to use for the agent. The requested model name is preserved.
+
+- `instructions: String`
+
+  Additional instructions appended to the agent's default base instructions. Omit or set to null to add no custom instructions.
+
+- `metadata: Hash[Symbol, String]`
+
+  Up to 16 string key-value pairs, with keys up to 64 and values up to 512 characters. Omission or null defaults to an empty map.
+
+- `multi_agent: MultiAgentConfigParam`
+
+  Configuration for creating and coordinating subagents. Subagent tools are disabled by default.
+
+  - `enabled: bool`
+
+    Whether subagent tools are enabled.
+
+  - `max_concurrent_subagents: Integer`
+
+    Maximum number of subagents that may run concurrently. Defaults to 6.
+
+- `name: String`
+
+  A human-readable name for the agent. Omission or null leaves the agent unnamed.
+
+- `reasoning: AgentReasoningParam`
+
+  Configuration for model reasoning. Omission uses the model's default effort.
+
+  - `effort: :none | :minimal | :low | 4 more`
+
+    The amount of reasoning effort the model should use. Omission lets the model select it.
+
+    - `:none`
+
+    - `:minimal`
+
+    - `:low`
+
+    - `:medium`
+
+    - `:high`
+
+    - `:xhigh`
+
+    - `:max`
+
+  - `summary: :concise | :detailed | :auto`
+
+    Controls whether the response includes a reasoning summary.
+
+    - `:concise`
+
+      Returns a concise reasoning summary when supported.
+
+    - `:detailed`
+
+      Returns a detailed reasoning summary when supported.
+
+    - `:auto`
+
+      Automatically selects the most detailed summary supported by the model.
+
+- `service_tier: :auto | :default | :flex | 3 more`
+
+  The service tier used for model requests. Defaults to `auto`.
+
+  - `:auto`
+
+    Selects the service tier automatically.
+
+  - `:default`
+
+    Uses the default service tier.
+
+  - `:flex`
+
+    Uses the flex service tier.
+
+  - `:priority`
+
+    Uses the priority service tier.
+
+  - `:fast`
+
+    Uses the fast service tier.
+
+  - `:ultrafast`
+
+    Uses the ultrafast service tier.
+
+- `text: AgentTextParam`
+
+  Configuration for generated text. Defaults to the `text` format and medium verbosity.
+
+  - `format_: TextFormatParam`
+
+    The output format. Omission uses ordinary text (`{"type": "text"}`).
+
+    - `class Text`
+
+      Generates ordinary text without a structured-output constraint.
+
+      - `type: :text`
+
+        The type of the object. Always `text`.
+
+        - `:text`
+
+    - `class JSONSchema`
+
+      Constrains generated text to a JSON Schema.
+
+      - `schema: Hash[Symbol, untyped]`
+
+        The JSON Schema that generated text must match.
+
+      - `type: :json_schema`
+
+        The type of the object. Always `json_schema`.
+
+        - `:json_schema`
+
+  - `verbosity: :low | :medium | :high`
+
+    The amount of text the model should produce. Defaults to `medium`, matching Responses.
+
+    - `:low`
+
+      Produces less text.
+
+    - `:medium`
+
+      Uses the default amount of text.
+
+    - `:high`
+
+      Produces more text.
+
+- `tools: Array[PersistedAgentToolParam]`
+
+  Tools available to the agent. Defaults to an empty list.
+
+  - `class Function`
+
+    A function defined by the application.
+
+    - `description: String`
+
+      A description of what the function does.
+
+    - `name: String`
+
+      The name of the function.
+
+    - `parameters: Hash[Symbol, untyped]`
+
+      A JSON Schema object describing the function's arguments.
+
+    - `type: :function`
+
+      The type of the object. Always `function`.
+
+      - `:function`
+
+    - `defer_loading: bool`
+
+      Whether this function is deferred and discovered through tool search. Defaults to `false`.
+
+  - `class ToolSearch`
+
+    Discovers deferred function tools and loads them into the model context.
+
+    - `type: :tool_search`
+
+      The type of the object. Always `tool_search`.
+
+      - `:tool_search`
+
+  - `class ProgrammaticToolCalling`
+
+    Enables calling tools from model-generated code.
+
+    - `type: :programmatic_tool_calling`
+
+      The type of the object. Always `programmatic_tool_calling`.
+
+      - `:programmatic_tool_calling`
+
+    - `enabled: bool`
+
+      Whether tools can be called from model-generated code. Defaults to `true`.
+
+  - `class Mcp`
+
+    Tools provided by a remote MCP server without stored credentials.
+
+    - `server_label: String`
+
+      A label used to identify the MCP server in tool calls.
+
+    - `transport: PersistedMcpTransportParam`
+
+      The credential-free transport used to connect to the MCP server.
+
+      - `class HTTP`
+
+        Connects to an MCP server over HTTP.
+
+        - `server_url: String`
+
+          The URL of the MCP server.
+
+        - `type: :http`
+
+          The type of the object. Always `http`.
+
+          - `:http`
+
+        - `headers: Hash[Symbol, String]`
+
+          Non-secret HTTP headers sent to the MCP server.
+
+      - `class Stdio`
+
+        Starts an MCP server as a local process.
+
+        - `command: String`
+
+          The command used to start the MCP server.
+
+        - `cwd: String`
+
+          The working directory used to start the MCP server.
+
+        - `type: :stdio`
+
+          The type of the object. Always `stdio`.
+
+          - `:stdio`
+
+        - `args: Array[String]`
+
+          Arguments passed to the MCP server command.
+
+        - `env_vars: Array[String]`
+
+          Environment variable names to inherit from the selected execution environment.
+
+    - `type: :mcp`
+
+      The type of the object. Always `mcp`.
+
+      - `:mcp`
+
+    - `allowed_tools: Array[String]`
+
+      The MCP tools the agent may call. All server tools are allowed when omitted.
+
+    - `connection_origin: :service | :environment`
+
+      Selects where outbound MCP HTTP connections originate.
+
+      - `:service`
+
+        Uses the Managed Agents service network.
+
+      - `:environment`
+
+        Uses the session's execution environment.
+
+    - `credential_id: String`
+
+      The vault credential selected for this MCP server. Optional when exactly one attached credential matches the server URL.
+
+    - `request_metadata: Hash[Symbol, untyped]`
+
+      Metadata included with requests to this MCP server.
+
+    - `required: bool`
+
+      Whether this MCP server must initialize before the first turn. Defaults to `false`.
+
+  - `class WebSearch`
+
+    Web search.
+
+    - `type: :web_search`
+
+      The type of the object. Always `web_search`.
+
+      - `:web_search`
+
+    - `allowed_domains: Array[String]`
+
+      Domains the search may include.
+
+    - `context_size: :low | :medium | :high`
+
+      The amount of search context made available to the model. Defaults to `medium`.
+
+      - `:low`
+
+      - `:medium`
+
+      - `:high`
+
+    - `location: Location{ city, country, region, timezone}`
+
+      Approximate location used to localize search results.
+
+      - `city: String`
+
+        The city name.
+
+      - `country: String`
+
+        The two-letter ISO country code, such as `US`.
+
+      - `region: String`
+
+        The region or state name.
+
+      - `timezone: String`
+
+        The IANA timezone, such as `America/Los_Angeles`.
+
+    - `mode: :disabled | :cached | :live`
+
+      The source used for web search results. Defaults to `live`.
+
+      - `:disabled`
+
+        Disables web search.
+
+      - `:cached`
+
+        Uses cached search results.
+
+      - `:live`
+
+        Searches the live web.
+
+  - `class ComputerUse`
+
+    Browser use in an OpenAI-hosted session.
+
+    - `type: :computer_use`
+
+      The type of the object. Always `computer_use`.
+
+      - `:computer_use`
+
+    - `include_screenshots: bool`
+
+      Whether computer tool outputs include screenshots. Defaults to `false`.
+
+- `class Agent`
+
+  A reusable agent scoped to the caller's project.
+
+  - `id: String`
+
+    The ID of the reusable agent.
+
+  - `created_at: Integer`
+
+    The Unix timestamp, in seconds, when the agent was created.
+
+  - `instructions: String`
+
+    Custom instructions appended to the agent's default base instructions.
+
+  - `metadata: Hash[Symbol, String]`
+
+    Custom string key-value pairs attached to the agent.
+
+  - `model: String`
+
+    The requested model name used for inference.
+
+  - `multi_agent: MultiAgentConfig`
+
+    The resolved configuration for creating and coordinating subagents.
+
+    - `enabled: bool`
+
+      Whether subagent tools are enabled. Defaults to false.
+
+    - `max_concurrent_subagents: Integer`
+
+      Maximum number of subagents that may run concurrently, or null when disabled. Defaults to 6 when enabled.
+
+  - `name: String`
+
+    A human-readable name for the agent, or null if it is unnamed.
+
+  - `object: :agent`
+
+    The object type. Always `agent`.
+
+    - `:agent`
+
+  - `reasoning: AgentReasoning`
+
+    The resolved reasoning configuration, including the model default for an omitted effort.
+
+    - `effort: :none | :minimal | :low | 4 more`
+
+      The requested reasoning effort, or `null` when the model selects its own default.
+
+      - `:none`
+
+      - `:minimal`
+
+      - `:low`
+
+      - `:medium`
+
+      - `:high`
+
+      - `:xhigh`
+
+      - `:max`
+
+    - `summary: :concise | :detailed | :auto`
+
+      The requested reasoning summary format, or `null` when summaries are disabled.
+
+      - `:concise`
+
+        Returns a concise reasoning summary when supported.
+
+      - `:detailed`
+
+        Returns a detailed reasoning summary when supported.
+
+      - `:auto`
+
+        Automatically selects the most detailed summary supported by the model.
+
+  - `service_tier: :auto | :default | :flex | 3 more`
+
+    The resolved service-tier policy used for model requests.
+
+    - `:auto`
+
+    - `:default`
+
+    - `:flex`
+
+    - `:priority`
+
+    - `:fast`
+
+    - `:ultrafast`
+
+  - `text: AgentText`
+
+    The resolved configuration for text generated by the agent.
+
+    - `format_: TextFormat`
+
+      The effective output format. Defaults to ordinary text.
+
+      - `class Text`
+
+        Generates ordinary text without a structured-output constraint.
+
+        - `type: :text`
+
+          The type of the object. Always `text`.
+
+          - `:text`
+
+      - `class JSONSchema`
+
+        Constrains generated text to a JSON Schema.
+
+        - `schema: Hash[Symbol, untyped]`
+
+          The JSON Schema that generated text must match.
+
+        - `type: :json_schema`
+
+          The type of the object. Always `json_schema`.
+
+          - `:json_schema`
+
+    - `verbosity: :low | :medium | :high`
+
+      The amount of text produced by the agent. Defaults to `medium`.
+
+      - `:low`
+
+      - `:medium`
+
+      - `:high`
+
+  - `tools: Array[PersistedAgentTool]`
+
+    Tools available to the agent.
+
+    - `class Function`
+
+      A function defined by the application.
+
+      - `defer_loading: bool`
+
+        Whether the function is deferred and discovered through tool search.
+
+      - `description: String`
+
+        A description of what the function does.
+
+      - `name: String`
+
+        The name of the function.
+
+      - `parameters: Hash[Symbol, untyped]`
+
+        A JSON Schema object describing the function's arguments.
+
+      - `type: :function`
+
+        The type of the object. Always `function`.
+
+        - `:function`
+
+    - `class ToolSearch`
+
+      Discovers deferred function tools and loads them into the model context.
+
+      - `type: :tool_search`
+
+        The type of the object. Always `tool_search`.
+
+        - `:tool_search`
+
+    - `class ProgrammaticToolCalling`
+
+      Enables calling tools from model-generated code.
+
+      - `enabled: bool`
+
+        Whether tools can be called from model-generated code.
+
+      - `type: :programmatic_tool_calling`
+
+        The type of the object. Always `programmatic_tool_calling`.
+
+        - `:programmatic_tool_calling`
+
+    - `class Mcp`
+
+      Tools provided by a remote MCP server without stored credentials.
+
+      - `allowed_tools: Array[String]`
+
+        The MCP tools the agent may call, or null when all server tools are allowed.
+
+      - `connection_origin: :service | :environment`
+
+        Where outbound MCP HTTP connections originate.
+
+        - `:service`
+
+        - `:environment`
+
+      - `credential_id: String`
+
+        The vault credential selected for this MCP server, if any.
+
+      - `request_metadata: Hash[Symbol, untyped]`
+
+        Metadata included with requests to this MCP server.
+
+      - `required: bool`
+
+        Whether this MCP server must initialize before the first turn.
+
+      - `server_label: String`
+
+        A label used to identify the MCP server in tool calls.
+
+      - `transport: PersistedMcpTransport`
+
+        The credential-free transport used to connect to the MCP server.
+
+        - `class HTTP`
+
+          Connects to an MCP server over HTTP.
+
+          - `headers: Hash[Symbol, String]`
+
+            Non-secret HTTP headers sent to the MCP server.
+
+          - `server_url: String`
+
+            The URL of the MCP server.
+
+          - `type: :http`
+
+            The type of the object. Always `http`.
+
+            - `:http`
+
+        - `class Stdio`
+
+          Starts an MCP server as a local process.
+
+          - `args: Array[String]`
+
+            Arguments passed to the MCP server command.
+
+          - `command: String`
+
+            The command used to start the MCP server.
+
+          - `cwd: String`
+
+            The working directory used to start the MCP server.
+
+          - `env_vars: Array[String]`
+
+            Environment variable names inherited from the execution environment.
+
+          - `type: :stdio`
+
+            The type of the object. Always `stdio`.
+
+            - `:stdio`
+
+      - `type: :mcp`
+
+        The type of the object. Always `mcp`.
+
+        - `:mcp`
+
+    - `class WebSearch`
+
+      Web search.
+
+      - `allowed_domains: Array[String]`
+
+        Allowed search domains, or `null` when the search is unrestricted.
+
+      - `context_size: :low | :medium | :high`
+
+        The amount of search context made available to the model. Defaults to `medium`.
+
+        - `:low`
+
+        - `:medium`
+
+        - `:high`
+
+      - `location: Location{ city, country, region, timezone}`
+
+        Approximate location used to localize search results, if provided.
+
+        - `city: String`
+
+          The city name.
+
+        - `country: String`
+
+          The two-letter ISO country code, such as `US`.
+
+        - `region: String`
+
+          The region or state name.
+
+        - `timezone: String`
+
+          The IANA timezone, such as `America/Los_Angeles`.
+
+      - `mode: :disabled | :cached | :live`
+
+        The source used for web search results.
+
+        - `:disabled`
+
+        - `:cached`
+
+        - `:live`
+
+      - `type: :web_search`
+
+        The type of the object. Always `web_search`.
+
+        - `:web_search`
+
+    - `class ComputerUse`
+
+      Browser use in an OpenAI-hosted session.
+
+      - `include_screenshots: bool`
+
+        Whether computer tool outputs include screenshots.
+
+      - `type: :computer_use`
+
+        The type of the object. Always `computer_use`.
+
+        - `:computer_use`
+
+  - `updated_at: Integer`
+
+    The Unix timestamp, in seconds, when the agent was last updated.
+
+```ruby
+require "openai"
+
+openai = OpenAI::Client.new(api_key: "My API Key")
+
+agent = openai.beta.agents.create(model: "model")
+
+puts(agent)
+
+  "instructions": "instructions",
+  "metadata": {
+    "foo": "string"
+  "model": "model",
+  "multi_agent": {
+    "enabled": true,
+    "max_concurrent_subagents": 1
+  "object": "agent",
+  "reasoning": {
+    "effort": "none",
+    "summary": "concise"
+  "service_tier": "auto",
+  "text": {
+    "format": {
+      "type": "text"
+    "verbosity": "low"
+  "tools": [
+      "defer_loading": true,
+      "description": "description",
+      "parameters": {
+        "foo": "bar"
+      "type": "function"
+  "updated_at": 0

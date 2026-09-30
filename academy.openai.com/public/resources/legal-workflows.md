@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/resources/legal-workflows -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 August 4, 2026 · Last updated on August 31, 2026
@@ -11,6 +15,8 @@ August 4, 2026 · Last updated on August 31, 2026
 ## A practical workflow for government legal teams
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-14--e20eb3a6-0fa5-48a7-a806-90cb8951f1fd-1785858884523.jpeg?fit=scale-down&width=1200)
 
@@ -134,30 +140,58 @@ The value is not simply a faster first draft. It is a clearer path from source m
 
 Learn how to  [get started with ChatGPT Work](https://learn.chatgpt.com/docs/get-started-with-work), then explore  [skills and plugins](https://learn.chatgpt.com/docs/skills-and-plugins) for repeatable workflows. Before using organizational data, review your agency’s policies and workspace configuration.
 
+Like
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
 
 [From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
 
-By Laura Keenan • Aug 11th, 2026 • Views 14
+By Laura Keenan • Aug 11th, 2026 • Views 80
 
 [A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
 
-By Laura Keenan • Jul 31st, 2026 • Views 7
+By Laura Keenan • Jul 31st, 2026 • Views 117
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
 [From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
 
-By Laura Keenan • Aug 11th, 2026 • Views 14
+By Laura Keenan • Aug 11th, 2026 • Views 80
 
 [A veteran's guide to using ChatGPT Work for a career transition](/public/clubs/government/resources/a-veterans-guide-to-using-chatgpt-for-career-transition)
 
-By Laura Keenan • Jul 31st, 2026 • Views 7
+By Laura Keenan • Jul 31st, 2026 • Views 117
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70

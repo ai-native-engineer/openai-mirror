@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/expanding-ai-access-for-public-servants -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 10, 2026
@@ -7,6 +11,8 @@ September 10, 2026
 # Expanding AI Access for Public Servants
 
 ![Expanding AI Access for Public Servants](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/onegov-blue-orange-openai-sans-6bcad767-ef78-4d84-9d8e-9ca2f94625de-1789052678151.jpeg?fit=scale-down&width=1200)
+
+# Government
 
 ## More affordable tools, practical learning, and a community to help turn access into public impact.
 
@@ -54,34 +60,76 @@ We’ll cover what’s included, when and where the offer will be available, how
 
 ﻿ [Explore the Government Community](https://academy.openai.com/home/clubs/government)﻿
 
-[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
-
-By Laura Keenan • Sep 9th, 2026 • Views 23
-
-[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
-
-By Laura Keenan • Jul 28th, 2026 • Views 36
-
-By Amanda Bullock • Sep 10th, 2026 • Views 20
-
 [46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+
+Video
 
 [AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
 
-Sep 4th, 2026 • Views 142
+[59:58](/public/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
+Video
+
+[AI for Government Admin, Executive Secretaries, and Critical Support Roles](/public/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
+By Amanda Bullock
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+Blog
+
+[ChatGPT for Public Works Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-public-works-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 34
+
+[1:02:38](/public/clubs/government/videos/ai-for-procurement-professionals-september-15-2026-replay)
+
+Video
+
+[AI for Procurement Professionals: Move Faster Without Losing Compliance](/public/clubs/government/videos/ai-for-procurement-professionals-september-15-2026-replay)
+
+By Bonnie Evangelista • Sep 16th, 2026 • Views 366
+
+Blog
+
+[ChatGPT for Local Public Information Officer: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-public-information-officer-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 25
+
+Blog
 
 [Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
 
-By Laura Keenan • Sep 9th, 2026 • Views 23
+By Laura Keenan • Sep 9th, 2026 • Views 122
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
 
-[46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+[ChatGPT for Public Works Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-public-works-director-prompt-pack)
 
-[AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+By Laura Keenan • Sep 21st, 2026 • Views 34
 
-Sep 4th, 2026 • Views 142
+Blog
 
-[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
+[ChatGPT for Local Public Information Officer: A practical prompt pack](/public/clubs/government/blogs/chatgpt-local-local-public-information-officer-prompt-pack)
 
-By Laura Keenan • Jul 28th, 2026 • Views 36
+By Laura Keenan • Sep 21st, 2026 • Views 25
+
+Blog
+
+[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
+
+By Laura Keenan • Sep 9th, 2026 • Views 122
+
+[1:02:38](/public/clubs/government/videos/ai-for-procurement-professionals-september-15-2026-replay)
+
+Video
+
+[AI for Procurement Professionals: Move Faster Without Losing Compliance](/public/clubs/government/videos/ai-for-procurement-professionals-september-15-2026-replay)
+
+By Bonnie Evangelista • Sep 16th, 2026 • Views 366

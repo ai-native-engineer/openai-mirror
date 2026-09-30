@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 Article
 
@@ -18,19 +18,7 @@ July 8, 2026 · Last updated on July 9, 2026
 
 ![ChatGPT Work: Champion Rollout Guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-6--b4e23a27-0fa9-42aa-8d7c-f9b0f8002168-1783533591489.jpeg?fit=scale-down&width=1200)
 
-﻿
-
-﻿
-
-﻿
-
-﻿
-
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/champion-rollout-guide-42c74bfa-2b13-4224-afa1-8320a52de812-1783618733157.pdf) the file to view.
-
-﻿
-
-﻿
 
 Sign in or Join the community
 
@@ -38,70 +26,44 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
-
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Resource
-
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
 
-Dive in
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-## Related
+[ChatGPT Work: Lead Guide for Exec Sponsors](/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
 
-Resource
+Jul 8th, 2026 • Views 800
 
-[ChatGPT Work: Lead Guide for Exec Sponsors](/en/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-Jul 8th, 2026 • Views 192
+Jun 12th, 2026 • Views 27.3K
 
-Resource
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Jul 9th, 2026 • Views 1.2K
 
-Jun 12th, 2026 • Views 14.8K
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
 
-Resource
+Jul 9th, 2026 • Views 4.6K
 
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
+[ChatGPT Work: Lead Guide for Exec Sponsors](/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
 
-Jul 9th, 2026 • Views 312
+Jul 8th, 2026 • Views 800
 
-Resource
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
+Jul 9th, 2026 • Views 1.2K
 
-Jul 9th, 2026 • Views 1.8K
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
 
-Resource
+Jul 9th, 2026 • Views 4.6K
 
-[ChatGPT Work: Lead Guide for Exec Sponsors](/en/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-Jul 8th, 2026 • Views 192
-
-Resource
-
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
-
-Jul 9th, 2026 • Views 312
-
-Resource
-
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
-
-Jul 9th, 2026 • Views 1.8K
-
-Resource
-
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
-
-Jun 12th, 2026 • Views 14.8K
+Jun 12th, 2026 • Views 27.3K

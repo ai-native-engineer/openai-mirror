@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -47,7 +47,7 @@ A strong image prompt usually includes these components:
 
 ## **Try It**
 
-﻿[Open in ChatGPT](https://chatgpt.com/?prompt=Create%20an%20image%20for%20a%20back-to-school%20night%20flyer.%20Show%20a%20welcoming%20elementary%20school%20entrance%20with%20students%2C%20teachers%2C%20and%20families%20arriving%20together.%20Make%20the%20scene%20warm%2C%20inclusive%2C%20and%20school-friendly.%20Use%20a%20polished%20poster%20style%20with%20bright%20but%20realistic%20colors)﻿
+﻿ [Open in ChatGPT](https://chatgpt.com/?prompt=Create%20an%20image%20for%20a%20back-to-school%20night%20flyer.%20Show%20a%20welcoming%20elementary%20school%20entrance%20with%20students%2C%20teachers%2C%20and%20families%20arriving%20together.%20Make%20the%20scene%20warm%2C%20inclusive%2C%20and%20school-friendly.%20Use%20a%20polished%20poster%20style%20with%20bright%20but%20realistic%20colors)﻿
 
 |  |
 | --- |
@@ -67,64 +67,82 @@ Potential changes to ask for:
 
 * Create a black-and-white version families can print or students can color.
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[8:46](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia • Dec 9th, 2025 • Views 8.1K
+[Use Plugins with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
 
 Blog
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+[ChatGPT EDU Credit Governance Resources](/public/clubs/k-12-education-aacga/blogs/chatgpt-edu-credit-governance-resources)
 
-May 28th, 2026 • Views 86
+[2:18](/public/clubs/k-12-education-aacga/videos/create-images-with-chatgpt-for-teachers)
 
-Blog
+Video
 
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+[Create Images with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/create-images-with-chatgpt-for-teachers)
 
-May 29th, 2026 • Views 194
+Sep 11th, 2026 • Views 98
 
-Blog
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
 
-[Organize Ongoing Class Work With Projects](/en/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
+Video
 
-May 22nd, 2026 • Views 74
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
 
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
+Sep 11th, 2026 • Views 187
 
-By Olivia Pavco-Giaccia • Dec 9th, 2025 • Views 8.1K
+[3:53](/public/clubs/k-12-education-aacga/videos/create-reusable-skills-with-chatgpt-for-teachers)
 
-Blog
+Video
 
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+[Create Reusable Skills with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/create-reusable-skills-with-chatgpt-for-teachers)
 
-May 29th, 2026 • Views 194
+Sep 11th, 2026 • Views 139
 
-Blog
+[3:18](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
 
-[Organize Ongoing Class Work With Projects](/en/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
+Video
 
-May 22nd, 2026 • Views 74
+[Learn with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
 
-Blog
+Sep 11th, 2026 • Views 121
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+[2:18](/public/clubs/k-12-education-aacga/videos/create-images-with-chatgpt-for-teachers)
 
-May 28th, 2026 • Views 86
+Video
+
+[Create Images with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/create-images-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 98
+
+[3:53](/public/clubs/k-12-education-aacga/videos/create-reusable-skills-with-chatgpt-for-teachers)
+
+Video
+
+[Create Reusable Skills with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/create-reusable-skills-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 139
+
+[3:18](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
+
+Video
+
+[Learn with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 121
+
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Video
+
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 187

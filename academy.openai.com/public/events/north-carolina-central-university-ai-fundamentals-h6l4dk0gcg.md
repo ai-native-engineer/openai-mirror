@@ -4,7 +4,11 @@
 
 IN-PERSON
 
-(Event Time Zone)
+12:30 PM - 3:30 PM EST
+
+(Event time zone)
+
+January 23, 2025
 
 # North Carolina Central University: AI Fundamentals
 
@@ -20,7 +24,9 @@ OpenAI Academy is thrilled to collaborate with North Carolina Central University
 
 Event has finished
 
-January 23, 12:30 PM EST (Event Time Zone)
+12:30 PM - 3:30 PM EST (Event time zone)
+
+January 23, 2025
 
 Location
 
@@ -34,7 +40,9 @@ OpenAI Academy
 
 Event has finished
 
-January 23, 12:30 PM EST (Event Time Zone)
+12:30 PM - 3:30 PM EST (Event time zone)
+
+January 23, 2025
 
 Location
 

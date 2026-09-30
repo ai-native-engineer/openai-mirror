@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/govt-prompt-pack-analysts -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 July 19, 2025 · Last updated on May 29, 2026
@@ -10,9 +14,9 @@ July 19, 2025 · Last updated on May 29, 2026
 
 # Public & Social Impact
 
-# ChatGPT
-
 # Advanced & Builder Skills
+
+# Government
 
 ## A quick-start guide for public servants—including analysts, project or program staff—who just gained access to ChatGPT. If you're wondering, “How can this help me today?” this guide is for you!
 
@@ -152,38 +156,56 @@ Comment
 
 Load more
 
+[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
+
+By Laura Keenan
+
 [AI performance prompts: Government manager/leader performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-leader-performance-prompt-pack)
 
 By Laura Keenan
 
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
-
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
 By Laura Keenan
 
-By David Sperry • Jul 19th, 2025 • Views 210
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-[AI performance prompts: Government employee performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-employee-performance-prompt-pack-2026-07-17)
+By David Sperry • Jul 19th, 2025 • Views 334
 
-By Laura Keenan • Jul 17th, 2026 • Views 22
+Blog
 
-By David Sperry • Jul 19th, 2025 • Views 181
+[ChatGPT Prompt Pack for Congressional Digital Staff](/public/clubs/government/blogs/chatgpt-congressional-digital-director-prompt-pack)
 
-[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
+By Laura Keenan • Sep 21st, 2026 • Views 52
 
-By Laura Keenan • Jul 28th, 2026 • Views 36
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-By David Sperry • Jul 19th, 2025 • Views 210
+By David Sperry • Jul 19th, 2025 • Views 272
 
-By David Sperry • Jul 19th, 2025 • Views 181
+Blog
 
-[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
+[ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
 
-By Laura Keenan • Jul 28th, 2026 • Views 36
+By Laura Keenan • Sep 21st, 2026 • Views 44
 
-[AI performance prompts: Government employee performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-employee-performance-prompt-pack-2026-07-17)
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-By Laura Keenan • Jul 17th, 2026 • Views 22
+By David Sperry • Jul 19th, 2025 • Views 334
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry • Jul 19th, 2025 • Views 272
+
+Blog
+
+[ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 44
+
+Blog
+
+[ChatGPT Prompt Pack for Congressional Digital Staff](/public/clubs/government/blogs/chatgpt-congressional-digital-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 52

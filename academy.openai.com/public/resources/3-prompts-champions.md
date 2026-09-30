@@ -2,7 +2,7 @@
 
 Article
 
-February 14, 2026 · Last updated on May 29, 2026
+February 14, 2026 · Last updated on September 17, 2026
 
 # 3 prompts Champions use to translate AI potential into real outcomes
 
@@ -48,7 +48,7 @@ Champions close that gap by building fluency, reinforcing quality, establishing 
 
 Below is a common progression that Champions across our enterprise customers experience.
 
-1. **You** discover an impactful way to use ChatGPT through your own use, or through training such as that available from the [OpenAI Academy](https://academy.openai.com).
+1. **You** discover an impactful way to use ChatGPT through your own use, or through training such as that available from the  [OpenAI Academy](https://academy.openai.com/).
 
 2. **You** share your use case, and clearly state its potential to impact your organization’s objectives and/or your daily work.
 
@@ -92,7 +92,7 @@ You are a ChatGPT Enterprise Champion for [insert your organization] helping a c
 
 3. **5 “Team” wins** to improve our workflow: same format.
 
-4. **One optional next step using specific features:** either a simple **Project** setup OR a simple **Custom GPT** idea, described in 2–3 lines. Explain why using these features could be helpful.
+4. **One optional next step using specific features:** a simple Project setup, described in 2–3 lines. Explain why using these features could be helpful.
 
 5. **Practical tips** for how to apply human expertise and oversight to the results provided by ChatGPT
 
@@ -124,7 +124,7 @@ You are a ChatGPT Enterprise Champion for [insert your organization]. Help me ap
 
 **First step before solutioning:**
 
-* Using only official OpenAI sources, confirm the latest feature names/capabilities for **Projects, GPTs, Tasks (scheduled tasks), Apps (connectors), Deep Research, ChatGPT Agent, Data Analysis**, and any newer features that may be relevant. The purpose of this check is to make sure you are taking advantage of the latest functionality available. No need to return this to the user.
+* Using only official OpenAI sources, confirm the latest feature names/capabilities for Projects, Tasks **(scheduled tasks), Apps (connectors), Deep Research, ChatGPT Agent, Data Analysis**, and any newer features that may be relevant. The purpose of this check is to make sure you are taking advantage of the latest functionality available. No need to return this to the user.
 
 **Output (concise, plain English):**
 
@@ -132,7 +132,7 @@ You are a ChatGPT Enterprise Champion for [insert your organization]. Help me ap
 
 2. **Pick the best 3 ChatGPT approaches** for this problem. For each: when to use, setup in 3 steps, and a copy/paste starter prompt.
 
-3. **Only if it would materially improve outcomes:** propose ONE integration (App or GPT custom action) and write a short business case for IT and business stakeholders (benefit, data needed, risk, effort).
+3. **Only if it would materially improve outcomes:** propose ONE App integration and write a short business case for IT and business stakeholders (benefit, data needed, risk, effort).
 
 4. **Only if warranted:** “Beyond ChatGPT” (API build) with a clear trigger and a 1-paragraph MVP description and business case.
 
@@ -153,13 +153,13 @@ Business unit / organization + objectives / purpose (1–3 sentences)**: [insert
 **Restrictions**: [List any ChatGPT features not enabled in your organization's workspace. If you aren't sure, ask your administrator.]
 **Optional: sample artifacts (paste or attach)**: [insert]
 
-**First step before solutioning:**Using only official OpenAI sources, confirm the latest feature names/capabilities for **Projects, GPTs, Tasks (scheduled tasks / Pulse), Apps (connectors), Deep Research, ChatGPT Agent, Data Analysis**, and any newer features that may be relevant. The purpose of this check is to make sure you are taking advantage of the latest functionality available. No need to return this to the user.
+**First step before solutioning:**Using only official OpenAI sources, confirm the latest feature names/capabilities for Projects, Tasks **(scheduled tasks / Pulse), Apps (connectors), Deep Research, ChatGPT Agent, Data Analysis**, and any newer features that may be relevant. The purpose of this check is to make sure you are taking advantage of the latest functionality available. No need to return this to the user.
 
 **Output (concise, plain English):**
 
 1. **Business value (3 outcomes)**For each: baseline, target, how measured weekly, and what changes in the workflow.
 
-2. **Problem-to-capability map (pain point by pain point)**For each pain point: best ChatGPT pattern (prompting, Project, GPT, Task, Agent, Data Analysis, Deep Research) and why it fits the inputs, outputs, and constraints.
+2. **Problem-to-capability map (pain point by pain point)**For each pain point: best ChatGPT pattern (prompting, Project, Task, Agent, Data Analysis, Deep Research) and why it fits the inputs, outputs, and constraints.
 
 3. **Pick 3 workflows to fix first (highest value, lowest friction)**
    For each workflow: state the goal, “done” definition, approach (which pattern), setup in 3 steps, what to upload, and 2 starter prompts:
@@ -173,7 +173,7 @@ Business unit / organization + objectives / purpose (1–3 sentences)**: [insert
    Week 4: report metrics, decide scale/stop
 
 5. **Only if it materially improves results: one upgrade path**
-   Pick ONE (app (connector), GPT action, or API platform). Give a clear trigger plus a short business case (benefit, data needed, risk, effort).
+   Pick ONE (app (connector) or API platform). Give a clear trigger plus a short business case (benefit, data needed, risk, effort).
 
 **Champion tip:** Use Dictation mode to capture the inputs quickly. It can work well as a short interview, with the Champion posing the input questions to the responder and allowing Dictation in ChatGPT to capture and structure the notes.
 
@@ -181,72 +181,70 @@ Business unit / organization + objectives / purpose (1–3 sentences)**: [insert
 
 Champions don’t need permission to create momentum and make an impact. Start with one coworker, one problem, and one reusable pattern. Then share what worked, make it easy to copy, and keep the loop going.
 
-If you want a simple next step: consider taking the prompts above, and transforming them into your personal Champion Assistant **Custom GPT** so you can make your approach to helping others low friction, high impact, and scalable.
+Blog
 
-Table Of Contents
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
+Mar 11th, 2025 • Views 4.4K
 
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[1:37](/public/videos/organize-everyday-tasks-older-adults)
 
 Video
 
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[Use ChatGPT to Organize Everyday Tasks](/public/videos/organize-everyday-tasks-older-adults)
 
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
+Sep 17th, 2026 • Views 200
 
 Blog
 
-[How Alex Lupsasca learned to trust AI for real physics](/en/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
+[How Alex Lupsasca learned to trust AI for real physics](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
 
-Feb 2nd, 2026 • Views 1.8K
+Feb 2nd, 2026 • Views 2.5K
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Mar 23rd, 2025 • Views 267.1K
+Mar 23rd, 2025 • Views 273.4K
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
+Mar 11th, 2025 • Views 4.4K
 
 Blog
 
-[How Alex Lupsasca learned to trust AI for real physics](/en/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
+[How Alex Lupsasca learned to trust AI for real physics](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
 
-Feb 2nd, 2026 • Views 1.8K
+Feb 2nd, 2026 • Views 2.5K
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Video
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Mar 23rd, 2025 • Views 267.1K
-
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
+Mar 23rd, 2025 • Views 273.4K
+
+[1:37](/public/videos/organize-everyday-tasks-older-adults)
+
+Video
+
+[Use ChatGPT to Organize Everyday Tasks](/public/videos/organize-everyday-tasks-older-adults)
+
+Sep 17th, 2026 • Views 200

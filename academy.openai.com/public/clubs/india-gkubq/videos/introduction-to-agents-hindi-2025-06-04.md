@@ -4,6 +4,10 @@
 
 [Content](/public/clubs/india-gkubq/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # Introduction to Agents (Hindi)
 
 Posted Jun 05, 2025 | Views 1.7K
@@ -12,9 +16,15 @@ Posted Jun 05, 2025 | Views 1.7K
 
 # OpenAI API
 
+# Advanced & Builder Skills
+
 # Personal
 
 # India; Hindi
+
+Share
+
+## SUMMARY
 
 ट्यूटोरियल 1
 
@@ -30,6 +40,10 @@ Posted Jun 05, 2025 | Views 1.7K
 • स्टार्टअप फाउंडर्स, CTOs और प्रोडक्ट मैनेजर्स जिन्हें एजेंट्स की बुनियादी समझ की आवश्यकता है
 • छात्र और शोधकर्ता जो एजेंट्स का समग्र परिचय प्राप्त करना चाहते हैं
 
++ Read More
+
+## Watch More
+
 [4:22](/public/videos/introduction-to-agents-2025-06-04)
 
 [Introduction to Agents](/public/videos/introduction-to-agents-2025-06-04)
@@ -44,6 +58,8 @@ Posted Jun 05, 2025 | Views 7.6K
 
 # Deployment & Adoption
 
+# Work
+
 # India
 
 [6:11](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
@@ -51,6 +67,12 @@ Posted Jun 05, 2025 | Views 7.6K
 [How to Automate Tasks with Custom GPTs (Hindi)](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
 
 Posted Jun 05, 2025 | Views 1.9K
+
+# Educators & Students
+
+# Advanced & Builder Skills
+
+# Education
 
 # India; Hindi
 
@@ -68,4 +90,17 @@ Posted Jun 05, 2025 | Views 7K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+<!-- youtube: o5QETJfDKzM | track: none -->
+
+[![India](https://img.youtube.com/vi/o5QETJfDKzM/hqdefault.jpg)](https://www.youtube.com/watch?v=o5QETJfDKzM)
+
+<details>
+<summary>자막: India</summary>
+
+https://www.youtube.com/watch?v=o5QETJfDKzM
+
+</details>

@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/visualize-for-government-program-managers -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 8, 2026
@@ -8,11 +12,13 @@ September 8, 2026
 
 ![From status updates to decisions: Visualize for government program managers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/gradual-cover-03ec82e3-b091-49ff-8794-1b9045707c6d-1788873972782.jpeg?fit=scale-down&width=1200)
 
-# ChatGPT
+# Government
 
 ## Four ways to make milestones, dependencies, and next steps easier to see with ChatGPT.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![From status updates to decisions: Visualize for government program managers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/gradual-cover-03ec82e3-b091-49ff-8794-1b9045707c6d-1788873972782.jpeg?fit=scale-down&width=1200)
 
@@ -166,26 +172,56 @@ That is a practical measure of whether the visual is helping you manage the prog
 
 ﻿ [Watch the inspiration: Make information visual with ChatGPT](https://www.youtube.com/watch?v=jzmNh8lbSp8).
 
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
 [Better Powerpoint slides. Clearer decisions for government presentations.](/public/clubs/government/resources/better-powerpoint-slides-clearer-decisions-for-government-presentations-2026-07-24)
 
-By Laura Keenan • Jul 27th, 2026 • Views 22
+By Laura Keenan • Jul 27th, 2026 • Views 190
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
 
-By David Sperry • Jul 19th, 2025 • Views 211
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry • Jul 19th, 2025 • Views 330
 
 [From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
 
-By Laura Keenan • Aug 11th, 2026 • Views 14
+By Laura Keenan • Aug 11th, 2026 • Views 80
 
 [Better Powerpoint slides. Clearer decisions for government presentations.](/public/clubs/government/resources/better-powerpoint-slides-clearer-decisions-for-government-presentations-2026-07-24)
 
-By Laura Keenan • Jul 27th, 2026 • Views 22
+By Laura Keenan • Jul 27th, 2026 • Views 190
 
-By David Sperry • Jul 19th, 2025 • Views 211
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry • Jul 19th, 2025 • Views 330
 
 [From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
 
-By Laura Keenan • Aug 11th, 2026 • Views 14
+By Laura Keenan • Aug 11th, 2026 • Views 80
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70

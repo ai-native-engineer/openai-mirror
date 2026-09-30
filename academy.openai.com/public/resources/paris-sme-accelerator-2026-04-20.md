@@ -8,6 +8,8 @@
 
 # Use Cases
 
+# Work
+
 ## Un centre de ressources pour les participants à l’Accélérateur IA pour PME de Paris
 
 June 3, 2026 · Last updated on June 7, 2026
@@ -20,7 +22,7 @@ Utilisez cette page comme ressource d’accompagnement pour l’Accélérateur I
 
 ## **Liens rapides**
 
-#### [Supports de présentation de l’Accélérateur IA pour PME](https://drive.google.com/file/d/19r5h5ybUQayOl6ZC2pKi1v5Tageh8OFt/view?usp=drive_link) [Fichiers d’exemple](https://drive.google.com/drive/folders/1MD5lqhdnPijiRI8AewTwKJm4QE2Os-0E)﻿
+#### [Supports de présentation de l’Accélérateur IA pour PME](https://drive.google.com/file/d/19r5h5ybUQayOl6ZC2pKi1v5Tageh8OFt/view?usp=drive_link)  [Fichiers d’exemple](https://drive.google.com/drive/folders/1MD5lqhdnPijiRI8AewTwKJm4QE2Os-0E)﻿
 
 ## Agenda
 
@@ -38,7 +40,7 @@ Utilisez cette page comme ressource d’accompagnement pour l’Accélérateur I
 
 ## **Fichiers d’exemple**
 
-Tout au long de la journée, vous pouvez suivre ce lien pour accéder aux [**fichiers d’exemple pour les exercices pratiques.**](https://drive.google.com/drive/folders/1MD5lqhdnPijiRI8AewTwKJm4QE2Os-0E)﻿
+Tout au long de la journée, vous pouvez suivre ce lien pour accéder aux  [**fichiers d’exemple pour les exercices pratiques.**](https://drive.google.com/drive/folders/1MD5lqhdnPijiRI8AewTwKJm4QE2Os-0E)﻿
 
 ## Bases du prompting
 
@@ -68,9 +70,9 @@ Travaillez en binôme. Prenez un prompt vague et rendez-le suffisamment précis 
 
 **Fichiers d’exemple à importer :**
 
-* ﻿[WF1\_Harbour\_Bloom\_Business\_Profile.txt](https://drive.google.com/file/d/1bUUUp3D8R2C8nxCjy7N7bdn-1W3hbFzC/view?usp=drive_link)﻿
+* ﻿ [WF1\_Harbour\_Bloom\_Business\_Profile.txt](https://drive.google.com/file/d/1bUUUp3D8R2C8nxCjy7N7bdn-1W3hbFzC/view?usp=drive_link)﻿
 
-* ﻿[WF1\_Harbour\_Bloom\_Brand\_Voice.txt](https://drive.google.com/file/d/10cupCAWLDh5ohKeH7wmIpMNzFBU8riRK/view?usp=drive_link)﻿
+* ﻿ [WF1\_Harbour\_Bloom\_Brand\_Voice.txt](https://drive.google.com/file/d/10cupCAWLDh5ohKeH7wmIpMNzFBU8riRK/view?usp=drive_link)﻿
 
 Instructions du projet
 
@@ -136,9 +138,9 @@ Une affiche simple en boutique
 
 **Fichiers d’exemple :**
 
-* ﻿[WF2\_Harbour\_Bloom\_Sales\_Snapshot.csv](https://drive.google.com/file/d/1Q6yZifYBwq-uhDyHCzdRi9y-e1PC8x57/view?usp=drive_link)﻿
+* ﻿ [WF2\_Harbour\_Bloom\_Sales\_Snapshot.csv](https://drive.google.com/file/d/1Q6yZifYBwq-uhDyHCzdRi9y-e1PC8x57/view?usp=drive_link)﻿
 
-* ﻿[WF2\_Harbour\_Bloom\_Customer\_Reviews.csv](https://drive.google.com/file/d/1WDIZva-Hkx90SBcqNOo-ETtRpW73V_wG/view?usp=drive_link)﻿
+* ﻿ [WF2\_Harbour\_Bloom\_Customer\_Reviews.csv](https://drive.google.com/file/d/1WDIZva-Hkx90SBcqNOo-ETtRpW73V_wG/view?usp=drive_link)﻿
 
 Exemple de séquence de prompts
 
@@ -172,9 +174,9 @@ Crée un graphique simple des transactions hebdomadaires et superpose les rembou
 
 **Options avancées facultatives**
 
-Effectuez une recherche sur le web et trouvez des sources avec [**Deep Research**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/deep-research)
+Effectuez une recherche sur le web et trouvez des sources avec  [**Deep Research**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/deep-research)
 
-Récupérez des informations en direct depuis Google Drive ou SharePoint avec [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)﻿
+Récupérez des informations en direct depuis Google Drive ou SharePoint avec  [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)﻿
 
 ## ﻿
 
@@ -182,7 +184,7 @@ Récupérez des informations en direct depuis Google Drive ou SharePoint avec [*
 
 **Idéal pour :** transformer un service, une formule ou une promotion en textes soignés destinés aux clients, ainsi qu’en messages de suivi.
 
-**Fichier de connaissances d’exemple :** [GPT2\_Offer\_Proposal\_Builder\_Knowledge.txt](https://drive.google.com/file/d/1CQ0tNiyPhp3_l8Xr1_QcuXuEqgSXIm4a/view?usp=drive_link)﻿
+**Fichier de connaissances d’exemple :**  [GPT2\_Offer\_Proposal\_Builder\_Knowledge.txt](https://drive.google.com/file/d/1CQ0tNiyPhp3_l8Xr1_QcuXuEqgSXIm4a/view?usp=drive_link)﻿
 
 ```
 Tu es le créateur d’offres / de propositions de Harbour Bloom Florist.
@@ -228,7 +230,7 @@ Chaleureux, soigné, pratique, sans exagération.
 
 **Idéal pour :** transformer des notes de processus et des politiques internes en checklists, supports d’intégration et conseils pour l’équipe.
 
-**Fichier de connaissances d’exemple :** [GPT3\_Onboarding\_Training\_Coach\_Knowledge.txt](https://drive.google.com/file/d/1p4fCT6lyCbIC2lAeleT4bVWnqk06QL3G/view?usp=drive_link)﻿
+**Fichier de connaissances d’exemple :**  [GPT3\_Onboarding\_Training\_Coach\_Knowledge.txt](https://drive.google.com/file/d/1p4fCT6lyCbIC2lAeleT4bVWnqk06QL3G/view?usp=drive_link)﻿
 
 **GPT instructions**
 
@@ -312,58 +314,56 @@ Cochez ces étapes pour savoir si votre solution est prête.
 
 Envie d’aller plus loin après l’événement ? Consultez ces ressources pour poursuivre votre apprentissage de l’IA :
 
-﻿[**Codex pour les débutants**](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) — Codex est un agent IA auquel vous pouvez déléguer de vraies tâches. Découvrez comment démarrer avec ce webinaire.
+﻿ [**Codex pour les débutants**](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) — Codex est un agent IA auquel vous pouvez déléguer de vraies tâches. Découvrez comment démarrer avec ce webinaire.
 
 Merci de vous être joints à nous aujourd’hui !
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Munich SME AI Accelerator - Resource Hub](/en/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
+[Munich SME AI Accelerator - Resource Hub](/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
 
-May 1st, 2026 • Views 606
+May 1st, 2026 • Views 795
 
-[10:00](/en/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
-
-Video
-
-[Josh de Leeuw (Cognitive Science)](/en/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
-
-Aug 1st, 2025 • Views 89
-
-[London SME AI Accelerator - Resource Hub](/en/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
-
-Apr 27th, 2026 • Views 913
-
-[Dublin SME AI Accelerator - Resource Hub](/en/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
-
-Mar 18th, 2026 • Views 969
-
-[Munich SME AI Accelerator - Resource Hub](/en/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
-
-May 1st, 2026 • Views 606
-
-[London SME AI Accelerator - Resource Hub](/en/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
-
-Apr 27th, 2026 • Views 913
-
-[Dublin SME AI Accelerator - Resource Hub](/en/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
-
-Mar 18th, 2026 • Views 969
-
-[10:00](/en/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
+[10:00](/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
 
 Video
 
-[Josh de Leeuw (Cognitive Science)](/en/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
+[Josh de Leeuw (Cognitive Science)](/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
 
-Aug 1st, 2025 • Views 89
+Aug 1st, 2025 • Views 174
+
+[London SME AI Accelerator - Resource Hub](/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
+
+Apr 27th, 2026 • Views 1.2K
+
+[Dublin SME AI Accelerator - Resource Hub](/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
+
+Mar 18th, 2026 • Views 1.2K
+
+[Munich SME AI Accelerator - Resource Hub](/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
+
+May 1st, 2026 • Views 795
+
+[London SME AI Accelerator - Resource Hub](/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
+
+Apr 27th, 2026 • Views 1.2K
+
+[Dublin SME AI Accelerator - Resource Hub](/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
+
+Mar 18th, 2026 • Views 1.2K
+
+[10:00](/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
+
+Video
+
+[Josh de Leeuw (Cognitive Science)](/public/videos/josh-de-leeuw-cognitive-science-2025-09-08)
+
+Aug 1st, 2025 • Views 174

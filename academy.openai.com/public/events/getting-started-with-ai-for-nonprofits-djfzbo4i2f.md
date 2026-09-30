@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+5:00 PM - 6:30 PM GMT
+
+April 9, 2025
+
 # Getting Started with AI for Nonprofits
 
 [Replay](https://academy.openai.com/home/videos/ai-for-nonprofits-101-2025-04-09)
@@ -16,7 +20,7 @@ LIVESTREAM
 
 ### This session is presented by our community partner, **AI for Nonprofits Sprint**.
 
-*This resource was produced by the AI for Nonprofits Sprint, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. The [AI for Nonprofits Sprint](http://www.fcny.org/aisprint) at the Fund for the City of New York is working with 100+ nonprofits (including the United Way, Good Shepherd Services, America On Tech, and more) and 30,000 staff to bring basic AI literacy to everyday nonprofit workers. This event is co-sponsored by OpenAI Academy and Just-Tech.*
+*This resource was produced by the AI for Nonprofits Sprint, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. The*  [*AI for Nonprofits Sprint*](http://www.fcny.org/aisprint) *at the Fund for the City of New York is working with 100+ nonprofits (including the United Way, Good Shepherd Services, America On Tech, and more) and 30,000 staff to bring basic AI literacy to everyday nonprofit workers. This event is co-sponsored by OpenAI Academy and Just-Tech.*
 
 Whether you've never tried AI or are already experimenting, this informal session will introduce key concepts, share several useful demos, and introduce a basic framework to help you and your organization safely and ethically get immediate use from off-the-shelf AI tools like ChatGPT. A 60 minute presentation will be followed by a special 30 minute Q&A session featuring experts from OpenAI.
 
@@ -40,7 +44,9 @@ View Profile
 
 Event has finished
 
-April 09, 5:00 PM GMT
+5:00 PM - 6:30 PM GMT
+
+April 9, 2025
 
 Online
 
@@ -58,7 +64,9 @@ Just-Tech](https://just-tech.com/)
 
 Event has finished
 
-April 09, 5:00 PM GMT
+5:00 PM - 6:30 PM GMT
+
+April 9, 2025
 
 Online
 

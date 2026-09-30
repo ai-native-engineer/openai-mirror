@@ -4,15 +4,17 @@
 
 LIVESTREAM
 
-# Codex for Creative Building
+5:30 PM - 6:15 PM GMT
 
-Register
+July 21, 2026
+
+# Codex for Creative Building
 
 Some of the most interesting projects start with a simple question: "What if?" In this session, we'll explore how people are using Codex to build games, interactive experiences, creative tools, and other projects driven by your imagination!
 
 Whether you're an artist, student, educator, hobbyist, entrepreneur, or simply someone who enjoys building things, this session is for you. No technical background is required.
 
-Download Codex to follow along with the session at **<https://openai.com/codex>**.
+Download Codex to follow along with the session at  [**https://openai.com/codex**](https://openai.com/codex).
 
 ## Speakers
 
@@ -24,25 +26,11 @@ Solutions Engineer @ OpenAI
 
 View Profile
 
-Live in 25 days 9 hours
+Event has finished
 
-July 21, 3:30 PM GMT
+5:30 PM - 6:15 PM GMT
 
-Online
-
-Organized by
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
-
-OpenAI Academy
-
-Register
-
-Add to calendar
-
-Live in 25 days 9 hours
-
-July 21, 3:30 PM GMT
+July 21, 2026
 
 Online
 
@@ -52,6 +40,16 @@ Organized by
 
 OpenAI Academy
 
-Register
+Event has finished
 
-Add to calendar
+5:30 PM - 6:15 PM GMT
+
+July 21, 2026
+
+Online
+
+Organized by
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
+
+OpenAI Academy

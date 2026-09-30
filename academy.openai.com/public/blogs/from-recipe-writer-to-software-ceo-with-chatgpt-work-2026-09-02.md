@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02 -->
 
+Article
+
 September 2, 2026
 
 # From recipe writer to software CEO with ChatGPT Work
@@ -46,9 +48,13 @@ That changes who gets to launch a company. Someone who understands a problem bec
 
 [40:09](/public/clubs/work-users-ynjqu/videos/chatgpt-102-leveraging-ai-to-do-your-best-work-recording)
 
+Video
+
 [ChatGPT 102: Leveraging AI to Do Your Best Work [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-102-leveraging-ai-to-do-your-best-work-recording)
 
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
 
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
@@ -56,32 +62,40 @@ That changes who gets to launch a company. Someone who understands a problem bec
 
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 10
+By Laura Keenan • Aug 4th, 2026 • Views 144
 
-[Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
+Blog
 
-Sep 2nd, 2026 • Views 57
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+External Content
 
 [ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
 
-Jul 25th, 2025 • Views 2.6K
+Jul 25th, 2025 • Views 2.7K
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 9
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 10
+By Laura Keenan • Aug 4th, 2026 • Views 144
+
+External Content
 
 [ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
 
-Jul 25th, 2025 • Views 2.6K
+Jul 25th, 2025 • Views 2.7K
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 9
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
-[Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
+Blog
 
-Sep 2nd, 2026 • Views 57
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16

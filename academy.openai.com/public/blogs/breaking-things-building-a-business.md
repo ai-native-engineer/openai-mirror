@@ -12,13 +12,15 @@ January 5, 2026
 
 # Awareness
 
+# Work
+
 # North America
 
 ## How a Houston entrepreneur uses ChatGPT to grow the world’s largest rage room after profound loss
 
 ![Breaking things, building a business](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Kaija-3143e54d-f014-4727-a44c-5743a73fbc1c-1766068789468.jpeg?fit=scale-down&width=1200)
 
-ChatGPT is helping small-business entrepreneur [Kaija Pack](https://www.linkedin.com/in/kaija-pack-2b960b25/) turn pain into purpose.
+ChatGPT is helping small-business entrepreneur  [Kaija Pack](https://www.linkedin.com/in/kaija-pack-2b960b25/) turn pain into purpose.
 After the sudden death of her husband of 30 years, Kaija channeled her sadness and anger into what’s now the world’s largest “rage room” — a business designed to help people find a healthy, safe way to manage their stress by literally smashing their way through it. Now, she’s using ChatGPT to help grow the business.
 Kaija lives and works in Houston, and she attended OpenAI’s first-ever Small Business Jam in November to learn how to use ChatGPT to help run Break Life — where people pay to smash windshields and computer monitors — more efficiently.
 “I know it sounds strange, but I used to be scared of AI,” she said. “Now I can see that it’s an absolute gamechanger for a business with big dreams and a small team.”
@@ -30,80 +32,70 @@ Kaija was one of hundreds of entrepreneurs who learned practical ways to put AI 
 The sessions were designed to help Main Street businesses learn how to use AI to compete, save time, and grow. For entrepreneurs like Kaija, that meant hands-on help in using ChatGPT to become more efficient and punch above their weight.
 “There’s nothing wrong with being mad. It’s an emotion, and we should be able to express it without anyone judging us,” she said.
 
-[Small Business Prompt Pack](/en/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
-
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-Video
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[Small Business Prompt Pack](/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
 
 Blog
 
-[K–12: Building Custom GPTs to Automate Tasks](/en/public/blogs/k-12-building-custom-gpts)
+[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
 
-By Kirk Gulezian
+[Solution accelerator: building recommendation systems](/public/clubs/builders-etkn1/resources/solution-accelerator-building-recommendation-systems)
 
-[10:00](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-Video
-
-[Jonathan M. Torres (Business)](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-Aug 1st, 2025 • Views 712
-
-[10:00](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[10:00](/public/videos/jonathan-m-torres-business-2025-08-20)
 
 Video
 
-[Tom Coley ( International Year One Business)](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[Jonathan M. Torres (Business)](/public/videos/jonathan-m-torres-business-2025-08-20)
 
-Aug 1st, 2025 • Views 225
+Aug 1st, 2025 • Views 975
 
-[10:00](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+Blog
 
-Video
+[This European startup founder is building a fitness business with Codex and ChatGPT Work](/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28)
 
-[Mohd Naved (Business Forecasting)](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+Aug 28th, 2026 • Views 510
 
-Aug 1st, 2025 • Views 671
-
-[10:00](/en/public/videos/nicos-savva-business-analytics-2025-08-20)
+[10:00](/public/videos/mohd-naved-business-forecasting-2025-08-20)
 
 Video
 
-[Nicos Savva (Business Analytics)](/en/public/videos/nicos-savva-business-analytics-2025-08-20)
+[Mohd Naved (Business Forecasting)](/public/videos/mohd-naved-business-forecasting-2025-08-20)
 
-Aug 1st, 2025 • Views 449
+Aug 1st, 2025 • Views 937
 
-[10:00](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-Video
-
-[Jonathan M. Torres (Business)](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-Aug 1st, 2025 • Views 712
-
-[10:00](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+[10:00](/public/videos/nicos-savva-business-analytics-2025-08-20)
 
 Video
 
-[Mohd Naved (Business Forecasting)](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+[Nicos Savva (Business Analytics)](/public/videos/nicos-savva-business-analytics-2025-08-20)
 
-Aug 1st, 2025 • Views 671
+Aug 1st, 2025 • Views 713
 
-[10:00](/en/public/videos/nicos-savva-business-analytics-2025-08-20)
-
-Video
-
-[Nicos Savva (Business Analytics)](/en/public/videos/nicos-savva-business-analytics-2025-08-20)
-
-Aug 1st, 2025 • Views 449
-
-[10:00](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[10:00](/public/videos/jonathan-m-torres-business-2025-08-20)
 
 Video
 
-[Tom Coley ( International Year One Business)](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[Jonathan M. Torres (Business)](/public/videos/jonathan-m-torres-business-2025-08-20)
 
-Aug 1st, 2025 • Views 225
+Aug 1st, 2025 • Views 975
+
+[10:00](/public/videos/mohd-naved-business-forecasting-2025-08-20)
+
+Video
+
+[Mohd Naved (Business Forecasting)](/public/videos/mohd-naved-business-forecasting-2025-08-20)
+
+Aug 1st, 2025 • Views 937
+
+[10:00](/public/videos/nicos-savva-business-analytics-2025-08-20)
+
+Video
+
+[Nicos Savva (Business Analytics)](/public/videos/nicos-savva-business-analytics-2025-08-20)
+
+Aug 1st, 2025 • Views 713
+
+Blog
+
+[This European startup founder is building a fitness business with Codex and ChatGPT Work](/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28)
+
+Aug 28th, 2026 • Views 510

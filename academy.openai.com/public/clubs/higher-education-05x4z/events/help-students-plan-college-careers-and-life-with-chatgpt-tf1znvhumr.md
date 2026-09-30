@@ -90,7 +90,7 @@ Already registered?
 
 Log in to access
 
-Starting in 76 days 21 hours
+Starting in 70 days 11 hours
 
 10:00 PM - 11:00 PM GMT
 
@@ -106,7 +106,7 @@ Register
 
 Add to calendar
 
-Starting in 76 days 21 hours
+Starting in 70 days 11 hours
 
 10:00 PM - 11:00 PM GMT
 

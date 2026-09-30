@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
-August 22, 2025 · Last updated on June 1, 2026
+August 22, 2025 · Last updated on September 17, 2026
 
 # ChatGPT Edu Launch Guide for Higher Ed Universities
 
@@ -84,11 +84,11 @@ To execute a successful rollout, you will likely need representatives from the f
 
 #### **Getting Oriented**
 
-* **Build a Common Foundation:** Ask stakeholders to watch [ChatGPT 101](https://vimeo.com/1036124562) to gain a baseline understanding of ChatGPT Edu’s features and capabilities.
+* **Build a Common Foundation:** Ask stakeholders to watch  [ChatGPT 101](https://vimeo.com/1036124562) to gain a baseline understanding of ChatGPT Edu’s features and capabilities.
 
-* **Leverage Peer Resources:** Encourage sign-up for [OpenAI Academy](https://academy.openai.com/home) and participation in the [Higher Education community](https://academy.openai.com/home/clubs/higher-education-05x4z/overview?linkMenu=Higher%20Ed) to connect with peers and access curated resources.
+* **Leverage Peer Resources:** Encourage sign-up for  [OpenAI Academy](https://academy.openai.com/home) and participation in the  [Higher Education community](https://academy.openai.com/home/clubs/higher-education-05x4z/overview?linkMenu=Higher%20Ed) to connect with peers and access curated resources.
 
-* **Develop an Internal Communications Plan:** Create a plan with clear announcements, FAQs, and talking points tailored to different audiences. Use OpenAI's [AI Communication Toolkit](https://academy.openai.com/home/clubs/higher-education-05x4z/resources/ai-communication-toolkit) as inspiration.
+* **Develop an Internal Communications Plan:** Create a plan with clear announcements, FAQs, and talking points tailored to different audiences. Use OpenAI's  [AI Communication Toolkit](https://academy.openai.com/home/clubs/higher-education-05x4z/resources/ai-communication-toolkit) as inspiration.
 
 * Ensure messaging emphasizes *why the institution is adopting AI* and proactively addresses common questions.
 
@@ -100,17 +100,17 @@ To execute a successful rollout, you will likely need representatives from the f
 
 #### **Access & Authentication**
 
-* **Review Workspace Configuration:** Begin by understanding and selecting the appropriate [workspace settings](https://help.openai.com/en/articles/8411955-what-workspace-settings-can-i-control-for-my-workspace) to align with your institution’s governance and access requirements.
+* **Review Workspace Configuration:** Begin by understanding and selecting the appropriate  [workspace settings](https://help.openai.com/en/articles/8411955-what-workspace-settings-can-i-control-for-my-workspace) to align with your institution’s governance and access requirements.
 
 * **Evaluate Single Sign-On (SSO) Options**
-  Familiarize yourself with the available [SSO options across OpenAI](https://help.openai.com/en/articles/10468051-sso-overview) services to determine which approach best supports your security and user experience needs.
+  Familiarize yourself with the available  [SSO options across OpenAI](https://help.openai.com/en/articles/10468051-sso-overview) services to determine which approach best supports your security and user experience needs.
 
-* **Understand Roles and Permissions:** Review the [different roles within ChatGPT](https://help.openai.com/en/articles/8266431-what-is-the-difference-between-different-roles-on-my-chatgpt-enterprise-workspace) to clarify how administrators, faculty, staff, and students will interact with the platform.
+* **Understand Roles and Permissions:** Review the  [different roles within ChatGPT](https://help.openai.com/en/articles/8266431-what-is-the-difference-between-different-roles-on-my-chatgpt-enterprise-workspace) to clarify how administrators, faculty, staff, and students will interact with the platform.
 
-* **Define a User Management Strategy:** Establish a clear [approach to user management](https://help.openai.com/en/articles/10479654-understanding-your-ideal-user-management-setup), including how accounts will be provisioned, maintained, and deactivated over time.
+* **Define a User Management Strategy:** Establish a clear  [approach to user management](https://help.openai.com/en/articles/10479654-understanding-your-ideal-user-management-setup), including how accounts will be provisioned, maintained, and deactivated over time.
 
 * **Set Up Single Sign-On (SSO) and Domain Verification**
-  [Configure SSO](https://help.openai.com/en/articles/9534785-configuring-sso-for-chatgpt-enterprise) and complete domain verification to ensure that only authorized users within your institution can access the platform.
+   [Configure SSO](https://help.openai.com/en/articles/9534785-configuring-sso-for-chatgpt-enterprise) and complete domain verification to ensure that only authorized users within your institution can access the platform.
 
 * **Prove Domain Ownership:** Add TXT records to your DNS to validate institutional ownership of the domain.
 
@@ -118,9 +118,9 @@ To execute a successful rollout, you will likely need representatives from the f
 
 * **Test Authentication Flows:** Conduct a pilot test with a small administrative group to validate login processes and identify any adjustments before broad rollout.
 
-* **(Optional - Advanced) Role-Based Access Control (RBAC):** [Configure RBAC](#) to manage permissions based on user groups. RBAC can be implemented independently or in combination with SCIM for greater automation.
+* **(Optional - Advanced) Role-Based Access Control (RBAC):**  [Configure RBAC](#) to manage permissions based on user groups. RBAC can be implemented independently or in combination with SCIM for greater automation.
 
-* **(Optional - Advanced) SCIM Integration:** Enable [SCIM integration](https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq) to automate user provisioning and deprovisioning based on HR or student information systems.
+* **(Optional - Advanced) SCIM Integration:** Enable  [SCIM integration](https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq) to automate user provisioning and deprovisioning based on HR or student information systems.
 
 * Synchronize account creation and removal directly from institutional systems
 
@@ -196,9 +196,9 @@ To execute a successful rollout, you will likely need representatives from the f
 
 **Additional Resources**
 
-* Share [OpenAI Forum talks](https://forum.openai.com/) so users can learn directly from education leaders already adopting AI at scale.
+* Share  [OpenAI Forum talks](https://forum.openai.com/) so users can learn directly from education leaders already adopting AI at scale.
 
-* Offer advanced training opportunities, such as [OpenAI Presents: Build Advanced GPTs & Custom Actions](https://vimeo.com/1049855553/758b093e82?share=copy), to support power users, innovators, and faculty champions.
+* Offer advanced training opportunities to support power users, innovators, and faculty champions.
 
 **Best Practice:** Pair early training with visible success stories from faculty or staff to build momentum. Institutions that highlight real-world impact—such as time saved on administrative tasks or innovative classroom applications—see faster adoption and greater confidence in AI use across the community .
 
@@ -214,7 +214,7 @@ To execute a successful rollout, you will likely need representatives from the f
 
 * Assign someone to coordinate logistics and collect feedback.
 
-* ﻿[Invite an initial cohort of early users](https://help.openai.com/en/articles/8266401-how-do-i-add-change-or-remove-chatgpt-enterprise-members) and leverage their feedback to refine onboarding, training, and support processes before wider rollout.
+* ﻿ [Invite an initial cohort of early users](https://help.openai.com/en/articles/8266401-how-do-i-add-change-or-remove-chatgpt-enterprise-members) and leverage their feedback to refine onboarding, training, and support processes before wider rollout.
 
 #### **Use Case Development**
 
@@ -250,7 +250,7 @@ To execute a successful rollout, you will likely need representatives from the f
 
 * Introduce recognition programs for early adopters (e.g., “AI Innovators” spotlight) to encourage champions and peer-to-peer advocacy.
 
-* Invite champions to the [OpenAI Forum](#) to connect with the broader educator community.
+* Invite champions to the  [OpenAI Forum](#) to connect with the broader educator community.
 
 #### **Support Scaling**
 
@@ -272,102 +272,113 @@ Encourage champions across departments to share their stories, and create opport
 
 #### ChatGPT Edu Video Resources:
 
-* ﻿[OpenAI, LLMs & ChatGPT (05:34)](https://vimeo.com/1030195117/5d44143e34)﻿
+* ﻿ [OpenAI, LLMs & ChatGPT (05:34)](https://vimeo.com/1030195117/5d44143e34)﻿
 
-* ﻿[Multimodality Explained (10:24)](https://vimeo.com/1030207128/cfbf5bbf59)﻿
+* ﻿ [Multimodality Explained (10:24)](https://vimeo.com/1030207128/cfbf5bbf59)﻿
 
-* ﻿[Introduction to Prompt Engineering (05:52)](https://vimeo.com/1030188354/738191c829)﻿
+* ﻿ [Introduction to Prompt Engineering (05:52)](https://vimeo.com/1030188354/738191c829)﻿
 
-* ﻿[Introduction to GPTs (06:40)](https://vimeo.com/1030855490/34e6393953)﻿
+* ﻿ [ChatGPT Search (05:43)](https://vimeo.com/1030896198/77b5c6c682)﻿
 
-* ﻿[ChatGPT Search (05:43)](https://vimeo.com/1030896198/77b5c6c682)﻿
+* ﻿ [Advanced Prompt Engineering (08:50)](https://vimeo.com/1030191433/355752d577)﻿
 
-* ﻿[Advanced Prompt Engineering (08:50)](https://vimeo.com/1030191433/355752d577)﻿
-
-* ﻿[ChatGPT for Data Analysis (04:48)](https://vimeo.com/1030194320/220663f83b)﻿
+* ﻿ [ChatGPT for Data Analysis (04:48)](https://vimeo.com/1030194320/220663f83b)﻿
 
 #### How are other universities leveraging AI?
 
-﻿[Teaching Data Science with AI at Harvard Business School](https://forum.openai.com/home/clubs/ai-in-higher-education-luv/videos/teaching-data-science-with-ai-at-harvard-business-school-2025-01-09), featuring HBS's Iavor Bojinov
+﻿ [Teaching Data Science with AI at Harvard Business School](https://forum.openai.com/home/clubs/ai-in-higher-education-luv/videos/teaching-data-science-with-ai-at-harvard-business-school-2025-01-09), featuring HBS's Iavor Bojinov
 
-﻿[The Future of Math with o1 Reasoning](https://forum.openai.com/home/events/virtual-event-the-future-of-math-with-o1-reasoning-iai6dmiyib?agenda_day=671ab753f829550b951ad5bd&agenda_track=671ab753f829550b951ad5d1&agenda_stage=671ab753f829550b951ad5c2&agenda_filter_view=stage&agenda_view=list), featuring UCLA’s Terence Tao
+﻿ [The Future of Math with o1 Reasoning](https://forum.openai.com/home/events/virtual-event-the-future-of-math-with-o1-reasoning-iai6dmiyib?agenda_day=671ab753f829550b951ad5bd&agenda_track=671ab753f829550b951ad5d1&agenda_stage=671ab753f829550b951ad5c2&agenda_filter_view=stage&agenda_view=list), featuring UCLA’s Terence Tao
 
-﻿[Building an AI-Powered University](https://forum.openai.com/home/videos/building-an-ai-powered-university-2025), featuring University of Maryland, University of Nebraska, and The Wharton School
+﻿ [Building an AI-Powered University](https://forum.openai.com/home/videos/building-an-ai-powered-university-2025), featuring University of Maryland, University of Nebraska, and The Wharton School
 
-﻿[Harvard's AI-Enhanced Classrooms](https://forum.openai.com/home/events/virtual-event-harvards-ai-enhanced-classroom-revolutionizing-learning-with-custom-gpts-3i1ik21de0?agenda_day=672d5dbb082ba3c884995473&agenda_track=672d5dbc082ba3c884995487&agenda_stage=672d5dbc082ba3c884995478&agenda_filter_view=stage&agenda_view=list), featuring Harvard Business School’s Jake Cook
-
-﻿[How Wharton is Becoming an AI Native Institution](https://forum.openai.com/home/videos/ai-in-higher-education-2024-09-30), featuring Wharton’s Richard Paul Waterman
+﻿ [How Wharton is Becoming an AI Native Institution](https://forum.openai.com/home/videos/ai-in-higher-education-2024-09-30), featuring Wharton’s Richard Paul Waterman
 
 #### Other Resources:
 
-* ﻿[OpenAI Academy](https://academy.openai.com) – trainings and best practices
+* ﻿ [OpenAI Academy](https://academy.openai.com/) – trainings and best practices
 
-* ﻿[OpenAI Help Center](https://help.openai.com) – troubleshooting, product guides, and FAQs
+* ﻿ [OpenAI Help Center](https://help.openai.com/) – troubleshooting, product guides, and FAQs
 
-* ﻿[ChatGPT Enterprise Release Notes](https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes) – latest product updates
+* ﻿ [ChatGPT Enterprise Release Notes](https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes) – latest product updates
 
-* ﻿[Trust Center](https://trust.openai.com/) – data handling and compliance details
+* ﻿ [Trust Center](https://trust.openai.com/) – data handling and compliance details
 
-* ﻿[API Documentation](https://platform.openai.com/docs) – developer guides and references
+* ﻿ [API Documentation](https://platform.openai.com/docs) – developer guides and references
 
-* ﻿[Status Page](https://status.openai.com) – real-time uptime and incident updates
+* ﻿ [Status Page](https://status.openai.com/) – real-time uptime and incident updates
 
-For technical and troubleshooting questions throughout onboarding, reach out to [[email protected]](/cdn-cgi/l/email-protection#63101613130c1117230c13060d020a4d000c0e).
+For technical and troubleshooting questions throughout onboarding, reach out to  [[email protected]](/cdn-cgi/l/email-protection#81f2f4f1f1eef3f5c1eef1e4efe0e8afe2eeec).
 
 For non-technical questions, reach out to your OpenAI Account Director.
 
-Table Of Contents
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-Blog
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+Video
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
 
-May 6th, 2026 • Views 132
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 354
+Jul 24th, 2026 • Views 571
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
-May 6th, 2026 • Views 233
-
-Blog
-
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
-
-May 6th, 2026 • Views 348
+May 6th, 2026 • Views 905
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 132
-
-Blog
-
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 233
+May 6th, 2026 • Views 480
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 348
+May 6th, 2026 • Views 1.2K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+Blog
 
-May 13th, 2026 • Views 354
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
+
+Jul 24th, 2026 • Views 571
+
+Blog
+
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 480
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K
+
+Blog
+
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+
+May 6th, 2026 • Views 905
+
+# ChatGPT 101 Webinar Recording
+
+<!-- vimeo: 1036124562 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1036124562)
+
+<details>
+<summary>자막: ChatGPT 101 Webinar Recording</summary>
+
+Hi, everyone. I'm Diana, and I'm on the customer education team here at OpenAI. This session is for anyone who has access to ChatGPT at work and is still trying to answer a very reasonable question, "What do I actually do with this?" So I'm going to start with a simple explanation of what AI and ChatGPT are. I will keep the theory short, I promise. Then we'll look at the two main conversation types in ChatGPT, chat and work. I'll explain the kinds of jobs each one is designed to handle, and then we will use each one for a completely separate task. I'll also show you how to review the results before you rely on them. By the end of today's session, you should have a clearer sense of how AI can help with your work and which conversation type makes sense for the task in front of you. One quick note, today's session is designed for people who are using ChatGPT Enterprise. If you're on a different plan, you're welcome to join us, but just know your screen may look a little different and some capabilities may not be available. Your workspace settings can also affect what you see. Nevertheless, the basic approach that I'm teaching today will still apply. Before we open ChatGPT, we need about two minutes of backstory to make sure that we're all on the same page. I promise this will not turn into a computer science class. If you're new to AI, don't worry. You don't need a technical background to use it well. Artificial intelligence is a broad term for software that can spot patterns, learn from data, and produce useful results. That may sound abstract, but you've probably been using it for years without realizing it. A map can reroute you around traffic, your bank can flag an unusual purchase, or a support bot can answer a common question. AI is not one single tool. It's a broad category. Inside that category are models. You can think of a model as a system that is trained to do a particular kind of task. The models behind ChatGPT are designed to work with language for the most part, so they can help you summarize and draft and explain and analyze information. ChatGPT is the product that gives you a way to work with those models. You can ask it a question, you can upload a file, or give it a task to complete. That flexibility is why so many people are paying attention to AI these days. AI can expand what you're able to take on. Work that used to feel difficult can become easier to start, and work that used to take hours can move much faster. You can get more done while still bringing the judgment and the expertise that make the results useful. I do want to say one thing to keep in mind. ChatGPT does not know things the way that a person does. It responds based on patterns and the context that you give it. It can be incredibly useful, sometimes surprisingly so, but it can also be wrong. So throughout both demos, we are going to use three simple checks. Number one, input. Am I allowed to use this information here? Number two, evidence. Can I check the important parts of the answer? And number three, action. Has the right person reviewed this before it gets used? All right. That is all the theory we need. Let's go ahead and open ChatGPT. Before I do, one thing to note, you can use ChatGPT in your browser, which is what we'll be doing today at chatgpt.com. You can also use the desktop app on Mac or Windows and the mobile app on iOS or Android. Your organization's admin may control whether you can download the desktop app. So if it isn't available to you, that's okay. You can still use the full power of ChatGPT online in your browser. Like I said, that's where we will be working today. Use whichever mode fits the moment. I usually use the browser when I'm already working, I've got a bunch of tabs open. The desktop app is handy when I'm working with files on my computer. Mobile is really useful when I need to ask a question or check progress or review something away from my desk. Your work stays in sync. Same ChatGPT, different ways of accessing it. With that said, let's go ahead and take a look. Here we are in ChatGPT. If you're using ChatGPT Enterprise, one thing I want to note right off the bat is that your business data is protected. It remains confidential and owned by your organization. By default, OpenAI does not use your inputs or outputs to train its models. So before we start using ChatGPT for work, I want you to understand that these protections are in place. You should still make sure that you're in the right workspace, which you can always check down here in the bottom corner, and you should always make sure that you're following your own organization's policies around confidential, personal, or proprietary information. Those policies will tell you what information you're allowed to use. With that said, let's get started with chat. Now, the most important thing is to know you don't need to write a perfect prompt before you begin. A prompt is just the question that you give ChatGPT. That's a prompt. You do not get a gold medal for getting the perfect result from a single prompt. I work at OpenAI. I promise I go back and forth with ChatGPT in basically every conversation. So let me show you a simple work example. Imagine that I lead a support team, and lately, the team feels overloaded. I can start with a very ordinary question. My support team has been feeling really overloaded lately. Can you help me figure out what might be going on? So right away, chat gives me a response, and this gives me some places to start. But right now, ChatGPT only knows what I told it. The team's feeling overloaded. That's all the information that it has to work with. So there's kind of a limit to how helpful this response might be. In this case, I have something more useful. I can show ChatGPT the actual ticket data. To do that, I'm going to add a file. I'll select the plus sign on the left-hand side of the input window. I'll say, "Let's add some photos and files," and I'm going to upload a CSV with my ticket output from the last month. We'll wait a moment for it to finish loading. So I've uploaded the spreadsheet with all of our support tickets, and I'll say, "Here are our tickets from last month. What stands out to you?" All right. We get some responses here, and now we're no longer working from just a vague feeling that the team is overloaded. ChatGPT can look across the file and find patterns that I might miss if I'm looking at it row by row. So it's giving me this response, and I'm going to say, "This is great, but it's a lot of information." So I'm just going to keep talking back and forth until I get the answer I need in the format I need. "Can you show me the top issues in a simple chart?" So the chart makes the volume easy to see, but the most common issue is not automatically the most important one. Some tickets may take much longer to resolve, or some tickets might affect higher-value customers. So some of it is just a judgment question. So I'm going to continue following up. So now I can turn this into something practical with one more short follow-up. "Give me three things I could try next month." So that entire workflow happened in one conversation. I started with a broad question, then I added a file, I asked ChatGPT to analyze it, I created a chart, and I worked towards a recommendation. I didn't plan every prompt before I started. I did not get a gold star for getting a perfect prompt right out of the gate. Instead, I looked at what ChatGPT came back with, and I decided what I wanted to know next. Now, at this point, I have a recommendation and a few next steps, but before I take them to my manager, I want ChatGPT to challenge the plan a little bit. ChatGPT wants to be helpful, but sometimes it isn't sure whether you need gentle encouragement or brutal honesty. Of course, I could just say that in a message, but maybe I kind of always want brutal honesty, for example, and I just don't want to have to say that same thing over and over again. So I'm going to personalize this ChatGPT experience a little bit. I'm going to go into the left bottom menu, and I'm going to select Personalization, and then right here at the top, we can set the base style and tone. So right now, I'm on the default. If we click on this and reveal a drop-down menu, we can see other examples, and I'm going to select Candid because I want direct feedback, not automatic agreement. Next, I'll scroll down to the section about custom instructions. Custom instructions are kind of whatever you want them to be. You can put anything you want in here, but for this example today, I'm going to say a few things about how I want it to push back or argue with me or pick at weak arguments and assumptions. So I'll put in some custom instructions here. "When I'm weighing options, don't just agree with me. Point out weak assumptions and tell me what evidence I'm missing. Keep your answers concise." I'll hit Save, and those instructions are going to shape future responses, so I don't have to keep repeating those same preferences every time. Now, I'm going to go back to the same conversation, and I'm going to ask, "What do you think my boss might push back on?" So this is why I picked Candid. There isn't one completely obvious answer here. One issue happens more often for my support team. Another issue takes the longest to resolve. Another issue affects more of our enterprise customers, and I want ChatGPT to point out what I might be missing before I walk into a meeting with my boss and confidently recommend something that gets picked apart. So I still need to give ChatGPT context about the specific task, but now this kind of dialogue is getting me a little closer to the sort of collaborator that I actually want. What we just did is a really strong chat task. Chat is useful for fast, simple questions and thinking something through. You can react to the answers, you can add context, you can change direction. It's that back and forth that we just had, that conversation. That's the point. On the other hand, Work is for larger assignments. With Work, you give it a goal, you give it the relevant sources and the constraints, and Work will, well, work through the assignment and bring back a finished product, a finished result, a finished document or slide deck or presentation for you to review. This is important. Neither Chat nor Work is a beginner or advanced option. I don't want you to think about it that way. The question is just, what kind of job am I doing, and what kind of a result do I need? Here's the rule that I want you to remember. If the result belongs in Work, begin in Work. So if you know, I need to build something, I need to make a presentation, I need to make a report, I need to make some kind of finished result, some thing that I'm going to share with somebody else, if I know that that's where I'm going to end up, don't start drafting it in Chat first. Start in Work, with the goal and the context and the constraints. And I'll show you exactly what that looks like with our next demo. So we are switching over from Chat to Work. ChatGPT Work lives right in the conversation screen that you're already familiar with. It's next to Chat. You just use this toggle at the top of the conversation window and select Work. Now, we are going to start over with a totally different assignment. It is the end of the quarter, which means somebody needs to build and present performance look-back stuff for a leadership meeting. And unfortunately, today, that someone is me. So I need to compare our team's goals with our actual results, explain our biggest wins, and talk about our misses, and build the final story into our company's presentation template. So I already know the result that I need. It is a complete, editable leadership presentation. It needs to be robust, it needs to be accurate, and it needs to look really nice. Before I begin, I already know that this project is complicated. The data that I need and the references I'll be using are scattered across different documents and files and programs. So to access them, I'm going to start by making sure that ChatGPT is connected to some of my other tools using plugins. To find plugins, go over to the left sidebar and select Plugins to open up our plugins library. So this is our plugins library, where you can connect ChatGPT to all the different types of tools that you use in your everyday work. For this demo, I'm using the Google Drive plugin, because that's where my company keeps these files. You can tell that I have it installed, because if I hover over this, I can uninstall it if I want. This lets me know I've already installed Google Drive in this workspace. Now, my company uses Google Drive. But if your company uses SharePoint, for example, you can connect that plugin instead. You can build the exact same workflow either way. So keep in mind during this demonstration that I'm using the tools that my company uses, but we have plugins for the tools that your company uses. Now keep in mind, your organization may control which plugins are available to you. Once a plugin is connected, ChatGPT can help you work with information from that tool, so you don't have to download and upload the same files every time. So before I begin this project, I know I'm going to have a lot of files floating around, and I just want to organize my work, so I'll create a project. On the left sidebar, I'll select the plus sign, and I'll give it a name like Q2 Performance Look Back. I'll create this project. A project is really helpful when I'm going to be working on a few related tasks or when I need to use the same source material over and over again for different things. I don't have to keep adding the same files over and over again. In this case, I'm going to add all of my relevant files. Let me show you what they are. All of them are currently living in Google Drive. We have our quarterly goals, we have our performance workbook, we have my company's approved internal presentation template, and I have my company's brand guide. I'm going to add all four of them from Google Drive into ChatGPT by adding a source and selecting Google Drive. And at this point, I just paste the URL of each one. All right. I have added and synced all four of my documents from Google Drive into my project in ChatGPT. A project can contain multiple conversations. All of them are using the same source files. It doesn't matter if those are Chat or Work, they'll keep using these same four files. So for example, I could select Chat and ask a straightforward question. "What was our Q2 revenue target, and did we hit it?" So right away, Chat can answer that question directly using the files in this project. In this case, our target was $50 million, and we finished at 48.7, so we came in below target. That quick question was its own conversation. Now, I'm going to create another conversation in this project. I'm going to come over to my project and select the pencil icon to create a new conversation. And in this case, I'm going to select Work. Now it's time to begin working on my presentation. Remember what I said earlier, if you know that you're going to end in Work, in other words, you know that you're going to end by building a presentation or a document or a spreadsheet or so on. If you know that that's where you're going to end, then start in Work. That's what we're doing today. All right. It's time to put in my prompt. This is a little more detailed than my quick questions in Chat because I'm describing the finished result that I need. So I won't read the whole prompt out to you, but basically I'm telling Work what I need, what it should use, and what a good result looks like. I'm also setting two boundaries. Do not invent explanations and don't share this draft presentation. Now, Work takes longer than Chat because it has way more to do. I didn't ask just a quick question, and I'm not expecting a quick response. It needs to review the sources, compare the results, decide what belongs in the story, and build the actual presentation. Now, I can follow along while it works, or I can go do something else and come back. That's the whole point. I don't have to sit here and babysit it in real time. I can go work on other tasks, or I can just go grab a cup of coffee. All right. It's done. Now I have an editable presentation that I can review. So first, I'm going to open up my deck and see whether it followed the materials that I gave it. All right. Looking through, it looks like the deck is using my company template's typography, colors, layouts, chart styles. The main takeaway is at the beginning, the results are visible. It's consolidated a lot of information across those different documents. We had the goals document saying what we were being judged on. The workbook said, how did we do against those things? But I want to point out that while those different sources tell us what happened, they don't always tell us why it happened. I asked Work not to invent an explanation just because a slide might feel unfinished without an explanation. But a really nice-looking slide can make a weak claim feel more trustworthy than it is. I know I have been bamboozled by a fancy slide before, and I don't want to do that to my leadership team. So this is where I'm going to stop admiring the deck and start checking for the evidence. So let me take a look here at our advisory revenue, 48.7 million, and I'm going to double-check that source and see where that number comes from. Where did the 48.7 million advisory revenue figure come from? Show me the exact source, and if you calculated this, show me the calculation and link me to the source. All right. And about 51 seconds later, Work has pointed me to the target in the goals document and the actual result in the workbook, and it actually breaks down its calculation for me. So now that I've gone ahead and double-checked that particular figure, if there's anything else that I'm not quite sure about, I would repeat this process for any of the other numbers carrying the story. I don't need to interrogate every comma, but I do want to make sure I've checked the claims that leadership may act on. Remember, Work created the deck, but I need to review the story. I need to decide whether the recommendations make sense. I need to check that sensitive information is handled correctly and that the presentation follows our company's standards. Only after that review would I share it. This human review, it's not a sign that Work failed. It's a sign that you and ChatGPT are in a partnership. Review is part of the assignment, and it helps you move further together. So that is the basic pattern. Use Chat to think through something quick or talk something through or get a focused answer, and use Work for larger assignments that should end in something that you can review. In both places, ask the same three questions. Am I allowed to use this information? Can I verify the important parts, and has the right person reviewed it? Before we wrap up, let's return to that Personalization menu that we talked about earlier. Personality and custom instructions improve how ChatGPT responds right away, but I want to draw your attention to a different feature under this menu, Memory. Memory helps ChatGPT become more useful over time by remembering your preferences, your pet peeves, and how you like to work. You can also tell Chat directly when there's something that you want it to remember. I'll give you an example. So I'm giving it an example here. I hate when people use the term level up, and I would never say that in a conversation. I want Chat to remember that and never encourage me to say it in any of its outputs. There it is. You can see Memory updated. Now I don't need to add, "Please never say level up," to every prompt for the rest of my life. I can click on the Memory updated to open up my saved memories and see this. I can see what other memories it has of me. I can delete a memory if I don't want Chat to remember that about me. And I can always go back to this again by going into the bottom left menu, opening up Personalization, and then scrolling down to the section on Memory. We want that toggle to be enabled so that it can start learning about me over time. With memory, the more I use ChatGPT, the better it will serve me. Your next step is simple. Try one useful thing in Chat and one useful thing in Work. Please do not begin by attempting to automate your entire job. For Chat, bring in a real file that you need to understand. Try this prompt. "What are the three most important things in this file? What looks surprising? What's worth checking? What should I do next and why?" This prompt works with a report, a spreadsheet, a plan, a brief, a draft, any type of file. Look at the answer and then keep the conversation going with whatever question comes to mind next. If you're not sure what your first Work tasks should be, ask Work to help you find one. "What are three tasks I could hand off to ChatGPT Work? For each, tell me what you'd create and what you'd need. Don't begin until I choose." And I want to mention for this one in particular, if you have plugins connected, you can change this prompt a little bit and say, "Look across my recent conversations, look across recent emails, my calendar, et cetera." And that way, ChatGPT Work can come up with real relevant tasks that are already on your plate. So choose a task for Chat and for Work. Review the results. Check at least one important claim or calculation before you use it. And coming back to what we talked about earlier, there are three things that I want you to remember. First, choose between Chat and Work based on the job. Use Chat when you want to think something through, ask a focused question, or shape an answer through conversation. Use Work when you have a larger assignment and you need ChatGPT to build something substantial for you to review. Second, connect your plugins. ChatGPT becomes much more useful when it can work with the information that already lives in the tools you use every day. A good place to start is your email, your calendar, and wherever your company stores files, like Google Drive or SharePoint. Your organization decides which plugins you can use, but if those connections are available, set them up. Third, use those three checkpoints every time. Make sure you're allowed to use the information, check the evidence behind anything important, and make sure that the right person reviews the result before it is shared or used. Enterprise protections give you a safe place to work, and those three habits help you use ChatGPT responsibly. You do not need to remember every detail from this session. We covered a lot today. So here are three resources that you can use after today's session to continue learning and reinforcing everything we talked about. First, our Learn site has use cases and prompts that you can try right away. This is a really good place to get started. Next, if you want more practice, our AI Foundations course will help you understand the core concepts and get more comfortable using AI at work. Finally, take a look at our upcoming webinar calendar. We have a lot more sessions coming with plenty of chances to see these tools in action. Finally, in ChatGPT 102, we'll build on the work that we did here today by taking a workflow that produces a good result, turning that method into a reusable skill, testing it with different inputs, and we'll learn how to automate things safely. For today, pick one useful Chat task, pick one separate Work task, check the result, do it again. Thank you so much for spending this time with me.
+
+</details>

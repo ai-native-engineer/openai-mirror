@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04 -->
 
+Article
+
 September 4, 2026
 
 # Making websites easier to read with ChatGPT
@@ -32,50 +34,76 @@ His advice to developers is to let pages enlarge, keep text distinguishable from
 
 [34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
+Video
+
 [ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 By Juliann Igo
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
 
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 [30:00](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
 
+Video
+
 [Building websites with ChatGPT Sites](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
 
-By Keelan Schule • Jul 17th, 2026 • Views 4K
+By Keelan Schule • Jul 17th, 2026 • Views 4.8K
 
-[Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
-
-By Laura Keenan • Sep 1st, 2026 • Views 34
+Blog
 
 [Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
 
-Sep 2nd, 2026 • Views 57
+Sep 2nd, 2026 • Views 227
 
-[From recipe writer to software CEO with ChatGPT Work](/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02)
+[2:39](/public/clubs/k-12-education-aacga/videos/read-files-with-chatgpt-for-teachers)
 
-Sep 2nd, 2026 • Views 67
+Video
+
+[Read Files with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/read-files-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 85
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
 
 [30:00](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
 
+Video
+
 [Building websites with ChatGPT Sites](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
 
-By Keelan Schule • Jul 17th, 2026 • Views 4K
+By Keelan Schule • Jul 17th, 2026 • Views 4.8K
+
+[2:39](/public/clubs/k-12-education-aacga/videos/read-files-with-chatgpt-for-teachers)
+
+Video
+
+[Read Files with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/read-files-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 85
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+Blog
 
 [Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
 
-Sep 2nd, 2026 • Views 57
-
-[From recipe writer to software CEO with ChatGPT Work](/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02)
-
-Sep 2nd, 2026 • Views 67
-
-[Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
-
-By Laura Keenan • Sep 1st, 2026 • Views 34
+Sep 2nd, 2026 • Views 227

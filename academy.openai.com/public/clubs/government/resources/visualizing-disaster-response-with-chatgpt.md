@@ -1,18 +1,24 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 # Visualizing Disaster Response with ChatGPT
 
 ![Visualizing Disaster Response with ChatGPT](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/visualizing-disaster-response-uniform-cover-80b42f1d-f352-4054-92c3-58d560dadf4b-1788277723675.jpeg?fit=scale-down&width=1200)
 
-# AI Techniques
+# Government
 
-# ChatGPT
+# AI Techniques
 
 ## Use schematics, cutaways, and timelines to explain complex disaster-response systems.
 
 September 1, 2026
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Visualizing Disaster Response with ChatGPT](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/visualizing-disaster-response-uniform-cover-80b42f1d-f352-4054-92c3-58d560dadf4b-1788277723675.jpeg?fit=scale-down&width=1200)
 
@@ -140,38 +146,64 @@ This exercise is useful for organizations that need to explain how a disaster ma
 
 Hospitals, nonprofits, volunteer organizations, schools, and community-based organizations can use the same techniques to explain their role in the larger response and help residents understand where to go, what to expect, and how services connect.
 
+Like
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry
+
+Blog
+
 [Before it exists: 6 ways to visualize a disaster-relief kit](/public/clubs/government/blogs/before-it-exists-6-ways-to-visualize-a-disaster-relief-kit)
 
-By Laura Keenan • Sep 9th, 2026 • Views 7
+By Laura Keenan • Sep 9th, 2026 • Views 85
 
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 30
+By Laura Keenan • Aug 4th, 2026 • Views 144
 
 [11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
 
+Video
+
 [Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
 
-By David Sperry • Jul 19th, 2025 • Views 114
+By David Sperry • Jul 19th, 2025 • Views 291
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+By Laura Keenan • Jul 20th, 2026 • Views 99
+
+Blog
 
 [Before it exists: 6 ways to visualize a disaster-relief kit](/public/clubs/government/blogs/before-it-exists-6-ways-to-visualize-a-disaster-relief-kit)
 
-By Laura Keenan • Sep 9th, 2026 • Views 7
+By Laura Keenan • Sep 9th, 2026 • Views 85
 
 [11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
 
+Video
+
 [Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
 
-By David Sperry • Jul 19th, 2025 • Views 114
+By David Sperry • Jul 19th, 2025 • Views 291
 
 [How to get started guide: Conducting performance reviews with ChatGPT Work](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)
 
-By Laura Keenan • Jul 20th, 2026 • Views 17
+By Laura Keenan • Jul 20th, 2026 • Views 99
 
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 30
+By Laura Keenan • Aug 4th, 2026 • Views 144

@@ -2,46 +2,13 @@
 
 # Ayse Ozturk (Marketing Strategy)
 
-Posted Aug 01, 2025 | Views 738
+<!-- vimeo: 1111375805 | track: English (auto-generated) -->
 
-# Industry & Community
+[▶ Watch on Vimeo](https://vimeo.com/1111375805)
 
-Ayse Ozturk - Clinical Associate Professor - University of South Carolina
+<details>
+<summary>자막: Ayse Ozturk (Marketing Strategy)</summary>
 
-The main focus of the video is to demonstrate how to create simulations/games for experiential learning using ChatGPT. I also mention other applications such as brand-building exercises, data analysis, and creating practice tests and study guides.
+Hello, this is Aisha Os Dr. Aisha Oste. Uh, I teach, uh, marketing courses at University of, uh, South Carolina, mainly principles of marketing and marketing strategic courses. Um, so what I built with chat GPT, uh, is, uh, actually many things. So I use it for brand building exercises, uh, image generation, logo, brand names, uh, slogans, uh, all these plus, um, some like synthetic data creation. And then, uh, uh, basic data analysis. Uh, so we, for the marketing research section, uh, we develop some synthetic data, hypothetical synthetic, uh, illustrated data to work on, and then do a basic data analysis to reveal the key insights, suggestions, uh, for the action plans, uh, for the business, things like that. And, uh, for students, you, uh, own use, uh, when they ask for practice questions, study guides. We, we get the help from chat GPT tool. Uh, so mainly, uh, I would like to talk about something, uh, new that I started, uh, using chat, PT four, which is, uh, creating simulations and games for experiential learning for my students. Uh, so for example, I read how businesses use, um, innovative ways, uh, for, uh, of ai. Um, and then, uh, I try to replicate that in my classes. Example, uh, I'll show you first an article of how a company uses, uh, synthetic focus groups now because, uh, actual focus groups are costly, time consuming, uh, you know, requires immense, uh, immense effort. Uh, but with ai it's now too easy or relatively easy, uh, easier. And, uh, we can apply it in class and the students can actually practice, uh, that, uh, experiential learning, uh, just like real business, uh, applications. Um, let me share my screen with you. Okay, so here is the Wall Street Journal article that I read recently. Read Will AI Empower the PR Industry or Create Ines of Spam. Um, this section was, uh, I, it was interesting to read, uh, because it's, it talks about, uh, a PR firm that uses synthetic focus groups, uh, created by large language models. And I thought, why not create it in our class so that the students can get hands-on experience doing the same approach. Okay, so here is the synthetic focus group interface that I created, just like the, in the news article, just like a PR firm would, would create, uh, I mean, you can give, uh, different prompts, but, uh, I created five different personas. Gen Z, environmental activist, millennial, urban, professional, influencer, public commentator, gen X, suburban parent, baby boomer. You can change, uh, the person as based on the business target markets. And, uh, you can select some, some of them, whichever makes sense for your business. Let's select all, and you can, uh, type your PR campaign here. We apologize for example, for the latest sustainability issue. Uh, that's the message in the PR campaign, let's say. And then you get the feedback from all these personas. And then when you click on next, it gives you a detailed, um, feedback, uh, suggestions for improvement and an overall score. Let's do the same approach, uh, for another brand building exercise for, for our students. Okay. Uh, I already created it here, but, uh, let, we can do it from scratch. Let's copy and paste the, the prompt that I developed. Create a game called launchpad, build your brand for college marketing students. The game should run title on a single webpage and be e embed. Uh, we can, we can click, uh, delete, delete unnecessary things using, okay, this one we don't know single webpage. Make it visually appealing by adding more items to improve the game requirements, students choose a target market segment from the dropdown menu, uh, and they will select the four Ps. And finally, we will get a text-based detailed feedback score, uh, KPIs as things like that. Maybe we can eliminate this. We don't need too much. Okay, include a restart button. But for this, oh, we forgot something. Okay, first, let's activate canvas so that, uh, we can create that interface. We need, um, this to activate this canvas feature to activate, uh, to create the interface. And I'm using chat, g pt, EDU through my institution. Uh, let's see how it'll work. Okay, after a minute, it created this code. We run the code. Let's see. Okay, here it is. Uh, we have the launchpad to build our brand. We choose target market, let's say eco-conscious parents product, um, sustainable packaging or maybe, uh, gen Z, sustainable packaging. Let's say freemium price place, online only, promotion and social media. Let's submit the strategy. Okay, this is the feedback we get. Market reaction score 80 out of a hundred. Gen Z responds well to digital channels and innovation, uh, mark KPIs. And we can actually use this, uh, as a, like, uh, team competition and, uh, compare different groups, KPIs and the performance outcomes, uh, and select a winner, turn it into a contest, make it a fun game, uh, in, as an in-class exercise. Uh, so as for the impact, uh, students take it positively because it's interactive, it's experiential, uh, it has the fun elements, uh, of appli applying real world knowledge. Uh, so this is very valuable. I find this type of applications very valuable, uh, to integrate in my class. Thank you very much.
 
-Dr. Ayse Ozturk is a Clinical Associate Professor of Marketing at the Darla Moore School of Business at the University of South Carolina, with a Ph.D. from Georgia State University. Dr. Ozturk has prior industry experience, including roles at Deloitte and PwC. She is actively involved in advancing AI in education through USC’s Propel AI and Provost’s AI Teaching Fellowship programs.
-
-4
-
-Comments (2)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[10:00](/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
-
-[Kateryna Ilchenko (Digital Marketing)](/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
-
-Posted Aug 02, 2025 | Views 2K
-
-# Leaders & Admins
-
-[10:00](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
-
-[Arkapravo Sarkar (Marketing)](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
-
-Posted Aug 01, 2025 | Views 739
-
-[10:00](/public/videos/yuen-ben-siu-marketing-2025-08-19)
-
-[Yuen Ben Siu (Marketing)](/public/videos/yuen-ben-siu-marketing-2025-08-19)
-
-Posted Aug 01, 2025 | Views 641
+</details>

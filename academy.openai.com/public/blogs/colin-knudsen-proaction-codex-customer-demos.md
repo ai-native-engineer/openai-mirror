@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/colin-knudsen-proaction-codex-customer-demos -->
 
+Article
+
 August 5, 2026
 
 # How Colin Knudsen uses Codex to turn customer conversations into working demos
@@ -31,40 +33,62 @@ Colin now builds customer demos in his own sandboxed environments with Codex. Th
 For Proaction, Codex has made sales, product discovery, and engineering more tightly coupled. Colin can validate a workflow with the customer before asking engineers to build it, then hand over a feature card with transcripts, screenshots, and a working prototype. The engineering team still builds the secure production version, but with less ambiguity. Codex also helps Proaction create custom one-pagers, outreach links, and event materials that lets his small team punch above its weight.
 Colin says the old fleet software world forced humans to serve as the API between disconnected tools, cost time and caused errors. Codex lets Proaction build around the way each operation actually works.
 
+Blog
+
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
+
+Blog
+
+[How Ariso uses OpenAI models to build a workplace coach](/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27)
+
+Blog
 
 [How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
-[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+Blog
 
-[Taiyo Inoue uses Codex to reclaim hours for teaching](/public/blogs/taiyo-inoue-codex-canvas-teaching)
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
-Jun 30th, 2026 • Views 664
+Aug 28th, 2026 • Views 298
 
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 33
-
-[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
-
-Feb 5th, 2026 • Views 2.6K
+Blog
 
 [How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Mar 23rd, 2026 • Views 910
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
 
 [Taiyo Inoue uses Codex to reclaim hours for teaching](/public/blogs/taiyo-inoue-codex-canvas-teaching)
 
-Jun 30th, 2026 • Views 664
+Jun 30th, 2026 • Views 976
+
+Blog
 
 [How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
-Feb 5th, 2026 • Views 2.6K
+Feb 5th, 2026 • Views 3K
+
+Blog
+
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
+
+Aug 28th, 2026 • Views 298
+
+Blog
+
+[Taiyo Inoue uses Codex to reclaim hours for teaching](/public/blogs/taiyo-inoue-codex-canvas-teaching)
+
+Jun 30th, 2026 • Views 976
+
+Blog
+
+[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+
+Feb 5th, 2026 • Views 3K
+
+Blog
 
 [How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Mar 23rd, 2026 • Views 910
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 33
+Mar 23rd, 2026 • Views 1.1K

@@ -14,13 +14,7 @@ Thank you for being part of the AI Skills Jam for K-12 Educators! Revisit the pr
 
 View our slides from the day below and scroll down to find instructions to move your work from the demo workspace to the SBCUSD district workspace. Before moving, please preserve your work using the steps below.
 
-﻿
-
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/EXT-SAN-BERNARDINO-AI-Skills-Jam-for-K-12-Educators-e5cd0a4b-52d9-4c90-85f7-c12ec41a358b-1784771957349.pdf) the file to view.
-
-﻿
-
-﻿
 
 SBCUSD ChatGPT Workspace
 
@@ -44,8 +38,6 @@ The demo workspace has data export enabled. Each person can export their own con
 
 7. When the export email arrives, download the ZIP file while signed in to the same account that requested it.
 
-﻿
-
 Exports can take up to seven days, and the download link expires after 24 hours. The ZIP may contain conversations.json, files used in conversations, and related metadata. Each user can export only their own data.
 
 OpenAI’s Edu export instructions:  <https://help.openai.com/en/articles/20001279-exporting-data-from-a-chatgpt-edu-workspace>﻿
@@ -67,8 +59,6 @@ Before signing out:
 5. If permitted by district policy, back up the complete project folder to district-approved storage.
 
 6. Sign out of the demo workspace, sign in to the district workspace, and reopen the same local project folder in Codex.
-
-﻿
 
 ChatGPT Work and Codex FAQ:  <https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex>﻿
 
@@ -178,7 +168,7 @@ Text:
 
 Having trouble? Please reach out to [[email protected]](/cdn-cgi/l/email-protection)
 
-## Popular
+[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
 
 Blog
 
@@ -192,60 +182,34 @@ Blog
 
 By Juliann Igo
 
-Blog
-
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
-
-By Juliann Igo
-
-Dive in
-
-## Related
-
-Resource
-
 [AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Jul 23rd, 2026 • Views 34
-
-Resource
-
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
-
-Jun 10th, 2026 • Views 537
-
-Resource
+Jul 23rd, 2026 • Views 268
 
 [AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
 
-Jul 23rd, 2026 • Views 10
+Jul 23rd, 2026 • Views 97
 
-Resource
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
+Jul 23rd, 2026 • Views 127
 
-Mar 29th, 2026 • Views 1.2K
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-Resource
+Sep 28th, 2026 • Views 64
 
 [AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Jul 23rd, 2026 • Views 34
+Jul 23rd, 2026 • Views 268
 
-Resource
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
+
+Jul 23rd, 2026 • Views 127
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 64
 
 [AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
 
-Jul 23rd, 2026 • Views 10
-
-Resource
-
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
-
-Mar 29th, 2026 • Views 1.2K
-
-Resource
-
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
-
-Jun 10th, 2026 • Views 537
+Jul 23rd, 2026 • Views 97

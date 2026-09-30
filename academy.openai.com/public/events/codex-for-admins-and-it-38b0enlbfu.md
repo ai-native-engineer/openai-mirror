@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/codex-for-admins-and-it-38b0enlbfu -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Codex for Admins and IT](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-5ccd4d62-8ae4-4cba-bbbf-2290c05bb581-1777932615768.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 8, 2026
 
 # Codex for Admins and IT
 
@@ -19,6 +23,8 @@ Event Slides
 # Codex
 
 # Advanced & Builder Skills
+
+# Work
 
 Join us for a technical overview of Codex for administrators, IT, and security teams responsible for deploying AI software engineering agents across an organization. In this session, we’ll cover how Codex fits into the software development lifecycle, how teams can manage access through ChatGPT Enterprise workspace settings and RBAC, and how authentication, data privacy, auditability, and sandboxing work across local and cloud environments.
 
@@ -42,12 +48,16 @@ Codex Security Whitepaper.pdf
 
 Event has finished
 
-May 08, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 8, 2026
 
 Online
 
 Event has finished
 
-May 08, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 8, 2026
 
 Online

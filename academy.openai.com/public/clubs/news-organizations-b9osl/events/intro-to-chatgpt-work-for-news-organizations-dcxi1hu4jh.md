@@ -6,11 +6,15 @@
 
 ![Intro to ChatGPT Work for News Organizations](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-11-at-12-29-23-PM-2125ef57-d4f2-4554-84d0-8c681e10ddac-1786465775096.jpeg?fit=scale-down&width=1200)
 
+LIVESTREAM
+
 2:00 PM - 3:00 PM GMT
 
 August 20, 2026
 
 # Intro to ChatGPT Work for News Organizations
+
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/webinar-intro-to-chatgpt-work-for-newsrooms-2026-08-26)
 
 # News Organizations
 
@@ -24,22 +28,30 @@ You’ll see a few practical examples of how agents, skills, and plugins can sup
 
 Tune in for live demonstrations, practical ideas, and a closer look at what becomes possible when ChatGPT works alongside your team.
 
-Live in 5 days 13 hours
+Event has finished
 
 2:00 PM - 3:00 PM GMT
 
 August 20, 2026
 
+Online
+
 Organized by
 
 News Organizations
 
-Live in 5 days 13 hours
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/webinar-intro-to-chatgpt-work-for-newsrooms-2026-08-26)
+
+Event has finished
 
 2:00 PM - 3:00 PM GMT
 
 August 20, 2026
 
+Online
+
 Organized by
 
 News Organizations
+
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/webinar-intro-to-chatgpt-work-for-newsrooms-2026-08-26)

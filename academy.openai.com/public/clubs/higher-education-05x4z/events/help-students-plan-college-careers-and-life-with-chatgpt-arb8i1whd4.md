@@ -90,7 +90,7 @@ Already registered?
 
 Log in to access
 
-Starting in 34 days 22 hours
+Starting in 28 days 12 hours
 
 11:00 PM GMT
 
@@ -106,7 +106,7 @@ Register
 
 Add to calendar
 
-Starting in 34 days 22 hours
+Starting in 28 days 12 hours
 
 11:00 PM GMT
 

@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Run a use case showcase
 
@@ -11,6 +11,8 @@
 # Workplace & Business
 
 # Deployment & Adoption
+
+# Work
 
 # Activators
 
@@ -151,9 +153,9 @@ Provide one simple form or submission path for follow-up requests and future con
 
 Look beyond attendance when assessing whether the showcase was useful. Stronger signals include questions, resource use, requests to test an example, adaptations by another team, and future use-case submissions.
 
-**>> Presenters can** [**use ChatGPT to perfect their demo script**](https://chatgpt.com/?prompt=Write%20a%205%E2%80%91minute%20demo%20script%20that%20shows%20%5Buse%20case%5D%20end%E2%80%91to%E2%80%91end.%20Include%20narrator%20notes%2C%20exact%20prompts%20to%20paste%2C%20expected%20outputs%2C%20and%20a%20recovery%20step%20if%20output%20misfires.%20Output%20as%20a%20two%E2%80%91column%20script%20%28What%20to%20show%20%2F%20What%20to%20say%29.)﻿
+**>> Presenters can**  [**use ChatGPT to perfect their demo script**](https://chatgpt.com/?prompt=Write%20a%205%E2%80%91minute%20demo%20script%20that%20shows%20%5Buse%20case%5D%20end%E2%80%91to%E2%80%91end.%20Include%20narrator%20notes%2C%20exact%20prompts%20to%20paste%2C%20expected%20outputs%2C%20and%20a%20recovery%20step%20if%20output%20misfires.%20Output%20as%20a%20two%E2%80%91column%20script%20%28What%20to%20show%20%2F%20What%20to%20say%29.)﻿
 
-Like
+4
 
 Sign in or Join the community
 
@@ -161,42 +163,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Capture and share use cases and impact](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+[Use cases for Codex by department](/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Getting Started as a Team Activator](/en/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[Use cases for Codex by department](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
+Jul 7th, 2026 • Views 1.4K
 
-May 5th, 2026 • Views 310
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Sep 17th, 2025 • Views 11.2K
 
-Sep 17th, 2025 • Views 8.8K
+[Run a prompt challenge](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+Aug 5th, 2025 • Views 8.9K
 
-Aug 5th, 2025 • Views 8.1K
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Sep 17th, 2025 • Views 11.2K
 
-Sep 17th, 2025 • Views 8.8K
+[Run a prompt challenge](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+Aug 5th, 2025 • Views 8.9K
 
-Aug 5th, 2025 • Views 8.1K
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[Use cases for Codex by department](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
-
-May 5th, 2026 • Views 310
+Jul 7th, 2026 • Views 1.4K

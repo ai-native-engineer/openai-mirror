@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/chatgpt-for-teachers-setting-up-your-district-workspace-ixczjkzbze -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.events](/en/public/clubs/k-12-it-and-technical-staff-axv4l/events)
+[navigation.events](/public/clubs/k-12-it-and-technical-staff-axv4l/events)
 
 ![ChatGPT for Teachers: Setting Up Your District Workspace](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OAI-Template-Background-1-2968a80f-f737-43d6-a119-79829d5f5fc2-1769711495712.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+3:00 PM - 4:00 PM GMT
+
+March 11, 2026
 
 # ChatGPT for Teachers: Setting Up Your District Workspace
 
@@ -24,7 +28,9 @@ Join this session built for U.S. K-12 districts preparing to launch ChatGPT for 
 
 Event has finished
 
-March 11, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+March 11, 2026
 
 Online
 
@@ -38,7 +44,9 @@ OpenAI Academy
 
 Event has finished
 
-March 11, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+March 11, 2026
 
 Online
 

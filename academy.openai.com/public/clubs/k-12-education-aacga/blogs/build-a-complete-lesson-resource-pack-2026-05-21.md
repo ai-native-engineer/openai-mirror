@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/build-a-complete-lesson-resource-pack-2026-05-21 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -46,7 +46,7 @@ You can then ask ChatGPT to revise the pack, shorten it, make the language more 
 
 ### Try It
 
-﻿[Try in ChatGPT](https://chatgpt.com/?q=Create%20a%20classroom-ready%20resource%20pack%20for%20%5Bgrade%20level%5D%20students%20on%20%5Bstandard%20or%20topic%5D.%20Include%20a%20lesson%20objective%2C%20a%2045-minute%20lesson%20flow%2C%20teacher%20directions%2C%20a%20student%20worksheet%2C%20three%20discussion%20questions%2C%20an%20exit%20ticket%2C%20and%20differentiation%20supports%20for%20students%20who%20need%20more%20scaffolding%20or%20more%20challenge.%20Keep%20the%20student-facing%20language%20clear%20and%20age-appropriate.)﻿
+﻿ [Try in ChatGPT](https://chatgpt.com/?q=Create%20a%20classroom-ready%20resource%20pack%20for%20%5Bgrade%20level%5D%20students%20on%20%5Bstandard%20or%20topic%5D.%20Include%20a%20lesson%20objective%2C%20a%2045-minute%20lesson%20flow%2C%20teacher%20directions%2C%20a%20student%20worksheet%2C%20three%20discussion%20questions%2C%20an%20exit%20ticket%2C%20and%20differentiation%20supports%20for%20students%20who%20need%20more%20scaffolding%20or%20more%20challenge.%20Keep%20the%20student-facing%20language%20clear%20and%20age-appropriate.)﻿
 
 |  |
 | --- |
@@ -66,76 +66,76 @@ After the first draft, ask for one targeted revision:
 
 The goal is not to publish the first response. The goal is to get a complete starting point you can quickly shape for your actual class.
 
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
 Blog
 
-[Develop A Classroom Newsletter Helper With A Custom GPT](/en/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
+[Develop A Classroom Newsletter Helper With A Custom GPT](/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
 
 Blog
 
-[Turn Student Data Into A Reteach Plan](/en/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
+[Turn Student Data Into A Reteach Plan](/public/clubs/k-12-education-aacga/blogs/turn-student-data-into-a-reteach-plan-2026-05-28)
+
+[3:33](/public/clubs/k-12-education-aacga/videos/build-lesson-decks-with-chatgpt-for-teachers)
+
+Video
+
+[Build Lesson Decks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-lesson-decks-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 43
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540
 
 Blog
 
-[Turn Current Events Into A Classroom Mini-Lesson](/en/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
+[Turn Current Events Into A Classroom Mini-Lesson](/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
 
-May 22nd, 2026 • Views 85
+May 22nd, 2026 • Views 587
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 252
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 262
+Jun 3rd, 2026 • Views 1.3K
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[3:33](/public/clubs/k-12-education-aacga/videos/build-lesson-decks-with-chatgpt-for-teachers)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Build Lesson Decks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-lesson-decks-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 376
+Sep 11th, 2026 • Views 43
 
 Blog
 
-[Turn Current Events Into A Classroom Mini-Lesson](/en/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
+[Turn Current Events Into A Classroom Mini-Lesson](/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
 
-May 22nd, 2026 • Views 85
+May 22nd, 2026 • Views 587
 
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Video
-
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 262
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 376
+Jun 3rd, 2026 • Views 1.3K
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
 Video
 
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 252
+Sep 11th, 2026 • Views 540

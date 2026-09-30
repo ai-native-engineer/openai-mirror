@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Deep research
 
@@ -14,9 +14,15 @@
 
 # Advanced & Builder Skills
 
+# Work
+
+# Portfolio Company Finance
+
+# Portfolio Company Knowledge Work
+
 ## Learn how to use deep research for thorough external research tasks
 
-July 23, 2025 · Last updated on May 29, 2026
+July 23, 2025 · Last updated on September 2, 2026
 
 ![Deep research](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-30--3f060482-a085-4a77-acdf-e8b0affdb0e6-1754317271169.jpeg?fit=scale-down&width=1200)
 
@@ -93,58 +99,69 @@ Deep research is designed to produce more than a one-off report. Its real value 
 
 * **Respect IP.** Use outputs as summaries/synthesis. Avoid copying long passages verbatim into external materials, and keep citations when you reuse content.
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# Deep Research
+
+<!-- vimeo: 1160384046 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1160384046)
+
+<details>
+<summary>자막: Deep Research</summary>
+
+Let's dive into how to use deep research. Deep research gives you faster, more accurate research using authenticated sources and realtime control over the entire process. It's built for complex topics, shows its plan as it runs, and lets you interrupt or refine using trusted domains or connected apps. It's easy to kick off a deep research query. Just open a chat. Choose deep research and state your goal, scope, timeframe, and format. Add apps or CPS and restrict web research to trusted domains if needed. As it runs, watch the plan and interrupt to refine, then review the report and citations. Let's see how it works in the product. First, open your tools menu by clicking on the plus icon. Select deep research to initiate a comprehensive exploration of your topic. Click the input field to start typing your detailed research request. Just like you would any new chat, the more detailed you give, the better. In this example, I'll ask deep research to research trends in the global streaming entertainment market so I can understand how to best pitch a new show I'm working on. You can open the apps menu to connect relevant applications that you have access to that support your research. You can also use the sites dropdown to choose or manage websites for targeted research sources. Click the send arrow to submit your research query. You'll see a preview of what deep research is about to do, and you can make suggestions for what you want it to focus on. Click edit to refine or update your research topic and requirements. For example, you might wanna limit your research to a specific country or region, which is what I'm doing here. You can see that this research completed in 11 minutes and it ran in the background as I was doing other things. In chat GPT. Click on a specific source to examine in more detail. Open the sources menu to review references backing the streaming trends report. When you click on activity, you can see the process that deep research went through to determine what to include in the output. You can copy the report or export it to markdown word or A PDF. Deep research outputs serve as a foundational knowledge base that can be reused across multiple chat GPT workflows. For example, here I'm going to upload the output from my deep research query and ask chat GPT to compare the research to a project plan for my Google Drive and act as a strategic partner to point out potential gaps in my plan that should be addressed ahead of launch based on market data rather than being an endpoint, deep research becomes a reusable asset that chat GPT adapts to different goals, audiences, and stages of work. Consider adding a deep research output to your next project or custom GPT as a knowledge source. You may wonder when to use deep research and when to use general web search and chat GPT if you need a quick answer, like a specific fact document or the most recent update you search. It's optimized for fast retrieval on well-defined queries. If you're working through a more complex or open-ended question, use deep research. It follows a multi-step process to synthesize information across sources and deliver a more thorough evidence backed summary. Here are a few sample prompts to spark ideas, things like vendor short lists, competitive research, launch briefs, and literature or evidence reviews. But the best way to learn deep research is to use it on a real question you've been stuck on and iterate from there. Check out more resources for work@academy.open ai.com.
+
+</details>

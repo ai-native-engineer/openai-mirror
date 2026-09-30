@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/creating-images -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Article
 
@@ -17,6 +17,8 @@ September 25, 2025 · Last updated on May 29, 2026
 # OpenAI API
 
 # Foundations
+
+# Work
 
 ## Transform text into polished visuals
 
@@ -36,7 +38,7 @@ ChatGPT can generate original images from plain-language prompts. You can iterat
 
 ## Try it out
 
-1. **Start with a clear prompt.** You can say “create image” in your prompt, or choose it in the toolbar on your chat. The clearer and more detailed you are, the more closely the generated visuals will align with your intent.  [Learn more about prompting](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting) and why it’s important.
+1. **Start with a clear prompt.** You can say “create image” in your prompt, or choose it in the toolbar on your chat. The clearer and more detailed you are, the more closely the generated visuals will align with your intent.   [Learn more about prompting](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/prompting) and why it’s important.
 
 **2. Refine the result, if needed.**
 
@@ -50,7 +52,7 @@ You can also edit specific portions of the image by highlighting them:
 
 Remember - like text prompts, the more detail you give ChatGPT initially, the fewer iterations you’ll likely have to make.
 
->> [Try the same prompt out](https://chatgpt.com/?prompt=I+am+creating+a+training+for+employees+about+safety+in+the+workplace.+Create+a+photorealistic+image+that+shows+an+employee+at+a+home+office%2C+wearing+casual+clothes.+On+the+right%2C+show+proper+posture+%28sitting+up+straight%2C+elbows+bent+at+90+degrees+on+keyboard%2C+feet+flat+on+the+floor.%29+On+the+left%2C+show+that+same+employee+hunched+over+the+keyboard+with+legs+crossed+under+him%2C+and+he+is+in+pain+because+his+posture+is+poor.+Indicate+which+of+these+postures+is+correct+and+incorrect+by+a+banner+above+the+images%2C+and+create+arrows+that+point+out+proper+and+improper+form.) in ChatGPT and see what you get!
+>>  [Try the same prompt out](https://chatgpt.com/?prompt=I+am+creating+a+training+for+employees+about+safety+in+the+workplace.+Create+a+photorealistic+image+that+shows+an+employee+at+a+home+office%2C+wearing+casual+clothes.+On+the+right%2C+show+proper+posture+%28sitting+up+straight%2C+elbows+bent+at+90+degrees+on+keyboard%2C+feet+flat+on+the+floor.%29+On+the+left%2C+show+that+same+employee+hunched+over+the+keyboard+with+legs+crossed+under+him%2C+and+he+is+in+pain+because+his+posture+is+poor.+Indicate+which+of+these+postures+is+correct+and+incorrect+by+a+banner+above+the+images%2C+and+create+arrows+that+point+out+proper+and+improper+form.) in ChatGPT and see what you get!
 
 ## **Use cases for your role**
 
@@ -75,62 +77,56 @@ Remember - like text prompts, the more detail you give ChatGPT initially, the fe
 
 ## **Related resources**
 
-* OpenAI Help Center: [Creating images in ChatGPT](https://help.openai.com/en/articles/8932459-creating-images-in-chatgpt)﻿
+* OpenAI Help Center:  [Creating images in ChatGPT](https://help.openai.com/en/articles/8932459-creating-images-in-chatgpt)﻿
 
-* OpenAI Blog: [Introducing 4o Image Generation (March 2025)](https://openai.com/index/introducing-4o-image-generation/)﻿
+* OpenAI Blog:  [Introducing 4o Image Generation (March 2025)](https://openai.com/index/introducing-4o-image-generation/)﻿
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[Creating High-Quality Presentations](/public/clubs/work-users-ynjqu/resources/creating-high-quality-presentations-2026-07-23)
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+Jul 23rd, 2026 • Views 2.3K
 
-Jun 23rd, 2026 • Views 175
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
-Video
-
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
-
-Jun 18th, 2026 • Views 646
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 23rd, 2026 • Views 400
+Sep 14th, 2026 • Views 1.5K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[Creating High-Quality Presentations](/public/clubs/work-users-ynjqu/resources/creating-high-quality-presentations-2026-07-23)
 
-Jun 23rd, 2026 • Views 175
+Jul 23rd, 2026 • Views 2.3K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+<!-- vimeo: 1118780379 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1118780379)

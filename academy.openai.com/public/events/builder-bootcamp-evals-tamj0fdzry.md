@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/builder-bootcamp-evals-tamj0fdzry -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: Evals](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-1--e1c570b6-d8b5-4e41-bae4-2590d5f55f3e-1776711123461.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 7, 2026
 
 # Builder Bootcamp: Evals
 
@@ -17,6 +21,10 @@ Event Slides
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
+
+# Portfolio Academy SDLC
 
 In this session, you’ll learn how to design and run evaluations for real-world AI applications. We’ll cover how to define evaluation criteria, structure datasets, run evals with the OpenAI Evals API, and interpret results to understand system quality and reliability.
 
@@ -48,7 +56,9 @@ View Profile
 
 Event has finished
 
-May 07, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 7, 2026
 
 Online
 
@@ -60,7 +70,9 @@ OpenAI Academy
 
 Event has finished
 
-May 07, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 7, 2026
 
 Online
 

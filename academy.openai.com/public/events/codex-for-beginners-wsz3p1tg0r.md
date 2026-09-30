@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+5:00 PM - 6:00 PM GMT
+
+April 21, 2026
+
 # Codex for Beginners
 
 [Replay](https://academy.openai.com/home/videos/codex-for-beginners-2026-04-22)
@@ -13,6 +17,8 @@ LIVESTREAM
 # Codex
 
 # Advanced & Builder Skills
+
+# Work
 
 Join OpenAI Academy for an introductory session on Codex, designed for anyone curious about building with AI—no technical experience required. We’ll start with a quick overview of what Codex is, key definitions, and how it works, before moving into live demonstrations of what you can create as a nontechnical user.
 
@@ -30,7 +36,9 @@ View Profile
 
 Event has finished
 
-April 21, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 21, 2026
 
 Online
 
@@ -44,7 +52,9 @@ OpenAI Academy
 
 Event has finished
 
-April 21, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 21, 2026
 
 Online
 

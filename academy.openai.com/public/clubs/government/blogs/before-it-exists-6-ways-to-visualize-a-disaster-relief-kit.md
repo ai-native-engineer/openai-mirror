@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/before-it-exists-6-ways-to-visualize-a-disaster-relief-kit -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 9, 2026
@@ -8,11 +12,13 @@ September 9, 2026
 
 ![Before it exists: 6 ways to visualize a disaster-relief kit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-cb466acb-142d-4747-8af7-f8e061f6e089-1788966102650.jpeg?fit=scale-down&width=1200)
 
-# ChatGPT
+# Government
 
 ## Follow a fictional military relief-support kit from first impression to close-up, with six visual storytelling prompts.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Before it exists: 6 ways to visualize a disaster-relief kit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-cb466acb-142d-4747-8af7-f8e061f6e089-1788966102650.jpeg?fit=scale-down&width=1200)
 
@@ -152,30 +158,64 @@ Review the pictures together. AI can change hardware, proportions, and garment d
 
 **Your turn:** Choose one fictional object your team can relate to. Give it a setting, a person it helps, and a question each image should answer. Then build the story one view at a time.
 
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+Blog
+
 [From status updates to decisions: Visualize for government program managers](/public/clubs/government/blogs/visualize-for-government-program-managers)
 
-By Laura Keenan • Sep 8th, 2026 • Views 11
+By Laura Keenan • Sep 8th, 2026 • Views 139
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+Blog
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
 
 [Talk It Through: A Government Employee’s Guide to ChatGPT Voice](/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice)
 
-By Laura Keenan • Jul 24th, 2026 • Views 16
+By Laura Keenan • Jul 24th, 2026 • Views 106
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
 
 [From status updates to decisions: Visualize for government program managers](/public/clubs/government/blogs/visualize-for-government-program-managers)
 
-By Laura Keenan • Sep 8th, 2026 • Views 11
+By Laura Keenan • Sep 8th, 2026 • Views 139
 
 [Talk It Through: A Government Employee’s Guide to ChatGPT Voice](/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice)
 
-By Laura Keenan • Jul 24th, 2026 • Views 16
+By Laura Keenan • Jul 24th, 2026 • Views 106
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39

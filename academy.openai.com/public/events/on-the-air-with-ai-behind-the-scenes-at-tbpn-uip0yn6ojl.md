@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/on-the-air-with-ai-behind-the-scenes-at-tbpn-uip0yn6ojl -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.events](/en/public/clubs/news-organizations-b9osl/events)
+[navigation.events](/public/clubs/news-organizations-b9osl/events)
 
 ![On the Air with AI: Behind the Scenes at TBPN](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-79--fc18d733-28a8-47ed-bdca-1c6294b64607-1778252405697.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+9:00 PM - 9:45 PM GMT
+
+May 19, 2026
 
 # On the Air with AI: Behind the Scenes at TBPN
 
@@ -44,7 +48,9 @@ View Profile
 
 Event has finished
 
-May 19, 9:00 PM GMT
+9:00 PM - 9:45 PM GMT
+
+May 19, 2026
 
 Online
 
@@ -56,7 +62,9 @@ News Organizations
 
 Event has finished
 
-May 19, 9:00 PM GMT
+9:00 PM - 9:45 PM GMT
+
+May 19, 2026
 
 Online
 

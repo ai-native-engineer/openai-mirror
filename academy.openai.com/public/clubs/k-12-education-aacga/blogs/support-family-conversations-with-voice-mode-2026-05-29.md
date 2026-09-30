@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -60,78 +60,76 @@ Pause after each sentence so ChatGPT can translate before the other person respo
 
 After the conversation, you can ask ChatGPT to help draft a written version:
 
-﻿[Open in ChatGPT](https://chatgpt.com/?q=Draft%20a%20short%20family%20follow-up%20message%20in%20English%20and%20%5Blanguage%5D.%20Summarize%20only%20these%20points%3A%20%5Badd%20verified%20details%5D.%20Keep%20the%20tone%20warm%2C%20clear%2C%20and%20practical.%20Include%20a%20reminder%20that%20families%20can%20contact%20the%20school%20with%20questions.)﻿
+﻿ [Open in ChatGPT](https://chatgpt.com/?q=Draft%20a%20short%20family%20follow-up%20message%20in%20English%20and%20%5Blanguage%5D.%20Summarize%20only%20these%20points%3A%20%5Badd%20verified%20details%5D.%20Keep%20the%20tone%20warm%2C%20clear%2C%20and%20practical.%20Include%20a%20reminder%20that%20families%20can%20contact%20the%20school%20with%20questions.)﻿
 
 |  |
 | --- |
 | Draft a short family follow-up message in English and [language]. Summarize only these points: [add verified details]. Keep the tone warm, clear, and practical. Include a reminder that families can contact the school with questions. |
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+Blog
+
+[Create School Event Visuals With ChatGPT](/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
+
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-Video
-
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 139
-
-Blog
-
-[Organize Ongoing Class Work With Projects](/en/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
-
-May 22nd, 2026 • Views 74
-
-Blog
-
-[Draft Family Communications In Canvas](/en/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
-
-May 22nd, 2026 • Views 63
-
-Blog
-
-[Create School Event Visuals With ChatGPT](/en/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
-
-May 28th, 2026 • Views 231
-
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[3:34](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Use Voice Mode with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 139
+Sep 11th, 2026 • Views 91
+
+[Supercharging Teaching and Learning with Applications](/public/clubs/k-12-education-aacga/resources/supercharging-teaching-and-learning-with-applications)
+
+Aug 28th, 2026 • Views 129
+
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Video
+
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Jun 3rd, 2026 • Views 602
 
 Blog
 
-[Draft Family Communications In Canvas](/en/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
+[Draft Family Communications In Canvas](/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
 
-May 22nd, 2026 • Views 63
+May 22nd, 2026 • Views 493
+
+[3:34](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
+
+Video
+
+[Use Voice Mode with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-voice-mode-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 91
+
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Video
+
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+
+Jun 3rd, 2026 • Views 602
 
 Blog
 
-[Create School Event Visuals With ChatGPT](/en/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
+[Draft Family Communications In Canvas](/public/clubs/k-12-education-aacga/blogs/draft-family-communications-in-canvas-2026-05-21)
 
-May 28th, 2026 • Views 231
+May 22nd, 2026 • Views 493
 
-Blog
+[Supercharging Teaching and Learning with Applications](/public/clubs/k-12-education-aacga/resources/supercharging-teaching-and-learning-with-applications)
 
-[Organize Ongoing Class Work With Projects](/en/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
-
-May 22nd, 2026 • Views 74
+Aug 28th, 2026 • Views 129

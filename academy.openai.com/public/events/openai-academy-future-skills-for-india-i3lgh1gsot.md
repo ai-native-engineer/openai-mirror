@@ -4,7 +4,11 @@
 
 IN-PERSON
 
-(Event Time Zone)
+4:00 PM - 6:00 PM IST
+
+(Event time zone)
+
+June 5, 2025
 
 # OpenAI Academy: Future Skills for India
 
@@ -16,7 +20,7 @@ IN-PERSON
 
 # India
 
-#### *Please note: registration for this event has ended. Click* ***[here](https://academy.openai.com/public/events/openai-academy-future-skills-for-india-livestream-ll89zugioz)*** *to register for the livestream.*
+#### *Please note: registration for this event has ended. Click*  [***here***](https://academy.openai.com/public/events/openai-academy-future-skills-for-india-livestream-ll89zugioz) *to register for the livestream.*
 
 # OpenAI Academy: Future Skills for India
 
@@ -26,10 +30,13 @@ Join us for a landmark evening in New Delhi as we launch OpenAI Academy in partn
 
 What to expect:
 
-1. **Opening remarks** from senior leadership at MeitY and OpenAI, including Jason Kwon (OpenAI) and government ministers
-2. **Showcase of Indian innovators**: startups and nonprofits using the OpenAI API to drive social and economic impact
-3. **Preview of OpenAI Academy India**, including local language content, hands-on training, and upcoming regional workshops
-4. **Live demonstrations** of AI tools that support safe, reliable applications in education, employment, and public service
+* **Opening remarks** from senior leadership at MeitY and OpenAI, including Jason Kwon (OpenAI) and government ministers
+
+* **Showcase of Indian innovators**: startups and nonprofits using the OpenAI API to drive social and economic impact
+
+* **Preview of OpenAI Academy India**, including local language content, hands-on training, and upcoming regional workshops
+
+* **Live demonstrations** of AI tools that support safe, reliable applications in education, employment, and public service
 
 This is just the beginning. Join us as we build India’s AI future, together.
 
@@ -267,7 +274,9 @@ Closing & High Tea
 
 Event has finished
 
-June 05, 4:00 PM IST (Event Time Zone)
+4:00 PM - 6:00 PM IST (Event time zone)
+
+June 5, 2025
 
 In Person
 
@@ -279,7 +288,9 @@ OpenAI Academy
 
 Event has finished
 
-June 05, 4:00 PM IST (Event Time Zone)
+4:00 PM - 6:00 PM IST (Event time zone)
+
+June 5, 2025
 
 In Person
 

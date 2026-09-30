@@ -1,14 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/k-12-educator-plugin-classroom-materials -->
 
-[Communities](/home/clubs)
-
-/
-
 [K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-/
+[Content](/public/clubs/k-12-education-aacga/content)
 
-[navigation.content](/public/clubs/k-12-education-aacga/content)
+Article
 
 August 4, 2026
 
@@ -60,15 +56,11 @@ Each prompt should name the classroom sources and local standards, the task you 
 @K-12 Educator Use this Grade 7 learning objective, local standard, educator notes, and student reading to create a 50-minute lesson plan, a concise slide outline, an in-class activity, and a student handout for the ecosystem investigation. Keep the language age appropriate. Flag factual claims, accessibility decisions, and teaching choices I should review. Show me a preview before creating final files.
 ```
 
-﻿
-
 ### Prompt 2: Review exit tickets and plan tomorrow’s instruction
 
 ```
 @K-12 Educator Each school day, review the exit tickets in this approved folder and identify the concepts students understood, the misconceptions that need attention, and the students who may need more challenge. Draft tomorrow's reteach, practice, and extensions for my review, and do not share or publish anything without my approval.
 ```
-
-﻿
 
 ## Use It Responsibly
 
@@ -84,54 +76,82 @@ Each prompt should name the classroom sources and local standards, the task you 
 
 * Make final decisions about instruction, feedback, assessment, and family communication yourself; source grounding improves relevance and traceability but does not guarantee accuracy.
 
-[ChatGPT Foundations for Teachers](/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
+Blog
 
 [Write Better Prompts - Teachers](/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
 
-[Create School Event Visuals With ChatGPT](/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
-
-[ChatGPT EDU Credit Governance Resources](/public/clubs/k-12-education-aacga/blogs/chatgpt-edu-credit-governance-resources)
-
-Jul 24th, 2026 • Views 235
-
-[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 880
-
 [3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+
+Video
 
 [Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 1.1K
+[1:00:04](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
-[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+Video
 
-[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[ChatGPT Edu 102 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
-Jun 3rd, 2026 • Views 895
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[ChatGPT EDU Credit Governance Resources](/public/clubs/k-12-education-aacga/blogs/chatgpt-edu-credit-governance-resources)
+Video
 
-Jul 24th, 2026 • Views 235
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+Sep 14th, 2026 • Views 1.5K
 
-[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[8:46](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 1.1K
+Video
 
-[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Use Plugins with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
 
-[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+Sep 11th, 2026 • Views 338
 
-Jun 3rd, 2026 • Views 895
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+Video
 
-[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 880
+Sep 11th, 2026 • Views 540
+
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Video
+
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 187
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540
+
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Video
+
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 187
+
+[8:46](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
+
+Video
+
+[Use Plugins with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-plugins-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 338

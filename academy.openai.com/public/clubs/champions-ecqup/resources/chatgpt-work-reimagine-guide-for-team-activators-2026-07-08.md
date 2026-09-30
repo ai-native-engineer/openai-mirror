@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # ChatGPT Work: Reimagine Guide for Agent Activators
 
@@ -12,9 +12,11 @@
 
 # Champions
 
+# Portfolio Company Knowledge Work
+
 ## Turn one promising team task into a tested, reusable ChatGPT Work workflow.
 
-July 9, 2026
+July 9, 2026 · Last updated on September 2, 2026
 
 ![ChatGPT Work: Reimagine Guide for Agent Activators](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Work-Reimagine-Guide-for-Agent-Activators-style-thumb-70d80a0c-a2b1-4a18-b111-abb1b1ed0672-1783552631706.jpeg?fit=scale-down&width=1200)
 
@@ -226,76 +228,60 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[31:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Recording: Make Work Flow: Automate CRM Updates with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
-[30:00](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Video
-
-[Recording: Make Work Flow: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Resource
-
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Dive in
-
-## Related
-
-Resource
-
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
-
-Jul 9th, 2026 • Views 1.8K
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[30:00](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Recording: Make Work Flow: Proactively monitor accounts with Codex](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
-Jul 9th, 2026 • Views 160
-
-Resource
-
-[ChatGPT Work: Lead Guide for Exec Sponsors](/en/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
-
-Jul 8th, 2026 • Views 192
-
-Resource
-
-[ChatGPT Work: Champion Rollout Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
-
-Jul 8th, 2026 • Views 438
-
-Resource
-
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
-
-Jul 9th, 2026 • Views 1.8K
-
-Resource
-
-[ChatGPT Work: Lead Guide for Exec Sponsors](/en/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
-
-Jul 8th, 2026 • Views 192
-
-Resource
-
-[ChatGPT Work: Champion Rollout Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
-
-Jul 8th, 2026 • Views 438
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Recording: Make Work Flow: Streamline team engagement with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
 
-Jul 9th, 2026 • Views 160
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
+
+Jul 9th, 2026 • Views 4.6K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Video
+
+[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Aug 13th, 2026 • Views 700
+
+[ChatGPT Work: Lead Guide for Exec Sponsors](/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
+
+Jul 8th, 2026 • Views 800
+
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
+
+Jul 8th, 2026 • Views 1.7K
+
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
+
+Jul 9th, 2026 • Views 4.6K
+
+[ChatGPT Work: Lead Guide for Exec Sponsors](/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
+
+Jul 8th, 2026 • Views 800
+
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
+
+Jul 8th, 2026 • Views 1.7K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Video
+
+[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Aug 13th, 2026 • Views 700

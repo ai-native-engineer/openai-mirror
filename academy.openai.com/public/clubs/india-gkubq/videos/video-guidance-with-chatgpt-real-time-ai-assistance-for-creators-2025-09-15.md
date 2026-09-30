@@ -4,6 +4,10 @@
 
 [Content](/public/clubs/india-gkubq/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # Video Guidance with ChatGPT: Real-Time AI Assistance for Creators
 
 Posted Oct 15, 2025 | Views 1.8K
@@ -14,7 +18,13 @@ Posted Oct 15, 2025 | Views 1.8K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+Share
+
+## SUMMARY
 
 In this chapter, you’ll discover how to use ChatGPT’s video calling and screen sharing features to get real-time, face-to-face AI assistance. From troubleshooting editing software to improving your lighting setup on a shoot, this tool is a game-changer for creators who need instant, visual guidance.
 
@@ -32,6 +42,10 @@ Here’s what you’ll learn:
 
 Whether you’re editing, shooting, designing, or analyzing content, this chapter will show you how to use ChatGPT as your always-available creative partner.
 
++ Read More
+
+## Watch More
+
 [9:44](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
 [Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
@@ -39,6 +53,10 @@ Whether you’re editing, shooting, designing, or analyzing content, this chapte
 Posted Jun 05, 2025 | Views 11.2K
 
 # General Learners
+
+# Advanced & Builder Skills
+
+# Work
 
 # India
 
@@ -49,6 +67,10 @@ Posted Jun 05, 2025 | Views 11.2K
 Posted Jun 05, 2025 | Views 5.3K
 
 # General Learners
+
+# Advanced & Builder Skills
+
+# Work
 
 # India; Hindi
 
@@ -65,3 +87,7 @@ Posted Oct 15, 2025 | Views 4K
 # Personal
 
 # India
+
+<!-- vimeo: 1116320531 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116320531)

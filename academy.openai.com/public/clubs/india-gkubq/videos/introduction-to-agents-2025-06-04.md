@@ -4,6 +4,10 @@
 
 [Content](/public/clubs/india-gkubq/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # Introduction to Agents
 
 Posted Jun 05, 2025 | Views 7.6K
@@ -16,7 +20,13 @@ Posted Jun 05, 2025 | Views 7.6K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+Share
+
+## SUMMARY
 
 In this video, you'll learn what an AI agent is and how to build one. You'll discover when to use agents, understand the core components, explore single-agent and multi-agent orchestration patterns, and learn about safety guardrails.
 
@@ -36,6 +46,10 @@ Our flagship 6-month Applied AI program delivers one of the most advanced curric
 
 Partnered with AI leaders across the board, it’s our mission to inform, educate and engage professionals in Applied AI, as they are ushered into the era of intelligence.
 
++ Read More
+
+## Watch More
+
 [9:51](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
 [Introduction to Agents (Hindi)](/public/videos/introduction-to-agents-hindi-2025-06-04)
@@ -45,6 +59,8 @@ Posted Jun 05, 2025 | Views 1.7K
 # General Learners
 
 # OpenAI API
+
+# Advanced & Builder Skills
 
 # Personal
 
@@ -64,6 +80,8 @@ Posted Jun 05, 2025 | Views 7K
 
 # Deployment & Adoption
 
+# Work
+
 # India
 
 [4:56](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
@@ -72,4 +90,21 @@ Posted Jun 05, 2025 | Views 7K
 
 Posted Jun 05, 2025 | Views 5K
 
+# Educators & Students
+
+# Advanced & Builder Skills
+
+# Education
+
 # India
+
+<!-- youtube: 89H54TAL-kc | track: none -->
+
+[![India](https://img.youtube.com/vi/89H54TAL-kc/hqdefault.jpg)](https://www.youtube.com/watch?v=89H54TAL-kc)
+
+<details>
+<summary>자막: India</summary>
+
+https://www.youtube.com/watch?v=89H54TAL-kc
+
+</details>

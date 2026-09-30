@@ -1,8 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/government/events -->
 
+[Government (United States)](/public/clubs/government/overview)
+
 Events
 
-2034 members
+2153 members
 
 Government (United States)
 

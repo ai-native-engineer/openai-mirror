@@ -10,7 +10,7 @@ September 2, 2026
 
 # AI for Government Legal Professionals - Move Faster Without Losing Precision
 
-Register
+[Replay](https://academy.openai.com/home/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
 
 Legal work demands both speed and precision. Join us to explore practical ways government legal professionals can use AI to accelerate research, review documents, draft more efficiently, and strengthen their work without compromising accuracy or judgment.
 
@@ -24,7 +24,7 @@ Public Sector, ASE @ OpenAI
 
 View Profile
 
-Live in 25 days 10 hours
+Event has finished
 
 3:30 PM - 4:30 PM GMT
 
@@ -32,11 +32,15 @@ September 2, 2026
 
 Online
 
+Organized by
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
-Register
+OpenAI Academy
 
-Live in 25 days 10 hours
+[Replay](https://academy.openai.com/home/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+
+Event has finished
 
 3:30 PM - 4:30 PM GMT
 
@@ -44,6 +48,10 @@ September 2, 2026
 
 Online
 
+Organized by
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
-Register
+OpenAI Academy
+
+[Replay](https://academy.openai.com/home/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)

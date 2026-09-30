@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/small-business -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Small Business
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -60,7 +62,7 @@ Diagon, founded by longtime manufacturing procurement leader Will Drewery, appli
 
 # Awareness
 
-# Work](/en/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)[Blog
+# Work](/public/blogs/how-gpt-5-turns-capital-equipment-procurement-into-a-lever-for-us-reindustrialization)[Blog
 
 ### Two weeks to sell out, one AI playbook
 
@@ -70,7 +72,7 @@ Facing a tight two-week window to sell out a leadership summit in Bangkok, Woody
 
 # Awareness
 
-# Work](/en/public/blogs/two-weeks-to-sell-out-one-ai-playbook)[Blog
+# Work](/public/blogs/two-weeks-to-sell-out-one-ai-playbook)[Blog
 
 ### Breaking things, building a business
 
@@ -80,7 +82,9 @@ Kaija Pack turned grief after her husband’s sudden death into Break Life Houst
 
 # Awareness
 
-# North America](/en/public/blogs/breaking-things-building-a-business)[Blog
+# Work
+
+# North America](/public/blogs/breaking-things-building-a-business)[Blog
 
 ### From hypothesis to dashboard in an hour
 
@@ -92,7 +96,7 @@ Aidan McLaughlin, a researcher on OpenAI’s core models team, uses Codex to tra
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/from-hypothesis-to-dashboard-in-an-hour)[Blog
+# Work](/public/blogs/from-hypothesis-to-dashboard-in-an-hour)[Blog
 
 ### Designing the emotional map of recovery
 
@@ -104,7 +108,7 @@ After breast cancer, Allison Leeds found that medicine could explain a surgical 
 
 # Awareness
 
-# Work](/en/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)[Blog
+# Work](/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)[Blog
 
 ### A cultural remix of Christmas, built for the shelves
 
@@ -116,7 +120,7 @@ When Jasmine Hudson and her team at Black Paper Party wanted to reimagine “The
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/a-cultural-remix-of-christmas-built-for-the-shelves-2026-01-06)[Blog
+# Work](/public/blogs/a-cultural-remix-of-christmas-built-for-the-shelves-2026-01-06)[Blog
 
 ### How ChatGPT helped turn a home kitchen into a Thai restaurant
 
@@ -126,7 +130,7 @@ Matt Rosenberg and his wife, Chef Kamonwan, used ChatGPT to evaluate neighborhoo
 
 # Awareness
 
-# Work](/en/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)[Blog
+# Work](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)[Blog
 
 ### How ChatGPT helped a security guard become a project manager
 
@@ -138,7 +142,7 @@ Kenya Solomon joined an AI pilot at Kane Realty while working as a security guar
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)[Blog
+# Work](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)[Blog
 
 ### Two Brothers Turn Drawings Into a Business With ChatGPT
 
@@ -148,7 +152,7 @@ Quincy and Jackson Fuller started using ChatGPT at home for stories, images, and
 
 # Awareness
 
-# Work](/en/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)[Blog
+# Work](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)[Blog
 
 ### How ChatGPT Built a Contractor’s Back Office
 
@@ -162,40 +166,130 @@ Morgan Sterling runs Beach Cities Builder in Hermosa Beach, where trust, transpa
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)[Blog
+# Work](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)[Blog
 
 ### Luke Xing used Codex to build a tool for his hearing loss
 
 Luke Xing built a personal audio calibration tool with Codex, giving him a fast way to adjust computer sound around a fluctuating hearing impairment.
 
-# accessibility
+# Accessibility
 
 # AI for Coding
 
-# Codex](/en/public/blogs/luke-xing-codex-hearing-audio-tool)[Blog
-
-### How The San Francisco Standard is building an AI-first local news experience
-
-The Standard’s subscriber app uses AI to personalize local news, help readers explore reporting, and organize community tips under human editorial oversight.
-
-# journalism](/en/public/blogs/san-francisco-standard-ai-first-local-news)[Blog
+# Codex](/public/blogs/luke-xing-codex-hearing-audio-tool)[Blog
 
 ### GroundVue is making public meetings searchable with Codex
 
 GroundVue uses Codex and OpenAI models to find, transcribe, and analyze public meetings so officials can compare how other communities approach shared problems.
 
-# business
+# Business
 
-# startup
+# Startup
 
-# govtech](/en/public/blogs/groundvue-codex-searchable-public-meetings)
+# Govtech](/public/blogs/groundvue-codex-searchable-public-meetings)[Blog
+
+### How Colin Knudsen uses Codex to turn customer conversations into working demos
+
+Proaction cofounder Colin Knudsen uses Codex to turn customer conversations into tailored demos, sales materials, and product prototypes for his small team.
+
+# Codex
+
+# Developers & Builders
+
+# Workplace & Business
+
+# Business
+
+# Startup
+
+# AI for Coding
+
+# Use Cases](/public/blogs/colin-knudsen-proaction-codex-customer-demos)[Blog
+
+### Goliath Data: From Three People to 20 in Chattanooga
+
+Software engineer Brian Przezdziecki uses Codex to turn customer complaints into software fixes, while Goliath’s Zach Fitch saw a requested school-zone filter become a $10,000-per-month contract request.
+
+# Startup
+
+# Business
+
+# AI for Coding
+
+# Sales
+
+# Tennessee](/public/blogs/goliath-data-from-three-people-to-20-in-chattanooga)[Blog
+
+### How Ariso uses OpenAI models to build a workplace coach
+
+Ariso CTO Max Heckel uses OpenAI’s voice models to power Ari’s workplace coach. Drawing on meetings and connected tools, Ari helps people prepare for conversations, track commitments, and check whether follow-ups are complete.
+
+# Startup](/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27)[Blog
+
+### From recipe writer to software CEO with ChatGPT Work
+
+Elizabeth Rider used ChatGPT to work through the economics and design of Butler, a meal-planning app built around the food families already cook. During development calls, she generated interface concepts that helped her team resolve design decisions on the spot. Working with three developers and a designer, she built the first version in 12 weeks. She and her husband financed the business themselves.
+
+# Startup
+
+# SMB
+
+# Entrepreneur
+
+# Solopreneur](/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02)[Blog
+
+### This European startup founder is building a fitness business with Codex and ChatGPT Work
+
+Tom Tomaszewski wanted ChatGPT to work with his latest sleep, activity and recovery data. He used Codex to build freddy.coach and now develops the product with one colleague. ChatGPT Work helps with company paperwork, training plans and family trips.
+
+# Business
+
+# Startup
+
+# Switzerland
+
+# Poland](/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28)[Blog
+
+### How a game developer in Florida uses ChatGPT to build faster in Unity
+
+Florida game developer Jim Chaney uses ChatGPT to set up projects in Unity, a game-development engine, and troubleshoot technical problems. For a client exploring facial-tracking avatars on mobile hardware, it helped him prepare the project and navigate unfamiliar software.
+
+# Florida
+
+# Solopreneur
+
+# Workplace & Business](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)[Blog
+
+### Making the classics more approachable with ChatGPT Work
+
+Karen Rodriguez uses ChatGPT Work to create reading guides tailored to each subscriber’s interests, reading history and available time. Starting with shorter classics and building toward more challenging books, each yearlong plan explains why a recommendation fits, what to look for and how to go deeper.
+
+# Texas
+
+# SMB
+
+# Business
+
+# ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)[Blog
+
+### Turning handwritten notes into proposals with ChatGPT
+
+Consultant Brooks Lockett studies client conversations on paper before bringing his annotated notes, transcripts and proposal template into ChatGPT Work, removing sensitive information first. Previously, writing the proposal himself could take days. He says now one proposal takes four hours, including two client calls.
+
+# Consulting
+
+# Writing
+
+# North Carolina
+
+# Portfolio Company Sales](/public/blogs/turning-handwritten-notes-into-proposals-with-chatgpt-2026-09-22)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

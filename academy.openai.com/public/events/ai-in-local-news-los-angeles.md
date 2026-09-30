@@ -1,27 +1,6 @@
 <!-- source: https://academy.openai.com/public/events/ai-in-local-news-los-angeles -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
-[Communities](/home/clubs)
-
-/
-
 [News Organizations](/public/clubs/news-organizations-b9osl/overview)
-
-/
 
 [navigation.events](/public/clubs/news-organizations-b9osl/events)
 
@@ -37,8 +16,6 @@ September 29, 2026
 
 # [In Person Event] AI at Work in Local News: How Newsrooms Are Using AI Today
 
-Register
-
 # News
 
 # News Organizations
@@ -51,33 +28,23 @@ Note: This event will be recorded.
 
 **Kevin Delaney**
 
-*Kevin Delaney is a journalist and media entrepreneur who co-founded Quartz and Charter and led them to acquisition, was managing editor and a senior writer at The Wall Street Journal, and was senior editor at The New York Times and The Information. He's now editor-in-chief of [The San Francisco Standard](http://sfstandard.com/) and [Charter](http://charterworks.com/), the leading future-of-work media and research company. Kevin is a member of the Council on Foreign Relations, board chair at the Internews independent media nonprofit, and a graduate of Yale University.*
+*Kevin Delaney is a journalist and media entrepreneur who co-founded Quartz and Charter and led them to acquisition, was managing editor and a senior writer at The Wall Street Journal, and was senior editor at The New York Times and The Information. He's now editor-in-chief of*  [*The San Francisco Standard*](http://sfstandard.com/) *and*  [*Charter*](http://charterworks.com/)*, the leading future-of-work media and research company. Kevin is a member of the Council on Foreign Relations, board chair at the Internews independent media nonprofit, and a graduate of Yale University.*
 
 **Neil Chase**
 
-*Neil Chase is CEO at CalMatters, the nonprofit newsroom covering California policy and politics. He was previously executive editor at The Mercury News and East Bay Times, where his team won the 2017 Pulitzer Prize for Breaking News Coverage. He worked as an editor at The San Francisco Examiner, The Arizona Republic, CBS MarketWatch and The New York Times and was an assistant professor at Northwestern University's Medill School of Journalism.*
+*Neil Chase is CEO at*  [*CalMatters,*](https://calmatters.org/) *the nonprofit newsroom covering California policy and politics. He was previously executive editor at The Mercury News and East Bay Times, where his team won the 2017 Pulitzer Prize for Breaking News Coverage. He worked as an editor at The San Francisco Examiner, The Arizona Republic, CBS MarketWatch and The New York Times and was an assistant professor at Northwestern University's Medill School of Journalism.*
 
 **Kristen Miller**
 
-*Kristen Muller is Executive Editor of The LA Local where she leads a network of community-centered newsrooms serving more than one million Angelenos. Previously, Muller was Chief Content Officer of Southern California Public Radio ([LAist.com](http://LAist.com) and 89.3), where she helped transform the organization from a legacy public radio station into a multimedia local newsroom. She brings more than two decades of newsroom experience and an award-winning track record of growing digital audiences, deepening community engagement and leading newsrooms through transformational change.*
+*Kristen Muller is Executive Editor of*  [*The LA Local*](https://thelalocal.org/)*where she leads a network of community-centered newsrooms serving more than one million Angelenos. Previously, Muller was Chief Content Officer of Southern California Public Radio (* [*LAist.com*](http://laist.com/) *and 89.3), where she helped transform the organization from a legacy public radio station into a multimedia local newsroom. She brings more than two decades of newsroom experience and an award-winning track record of growing digital audiences, deepening community engagement and leading newsrooms through transformational change.*
+
+# **Moderated By**
+
+*Olivia Smith is an Emmy Award-winning journalist, media consultant and AI specialist based in Los Angeles. She is a versatile content creator and storyteller with more than 20 years of experience in print, broadcast and digital journalism. Olivia is the CEO of*  [*Media Consulting Coaches*](https://www.mediaconsultingcoaches.com/)*, specializing in media training, public speaking, content creation and AI strategy. She is also an adjunct professor at the USC Annenberg School for Communication and Journalism.*
+
+*Olivia spent nearly a decade at Disney, working in inaugural digital positions for ABC News, Good Morning America and ABC7, and has contributed to numerous outlets including CNN, 60 Minutes, Al Jazeera, NY1 News and the Columbia Journalism Review. She has also worked on the GenAI Content Engineering team at Meta, guiding model training and optimizing machine learning processes. Her expertise in AI overlaps with her love of storytelling. Olivia has created courses for USC on journalism and AI, and she often leads workshops and speaking engagements on AI tools and strategy. Her goal is to empower creators to use technology ethically, maximizing their impact even with limited resources. Olivia created and hosts the AI podcast Prompt Response. Find her on social media @LivNews.*
 
 ## Speakers
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ProfilePic-4ec2a7d5-ab14-485d-bb4e-fb5eb0f0a999-1780619438161.jpeg?fit=scale-down&width=360)
-
-Evan Hirsch
-
-OpenAI for News @ OpenAI
-
-View Profile
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/HS-4--f0d4ab0b-c402-478d-8b64-65640f4d5ef0-1765920472268.png?fit=scale-down&width=360)
-
-Christina Lim
-
-Media Partnerships @ OpenAI
-
-View Profile
 
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Kevin-headshot-photo-b3715323-f0d2-4685-aa49-6b93ed19094b-1788278294642.jpeg?fit=scale-down&width=360)
 
@@ -100,6 +67,30 @@ View Profile
 Neil Chase
 
 CEO @ CalMatters
+
+View Profile
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/HS-4--f0d4ab0b-c402-478d-8b64-65640f4d5ef0-1765920472268.png?fit=scale-down&width=360)
+
+Christina Lim
+
+Media Partnerships @ OpenAI
+
+View Profile
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ProfilePic-4ec2a7d5-ab14-485d-bb4e-fb5eb0f0a999-1780619438161.jpeg?fit=scale-down&width=360)
+
+Evan Hirsch
+
+OpenAI for News @ OpenAI
+
+View Profile
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Olivia-Smith-73cce3b0-9440-44c1-bf4b-0936f4ec92e7-1788961525398.jpeg?fit=scale-down&width=360)
+
+Olivia Smith
+
+CEO @ Media Consulting Coaches
 
 View Profile
 
@@ -151,7 +142,7 @@ Panel Discussion
 
 Forum Panel Discussion: AI in Local News
 
-Panel discussion with: Kevin Delaney (San Francisco Standard & Charter), Kristen Muller (LA Local), Neil Chase (CalMatters).
+Panel discussion moderated by Olivia Smith
 
 Q&A to follow
 
@@ -164,6 +155,8 @@ Speakers:
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/neil-8d87a07e-1805-4881-957c-6d2109df7f1f-1788297863040.jpeg?fit=scale-down&width=200)
 
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Kristen-Muller-c8a96178-4d32-4c8f-9d5b-e2ee91a34445-1788297791609.jpeg?fit=scale-down&width=200)
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Olivia-Smith-73cce3b0-9440-44c1-bf4b-0936f4ec92e7-1788961525398.jpeg?fit=scale-down&width=200)
 
 From11:20 AM
 
@@ -225,7 +218,7 @@ Opening / Closing
 
 Closing Remarks
 
-Starting in 27 days 4 hours
+Event has finished
 
 10:00 AM - 1:00 PM PDT (Event time zone)
 
@@ -239,11 +232,7 @@ Organized by
 
 OpenAI Academy
 
-Register
-
-Add to calendar
-
-Starting in 27 days 4 hours
+Event has finished
 
 10:00 AM - 1:00 PM PDT (Event time zone)
 
@@ -256,7 +245,3 @@ Organized by
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
 OpenAI Academy
-
-Register
-
-Add to calendar

@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/resources/how-vg-built-an-ai-buddy-for-journalists -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.content](/en/public/clubs/news-organizations-b9osl/content)
+[Content](/public/clubs/news-organizations-b9osl/content)
 
 Article
 
@@ -52,68 +52,64 @@ The Buddy Reader says something larger about how we work with AI at VG. We are n
 
 That is why The Buddy Reader matters. It is a simple tool, but it solves real problems. And in a newsroom, that is often what matters most.
 
-Table Of Contents
+External Content
+
+[How to use AI to improve fundraising strategy](/public/clubs/news-organizations-b9osl/externals/how-to-use-ai-to-improve-fundraising-strategy-2025-12-15)
+
+[How The Washington Post builds AI agents to make complex analytics easier to understand](/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents)
 
 External Content
 
-[How to use AI to improve fundraising strategy](/en/public/clubs/news-organizations-b9osl/externals/how-to-use-ai-to-improve-fundraising-strategy-2025-12-15)
+[How Sahan Journal is Revolutionizing Sales Pitches with AI](/public/clubs/news-organizations-b9osl/externals/how-sahan-journal-is-revolutionizing-sales-pitches-with-ai-2025-12-12)
 
-External Content
-
-[How Sahan Journal is Revolutionizing Sales Pitches with AI](/en/public/clubs/news-organizations-b9osl/externals/how-sahan-journal-is-revolutionizing-sales-pitches-with-ai-2025-12-12)
-
-External Content
-
-[Creating More Time for Journalism with AI at Mediengruppe Pressedruck](/en/public/clubs/news-organizations-b9osl/externals/creating-more-time-for-journalism-with-ai-at-mediengruppe-pressedruck-2026-05-27)
-
-[49:00](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+[49:00](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
 Video
 
-[AI Essentials for Journalists](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+[AI Essentials for Journalists](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
-Dec 16th, 2025 • Views 2.4K
-
-External Content
-
-[How news organizations are creating AI policies](/en/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-creating-ai-policies-2025-12-12)
-
-Dec 15th, 2025 • Views 44
+Dec 16th, 2025 • Views 3.4K
 
 External Content
 
-[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/en/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
+[Centro de Periodismo Investigativo:Insights from Building an AI Translation Tool](/public/clubs/news-organizations-b9osl/externals/insights-and-lessons-from-building-an-ai-translation-tool-for-cpi-2025-12-12)
 
-Apr 9th, 2026 • Views 36
+Dec 15th, 2025 • Views 72
 
 External Content
 
-[Centro de Periodismo Investigativo:Insights from Building an AI Translation Tool](/en/public/clubs/news-organizations-b9osl/externals/insights-and-lessons-from-building-an-ai-translation-tool-for-cpi-2025-12-12)
+[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
 
-Dec 15th, 2025 • Views 71
+Apr 9th, 2026 • Views 50
 
-[49:00](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+Blog
+
+[How The San Francisco Standard is building an AI-first local news experience](/public/clubs/news-organizations-b9osl/blogs/san-francisco-standard-ai-first-local-news)
+
+Jun 4th, 2026 • Views 819
+
+[49:00](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
 Video
 
-[AI Essentials for Journalists](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+[AI Essentials for Journalists](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
-Dec 16th, 2025 • Views 2.4K
-
-External Content
-
-[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/en/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
-
-Apr 9th, 2026 • Views 36
+Dec 16th, 2025 • Views 3.4K
 
 External Content
 
-[Centro de Periodismo Investigativo:Insights from Building an AI Translation Tool](/en/public/clubs/news-organizations-b9osl/externals/insights-and-lessons-from-building-an-ai-translation-tool-for-cpi-2025-12-12)
+[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
 
-Dec 15th, 2025 • Views 71
+Apr 9th, 2026 • Views 50
+
+Blog
+
+[How The San Francisco Standard is building an AI-first local news experience](/public/clubs/news-organizations-b9osl/blogs/san-francisco-standard-ai-first-local-news)
+
+Jun 4th, 2026 • Views 819
 
 External Content
 
-[How news organizations are creating AI policies](/en/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-creating-ai-policies-2025-12-12)
+[Centro de Periodismo Investigativo:Insights from Building an AI Translation Tool](/public/clubs/news-organizations-b9osl/externals/insights-and-lessons-from-building-an-ai-translation-tool-for-cpi-2025-12-12)
 
-Dec 15th, 2025 • Views 44
+Dec 15th, 2025 • Views 72

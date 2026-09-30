@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -48,7 +48,7 @@ That shift matters. "Help me use AI in teaching" is too broad. "Give me three wa
 | --- |
 | I teach at a university and I want to use ChatGPT in ways that support, rather than replace, my teaching judgment.  ﻿  Based on that goal, give me 3 high-value workflows for a faculty member.  For each one, include:  - when to use it  - a sample prompt  - what I should review or revise myself before using the result with students |
 
-## ﻿[**Try in ChatGPT**](https://chatgpt.com/?q=I%20teach%20at%20a%20university%20and%20I%20want%20to%20use%20ChatGPT%20in%20ways%20that%20support%2C%20rather%20than%20replace%2C%20my%20teaching%20judgment.%0A%0ABased%20on%20that%20goal%2C%20give%20me%203%20high-value%20workflows%20for%20a%20faculty%20member.%0AFor%20each%20one%2C%20include%3A%0A-%20when%20to%20use%20it%0A-%20a%20sample%20prompt%0A-%20what%20I%20should%20review%20or%20revise%20myself%20before%)﻿
+## ﻿ [**Try in ChatGPT**](https://chatgpt.com/?q=I%20teach%20at%20a%20university%20and%20I%20want%20to%20use%20ChatGPT%20in%20ways%20that%20support%2C%20rather%20than%20replace%2C%20my%20teaching%20judgment.%0A%0ABased%20on%20that%20goal%2C%20give%20me%203%20high-value%20workflows%20for%20a%20faculty%20member.%0AFor%20each%20one%2C%20include%3A%0A-%20when%20to%20use%20it%0A-%20a%20sample%20prompt%0A-%20what%20I%20should%20review%20or%20revise%20myself%20before%)﻿
 
 ## What Good Looks Like
 
@@ -86,56 +86,56 @@ After identifying one strong workflow, use ChatGPT to plan a specific class meet
 
 Blog
 
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
-
-Blog
-
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 221
+May 13th, 2026 • Views 1.3K
 
 Blog
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 19th, 2026 • Views 174
-
-Blog
-
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 132
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 354
+May 6th, 2026 • Views 1.2K
 
 Blog
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-May 19th, 2026 • Views 174
-
-Blog
-
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 132
+May 6th, 2026 • Views 480
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
+May 19th, 2026 • Views 1.2K
+
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+
+May 13th, 2026 • Views 1.3K
+
+Blog
+
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 480
+
+Blog
+
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 1.2K
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K

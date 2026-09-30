@@ -16,12 +16,14 @@ May 8, 2026
 
 # Advanced & Builder Skills
 
+# Work
+
 ## Morgan Sterling uses ChatGPT to win more local leads, process subcontractor invoices, and save hours of paperwork each week.
 
 ![How ChatGPT Built a Contractor’s Back Office](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/BCB-Profile-e47d4e9c-1064-49a7-8f70-f4f2bf122b44-1778203187921.jpeg?fit=scale-down&width=1200)
 
 Builder Morgan Sterling is one of the millions of American entrepreneurs who use ChatGPT to help with their businesses. In particular, Morgan uses it to turn subcontractor invoices into line items for his books.
-He runs a general contracting firm in Hermosa Beach ([**Beach Cities Builder**](https://beachcitiesbuilder.com/)) that serves the beach cities of Southern California. His business does new construction, additions, and remodels, and it runs on trust: knowing the building departments, having long-term relationships with architecture firms, and giving clients transparent proposals that show the subcontractor costs behind his markup. 
+He runs a general contracting firm in Hermosa Beach ( [**Beach Cities Builder**](https://beachcitiesbuilder.com/)) that serves the beach cities of Southern California. His business does new construction, additions, and remodels, and it runs on trust: knowing the building departments, having long-term relationships with architecture firms, and giving clients transparent proposals that show the subcontractor costs behind his markup. 
 Morgan started using ChatGPT to bring in more work. He used it to rebuild SEO pages for his website, write metadata, check keywords, and compare his site against searches like “remodels Redondo Beach.” Slowly, he saw his rankings rise, and he now estimates inbound contacts are up about 25%, which translates to an additional six figures in gross revenue per year.
 Then he turned to his paperwork.
 Across roughly 30 active job folders, Morgan gets several subcontractor invoices a day. He used to process them by opening an invoice, identifying the project, entering the subcontractor, invoice number, amount due, and payment details into Zoho Books, then filing the document in the right Google Drive folder.
@@ -30,68 +32,64 @@ He has built smaller tools the same way. Because he checks his calendar more tha
 Morgan is among the 4 million-plus Americans who use ChatGPT to help plan, start, or run a business, according to a new OpenAI Economic Research report. Now he wants to use Codex to build a photo sorter for job sites. His phone gallery is a mix of job-site photos, dogs, vacation pictures, broken pipes, and lumber that needs to go somewhere. Since the photos are geotagged, he wants an app that can sort them by job and drop them into the right Google Drive folder, where subcontractors already find plans, appliance specs, and other shared materials through QR codes posted on site.
 Morgan brings in 10 to 15 subcontractors on a typical job. When ChatGPT saves him hours of paperwork, “I can find more work,” he says. And when he finds more work, his subcontractors grow their business, too.
 
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
 
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[4:23](/en/public/videos/chatgpt-projects-2025-02-13)
-
-Video
-
-[ChatGPT Projects](/en/public/videos/chatgpt-projects-2025-02-13)
-
-[9:13](/en/public/videos/chatgpt-and-reasoning-2025-02-13)
-
-Video
-
-[ChatGPT & Reasoning](/en/public/videos/chatgpt-and-reasoning-2025-02-13)
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Blog
 
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/blogs/acclerate-your-return-main-review)
-
-Jun 14th, 2026 • Views 82
-
-External Content
-
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
-
-Mar 11th, 2025 • Views 3.9K
+[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
 
 Blog
 
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/clubs/government/blogs/acclerate-your-return)
-
-Jun 8th, 2026 • Views 15
+[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
 Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[How a high school student built a civil-rights archive with ChatGPT](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
 
-Mar 23rd, 2026 • Views 710
-
-Blog
-
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/blogs/acclerate-your-return-main-review)
-
-Jun 14th, 2026 • Views 82
+Aug 28th, 2026 • Views 659
 
 Blog
 
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/clubs/government/blogs/acclerate-your-return)
+[How Aarav Sharma built SmartBin to help schools understand food waste](/public/blogs/aarav-sharma-smartbin-food-waste)
 
-Jun 8th, 2026 • Views 15
+Aug 5th, 2026 • Views 136
 
 Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/blogs/acclerate-your-return-main-review)
 
-Mar 23rd, 2026 • Views 710
+Jun 14th, 2026 • Views 437
 
-External Content
+Blog
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/clubs/government/blogs/acclerate-your-return)
 
-Mar 11th, 2025 • Views 3.9K
+Jun 8th, 2026 • Views 76
+
+Blog
+
+[How a high school student built a civil-rights archive with ChatGPT](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
+
+Aug 28th, 2026 • Views 659
+
+Blog
+
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/blogs/acclerate-your-return-main-review)
+
+Jun 14th, 2026 • Views 437
+
+Blog
+
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/clubs/government/blogs/acclerate-your-return)
+
+Jun 8th, 2026 • Views 76
+
+Blog
+
+[How Aarav Sharma built SmartBin to help schools understand food waste](/public/blogs/aarav-sharma-smartbin-food-waste)
+
+Aug 5th, 2026 • Views 136

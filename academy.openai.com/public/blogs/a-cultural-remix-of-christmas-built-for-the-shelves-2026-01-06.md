@@ -14,11 +14,13 @@ January 5, 2026
 
 # Advanced & Builder Skills
 
+# Work
+
 ## How Black Paper Party used ChatGPT to turn a “12 Days” rewrite into a Walmart holiday collection
 
 ![A cultural remix of Christmas, built for the shelves](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/jasmine-hudson-black-paper-party-774fdae1-2345-438d-9b42-bb7dbd9b6c54-1767721275589.jpeg?fit=scale-down&width=1200)
 
-When entrepreneur [Jasmine Hudson](https://www.linkedin.com/in/hudsonjasmine/) and her team at Black Paper Party decided to remix the classic “12 Days of Christmas” to better reflect Black culture for their small business, they turned to ChatGPT to help brainstorm. The result was a joyful, imaginative jingle that became the foundation for the company’s new holiday product line:
+When entrepreneur  [Jasmine Hudson](https://www.linkedin.com/in/hudsonjasmine/) and her team at Black Paper Party decided to remix the classic “12 Days of Christmas” to better reflect Black culture for their small business, they turned to ChatGPT to help brainstorm. The result was a joyful, imaginative jingle that became the foundation for the company’s new holiday product line:
 
 🎵 “Twelve kings and queens, eleven dancers stepping, ten Tuskegee Airmen, nine church singers, eight braiders braiding, seven rappers rappin’, six vinyl records, five gold grills…” 🎵
 
@@ -36,64 +38,64 @@ Jasmine says this is just the beginning. She’s already using ChatGPT to help w
 
 Blog
 
-[How ChatGPT Built a Contractor’s Back Office](/en/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
+[How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
 
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[13:02](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 Video
 
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[AI for Nonprofits: Creating a Custom GPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 By Kyle Behrend
 
-[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/en/public/resources/govt-prompt-pack-for-leaders)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/resources/govt-prompt-pack-for-leaders)
 
 By David Sperry
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
-
-Blog
-
-[Designing the emotional map of recovery](/en/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)
-
-Jan 5th, 2026 • Views 1.5K
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Designing the emotional map of recovery](/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
-
-Blog
-
-[Decoding the alien language of whales](/en/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)
-
-Jan 30th, 2026 • Views 866
+Jan 5th, 2026 • Views 2.4K
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
-
-Blog
-
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
-
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
 
 Blog
 
-[Decoding the alien language of whales](/en/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)
+[Decoding the alien language of whales](/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)
 
-Jan 30th, 2026 • Views 866
+Jan 30th, 2026 • Views 2.2K
 
 Blog
 
-[Designing the emotional map of recovery](/en/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-Jan 5th, 2026 • Views 1.5K
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
+
+Blog
+
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
+
+Blog
+
+[Decoding the alien language of whales](/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)
+
+Jan 30th, 2026 • Views 2.2K
+
+Blog
+
+[Designing the emotional map of recovery](/public/blogs/designing-the-emotional-map-of-recovery-2026-01-05)
+
+Jan 5th, 2026 • Views 2.4K

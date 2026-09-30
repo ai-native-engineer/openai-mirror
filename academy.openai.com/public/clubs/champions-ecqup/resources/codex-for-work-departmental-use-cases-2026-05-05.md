@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Use cases for Codex by department
 
@@ -11,6 +11,8 @@
 # Leaders & Admins
 
 # Codex
+
+# Work
 
 # Activators
 
@@ -42,7 +44,7 @@ Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uplo
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Codex-Customer-Use-Case-One-Pager-Sales-66c4da91-4128-42e2-9bbf-b6ebb4f0bdbf-1777487221141-732887e7-848c-4218-8608-37ef0faa374a-1778015005525.pdf) the file to view.
 
-Like
+1
 
 Sign in or Join the community
 
@@ -50,50 +52,44 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+[Practice better CRM hygiene with Codex](/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
-
-[Practice better CRM hygiene with Codex](/en/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
-
-[30:00](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
 Video
 
-[Make Work Flow: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
-Jun 12th, 2026 • Views 79
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
+Sep 17th, 2025 • Views 11.2K
 
-Jun 12th, 2026 • Views 88
+[Turn scattered account updates into shared team context](/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Jun 12th, 2026 • Views 388
 
-Sep 17th, 2025 • Views 8.8K
+[Capture and share use cases and impact](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+Aug 5th, 2025 • Views 8.7K
 
-Aug 5th, 2025 • Views 8K
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[30:00](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+Sep 17th, 2025 • Views 6.5K
 
-Video
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Make Work Flow: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+Sep 17th, 2025 • Views 11.2K
 
-Jun 12th, 2026 • Views 79
+[Capture and share use cases and impact](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Aug 5th, 2025 • Views 8.7K
 
-Sep 17th, 2025 • Views 8.8K
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+Sep 17th, 2025 • Views 6.5K
 
-Aug 5th, 2025 • Views 8K
+[Turn scattered account updates into shared team context](/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
 
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
-
-Jun 12th, 2026 • Views 88
+Jun 12th, 2026 • Views 388

@@ -1,12 +1,24 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/chatgpt-congressional-district-director-prompt-pack -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
+Article
+
+September 21, 2026
+
 # ChatGPT Prompt Pack for District and State Directors
 
 ![ChatGPT Prompt Pack for District and State Directors](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-11-3999f317-3e8b-4c1c-bf76-4eee1e8b3585-1789998793123.jpeg?fit=scale-down&width=1200)
 
+# Government
+
 ## 30 practical prompts for district and state directors. Copy a prompt, add your details, and get started.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![ChatGPT Prompt Pack for District and State Directors](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-11-3999f317-3e8b-4c1c-bf76-4eee1e8b3585-1789998793123.jpeg?fit=scale-down&width=1200)
 
@@ -26,34 +38,62 @@ Explore the 30 prompts in the pack below.
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/11-district-director-ChatGPT-Enterprise-0b3b4624-f562-4674-adb6-c90a4a954ed9-1789998787756.pdf) the file to view.
 
-[ChatGPT Prompt Pack for Legislative Directors](/public/clubs/government/blogs/chatgpt-congressional-legislative-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By David Sperry
 
-[ChatGPT for State Transportation Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-transportation-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 12
+By David Sperry
 
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By David Sperry
 
-[ChatGPT for State Legislator: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-legislator-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
+Blog
 
 [ChatGPT Prompt Pack for Legislative Directors](/public/clubs/government/blogs/chatgpt-congressional-legislative-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By Laura Keenan • Sep 21st, 2026 • Views 60
 
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
-
-[ChatGPT for State Legislator: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-legislator-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
+Blog
 
 [ChatGPT for State Transportation Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-transportation-director-prompt-pack)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 12
+By Laura Keenan • Sep 22nd, 2026 • Views 30
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[ChatGPT for State Legislator: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-legislator-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 37
+
+Blog
+
+[ChatGPT Prompt Pack for Legislative Directors](/public/clubs/government/blogs/chatgpt-congressional-legislative-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 60
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[ChatGPT for State Legislator: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-legislator-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 37
+
+Blog
+
+[ChatGPT for State Transportation Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-transportation-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 30

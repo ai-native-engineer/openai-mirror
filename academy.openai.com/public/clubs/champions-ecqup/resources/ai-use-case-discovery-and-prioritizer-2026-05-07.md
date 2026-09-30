@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Evaluate AI workflow readiness
 
@@ -12,6 +12,8 @@
 
 # Workplace & Business
 
+# Work
+
 # Activators
 
 # Leaders & Admins
@@ -20,9 +22,11 @@
 
 # Use Cases
 
+# Portfolio Academy Cyber
+
 ## Turn a real workflow problem into a clear recommendation to test now, validate further, sequence later, or avoid for now.
 
-May 7, 2026 · Last updated on June 12, 2026
+May 7, 2026 · Last updated on September 4, 2026
 
 ![Evaluate AI workflow readiness](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Evaluate-AI-workflow-readiness-style-thumb-dc9c0392-1dde-4b71-9af6-42e6f6d4248c-1781279990702.jpeg?fit=scale-down&width=1200)
 
@@ -516,7 +520,7 @@ A strong evaluation should produce:
 
 The output should help Champions make better sequencing and investment decisions and bring better-scoped, more credible workflow opportunities to the people who can support them.
 
-Like
+4
 
 Sign in or Join the community
 
@@ -524,58 +528,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[Redesign one recurring workflow with AI](/public/clubs/champions-ecqup/resources/redesign-one-recurring-workflow-with-ai-2026-08-21)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-May 5th, 2026 • Views 244
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+May 5th, 2026 • Views 1.1K
 
-Apr 20th, 2026 • Views 517
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+Aug 13th, 2026 • Views 305
 
-Video
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+Jul 7th, 2026 • Views 1.5K
 
-Jun 18th, 2026 • Views 56
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[11:00](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+Jul 7th, 2026 • Views 1.2K
 
-Video
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Workflow clip: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+Aug 13th, 2026 • Views 305
 
-Jun 12th, 2026 • Views 79
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.5K
 
-May 5th, 2026 • Views 244
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
-
-[11:00](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Video
-
-[Workflow clip: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Jun 12th, 2026 • Views 79
-
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
-
-Apr 20th, 2026 • Views 517
+May 5th, 2026 • Views 1.1K

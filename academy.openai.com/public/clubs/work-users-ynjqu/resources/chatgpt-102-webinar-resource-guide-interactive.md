@@ -1,516 +1,416 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide-interactive -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-February 25, 2026 · Last updated on May 29, 2026
+August 12, 2026 · Last updated on September 28, 2026
 
 # ChatGPT 102: Webinar Resource Guide
 
-![ChatGPT 102: Webinar Resource Guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/102resourceguide-0f104dc6-1b3f-4ab3-9501-f65f0a258126-1772061282894.jpeg?fit=scale-down&width=1200)
+![ChatGPT 102: Webinar Resource Guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-Work-Users-35--aeeb7381-4a35-4301-9eec-677fc1977482-1786503608508.jpeg?fit=scale-down&width=1200)
 
 # Workplace & Business
 
 # Use Cases
 
-## Follow along with our webinar ChatGPT 102: Leveraging AI to do your best work
+# Work
 
-![Juliann Igo](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/1722019004102-4c419576-e710-4bb4-91fb-7208ae0552b0-1746650892941.jpeg?fit=scale-down&width=60)
+# Portfolio Company Knowledge Work
 
-Juliann Igo
+## Follow along with our webinar ChatGPT 102: Scaling your best work
 
-![ChatGPT 102: Webinar Resource Guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/102resourceguide-0f104dc6-1b3f-4ab3-9501-f65f0a258126-1772061282894.jpeg?fit=scale-down&width=1200)
+![Diana Stegall](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/venice-663e9db7-692a-4851-b2c4-19f0d6c9b62c-1776829671335.jpeg?fit=scale-down&width=60)
 
-Use this guide to follow along with the **ChatGPT 102 Webinar: Leveraging AI to do your best work**. Please note that some prompts require a file upload - you can find all the sample files on this page. *If you’re viewing on-demand, you can use any file you have access to to practice the exercise.*
+Diana Stegall
 
-**Other resources to bookmark**
+![ChatGPT 102: Webinar Resource Guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-Work-Users-35--aeeb7381-4a35-4301-9eec-677fc1977482-1786503608508.jpeg?fit=scale-down&width=1200)
 
-* ﻿[OpenAI Help Center](https://help.openai.com/en): Technical documentation for how ChatGPT works
+# ChatGPT 102: Webinar Resource Guide
 
-* ﻿[OpenAI Academy for Work](https://academy.openai.com/home/clubs/work-users-ynjqu/overview?linkMenu=Users) **:** Resources to learn how to use ChatGPT most effectively for your role.
+## Follow along with our webinar ChatGPT 102: Scale Your Best Work
 
-* ﻿[Use Cases for Work GPT:](https://chatgpt.com/g/g-h5aUtVu0G-chatgpt-use-cases-for-work?model=gpt-4o) GPT built by the OpenAI team to help you brainstorm use cases for your role.
+Use this guide to remember the core ideas from the webinar, recreate the weekly project update demo, and turn one useful result into a workflow you can repeat.
 
-* ﻿[cookbook.openai.com](http://cookbook.openai.com): Developer-focused resources
+This webinar builds on ChatGPT 101. If you are new to Chat and Work, begin with the  [ChatGPT 101 webinar resource guide](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive).
 
-# Follow along with the webinar:
+The webinar is designed for people using ChatGPT Enterprise. Your screen and available features may vary based on your plan, role, workspace settings, and ChatGPT surface. Your organization may also control which Plugins, apps, skills, and scheduled tasks are available.
 
-## **Learn:** ChatGPT 101 recap + customization options (1:07-4:42)
+Practice in a ChatGPT workspace approved by your organization. Before connecting a tool or adding company information, make sure you are in the correct workspace and follow your organization’s policies for confidential, personal, and proprietary information.
 
-### **Key ideas**
+## Quick recap: Choose Chat or Work based on the job
 
-* The key parts of the interface to explore now are the tools menu (the + on your chat window) and the left sidebar with your chat history
+| Use | When you need |
+| --- | --- |
+| **Chat** | A quick answer, help with one part of a task, or a conversation that helps you think something through |
+| **Work** | ChatGPT to gather context, complete several steps, and create a substantial result you can review |
 
-* You have some personalization options by clicking on your name at the bottom of your chat window, and clicking **Personalization**
+The weekly project update belongs in Work. ChatGPT needs to gather information from several places, decide what matters, flag inconsistencies, and create a complete document.
 
-* You can add facts to your ChatGPT memory within a chat and manage your memories from your personal settings
+## Choose a task worth repeating
 
-**Go deeper →** [**Customizing ChatGPT**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/customizing-chatgpt)﻿
+Not every task needs to become a workflow. Good candidates usually:
 
-## **Demo:** Deep research (4:42-7:20)
+* Happen regularly
 
-### **Key ideas**
+* Take meaningful time
 
-* Deep research is an agentic search capability designed for longer, multi-step research on the internet
+* Follow a process that stays fairly consistent
 
-* You’ll notice that ChatGPT will ask for more clarification to help guide its research most effectively. Remember that the more guidelines, context, and constraints you give it, the more relevant its output will be.
+* Produce a result a person can clearly review
 
-* Deep research is great for more comprehensive research, while web search is great for quick, specific up-to-date information
+The source information can change each time. The job, rules, and review criteria should stay stable enough to reuse.
 
-**Go deeper →** [**Deep research**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/deep-research)﻿
+## The workflow to remember
 
-### **Follow along**
+**Create it once. Make it better. Save what worked. Test it with fresh information. Then schedule it.**
 
-*Click deep research on your tools menu and add the following prompt:*
+| Stage | What you do |
+| --- | --- |
+| **Create** | Complete the real task with the right sources, tools, constraints, and output format. |
+| **Improve** | Review the first draft and add the rules your team expects. |
+| **Save** | Turn the tested process into a reusable skill. |
+| **Test** | Run the skill in a new conversation with fresh information. |
+| **Schedule** | Automate the start only after the workflow passes the fresh-input test. |
+
+## Three checkpoints
+
+Use these checks at every stage:
+
+| Checkpoint | Ask yourself |
+| --- | --- |
+| **Input** | Am I allowed to use these files, messages, and connected tools here? |
+| **Evidence** | Can I trace important claims to the source files or messages and see where sources disagree? |
+| **Action** | Will the right person review the result before it is shared or used? |
+
+Putting work on a schedule changes when it starts. It does not change who is responsible for reviewing the result.
+
+## Sample files
+
+﻿ [Download the ChatGPT 102 sample files](https://docsend.com/view/s/x7bbexbx4bcjvxt9).
+
+The pack contains:
+
+* `Cavenridge Client Portal - Project Plan.docx`
+
+* `Cavenridge Weekly Project Update Template.docx`
+
+* `Cavenridge Client Portal - Milestone Tracker - Week 1.xlsx`
+
+* `Cavenridge Client Portal - Milestone Tracker - Week 2.xlsx`
+
+* `Cavenridge Client Portal - Slack Seed Messages.md`
+
+The company, project, and data are fictional. Use the sample materials for practice, not production work.
+
+The July 31 and August 3 dates belong to the fictional project scenario. Slack records the real time when you post a message and does not let you backdate it. For on-demand practice, post the baseline messages first, record the actual cutoff date and time, and complete the first run. Post the fresh test messages later, after the first run.
+
+## Before you begin
+
+The webinar uses:
+
+* **Google Drive** to retrieve the project plan, tracker, and company template
+
+* **Spreadsheets** to read the newest dated tab in the tracker
+
+* **Slack** to retrieve current project context and deliver a private summary
+
+* **Documents** to create the weekly update as a Google Doc
+
+* **Skills** to save the tested workflow
+
+* **Scheduled** to run the workflow every week
+
+The **Default templates** Plugin is optional. It can provide a general-purpose starting point when you do not already have an approved company template.
+
+Your workspace determines which Plugins and actions you can use. Connecting a tool does not give ChatGPT unlimited access; it works within the permissions available to you. If your organization uses another approved file-storage or messaging system, use the equivalent tools available in your workspace.
+
+To prepare the sample environment:
+
+1. Create a Google Drive folder named **Cavenridge Client Portal Launch** and a subfolder named **Weekly Updates**.
+
+2. Add the project plan, weekly update template, and Week 1 milestone workbook to the main folder.
+
+3. Rename the tracker tab **Week 1 - Jul 31**. Keep only this tab in the tracker for the first run.
+
+4. Create or reuse a private demo Slack channel named **client-portal-launch**. Add the baseline messages from the seed file in order. Treat each bolded fictional name and role plus the paragraph beneath it as one Slack message, and include the name and role in the message text when posting from a single demo account. Wait until every message is visible, then record the actual posting cutoff for the first prompt.
+
+5. Choose a harmless private destination for the notification, such as your own Slack direct messages. Do not use a real team channel for practice.
+
+6. Open **Plugins**, connect and authorize the required tools, and confirm that ChatGPT can reach the demo folder and private channel. Authenticate if prompted.
+
+## Demo 1: Create and improve a weekly project update in Work
+
+### What to remember
+
+For a larger assignment, tell Work what result you need, where to find the information, which format to follow, where to put the finished artifact, and what it must not do. You do not need to prescribe every internal step.
+
+### Recreate it
+
+1. Confirm that Google Drive, Spreadsheets, Slack, and Documents are available, enabled, connected, and authorized in your workspace.
+
+2. Open a new Work conversation and paste:
+
+**On-demand date note:** Keep the fictional week-ending date and tracker-tab name below. Replace only the two July 31 Slack cutoff dates in the second paragraph with the actual baseline posting cutoff you recorded.
 
 ```
-What is the current state of the microbiome therapeutics market, and which approaches show credible paths to commercialization?
+Create the weekly project update for the Cavenridge Client Portal Launch for the week ending July 31.
+
+Use the project plan and the Week 1 - Jul 31 tab in the milestone tracker. Use only messages sent on or before July 31 in the client-portal-launch Slack channel. Ignore any messages posted after July 31. Follow the Cavenridge Weekly Project Update template.
+
+Create the update as a Google Doc in the Weekly Updates folder. Then send me a direct message in Slack with the three most important updates and a link to the document.
+
+Only include information you can support with the project files or Slack messages. If something is missing or the sources disagree, tell me. Don’t guess. Don’t change any of the original files or share the update with anyone else.
 ```
 
-*ChatGPT will then respond with additional questions. Answer these appropriately, and allow deep research to start. Come back in 5-15 minutes to see the results!*
+3. Open the completed Google Doc and the private Slack message.
 
-## **Demo:** Apps (7:20-11:12)
+### What to check
 
-### **Key ideas**
+* The document is in the **Weekly Updates** folder and follows the Cavenridge template.
 
-* Apps allow you to connect to third-party tools that you already have access to, and to bring those apps directly into your ChatGPT experience. Some apps will bring in information from your connected systems, and some will bring up a more interactive interface
+* It includes an executive summary, milestone progress, risks, decisions, and priorities for next week.
 
-* Your workspace administrators control which apps are available to you.  Check out your [enabled apps](https://chatgpt.com/#settings/Connectors) in your settings and all apps available to you in <https://chatgpt.com/apps>﻿
+* The overall status is Yellow. The data migration test is delayed, SSO is waiting on the vendor, and the August 24 beta date has not moved.
 
-* You’ll authenticate to your apps during setup, and then they’ll be available in chat to you via your tools menu or by @ mentioning the specific app
+* It includes newer Slack context: the accessibility review passed, six clients confirmed for the beta, and the custom report builder is out of the first release.
 
-**Go deeper →** [**Apps**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/connectors)﻿
+* Important claims link back to their sources, and missing or contradictory information appears under sources or open questions.
 
-## **Demo:** Projects (11:12-13:53)
+* The Slack message contains the three updates that most need attention and a link to the full document.
 
-### **Key ideas**
+* The original files are unchanged, and nothing was shared with other people.
 
-* Projects allow you to organize your chats, as well as add files and instructions that can apply to all chats that start
+Wording may vary. Check the facts, source support, and required sections rather than looking for an exact sentence match.
 
-* You can drag existing chats into a project on the sidebar
+### Add the rules that are not in the template
 
-* You can share projects with others in your workspace, provided that your workspace settings allow it
-
-* You can also turn on project-only memory so that chats will have memory independent from your general ChatGPT memory – but this setting needs to be enabled at project creation.
-
-**Go deeper →** [**Projects**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/projects)﻿
-
-## **Demo:** Custom GPTs (13:53-21:32)
-
-### **Key ideas**
-
-* Custom GPTs allow you to hard-code instructions so you can complete repeatable tasks
-
-* If you workspace allows it, you can share custom GPTs with your team
-
-* Custom GPTs and projects have many similar capabilities, but slightly different use cases. Projects are best for longer-term, ongoing work – while GPTs are best for repeated workflows.
-
-**Go deeper →** [**Custom GPTs**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/custom-gpts)﻿
-
-### **Follow along**
-
-﻿[*Create a custom GPT*](https://chatgpt.com/gpts/editor) *and paste in the following instructions in the Configure tab in the corresponding sections:*
-
-***Name:***
+Return to the same Work conversation and paste:
 
 ```
-Meeting notes summarizer
+Please make a few changes to the update:
+
+Start the executive summary with anything that needs a decision or help.
+
+Don’t use percentage-complete estimates. Use the milestone status and explain what actually happened.
+
+Keep the Slack message to three short bullets and a link to the full document.
+
+Whenever you use the milestone tracker, use the most recent dated tab.
 ```
 
-***Description:***
+### What to check
+
+* Decisions and requests for help appear first in the executive summary.
+
+* Milestones use a status and an explanation, not an invented percentage complete.
+
+* The Slack message has three short bullets and a link.
+
+* The workflow now contains a rule to use the most recent dated tracker tab.
+
+At this point, ChatGPT has the original assignment, the company template, your corrections, and a finished example that works the way the team expects.
+
+## Save the tested workflow as a skill
+
+### What to remember
+
+A skill is a reusable set of instructions and resources that teaches ChatGPT how to do a particular kind of work. Create the result and improve it before saving the skill. This gives ChatGPT a tested process to preserve instead of an imagined one.
+
+### Recreate it
+
+1. In the same Work conversation, paste:
 
 ```
-Summarizes meeting notes into my preferred format.
+Save this workflow as a skill called Weekly Project Update.
 ```
 
-***Instructions:***
+2. Answer any follow-up questions and install the skill when prompted.
+
+3. Open **Plugins → Skills**, then open **Weekly Project Update**.
+
+4. Review the instructions and resources ChatGPT included.
+
+5. Find the fixed Slack cutoff copied from the first assignment and replace it with a rolling window that includes messages through the current run time:
 
 ```
-Role & Purpose
-
-You are a professional meeting notes summarization assistant. Your purpose is to transform raw meeting notes, transcripts, or bullet points into a clear, concise, and consistently structured meeting summary suitable for sharing with stakeholders.
-
-You do not invent information, infer decisions that were not explicitly stated, or add commentary beyond what is supported by the notes.
-
-Input Expectations
-
-The user will provide one or more of the following:
-
-* Raw meeting notes (bullet points or free text)
-
-* A meeting transcript
-
-* Chat logs or action-item lists
-
-* Partial or unstructured notes
-
-If the input is incomplete or unclear, summarize only what is present and flag gaps explicitly.
-
-Output Format (Always Use This Exact Structure)
-
-Use this format every time, in the order shown below. Use clear headings and concise bullet points.
-
-Meeting Summary
-
-* One short paragraph (2–4 sentences) describing the overall purpose of the meeting and the main outcomes.
-
-Key Discussion Topics
-
-* Topic 1: brief summary
-
-* Topic 2: brief summary
-
-* Topic 3: brief summary (Only include topics actually discussed.)
-
-Decisions Made
-
-* Decision 1
-
-* Decision 2 (If no decisions were made, write: “No decisions were finalized.”)
-
-Action Items
-
-* Owner – Action item description – Due date (if mentioned)
-
-* Owner – Action item description – Due date (if mentioned) (If no owner or date is specified, write “Owner: TBD” or “Due date: Not specified.”)
-
-Open Questions / Risks
-
-* Question, concern, or unresolved issue (If none, write: “No open questions or risks were identified.”)
-
-Next Meeting
-
-* Date/time if mentioned (If not mentioned, write: “Next meeting not scheduled.”)
-
-Style Guidelines
-
-* Be concise, neutral, and professional
-
-* Use plain language suitable for cross-functional teams
-
-* Prefer bullets over long paragraphs
-
-* Do not use emojis, slang, or filler language
-
-* Do not repeat the same information across sections
-
-Accuracy & Guardrails
-
-* Do not assume intent, decisions, or priorities
-
-* Do not merge similar ideas unless the notes clearly indicate they are the same
-
-* If information is ambiguous, reflect that ambiguity explicitly
-
-* Never add recommendations or opinions
-
-Quality Check Before Responding
-
-Before finalizing the output, ensure:
-
-1. All sections are present
-
-2. The format exactly matches the required structure
-
-3. No information was added beyond the source notes
-
-4. Missing information is clearly labeled (e.g., “Not specified”)
+Slack messages since the previous weekly update through the current run time
 ```
 
-***Conversation starters:***
+6. Save the change. If your workspace permits skill sharing, review the skill again before sharing it.
+
+### What to check
+
+* One-time facts and dates are not frozen into the reusable instructions.
+
+* The template, reporting rules, source locations, output destinations, and review expectations remain.
+
+* The skill uses the most recent dated tracker tab and includes relevant Slack messages posted since the previous update through the current run time.
+
+* Every included resource belongs in the skill and is appropriate for anyone who may receive access.
+
+The facts should change every week. The template, reporting rules, and basic process should stay the same.
+
+## Demo 2: Test the skill with fresh information
+
+### What to remember
+
+Do not assume a skill works because it succeeds inside the conversation where you created it. Test it in a new conversation with new information and a deliberate contradiction.
+
+### Recreate it
+
+1. Open the existing milestone tracker and create a tab named **Week 2 - Aug 3**.
+
+2. Paste the data from  `Cavenridge Client Portal - Milestone Tracker - Week 2.xlsx`  into that new tab. Do not upload the Week 2 workbook to the connected Drive folder.
+
+3. After the first run, add the fresh August 3 scenario messages from  `Cavenridge Client Portal - Slack Seed Messages.md`  to the private demo channel in order. Again, include each fictional speaker’s name and role in the same message as their update when posting from one demo account. Wait until every message is visible before starting the test. Slack will use the real posting time.
+
+4. Open a completely new Work conversation and paste:
 
 ```
-Summarize the notes below
+Use the Weekly Project Update skill to create this week’s update for the Cavenridge Client Portal Launch using the latest information.
 ```
 
-*Hit update, and now paste in the following raw notes into the GPT to test out the instructions:*
+5. Open the completed update and the Slack message.
+
+### What to check
+
+* The skill uses the **Week 2 - Aug 3** tracker tab and the new Slack messages.
+
+* It catches the disagreement about the security review. The tracker says it is on track, while a newer Slack message says final approval is paused because of a password-reset issue.
+
+* It says the help-content milestone has no confirmed owner instead of guessing one.
+
+* It still follows the company template and the four reporting rules you added.
+
+* The Slack notification remains short and links to the complete draft.
+
+Spot-checking the deliberate contradiction proves that the workflow used the fresh inputs. Review the full document before anyone relies on it.
+
+## Put the workflow on a schedule
+
+### What to remember
+
+Schedule a workflow only after it produces a good result with fresh information. The skill tells ChatGPT how to do the work. The schedule tells ChatGPT when to start.
+
+### Recreate it
+
+1. Return to the Work conversation and paste:
 
 ```
-Marketing Campaign Kickoff – RadiancePro Global Skincare Line (internal) Date: Sept 12 Time: 9–10:30am (ran over) Attendees Maya (Global Marketing Lead / campaign owner) Luca (PMM – RadiancePro) Aisha (Sales Director – Enterprise) Tom (Sales – EMEA) Priya (Sales – APAC) Carla (LATAM Partnerships) Jonas (Paid / Performance) Ingrid (Brand & Creative) Leo (Web/CX) Nina (CS Lead) Victor (Finance) Samir (Ops / Supply Chain) Jess (Reg / Compliance) Alex (RevOps/CRM) joined halfway “plus a couple of juniors” (Maya’s note) 1. Why are we doing this / what’s the thing again? RadiancePro = new “global B2B skincare manufacturing platform” → for brands, not end customers. Maya: “We have a Ferrari-level product and a Craigslist listing.” Current site copy is generic “high quality manufacturing since forever” 🙃 Goal-ish: Launch campaign that actually tells a story about RadiancePro to brand leaders (founders, VP Product, Innovation, etc.). Drive qualified form fills on new landing page (formulation consult / discovery call). Q4: prove this can beat our old “generic manufacturing” campaigns on lead quality + CPL. Aisha: “Sales is getting more inbound but it’s random – we want fewer tire kickers, more real brands that can scale.” 2. Who are we talking to? (chaotic but useful convo) Titles floating around: Founder / Co-founder (indie + niche brands). VP Product / Head of Innovation. Brand Director, sometimes Marketing leads (esp. smaller brands). Procurement / Sourcing for the big global groups. Region nuance (debate): NA: DTC-heavy, lots of people coming from Sephora/Ulta/e-comm backgrounds. More open to “bold” language, less formal. EMEA: conservative, compliance-heavy, hates fluffy claims. Tom: “If we say ‘clinical’ we have to be ready to back it up in a dossier.” APAC: super fast cycles, very trend + texture driven (K-beauty vibes). Priya: “They’ll ask about textures first, margins second.” LATAM: more price-sensitive, obsess over MOQs and payment terms. Carla: “If we can’t speak to MOQs and logistics clearly, they’ll ghost.” Aisha: “Biggest pattern: brands that outgrew their boutique lab partner but don’t want a faceless megafactory.” 3. Product / offer brain dump (Luca talking fast) RadiancePro line: Pre-built, clinically-inspired base formulations: serums, moisturizers, cleansers, eye creams. Focus areas: sensitive skin / barrier, brightening, anti-aging, “derm-inspired”. Ingredient story: niacinamide, peptides, ceramides, etc. (exact INCI list in the 1-pager – Luca to send). Value prop (rough): Use our “platforms” → customize to brand → 8–10 weeks from alignment to first run (vs 12–18 months full custom). Can scale from startup-friendly MOQs → big enterprise volumes. In-house formulation + regulatory support included (within reason). Samir: MOQs are lower than legacy but not “tiny.” Don’t oversell “small batches.” Messaging TBD but we can say “designed for growing brands, not just giants.” Jess: “Please don’t promise ‘clinically proven’ everywhere. We have supporting studies, but language must be controlled.” 4. Pain points (from Sales + CS – kind of all over the place) From CS calls (Nina – reading from notes): “We know what we want the line to feel like but don’t have R&D to get there.” “Our last manufacturer kept pushing generic formulas; we want something ownable.” “We can’t wait 18 months to launch, trends move too fast.” Sales patterns (Aisha): Enterprise brands: want co-innovation, concepting, and help with global rollouts. Indie brands: want someone who “gets” their story but can scale with them. Everyone agrees: Time to market, MOQs, regulatory / claims support, and transparent ingredient stories are the hot buttons. 5. Channels / structure (this part got messy) Paid (Jonas): Meta: awareness + remarketing. Audiences = interests (beauty/skincare/business), lookalikes from site traffic + CRM. LinkedIn: target job titles (Head of Product, Innovation, Brand Director, etc.). Maybe separate ABM stream for Top 50 accounts. Google: Brand search: “RadiancePro” / “[company] skincare manufacturing”. Generic: “private label skincare manufacturer”, “wholesale skincare formulations”, etc. PMax: Jonas: “We should at least test – global inventory, see where demand pops up.” Owned: New RadiancePro landing page (one hero page, maybe 1–2 supporting detail pages later). Email to existing pipeline (filtered by segment + region; Alex to build lists). Internal: Sales deck updates, one-page PDF for reps to send post-call. Timing: Soft content readiness mid-October. Paid flight: 8 weeks to start, then re-evaluate. Need site live BEFORE we turn on the full spend (Leo very clear on this). 6. Early messaging (lots of fragments) Phrases people tossed around (not final): “From concept to shelf in a quarter, not a year.” (everyone nodded) “Clinical-grade skincare without clinical-level complexity.” (Jess skeptical of “clinical-grade”) “The innovation partner behind your next skincare line.” “Flexible MOQs built for bold ideas.” “Science-backed platforms you can make your own.” Regional tweaks (random notes): EMEA: tone down the hype; emphasize compliance, documentation, stability testing. APAC: emphasize textures, speed, trend-forward formats. Maybe show specific product types. LATAM: highlight MOQs, reliability, logistics, less about fancy clinical language. Ingrid: Visual direction = “modern lab” + macro texture shots, packaging, light neutrals. “No influencers, no ‘get your glow’ Instagram captions. They’re buyers and brand leads, not consumers.” 7. Metrics (Victor trying to pin numbers, not fully resolved) Victor wants: CPL target lower than last generic manufacturing campaign by X%. Pipeline influenced: $$ TBD but should be trackable via UTM → CRM. Target # of qualified leads vs “noise leads.” Needs definition. Jonas: wants to tag everything by: Channel (Meta, LI, Google, PMax). Audience (founders vs enterprise, region, remarketing vs prospecting). Creative theme (ingredient, speed, scale, regulatory). Alex (RevOps): Need consistent campaign naming in CRM. Current state = chaos. Will create a RadiancePro parent campaign with sub-campaigns for each channel / region. 8. Risks / dependencies Ops capacity (Samir): “Please do not run a ‘no MOQ’ angle.” Capacity is finite. Need a clear expectation on how many net-new RadiancePro clients we can onboard per quarter. Compliance (Jess): Needs to review all claims. Promised a claims matrix: what we can say globally vs region-specific. Target: Friday. Web (Leo): Needs about 2 weeks for a decent landing page template once copy is final-ish. “Please stop sending me text in screenshots. Use a doc.” Budget (Victor): There is budget for an 8-week “real” test (not pennies). After that, we must move spend to what’s working. Wants commit from Marketing to kill underperformers, not “let’s just see one more week.” 10. Open questions / parking lot How aggressively do we push “clinical” language? (Jess + Luca to sync.) Do we offer any intro package or pilot program for indie brands? (Nina + Victor to explore feasibility.) Are we targeting retailers (Sephora, etc.) at all or strictly brands? Consensus: brands first – retailers maybe later. Do we localize landing page copy immediately (FR/PT/DE) or start with EN only? Priya + Carla want localization soon; Leo says phased approach. 11. To-dos (scribbled, partial) Maya Draft v1 campaign brief (goal, audience, positioning, metrics). Align with Sales leadership on what “qualified lead” specifically means for this campaign. Luca Send updated RadiancePro 1-pager (benefits, features, proof, compliant language). Work with Jess on claims matrix + “safe phrases.” Ingrid & Creative Moodboard for visual direction. 3 headline options per core narrative (speed / science / scale). Jonas Draft channel + audience testing plan. Propose initial budget split and rules for shifting spend based on performance. Leo Sketch wireframe for LP. Confirm CMS constraints (forms, regions, tracking, etc.). Alex Clean campaign naming standards + CRM setup for RadiancePro. Nina Pull 5–10 anonymized quotes from CS calls re: manufacturing pain points. Samir Confirm MOQs + lead time ranges we can publicly state. Victor Share historical CPL / lead quality benchmarks for comparison. Jess Draft claims & compliance one-pager by EOW.
+Run the Weekly Project Update skill every Monday at 11:00 a.m.
 ```
 
-## **Demo:** Research and creative brainstorming (22:22-28:03)
+2. Review the scheduling confirmation.
 
-### Follow along
+3. Open **Scheduled** in the ChatGPT sidebar to see the next run, change the timing or request, pause the task, or delete it.
 
-*- Create a project titled “****Q2 2026 - South America Expansion****”*
+### What to check
 
-*- Within that project, create a chat using* ***deep research*** *with the following prompt:*
+* The task runs every Monday at 11:00 a.m. in the intended time zone.
 
-```
-Analyze how the productivity and collaboration software market in South America has evolved over the last 5 years, including adoption drivers, customer behavior shifts, competitive dynamics, and country-level differences. Clearly separate observed trends from inferred implications, label assumptions, and focus on strategic insights rather than exact statistics.
-```
+* The tracker will be updated before the scheduled start time.
 
-*- Answer any follow-up questions that ChatGPT asks, and let that run while you’re doing the rest of the exercise.*
+* The workflow uses the newest tracker tab and relevant Slack messages posted since the previous update through the current run time.
 
-*- Next, r**eturn to your projects and click on* ***Edit instructions*** *on the top right.*
+* The completion notice goes to the intended private Slack destination.
 
-![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-dab9f253-a377-493b-b125-c3019b43e96e-1772061955823.png)
+* The result remains a draft for you to review. It is not sent directly to leadership.
 
-*- Paste in the following instructions:*
+The project team still owns the source information and must keep the tracker current. The scheduled workflow creates the update; it does not maintain the tracker or approve the finished document.
 
-```
-This project is a space to organize context about our potential South American expansion next year. The files uploaded give more context on the market opportunity, as well as a product spec and roadmap for the Lumio Flow product. Ensure your answers are strategic and appropriately push back on assumptions we may make based on our work in other regions that might not apply to South America.
-```
+## Two useful prompts to try
 
-*- Upload the file* ***“Product Specifications and 18-month roadmap.pdf”*** *(*[*download here*](https://docsend.com/view/rvra3ugezvz6q6ns)*) into the project so any chats within the project can reference that file. You can also upload the PDF from your deep research query as a file for the project chats to reference.*
+### Find a recurring task
 
-*- Start a new chat in the project and upload the CSV “****Lumio\_Top\_500\_Customers.csv****” (*[*download here*](https://docsend.com/view/v6mdytfd33yy6qqn)*) to a chat within your project. Use the following prompt:*
+If you are not sure where to begin, ask:
 
 ```
-Analyze the data from our top 500 customers. Highlight any trends you see that would indicate issues when entering the South American market.
+Look at my recent work and suggest three recurring tasks I could turn into a reusable workflow.
+
+Tell me why each one is a good candidate. Don’t start anything until I choose.
 ```
 
-## **Demo:** Writing a project plan (28:03-30:05)
+You do not need to automate your entire job by next Tuesday. Choose one useful task that happens regularly, takes meaningful time, follows a reasonably stable process, and gives you a clear way to review the result. Do it once, make the result better, and save what worked.
 
-### Follow along
+### Pressure-test a workflow before scheduling it
 
-*Start a new chat in the same project and paste the following prompt:*
-
-```
-Create an example market entry strategy for Lumio entering the South American market.
-
-Treat this as a hypothetical strategy, not official Lumio guidance. Focus on 2–3 priority countries and briefly explain why they were selected.
-
-Structure the response as follows:
-
-Executive Summary
-
-Market Opportunity Overview
-
-Priority Countries & Rationale
-
-Target Customers & Value Proposition
-
-Go-to-Market Strategy (partnerships, sales model, pricing/financing)
-
-Key Risks & Mitigations
-
-Success Metrics
-
-Use a professional, clear tone suitable for a business audience. Keep insights concise and practical, avoiding unnecessary jargon. Keep it to under 500 words.
-```
-
-## **Demo:** Preparing for the presentation (30:05-30:23)
-
-### Follow along
-
-*Start a new chat in the same project and paste the following prompt:*
+Use a fresh set of approved inputs and ask:
 
 ```
-Create an image for my slide deck that is an abstract conceptual visualization of productivity in South America. Make it dramatic and inspiring.
+Before I schedule this workflow, test it once with these fresh inputs.
+
+Compare the result with the source materials. Tell me what changed correctly, what is missing or contradictory, which instructions did not carry over, and what a person should review before the result is shared or used.
+
+Do not schedule anything until I confirm that the test passed.
 ```
 
-## **Demo:** Organize your to-do list (30:23-32:20)
+Fix the workflow and test it again if a source, rule, destination, or review step fails.
 
-### Follow along
+## Learn more
 
-*Start a new chat (outside of the project) and upload the file* ***To-Dos.png.*** *Paste the following prompts:*
+* ﻿ [ChatGPT 101 webinar resource guide](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)﻿
 
-```
-Summarize this to-do list and help me think through priorities.
+* ﻿ [Plugins in ChatGPT and Codex](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt-and-codex)﻿
 
-Summarize in a quick message to my manager, Ronnie.
-```
+* ﻿ [Skills in ChatGPT](https://help.openai.com/en/articles/20001066-skills-in-chatgpt/)﻿
 
-## **Demo:** Draft internal updates (32:20-33:37)
+* ﻿ [Scheduled tasks in ChatGPT](https://help.openai.com/en/articles/10291617-tasks-in-chatgpt)﻿
 
-If you have apps connected, @ mention an app and ask it a question!
+* ﻿ [Agents and Workflows course](https://academy.openai.com/public/courses/agents-and-workflows-bieml)﻿
 
-## **Demo:** Prepare for an internal meeting (33:37-36:07)
+* ﻿ [ChatGPT use cases](https://learn.chatgpt.com/use-cases)﻿
 
-### Follow along
+* ﻿ [OpenAI Academy events](https://academy.openai.com/public/events)﻿
 
-*You can create a GPT with the following instructions to prepare for your next career chat with your manager:*
+* ﻿ [Enterprise privacy and business data](https://openai.com/business-data/)﻿
 
-```
-You are Career Conversation Co-Pilot, a voice-first career planning assistant. Your job is to help the user prepare for a monthly career conversation with their manager. Use the attached documents to understand the role and expectations.. Each month you will:
+8
 
-1. Interview the user using short, single questions suitable for voice mode.
+[Codex for everyday work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
 
-2. Identify themes, progress, blockers, impact, skills growth, and next steps.
+By Diana Stegall
 
-3. Produce an updated career plan in a consistent format named “Monthly Career Plan (YYYY-MM)”.
+[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
 
-Operating principles:
+By Diana Stegall
 
-* Be direct, concrete, and specific. Avoid generic advice.
-
-* Ask one question at a time. Keep questions short. Wait for the user’s answer before continuing.
-
-* Use light coaching: clarify, reflect back, and probe for specifics (metrics, examples, outcomes, scope).
-
-* If the user is uncertain, propose 2–3 plausible options and ask them to pick.
-
-* Take reasonable liberties for demo purposes: you may suggest polished phrasing, plausible metrics, and coherent narratives, but clearly label anything you “drafted” vs. what the user explicitly stated.
-
-* Maintain continuity: start each new month by briefly recalling last month’s goals and checking progress. If prior months aren’t available, ask a quick baseline set of questions and proceed.
-
-Conversation phases (do in order):
-
-A) Context check (role, priorities, manager expectations, month timeframe)
-
-B) Wins & impact (3–5 items, each with outcome + evidence)
-
-C) Challenges & learnings (blockers, what changed, what you’d do differently)
-
-D) Skills & growth (skills practiced, skills to build, feedback received)
-
-E) Career direction (role aspiration, scope, level signals, strengths)
-
-F) Next month plan (3 priorities, risks, stakeholder map)
-
-G) Ask-for list (support needed from manager, opportunities, visibility)
-
-H) Draft review (read back summary bullets; confirm; then finalize)
-
-Output requirements:
-
-* Always end with a consistent artifact titled exactly: “Monthly Career Plan (YYYY-MM)”.
-
-* Use the format defined in “Monthly Career Plan Format” below.
-
-* Keep the manager-facing sections crisp and ready to paste into a doc.
-
-Monthly Career Plan Format:
-
-1. One-line headline (theme of the month)
-
-2. Role & scope snapshot (2–3 bullets)
-
-3. Progress since last check-in (bullets; include numbers when possible)
-
-4. Top wins (3–5 bullets; each has: Action → Outcome → Evidence)
-
-5. Key learnings & challenges (2–4 bullets)
-
-6. Feedback & signals (what I heard; what I inferred; open questions)
-
-7. Current strengths to leverage (2–3 bullets)
-
-8. Skills to build next (2–3 bullets + how I’ll practice them)
-
-9. Next month priorities (3 items; each has: deliverable, success metric, stakeholders)
-
-10. Risks & mitigations (2–3)
-
-11. Support I want from my manager (3–5 asks; specific)
-
-12. Longer-term career plan (6–12 months)
-
-* Target direction (role/level/scope)
-
-* 2 capability pillars to prove
-
-* 1–2 “signature projects” to pursue
-
-* Visibility & sponsorship plan
-
-13. Appendix (optional)
-
-* Private notes (only if user requests)
-
-* Drafted language vs. user-supplied notes
-
-Style:
-
-* Manager-facing language is concise, positive, and evidence-based.
-
-* Avoid oversharing; keep tone constructive and accountable.
-
-* Prefer bullets over paragraphs.
-
-When the user says “start this month,” begin Phase A immediately.
-
-When the user says “finalize,” produce the artifact immediately using the latest info.
-
-When the user says “same format,” reuse the exact format above without changes.
-
----
-
-## Suggested “Conversation Starters” (in the GPT builder)
-
-* “Start this month’s career conversation prep (voice interview).”
-
-* “Turn my rough notes into this month’s Monthly Career Plan.”
-
-* “Help me craft my asks for my manager this month.”
-
-* “What are the strongest impact bullets from my month?”
-
----
-
-## Optional: quick “Memory” fields (for continuity)
-
-If you want the GPT to feel consistent month-to-month, have it capture (and re-confirm) these in the first session:
-
-* Current role + core responsibilities
-
-* Manager’s top priorities for you this quarter
-
-* Promotion/role aspiration (6–12 months)
-
-* 2–3 skill themes you’re focusing on
-
-* Your “impact metrics” (what counts as success)
-
-(For your demo, you can pretend these are “already known” after the first run.)
-
-```
-
-## **Learn:** Becoming a ChatGPT Champion (36:07-37:37)
-
-Learn more → [**OpenAI Academy: Champion Resources**](https://academy.openai.com/home/clubs/champions-ecqup/overview?linkMenu=Champions)﻿
-
-6
-
-Table Of Contents
-
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
 
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
-[40:09](/en/public/clubs/work-users-ynjqu/videos/chatgpt-102-leveraging-ai-to-do-your-best-work-recording)
+[ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
 
-Video
+Aug 5th, 2025 • Views 18.2K
 
-[ChatGPT 102: Leveraging AI to Do Your Best Work [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-102-leveraging-ai-to-do-your-best-work-recording)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-[How finance teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[ChatGPT 102 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
+[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
-Aug 5th, 2025 • Views 16K
+By Juliann Igo • Feb 19th, 2026 • Views 17.6K
 
-[Codex for everyday work: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
+[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-By Diana Stegall • May 6th, 2026 • Views 7.4K
+Aug 6th, 2025 • Views 60.4K
 
-[ChatGPT 101: Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
+[ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
 
-By Juliann Igo • Feb 19th, 2026 • Views 14.1K
+Aug 5th, 2025 • Views 18.2K
 
-[ChatGPT 101 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
+[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
-Aug 6th, 2025 • Views 53.5K
+By Juliann Igo • Feb 19th, 2026 • Views 17.6K
 
-[ChatGPT 102 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
+[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-Aug 5th, 2025 • Views 16K
+Aug 6th, 2025 • Views 60.4K
 
-[ChatGPT 101: Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Juliann Igo • Feb 19th, 2026 • Views 14.1K
-
-[ChatGPT 101 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
-
-Aug 6th, 2025 • Views 53.5K
-
-[Codex for everyday work: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
-
-By Diana Stegall • May 6th, 2026 • Views 7.4K
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K

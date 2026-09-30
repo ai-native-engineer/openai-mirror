@@ -8,7 +8,7 @@ June 4, 2026
 
 ![How Sarah Dully uses ChatGPT to keep high school lessons current](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/sarah-dully-original-5531f190-190a-4689-b2f4-aa474d8abde9-1780610505811.jpeg?fit=scale-down&width=1200)
 
-# education
+# Education
 
 ## Rhode Island’s Teacher of the Year uses AI to refresh materials, differentiate assignments, and build unexpected connections for students.
 
@@ -26,60 +26,62 @@ For Pi Day, while her class was reading Catcher in the Rye, she asked ChatGPT fo
 
 For Sarah, ChatGPT is a jumpstart for a blank page. It helps with the labor around the teaching so she can spend more of her attention on the part that made her love school in the first place: seeing the students clearly enough to know what they need before they say it.
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
 Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 710
-
-Blog
-
-[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/en/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
-
-Apr 1st, 2026 • Views 998
+[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
 External Content
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
-
-Mar 11th, 2025 • Views 3.9K
+[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
 Blog
 
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/en/public/blogs/doreen-mayrell-chatgpt-algebra-support)
-
-Apr 28th, 2026 • Views 447
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
 Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
 
-Mar 23rd, 2026 • Views 710
-
-External Content
-
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
-
-Mar 11th, 2025 • Views 3.9K
+Aug 17th, 2026 • Views 305
 
 Blog
 
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/en/public/blogs/doreen-mayrell-chatgpt-algebra-support)
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Apr 28th, 2026 • Views 447
+Aug 5th, 2026 • Views 310
 
 Blog
 
-[From broken PDFs to instant access: How ChatGPT rebuilds the research workflow at UT Austin](/en/public/blogs/from-broken-pdfs-to-instant-access-how-chatgpt-rebuilds-the-research-workflow-at-ut-austin-2026-04-01)
+[How a high school student built a civil-rights archive with ChatGPT](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
 
-Apr 1st, 2026 • Views 998
+Aug 28th, 2026 • Views 659
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
+
+Aug 17th, 2026 • Views 305
+
+Blog
+
+[How a high school student built a civil-rights archive with ChatGPT](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
+
+Aug 28th, 2026 • Views 659
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310

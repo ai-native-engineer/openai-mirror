@@ -1,14 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins -->
 
-[Communities](/home/clubs)
-
-/
-
 [Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-/
+[Content](/public/clubs/higher-education-05x4z/content)
 
-[navigation.content](/public/clubs/higher-education-05x4z/content)
+Article
 
 August 4, 2026
 
@@ -92,42 +88,62 @@ Before announcing the plugins broadly, install each plugin for the appropriate R
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian
-
 [Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
 By Juliann Igo
 
-[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-Aug 4th, 2026 • Views 136
+By Kirk Gulezian
 
-[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 1.5K
-
-[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
-
-Aug 4th, 2026 • Views 66
-
-[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
-
-Jul 24th, 2026 • Views 212
+Blog
 
 [Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
-Aug 4th, 2026 • Views 136
+Aug 4th, 2026 • Views 1.2K
 
-[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
-
-Aug 4th, 2026 • Views 66
+Blog
 
 [ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
 
-Jul 24th, 2026 • Views 212
+Jul 24th, 2026 • Views 571
 
-[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+Blog
 
-Jun 9th, 2026 • Views 1.5K
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+Aug 4th, 2026 • Views 1.2K
+
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
+
+Jul 24th, 2026 • Views 571

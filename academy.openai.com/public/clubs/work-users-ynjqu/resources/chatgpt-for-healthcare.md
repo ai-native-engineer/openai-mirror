@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-for-healthcare -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Article
 
@@ -15,6 +15,8 @@ January 8, 2026 · Last updated on May 29, 2026
 # Industry & Community
 
 # Awareness
+
+# Work
 
 ## Solution kit for ChatGPT for Healthcare
 
@@ -30,7 +32,7 @@ Clinicians spend hours searching for evidence, reconciling guidelines, and writi
 
 The starter prompt templates below are examples of how clinicians can use ChatGPT.
 
-*Note that these prompts are made for* [*ChatGPT for Healthcare*](https://openai.com/solutions/industries/healthcare/)*. Please make sure you’re in the appropriate workspace before using them.*
+*Note that these prompts are made for*  [*ChatGPT for Healthcare*](https://openai.com/solutions/industries/healthcare/)*. Please make sure you’re in the appropriate workspace before using them.*
 
 |  |  |  |
 | --- | --- | --- |
@@ -47,44 +49,42 @@ The starter prompt templates below are examples of how clinicians can use ChatGP
 
 ### **Get started**
 
-If you’re evaluating how to deploy AI securely in your institution, [contact our healthcare team](https://openai.com/contact-sales/).
+If you’re evaluating how to deploy AI securely in your institution,  [contact our healthcare team](https://openai.com/contact-sales/).
 
-Table Of Contents
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for IT](/public/clubs/work-users-ynjqu/resources/use-cases-it)
 
-[ChatGPT for IT](/en/public/clubs/work-users-ynjqu/resources/use-cases-it)
+[ChatGPT for sales](/public/clubs/work-users-ynjqu/resources/use-cases-sales)
 
-[ChatGPT for sales](/en/public/clubs/work-users-ynjqu/resources/use-cases-sales)
+Jul 21st, 2025 • Views 245.8K
 
-Jul 21st, 2025 • Views 238.2K
+[ChatGPT for HR](/public/clubs/work-users-ynjqu/resources/use-cases-hr)
 
-[ChatGPT for HR](/en/public/clubs/work-users-ynjqu/resources/use-cases-hr)
+Jul 21st, 2025 • Views 143.4K
 
-Jul 21st, 2025 • Views 139.6K
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+Jul 21st, 2025 • Views 250.5K
 
-Jul 21st, 2025 • Views 244.6K
+[ChatGPT for engineers](/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
 
-[ChatGPT for engineers](/en/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
+Jul 21st, 2025 • Views 242.3K
 
-Jul 21st, 2025 • Views 234.9K
+[ChatGPT for sales](/public/clubs/work-users-ynjqu/resources/use-cases-sales)
 
-[ChatGPT for sales](/en/public/clubs/work-users-ynjqu/resources/use-cases-sales)
+Jul 21st, 2025 • Views 245.8K
 
-Jul 21st, 2025 • Views 238.2K
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+Jul 21st, 2025 • Views 250.5K
 
-Jul 21st, 2025 • Views 244.6K
+[ChatGPT for engineers](/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
 
-[ChatGPT for engineers](/en/public/clubs/work-users-ynjqu/resources/use-cases-engineers)
+Jul 21st, 2025 • Views 242.3K
 
-Jul 21st, 2025 • Views 234.9K
+[ChatGPT for HR](/public/clubs/work-users-ynjqu/resources/use-cases-hr)
 
-[ChatGPT for HR](/en/public/clubs/work-users-ynjqu/resources/use-cases-hr)
-
-Jul 21st, 2025 • Views 139.6K
+Jul 21st, 2025 • Views 143.4K

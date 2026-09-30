@@ -27,64 +27,56 @@ Taha’s performance metric is streamlining government through “cost avoidance
 These efficiency and productivity gains in Minnesota are similar to what other states have experienced after introducing ChatGPT to their workforces. Results from a pilot program in Pennsylvania found state employees saving an average of 95 minutes a day using ChatGPT for writing, research, summarization, and IT support. Another pilot program with North Carolina’s Department of State Treasurer found employees saving 30 to 60 minutes a day, especially on drafting and editing tasks.
 In Minnesota, what began as a budget constraint has become a statewide capability: faster turnarounds, consistent voice, lower costs, and, most importantly, information people can actually use.
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-[10:00](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Tom Coley ( International Year One Business)](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Aug 1st, 2025 • Views 225
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
+
+[10:00](/public/videos/tom-coley-international-year-one-business-2025-08-19)
+
+Video
+
+[Tom Coley ( International Year One Business)](/public/videos/tom-coley-international-year-one-business-2025-08-19)
+
+Aug 1st, 2025 • Views 521
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
 
 Blog
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 14th, 2026 • Views 231
+Sep 29th, 2026 • Views 16
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-Jun 23rd, 2026 • Views 83
+Sep 29th, 2026 • Views 33
 
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
-
-[10:00](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[10:00](/public/videos/tom-coley-international-year-one-business-2025-08-19)
 
 Video
 
-[Tom Coley ( International Year One Business)](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)
+[Tom Coley ( International Year One Business)](/public/videos/tom-coley-international-year-one-business-2025-08-19)
 
-Aug 1st, 2025 • Views 225
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+Aug 1st, 2025 • Views 521
 
 Blog
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 14th, 2026 • Views 231
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

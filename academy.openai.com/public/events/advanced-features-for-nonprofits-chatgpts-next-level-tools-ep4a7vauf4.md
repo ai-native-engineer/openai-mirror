@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+5:30 PM - 7:00 PM GMT
+
+May 14, 2025
+
 # Advanced Features for Nonprofits: ChatGPT's Next-Level Tools
 
 [Replay](https://academy.openai.com/home/videos/advanced-features-for-nonprofits-2025-05-16)
@@ -12,11 +16,13 @@ LIVESTREAM
 
 # Advanced & Builder Skills
 
+# Work
+
 ### This session is presented by our community partner, **AI for Nonprofits Sprint**.
 
-*This resource was produced by the AI for Nonprofits Sprint, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. The [AI for Nonprofits Sprint](http://www.fcny.org/aisprint) at the Fund for the City of New York is working with 100+ nonprofits (including the United Way, Good Shepherd Services, America On Tech, and more) and 30,000 staff to bring basic AI literacy to everyday nonprofit workers. This event is co-sponsored by OpenAI Academy and Just-Tech.*
+*This resource was produced by the AI for Nonprofits Sprint, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. The*  [*AI for Nonprofits Sprint*](http://www.fcny.org/aisprint) *at the Fund for the City of New York is working with 100+ nonprofits (including the United Way, Good Shepherd Services, America On Tech, and more) and 30,000 staff to bring basic AI literacy to everyday nonprofit workers. This event is co-sponsored by OpenAI Academy and Just-Tech.*
 
-Your basic ChatGPT account has some special tricks up its sleeve. Go beyond simple chats and explore ChatGPT’s next-level capabilities for more efficient and impactful work. Features include GPTs, Canvas, Projects, and Deep Research. This session is designed for people who have already had several hours of experimentation with a generative AI tool such as ChatGPT. No knowledge of computer science, machine learning, coding or even how AI actually works is necessary - this is an entirely practical session. A 60 minute presentation will be followed by a special 30 minute Q&A session featuring experts from OpenAI.
+Your basic ChatGPT account has some special tricks up its sleeve. Go beyond simple chats and explore ChatGPT’s next-level capabilities for more efficient and impactful work. Features include GPTs, Canvas, Projects, and Deep Research. This session is designed for people who have already had several hours of experimentation with a generative AI tool such as ChatGPT. No knowledge of computer science, machine learning, coding or even how AI actually works is necessary - this is an entirely practical session. A 60 minute presentation will be followed by a special 30 minute Q&A session featuring experts from OpenAI.
 
 ## Speakers
 
@@ -46,7 +52,9 @@ View Profile
 
 Event has finished
 
-May 14, 5:30 PM GMT
+5:30 PM - 7:00 PM GMT
+
+May 14, 2025
 
 Online
 
@@ -64,7 +72,9 @@ Just-Tech](https://just-tech.com/)
 
 Event has finished
 
-May 14, 5:30 PM GMT
+5:30 PM - 7:00 PM GMT
+
+May 14, 2025
 
 Online
 

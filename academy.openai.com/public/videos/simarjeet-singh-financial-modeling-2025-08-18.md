@@ -1,49 +1,14 @@
 <!-- source: https://academy.openai.com/public/videos/simarjeet-singh-financial-modeling-2025-08-18 -->
 
-# Simarjeet Singh (Financial Modeling)
+# Dr. Simarjeet Singh (Financial Modeling)
 
-Posted Aug 02, 2025 | Views 3.8K
+<!-- vimeo: 1111162611 | track: English (auto-generated) -->
 
-# India
+[▶ Watch on Vimeo](https://vimeo.com/1111162611)
 
-Simarjeet Singh - Great Lakes Institute of Management: Gurgaon - Financial Modeling
+<details>
+<summary>자막: Dr. Simarjeet Singh (Financial Modeling)</summary>
 
-Dr. Simarjeet Singh is an Assistant Professor of Accounting and Finance at Great Lakes Institute of Management, Gurgaon. Dr. Singh frequently shares his expertise in leading business newspapers, including The Hindu, Forbes India, Business Standard, The Hindu BusinessLine, and Mint. His research covers topics such as Behavioral Finance, sustainability reporting, and AI in finance. He has published more than 20 research articles in peer reviewed journals.
+I, myself, SIM Tsing, I teach accounting and finance courses at Great Lakes Institute of Management by teaching philosophies inspired from a simple but very powerful thought. In a world, bare facts are just one click away. The real skill is knowing what to ask and how to think. In other words, my aim is to make my students knowledge seekers note knowledge repositors. Because when my students will be knowledge seekers, they will not only understand the concepts, they will enjoy the process that would lead, that would ignite the curiosity among them. I start exploring Chad g pity in March 23. I try to find out the ways how, how Chad GT can be used to enhance the learning process. At that time, I learned that many students are using chat GPT, but they were using chat GPT as a answering machine that was impacting their learning process, long-term learning process. So I decided to find, find a way where chat GPT can be used as a thought, thought partner instead of answering machine. And finally, in my financial modeling course, I find a way to do this. I created a customized GPT that was based on Socrates way of dialogue, in other words, but that customized GPT used to do. Instead of giving direct answers to the questions that GPT used to ask a series of thoughtful and proving questions that questions encourage the students to find, to discover answers by themself. So this overall process encouraged the critical thinking among the students, and they started using chat GPT as a thought partner in instead of using it as a answering machine. So this customized GPT balance, the ongoing debate that overuse of generative AI believe to brain fog. This whole GPT was based on a simple idea that Socrates physically cannot be available everywhere at everywhere and every time. But now the students have virtual Socrates that students can use at any time that will challenge their assumptions and that will rectify their reasoning process. Okay, now, uh, for my fellow educators, most of the fellow educators will be interesting how we, how I created that customized GPT. First of all, uh, creating customized GPT don't require any technical skill. It's a super easy process. Chad GPT offers you a option where you can, you can create your customized GPT by yourself, okay? You don't require any technical knowledge. So to create A GPT customized GPT, there are two processes. First, first step is you have to design the GPT. Second step is implementation phase. For designing the GPT, you have have to create a same system prompt. Like in my case, my system prompt that I created with the help of chat GPT was that, uh, you have to think like a Socrates. Whenever somebody ask you any query or questions, you don't have to give the direct answer. You have to give a series of probing and thoughtful questions that will help the students to discover the answers by themselves. Wherever students are not able to give answers, you have to give hints to the students. You'll also ask the students, give the reasoning, give the thought process behind every answer. Okay? So that was the designing process. So then we have an implementation phase. An implementation phase. Further, we have four steps. First step was defining the scope. So in my course it was financial modeling course. I uploaded the course material course outline. The second step, that is crucial step that was prompting. So for my GPTI use few short prompting. That means I give certain examples to the GPT so that it can learn how GPT have to response. For example, I give a query, if a student ask what is the interlinkage between three financial statement, the GPT will ask, okay, first explain me, what are the three financial statements? The student's response will be three financial statements are income statement, balance sheet, and cash flow statements. Then the follow up question by Chad, GPT will be what happened to the net profit in the income statement. The student's possible response will be, it goes to the retained earning part in the balance sheet. Okay, so in the way now, student is able to link the two statements, income statement and balance sheet. So I give eight to 10 example examples. We called it short so that my GPT can learn how it has to response. The third step was interaction. How students build interact. So by default chat GPT provides you three options. First option is you can share a customized GPT in a public manner or in a private manner just for yourself, or you can share it through link. For my class, I shared it through link. I post the link on LMS, uh, so that students can use that GPT and that GPT was 24 into seven tutor. Fourth step was reflection phase. I purposely kept that, that step because after each session, I want my students to reflect. I want my student to express what they learned from this exercise. It served two purposes. First purpose student got the understanding what they learned. Second, it give me further data to refine my GPT more. So this way I trained the GPTI implemented the whole GPT process. So believe me, this was a pure non-technical process. Uh, finally, did it work or not? It worked First. It, it encouraged the critical thinking among the student as there are so many speculation among the educators and the researchers. That overuse of generative AI bill lead to system one thinking that is heroic thinking given by novel laureates, kamen, and whiskey. But with this intervention, with this customized GPT, that is based on a Socrates way of dialogue, students shifted to system two thinking. That is detailed oriented thinking. That leads to critical thinking. Initially, students find it irritating because GPT was not giving them direct answers, but later on they find that it refined their reasoning process and now they are able to find the answers by themself. Other area bear. It worked. Bear it brought so many efficiencies. It saved a lot of time for me, also for students. Also, I used to get so many fundamental queries while I was teaching last year, but this year the number of queries was less for students because they were corporate guys. It was A-O-P-G-D-M course that, that, that is a course we offer for executive guys. Students can learn at their own pace. Students can learn at their own time. So it saved a lot of time for me also for students. Also, my fellow educators can use the same approach, at least for elective courses, where students has basic understandings understanding of the concepts. Thank you.
 
-4
-
-Comments (8)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Posted Mar 08, 2025 | Views 439.1K
-
-# Foundations
-
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Posted Mar 23, 2025 | Views 273.4K
-
-[44:20](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-Posted Aug 24, 2026 | Views 251.1K
-
-# Use Cases
-
-# Portfolio Company Knowledge Work
+</details>

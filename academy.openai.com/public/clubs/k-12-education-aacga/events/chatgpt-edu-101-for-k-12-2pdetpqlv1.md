@@ -1,16 +1,20 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/events/chatgpt-edu-101-for-k-12-2pdetpqlv1 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.events](/en/public/clubs/k-12-education-aacga/events)
+[navigation.events](/public/clubs/k-12-education-aacga/events)
 
 ![ChatGPT Edu 101 for K-12](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/EDU-New-Content-Covers-10--803f7510-8a92-4d38-9152-0e87091f1cda-1784833938664.jpeg?fit=scale-down&width=1200)
+
+WEBINAR
 
 9:00 PM - 10:15 PM GMT
 
 September 8, 2026
 
 # ChatGPT Edu 101 for K-12
+
+[Replay](https://academy.openai.com/home/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
 
 Join the OpenAI Education team for a practical introduction to ChatGPT Edu and its everyday applications across K–12 schools and districts. This live session is designed for teachers, school staff, and education leaders who are new to ChatGPT or who want a guided introduction to using it effectively in their professional work.
 
@@ -34,24 +38,40 @@ No prior ChatGPT experience is required. Participants who already have access to
 
 This session repeats the foundational material from the August 18 ChatGPT Edu 101 offering. Participants only need to attend one 101 session. A recording will be available for those who cannot attend live.
 
+## Speakers
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/kirk-f2c820fd-7c76-4b68-8b14-dd65c5a4e95e-1746648484425.jpeg?fit=scale-down&width=360)
 
 Kirk Gulezian
 
 Education & Government @ OpenAI
 
-Live in 46 days 2 hours
+View Profile
+
+Event has finished
 
 9:00 PM - 10:15 PM GMT
 
 September 8, 2026
 
+Online
+
+Organized by
+
 K-12 Education
 
-Live in 46 days 2 hours
+[Replay](https://academy.openai.com/home/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)
+
+Event has finished
 
 9:00 PM - 10:15 PM GMT
 
 September 8, 2026
 
+Online
+
+Organized by
+
 K-12 Education
+
+[Replay](https://academy.openai.com/home/clubs/k-12-education-aacga/videos/chatgpt-edu-101-for-k-12-webinar-replay)

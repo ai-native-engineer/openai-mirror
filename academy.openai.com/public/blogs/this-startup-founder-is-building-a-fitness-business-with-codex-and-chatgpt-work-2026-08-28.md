@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28 -->
 
+Article
+
+August 28, 2026
+
 # This European startup founder is building a fitness business with Codex and ChatGPT Work
 
 ![This European startup founder is building a fitness business with Codex and ChatGPT Work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/tom-race-eea9571e-cc2f-4e4d-adb4-ed220b05e214-1787937336940.jpeg?fit=scale-down&width=1200)
@@ -32,54 +36,58 @@ In ChatGPT’s voice conversations, he and his daughter explore questions about 
 
 He says freddy has grown through word of mouth and product launches on Reddit, without paid advertising. AI lets the team keep up with support while shipping improvements every day. “We measure time in minutes and hours, and not in weeks and months,” he says.
 
-Resource
+Blog
+
+[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
 
 [ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
+Video
+
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Resource
-
-[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
-
-Resource
-
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 9
+By Laura Keenan • Aug 4th, 2026 • Views 144
 
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+Blog
 
-May 8th, 2026 • Views 2.1K
+[Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
+
+Sep 2nd, 2026 • Views 227
+
+Blog
 
 [GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 4th, 2026 • Views 584
+Jun 4th, 2026 • Views 725
 
-[30:00](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
+Blog
 
-[Building websites with ChatGPT Sites](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-By Keelan Schule • Jul 17th, 2026 • Views 3.7K
-
-Resource
+Sep 29th, 2026 • Views 16
 
 [From One-Off Request to Reusable Practice: Building Legal Workflows with ChatGPT Work](/public/clubs/government/resources/legal-workflows)
 
-By Laura Keenan • Aug 4th, 2026 • Views 9
+By Laura Keenan • Aug 4th, 2026 • Views 144
+
+Blog
 
 [GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 4th, 2026 • Views 584
+Jun 4th, 2026 • Views 725
 
-[30:00](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
+Blog
 
-[Building websites with ChatGPT Sites](/public/videos/building-websites-with-chatgpt-sites-2026-07-17)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-By Keelan Schule • Jul 17th, 2026 • Views 3.7K
+Sep 29th, 2026 • Views 16
 
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+Blog
 
-May 8th, 2026 • Views 2.1K
+[Making more time for teaching with ChatGPT Work](/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02)
+
+Sep 2nd, 2026 • Views 227

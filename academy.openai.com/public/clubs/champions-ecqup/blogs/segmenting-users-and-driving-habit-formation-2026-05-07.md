@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Segmenting users and driving habit formation
 
@@ -112,7 +112,7 @@ In practice:
 
 Adoption accelerates when AI is layered into existing work, not added as something extra.
 
-Teams often benefit from defining one shared workflow, such as: gather context → use a standard prompt or GPT → review → finalize.
+Teams often benefit from defining one shared workflow, such as: gather context → use a standard prompt → review → finalize.
 
 Repetition matters more than novelty. If a workflow is used multiple times in a month, habit formation becomes much more likely.
 
@@ -196,7 +196,7 @@ Before moving forward, translate this into a concrete plan for your team.
 
 ## **Ground your assessment in usage data**
 
-You don’t need perfect reporting to drive adoption. But if your workspace admin has [**Workspace Analytics**](https://academy.openai.com/home/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide) enabled, a few quick signals can help you confirm what you’re seeing on the ground—and spot where adoption is stalling.
+You don’t need perfect reporting to drive adoption. But if your workspace admin has  [**Workspace Analytics**](https://academy.openai.com/home/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide) enabled, a few quick signals can help you confirm what you’re seeing on the ground—and spot where adoption is stalling.
 
 **Where to find it:** **Workspace settings → Workspace analytics***(There’s also a “Analytics viewer” role that allows someone to view analytics without being an Admin/Owner.)*
 
@@ -252,50 +252,58 @@ Sign in or Join the community
 
 Create an account
 
-1
+3
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
-
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
-
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
-
-Aug 5th, 2025 • Views 8K
-
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
-
-Aug 5th, 2025 • Views 4.1K
-
-[Scope, test, and rollout AI workflows](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-May 5th, 2026 • Views 260
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[3:00](/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Confidence scoring and skill hardening with Codex](/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
 
-Jun 18th, 2026 • Views 89
-
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
-
-Aug 5th, 2025 • Views 8K
-
-[Scope, test, and rollout AI workflows](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-May 5th, 2026 • Views 260
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Jun 18th, 2026 • Views 89
+[Capture and share use cases and impact](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Aug 5th, 2025 • Views 8.7K
 
-Aug 5th, 2025 • Views 4.1K
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
+
+Jul 7th, 2026 • Views 1.4K
+
+[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
+
+Aug 13th, 2026 • Views 473
+
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Video
+
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Jul 22nd, 2026 • Views 757
+
+[Capture and share use cases and impact](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+
+Aug 5th, 2025 • Views 8.7K
+
+[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
+
+Aug 13th, 2026 • Views 473
+
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Video
+
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Jul 22nd, 2026 • Views 757
+
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
+
+Jul 7th, 2026 • Views 1.4K

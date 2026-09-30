@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Run an AI hackathon
 
@@ -14,6 +14,8 @@
 
 # Use Cases
 
+# Work
+
 # Workplace & Business
 
 # Codex for Work
@@ -24,7 +26,7 @@
 
 ## A step-by-step guide to planning and running an internal AI Hackathon.
 
-September 17, 2025 · Last updated on June 12, 2026
+September 17, 2025 · Last updated on September 17, 2026
 
 ![Run an AI hackathon](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Run-an-AI-hackathon-style-thumb-7623afa7-d7f1-4d2f-bd74-57d99fd40b93-1781280605880.jpeg?fit=scale-down&width=1200)
 
@@ -62,7 +64,7 @@ Before you begin, choose the primary outcome that matters most:
 
 * **Exploration:** Surface new workflow ideas and use cases.
 
-* **Prototyping:** Build rough solutions, prompts, GPTs, Skills, Workspace Agents, Codex-supported prototypes, internal tools, or workflow concepts.
+* **Prototyping:** Build rough solutions, prompts, Skills, Workspace Agents, Codex-supported prototypes, internal tools, or workflow concepts.
 
 * **Validation:** Test whether a known workflow idea works with real users and real inputs.
 
@@ -411,7 +413,7 @@ Celebrate participation, but make the follow-up decisions visible as well.
 
 9. Share the recap and follow-up decisions.
 
-1
+2
 
 Sign in or Join the community
 
@@ -419,42 +421,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+[Run a prompt challenge](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+Aug 5th, 2025 • Views 8.9K
 
-Aug 5th, 2025 • Views 8.1K
+[Getting Started as an Agent Activator](/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jun 9th, 2026 • Views 1.4K
 
-May 7th, 2026 • Views 323
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+Sep 17th, 2025 • Views 6.5K
 
-Sep 17th, 2025 • Views 5.7K
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[Run a prompt challenge](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+Aug 5th, 2025 • Views 8.9K
 
-Aug 5th, 2025 • Views 8.1K
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+Sep 17th, 2025 • Views 6.5K
 
-Sep 17th, 2025 • Views 5.7K
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+Sep 17th, 2025 • Views 9.2K
 
-Sep 17th, 2025 • Views 7.6K
+[Getting Started as an Agent Activator](/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 323
+Jun 9th, 2026 • Views 1.4K

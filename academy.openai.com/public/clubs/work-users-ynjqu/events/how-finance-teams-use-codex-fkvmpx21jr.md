@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/events/how-finance-teams-use-codex-fkvmpx21jr -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.events](/en/public/clubs/work-users-ynjqu/events)
+[navigation.events](/public/clubs/work-users-ynjqu/events)
 
 ![How finance teams use Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/codexfinancecover-65f0dfcb-d84e-4c45-9c02-87a0fc7ec8b0-1780599494691.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+6:00 PM - 6:30 PM GMT
+
+May 21, 2026
 
 # How finance teams use Codex
 
@@ -24,14 +28,17 @@ Join us for **How finance teams use Codex**, a practical session on using Codex 
 
 In this webinar, we’ll cover:
 
-1. What Codex can help finance teams build
-2. A walkthrough building a monthly business review narrative
-3. How to review Codex output before sharing
-4. Where to find starter prompts and finance use cases to try
+* What Codex can help finance teams build
+
+* A walkthrough building a monthly business review narrative
+
+* How to review Codex output before sharing
+
+* Where to find starter prompts and finance use cases to try
 
 Whether you’re preparing leadership reviews, refreshing reporting materials, or explaining variance drivers, this webinar will help you choose a first finance workflow and start building!
 
-Use our resource guide to follow along: <https://academy.openai.com/home/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19>
+Use our resource guide to follow along:  <https://academy.openai.com/home/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19>﻿
 
 ## Speakers
 
@@ -61,7 +68,9 @@ View Profile
 
 Event has finished
 
-May 21, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 21, 2026
 
 Online
 
@@ -69,7 +78,9 @@ Online
 
 Event has finished
 
-May 21, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 21, 2026
 
 Online
 

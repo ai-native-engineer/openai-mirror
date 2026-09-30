@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # ChatGPT Work: Lead Guide for Exec Sponsors
 
@@ -91,12 +91,8 @@ After I answer, draft:
 
 3. Three manager talking points that reinforce the same direction without repeating the message verbatim.
 
-﻿
-
 Keep the language warm, direct, and credible. Explain why ChatGPT Work matters for our organization, connect it to meaningful work, reference approved tools and information, keep human judgment and review visible, and invite teams to experiment, learn, and share what works. Explain that decisions to expand or change the rollout will be based on useful outputs, business outcomes, adoption, friction, and support needs. Avoid generic AI hype, unsupported claims, and promises about access or capabilities I have not confirmed.
 ```
-
-﻿
 
 # 2. Give teams time and permission to test meaningful workflows
 
@@ -162,8 +158,6 @@ Then produce:
 Keep the guidance concrete and credible. Do not imply that every experiment should succeed, that usage alone demonstrates value, or that managers should approve access, policy exceptions, or consequential decisions outside their authority.
 ```
 
-﻿
-
 # 3. Ask for evidence and decide what should scale
 
 Do not use activity or credit consumption alone as the definition of success. Pair available usage signals with concrete examples of the work produced and the outcomes teams observed.
@@ -219,11 +213,7 @@ First, ask me up to seven concise questions, one at a time, about:
 
 7. The decision leadership needs to make now.
 
-﻿
-
 If information is missing, label it as unknown or a question to resolve. Do not infer ROI, causality, or scale readiness from activity, usage, or credit consumption alone.
-
-﻿
 
 Then produce:
 
@@ -234,8 +224,6 @@ Then produce:
 3. A recommendation to expand, improve, narrow, pause, or stop, with rationale and a confidence level.
 
 4. The decisions, owners, and follow-up evidence needed.
-
-﻿
 
 Clearly separate observed evidence, interpretation, and open questions. Use direct, credible language and avoid generic success claims.
 ```
@@ -264,76 +252,60 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[31:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Recording: Make Work Flow: Automate CRM Updates with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
-[30:00](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Video
-
-[Recording: Make Work Flow: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
-
-Resource
-
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Dive in
-
-## Related
-
-Resource
-
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
-
-Jul 9th, 2026 • Views 1.8K
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[30:00](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Recording: Make Work Flow: Proactively monitor accounts with Codex](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
-Jul 9th, 2026 • Views 160
-
-Resource
-
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
-
-Jul 9th, 2026 • Views 312
-
-Resource
-
-[ChatGPT Work: Champion Rollout Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
-
-Jul 8th, 2026 • Views 438
-
-Resource
-
-[ChatGPT Work Resource Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
-
-Jul 9th, 2026 • Views 1.8K
-
-Resource
-
-[ChatGPT Work: Reimagine Guide for Agent Activators](/en/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
-
-Jul 9th, 2026 • Views 312
-
-Resource
-
-[ChatGPT Work: Champion Rollout Guide](/en/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
-
-Jul 8th, 2026 • Views 438
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Recording: Make Work Flow: Streamline team engagement with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
 
-Jul 9th, 2026 • Views 160
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
+
+Jul 9th, 2026 • Views 4.6K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Video
+
+[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Aug 13th, 2026 • Views 700
+
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
+
+Jul 9th, 2026 • Views 1.2K
+
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
+
+Jul 8th, 2026 • Views 1.7K
+
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
+
+Jul 9th, 2026 • Views 4.6K
+
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
+
+Jul 9th, 2026 • Views 1.2K
+
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
+
+Jul 8th, 2026 • Views 1.7K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Video
+
+[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+
+Aug 13th, 2026 • Views 700

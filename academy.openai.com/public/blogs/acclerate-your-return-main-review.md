@@ -100,58 +100,62 @@ And time is leverage.
 
 This post is inspired by the work of Andrea Azarcon Hellar and Daniel Rockwell at GSA, whose Practical Prompts for Acquisition, Pricing, and Report Writing focus on real-world acquisition scenarios to use generative AI in daily work.
 
-Like
+1
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-Blog
-
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/clubs/government/blogs/acclerate-your-return)
-
-Jun 8th, 2026 • Views 15
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
 Blog
 
-[How ChatGPT Built a Contractor’s Back Office](/en/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/clubs/government/blogs/acclerate-your-return)
 
-May 8th, 2026 • Views 1K
-
-Blog
-
-[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/en/public/blogs/technical-editor-gpt-main-review)
-
-Jun 14th, 2026 • Views 132
+Jun 8th, 2026 • Views 76
 
 Blog
 
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/clubs/government/blogs/acclerate-your-return)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 8th, 2026 • Views 15
-
-Blog
-
-[How ChatGPT Built a Contractor’s Back Office](/en/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
-
-May 8th, 2026 • Views 1K
+Sep 29th, 2026 • Views 16
 
 Blog
 
-[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/en/public/blogs/technical-editor-gpt-main-review)
+[How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
 
-Jun 14th, 2026 • Views 132
+May 8th, 2026 • Views 2.4K
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+Blog
 
-Jun 23rd, 2026 • Views 83
+[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/blogs/technical-editor-gpt-main-review)
+
+Jun 14th, 2026 • Views 609
+
+Blog
+
+[Stop Coming Back Buried. Start Coming Back Briefed.](/public/clubs/government/blogs/acclerate-your-return)
+
+Jun 8th, 2026 • Views 76
+
+Blog
+
+[How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
+
+May 8th, 2026 • Views 2.4K
+
+Blog
+
+[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/public/blogs/technical-editor-gpt-main-review)
+
+Jun 14th, 2026 • Views 609
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16

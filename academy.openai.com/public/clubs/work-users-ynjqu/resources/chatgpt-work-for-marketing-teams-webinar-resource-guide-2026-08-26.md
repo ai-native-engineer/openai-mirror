@@ -1,18 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-August 27, 2026
+August 27, 2026 · Last updated on September 2, 2026
 
 # ChatGPT Work for marketing teams: Webinar Resource Guide
 
@@ -25,6 +19,8 @@ August 27, 2026
 # ChatGPT for Work
 
 # Use Cases
+
+# Portfolio Company Knowledge Work
 
 ## Follow along with our webinar ChatGPT Work for marketing teams
 
@@ -153,45 +149,27 @@ Start a new Work task, invoke  `@Data Analytics` , and make the five approved 
 ```
 @Data Analytics Use only the five Auralis Beam source files provided for this task.
 
-﻿
-
 Create an editable weekly campaign learning brief for the six-week test ending August 23, 2026. Use the measurement plan’s KPI definitions, targets, attribution window, data cutoff, minimum-signal rules, and decision rules exactly.
 
-﻿
-
 Your brief should:
-
-﻿
 
 1. Lead with the clearest decision the evidence supports.
 
 Compare Camera-ready desk, Compact apartment, and Warm evening work mode across CPA, conversion rate, click-through rate, and ROAS.
 
-﻿
-
 2. Use customer feedback and sales notes as supporting signals, not as quantified proof.
 
 Separate measured findings, qualitative signals, hypotheses, open questions, and next tests. Cite the source for every material claim.
-
-﻿
 
 3. Flag incomplete or stale data before making a recommendation.
 
 Paid Social conversion and revenue data for the final two days is intentionally unavailable. Explain how that limits the read.
 
-﻿
-
 4. Draft a short digest for the #marketing Slack channel for my review.
-
-﻿
 
 5. Save the output as “Auralis Beam - Weekly Campaign Learning Brief - 2026-08-24.”
 
-﻿
-
 Do not invent missing values, fill gaps, infer causality, or present a directional signal as a verified explanation.
-
-﻿
 
 Link every material figure and conclusion to the source file and relevant sheet, table, or section.
 ```
@@ -223,15 +201,9 @@ For a recurring workflow with explicit data windows and stop conditions, use the
 ```
 Every Monday at 7:30 a.m. [time zone], run the Auralis Beam weekly campaign learning workflow using the latest approved files in the campaign learning folder.
 
-﻿
-
 Apply the latest approved measurement plan’s KPI definitions, targets, attribution window, data cutoff, minimum-signal rules, and decision rules exactly.
 
-﻿
-
 Before producing the brief, verify that all required files are present and that spend, traffic, conversion, and revenue data share a clear cutoff. If a required source is missing, a definition has changed without approval, or the data is incomplete or stale under the approved measurement-plan rules, stop and create an exception note instead of a final recommendation.
-
-﻿
 
 Produce a dated editable learning brief and a Slack-ready digest. Separate measured findings, qualitative signals, hypotheses, open questions, and proposed next tests. Cite every source and do not send or publish anything without human review.
 ```
@@ -305,11 +277,7 @@ Start a new Work task with the Project context available, invoke  `@Product Des
 ```
 @Product Design Use the supplied Auralis Beam launch brief, approved campaign recommendation, brand and claims guide, channel requirements, concept-board template, review rubric, and product assets.
 
-﻿
-
 Create three genuinely distinct campaign directions in a new editable copy of the concept-board template.
-
-﻿
 
 1. Anchor each direction in an audience truth and cite its source.
 
@@ -320,8 +288,6 @@ Create three genuinely distinct campaign directions in a new editable copy of th
 4. Add sample copy and adaptations for paid social, paid search, creator partnerships, lifecycle email, and the launch landing page.
 
 5. State the strongest tradeoff, risk, and open question for each direction.
-
-﻿
 
 Use only approved product claims. Score each direction with the supplied rubric, treating product accuracy and claims safety as pass-or-fail gates. Recommend one direction for the next round, explain the evidence and uncertainty behind it, and identify what a human reviewer must approve before production.
 ```
@@ -385,11 +351,7 @@ For a skill that clearly separates the reusable method from the current campaign
 ```
 Turn the campaign concept workflow we just used into a reusable skill called campaign-concept-development.
 
-﻿
-
 The skill should retain:
-
-﻿
 
 - The required-input checklist
 
@@ -403,11 +365,7 @@ The skill should retain:
 
 - Source-citation, uncertainty, and human-approval rules
 
-﻿
-
 The skill should not retain:
-
-﻿
 
 - Auralis Beam customer insights or campaign results
 
@@ -418,8 +376,6 @@ The skill should not retain:
 - Auralis Beam product imagery or brand-specific claims
 
 - Any Auralis Beam-specific rubric wording, weights, scores, or campaign criteria
-
-﻿
 
 Each run must ask for a current product and launch brief, an approved customer or campaign insight, current brand and claims guidance, channel requirements, a current approved review rubric, assets, an editable output template, and the intended reviewers. If any required source is missing or contradictory, the skill should stop and request clarification rather than inventing content.
 ```
@@ -510,64 +466,42 @@ Choose one Marketing task already on your plate. Give Work the approved sources,
 
 Thanks for joining!
 
-Resource
-
 [ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-Resource
-
 [ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
-
-Resource
 
 [ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
 By Juliann Igo
 
-Resource
-
 [ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 20th, 2026 • Views 465
-
-Resource
+Aug 20th, 2026 • Views 1K
 
 [ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-By Diana Stegall • Aug 26th, 2026 • Views 193
-
-Resource
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
 [ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-Aug 13th, 2026 • Views 391
-
-Resource
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 416
-
-Resource
+Aug 6th, 2026 • Views 824
 
 [ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 20th, 2026 • Views 465
-
-Resource
+Aug 20th, 2026 • Views 1K
 
 [ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-Aug 13th, 2026 • Views 391
-
-Resource
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 416
-
-Resource
+Aug 6th, 2026 • Views 824
 
 [ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-By Diana Stegall • Aug 26th, 2026 • Views 193
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K

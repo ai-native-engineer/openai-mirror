@@ -24,7 +24,7 @@ Technical Success @ OpenAI
 
 View Profile
 
-Live in 30 days 14 hours
+Live in 28 days 7 hours
 
 6:00 PM - 7:00 PM GMT
 
@@ -36,7 +36,7 @@ Register
 
 Add to calendar
 
-Live in 30 days 14 hours
+Live in 28 days 7 hours
 
 6:00 PM - 7:00 PM GMT
 

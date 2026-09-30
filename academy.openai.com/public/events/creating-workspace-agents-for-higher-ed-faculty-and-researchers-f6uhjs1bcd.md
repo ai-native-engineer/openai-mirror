@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/creating-workspace-agents-for-higher-ed-faculty-and-researchers-f6uhjs1bcd -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.events](/en/public/clubs/higher-education-05x4z/events)
+[navigation.events](/public/clubs/higher-education-05x4z/events)
 
 ![Creating Workspace Agents for Higher Ed Faculty and Researchers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Copy-of-OpenAI-Academy-Event-Card-Templates-4--c9320e30-1070-42b9-884c-829ca37c7f95-1781277141706.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+3:00 PM - 4:00 PM GMT
+
+June 17, 2026
 
 # Creating Workspace Agents for Higher Ed Faculty and Researchers
 
@@ -44,7 +48,9 @@ View Profile
 
 Event has finished
 
-June 17, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+June 17, 2026
 
 Online
 
@@ -56,7 +62,9 @@ Higher Education
 
 Event has finished
 
-June 17, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+June 17, 2026
 
 Online
 

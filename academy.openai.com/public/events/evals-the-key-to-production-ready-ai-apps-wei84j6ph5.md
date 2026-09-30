@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+7:00 PM - 8:00 PM GMT
+
+June 18, 2025
+
 # Evals: The Key to Production-Ready AI Apps
 
 [Replay](https://academy.openai.com/home/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
@@ -13,6 +17,8 @@ LIVESTREAM
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 ### This session is presented by our community partner, Autoblocks.
 
@@ -44,7 +50,9 @@ View Profile
 
 Event has finished
 
-June 18, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+June 18, 2025
 
 Online
 
@@ -62,7 +70,9 @@ Autoblocks](https://www.autoblocks.ai/)
 
 Event has finished
 
-June 18, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+June 18, 2025
 
 Online
 

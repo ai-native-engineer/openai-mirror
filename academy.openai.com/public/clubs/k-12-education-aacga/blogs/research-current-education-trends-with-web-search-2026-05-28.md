@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -41,7 +41,7 @@ You can invoke web search by typing “/search” or clicking the “+” in the
 
 ## Try It
 
-﻿[Open in ChatGPT](https://chatgpt.com/?q=Search%20the%20web%20for%20recent%20articles%20from%20the%20last%2012%20months%20about%20social-emotional%20learning%20implementation%20in%20K-12%20schools.%20Summarize%20the%20top%20themes%2C%20include%20links%20to%20the%20sources%2C%20and%20end%20with%203%20questions%20a%20school%20leadership%20team%20could%20discuss.)﻿
+﻿ [Open in ChatGPT](https://chatgpt.com/?q=Search%20the%20web%20for%20recent%20articles%20from%20the%20last%2012%20months%20about%20social-emotional%20learning%20implementation%20in%20K-12%20schools.%20Summarize%20the%20top%20themes%2C%20include%20links%20to%20the%20sources%2C%20and%20end%20with%203%20questions%20a%20school%20leadership%20team%20could%20discuss.)﻿
 
 |  |
 | --- |
@@ -63,80 +63,82 @@ You can invoke web search by typing “/search” or clicking the “+” in the
 
 Search can save time, but you should still open and review important sources. Check publication dates, publisher credibility, and whether the article is describing research, opinion, policy, or a single example.
 
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
-
 Blog
 
-[Write Better Prompts - Teachers](/en/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
+[Write Better Prompts - Teachers](/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
 
-Blog
-
-[Understanding Workspace Agents in K-12 education](/en/public/clubs/k-12-education-aacga/blogs/understanding-workspace-agents-k-12-education)
-
-By Kirk Gulezian
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 376
-
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[1:00:04](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[ChatGPT Edu 102 for K-12 (Webinar Replay)](/public/clubs/k-12-education-aacga/videos/chatgpt-edu-102-for-k-12-webinar-replay)
 
-Jun 3rd, 2026 • Views 139
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[4:26](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Use Deep Research with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 262
+Sep 11th, 2026 • Views 171
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 252
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 376
+Sep 11th, 2026 • Views 187
 
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Video
-
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 262
-
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 3rd, 2026 • Views 252
+Sep 14th, 2026 • Views 1.5K
 
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 139
+Sep 11th, 2026 • Views 540
+
+[4:26](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
+
+Video
+
+[Use Deep Research with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/use-deep-research-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 171
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540
+
+[2:00](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Video
+
+[Schedule Tasks with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/schedule-tasks-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 187

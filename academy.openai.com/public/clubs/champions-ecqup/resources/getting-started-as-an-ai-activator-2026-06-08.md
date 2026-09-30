@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
-# Getting Started as a Team Activator
+# Getting Started as an Agent Activator
 
-![Getting Started as a Team Activator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Getting-started-as-an-AI-Activator-style-thumb--57038f1d-dc7b-4864-856a-1c2ac6b23ad8-1781279788586.jpeg?fit=scale-down&width=1200)
+![Getting Started as an Agent Activator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Getting-started-as-an-AI-Activator-style-thumb--57038f1d-dc7b-4864-856a-1c2ac6b23ad8-1781279788586.jpeg?fit=scale-down&width=1200)
 
 # Activators
 
@@ -14,269 +14,137 @@
 
 # Deployment & Adoption
 
-## Design workflows, develop solutions, and scale impact to help teams adopt new ways of working.
+## Turn recurring team or functional work into safe, reliable AI workflows people can use and sustain.
 
-June 9, 2026 · Last updated on June 25, 2026
+June 9, 2026 · Last updated on August 10, 2026
 
-![Getting Started as a Team Activator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Getting-started-as-an-AI-Activator-style-thumb--57038f1d-dc7b-4864-856a-1c2ac6b23ad8-1781279788586.jpeg?fit=scale-down&width=1200)
+![Getting Started as an Agent Activator](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Getting-started-as-an-AI-Activator-style-thumb--57038f1d-dc7b-4864-856a-1c2ac6b23ad8-1781279788586.jpeg?fit=scale-down&width=1200)
 
-# Who Team Activators are
+# What it takes to make an AI workflow work for a team
 
-AI adoption does not happen simply because people gain access to new capabilities. It happens when people can translate AI into real work, try useful workflows safely, and build the confidence to use them again and again.
+AI adoption does not happen simply because people gain access to new capabilities. It becomes durable when someone can translate those capabilities into recurring work, coordinate the people and systems involved, and help a team use the resulting workflow safely and reliably.
 
-That is what Activators help organizations do.
+We call the people who take on this responsibility Agent Activators. An Agent Activator owns or materially shapes a recurring workflow for a team or function and helps carry it from a useful idea into responsible operation. They coordinate the people, systems, requirements, and controls needed to design, develop, and operationalize the workflow.
 
-Activators are the Champions embedded in teams. They are close enough to the work to understand how it gets done, where people experience friction, and which AI workflow opportunities are worth exploring.
+Workflow ownership—not title or coding ability—is the defining characteristic of an Activator. A power user may use AI deeply to improve their own work and share what they create. An Agent Activator is accountable for how an AI-enabled workflow works for other people: its requirements, human decisions, access, reliability, rollout, support, measurement, maintenance, and ongoing outcome.
 
-Activators do not need to be the most technical person in the room, and they are not expected to own their organization’s entire AI strategy. Their impact comes from helping people turn promising ideas into practical workflows, involving the people and tools required to develop them safely, and helping teams adopt what works.
+Agent Activators do not personally make every technical, policy, security, or business decision. They make the workflow and its dependencies clear, involve the people who understand and approve the work, and operate within defined authority. Organizations formally authorize and resource Agent Activators with the time, access, decision rights, and backing required to sustain the workflow over time.
 
-# The Activator’s role in the Champion model
+# How Agent Activators fit into a broader AI transformation effort
 
-Champion roles work together to move an organization from AI direction to durable changes in how teams work.
+Making AI useful across an organization depends on four connected contributions. These roles describe responsibilities, not fixed job titles. One person may contribute through more than one role.
 
-| Champion role | How they contribute |
-| --- | --- |
-| **Exec Sponsors** | **Lead:** Set AI direction, priorities, sponsorship, and value goals. Create permission for teams to learn and make changes. |
-| **Transformation Leaders** | **Deploy:** Coordinate governance, access, communications, enablement, measurement, and the conditions required for responsible adoption. |
-| **Activators** | **Reimagine:** Design workflows, develop solutions, and help teams adopt and improve new ways of working. |
+|  |  |  |
+| --- | --- | --- |
+| **Contribution** | **Who contributes** | What they lead |
+| **Sponsor** | Executive Sponsors | Set direction. |
+| **Deploy** | Transformation Leaders | Lead the deployment and adoption of AI across their organization. |
+| **Reimagine** | Agent Activators | Use AI to improve workflows and how teams work. |
+| Optimize | Admins | Create and continually improve the trusted enterprise environment AI requires. |
 
-Activators translate organizational priorities into workflows that teams can use and rely on.
+Agent Activators work closest to the workflow. They define the process, boundaries, outcomes, requirements, and evidence needed to move recurring work from an opportunity into responsible operation.
 
-These roles reinforce one another. Exec Sponsors create direction and support. Transformation Leaders create the pathways and programs that make responsible adoption possible. Activators make those priorities real in people’s day-to-day work.
+The roles work as a feedback loop. Executive Sponsors establish direction, approve priorities, and remove material barriers. Transformation Leaders sequence the opportunity, coordinate adoption, clarify accountable ownership, and connect the work to measurable value. Admins translate workflow requirements into secure access, practical controls, reliable operations, and a usable environment. Agent Activators bring back evidence, blockers, and lessons from real use so the other roles can adjust priorities, governance, support, and rollout.
 
-Activators also surface evidence, blockers, and lessons that help Exec Sponsors and Transformation Leaders improve the broader adoption approach.
+# What Agent Activators do
 
-# Why Activators matter
+Agent Activators apply three connected capabilities. These are not separate jobs. They are a repeatable method for moving one workflow from a useful problem toward responsible operation.
 
-Most organizations do not struggle because they lack ideas. They struggle to turn those ideas into workflows people understand, trust, and use repeatedly.
+Design AI workflows with defined processes, boundaries, and outcomes.
 
-Activators help close that gap. By testing AI against real work, helping peers learn, and sharing evidence from the field, they make new ways of working more practical and less abstract.
+Start with the work, not the tool. Map how the workflow happens today, define the better outcome and a manageable first scope, identify the people and handoffs involved, surface common exceptions, and decide which tasks or recommendations AI may support versus which decisions people must retain.
 
-A single useful workflow can become an example for a team. A well-documented example can become a reusable asset. A reusable asset can eventually influence adoption across an entire organization.
+The result is an agreed workflow design that defines what the workflow must accomplish and the boundaries within which a solution can be developed, not an early tool choice or technical design.
 
-# What Activators do in practice
+Develop safe, reliable, connected AI workflows.
 
-![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-ddafb652-97d2-4ce7-a049-f481740568b9-1782165274831.jpeg)
+Translate the agreed design into concrete requirements for approved tools, data, connections, permissions, sources of truth, required and prohibited AI behavior, and human review or escalation. Build, configure, or coordinate the solution, then test it against representative real-work cases—including routine work, meaningful variation, missing or ambiguous information, and high-consequence or out-of-scope conditions.
 
-## 101: Design Workflows
+The result is a working, tested AI workflow that meets the agreed requirements, performs safely and reliably across representative cases, and is ready to be used in real work.
 
-Strong AI workflows begin with a clear understanding of the work, not with a product feature or a general desire to “use AI.” Activators begin by defining:
+Operationalize AI workflows responsibly across teams and functions.
 
-* The current process and sources of friction
+Package the tested workflow so people other than its creator can use it. Place it where the work already happens, support intended users through first use, define access and ongoing ownership, create feedback and escalation routes, measure value and safe operation, and establish how changes will be reviewed and maintained.
 
-* The people who perform or depend on the work
+The result is a workflow that its intended team can use and sustain, with clear ownership and credible evidence of value. Agent Activators recommend whether to stop, revise, or expand a workflow; accountable stakeholders approve material changes.
 
-* The tasks AI should perform
+# The Agent Activator learning track
 
-* The responsibilities that remain with people
+The current learning track combines a shared foundation, applied examples, reusable assets, and a challenge that recognizes demonstrated application.
 
-* The context and knowledge the workflow requires
+## Activator Labs 101: Foundations
 
-* The points where human review or approval are needed
+Learn the repeatable Design, Develop, and Operationalize method. Bring one real, recurring, multi-step workflow from your team or function, choose a valuable and manageable starting point, and leave with one next decision, what it requires, and who should be involved.
 
-* The escalation pathways
+Active participation in the live session earns the Activator Labs Foundations badge. The badge recognizes participation in the shared foundation; it does not by itself demonstrate applied workflow ownership.
 
-* Known exceptions or conditions the workflow should not handle
+﻿ [Sign up for an upcoming event.](https://academy.openai.com/home/clubs/champions-ecqup/events)﻿
 
-* The owner of the workflow
+## Make Work Flow
 
-* The evidence that would indicate the workflow is useful
+See how another Activator moved from a real team problem to a designed, developed, and operationalized workflow. Make Work Flow sessions make the method concrete and surface practical adaptation questions such as permissions, integrations, human review, deployment, support, and maintenance.
 
-Start with the smallest useful version. The goal is not to design the final solution in one attempt. It is to create something focused enough to test with real users and learn from.
+Use these sessions when a use case seems relevant or adaptable to your team, or a real example will help you make your next decision. Participation is optional and is not required before applying the method to your own workflow.
 
-#### How the OpenAI Champion Community helps
+﻿ [Sign up for an upcoming event.](https://academy.openai.com/home/clubs/champions-ecqup/events)﻿
 
-#### Make Work Flow
+## Monthly Activation Challenge
 
-Join a Make Work Flow session to see how a featured Activator moves from a real team problem to a designed, built, tested, and adopted workflow. The demonstration shows the full workflow journey, with particular attention to how real Activators choose a problem, design a workflow, and build a solution.
+Apply the repeatable method to your real team or functional workflow and share what you designed, built, and operationalized; the responsible AI and human boundaries; and credible evidence of value or improvement. The workflow does not need to match the function featured in Make Work Flow.
 
-﻿[Register for an upcoming Make Work Flow event here.](https://academy.openai.com/home/clubs/champions-ecqup/events)﻿
+Qualifying submissions earn the Agent Activator badge after review. Activator Labs Foundations is not a prerequisite: the Foundations badge recognizes learning participation, while the Agent Activator badge recognizes demonstrated application in practice.
 
-#### Reusable assets
+*Always follow your organization’s information privacy, security, and sharing policies when describing a workflow in the Champion Community on OpenAI Academy.*
 
-Each Make Work Flow session is followed up by resources to help you adapt featured examples to your own team. These may include workflow specifications, requirements, instructions, safeguards, testing plans, checklists, and adoption guidance.
+﻿ [Share a workflow.](https://academy.openai.com/home/clubs/champions-ecqup/forum?topicId=68918af30de9fc0b3248ea97&topicName=Use%20Cases)﻿
 
-﻿[Browse real workflow examples in Content.](https://academy.openai.com/home/clubs/champions-ecqup/tags/use-cases-68918af30de9fc0b3248ea97)﻿
+## Use Champion Community resources to help make the next decision
 
-### Additional resources
+The resources in the Champion Community are optional, adaptable tools. Use your organization’s approved brief, ticket, checklist, or standard process when it serves the same purpose. Start with the first unfinished decision in your workflow and use the resource that helps you move it forward.
 
-* ﻿[**Run a Use Case Discovery Workshop:**](https://academy.openai.com/home/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15) Facilitate a team workshop that identifies and prioritizes AI use cases.
+1. **Choose the workflow —**  [**Workflow Starter Worksheet**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)**.** Identify a recurring, multi-step workflow with meaningful team value and a manageable first scope. Capture what happens today, what should improve, and who understands or depends on the work.
 
-* ﻿[Prioritize Potential AI Workflows:](https://academy.openai.com/home/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05) Decide which workflows to start now, validate further, sequence later, or deprioritize.
+2. **Design it —**  [**AI Workflow Design Coach**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)**.** Map the current process, define the intended outcome and boundaries, clarify what AI may support versus what people must retain, and identify the users, owners, approvers, and partners involved.
 
-* ﻿[**Evaluate AI Workflow Readiness:**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07) Turn a workflow problem into a clear recommendation to test, investigate, delay, or avoid.
+3. **Build and test it —**  [**PRD + Test Case Generator**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)**.** Turn the design into concrete requirements and a first useful solution. Define approved tools, information, access, required and prohibited behavior, review and escalation, then test routine, variable, ambiguous, and high-risk cases.
 
-## 201: Develop Solutions
+4. **Prepare it for reuse —**  [**Workflow Packager**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)**.** Package the intended users, approved scope and limits, sources, repeatable steps, human-review gates, owner, access, supporting assets, help route, and change process so someone other than the creator can use it.
 
-A workflow design becomes useful when it can operate reliably in the real environment where the work happens. Activators help clarify and test what the solution requires, including:
+5. **Operationalize it —**  [**Workflow Adoption Plan**](https://academy.openai.com/home/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)**.** Place the workflow where the work already happens, support intended users through first use, define ownership and maintenance, establish feedback and escalation routes, and set the measures and review point that will guide what happens next.
 
-* The instructions and boundaries AI must follow
+6. **Capture what happens —**  [**Gather appropriate evidence of value**](https://academy.openai.com/home/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17)**.** Use the Evidence Menu to identify useful signals across adoption, efficiency, quality, safe operation, and team outcome. Use the Evidence Log to record actual observations, measures, sources, exceptions, and lessons over time.
 
-* The knowledge and context AI needs
+7. **Share and justify the next step —**  [**Activation Challenge template**](https://academy.openai.com/home/clubs/champions-ecqup/forum/boards/champions-b3s/posts/activator-challenge-what-to-capture-as-you-put-your-workflow-into-practice-g3vnaz7veu) **+**  [**Workflow Evidence Coach**](https://academy.openai.com/home/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)**.** Turn the available evidence into a clear story, distinguish supported claims from estimates or hypotheses, identify what to capture next, or prepare an internal case to continue learning, run a pilot, expand to a defined group, or consider broader scale.
 
-* The tools and systems required to complete the work
+You do not need to complete every asset before taking action. The path helps you choose the right support for the decision in front of you while keeping the Design, Develop, and Operationalize method consistent.
 
-* The data, files, or applications the workflow must access
+# What strong Agent Activators do differently
 
-* The actions AI is permitted to take
+**They begin with the work, not the technology.** They start with the intended result, current process, people, and friction before choosing a tool or feature.
 
-* The permissions and controls required
+**They make AI and human boundaries visible.** They define what AI may complete or prepare, what people must decide, and when the workflow should stop, ask, or escalate.
 
-* The responsibilities that remain with people
+**They build for real operating conditions.** They make tools, data, access, sources, permissions, controls, exceptions, and support requirements explicit, then test representative cases rather than relying on one successful demo.
 
-* The points where human review, approval, or intervention are needed
+**They optimize for repeat use, not dependence on the creator.** They package what others need, embed the workflow in existing work, support first use, and assign ongoing ownership.
 
-* Security, privacy, legal, and governance considerations
+**They use evidence to guide decisions.** They look beyond activity to value, reliability, control, and readiness, then recommend whether to continue learning, revise, expand, pause, or retire the workflow.
 
-* Technical requirements to discuss with IT or workspace administrators
+**They surface friction as well as success.** They share where the workflow was confusing, unreliable, difficult to access, or poorly matched to the task so others can improve the surrounding adoption system.
 
-* Important cases, exceptions, and failure conditions
+# Start with one workflow
 
-* Monitoring and maintenance requirements
+Choose one recurring workflow with visible team value and a manageable first scope, and start with the next decision needed. Use Activator Labs 101 to learn the method, Make Work Flow when an applied example would help or provide inspiration, and the community resources to keep building.
 
-* What the team needs to test before broader use
+As the workflow enters real use, capture what happens. Share a credible workflow story through the Monthly Activation Challenge when you can show the solution, the responsible boundaries, and evidence of value or improvement. Use the same evidence internally when it is time to justify the next responsible step.
 
-An Activator does not need to personally approve access, determine policy, or make governance decisions.
+# Final thoughts
 
-The Activator is responsible for making the workflow’s requirements clear, surfacing dependencies and risks, involving the appropriate partners, and helping the team test whether the solution works as intended.
+You do not need every answer before you begin. Start with the work. Involve the people closest to it. Make the boundaries and dependencies visible. Build and test the smallest useful version. Help others use it. Capture what changes and what you learn.
 
-### How the OpenAI Champion Community helps
+That is how Agent Activators turn AI capabilities into safe, reliable, and sustainable ways of working.
 
-### Resources
-
-* ﻿[**Scope, Test, and Roll Out AI Workflows:**](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05) Turn a validated workflow opportunity into a clear testing and deployment plan.
-
-## 301: Scale Impact
-
-Scaling impact means helping people understand the workflow, use it confidently, and repeat it regularly. It also means maintaining the workflow, learning from usage, and making the workflow’s impact visible. Activators may:
-
-* Test the workflow with its intended users
-
-* Collect feedback and improve the workflow
-
-* Clarify when and how it should be used
-
-* Help users practice the new workflow
-
-* Package the workflow with instructions, templates, examples, or checklists
-
-* Make the workflow easy for another person to understand and repeat
-
-* Measure usage and practical results
-
-* Define ongoing ownership
-
-* Decide how updates will be tested and communicated
-
-* Capture recurring issues, blockers, lessons, and unexpected outcomes
-
-* Surface evidence and lessons to Transformation Leaders and Exec Sponsors
-
-* Recommend whether the workflow should be expanded, revised, paused, or retired
-
-The goal is not simply to launch something once. It is to help the team build a reliable new way of working.
-
-### How the OpenAI Champion Community helps
-
-#### Monthly Activation Challenge
-
-Participate in our monthly [Activation Challenge](https://academy.openai.com/home/clubs/champions-ecqup/forum?topicId=68918af30de9fc0b3248ea97&topicName=Use%20Cases) to put the three core Activator capabilities into practice with a real team workflow you built. This is your opportunity to share your wins with the rest of the OpenAI Champion Community
-
-* The workflow you designed
-
-* Key points about how you built the workflow
-
-* How you packaged the workflow to scale
-
-* Evidence of adoption, results, ownership, maintenance, or reuse
-
-The challenge is not limited to the function featured in that month’s Make Work Flow session. Activators from other functions are encouraged to adapt the capability to their own work.
-
-Please always follow your organization's information privacy and security policies when sharing in the OpenAI Champion Community.
-
-## Additional resources
-
-* ﻿[**Segment Users and Drive Habit Formation:**](https://academy.openai.com/home/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07) Enable repeatable AI usage in real work across different stages of adoption.
-
-* ﻿[**Capture and Share AI Use Cases and Impact:**](https://academy.openai.com/home/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact) Identify what is working, capture the proof, and make successful workflows easy to repeat.
-
-* ﻿[**Debug AI Adoption Blockers:**](https://academy.openai.com/home/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24) Diagnose what is blocking adoption and choose the next practical action to help a team move forward.
-
-# What Strong Activators Do Differently
-
-## They begin with the work, not the technology
-
-Strong Activators do not start with, “How can we use AI?”
-
-They start with, “What are we trying to accomplish, what is making it difficult, and where could AI help?”
-
-They involve the people who perform the work. They ask users to describe the current process, test early versions, identify failure points, and help determine what a better workflow should look like.
-
-This keeps experimentation tied to genuine needs and increases the likelihood that people will use the solution.
-
-## They optimize for repeat use
-
-The goal is not for everyone to depend on the Activator.
-
-Strong Activators ask whether the workflow is clear, accessible, credible, and easy to repeat. They think about instructions, examples, reinforcement, access, and how the workflow fits into existing team habits.
-
-They leave people with the knowledge, assets, and confidence to use the workflow themselves. This helps successful workflows spread.
-
-## They surface friction and success
-
-Activators share concrete examples of the problem they were trying to solve, what they tried, what worked, what did not work, what changed, and what they learned.
-
-Strong Activators do not hide the rough edges. They surface where a workflow was confusing, unreliable, difficult to access, or poorly matched to the task.
-
-These lessons can be as valuable as the successful parts of a workflow story because they help the organization improve its support and avoid repeating the same mistakes.
-
-This helps Transformation Leaders and Exec Sponsors reinforce validated workflows that are ready to expand and makes it easier for other teams to learn from the example.
-
-## They create momentum while reinforcing safe use
-
-Activators help teams move forward while respecting their organization’s policies, approved tools, and governance requirements.
-
-When the path is unclear, they pause, ask, and involve the right partner rather than creating unnecessary risk.
-
-# Start With One Workflow
-
-Start with one real workflow.
-
-1. Identify a recurring problem or source of friction.
-
-2. Define the people, current process, and intended result.
-
-3. Design the smallest useful version of the workflow.
-
-4. Identify the context, systems, access, and partners it requires.
-
-5. Develop and test the solution with real users.
-
-6. Help users practice and improve it.
-
-7. Capture what changed and what you learned.
-
-8. Package and share the workflow or lesson when it is safe and useful to do so.
-
-You can use the monthly learning program to receive support at each step:
-
-* **Make Work Flow:** Learn from real examples.
-
-* **Reusable Workflow Assets:** Adapt the approach.
-
-* **Monthly Activation Challenge:** Apply the capability and share meaningful progress.
-
-Start with the part of the program that helps you take your next useful step.
-
-# Final Thoughts
-
-You do not need to have every answer before you begin.
-
-Start with the work. Involve the people closest to it. Bring in the right partners. Test the solution. Help the team adopt what works. Share what you learn.
-
-That is how Activators turn AI opportunities into durable new ways of working.
-
-Like
+1
 
 Sign in or Join the community
 
@@ -284,66 +152,48 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
-
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
-
-Jun 12th, 2026 • Views 88
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[54:00](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[[RECORDING] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-Jun 18th, 2026 • Views 79
+Jul 23rd, 2026 • Views 810
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-Video
+Sep 17th, 2025 • Views 11.2K
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-Jun 18th, 2026 • Views 89
+Jul 23rd, 2026 • Views 406
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-Video
+Jul 9th, 2026 • Views 1.2K
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
-
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
-
-Jun 12th, 2026 • Views 88
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[54:00](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[[RECORDING] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/videos/recording-activator-labs-101-foundations-2026-07-23)
 
-Jun 18th, 2026 • Views 89
+Jul 23rd, 2026 • Views 810
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-Video
+Jul 23rd, 2026 • Views 406
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-Jun 18th, 2026 • Views 56
+Jul 9th, 2026 • Views 1.2K
 
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-Video
-
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 79
+Sep 17th, 2025 • Views 11.2K

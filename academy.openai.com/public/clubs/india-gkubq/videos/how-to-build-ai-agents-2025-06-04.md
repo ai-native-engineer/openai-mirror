@@ -4,6 +4,10 @@
 
 [Content](/public/clubs/india-gkubq/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # How to Build AI Agents
 
 Posted Jun 05, 2025 | Views 7K
@@ -16,7 +20,13 @@ Posted Jun 05, 2025 | Views 7K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+Share
+
+## SUMMARY
 
 In this video, you'll learn how to build reliable AI agents that work in production systems, based on Siddhant's two years of real-world experience with various Agent frameworks and tools. You'll learn how to use OpenAI's new Responses API, built-in tools, and Agents SDK to build production-ready agents. Through real-world business case studies and examples from companies like Hebbia, Unify, Coinbase, and Box, you'll see how they've applied these tools to build agents to automate tasks like investment research, customer support, data analysis, and go-to-market operations. You'll also get a step-by-step roadmap for building your first production-ready agent.
 
@@ -37,6 +47,10 @@ Our flagship 6-month Applied AI program delivers one of the most advanced curric
 
 Partnered with AI leaders across the board, it’s our mission to inform, educate and engage professionals in Applied AI, as they are ushered into the era of intelligence.
 
++ Read More
+
+## Watch More
+
 [4:22](/public/videos/introduction-to-agents-2025-06-04)
 
 [Introduction to Agents](/public/videos/introduction-to-agents-2025-06-04)
@@ -51,6 +65,8 @@ Posted Jun 05, 2025 | Views 7.6K
 
 # Deployment & Adoption
 
+# Work
+
 # India
 
 [9:51](/public/videos/introduction-to-agents-hindi-2025-06-04)
@@ -63,6 +79,8 @@ Posted Jun 05, 2025 | Views 1.7K
 
 # OpenAI API
 
+# Advanced & Builder Skills
+
 # Personal
 
 # India; Hindi
@@ -73,4 +91,21 @@ Posted Jun 05, 2025 | Views 1.7K
 
 Posted Jun 05, 2025 | Views 5K
 
+# Educators & Students
+
+# Advanced & Builder Skills
+
+# Education
+
 # India
+
+<!-- youtube: 5yPGctrM0lY | track: none -->
+
+[![India](https://img.youtube.com/vi/5yPGctrM0lY/hqdefault.jpg)](https://www.youtube.com/watch?v=5yPGctrM0lY)
+
+<details>
+<summary>자막: India</summary>
+
+https://www.youtube.com/watch?v=5yPGctrM0lY
+
+</details>

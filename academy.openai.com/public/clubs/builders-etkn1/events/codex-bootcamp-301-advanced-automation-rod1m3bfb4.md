@@ -1,16 +1,22 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-301-advanced-automation-rod1m3bfb4 -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Codex bootcamp 301: Advanced automation](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-covers-2--d46be7c4-d8e9-4f24-a605-1b24e8e87a5c-1784001746244.jpeg?fit=scale-down&width=1200)
 
+LIVESTREAM
+
 5:00 PM - 6:00 PM GMT
 
-August 12, 2026
+August 13, 2026
 
 # Codex bootcamp 301: Advanced automation
+
+[Replay](https://academy.openai.com/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13)
+
+Event Slides
 
 # Developers & Builders
 
@@ -19,6 +25,8 @@ August 12, 2026
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 Learn how to scale Codex for advanced automation and production development workflows. We’ll cover permissions and sandboxing, sub-agents, plan mode, memory, writable roots and execution rules, the Codex SDK, and Codex exec.
 
@@ -42,36 +50,44 @@ Technical Success @ OpenAI
 
 View Profile
 
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/IMG-2439-Medium-03d02b92-1fff-4d26-873a-d92543bab363-1778615808918.jpeg?fit=scale-down&width=360)
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-05-12-at-1-02-00-PM-e1f6ce41-7878-480f-8afe-b8a755ed4648-1778616137698.png?fit=scale-down&width=360)
 
-Javin Pombra
+Peter Diamond
 
-AI Deployment Manager @ OpenAI
+Builder ADM @ OpenAI
 
 View Profile
 
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-06-23-at-10-24-08-AM-a40ec3f3-6307-446a-bd04-06823db9fb50-1782235458075.png?fit=scale-down&width=360)
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/1741490891610-Medium-c411ce76-6104-4cee-a70f-6efd89b957a2-1778615885737.jpeg?fit=scale-down&width=360)
 
-Alexandra Nanu
+Jeffrey Fan
 
-AI Deployment Manager @ OpenAI
+Builder ADM @ OpenAI
 
 View Profile
 
 ## Slides (1)
 
-![Thumbnail of the file [Virtual Bootcamp] Codex.pdf](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-06-24-at-5-47-01-PM-835e61bd-9715-4104-8e42-2767a74c2bd2-1782348434000.jpg?fit=scale-down&width=600)
+![Thumbnail of the file Codex 301_ Advanced Features and Workflows_08.13.pdf](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-12-at-10-12-53-AM-385a2473-224d-4981-a5b1-eba2dd58b36a-1786554788348.jpg?fit=scale-down&width=600)
 
-[Virtual Bootcamp] Codex.pdf
+Codex 301\_ Advanced Features and Workflows\_08.13.pdf
 
-Live in 21 days 13 hours
-
-5:00 PM - 6:00 PM GMT
-
-August 12, 2026
-
-Live in 21 days 13 hours
+Event has finished
 
 5:00 PM - 6:00 PM GMT
 
-August 12, 2026
+August 13, 2026
+
+Online
+
+[Replay](https://academy.openai.com/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13)
+
+Event has finished
+
+5:00 PM - 6:00 PM GMT
+
+August 13, 2026
+
+Online
+
+[Replay](https://academy.openai.com/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13)

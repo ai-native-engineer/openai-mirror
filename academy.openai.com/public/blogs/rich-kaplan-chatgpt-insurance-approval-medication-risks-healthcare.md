@@ -18,7 +18,7 @@ January 7, 2026
 
 ![Beating the paperwork that stands between patients and care](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Image-Jan-7-2026-09-55-51-AM-7869aa2a-fa8b-43ff-9630-995fef6cb427-1767808567972.jpeg?fit=scale-down&width=1200)
 
-Three years ago, [Rich Kaplan](https://www.linkedin.com/in/richardjkaplan/) ran into a kind of medical barrier that rare-disease patients know well: the treatment existed, but the paperwork demanded proof. So he turned to ChatGPT.
+Three years ago,  [Rich Kaplan](https://www.linkedin.com/in/richardjkaplan/) ran into a kind of medical barrier that rare-disease patients know well: the treatment existed, but the paperwork demanded proof. So he turned to ChatGPT.
 
 Based in Seattle, Kaplan has catastrophic antiphospholipid syndrome (APS), a rare autoimmune clotting disorder that can damage organs, including the kidneys. As he puts it, “About half the people who get this don’t make it past the first month.”
 
@@ -36,60 +36,52 @@ Kaplan shares his approach with other APS patients, especially those far from ma
 
 His bigger message is about agency. “People are scared of AI,” he says. “I get it. But you have to move past the fear.” For Kaplan, ChatGPT is a way to secure better treatments, get coverage approvals, and translate medical information so that he can stay engaged with his own care.
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-Blog
-
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/blogs/legislative-planning-main-review)
-
-Jun 14th, 2026 • Views 204
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Jun 17th, 2026 • Views 545
-
-Blog
-
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
-
-Jun 14th, 2026 • Views 231
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
 Blog
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+[How Dr. Rebecca Soskin Hicks is helping patients navigate care between visits](/public/blogs/rebecca-soskin-hicks-chatgpt-health-between-visits)
 
-Jun 14th, 2026 • Views 231
+Aug 5th, 2026 • Views 330
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
 
 Blog
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/blogs/legislative-planning-main-review)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Jun 14th, 2026 • Views 204
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+Blog
+
+[How Dr. Rebecca Soskin Hicks is helping patients navigate care between visits](/public/blogs/rebecca-soskin-hicks-chatgpt-health-between-visits)
+
+Aug 5th, 2026 • Views 330
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

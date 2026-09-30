@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants -->
 
+Article
+
+August 6, 2026
+
 # How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants
 
 ![How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/IMG-8098-f67de2fd-7254-4cff-8bb4-4e4dabb63f2f-1785968840051.jpeg?fit=scale-down&width=1200)
@@ -38,6 +42,8 @@ Ted and Tami went looking for a business that would help make retirement possibl
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
+Video
+
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 [Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
@@ -46,19 +52,19 @@ Blog
 
 [How ChatGPT helps Ram Pillai improvise in the kitchen](/public/blogs/ram-pillai-chatgpt-cooking-family)
 
-Aug 5th, 2026 • Views 19
+Aug 5th, 2026 • Views 196
 
 Blog
 
 [How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack](/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care)
 
-Aug 5th, 2026 • Views 33
+Aug 5th, 2026 • Views 275
 
 Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 812
+Apr 28th, 2026 • Views 1.1K
 
 External Content
 
@@ -70,13 +76,13 @@ Blog
 
 [How ChatGPT helps Ram Pillai improvise in the kitchen](/public/blogs/ram-pillai-chatgpt-cooking-family)
 
-Aug 5th, 2026 • Views 19
+Aug 5th, 2026 • Views 196
 
 Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 812
+Apr 28th, 2026 • Views 1.1K
 
 External Content
 
@@ -88,4 +94,4 @@ Blog
 
 [How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack](/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care)
 
-Aug 5th, 2026 • Views 33
+Aug 5th, 2026 • Views 275

@@ -1,29 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[Communities](/en/home/clubs)
-
-/
-
-[Champions](/en/public/clubs/champions-ecqup/overview)
-
-/
-
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # AI opportunity sequencing worksheet
 
@@ -35,9 +14,11 @@
 
 # Deployment & Adoption
 
+# Portfolio Company Knowledge Work
+
 ## Compare AI opportunities against a business priority, recommend what should move first, and outline the first 90 days.
 
-July 29, 2026
+July 29, 2026 · Last updated on September 28, 2026
 
 ![AI opportunity sequencing worksheet](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/AI-opportunity-sequencing-worksheet-style-thumb-298ea981-d8e9-49ff-81d7-39e4aec79ae2-1785348024396.jpeg?fit=scale-down&width=1200)
 
@@ -53,8 +34,6 @@ A credible AI roadmap recommendation with sequenced AI workflow opportunities co
 | **Why now:** What changed, became urgent, or created an opening for action? | ﻿ |
 | **Leadership decision:** What priority, owner, investment, or resources must leadership approve? | ﻿ |
 | Who is the **Executive Sponsor** or leadership decision owner? | ﻿ |
-
-﻿
 
 ## 2. Define your top AI opportunities
 
@@ -83,8 +62,6 @@ Capture the current-state evidence needed to qualify and compare each AI opportu
 | **AI OPPORTUNITY 3:**  Work, first users, and main constraint | ﻿ |
 | Intended outcome and why it matters | ﻿ |
 | Workflow Owner or ownership gap | ﻿ |
-
-﻿
 
 ## 3. Compare your top AI opportunities
 
@@ -137,8 +114,6 @@ An AI opportunity does not need every signal to be Strong to qualify.
 | **Revenue** | ﻿ |
 | **Risk** | ﻿ |
 | **Scale + importance** | ﻿ |
-
-﻿
 
 ### 3b. Roadmap questions
 
@@ -215,8 +190,6 @@ Use your responses to the roadmap questions for each opportunity to recommend a 
 | Why it should wait | ﻿ |
 | What would trigger review and potential advancement | ﻿ |
 
-﻿
-
 ## 5. Prepare the recommendation and plan the next proof point
 
 For the AI opportunity you recommend advancing now, name the greatest unknown you identified and sized in the opportunity comparison.
@@ -234,8 +207,6 @@ Define the smallest credible proof point now; perform any test only after leader
 | **Intended outcome** | ﻿ |
 | **What is outside the current scope** | ﻿ |
 
-﻿
-
 **Ownership and decision**
 
 |  |  |
@@ -245,16 +216,12 @@ Define the smallest credible proof point now; perform any test only after leader
 | **Executive Sponsor or decision owner** | ﻿ |
 | **Day-90 decision the delivery evidence should inform** | ﻿ |
 
-﻿
-
 **Least-proven condition**
 
 |  |  |
 | --- | --- |
 | **Least-proven condition** | **Choose one:**  * Safeguards: security + privacy  * Controls: ownership + operating controls  * Capacity: delivery + support |
 | **How broad, consequential, and resolvable is it?** | ﻿ |
-
-﻿
 
 **Proof point for Now**
 
@@ -271,19 +238,9 @@ Check: is the proof point direct, observable, bounded, and consequential?
 ```
 Based on [current evidence], we recommend [Now AI opportunity] for the next 90 days because [priority, value, and readiness].
 
-﻿
-
-﻿
-
 We recommend [Next AI opportunity] for Next until [advance condition], and [Later AI opportunity] for Later until [review trigger].
 
-﻿
-
 Leadership must decide whether to approve [priority, owner, investment, and resources]. If approved, [Transformation Leader] will lead Design, Develop, and Operationalize with [Workflow Owner and other contributors], testing [least-proven condition] through [proof point].
-
-﻿
-
-﻿
 
 At Day 90, use [evidence] to recommend whether leadership should advance, reshape, defer, or stop the Now AI opportunity and confirm or change the roadmap.
 ```
@@ -297,23 +254,13 @@ You have already captured the inputs for the 90-Day Foundation Plan. Use **Build
 ```
 Using my completed AI Opportunity Sequencing Worksheet, generate four connected outputs: a credible AI opportunity roadmap recommendation, a stakeholder and ownership map, an AI opportunity portfolio tracker covering up to three AI opportunities, and a focused 90-Day Foundation Plan for the Now AI opportunity.
 
-﻿
-
 Reuse my business priority, up to three AI opportunities, six qualification signals, four roadmap questions, Now/Next/Later roadmap positions, intended outcome, accountable Transformation Leader, contributing Workflow Owner or workflow-specific ownership gap, least-proven condition, proof point, selected adoption and responsible-scale conditions, contributors, and blockers. Start with a leadership-ready AI opportunity roadmap recommendation explaining why the Now AI opportunity comes first, what must be true before the Next and Later AI opportunities advance, and which investment decision leadership must make. Keep the roadmap recommendation conditional until leadership confirms approval; do not invent an approved owner, investment, or resources.
-
-﻿
 
 Build the stakeholder and ownership map, AI opportunity portfolio tracker, and 90-Day Foundation Plan around four plan foundations: AI roadmap; organization-wide adoption; responsible scale; and business value. For each foundation, show what my worksheet establishes, a specific proposed action, the accountable Transformation Leader, contributing role, dependencies or safeguards, evidence or a decision checkpoint, and any missing item marked [TO CONFIRM].
 
-﻿
-
 After leadership approves the Now AI opportunity, show a phase-level 90-day plan. Design: confirm the bounded workflow, first users, baseline, accountable roles, required operating conditions, and learning goal. Develop: define the smallest useful delivery approach and the approved confirmation or bounded validation needed for the greatest unknown. Operationalize: plan first-user introduction, manager reinforcement, enablement and support, evidence tracking, and the Day-90 review. Do not invent detailed requirements, integrations, test cases, or rollout commitments unless they are present in the inputs or confirmed by the relevant owner. Phases may overlap.
 
-﻿
-
 Distinguish worksheet facts from proposed actions. Keep all three AI opportunities visible in the AI opportunity portfolio tracker; do not treat Next or Later as phases of Now or approved parallel work. Provide a concise [TO CONFIRM] list. Pre-draft the five-point opportunity summary for Now: Priority AI opportunity; Intended outcome; Accountable owner; Evidence needed; and 90-day action. Mark an unconfirmed owner [TO CONFIRM]. The accountable owner is the Transformation Leader driving the approved Now AI opportunity.
-
-﻿
 
 Review the generated outputs with the Executive Sponsor, contributing workflow owners, and relevant delivery, governance, and measurement partners. Confirm ownership, permissions, approvals, baselines, safeguards, escalation paths, and resources before treating the plan as approved.
 ```
@@ -333,8 +280,6 @@ To earn the Transformation Labs 101 **AI Roadmap Foundations** badge, post your 
 
 5. 90-day action:
 
-﻿
-
 What I’d most value the Champion Network pressure-testing: Name the assumption, readiness gap, or decision where peer input would help.
 ```
 
@@ -350,7 +295,7 @@ Aim for clarity, not polish. Make uncertainty visible, distinguish proposed work
 
 Bring your AI roadmap recommendation and remaining questions to a Transformation Labs 101 Roundtable in the  [OpenAI Enterprise Champion Network](https://champions.openai.com/home) for peer review.
 
-2
+4
 
 Sign in or Join the community
 
@@ -358,68 +303,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-Resource
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Jul 7th, 2026 • Views 1.5K
 
-Resource
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+May 7th, 2026 • Views 1.3K
 
-Dive in
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-## Related
+Jul 7th, 2026 • Views 1.2K
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
+Aug 13th, 2026 • Views 305
 
-Jul 7th, 2026 • Views 720
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-Resource
+Jul 7th, 2026 • Views 1.5K
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-May 5th, 2026 • Views 538
+Jul 7th, 2026 • Views 1.2K
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
+Aug 13th, 2026 • Views 305
 
-Jul 7th, 2026 • Views 511
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-Resource
-
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 657
-
-Resource
-
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
-
-Jul 7th, 2026 • Views 720
-
-Resource
-
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
-
-Jul 7th, 2026 • Views 511
-
-Resource
-
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 657
-
-Resource
-
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 538
+May 7th, 2026 • Views 1.3K

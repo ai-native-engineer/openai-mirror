@@ -4,6 +4,10 @@
 
 [Content](/public/clubs/champions-ecqup/content)
 
+Sign in or Join the community to continue
+
+Get Started
+
 # Workflow clip: Proactively monitor accounts with Codex
 
 Posted Jun 12, 2026 | Views 331
@@ -16,7 +20,15 @@ Posted Jun 12, 2026 | Views 331
 
 # Portfolio Company Sales
 
+Share
+
+## SUMMARY
+
 Yash Pahade (AI Success Engineer, OpenAI) demonstrates a Codex-powered account briefing workflow that brings daily account context, recent activity, next touches, approved sources, and metrics into one reviewable page for the team. The clip shows both the workflow output and the Codex automation approach behind it.
+
++ Read More
+
+## CONTENT & TRANSCRIPT
 
 00:00:00-00:00:53 | Yash Pahade: So what you're looking at right here is kind of a demo version of the pages for my customers that I have. So you can see right here, I call it a command center, where the customer name, let's just call it Acme for today. Usually I start by wanting to get a good understanding of what's changed in the last day since I last refreshed this page. So really getting a good understanding of what the state of the account is, if there are any support items, like if our customers had any feedback for us on any of our channels, or if they've written any tickets, if there's anything related to scheduling, upcoming meetings, or recent meetings. And then also metrics as well too, in terms of where they are with usage of our AI tooling like ChatGPT, how many weekly active users they have, what's changed, etc. Now you can see right here, I'm starting to kind of build up a lot of this context on our Notion page. So I have things like recent activity, kind of going deeper into the higher-level stuff.
 
@@ -74,6 +86,8 @@ So really, it'll kind of formulate what the structure is, what the workflow is. 
 
 And it's consistently evolving. It's an iterative process. So these things will continue to improve. I still think there's room for improvement with this, and I get a lot of feedback from my other team members as well, in terms of things that they would like to see in this, because it's a source of truth for the entire team that supports this account.
 
++ Read More
+
 Sign in or Join the community
 
 ![OpenAI Academy](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=100)
@@ -81,6 +95,8 @@ Sign in or Join the community
 Create an account
 
 1
+
+## Watch More
 
 [30:00](/public/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
@@ -100,7 +116,7 @@ Posted Jun 12, 2026 | Views 679
 
 [Workflow clip: Streamline team engagement with Codex](/public/videos/workflow-clip-streamline-team-engagement-with-codex-2026-07-09)
 
-Posted Jul 22, 2026 | Views 713
+Posted Jul 22, 2026 | Views 716
 
 # Activators
 
@@ -119,3 +135,7 @@ Posted Jun 18, 2026 | Views 439
 # Use Cases
 
 # Activators
+
+<!-- vimeo: 1200907539 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1200907539)

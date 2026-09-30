@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/scim -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 Article
 
-March 11, 2026 · Last updated on May 29, 2026
+March 11, 2026 · Last updated on September 4, 2026
 
 # Automate provisioning and unlock actionable analytics with SCIM
 
@@ -17,6 +17,10 @@ March 11, 2026 · Last updated on May 29, 2026
 # Deployment & Adoption
 
 # Personal
+
+# Portfolio Company Dev & IT
+
+# Portfolio Academy Cyber
 
 ## A focused guide for enabling reliable provisioning and better workspace analytics
 
@@ -42,7 +46,7 @@ For ChatGPT Enterprise, SCIM is useful for several outcomes:
 
 SCIM is **distinct from SSO**: SSO handles user authentication (sign-in), while SCIM manages user lifecycle and group synchronization for access control and governance.
 
-See the [OpenAI SCIM integration documentation for configuration details](https://help.openai.com/en/articles/10011769-scim-integration-faq).
+See the  [OpenAI SCIM integration documentation for configuration details](https://help.openai.com/en/articles/10011769-scim-integration-faq).
 
 ## **How SCIM works**
 
@@ -84,7 +88,7 @@ Choose one primary provisioning strategy:
 
 2. **Just-in-time creation:** Users are created reactively when they first sign in to ChatGPT.
 
-Many organizations prefer **SCIM-driven provisioning** because it aligns access with the IdP lifecycle. If you choose SCIM, start with a small scope and expand after validation. See the [OpenAI guidance on user management setups](https://help.openai.com/en/articles/10479654-understanding-your-ideal-user-management-setup).
+Many organizations prefer **SCIM-driven provisioning** because it aligns access with the IdP lifecycle. If you choose SCIM, start with a small scope and expand after validation. See the  [OpenAI guidance on user management setups](https://help.openai.com/en/articles/10479654-understanding-your-ideal-user-management-setup).
 
 ### **Phase 1: Pilot (1–2 groups)**
 
@@ -128,47 +132,53 @@ This would move user provisioning and deprovisioning into our existing IdP workf
 
 With group sync in place, we would also be able to segment Workspace Analytics by department or function and use IdP groups more effectively for access management and feature rollout decisions.
 
-I’m happy to walk [through the documentation](https://help.openai.com/en/articles/10011769-scim-integration-faq) with you and support validation of the configuration once it is set up.
+I’m happy to walk  [through the documentation](https://help.openai.com/en/articles/10011769-scim-integration-faq) with you and support validation of the configuration once it is set up.
 
 Thanks,
 [YOUR NAME]
 
-Table Of Contents
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+Jul 10th, 2025 • Views 9.3K
 
-Jul 10th, 2025 • Views 7.1K
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Jan 12th, 2026 • Views 12.7K
 
-Sep 23rd, 2025 • Views 5.5K
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Video
 
-Mar 10th, 2026 • Views 9.7K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+Sep 14th, 2026 • Views 1.5K
 
-Jan 12th, 2026 • Views 10.9K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+Mar 10th, 2026 • Views 13.9K
 
-Jul 10th, 2025 • Views 7.1K
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Jul 10th, 2025 • Views 9.3K
 
-Mar 10th, 2026 • Views 9.7K
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+Video
 
-Jan 12th, 2026 • Views 10.9K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Sep 14th, 2026 • Views 1.5K
 
-Sep 23rd, 2025 • Views 5.5K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+
+Mar 10th, 2026 • Views 13.9K
+
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
+
+Jan 12th, 2026 • Views 12.7K

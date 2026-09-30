@@ -2,40 +2,13 @@
 
 # Renah Wolzinger, Ed.D. (Computer Information Management)
 
-Posted Aug 02, 2025 | Views 933
+<!-- vimeo: 1109867139 | track: English (auto-generated) -->
 
-I am a faculty at Saddleback College teaching courses in Emeritus Computer Information Management. I also teach workshops and write courses with my partners at Eduvators.net, as well as teach K-12, high school and college students who are in internships and apprenticeships. My passion is to empower creative students through the use of AI and technology.
+[▶ Watch on Vimeo](https://vimeo.com/1109867139)
 
-1
+<details>
+<summary>자막: Renah Wolzinger, Ed.D. (Computer Information Management)</summary>
 
-Comments (0)
+Hello everyone. My name is Dr. Rena Wallinger. I teach life and technology integration at Saddleback College in Southern California and write short courses and conduct workshops in AI apps including chat, GPT for higher education professionals with my partners@educators.net. I also teach many interns and apprentices from the high school and college levels. For Saddleback College, I built four courses integrating chat, GBT, with technology for the Emeritus CIM program. This has been life-changing for my students who mostly use this technology For the very first time, we have done financial analysis, medical reminders, a lot of images, including making ourselves into Muppets and Legos, travel itineraries, interior decorating research, and a lot more. We all especially enjoy chat, GBT voice to get fast information using only our voice. The high school and college students I have seem to be quite natural. With chat. GBTI started first with creating gpt, for example, I made some that have a lot of great reviews, including the heroine comic page creator, and the microphone master for audio engineers. GPT were a natural extension from the way I was using GPT assistance while working in industry as a Chief Academic Officer in a large AI XR company. As a faculty, I'm able to work much faster, creating 18 week courses with exciting content and updates, rich discussions, reflections and dynamic content vibe. Coding has also been exciting as we create small games, learning challenges and web apps together. My high school and college students especially love creating apps and adding them to their home screen and sharing them with their friends. I created one just for shopping and share it with my friends. It's pretty easy and it looks great. Now I'm a, I am already learning chat, GPT, agent Mode and Study and Learn. These are real game changers and I love the way they work. I will be using both of these as well as Canvas deep research, imaging, and chat prompts in every class that I teach and develop. I really think these tools empower us to develop, teach, inspire, and create with freedom of expression, and that is why this has been a great time of inspiration for me and our students.
 
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[10:00](/public/videos/david-j-malan-computer-science-2025-08-21)
-
-[David J. Malan (Computer Science)](/public/videos/david-j-malan-computer-science-2025-08-21)
-
-Posted Aug 01, 2025 | Views 5.7K
-
-[10:00](/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
-
-[Jalal Sarabadani (Information Systems & Technology)](/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
-
-Posted Aug 02, 2025 | Views 1.4K
-
-# North America
-
-[10:00](/public/videos/michael-atkinson-management-communication-2025-08-19)
-
-[Michael Atkinson (Management Communication)](/public/videos/michael-atkinson-management-communication-2025-08-19)
-
-Posted Aug 02, 2025 | Views 859
+</details>

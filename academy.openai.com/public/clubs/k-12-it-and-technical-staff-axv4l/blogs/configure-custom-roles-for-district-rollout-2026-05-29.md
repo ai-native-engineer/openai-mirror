@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29 -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.content](/en/public/clubs/k-12-it-and-technical-staff-axv4l/content)
+[Content](/public/clubs/k-12-it-and-technical-staff-axv4l/content)
 
 Article
 
@@ -121,48 +121,56 @@ If a user belongs to multiple custom roles, the permissions can combine. For cre
 
 Blog
 
-[K-12 District Workspace Launch Checklist](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
-
-May 29th, 2026 • Views 101
+[Manage Connected Applications in ChatGPT](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
 
 Blog
 
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+[K-12 District Workspace Launch Checklist](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
 
-May 29th, 2026 • Views 173
+May 29th, 2026 • Views 1.6K
 
-Blog
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
+Video
 
-May 29th, 2026 • Views 101
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Blog
-
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
-
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[K-12 District Workspace Launch Checklist](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
+[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
 
-May 29th, 2026 • Views 101
-
-Blog
-
-[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
-
-May 29th, 2026 • Views 101
+May 29th, 2026 • Views 2.6K
 
 Blog
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
 
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+By Juliann Igo • May 12th, 2025 • Views 9.8K
 
 Blog
 
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+[K-12 District Workspace Launch Checklist](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
 
-May 29th, 2026 • Views 173
+May 29th, 2026 • Views 1.6K
+
+Blog
+
+[Set Up SSO, SCIM, and Groups for ChatGPT EDU](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29)
+
+May 29th, 2026 • Views 2.6K
+
+Blog
+
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+
+By Juliann Igo • May 12th, 2025 • Views 9.8K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K

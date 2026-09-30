@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/learn-difficult-concepts-2026-05-18 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -50,7 +50,7 @@ Start simple so you can build a foundation. Then ask for a more technical explan
 | --- |
 | I’m a university student learning about regenerative agriculture.  Explain it in simple terms first, then in more technical terms.  After that, give me 2 real-world examples and 3 short questions to check my understanding.  Provide the answers separately at the end. |
 
-﻿[Try Now](https://chatgpt.com/?q=I%E2%80%99m%20a%20university%20student%20learning%20about%20regenerative%20agriculture.%0A%0APlease%20explain%20regenerative%20agriculture%20in%20two%20stages%3A%0A1.%20Simple%20terms%20first%2C%20using%20clear%20everyday%20language.%0A2.%20More%20technical%20terms%20afterward%2C%20including%20key%20concepts%20and%20mechanisms.%0A%0AThen%20provide%3A%0A-%202%20real-world%20examples%20of%20regenerative%20agriculture%20in%20practice%0A-%203%20short%20questions%20to%20check%20my%20understanding%0A%0APut%20the%20answers%20to%20the%20questions%20separately%20at%20the%20end.)﻿
+﻿ [Try Now](https://chatgpt.com/?q=I%E2%80%99m%20a%20university%20student%20learning%20about%20regenerative%20agriculture.%0A%0APlease%20explain%20regenerative%20agriculture%20in%20two%20stages%3A%0A1.%20Simple%20terms%20first%2C%20using%20clear%20everyday%20language.%0A2.%20More%20technical%20terms%20afterward%2C%20including%20key%20concepts%20and%20mechanisms.%0A%0AThen%20provide%3A%0A-%202%20real-world%20examples%20of%20regenerative%20agriculture%20in%20practice%0A-%203%20short%20questions%20to%20check%20my%20understanding%0A%0APut%20the%20answers%20to%20the%20questions%20separately%20at%20the%20end.)﻿
 
 ## What Good Looks Like
 
@@ -100,58 +100,66 @@ For assessed work, follow your instructor's policy. Use ChatGPT to learn, practi
 
 After you understand a concept, the next useful step is usually to connect it to your actual course materials. That is where uploading a reading, slide deck, or notes can help.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Juliann Igo
+Video
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 9th, 2026 • Views 400
-
-Blog
-
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
-
-May 20th, 2026 • Views 201
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Aug 4th, 2026 • Views 529
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.6K
 
 Blog
 
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
-May 20th, 2026 • Views 201
+Aug 4th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+Aug 4th, 2026 • Views 1.2K
+
+Blog
+
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
+
+Aug 4th, 2026 • Views 529

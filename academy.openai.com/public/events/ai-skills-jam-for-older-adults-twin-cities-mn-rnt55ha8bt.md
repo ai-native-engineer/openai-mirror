@@ -1,6 +1,6 @@
 <!-- source: https://academy.openai.com/public/events/ai-skills-jam-for-older-adults-twin-cities-mn-rnt55ha8bt -->
 
-![AI Skills Jam for Older Adults: Twin Cities, MN](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Older-Adults-Jam-images-1--e348c46e-06f2-46e6-9bd3-61fdbfb0d70a-1786048050295.jpeg?fit=scale-down&width=1200)
+![AI Skills Jam for Older Adults: Twin Cities, MN](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/academy-event-cover-older-adults-jam-twin-cities-mn-green-1200x628-a712d035-f78b-41cb-b331-eed6c97eefb0-1787354352048.jpeg?fit=scale-down&width=1200)
 
 IN-PERSON
 
@@ -12,11 +12,13 @@ September 16, 2026
 
 # AI Skills Jam for Older Adults: Twin Cities, MN
 
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
-
 Please join us on September 16th for a free, in-person learning experience designed to help older adults use ChatGPT confidently, safely, and practically. This workshop is hosted by OpenAI Academy in collaboration with Senior Planet from AARP and Senior Community Services.
 
-Registration takes ~5 minutes: Please click the blue "Register" button on the right to complete the form. Need help? Please call the Senior Planet from AARP hotline at 888-713-3495 (MON-FRI 9am-8pm / SAT 9am-2pm ET) to register by phone.
+* **Date:** September 16
+
+* **Time:** 9:00am – 12:00pm CT (optional Q&A and practice time until 1:00pm)
+
+* **Location:** The Heritage Center of Brooklyn Center
 
 **What is the AI Skills Jam for Older Adults?**
 
@@ -25,13 +27,16 @@ The AI Skills Jam for Older Adults is a nationwide, hands-on workshop that helps
 **Why attend?**
 
 1. **Free stuff!** Attendance to the Jam is free. We’ll provide breakfast, OpenAI swag, 12 months free of ChatGPT Plus, and we’ll send you home with a tasty sweet treat.
-2. **Hands-on practice:** Curious to learn how to use ChatGPT but not sure where to start? Join us to get hands-on practice in a safe learning environment.
+
+2. **Hands-on practice:** Join usto learn how to use ChatGPT and get hands-on practice in a safe learning environment.
+
 3. **Beginners welcome:** No coding or technical background required. Participants will get a guided introduction to ChatGPT.
+
 4. **Learn from mentors and peers:** Get support from trained OpenAI facilitators and mentors, and learn alongside peers in your community.
 
-This event will be on September 16th at The Heritage Center of Brooklyn Center from 9:00am - 12:00pm with an optional Q&A and practice time until 1:00pm.
+**How to Register:**
 
-**Questions?** Reach out to us at any time: [[email protected]](/cdn-cgi/l/email-protection)
+Registration takes ~5 minutes: Please click the blue "Register" button on the right to complete the form. **Need help? C**all the Senior Planet from AARP hotline at **888-713-3495** (MON-FRI 9am-8pm / SAT 9am-2pm ET) to register by phone, or reach out to us via email at [[email protected]](/cdn-cgi/l/email-protection).
 
 We can't wait to learn and jam with you!
 
@@ -121,7 +126,7 @@ Roundtable
 
 Optional Practice and Q&A Time
 
-Starting in 39 days 9 hours
+Event has finished
 
 9:00 AM - 1:00 PM CDT (Event time zone)
 
@@ -131,11 +136,13 @@ Location
 
 Twin Cities, MN
 
+Organized by
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
+OpenAI Academy
 
-Starting in 39 days 9 hours
+Event has finished
 
 9:00 AM - 1:00 PM CDT (Event time zone)
 
@@ -145,6 +152,8 @@ Location
 
 Twin Cities, MN
 
+Organized by
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
+OpenAI Academy

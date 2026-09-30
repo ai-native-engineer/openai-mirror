@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/agha-nazih-chatgpt-personal-physics-tutor -->
 
+Article
+
 August 7, 2026
 
 # Agha Nazih: The student who turned ChatGPT into a personal physics tutor
@@ -9,8 +11,6 @@ August 7, 2026
 # Education
 
 # Educators & Students
-
-# ChatGPT
 
 ## In Kudus, Indonesia, a student built a disciplined study routine with ChatGPT and earned a perfect score on the national physics exam.
 
@@ -32,6 +32,8 @@ Now 18 and a recent high school graduate, Agha will leave Kudus for Yogyakarta t
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Blog
@@ -44,44 +46,44 @@ Blog
 
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
+Video
+
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Mar 23rd, 2025 • Views 270.1K
+Mar 23rd, 2025 • Views 273.4K
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-By David Sperry • Aug 6th, 2026 • Views 1
-
-[37:44](/public/videos/higher-education-plugin-webinar-replay)
-
-[Higher Education Plugin Webinar Replay](/public/videos/higher-education-plugin-webinar-replay)
-
-Aug 7th, 2026 • Views 26
+Sep 28th, 2026 • Views 63
 
 Blog
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Aug 6th, 2026 • Views 48
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
 
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
+Video
+
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Mar 23rd, 2025 • Views 270.1K
-
-[37:44](/public/videos/higher-education-plugin-webinar-replay)
-
-[Higher Education Plugin Webinar Replay](/public/videos/higher-education-plugin-webinar-replay)
-
-Aug 7th, 2026 • Views 26
+Mar 23rd, 2025 • Views 273.4K
 
 Blog
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-Aug 6th, 2026 • Views 48
+Sep 29th, 2026 • Views 16
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-By David Sperry • Aug 6th, 2026 • Views 1
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

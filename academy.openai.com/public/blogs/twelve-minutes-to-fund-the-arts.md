@@ -27,70 +27,70 @@ Based in Greenville, Mississippi, the council promotes the region’s cultural h
 The event gave nonprofit leaders hands-on training with ChatGPT and other tools to explore how AI can help them save time, expand their reach, and better serve their communities. For the Greenville Arts Council, the impact is already clear.
 “12 minutes of ChatGPT is making an impact on the lives of thousands of kids,” Brooks says.
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[6:40](/en/public/videos/introduction-to-gpts-2025-02-13)
-
-Video
-
-[Introduction to GPTs](/en/public/videos/introduction-to-gpts-2025-02-13)
-
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
+[6:40](/public/videos/introduction-to-gpts-2025-02-13)
 
 Video
 
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
+[Introduction to GPTs](/public/videos/introduction-to-gpts-2025-02-13)
+
+[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
+
+Video
+
+[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
 By Derrick Choi
 
-[Welcome to the OpenAI Builder Community](/en/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
+[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
 
-Jul 16th, 2025 • Views 9.2K
+Jul 16th, 2025 • Views 11.2K
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Video
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Mar 23rd, 2025 • Views 267.1K
-
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
+Mar 23rd, 2025 • Views 273.4K
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
-
-Jan 12th, 2026 • Views 10.9K
-
-[Welcome to the OpenAI Builder Community](/en/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
-
-Jul 16th, 2025 • Views 9.2K
-
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[1:03:00](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
 Video
 
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[Evals: The Key to Production-Ready AI Apps](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
+By Haroon Choudery • Jun 24th, 2025 • Views 8.6K
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
 
-Jan 12th, 2026 • Views 10.9K
+Jan 12th, 2026 • Views 12.7K
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
+
+Jul 16th, 2025 • Views 11.2K
+
+[1:03:00](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
 Video
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Evals: The Key to Production-Ready AI Apps](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
-Mar 23rd, 2025 • Views 267.1K
+By Haroon Choudery • Jun 24th, 2025 • Views 8.6K
+
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
+
+Jan 12th, 2026 • Views 12.7K
+
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
+
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Mar 23rd, 2025 • Views 273.4K

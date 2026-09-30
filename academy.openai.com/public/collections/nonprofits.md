@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/nonprofits -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Nonprofits
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -60,7 +62,7 @@ United Way adopted OpenAI Enterprise to improve quality and productivity across 
 
 # Deployment & Adoption
 
-# Work](/en/public/blogs/mission-focused-work-minus-the-fine-print-risk)[Blog
+# Work](/public/blogs/mission-focused-work-minus-the-fine-print-risk)[Blog
 
 ### From 90 applications to 200, without losing rigor
 
@@ -70,7 +72,7 @@ When the Carl B. and Florence E. King Foundation received more than 200 grant ap
 
 # Awareness
 
-# Personal](/en/public/blogs/from-90-applications-to-200-without-losing-rigor)[Blog
+# Personal](/public/blogs/from-90-applications-to-200-without-losing-rigor)[Blog
 
 ### Twelve minutes to fund the arts
 
@@ -82,7 +84,7 @@ When the Greenville Arts Council learned at 4:48 PM that a $20,000 grant proposa
 
 # Personal
 
-# North America](/en/public/blogs/twelve-minutes-to-fund-the-arts)[Blog
+# North America](/public/blogs/twelve-minutes-to-fund-the-arts)[Blog
 
 ### Turning benefits eligibility into groceries with AI
 
@@ -94,7 +96,7 @@ mRelief co-founders Rose Afriyie and Genevieve Nielsen are using ChatGPT to expa
 
 # Deployment & Adoption
 
-# Work](/en/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)[Blog
+# Work](/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)[Blog
 
 ### A coach for the hardest career change
 
@@ -106,14 +108,22 @@ Navy veteran and educator Stephen K. Hudson founded AI Ready Veteran to give ser
 
 # Deployment & Adoption
 
-# Education](/en/public/blogs/a-coach-for-the-hardest-career-change)
+# Education](/public/blogs/a-coach-for-the-hardest-career-change)[Blog
+
+### A nonprofit founder uses ChatGPT to help more workers in crisis
+
+Empower Work offers free, confidential support by text for people facing job loss and workplace crises. Founder Jaime-Alexis Fowler’s team uses OpenAI models to help volunteer counselors retrieve vetted resources and prepare handoff summaries. The nonprofit reports that the share of counselors able to handle at least three conversations rose from 27% to 53%.
+
+# Nonprofits
+
+# Workforce](/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

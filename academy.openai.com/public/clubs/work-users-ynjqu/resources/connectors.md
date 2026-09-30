@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Apps
 
@@ -14,15 +14,21 @@
 
 # Deployment & Adoption
 
+# Work
+
+# Portfolio Academy Cyber
+
+# Portfolio Academy Knowledge Work
+
 ## Allow ChatGPT to access third-party tools to bring your work into your chats
 
-October 28, 2025 · Last updated on May 29, 2026
+October 28, 2025 · Last updated on September 4, 2026
 
 ![Apps](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-83--3610f292-b5c3-4c80-8452-5bc5b24d2a19-1765996853252.jpeg?fit=scale-down&width=1200)
 
 # **Apps**
 
-Apps let ChatGPT access your third-party tools like Google Drive, SharePoint, or GitHub so you can bring your work into the conversation. Search files, pull data, and generate insights from your organization’s data and content. Check out [available apps here](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt).
+Apps let ChatGPT access your third-party tools like Google Drive, SharePoint, or GitHub so you can bring your work into the conversation. Search files, pull data, and generate insights from your organization’s data and content. Check out  [available apps here](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt).
 
 Apps bring the knowledge you need into ChatGPT, without leaving your workflow. This saves time, reduces context switching, and makes everyday tasks more efficient. With access to your internal context, ChatGPT can provide responses that reflect how your organization works.
 
@@ -55,58 +61,69 @@ Apps bring the knowledge you need into ChatGPT, without leaving your workflow. T
 
 ## **﻿**
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# Apps in ChatGPT
+
+<!-- vimeo: 1165751477 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1165751477)
+
+<details>
+<summary>자막: Apps in ChatGPT</summary>
+
+Today I'll show how apps connect live data, speed workflows, and let you complete tasks without leaving Chat all under enterprise governance. Instead of switching between tools, you can chat directly with apps inside chat GPT to complete tasks. Pull in context and take action. Keeping work fast, contextual and conversational apps pull context from the systems your team uses. So chat GT's answers are grounded, they're discoverable in the app directory. Teams can build and deploy custom apps with the apps SDK and enterprise admins. Stay in control of availability and permissions. Let's see how it works in the product. Head to your settings to manage your apps, select settings, then go to apps to view and manage connected integrations. Click add more to browse Additional apps you can enable when you click on an app, you'll be taken through an authentication workflow to connect your account. Once you have connected an app, you can bring it up in a conversation and chat GPT easily simply at mention or invoke with a forward slash, or choose directly from your tools menu. In this example, I'm asking for context on a specific conversation. In Slack Chat, GPT will provide the link to the Slack thread. Click Company Knowledge to ground your question in your organization's internal docs and context. Open the tools drop down to review or toggle, which connected apps can be used in this chat. Click into the message box to start typing your company specific question. In this example, I'm asking Chad GPT to search across all internal documents to find the latest messaging and draft an email. Check out more resources to help you use AI in the Open AI academy@academy.org.
+
+</details>

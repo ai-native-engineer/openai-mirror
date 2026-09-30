@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/chatgpt-on-campus-2025-03-20 -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 ChatGPT on Campus
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -60,7 +62,7 @@ DefaultLatestPopular
 
 # Education
 
-6:33](/en/public/videos/collaborating-with-ai)[Video
+6:33](/public/videos/collaborating-with-ai)[Video
 
 ### AI Career Prep: Resumes and Interviews
 
@@ -72,7 +74,7 @@ DefaultLatestPopular
 
 # Education
 
-8:33](/en/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)[Video
+8:33](/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)[Video
 
 ### Organization and Automation: Managing Time and Tasks with AI
 
@@ -82,7 +84,7 @@ DefaultLatestPopular
 
 # Education
 
-17:40](/en/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)[Video
+17:40](/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)[Video
 
 ### AI for Academic Success: Research, Writing, and Studying Made Easier
 
@@ -92,7 +94,7 @@ DefaultLatestPopular
 
 # Education
 
-13:31](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)[Video
+13:31](/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)[Video
 
 ### Mastering Prompts: The Key to Getting What You Need from ChatGPT
 
@@ -102,7 +104,7 @@ DefaultLatestPopular
 
 # Education
 
-8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)[Video
+8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)[Video
 
 ### Introduction to ChatGPT Edu: Your AI-Powered Academic Companion
 
@@ -112,7 +114,7 @@ DefaultLatestPopular
 
 # Education
 
-14:48](/en/public/videos/introduction-to-chatgpt-edu-2025-03-20)[Resource
+14:48](/public/videos/introduction-to-chatgpt-edu-2025-03-20)[Resource
 
 ### AI Reflection Form for Higher Education
 
@@ -126,14 +128,14 @@ The AI Reflection Form is a quick, high-impact tool designed to help students do
 
 ![Siya Raj Purohit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/siya-2325470f-7b41-4c11-91b4-156602996c4b-1747149943510.jpeg?fit=scale-down&width=52)
 
-Siya Raj Purohit · Jul 17th, 2025](/en/public/resources/ai-reflection-form)
+Siya Raj Purohit · Jul 17th, 2025](/public/resources/ai-reflection-form)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

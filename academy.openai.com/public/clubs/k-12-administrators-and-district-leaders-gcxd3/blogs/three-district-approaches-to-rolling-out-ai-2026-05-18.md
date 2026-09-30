@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18 -->
 
-[K-12 Administrators & District Leaders](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
+[K-12 Administrators & District Leaders](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
 
-[navigation.content](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
+[Content](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
 
 Article
 
@@ -184,50 +184,62 @@ Then pair access with guidance:
 
 Blog
 
-[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
+[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
 
 By Juliann Igo
 
-[K-12 Workspace Settings](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
+External Content
 
-Feb 27th, 2026 • Views 794
+[Navigating the AI Policy Landscape in Schools](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
 
 External Content
 
-[AI Toolkit for School Districts, by Common Sense Media](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
+[AI Toolkit for School Districts, by Common Sense Media](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
 
-Nov 20th, 2025 • Views 30
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-External Content
+Video
 
-[Building Custom GPTs to Automate Tasks](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Nov 20th, 2025 • Views 124
-
-External Content
-
-[Navigating the AI Policy Landscape in Schools](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
-
-Nov 20th, 2025 • Views 24
-
-[K-12 Workspace Settings](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
-
-Feb 27th, 2026 • Views 794
+Sep 14th, 2026 • Views 1.5K
 
 External Content
 
-[Building Custom GPTs to Automate Tasks](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
+[Building Custom GPTs to Automate Tasks](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
 
-Nov 20th, 2025 • Views 124
+Nov 20th, 2025 • Views 156
+
+Blog
+
+[Get the Most From the K-12 Educator Plugin](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-educator-plugin-admin-guide)
+
+Aug 4th, 2026 • Views 242
+
+[K-12 Workspace Settings](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
+
+Feb 27th, 2026 • Views 2.4K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Get the Most From the K-12 Educator Plugin](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-educator-plugin-admin-guide)
+
+Aug 4th, 2026 • Views 242
+
+[K-12 Workspace Settings](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
+
+Feb 27th, 2026 • Views 2.4K
 
 External Content
 
-[Navigating the AI Policy Landscape in Schools](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
+[Building Custom GPTs to Automate Tasks](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
 
-Nov 20th, 2025 • Views 24
-
-External Content
-
-[AI Toolkit for School Districts, by Common Sense Media](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
-
-Nov 20th, 2025 • Views 30
+Nov 20th, 2025 • Views 156

@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27 -->
 
-[K-12 Administrators & District Leaders](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
+[K-12 Administrators & District Leaders](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
 
-[navigation.content](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
+[Content](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
 
 # K-12 Workspace Settings
 
@@ -20,7 +20,7 @@
 
 ## Configure your K-12 workspace for safe, collaborative, and cost-controlled use
 
-February 27, 2026 · Last updated on May 29, 2026
+February 27, 2026 · Last updated on July 30, 2026
 
 ![K-12 Workspace Settings](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-d7ff919b-9c7e-41d5-85fe-9994f40f3bb9-1772221714978.jpeg?fit=scale-down&width=1200)
 
@@ -28,7 +28,7 @@ February 27, 2026 · Last updated on May 29, 2026
 
 #### Introduction
 
-This guide outlines the recommended [workspace settings](https://chatgpt.com/admin/permissions?tab=general) for K-12 districts, explaining what should be enabled, what should be restricted, and why. It provides the security, governance, and credit-usage rationale behind each configuration decision to help ensure safe, cost-effective deployment.
+This guide outlines the recommended  [workspace settings](https://chatgpt.com/admin/permissions?tab=general) for K-12 districts, explaining what should be enabled, what should be restricted, and why. It provides the security, governance, and credit-usage rationale behind each configuration decision to help ensure safe, cost-effective deployment.
 
 #### Permissions
 
@@ -146,15 +146,7 @@ This guide outlines the recommended [workspace settings](https://chatgpt.com/adm
 
 **Recommended workspace settings**
 
-For all workspaces, set the default workspace limits [here](https://chatgpt.com/admin/permissions) as follows:
-
-● **Usage alert:** 1 credit/week
-
-● **Hard cap:** 2 credits/week
-
-This helps admins monitor usage early and prevents users from exceeding included features by default.
-
-![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-0e4fe7f3-20e9-4eba-a85a-113a1d9ec3bf-1772494295525.png)
+For all workspaces, set usage limits using instructions  [here](https://urldefense.com/v3/__https://help.openai.com/en/articles/20001001-manage-usage-limits-and-overages-in-chatgpt-enterprise-and-edu__;!!P00eaOB9Vi4!v-3uO1QmvRtl14lrmhJmW83eZnEfZbOnIWVGqSi-lyfbQwt3v9sHdMInRh55xBr54n6eowCPWcG7IpoQ8vI$)﻿
 
 **Important:** Workspace limits are **not automatically inherited by custom roles**. If you use custom roles, you must manually apply the same limits unless you intentionally want those roles to have higher allowances.
 
@@ -178,56 +170,66 @@ Start with the same default workspace settings:
 
 Then use **custom roles** for users or groups who need additional credits.
 
-Table Of Contents
+External Content
+
+[Building Custom GPTs to Automate Tasks](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
 
 External Content
 
-[AI Toolkit for School Districts, by Common Sense Media](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
+[Navigating the AI Policy Landscape in Schools](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
+
+External Content
+
+[AI Toolkit for School Districts, by Common Sense Media](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
 
 Blog
 
-[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
+[Get the Most From the K-12 Educator Plugin](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-educator-plugin-admin-guide)
 
-By Juliann Igo • May 12th, 2025 • Views 3.8K
-
-External Content
-
-[Navigating the AI Policy Landscape in Schools](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
-
-Nov 20th, 2025 • Views 24
+Aug 4th, 2026 • Views 242
 
 Blog
 
-[Three District Approaches to Rolling Out AI](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
+[Three District Approaches to Rolling Out AI](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
 
-May 18th, 2026 • Views 152
-
-External Content
-
-[Building Custom GPTs to Automate Tasks](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
-
-Nov 20th, 2025 • Views 124
+May 18th, 2026 • Views 975
 
 Blog
 
-[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
+[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
 
-By Juliann Igo • May 12th, 2025 • Views 3.8K
+By Juliann Igo • May 12th, 2025 • Views 4.6K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Three District Approaches to Rolling Out AI](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
+[Get the Most From the K-12 Educator Plugin](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-educator-plugin-admin-guide)
 
-May 18th, 2026 • Views 152
+Aug 4th, 2026 • Views 242
 
-External Content
+Blog
 
-[Building Custom GPTs to Automate Tasks](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
+[K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
 
-Nov 20th, 2025 • Views 124
+By Juliann Igo • May 12th, 2025 • Views 4.6K
 
-External Content
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Navigating the AI Policy Landscape in Schools](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
+Video
 
-Nov 20th, 2025 • Views 24
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Three District Approaches to Rolling Out AI](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
+
+May 18th, 2026 • Views 975

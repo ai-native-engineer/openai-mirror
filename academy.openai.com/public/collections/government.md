@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/government -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 OpenAI for Government
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,71 +46,159 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
-DefaultLatestPopular
+LatestPopular
 
 [Resource
 
-### Unlocking ChatGPT for Government: A Prompt-Pack IT Staff
+· Government (United States)
 
-IT teams in government are under constant pressure to manage legacy systems, ensure cybersecurity, and deliver reliable services—all while facing limited resources. This quick-start prompt pack shows how ChatGPT can help streamline repetitive tasks like log analysis, policy drafting, incident response, and vendor oversight. Each example includes practical steps and safeguards.
+### How to get started guide: Conducting performance reviews with ChatGPT Work
 
-# Leaders & Admins
-
-# Public & Social Impact
-
-# Deployment & Adoption
+This guide helps government managers get started with ChatGPT Work during the performance review process.
 
 # Government
 
-![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
+# AI Techniques
 
-David Sperry · Jul 19th, 2025](/en/public/resources/govt-prompt-pack-it-staff)[Resource
+![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=52)
 
-### Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff
+Laura Keenan · Jul 20th, 2026
 
-This prompt-pack empowers public servants to quickly turn raw data—such as budgets, vendor reports, and performance dashboards—into concise briefs, visuals, and analyses, cutting hours of manual work into minutes.
+Like](/public/clubs/government/resources/how-to-get-started-guide-conducting-performance-reviews-with-chatgpt-work-2026-07-20)[Resource
 
-# Public & Social Impact
+· Government (United States)
 
-# Use Cases
+### AI performance prompts: Government manager/leader performance prompt pack
 
-# Government
-
-![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
-
-David Sperry · Jul 19th, 2025](/en/public/resources/govt-prompt-pack-for-analysts)[Resource
-
-### Unlocking ChatGPT for Government: A Prompt-Pack for Leaders
-
-This prompt-pack equips government leaders with ready-to-use starting points for tasks like policy drafting, fiscal analysis, and public messaging—reducing the time spent preparing reports, briefings, and coordination materials so they can focus on strategic decisions.
-
-# Public & Social Impact
-
-# Deployment & Adoption
+The Government leader performance prompt pack provides structured prompts to move performance management from year-end memory to continuous, human-reviewed evidence. Designed for federal leaders who want clearer reviews, stronger coaching habits, and responsible AI adoption tied to mission outcomes.
 
 # Government
 
-![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
+# AI Techniques
 
-David Sperry · Jul 19th, 2025](/en/public/resources/govt-prompt-pack-for-leaders)[Resource
+![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=52)
 
-### Managing FOIA Requests with Custom GPTs
+Laura Keenan · Jul 20th, 2026
 
-# Public & Social Impact
+Like](/public/clubs/government/resources/ai-performance-prompts-government-leader-performance-prompt-pack)[Resource
+
+· Government (United States)
+
+### AI performance prompts: Government employee performance prompt pack
+
+The Government employee performance prompt pack provides structured prompts to assist employees with performance management tasks, including self-reviews, feedback, 1:1 meetings, career planning, goal setting, development, and internal mobility. Users are encouraged to utilize AI as a reflection partner by inputting notes, feedback, and goals to organize evidence and draft professional language.
+
+# AI Techniques
+
+# Government
+
+![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=52)
+
+Laura Keenan · Jul 17th, 2026
+
+Like](/public/clubs/government/resources/ai-performance-prompts-government-employee-performance-prompt-pack-2026-07-17)[Blog
+
+### The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era
+
+The recent shift toward a "commercial-first" federal acquisition policy requires professionals to pivot from static vendor searches to actively shaping requirements around existing commercial market solutions. By utilizing ChatGPT for interactive research and modular exploration, acquisition teams can better align their needs with current market capabilities to build more defensible and innovative procurement strategies.
+
+# AI Techniques
 
 # Advanced & Builder Skills
 
+# Enablement
+
+# Procurement
+
+# Use Cases
+
+1](/public/blogs/chatgpt-in-a-commercial-first-era-main-review)[Blog
+
+### Here Comes August: Help Your Boss Make the Most of Time in the District
+
+Use ChatGPT to jump-start August recess planning by uploading past schedules and asking for fresh district/state event ideas tied to current issues.
+
+# Congressional Staffers
+
+# Legislative Planning
+
+# Congress
+
+Like](/public/blogs/legislative-planning-main-review)[Blog
+
+### Build a Custom GPT That Catches What You Miss
+
+Building a custom GPT to act as your technical acquisition editor provides an immediate, consistent, and drama-free QA pass for your work products.
+
+# AI Techniques
+
 # Government
 
-![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
+# Procurement
 
-Lauren Oliphant · Oct 4th, 2025](/en/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)[Resource
+# Use Cases
 
-### ChatGPT for Government 101 Resource Guide
+3](/public/blogs/custom-gpt-main-review)[Blog
+
+### An Effective Way to Get Smart on the Revolutionary FAR Overhaul
+
+The Revolutionary FAR Overhaul marks a fundamental shift in federal acquisition, requiring professionals to transition from legacy compliance habits to active, judgment-based decision-making.
+This guide introduces an interactive, ChatGPT-powered "RFO Bootcamp" designed to simulate real-world challenges and accelerate your mastery of these structural changes.
+By moving from passive reading to applied scenarios, you can build the "smarter rigor" needed to confidently navigate and lead in this evolving regulatory landscape.
+
+# AI Techniques
+
+# Government
+
+# Govtech
+
+# OpenAI for Government
+
+# Use Cases
+
+# Procurement
+
+Like](/public/blogs/revolutionary-far-overhaul-main-review)[Blog
+
+### Stop Coming Back Buried. Start Coming Back Briefed.
+
+ChatGPT can help acquisition professionals regain situational awareness faster by summarizing what changed, identifying deadlines and risks, creating catch-up briefs, and surfacing what actually needs attention. It is not about replacing judgment; it is about reducing the manual burden of “catching up” so people can focus on coordination, decision-making, and execution.
+
+# Advanced & Builder Skills
+
+1](/public/blogs/acclerate-your-return-main-review)[Blog
+
+### Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do
+
+Proximity to your own writing makes it easy to overlook errors, and overbooked colleagues often delay critical peer reviews. By building a custom GPT as an on-demand technical editor, you gain a consistent first-line QA step that polishes your work and accelerates the submission process.
+
+# Procurement
+
+# AI Techniques
+
+# OpenAI for Government
+
+# Govtech
+
+# Government
+
+1](/public/blogs/technical-editor-gpt-main-review)[Blog
+
+### GroundVue is making public meetings searchable with Codex
+
+GroundVue uses Codex and OpenAI models to find, transcribe, and analyze public meetings so officials can compare how other communities approach shared problems.
+
+# Business
+
+# Startup
+
+# Govtech](/public/blogs/groundvue-codex-searchable-public-meetings)[Resource
+
+### ChatGPT Tasks for Government
 
 # Public & Social Impact
 
@@ -116,17 +206,11 @@ Lauren Oliphant · Oct 4th, 2025](/en/public/resources/managing-foia-requests-wi
 
 # Government
 
-![Bryan Petzold](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/bryan-74e8ea9b-057e-4f20-8bbf-7cc3dd4b0f4c-1760302575689.jpeg?fit=scale-down&width=52)
+![Amanda Bullock](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/amanda-248958d1-1d4a-4b18-a199-5da60864ac04-1771983178981.jpeg?fit=scale-down&width=52)
 
-![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
+Amanda Bullock · Feb 25th, 2026](/public/resources/chatgpt-tasks-for-government-2026-02-24)[Resource
 
-Bryan Petzold & David Sperry · Oct 14th, 2025](/en/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)[Resource
-
-### ChatGPT for Government 101
-
-ChatGPT for Government 101 introduces how ChatGPT Enterprise can support your daily responsibilities as a trusted partner in public service. Government work often means balancing critical missions with rising toil—emails, regulations, and paperwork. ChatGPT helps shift that balance, reducing routine burdens while giving you more capacity for what matters most.
-We’ll cover the impact of ChatGPT, common government use cases, and the core features you can start using right away—reading, translation, voice, vision, personalization, and prompting. You’ll leave with practical strategies to integrate ChatGPT into your work, whether drafting policies, reviewing reports, or supporting program delivery.
-Best suited for beginner–intermediate users.
+### 3 prompts Champions use to translate AI potential into real outcomes
 
 # Public & Social Impact
 
@@ -136,29 +220,9 @@ Best suited for beginner–intermediate users.
 
 # Government
 
-![Bryan Petzold](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/bryan-74e8ea9b-057e-4f20-8bbf-7cc3dd4b0f4c-1760302575689.jpeg?fit=scale-down&width=52)
-
-![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
-
 ![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
 
-Bryan Petzold, Lauren Oliphant & David Sperry · Oct 18th, 2025](/en/public/resources/chatgpt-for-government-101-2025-10-18)[Resource
-
-### Deep Research in action
-
-Deep Research helps federal and state healthcare teams synthesize policy, spending, and public-health trends from recent trusted sources in minutes instead of months. It accelerates analysis while keeping human experts in control of judgment and decisions.
-
-# Public & Social Impact
-
-# Industry & Community
-
-# Deployment & Adoption
-
-# Government
-
-![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
-
-Lauren Oliphant · Nov 1st, 2025](/en/public/resources/deep-research-in-action-2025-10-31)[Resource
+David Sperry · Feb 14th, 2026](/public/resources/3-prompts-champions)[Resource
 
 ### ChatGPT for Government 102
 
@@ -183,9 +247,29 @@ Best suited for those with an existing fundamental understanding of ChatGPT.
 
 ![Bryan Petzold](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/bryan-74e8ea9b-057e-4f20-8bbf-7cc3dd4b0f4c-1760302575689.jpeg?fit=scale-down&width=52)
 
-David Sperry & Bryan Petzold · Nov 8th, 2025](/en/public/resources/chatgpt-for-government-102-11-25)[Resource
+David Sperry & Bryan Petzold · Nov 8th, 2025](/public/resources/chatgpt-for-government-102-11-25)[Resource
 
-### 3 prompts Champions use to translate AI potential into real outcomes
+### Deep Research in action
+
+Deep Research helps federal and state healthcare teams synthesize policy, spending, and public-health trends from recent trusted sources in minutes instead of months. It accelerates analysis while keeping human experts in control of judgment and decisions.
+
+# Public & Social Impact
+
+# Industry & Community
+
+# Deployment & Adoption
+
+# Government
+
+![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
+
+Lauren Oliphant · Nov 1st, 2025](/public/resources/deep-research-in-action-2025-10-31)[Resource
+
+### ChatGPT for Government 101
+
+ChatGPT for Government 101 introduces how ChatGPT Enterprise can support your daily responsibilities as a trusted partner in public service. Government work often means balancing critical missions with rising toil—emails, regulations, and paperwork. ChatGPT helps shift that balance, reducing routine burdens while giving you more capacity for what matters most.
+We’ll cover the impact of ChatGPT, common government use cases, and the core features you can start using right away—reading, translation, voice, vision, personalization, and prompting. You’ll leave with practical strategies to integrate ChatGPT into your work, whether drafting policies, reviewing reports, or supporting program delivery.
+Best suited for beginner–intermediate users.
 
 # Public & Social Impact
 
@@ -195,11 +279,15 @@ David Sperry & Bryan Petzold · Nov 8th, 2025](/en/public/resources/chatgpt-for-
 
 # Government
 
+![Bryan Petzold](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/bryan-74e8ea9b-057e-4f20-8bbf-7cc3dd4b0f4c-1760302575689.jpeg?fit=scale-down&width=52)
+
+![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
+
 ![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
 
-David Sperry · Feb 14th, 2026](/en/public/resources/3-prompts-champions)[Resource
+Bryan Petzold, Lauren Oliphant & David Sperry · Oct 18th, 2025](/public/resources/chatgpt-for-government-101-2025-10-18)[Resource
 
-### ChatGPT Tasks for Government
+### ChatGPT for Government 101 Resource Guide
 
 # Public & Social Impact
 
@@ -207,13 +295,27 @@ David Sperry · Feb 14th, 2026](/en/public/resources/3-prompts-champions)[Resour
 
 # Government
 
-![Amanda Bullock](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/amanda-248958d1-1d4a-4b18-a199-5da60864ac04-1771983178981.jpeg?fit=scale-down&width=52)
+![Bryan Petzold](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/bryan-74e8ea9b-057e-4f20-8bbf-7cc3dd4b0f4c-1760302575689.jpeg?fit=scale-down&width=52)
 
-Amanda Bullock · Feb 25th, 2026](/en/public/resources/chatgpt-tasks-for-government-2026-02-24)[Video
+![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
 
-### Getting Started with ChatGPT Enterprise for Government Employees
+Bryan Petzold & David Sperry · Oct 14th, 2025](/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)[Resource
 
-Unlock how government teams can use ChatGPT Enterprise for productivity and mission impact. This quick walkthrough shows you the essentials—navigating the chat window, customizing instructions for your agency, organizing projects, and using custom GPTs. See real examples of summarizing meetings, turning whiteboard photos into action plans, and drafting executive briefing materials in minutes. Learn how to get started today, while applying sound judgment to every output.
+### Managing FOIA Requests with Custom GPTs
+
+# Public & Social Impact
+
+# Advanced & Builder Skills
+
+# Government
+
+![Lauren Oliphant](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/E03025Z7DT4-U08N36M5L7Q-6510f753fd0d-512-0bd0eccc-234b-49fb-8bef-3d4cbc1917f3-1746045521402.jpeg?fit=scale-down&width=52)
+
+Lauren Oliphant · Oct 4th, 2025](/public/resources/managing-foia-requests-with-custom-gpts-2025-10-04)[Resource
+
+### Unlocking ChatGPT for Government: A Prompt-Pack IT Staff
+
+IT teams in government are under constant pressure to manage legacy systems, ensure cybersecurity, and deliver reliable services—all while facing limited resources. This quick-start prompt pack shows how ChatGPT can help streamline repetitive tasks like log analysis, policy drafting, incident response, and vendor oversight. Each example includes practical steps and safeguards.
 
 # Leaders & Admins
 
@@ -223,11 +325,39 @@ Unlock how government teams can use ChatGPT Enterprise for productivity and miss
 
 # Government
 
+# Portfolio Academy Cyber
+
 ![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
 
-David Sperry · Jul 16th, 2025
+David Sperry · Jul 19th, 2025](/public/resources/govt-prompt-pack-it-staff)[Resource
 
-11:26](/en/public/videos/getting-started-chatgpt-govt)[Video
+### Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff
+
+This prompt-pack empowers public servants to quickly turn raw data—such as budgets, vendor reports, and performance dashboards—into concise briefs, visuals, and analyses, cutting hours of manual work into minutes.
+
+# Public & Social Impact
+
+# Use Cases
+
+# Government
+
+![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
+
+David Sperry · Jul 19th, 2025](/public/resources/govt-prompt-pack-for-analysts)[Resource
+
+### Unlocking ChatGPT for Government: A Prompt-Pack for Leaders
+
+This prompt-pack equips government leaders with ready-to-use starting points for tasks like policy drafting, fiscal analysis, and public messaging—reducing the time spent preparing reports, briefings, and coordination materials so they can focus on strategic decisions.
+
+# Public & Social Impact
+
+# Deployment & Adoption
+
+# Government
+
+![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
+
+David Sperry · Jul 19th, 2025](/public/resources/govt-prompt-pack-for-leaders)[Video
 
 ### Rapid Document Drafting for Government Teams Using ChatGPT Enterprise
 
@@ -243,110 +373,32 @@ Discover how government teams can use Canvas within ChatGPT Enterprise to quickl
 
 David Sperry · Jul 16th, 2025
 
-5:56](/en/public/videos/doc-drafting-chatgpt-govt)[Blog
+5:56](/public/videos/doc-drafting-chatgpt-govt)[Video
 
-### The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era
+### Getting Started with ChatGPT Enterprise for Government Employees
 
-The recent shift toward a "commercial-first" federal acquisition policy requires professionals to pivot from static vendor searches to actively shaping requirements around existing commercial market solutions. By utilizing ChatGPT for interactive research and modular exploration, acquisition teams can better align their needs with current market capabilities to build more defensible and innovative procurement strategies.
+Unlock how government teams can use ChatGPT Enterprise for productivity and mission impact. This quick walkthrough shows you the essentials—navigating the chat window, customizing instructions for your agency, and organizing projects. See real examples of summarizing meetings, turning whiteboard photos into action plans, and drafting executive briefing materials in minutes. Learn how to get started today, while applying sound judgment to every output.
 
-# AI Techniques
+# Leaders & Admins
 
-# Advanced & Builder Skills
+# Public & Social Impact
 
-# Enablement
-
-# Procurement
-
-# Use Cases
-
-1](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)[Blog
-
-### Stop Coming Back Buried. Start Coming Back Briefed.
-
-ChatGPT can help acquisition professionals regain situational awareness faster by summarizing what changed, identifying deadlines and risks, creating catch-up briefs, and surfacing what actually needs attention. It is not about replacing judgment; it is about reducing the manual burden of “catching up” so people can focus on coordination, decision-making, and execution.
-
-# Advanced & Builder Skills
-
-Like](/en/public/blogs/acclerate-your-return-main-review)[Blog
-
-### An Effective Way to Get Smart on the Revolutionary FAR Overhaul
-
-The Revolutionary FAR Overhaul marks a fundamental shift in federal acquisition, requiring professionals to transition from legacy compliance habits to active, judgment-based decision-making.
-This guide introduces an interactive, ChatGPT-powered "RFO Bootcamp" designed to simulate real-world challenges and accelerate your mastery of these structural changes.
-By moving from passive reading to applied scenarios, you can build the "smarter rigor" needed to confidently navigate and lead in this evolving regulatory landscape.
-
-# AI Techniques
+# Deployment & Adoption
 
 # Government
 
-# govtech
+![David Sperry](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/headshot-1fbc689f-a7f5-4a7b-96f0-b216e1787803-1750880534951.jpeg?fit=scale-down&width=52)
 
-# OpenAI for Government
+David Sperry · Jul 16th, 2025
 
-# Use Cases
-
-# Procurement
-
-Like](/en/public/blogs/revolutionary-far-overhaul-main-review)[Blog
-
-### Build a Custom GPT That Catches What You Miss
-
-Building a custom GPT to act as your technical acquisition editor provides an immediate, consistent, and drama-free QA pass for your work products.
-
-# AI Techniques
-
-# Government
-
-# Procurement
-
-# Use Cases
-
-1](/en/public/blogs/custom-gpt-main-review)[Blog
-
-### Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do
-
-Proximity to your own writing makes it easy to overlook errors, and overbooked colleagues often delay critical peer reviews. By building a custom GPT as an on-demand technical editor, you gain a consistent first-line QA step that polishes your work and accelerates the submission process.
-
-# Procurement
-
-# AI Techniques
-
-# OpenAI for Government
-
-# govtech
-
-# Government
-
-Like](/en/public/blogs/technical-editor-gpt-main-review)[Blog
-
-### Here Comes August: Help Your Boss Make the Most of Time in the District
-
-Use ChatGPT to jump-start August recess planning by uploading past schedules and asking for fresh district/state event ideas tied to current issues.
-
-# Congressional Staffers
-
-# Legislative Planning
-
-# Congress
-
-Like](/en/public/blogs/legislative-planning-main-review)[Blog
-
-### GroundVue is making public meetings searchable with Codex
-
-GroundVue uses Codex and OpenAI models to find, transcribe, and analyze public meetings so officials can compare how other communities approach shared problems.
-
-# business
-
-# startup
-
-# govtech](/en/public/blogs/groundvue-codex-searchable-public-meetings)
+11:26](/public/videos/getting-started-chatgpt-govt)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

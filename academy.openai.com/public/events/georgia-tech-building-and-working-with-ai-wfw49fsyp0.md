@@ -4,13 +4,19 @@
 
 IN-PERSON
 
-(Event Time Zone)
+3:30 PM - 6:30 PM EDT
+
+(Event time zone)
+
+March 25, 2025
 
 # Georgia Tech: Building and Working with AI
 
 # Developers & Builders
 
 # Advanced & Builder Skills
+
+# Work
 
 # North America
 
@@ -28,7 +34,9 @@ View Profile
 
 Event has finished
 
-March 25, 3:30 PM EDT (Event Time Zone)
+3:30 PM - 6:30 PM EDT (Event time zone)
+
+March 25, 2025
 
 Location
 
@@ -42,7 +50,9 @@ OpenAI Academy
 
 Event has finished
 
-March 25, 3:30 PM EDT (Event Time Zone)
+3:30 PM - 6:30 PM EDT (Event time zone)
+
+March 25, 2025
 
 Location
 

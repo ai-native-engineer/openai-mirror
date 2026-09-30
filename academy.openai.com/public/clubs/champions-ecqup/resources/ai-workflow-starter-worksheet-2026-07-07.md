@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # AI workflow starter worksheet
 
@@ -10,7 +10,7 @@
 
 # Activators
 
-# champions
+# Champions
 
 # Deployment & Adoption
 
@@ -114,167 +114,82 @@ At the end of this step, you should know who will use the workflow first, who th
 
 * Next review moment:
 
-﻿
-
 # Companion Prompt
 
 ```
 Act as an AI workflow coach for a team exploring whether and how to apply AI to a real workflow.
 
-﻿
-
-﻿
-
 Assume you have no prior context. Use only the notes I provide below. Do not invent facts, approvals, systems, evidence, or outcomes.
-
-﻿
-
-﻿
 
 Frameworks to use:
 
-﻿
-
 - Start with the workflow, not the tool.
-
-﻿
 
 - Value means the expected improvement for users or the business.
 
-﻿
-
 - Complexity means process readiness, dependencies, system access, governance, approvals, edge cases, risk, and support burden.
-
-﻿
 
 - Classify the candidate as one of four categories:
 
-﻿
-
 - Quick Win: meaningful value and lower complexity; good candidate to deliver value quickly and build momentum.
-
-﻿
 
 - Strategic Initiative: meaningful value and high complexity; prioritize only after momentum is established and supporting processes and systems are in place, or break down into a smaller first test and involve owners/partners early.
 
-﻿
-
 - Nice-to-Have: lower value and lower complexity; useful for practice or confidence, but not worth heavy investment.
-
-﻿
 
 - Thankless Task: lower value and high complexity; usually avoid.
 
-﻿
-
 - Separate what AI may complete, what AI may prepare for review, and what people must own.
-
-﻿
 
 - Define stop, ask, or escalate conditions for missing, conflicting, sensitive, urgent, high-impact, or out-of-scope cases.
 
-﻿
-
 - Prefer the smallest useful version that can be tested with real users.
-
-﻿
 
 - Adoption means repeated useful behavior and credible evidence of improvement, not an announcement or one-time demo.
 
-﻿
-
-﻿
-
 Your task:
-
-﻿
 
 1. Review my worksheet notes.
 
-﻿
-
 2. Identify what is known, what you are inferring, and what is still unknown.
-
-﻿
 
 3. Classify the workflow as Quick Win, Strategic Initiative, Nice-to-Have, or Thankless Task. Explain the classification briefly.
 
-﻿
-
 4. Recommend whether to keep the scope, narrow it, change workflows, or clarify before building.
-
-﻿
 
 5. Recommend the right next artifact: Design Spec, PRD + test cases, Workflow Package, Adoption Evidence Plan, or more narrowing.
 
-﻿
-
 6. Ask up to five clarifying questions only where the answer would materially improve the next artifact.
-
-﻿
 
 7. After the questions are answered, draft the recommended artifact.
 
-﻿
-
-﻿
-
 In the artifact you draft, keep these visible:
-
-﻿
 
 - workflow owner and intended users
 
-﻿
-
 - desired outcome
-
-﻿
 
 - scope and non-scope
 
-﻿
-
 - required inputs and trusted sources
-
-﻿
 
 - AI/person boundary
 
-﻿
-
 - human review and decision authority
-
-﻿
 
 - stop, ask, or escalate conditions
 
-﻿
-
 - smallest useful version
-
-﻿
 
 - representative tests or evidence needed for the next decision
 
-﻿
-
 - open questions and who should validate them
-
-﻿
-
-﻿
 
 Here are my worksheet notes:
 
-﻿
-
 [paste worksheet notes]
 
-﻿
 ```
-
-﻿
 
 Like
 
@@ -284,70 +199,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-Resource
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-Resource
+[AI opportunity sequencing worksheet](/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Jul 29th, 2026 • Views 632
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-Video
+Aug 13th, 2026 • Views 305
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Dive in
+Jul 7th, 2026 • Views 1.2K
 
-## Related
+[90-Day AI transformation starter kit](/public/clubs/champions-ecqup/resources/90-day-ai-transformation-starter-kit-2026-07-29)
 
-Resource
+Jul 29th, 2026 • Views 956
 
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
+[AI opportunity sequencing worksheet](/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
 
-Jul 7th, 2026 • Views 4
+Jul 29th, 2026 • Views 632
 
-Resource
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-May 5th, 2026 • Views 325
+[90-Day AI transformation starter kit](/public/clubs/champions-ecqup/resources/90-day-ai-transformation-starter-kit-2026-07-29)
 
-Resource
+Jul 29th, 2026 • Views 956
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-May 7th, 2026 • Views 405
-
-Resource
-
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 305
-
-Resource
-
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
-
-Jul 7th, 2026 • Views 4
-
-Resource
-
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 405
-
-Resource
-
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-May 5th, 2026 • Views 305
-
-Resource
-
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
-
-May 5th, 2026 • Views 325
+Aug 13th, 2026 • Views 305

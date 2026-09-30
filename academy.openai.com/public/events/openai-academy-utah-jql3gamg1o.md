@@ -4,7 +4,11 @@
 
 IN-PERSON
 
-(Event Time Zone)
+9:00 AM - 12:30 PM MDT
+
+(Event time zone)
+
+July 10, 2025
 
 # OpenAI Academy: Utah
 
@@ -24,17 +28,21 @@ Join OpenAI Academy and Talent Ready Utah for a special event designed to help l
 
 **You’ll have the option to attend one or both sessions:**
 
-1. **9 am - 10 am - Session 1: Getting Started with AI:** A presentation showcasing OpenAI’s most powerful tools, featuring real-world examples of how institutions are using them to improve services, streamline operations, and unlock new possibilities. This session is ideal for professionals exploring AI strategy or responsible implementation.
-2. **11 am - 12:30 pm - Session 2: Build with OpenAI:** A hands-on workshop for participants ready to dive deeper. You’ll learn to build your own GPTs and use advanced tools like deep research to accelerate your work. No programming experience required - just curiosity and a willingness to experiment (but please do bring your own device--phone, laptop, or tablet.
+* **9 am - 10 am - Session 1: Getting Started with AI:** A presentation showcasing OpenAI’s most powerful tools, featuring real-world examples of how institutions are using them to improve services, streamline operations, and unlock new possibilities. This session is ideal for professionals exploring AI strategy or responsible implementation.
+
+* **11 am - 12:30 pm - Session 2: Build with OpenAI:** A hands-on workshop for participants ready to dive deeper. You’ll learn to build your own GPTs and use advanced tools like deep research to accelerate your work. No programming experience required - just curiosity and a willingness to experiment (but please do bring your own device--phone, laptop, or tablet.
 
 **Who should attend:** Utah leaders and professionals working in workforce development, education, public administration, and industry.
 
 **Why attend:**
 
-1. Discover how AI is already being used across sectors
-2. Gain practical skills and see what’s possible with the latest tools
-3. Learn directly from OpenAI experts
-4. Connect with other Utah leaders working to shape the future of AI in the state
+* Discover how AI is already being used across sectors
+
+* Gain practical skills and see what’s possible with the latest tools
+
+* Learn directly from OpenAI experts
+
+* Connect with other Utah leaders working to shape the future of AI in the state
 
 **Cost:** Free
 
@@ -42,7 +50,9 @@ Join OpenAI Academy and Talent Ready Utah for a special event designed to help l
 
 Event has finished
 
-July 10, 9:00 AM MDT (Event Time Zone)
+9:00 AM - 12:30 PM MDT (Event time zone)
+
+July 10, 2025
 
 Location
 
@@ -60,7 +70,9 @@ Utah System of Higher Education: Talent Ready Utah](https://talentready.ushe.edu
 
 Event has finished
 
-July 10, 9:00 AM MDT (Event Time Zone)
+9:00 AM - 12:30 PM MDT (Event time zone)
+
+July 10, 2025
 
 Location
 
