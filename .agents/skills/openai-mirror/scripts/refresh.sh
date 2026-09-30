@@ -2,26 +2,28 @@
 set -euo pipefail
 
 usage() {
-  echo "Usage: refresh.sh [--check|--force|--self-test]"
+  echo "Usage: refresh.sh [--check] [--force] [--refetch] [--render-only] [--prune-stale] [--self-test]"
 }
 
 # bash 3.2 (macOS) treats empty-array expansion as unbound under `set -u`; keep $force a plain word.
 force=
 self_test=false
 check_only=false
-case "${1:-}" in
-  "") ;;
-  --check) check_only=true ;;
-  --force) force=--force ;;
-  --self-test) self_test=true ;;
-  -h|--help) usage; exit 0 ;;
-  *) usage >&2; exit 2 ;;
-esac
-
-if [[ "$#" -gt 1 ]]; then
-  usage >&2
-  exit 2
-fi
+refetch=
+render_only=
+prune_stale=
+for arg in "$@"; do
+  case "$arg" in
+    --check) check_only=true ;;
+    --force) force=--force ;;
+    --refetch) refetch=--refetch ;;
+    --render-only) render_only=--render-only ;;
+    --prune-stale) prune_stale=--prune-stale ;;
+    --self-test) self_test=true ;;
+    -h|--help) usage; exit 0 ;;
+    *) usage >&2; exit 2 ;;
+  esac
+done
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 repo="$(git -C "$script_dir" rev-parse --show-toplevel)"
@@ -49,6 +51,8 @@ if $self_test; then
   [[ "$#" -eq 1 ]] || { echo "self-test: 기본 실행에 인자가 붙었다" >&2; exit 1; }
   probe=--force; set -- . $probe
   [[ "$#" -eq 2 && "$2" == --force ]] || { echo "self-test: --force가 전달되지 않았다" >&2; exit 1; }
+  probe=--refetch; set -- . $probe
+  [[ "$#" -eq 2 && "$2" == --refetch ]] || { echo "self-test: --refetch가 전달되지 않았다" >&2; exit 1; }
   echo "self-test ok"
   exit 0
 fi
@@ -79,8 +83,8 @@ cd "$repo"
 
 "$python" "$skill_dir/scripts/crawl-site.py" . $force
 "$python" "$skill_dir/scripts/academy-extract.py" . $force
-"$python" "$skill_dir/scripts/docs-extract.py" . $force
-python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $force
+"$python" "$skill_dir/scripts/docs-extract.py" . $force $prune_stale
+python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $force $refetch $render_only $prune_stale
 bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
 python3 "$crawl_dir/inline-transcripts.py" .
 python3 "$crawl_dir/render-video-refs.py" .
@@ -95,3 +99,4 @@ python3 "$crawl_dir/pdf-mirror.py" . \
   --host openaifoundation.org \
   --host openai.fund
 python3 "$skill_dir/scripts/verify-publish.py" .
+python3 "$skill_dir/scripts/verify-publish.py" . --tree-audit

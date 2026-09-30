@@ -162,6 +162,11 @@ def failure_kind(err):
     return "network/extract"
 
 
+def failure_is_fatal(kind):
+    """Thin pages and 4xx/gating are preserved for retry; execution failures are fatal."""
+    return kind == "network/extract" or kind.startswith("http-5")
+
+
 def crawl(urls, concurrency):
     pages, fails = {}, []
     with ThreadPoolExecutor(max_workers=concurrency) as ex:
@@ -201,8 +206,9 @@ def crawl_sibling(base, dom, concurrency, out, force, depth=1, cap=120):
     links = sorted(links)[:cap]
     if not force:
         links = [l for l in links if not os.path.exists(cm.dest(out, l)[0])]
-    pages, _ = crawl(links, concurrency) if links else ({}, [])
-    return pages
+    pages, fails = crawl(links, concurrency) if links else ({}, [])
+    fatal = any(failure_is_fatal(failure_kind(err)) for _, err in fails)
+    return pages, fatal
 
 
 def main():
@@ -259,6 +265,7 @@ def main():
     print(f"크롤 대상: {len(urls)} (concurrency={a.concurrency})", flush=True)
 
     pages, fails = ({}, [])
+    fatal = False
     if urls:
         pages, fails = crawl(urls, a.concurrency)
 
@@ -272,11 +279,13 @@ def main():
             ("devday", DEVDAY, "devday.openai.com", 1, 20),
         ]:
             try:
-                sp = crawl_sibling(base, dom, a.concurrency, a.out, a.force, depth, cap)
+                sp, sibling_fatal = crawl_sibling(base, dom, a.concurrency, a.out, a.force, depth, cap)
                 pages.update(sp)
                 print(f"{label}: {len(sp)} pages", flush=True)
+                fatal = fatal or sibling_fatal
             except Exception as e:
                 print(f"{label} ERR: {e}", flush=True)
+                fatal = True
 
     if len(pages) >= 5:
         boiler = cm.find_boilerplate(list(pages.values()), 0.4)
@@ -293,6 +302,10 @@ def main():
         for kind in sorted(kinds):
             for u, err in [(u, err) for u, err in fails if failure_kind(err) == kind][:5]:
                 print(f"  {kind}: {u} [{err}]", flush=True)
+        print(f"실패 summary: {dict(sorted(kinds.items()))}", flush=True)
+        fatal = fatal or any(failure_is_fatal(failure_kind(err)) for _, err in fails)
+    if fatal:
+        raise SystemExit("fatal crawl failures detected; see failure summary above")
 
 
 if __name__ == "__main__":

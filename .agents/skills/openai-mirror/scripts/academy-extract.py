@@ -57,6 +57,22 @@ def sitemap_urls():
     return urls
 
 
+def existing_video_urls(out):
+    """Keep previously discovered club videos in the incremental discovery set."""
+    base = os.path.join(out, "academy.openai.com")
+    urls = set()
+    if not os.path.isdir(base):
+        return urls
+    for current, _, files in os.walk(base):
+        for name in files:
+            if not name.endswith(".md"):
+                continue
+            rel = os.path.relpath(os.path.join(current, name), base).replace(os.sep, "/")
+            if rel.startswith("public/") and "/videos/" in rel:
+                urls.add("https://academy.openai.com/" + rel[:-3])
+    return urls
+
+
 def seg(url):
     parts = [x for x in urlsplit(url).path.split("/") if x]
     return parts[1] if len(parts) >= 2 and parts[0] == "public" else (parts[0] if parts else "")
@@ -149,8 +165,16 @@ def main():
 
     print("academy sitemap 수집 중...", flush=True)
     urls = sitemap_urls()
+    if not inc or "videos" in inc:
+        recovered = existing_video_urls(a.out) - urls
+        if recovered:
+            urls |= recovered
+            print(f"기존 영상 링크 복구: +{len(recovered)}", flush=True)
     if inc:
-        urls = {u for u in urls if seg(u) in inc}
+        urls = {
+            u for u in urls
+            if seg(u) in inc or ("videos" in inc and "/videos/" in urlsplit(u).path)
+        }
     if exc:
         urls = {u for u in urls if seg(u) not in exc}
     if not a.force:

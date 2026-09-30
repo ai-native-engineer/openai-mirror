@@ -4,7 +4,7 @@
 
 ## 실행 환경
 
-- `refresh.sh --check`는 Python 의존성, `yt-dlp`, shared `crawl` 스킬을 확인하고 `refresh.sh`는 전체 트랙을 실행한다.
+- `refresh.sh --check`는 Python 의존성, `yt-dlp`, shared `crawl` 스킬을 확인하는 preflight다. 최신성·coverage·provenance는 `verify-publish.py --tree-audit`로 별도 확인한다.
 - 인터프리터는 `OPENAI_MIRROR_PYTHON`, shared crawl 위치는 `CRAWL_SKILL_DIR`로 바꿀 수 있다.
 - 개별 수집기의 옵션은 해당 스크립트의 `--help`를 정본으로 삼는다.
 
@@ -29,6 +29,7 @@
 - 본문은 SSR HTML의 `<main>`, `<article>`, `<body>` 순으로 추출하고 공통 nav/footer를 제거한다.
 - sitemap에 없는 제품/마케팅 페이지는 홈·허브와 기존 생성물의 절대 링크로 보강한다.
 - `thin`, 404, network/extract 실패는 저장하지 않아 다음 증분 실행에서 다시 확인한다.
+- thin과 4xx는 재시도 가능한 결과로 집계하고, 5xx·네트워크·추출 예외는 entrypoint가 non-zero로 끝나도록 실패를 전파한다.
 - SSR 본문이 없는 폼, 인터랙티브 랜딩, 일부 고객 사례는 계속 thin일 수 있다. 이를 위해 browser 경로를 추가하지 않는다.
 - 개발자 문서로 이관된 openai.com 경로(`/api/docs*`, `/api/reference*`, `/plugins/*`, `/ads/*` 허브 제외, `/codex/*` 허브 제외)는 크롤 대상에서 빼고 `docs-extract.py` 정본만 따른다.
 
@@ -58,6 +59,7 @@
 - 채널 발행물은 `youtube.com/openai/<yymmdd>-<slug>.md`, 인덱스는 `youtube.com/openai.md`다.
 - 자막이 없으면 `captions: none` stub과 썸네일만 남긴다.
 - `--render-only`는 캐시에서 다시 렌더하고, `--force`는 발행 파일을 다시 렌더하며, `--refetch`는 자막을 다시 받는다.
+- `refresh.sh`는 위 YouTube 복구 옵션을 shared 스크립트에 전달한다. `--prune-stale`는 색인에서 빠진 보존 파일 목록을 확인한 뒤에만 사용한다.
 - 페이지의 YouTube 링크는 `youtube-transcripts.sh`와 `inline-transcripts.py`가 인라인한다. Academy와 채널 발행 트리는 중복 처리를 피한다.
 
 ## PDF

@@ -12,6 +12,7 @@ openai.com/academy 외의 공식 문서 표면을 같은 curl_cffi 방식으로 
 실행: python3 docs-extract.py <out_dir> [--only developers,help,model-spec,learn,deployment-safety,trust] [--force] [--limit N] [--concurrency N]
 """
 import argparse, importlib.util, os, re, sys
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urljoin, urlsplit
 from curl_cffi import requests
@@ -108,6 +109,21 @@ def fetch_one(url, depth=0):
         return url, "", str(e)[:80]
 
 
+def failure_kind(err):
+    if not err:
+        return "thin"
+    if err.startswith("status="):
+        code = err.removeprefix("status=")
+        return f"http-{code}"
+    if err == "thin":
+        return "thin"
+    return "network/extract"
+
+
+def failure_is_fatal(kind):
+    return kind == "network/extract" or kind.startswith("http-5")
+
+
 def crawl_urls(urls, out, concurrency, min_len=200):
     pages, fails, done = {}, [], 0
     with ThreadPoolExecutor(max_workers=concurrency) as ex:
@@ -133,10 +149,14 @@ def crawl_urls(urls, out, concurrency, min_len=200):
             print(f"  boilerplate: {len(boiler)} lines removed", flush=True)
     for u, m in pages.items():
         cm.save(out, u, m, False)
+    fatal = False
     if fails:
+        kinds = Counter(failure_kind(err) for _, err in fails)
+        print(f"실패 summary: {dict(sorted(kinds.items()))}", flush=True)
         for u, err in fails[:15]:
             print(f"  fail: {u} [{err}]", flush=True)
-    return len(pages), fails
+        fatal = any(failure_is_fatal(failure_kind(err)) for _, err in fails)
+    return len(pages), fails, fatal
 
 
 def to_crawl(urls, out, force, limit):
@@ -195,16 +215,20 @@ def developers(out, conc, force, limit):
     urls = to_crawl(locs, out, force, limit)
     print(f"developers 대상: {len(urls)}", flush=True)
     if urls:
-        n, fails = crawl_urls(urls, out, conc)
+        n, fails, fatal = crawl_urls(urls, out, conc)
         print(f"developers 저장: {n} / 실패: {len(fails)}", flush=True)
+        return fatal
+    return False
 
 
 def sitemap_site(label, pages, out, conc, force, limit):
     urls = to_crawl(pages, out, force, limit)
     print(f"{label} 대상: {len(urls)}", flush=True)
     if urls:
-        n, fails = crawl_urls(urls, out, conc)
+        n, fails, fatal = crawl_urls(urls, out, conc)
         print(f"{label} 저장: {n} / 실패: {len(fails)}", flush=True)
+        return fatal
+    return False
 
 
 def prune_host(out, host, pages):
@@ -224,13 +248,14 @@ def prune_host(out, host, pages):
 def single_page(label, url, out, force):
     urls = to_crawl([url], out, force, 0)
     if not urls:
-        return
+        return False
     target, body, err = fetch_one(url)
     if body:
         cm.save(out, target, body, False)
         print(f"{label} 저장: {target}", flush=True)
     else:
         print(f"{label} 실패: {err}", flush=True)
+    return failure_is_fatal(failure_kind(err)) if not body else False
 
 
 def help_center(out, conc, force, limit):
@@ -256,8 +281,10 @@ def help_center(out, conc, force, limit):
     print(f"help articles: {len(arts)} (collections {len(seen)})", flush=True)
     urls = to_crawl(arts, out, force, limit)
     if urls:
-        n, fails = crawl_urls(urls, out, conc)
+        n, fails, fatal = crawl_urls(urls, out, conc)
         print(f"help 저장: {n} / 실패: {len(fails)}", flush=True)
+        return fatal
+    return False
 
 
 def model_spec(out):
@@ -272,6 +299,7 @@ def model_spec(out):
         print(f"model-spec 저장: {url}", flush=True)
     else:
         print(f"model-spec 실패: {err}", flush=True)
+    return failure_is_fatal(failure_kind(err)) if not body else False
 
 
 def main():
@@ -300,25 +328,29 @@ def main():
     ap.add_argument("--concurrency", type=int, default=8)
     a = ap.parse_args()
     only = set(s.strip() for s in a.only.split(",") if s.strip())
+    fatal = False
 
     if "developers" in only:
-        developers(a.out, a.concurrency, a.force, a.limit)
+        fatal = developers(a.out, a.concurrency, a.force, a.limit) or fatal
     if "help" in only:
-        help_center(a.out, a.concurrency, a.force, a.limit)
+        fatal = help_center(a.out, a.concurrency, a.force, a.limit) or fatal
     if "model-spec" in only:
-        model_spec(a.out)
+        fatal = model_spec(a.out) or fatal
     if "learn" in only:
         print("learn.chatgpt.com sitemap...", flush=True)
-        sitemap_site("learn.chatgpt.com", sitemap_urls(LEARN_SITEMAP), a.out,
-                     a.concurrency, a.force, a.limit)
+        fatal = sitemap_site("learn.chatgpt.com", sitemap_urls(LEARN_SITEMAP), a.out,
+                             a.concurrency, a.force, a.limit) or fatal
     if "deployment-safety" in only:
         print("deploymentsafety.openai.com sitemap...", flush=True)
         pages = deployment_pages(sitemap_urls(DEPLOYMENT_SITEMAP, DEPLOYMENT_BASE))
-        sitemap_site("deploymentsafety.openai.com", pages, a.out, a.concurrency, a.force, a.limit)
+        fatal = sitemap_site("deploymentsafety.openai.com", pages, a.out,
+                             a.concurrency, a.force, a.limit) or fatal
         if a.prune_stale and not a.limit:
             print(f"deploymentsafety.openai.com 구 생성물 정리: {prune_host(a.out, 'deploymentsafety.openai.com', pages)}", flush=True)
     if "trust" in only:
-        single_page("trust.openai.com", TRUST, a.out, a.force)
+        fatal = single_page("trust.openai.com", TRUST, a.out, a.force) or fatal
+    if fatal:
+        raise SystemExit("fatal docs failures detected; see failure summary above")
 
 
 if __name__ == "__main__":

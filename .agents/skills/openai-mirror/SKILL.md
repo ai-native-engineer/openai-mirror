@@ -14,7 +14,7 @@ description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 
 | 증분/전량 갱신, 검증, commit, push | `references/publishing.md` |
 | 부분 수집, 누락 복구, 수집기 수정 | `references/crawl-notes.md`와 대상 스크립트의 `--help` |
 
-일반 갱신은 `publishing.md`의 commit, push, 원격 SHA 확인까지 완료한다. 삭제 반영만 그 문서의 승인 게이트를 따른다.
+일반 갱신은 수집, 전체 트리 감사, staged 검증, commit까지 수행한다. push는 사용자가 명시적으로 요청한 경우에만 `publishing.md` 절차로 수행한다. 삭제 반영은 별도 승인 게이트를 따른다.
 
 ## 불변 규칙
 
