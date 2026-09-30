@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02 -->
+
 # K-12:Differentiate Materials
 
 <!-- vimeo: 1197917717 | track: English (auto-generated) -->

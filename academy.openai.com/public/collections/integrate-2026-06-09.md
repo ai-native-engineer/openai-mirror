@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/integrate-2026-06-09 -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Integrate
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -64,13 +66,13 @@ DefaultLatestPopular
 
 # Leaders & Admins
 
-1](/en/public/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07)[Resource
+3](/public/clubs/champions-ecqup/blogs/segmenting-users-and-driving-habit-formation-2026-05-07)[Resource
 
 · Champions
 
-### Getting Started as a Team Activator
+### Getting Started as an Agent Activator
 
-Learn how Activators fit into the AI adoption system, what they do in practice, and what makes strong Activators effective. Then explore the resources, events, and forums that can help Activators identify a workflow, test it, package what works, and share progress with others.
+If you own or materially shape recurring work for a team or function, this guide helps you start learning how to move that work from a useful AI idea into responsible day-to-day operation. Learn what the role requires, which partners you need, and how the available learning experiences and practical resources can help you choose a workflow, define how it should work, build and test it, help others adopt it, capture evidence, and decide what should happen next.
 
 # Activators
 
@@ -78,7 +80,7 @@ Learn how Activators fit into the AI adoption system, what they do in practice, 
 
 # Deployment & Adoption
 
-Like](/en/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)[Resource
+1](/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)[Resource
 
 · Champions
 
@@ -91,6 +93,8 @@ It helps Leaders and Activators assess the potential value, complexity, readines
 
 # Workplace & Business
 
+# Work
+
 # Activators
 
 # Leaders & Admins
@@ -99,7 +103,9 @@ It helps Leaders and Activators assess the potential value, complexity, readines
 
 # Use Cases
 
-Like](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)[Resource
+# Portfolio Academy Cyber
+
+4](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)[Resource
 
 · Champions
 
@@ -112,6 +118,8 @@ Each one-pager highlights examples of how Codex can help with common work patter
 
 # Codex
 
+# Work
+
 # Activators
 
 # Workplace & Business
@@ -120,28 +128,21 @@ Each one-pager highlights examples of how Codex can help with common work patter
 
 # Use Cases
 
-Like](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)[Resource
+1](/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)[Resource
 
 · Champions
 
-### Scope, test, and rollout AI workflows
+### AI workflow design coach
 
-Use this resource when a team has identified a real workflow it wants to improve with AI but needs structured guidance on what to test.
-The Pathfinder helps Champions define the workflow, identify the best-fit AI pattern, determine which capabilities and systems matter, clarify what should remain human-led, and recommend the smallest useful next step.
+Turn a workflow opportunity into a clear design spec before choosing tools, connectors, or automation. Focus on current-state work, desired outcomes, boundaries, human review, and escalation conditions.
 
 # Deployment & Adoption
 
-# Leaders & Admins
-
 # Activators
 
-# Codex for Work
+# Champions
 
-# Codex
-
-# Workplace & Business
-
-Like](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)[Resource
+3](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)[Resource
 
 · Champions
 
@@ -153,11 +154,13 @@ A showcase helps teams learn from trusted peers, understand where AI is creating
 
 # Deployment & Adoption
 
+# Work
+
 # Activators
 
 # Leaders & Admins
 
-Like](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)[Resource
+4](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)[Resource
 
 · Champions
 
@@ -168,6 +171,8 @@ The workshop helps participants examine recurring work, identify pain points, an
 
 # Awareness
 
+# Work
+
 # Workplace & Business
 
 # Deployment & Adoption
@@ -176,7 +181,7 @@ The workshop helps participants examine recurring work, identify pain points, an
 
 # Leaders & Admins
 
-1](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)[Resource
+3](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)[Resource
 
 · Champions
 
@@ -186,6 +191,8 @@ This guide helps Champions move from creating AI tools and testing workflows to 
 By identifying, documenting, and sharing validated use cases, Champions can show where AI is making work faster, clearer, more consistent, or easier to complete. Over time, these examples build credibility, encourage adoption, and make successful workflows easier for other teams to understand and repeat.
 
 # Workplace & Business
+
+# Work
 
 # Telling Value and ROI Story
 
@@ -197,7 +204,7 @@ By identifying, documenting, and sharing validated use cases, Champions can show
 
 # Use Cases
 
-Like](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)[Resource
+1](/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)[Resource
 
 · Champions
 
@@ -208,6 +215,8 @@ You’ll learn how to choose a relevant challenge, make participation easy, cura
 
 # Deployment & Adoption
 
+# Work
+
 # Workplace & Business
 
 # Awareness
@@ -216,14 +225,14 @@ You’ll learn how to choose a relevant challenge, make participation easy, cura
 
 # Leaders & Admins
 
-1](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+2](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

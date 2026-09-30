@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/3-steps-to-ai-literacy-ai-ethics-policy-and-safety-2025-06-30 -->
+
 # 3 Steps to Basic AI Literacy: AI Ethics, Policy, Safety
 
 <!-- vimeo: 1096738238 | track: English (auto-generated) -->

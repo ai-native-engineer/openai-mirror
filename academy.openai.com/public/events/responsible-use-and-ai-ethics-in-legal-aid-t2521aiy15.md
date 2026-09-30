@@ -4,9 +4,13 @@
 
 LIVESTREAM
 
+5:00 PM - 6:00 PM GMT
+
+July 29, 2026
+
 # Responsible use and AI ethics in legal aid
 
-Register
+[Replay](https://vimeo.com/1214103732/1656c7215a?share=copy&fl=sv&fe=ci)
 
 # Public & Social Impact
 
@@ -18,18 +22,25 @@ This session will include a panel moderated by Gloria Lee, Chief Legal Officer a
 
 **Featured Speakers:**
 
-1. Gloria Lee, Chief Legal Officer, Everlaw, moderator
-2. Bridget McCormack, President & CEO, American Arbitration Association; former Chief Justice, Michigan Supreme Court
-3. Angela Tripp, Program Officer for Technology, Legal Services Corporation
-4. Rich Leimsider, Director, AI for Nonprofits Sprint
+* Gloria Lee, Chief Legal Officer, Everlaw, moderator
+
+* Bridget McCormack, President & CEO, American Arbitration Association; former Chief Justice, Michigan Supreme Court
+
+* Angela Tripp, Program Officer for Technology, Legal Services Corporation
+
+* Rich Leimsider, Director, AI for Nonprofits Sprint
 
 **What You’ll Learn:**
 
-1. Key responsible-use considerations for legal aid organizations
-2. How to think about confidentiality, accuracy, bias, and human oversight
-3. Practical adoption questions for legal services teams
-4. Where AI tools can support access-to-justice work, and where caution is needed
-5. How peer organizations and sector leaders are thinking about AI adoption
+* Key responsible-use considerations for legal aid organizations
+
+* How to think about confidentiality, accuracy, bias, and human oversight
+
+* Practical adoption questions for legal services teams
+
+* Where AI tools can support access-to-justice work, and where caution is needed
+
+* How peer organizations and sector leaders are thinking about AI adoption
 
 **Who Should Attend:** Legal aid leaders, attorneys, technologists, operations teams, program staff, and anyone responsible for shaping AI use, policy, training, or adoption inside a legal services organization.
 
@@ -67,25 +78,11 @@ AI for Nonprofits Sprint @ Fund for the City of New York
 
 View Profile
 
-Live in 33 days 10 hours
+Event has finished
 
-July 29, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
 
-Online
-
-Organized by
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
-
-OpenAI Academy
-
-Register
-
-Add to calendar
-
-Live in 33 days 10 hours
-
-July 29, 5:00 PM GMT
+July 29, 2026
 
 Online
 
@@ -95,6 +92,24 @@ Organized by
 
 OpenAI Academy
 
-Register
+[Replay](https://vimeo.com/1214103732/1656c7215a?share=copy&fl=sv&fe=ci)
 
-Add to calendar
+Event has finished
+
+5:00 PM - 6:00 PM GMT
+
+July 29, 2026
+
+Online
+
+Organized by
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
+
+OpenAI Academy
+
+[Replay](https://vimeo.com/1214103732/1656c7215a?share=copy&fl=sv&fe=ci)
+
+<!-- vimeo: 1214103732 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1214103732)

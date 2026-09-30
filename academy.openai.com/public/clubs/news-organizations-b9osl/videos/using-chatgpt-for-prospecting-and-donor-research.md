@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research -->
+
 # ChatGPT For Prospecting & Donor Research
 
 <!-- vimeo: 1146072308 | track: English (auto-generated) -->

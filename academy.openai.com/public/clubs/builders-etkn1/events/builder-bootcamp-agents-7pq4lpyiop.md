@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-agents-7pq4lpyiop -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: Agents](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-7--1ed802a6-a876-4c14-a30b-33e479559137-1776711051509.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+April 30, 2026
 
 # Builder Bootcamp: Agents
 
@@ -17,6 +21,8 @@ Event Slides
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 In this session, you’ll learn how production-grade agents are structured by walking through a customer support agent built with the OpenAI Agents SDK. We’ll cover how agents use tools to look up orders, answer FAQs, cancel orders, start complaints, route requests, apply guardrails, and generate outputs that can be evaluated.
 
@@ -48,12 +54,16 @@ View Profile
 
 Event has finished
 
-April 30, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 30, 2026
 
 Online
 
 Event has finished
 
-April 30, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 30, 2026
 
 Online

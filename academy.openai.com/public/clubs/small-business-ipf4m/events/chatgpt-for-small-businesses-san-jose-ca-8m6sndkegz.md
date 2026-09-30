@@ -1,10 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/events/chatgpt-for-small-businesses-san-jose-ca-8m6sndkegz -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-[navigation.events](/en/public/clubs/small-business-ipf4m/events)
+[navigation.events](/public/clubs/small-business-ipf4m/events)
 
-# ChatGPT for small businesses - San Jose, CA
+![ChatGPT for small businesses - San Jose, CA](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-15--37971c1d-a7b8-402c-ab40-989ea051cbe5-1784333928514.jpeg?fit=scale-down&width=1200)
 
 IN-PERSON
 
@@ -14,34 +14,43 @@ IN-PERSON
 
 August 27, 2026
 
-# Workplace & Business
+# ChatGPT for small businesses - San Jose, CA
 
-# ChatGPT
+# Workplace & Business
 
 # Use Cases
 
+# Work
+
 # North America
 
-# A workshop for small businesses that want to learn real AI skills, access live support, and use AI tools right away.
+# A hands-on workshop for small business owners and operators who want to use ChatGPT for real work—and leave with one useful workflow they can reuse.
 
-Running a small business means juggling marketing, customer communication, operations, hiring, and planning—often all in the same day. This workshop is designed to help you use ChatGPT in practical ways that immediately support your business.
+Running a small business means moving constantly between marketing, customer communication, operations, hiring, data, and planning. This beginner-friendly OpenAI Academy workshop, presented with the California Governor’s Office of Business and Economic Development and the Silicon Valley Small Business Development Center, is built around those real operating needs.
 
-Join OpenAI Academy and the California Governor’s Office of Business and Economic Development and the Silicon Valley Small Business Development Center for a hands-on session designed for small business owners, operators, founders, and team leads. We’ll cover the fundamentals of using ChatGPT, explore ways to incorporate AI into everyday business tasks, and help you build an AI-powered solution tailored to your work.
+Throughout the workshop, you’ll move from practical foundations into hands-on application. In the first part, you’ll build confidence using ChatGPT for everyday business work and see examples grounded in common small-business needs.
 
-You’ll learn how to get better results with stronger prompts, when to use tools like Search, Data Analysis, Voice Mode, and Projects, and how to turn rough business inputs into usable outputs like customer-ready content, internal checklists, summaries, and next-step plans. You’ll also see practical demos and get guided time to build an AI tool for tasks like a customer FAQ assistant, proposal builder, or onboarding and training coach.
+In the second, you’ll apply those ideas to a task that matters to your business. Facilitators and student mentors from San Jose State University will be available to answer questions, help you troubleshoot, and provide individual guidance as you develop your work. You’ll leave with something useful that you can continue building after the event.
 
-### What to expect
+## What you’ll do
 
-1. Breakfast and time to connect with other small business owners, operators, and partners
-2. A beginner-friendly introduction to ChatGPT for everyday business work
-3. Practical guidance on getting better results with prompting
-4. Live demos across marketing, customer communication, operations, and planning
-5. Hands-on time to build one simple, reusable solution for your business
-6. Support from facilitators as you test, improve, and save your workflow
+* Build practical confidence using ChatGPT for business.
 
-### Who should attend
+* See how AI can support common small-business needs.
 
-San Hose-area small business owners, operators, founders, and team leads who want practical, accessible ways to use AI in their daily work. No technical background is required. Bring a laptop or tablet so you can participate fully.
+* Apply what you learn to a task relevant to your work.
+
+* Leave with a useful starting point and resources for continuing.
+
+## Who should attend
+
+San Jose-area small business owners, operators, founders, and team leads who want practical ways to use AI in their daily work. No technical background is required.
+
+*Exact venue location will be sent 48 hours before the event.*
+
+*Bring a laptop and sign in to your ChatGPT account before arriving.*
+
+*All confirmed attendees will receive one year of ChatGPT Plus.*
 
 ## Agenda
 
@@ -61,7 +70,7 @@ Registration + Breakfast
 
 Check-in, grab coffee, and check your access.
 
-+ Read More
++ content:video.read\_more\_button
 
 From9:00 AM
 
@@ -77,9 +86,9 @@ Workshop
 
 ChatGPT Foundations
 
-An introductory session to give a practical foundation in using ChatGPT across everyday business operations, including marketing, customer communication, and administrative work.
+Learn prompting, responsible-use practices, data analysis, Projects, customer communication, and practical small-business workflows.
 
-+ Read More
++ content:video.read\_more\_button
 
 From10:30 AM
 
@@ -107,11 +116,11 @@ Tags:
 
 Workshop
 
-ChatGPT 201
+Solution Studio
 
-Designed to deepen understanding of what’s possible with ChatGPT by introducing more advanced prompting techniques, structured workflow development, and ChatGPT applications for more complex business functions.
+Choose one recurring business task, build a useful first version, test it, and add safeguards and review steps.
 
-+ Read More
++ content:video.read\_more\_button
 
 From12:00 PM
 
@@ -129,7 +138,7 @@ Closing
 
 ## Partners
 
-Starting in 36 days 12 hours
+Event has finished
 
 9:00 AM - 12:31 PM PDT (Event time zone)
 
@@ -137,7 +146,7 @@ August 27, 2026
 
 In Person
 
-Starting in 36 days 12 hours
+Event has finished
 
 9:00 AM - 12:31 PM PDT (Event time zone)
 

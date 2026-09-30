@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-hindi-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,11 +10,13 @@ Get Started
 
 # Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners (Hindi)
 
-Posted Jun 05, 2025 | Views 4.4K
+Posted Jun 05, 2025 | Views 5.3K
 
 # General Learners
 
 # Advanced & Builder Skills
+
+# Work
 
 # India; Hindi
 
@@ -37,23 +39,25 @@ Perfect for students, professionals, and business owners, this beginner-friendly
 
 ## Watch More
 
-[9:44](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[9:44](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-Posted Jun 05, 2025 | Views 10K
+Posted Jun 05, 2025 | Views 11.2K
 
 # General Learners
 
 # Advanced & Builder Skills
 
+# Work
+
 # India
 
-[7:24](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
+[7:24](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
 
-[ChatGPT for Research: Web Search, Deep Research & Code (Hindi)](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
+[ChatGPT for Research: Web Search, Deep Research & Code (Hindi)](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1.3K
+Posted Jun 05, 2025 | Views 1.6K
 
 # Educators & Students
 
@@ -65,11 +69,11 @@ Posted Jun 05, 2025 | Views 1.3K
 
 # India; Hindi
 
-[10:00](/en/public/videos/video-guidance-with-chatgpt-real-time-ai-assistance-for-creators-2025-09-15)
+[10:00](/public/videos/video-guidance-with-chatgpt-real-time-ai-assistance-for-creators-2025-09-15)
 
-[Video Guidance with ChatGPT: Real-Time AI Assistance for Creators](/en/public/videos/video-guidance-with-chatgpt-real-time-ai-assistance-for-creators-2025-09-15)
+[Video Guidance with ChatGPT: Real-Time AI Assistance for Creators](/public/videos/video-guidance-with-chatgpt-real-time-ai-assistance-for-creators-2025-09-15)
 
-Posted Oct 15, 2025 | Views 785
+Posted Oct 15, 2025 | Views 1.8K
 
 # Developers & Builders
 
@@ -77,4 +81,10 @@ Posted Oct 15, 2025 | Views 785
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+<!-- vimeo: 1091252201 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1091252201)

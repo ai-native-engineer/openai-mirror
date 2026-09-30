@@ -2,48 +2,13 @@
 
 # Sebastián Díaz Bolívar (Law)
 
-Posted Aug 02, 2025 | Views 680
+<!-- vimeo: 1109866509 | track: English (auto-generated) -->
 
-# Deployment & Adoption
+[▶ Watch on Vimeo](https://vimeo.com/1109866509)
 
-This video presents how law professors and students at Universidad Católica Luis Amigó are using ChatGPT to improve legal education through practical assignments, innovation, and social impact.
+<details>
+<summary>자막: Sebastián Díaz Bolívar (Law)</summary>
 
-Sebastián Díaz is a law professor at Universidad Católica Luis Amigó in Colombia. He specializes in LegalTech and artificial intelligence applied to law. Sebastián leads innovative projects that explore how AI can transform legal education and practice.
+At the Law School of University Catolica Luis Amigo, we teach our students how to use artificial intelligence in the legal world. We want them to be ready for the future of the legal profession. That is why we include AI in different courses and research projects. We also have a special lab called Sinergia where students learn how to use ChatGPT and the other tools. Our goal is to help them become lawyers who understand technology and use it to help people and improve justice. Greetings, my name is Sebastian Diaz. I'm a law teacher at the University Catolica Luis Amigo in Medellin, Colombia. It was a very nice surprise when we received your email, when you told us our initiative to use artificial intelligence in the classroom was selected as one of the leaders worldwide of how we can use artificial intelligence to help our students improve their legal assignments, their reading, their writing, and how efficient they can make the work. How we began with this? In two thousand twenty-three, when we saw the announcement of ChatGPT, we began to use the tools. And after that, our dean, Juan Esteban Aguirre Espinosa decided that we needed to make an assignment to teach our students how to use artificial intelligence in the law profession. In Colombia, not many lawyers know how to use ChatGPT and other AI tools and how to improve them. That is why we as a faculty of law in Medellín, Colombia, decided we need to be leaders in that subject. How did we do it? We decided to create a new assignment that was called LegalTech. LegalTech is an assignment that is used for teaching the students how they can use ChatGPT for-- first, they need to know that ChatGPT is a tool that's very important to have human supervision. We tell ChatGPT to help us build the legal documents they need to build. But for that, we teach them that it's very important to provide the tools to the, uh, artificial intelligence on how to use it. How do we do that? We take drafts or other legal documents that have been done by Colombian lawyers and by themselves, and then they use it, they upload it to the software, and after that, they decide to generate new legal documents. After that, we teach them how to improve their prompts, so if they have better prompting, they can have better documents. We have seen significant improvement in our students. We also have a legal clinic here that we use to help disadvantaged people. There, people who don't have many resources come to our school. They receive the legal assistance they need. And we have created a personalized GPT that helps them to create better documents. We tell our students how to use them. We have seen, for example, that... In Colombia, we have something called conciliation, and that needs to be done with a document called the Petition of Conciliation and also the Act of Conciliation. The time it took the students to make that was more or less like, um, fifty minutes, and we have improved that time to five to seven minutes. That's an improvement ten times faster than we had before. We also have used ChatGPT to improve the lecture and the analysis we made to the legal cases that have been made by the Colombian Supreme Court. How do we do that? We teach our students that, uh, how-- First obviously, we teach them the theory, how to use it, how to read a legal precedent. Then we use ChatGPT to process large amounts of legal precedents on how to detect the important things. It's very important that the artificial intelligence doesn't work by itself. We use the students and how we use them, they need to be supervising the work. They give OpenAI feedback on how to use it. We have seen in many of our students, the assignment has been done for more than a year and a half, and we have seen, for example, graduates of our school who have come back and told us that they have been selected by their companies to improve the legal assignment of all of their companies. That makes us very proud. It's very happy for us to see these results, and we are very excited about how OpenAI can help us and help everyone in the future with new models, with new powerful tools to make our law school more efficient, better, and more adequate for our students. Thank you very much. Hi, I'm a student member at Universidad Católica Luis Amigo. I am part of the lab at this university, and we use OpenAI technologies for the dual legal process because they are very helpful for us, optimizing time and helping us make great decisions. And my experience in that process is very grateful because the use of AI technologies from your enterprise, OpenAI, is very beneficial for us because they help the entire legal community-- uh, all legal community to, uh, keep us researching information and help us to make legal documents and are very good for us. Hi. At the legal clinic of University Cattolica Luis Amigo, we use artificial intelligence to help students and the community. Students learn how to use ChatGPT to write legal text, find information, and support legal cases. This helps them save time and improve the health of the people who come to our clinic. We believe it's important to teach students how to use technology in a good and ethical way.
 
-2
-
-Comments (2)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[10:00](/en/public/videos/jeanne-beatrix-law-writing-2025-08-20)
-
-[Jeanne Beatrix Law (Writing)](/en/public/videos/jeanne-beatrix-law-writing-2025-08-20)
-
-Posted Aug 01, 2025 | Views 880
-
-# Advanced & Builder Skills
-
-[10:00](/en/public/videos/paul-jurcys-law-2025-09-08)
-
-[Paul Jurcys (Law)](/en/public/videos/paul-jurcys-law-2025-09-08)
-
-Posted Aug 01, 2025 | Views 518
-
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Posted Mar 08, 2025 | Views 421K
-
-# Workplace & Business
-
-# Foundations
+</details>

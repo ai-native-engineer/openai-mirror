@@ -1,14 +1,20 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19 -->
 
-[navigation.content](/public/clubs/builders-etkn1/content)
+[Builders](/public/clubs/builders-etkn1/overview)
+
+[Content](/public/clubs/builders-etkn1/content)
 
 # API Builder Bootcamp
 
 ![API Builder Bootcamp](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/exec-eadd86a0-111b-4710-945e-b6cf7db009e2-cb414511-0425-45f0-a76e-e9f8e4d84279-1786564523165.jpeg?fit=scale-down&width=1200)
 
+# Advanced & Builder Skills
+
 # AI for Coding
 
 # AI Techniques
+
+# Developers & Builders
 
 # Enablement
 
@@ -58,7 +64,7 @@ Join us each week for a new topic, with all sessions running live from 10:00–1
 
 * ﻿ [Register for Production and Optimization](https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-production-and-optimization-jczbahx95z?autoRsvp=true)
 
-## Popular
+[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
 
 [35:53](/public/clubs/builders-etkn1/videos/ai-techniques-tools-and-features-in-the-responses-api)
 
@@ -66,66 +72,44 @@ Video
 
 [AI Techniques (Foundations): Responses API Tools & Features](/public/clubs/builders-etkn1/videos/ai-techniques-tools-and-features-in-the-responses-api)
 
-Resource
-
 [GPT-5 for Builders](/public/clubs/builders-etkn1/resources/gpt-5-for-builders)
 
-[1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
+
+Apr 22nd, 2026 • Views 26.8K
+
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
+
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Ryan Taylor
-
-Dive in
-
-## Related
-
-Resource
-
-[Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
-
-Apr 22nd, 2026 • Views 24.6K
-
-Resource
-
-[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
-
-Jul 16th, 2025 • Views 10.3K
-
-Resource
+Sep 14th, 2026 • Views 1.5K
 
 [Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-09-23)
 
-Aug 12th, 2026 • Views 431
-
-Resource
-
-[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
-
-By Sean Lubbers • Jul 18th, 2026 • Views 10.5K
-
-Resource
+Aug 12th, 2026 • Views 8.1K
 
 [Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
 
-Apr 22nd, 2026 • Views 24.6K
+Apr 22nd, 2026 • Views 26.8K
 
-Resource
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 [Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-09-23)
 
-Aug 12th, 2026 • Views 431
-
-Resource
+Aug 12th, 2026 • Views 8.1K
 
 [Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
 
-By Sean Lubbers • Jul 18th, 2026 • Views 10.5K
-
-Resource
-
-[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
-
-Jul 16th, 2025 • Views 10.3K
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K

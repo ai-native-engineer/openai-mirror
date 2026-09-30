@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/gather-appropriate-evidence-of-value-2026-07-17 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Gather appropriate evidence of value
 
@@ -14,9 +14,11 @@
 
 # Champions
 
+# Portfolio Company Finance
+
 ## Demonstrate whether a workflow is being used, operating as intended, and making work better.
 
-July 17, 2026
+July 17, 2026 · Last updated on September 28, 2026
 
 ![Gather appropriate evidence of value](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Gather-appropriate-evidence-of-value-style-thumb--dc15af96-fbdf-41ac-816c-02452cc4100c-1784311765155.jpeg?fit=scale-down&width=1200)
 
@@ -36,7 +38,7 @@ Adoption evidence shows whether the workflow has moved beyond initial interest a
 
 * Additional people beginning to use the workflow
 
-* Reuse of a shared prompt, template, GPT, skill, or other asset
+* Reuse of a shared prompt, template, skill, or other asset
 
 * Use across multiple relevant tasks or situations
 
@@ -196,7 +198,7 @@ A perfect measurement system is not necessary to get started. A simple timestamp
 
 Capture what can be supported today. A small credible signal is more useful than an impressive claim that cannot be defended.
 
-Like
+1
 
 Sign in or Join the community
 
@@ -204,72 +206,48 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-Resource
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Jul 17th, 2026 • Views 438
 
-Resource
-
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
-
-Dive in
-
-## Related
-
-Resource
-
-[Workflow evidence coach](/en/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
-
-Jul 17th, 2026 • Views 63
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jul 9th, 2026 • Views 160
+Sep 14th, 2026 • Views 1.5K
 
-Resource
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Aug 5th, 2025 • Views 5.1K
 
-Aug 5th, 2025 • Views 4.4K
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-Resource
+Jun 17th, 2026 • Views 1.2K
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-Jun 17th, 2026 • Views 478
+Jul 17th, 2026 • Views 438
 
-Resource
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Workflow evidence coach](/en/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
+Aug 5th, 2025 • Views 5.1K
 
-Jul 17th, 2026 • Views 63
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-Resource
+Jun 17th, 2026 • Views 1.2K
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
-
-Aug 5th, 2025 • Views 4.4K
-
-Resource
-
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
-
-Jun 17th, 2026 • Views 478
-
-[30:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Recording: Make Work Flow: Streamline team engagement with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-streamline-team-engagement-with-codex-2026-07-09)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jul 9th, 2026 • Views 160
+Sep 14th, 2026 • Views 1.5K

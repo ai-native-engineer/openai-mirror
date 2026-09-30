@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -76,7 +76,7 @@ This is a strong use case when the same announcement needs a cabinet summary, a 
 | --- |
 | Build me a skill for our university communications and operations team.  ﻿  The skill's job is to turn rough source material into standardized office-ready outputs.  ﻿  Required inputs:  - meeting notes, draft copy, spreadsheets, policy text, or bullet points  - the target audience  - the type of deliverable needed  ﻿  Workflow:  1. Identify the core task and audience.  2. Use only the provided source material unless I explicitly ask for outside research.  3. Organize the output in the format requested.  4. Keep the language plain, specific, and easy to scan.  5. Flag missing information, weak evidence, or assumptions instead of filling gaps with guesses.  6. End with a short quality check confirming whether the output is ready to use or still needs human review.  ﻿  Required output formats the skill should support:  - executive brief  - student-facing email  - FAQ  - action tracker  - campaign brief  ﻿  Final quality checks:  - confirm the tone matches the audience  - confirm the output includes all required sections  - confirm unsupported claims are clearly labeled  - confirm anything involving policy, student status, aid, or compliance is flagged for human review |
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=Build%20me%20a%20skill%20for%20our%20university%20communications%20and%20operations%20team.%0A%0AThe%20skill%27s%20job%20is%20to%20turn%20rough%20source%20material%20into%20standardized%20office-ready%20outputs.%0A%0ARequired%20inputs%3A%0A-%20meeting%20notes%2C%20draft%20copy%2C%20spreadsheets%2C%20policy%20text%2C%20or%20bullet%20points%0A-%20the%20target%20audience%0A-%20the%20type%20of%20deliverable%20needed%0A%0AWorkflow%3A%0A1.%20Identify%20the%20core%20task%20and%20audience.%0A2.%20Use%20only%20the%20provided%20source%20material%20unless%20I%20explicitly%20ask%20for%20outside%20research.%0A3.%20Organize%20the%20output%20in%20the%20format%20requested)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=Build%20me%20a%20skill%20for%20our%20university%20communications%20and%20operations%20team.%0A%0AThe%20skill%27s%20job%20is%20to%20turn%20rough%20source%20material%20into%20standardized%20office-ready%20outputs.%0A%0ARequired%20inputs%3A%0A-%20meeting%20notes%2C%20draft%20copy%2C%20spreadsheets%2C%20policy%20text%2C%20or%20bullet%20points%0A-%20the%20target%20audience%0A-%20the%20type%20of%20deliverable%20needed%0A%0AWorkflow%3A%0A1.%20Identify%20the%20core%20task%20and%20audience.%0A2.%20Use%20only%20the%20provided%20source%20material%20unless%20I%20explicitly%20ask%20for%20outside%20research.%0A3.%20Organize%20the%20output%20in%20the%20format%20requested)﻿
 
 ## What Good Looks Like
 
@@ -104,60 +104,60 @@ For Higher Ed teams, a good result usually means:
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Build Reusable Skills for the Way You Study](/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
 
 Blog
 
-[Build Reusable Skills for the Way You Study](/en/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 19th, 2026 • Views 46
-
-Blog
-
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
-
-May 20th, 2026 • Views 201
+May 19th, 2026 • Views 459
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[Build Skills for High-Value Teaching Workflows](/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
-
-Blog
-
-[Prompt Like a Campus Administrator](/en/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
-
-May 19th, 2026 • Views 97
+May 20th, 2026 • Views 706
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-May 19th, 2026 • Views 46
-
-Blog
-
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
-
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
 
 Blog
 
-[Prompt Like a Campus Administrator](/en/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
+[Prompt Like a Campus Administrator](/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
 
-May 19th, 2026 • Views 97
+May 19th, 2026 • Views 685
 
 Blog
 
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 20th, 2026 • Views 201
+May 19th, 2026 • Views 459
+
+Blog
+
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
+
+Blog
+
+[Prompt Like a Campus Administrator](/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
+
+May 19th, 2026 • Views 685
+
+Blog
+
+[Build Skills for High-Value Teaching Workflows](/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
+
+May 20th, 2026 • Views 706

@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/ava-morton-chatgpt-accessible-special-education -->
 
+Article
+
 August 5, 2026
 
 # How Ava Morton uses ChatGPT to make learning more accessible
@@ -7,8 +9,6 @@ August 5, 2026
 ![How Ava Morton uses ChatGPT to make learning more accessible](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/1784286244017-489cc7cb-613d-4710-9101-7f63d3fdd81e-1785889767916.jpeg?fit=scale-down&width=1200)
 
 # Educators & Students
-
-# ChatGPT
 
 # Education
 
@@ -36,46 +36,66 @@ She said ChatGPT is not replacing the teacher. It is helping teachers adjust mor
 
 [34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
+Video
+
 [ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 By Juliann Igo
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 910
-
-[How Colin Knudsen uses Codex to turn customer conversations into working demos](/public/blogs/colin-knudsen-proaction-codex-customer-demos)
-
-Aug 5th, 2026 • Views 72
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 33
+Blog
 
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-Jun 4th, 2026 • Views 444
+Blog
+
+[A nonprofit founder uses ChatGPT to help more workers in crisis](/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02)
+
+Sep 2nd, 2026 • Views 183
+
+Blog
+
+[How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
+
+Aug 17th, 2026 • Views 305
+
+Blog
 
 [How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Mar 23rd, 2026 • Views 910
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 33
+Aug 5th, 2026 • Views 310
 
-[How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
+Blog
 
-Jun 4th, 2026 • Views 444
+[A nonprofit founder uses ChatGPT to help more workers in crisis](/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02)
 
-[How Colin Knudsen uses Codex to turn customer conversations into working demos](/public/blogs/colin-knudsen-proaction-codex-customer-demos)
+Sep 2nd, 2026 • Views 183
 
-Aug 5th, 2026 • Views 72
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310
+
+Blog
+
+[How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
+
+Aug 17th, 2026 • Views 305

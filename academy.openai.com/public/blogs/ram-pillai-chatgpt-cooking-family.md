@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/ram-pillai-chatgpt-cooking-family -->
 
+Article
+
 August 5, 2026
 
 # How ChatGPT helps Ram Pillai improvise in the kitchen
@@ -30,21 +32,29 @@ He has also learned how quickly a cluttered kitchen can become dangerous. While 
 
 Ram is still learning how much seasoning to add, how to balance flavors and how to rescue a dish that is too salty. Meal by meal, with Raj beside him and ChatGPT available when the recipe falls short, he is learning to walk into the kitchen, work with what is there and feed the people around him.
 
-[4:23](/public/videos/chatgpt-projects-2025-02-13)
-
-[ChatGPT Projects](/public/videos/chatgpt-projects-2025-02-13)
-
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
 
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
+[4:23](/public/videos/chatgpt-projects-2025-02-13)
+
+Video
+
+[ChatGPT Projects](/public/videos/chatgpt-projects-2025-02-13)
+
 [9:13](/public/videos/chatgpt-and-reasoning-2025-02-13)
+
+Video
 
 [ChatGPT & Reasoning](/public/videos/chatgpt-and-reasoning-2025-02-13)
 
+Blog
+
 [How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
-Feb 5th, 2026 • Views 2.6K
+Feb 5th, 2026 • Views 3K
 
 External Content
 
@@ -52,25 +62,35 @@ External Content
 
 Mar 11th, 2025 • Views 3.9K
 
+Blog
+
 [How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
 
-Aug 6th, 2026 • Views 18
+Aug 6th, 2026 • Views 355
+
+Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 806
+Apr 28th, 2026 • Views 1.1K
+
+Blog
 
 [How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
-Feb 5th, 2026 • Views 2.6K
+Feb 5th, 2026 • Views 3K
+
+Blog
 
 [How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
 
-Aug 6th, 2026 • Views 18
+Aug 6th, 2026 • Views 355
+
+Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 806
+Apr 28th, 2026 • Views 1.1K
 
 External Content
 

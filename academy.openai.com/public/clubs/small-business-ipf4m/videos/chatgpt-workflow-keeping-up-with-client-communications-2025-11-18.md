@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-keeping-up-with-client-communications-2025-11-18 -->
+
 # ChatGPT Workflow: Keeping Up with Client Communications
 
 <!-- vimeo: 1132158203 | track: English (auto-generated) -->

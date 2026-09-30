@@ -1,19 +1,19 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/events -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-Event
+Events
 
-8304 members
+10373 members
 
 Small Business
 
 Join community
 
-[Overview](/en/public/clubs/small-business-ipf4m/overview)
+[Overview](/public/clubs/small-business-ipf4m/overview)
 
-[Events](/en/public/clubs/small-business-ipf4m/events)
+[Events](/public/clubs/small-business-ipf4m/events)
 
-[Content](/en/public/clubs/small-business-ipf4m/content)
+[Content](/public/clubs/small-business-ipf4m/content)
 
 AllUpcomingNowPast

@@ -1,14 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/resources/how-news-uk-broadcasting-uses-chatgpt-work-as-a-strategic-finance-partner-2026-08-06 -->
 
-[Communities](/home/clubs)
-
-/
-
 [News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-/
+[Content](/public/clubs/news-organizations-b9osl/content)
 
-[navigation.content](/public/clubs/news-organizations-b9osl/content)
+Article
+
+August 6, 2026 · Last updated on August 27, 2026
 
 # How News UK Broadcasting Uses ChatGPT Work as a Strategic Finance Partner
 
@@ -22,13 +20,13 @@
 
 # EMEA
 
+# Portfolio Company Finance
+
 ## ChatGPT Work helps News UK Broadcasting accelerate commercial analysis, stress-test financial assumptions, identify risks, and sharpen executive decision-making.
 
 ![How News UK Broadcasting Uses ChatGPT Work as a Strategic Finance Partner](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-06-at-18-24-cb299910-2ad2-40b9-95bf-267b947a3336-1786037092050.jpeg?fit=scale-down&width=1200)
 
 ***This resource was produced by News UK, a trusted partner in the UK. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views.***
-
-﻿
 
 In the fast-paced environment of News UK Broadcasting (home to brands like talkSPORT, Times Radio, and Virgin Radio) commercial finance teams are constantly evaluating complex business models, evaluating partner proposals, and presenting strategic recommendations to executive leadership.
 
@@ -72,7 +70,7 @@ Using ChatGPT Enterprise, News UK Broadcasting’s commercial finance team estab
 
 4. **Executive-Level Communication**
 
-* *Scenario:* Refining investor-relations presentations and deep-dive ~~cost~~ analyses for executive leadership.
+* *Scenario:* Refining investor-relations presentations and deep-dive analyses for executive leadership.
 
 * *How AI Helped:* The tool sharpened core narratives, highlighted high-impact metrics, anticipated potential executive board questions, and polished presentation materials into board-ready deliverables.
 
@@ -92,56 +90,78 @@ Using ChatGPT Enterprise, News UK Broadcasting’s commercial finance team estab
 
 [49:00](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
+Video
+
 [AI Essentials for Journalists](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
-[35:00](/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
+[4:20](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
 
-[On the air with AI: Behind the scenes at TBPN](/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
+Video
+
+[Skills vs. Agents](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
 
 By Evan Hirsch
 
-[How VG Built an AI “Buddy” for Journalists](/public/clubs/news-organizations-b9osl/resources/how-vg-built-an-ai-buddy-for-journalists)
+[2:50](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
-External Content
+Video
 
-[How news organizations are using AI to advance their vital missions](/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22)
+[Power Prompting](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
-Jul 23rd, 2026 • Views 24
+By Evan Hirsch
 
-[4:20](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+[53:30](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-[Skills vs. Agents](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+Video
 
-By Evan Hirsch • Jul 13th, 2026 • Views 701
+[ChatGPT for Visual Storytelling](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-[Vox gives every journalist a first stop for style and standards questions](/public/clubs/news-organizations-b9osl/resources/vox-styles-and-standards-bot)
+By Tim Meko • Sep 24th, 2026 • Views 761
 
-Jul 15th, 2026 • Views 623
+[52:00:00](/public/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
 
-[2:40](/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+Video
 
-[Spot The Fake](/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+[ChatGPT 201 For Midterms](/public/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
 
-By Evan Hirsch • Jul 15th, 2026 • Views 332
+By Evan Hirsch • Aug 11th, 2026 • Views 872
 
-External Content
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[How news organizations are using AI to advance their vital missions](/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22)
+Video
 
-Jul 23rd, 2026 • Views 24
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Vox gives every journalist a first stop for style and standards questions](/public/clubs/news-organizations-b9osl/resources/vox-styles-and-standards-bot)
+Sep 14th, 2026 • Views 1.5K
 
-Jul 15th, 2026 • Views 623
+[How The Washington Post builds AI agents to make complex analytics easier to understand](/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents)
 
-[2:40](/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+Aug 28th, 2026 • Views 295
 
-[Spot The Fake](/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+[53:30](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-By Evan Hirsch • Jul 15th, 2026 • Views 332
+Video
 
-[4:20](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+[ChatGPT for Visual Storytelling](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-[Skills vs. Agents](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+By Tim Meko • Sep 24th, 2026 • Views 761
 
-By Evan Hirsch • Jul 13th, 2026 • Views 701
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[How The Washington Post builds AI agents to make complex analytics easier to understand](/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents)
+
+Aug 28th, 2026 • Views 295
+
+[52:00:00](/public/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
+
+Video
+
+[ChatGPT 201 For Midterms](/public/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
+
+By Evan Hirsch • Aug 11th, 2026 • Views 872

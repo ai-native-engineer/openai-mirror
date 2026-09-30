@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/resources/government-employee-guide-to-using-chatgpt-voice -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 July 24, 2026 · Last updated on August 4, 2026
@@ -10,9 +14,13 @@ July 24, 2026 · Last updated on August 4, 2026
 
 # AI Techniques
 
+# Government
+
 ## Less typing. More mission momentum: use ChatGPT Voice to think aloud, steer the work, and turn spoken direction into review-ready results.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Talk It Through: A Government Employee’s Guide to ChatGPT Voice](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-8--b193fffc-e135-4566-98aa-a2881ab09f1f-1784901941624.jpeg?fit=scale-down&width=1200)
 
@@ -271,38 +279,64 @@ So start small. Choose one lower-risk assignment. Say the outcome, name the sour
 
 Then talk it through.
 
-[11:26](/public/clubs/government/videos/getting-started-chatgpt-government)
+Like
 
-[Getting Started with ChatGPT Enterprise for Government Employees](/public/clubs/government/videos/getting-started-chatgpt-government)
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/clubs/government/resources/govt-prompt-pack-leaders)
+
+By David Sperry
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry
+
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
-
-[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
-
-By Amanda Bullock • Aug 19th, 2026 • Views 21
-
-By David Sperry • Jul 19th, 2025 • Views 210
+By Laura Keenan • Jul 24th, 2026 • Views 189
 
 [1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
 
+Video
+
 [ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 15
+By Amanda Bullock • Aug 6th, 2026 • Views 160
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry • Jul 19th, 2025 • Views 334
+
+[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
+
+By Amanda Bullock • Aug 19th, 2026 • Views 92
+
+Blog
 
 [The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
 
-By Laura Keenan • Jul 24th, 2026 • Views 49
+By Laura Keenan • Jul 24th, 2026 • Views 189
 
-By David Sperry • Jul 19th, 2025 • Views 210
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
-
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
-
-By Amanda Bullock • Aug 6th, 2026 • Views 15
+By David Sperry • Jul 19th, 2025 • Views 334
 
 [ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
 
-By Amanda Bullock • Aug 19th, 2026 • Views 21
+By Amanda Bullock • Aug 19th, 2026 • Views 92
+
+[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+
+Video
+
+[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+
+By Amanda Bullock • Aug 6th, 2026 • Views 160

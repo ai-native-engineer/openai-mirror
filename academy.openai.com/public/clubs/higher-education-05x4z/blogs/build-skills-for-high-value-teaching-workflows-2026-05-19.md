@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -52,58 +52,66 @@ Researchers might build skills for literature notes, grant-opportunity summaries
 
 If someone has rewritten the same prompt three times, a skill may help. Keep the first version narrow, test it on real work, and revise the instructions after reviewing the output.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Build Reusable Skills for the Way You Study](/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
+
+May 18th, 2026 • Views 870
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Build Reusable Skills for the Way You Study](/en/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
-May 18th, 2026 • Views 157
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
-
-Blog
-
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
-
-May 6th, 2026 • Views 348
+May 6th, 2026 • Views 905
 
 Blog
 
-[Build Reusable Skills for the Way You Study](/en/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
+[Build Reusable Skills for the Way You Study](/public/clubs/higher-education-05x4z/blogs/build-reusable-skills-for-the-way-you-study-2026-05-18)
 
-May 18th, 2026 • Views 157
-
-Blog
-
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
-
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
+May 18th, 2026 • Views 870
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
-May 6th, 2026 • Views 348
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+Blog
 
-Jun 9th, 2026 • Views 400
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+
+May 6th, 2026 • Views 905
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K

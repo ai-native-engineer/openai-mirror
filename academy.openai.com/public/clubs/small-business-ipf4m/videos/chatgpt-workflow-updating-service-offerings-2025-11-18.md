@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-updating-service-offerings-2025-11-18 -->
+
 # ChatGPT Workflow: Updating Service Offerings
 
 <!-- vimeo: 1132158002 | track: English (auto-generated) -->

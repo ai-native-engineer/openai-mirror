@@ -4,15 +4,19 @@
 
 LIVESTREAM
 
+3:00 PM - 3:30 PM GMT
+
+July 7, 2026
+
 # Codex for Everyday Use
 
-Register
+[Replay](https://academy.openai.com/home/videos/codex-for-everyday-use-2026-07-17)
 
 In this session, we'll explore ways people are using Codex to support everyday projects and tasks—from organizing information and planning activities to creating simple tools that make life a little easier. We'll focus on practical examples and leave some time for questions and ideas from the audience.
 
 Whether you're looking to save time, stay organized, or simply experiment with something new, this session will help you think about how Codex might fit into your daily life! No coding experience is required.
 
-Download Codex in advance of our session to follow along at **<https://openai.com/codex>.**
+Download Codex in advance of our session to follow along at  [**https://openai.com/codex**](https://openai.com/codex)**.**
 
 ## Speakers
 
@@ -24,25 +28,11 @@ AI Deployment Manager @ OpenAI
 
 View Profile
 
-Live in 11 days 8 hours
+Event has finished
 
-July 07, 3:00 PM GMT
+3:00 PM - 3:30 PM GMT
 
-Online
-
-Organized by
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
-
-OpenAI Academy
-
-Register
-
-Add to calendar
-
-Live in 11 days 8 hours
-
-July 07, 3:00 PM GMT
+July 7, 2026
 
 Online
 
@@ -52,6 +42,20 @@ Organized by
 
 OpenAI Academy
 
-Register
+[Replay](https://academy.openai.com/home/videos/codex-for-everyday-use-2026-07-17)
 
-Add to calendar
+Event has finished
+
+3:00 PM - 3:30 PM GMT
+
+July 7, 2026
+
+Online
+
+Organized by
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
+
+OpenAI Academy
+
+[Replay](https://academy.openai.com/home/videos/codex-for-everyday-use-2026-07-17)

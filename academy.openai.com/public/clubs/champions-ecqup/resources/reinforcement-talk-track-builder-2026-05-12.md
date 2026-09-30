@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/reinforcement-talk-track-builder-2026-05-12 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Write a leadership reinforcement talk track
 
@@ -11,6 +11,8 @@
 # Leaders & Admins
 
 # Workplace & Business
+
+# Work
 
 # Activators
 
@@ -281,7 +283,7 @@ The result should be:
 
 * Better evidence about what is working, where adoption is stalling, and whether the workflow is ready to expand
 
-2
+4
 
 Sign in or Join the community
 
@@ -289,66 +291,64 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Run a prompt challenge](/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+[Turn updates in review-ready leadership decks](/public/clubs/champions-ecqup/resources/turn-updates-into-review-ready-leadership-decks-2026-07-23)
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+Jul 23rd, 2026 • Views 483
 
-Video
-
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 89
-
-[Practice better CRM hygiene with Codex](/en/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 113
-
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
 Video
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Jun 18th, 2026 • Views 56
+Aug 27th, 2026 • Views 472
 
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Video
-
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 79
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 89
+Sep 14th, 2026 • Views 1.5K
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Jun 18th, 2026 • Views 79
+Sep 10th, 2026 • Views 406
 
-[Practice better CRM hygiene with Codex](/en/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
+[Turn updates in review-ready leadership decks](/public/clubs/champions-ecqup/resources/turn-updates-into-review-ready-leadership-decks-2026-07-23)
 
-Jun 18th, 2026 • Views 113
+Jul 23rd, 2026 • Views 483
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Video
+
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Sep 10th, 2026 • Views 406
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Video
+
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Aug 27th, 2026 • Views 472

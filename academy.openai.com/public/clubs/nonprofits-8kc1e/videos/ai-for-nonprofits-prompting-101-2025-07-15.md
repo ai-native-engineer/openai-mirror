@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-prompting-101-2025-07-15 -->
+
 # AI for Nonprofits: Prompting 101
 
 <!-- vimeo: 1101761957 | track: English (auto-generated) -->

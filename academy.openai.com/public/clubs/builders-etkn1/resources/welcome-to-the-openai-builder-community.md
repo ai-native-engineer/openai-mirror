@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.content](/en/public/clubs/builders-etkn1/content)
+[Content](/public/clubs/builders-etkn1/content)
 
 # Welcome to the OpenAI Builder Community
 
@@ -11,6 +11,8 @@
 # Developers & Builders
 
 # Advanced & Builder Skills
+
+# Work
 
 ## A quick start guide to getting up to speed with the builder community
 
@@ -46,7 +48,7 @@ Accelerate your development process with expert-curated frameworks and patterns 
 
 ## AI App Development Learning Track
 
-Explore the full track here: <https://developers.openai.com/tracks/ai-application-development>﻿
+Explore the full track here:  <https://developers.openai.com/tracks/ai-application-development>﻿
 
 This structured e-learning program guides you from **concept to production**, ensuring you can build robust, scalable AI applications. It’s organized into four parts:
 
@@ -64,72 +66,66 @@ This structured e-learning program guides you from **concept to production**, en
 
 To get the most from these resources, consider this recommended approach:
 
-1. Start with the [**AI Techniques videos**](https://academy.openai.com/home/clubs/builders-etkn1/tags/ai-techniques-6877d65781524bc22944d151) if you're new or looking to refresh your knowledge.
+1. Start with the  [**AI Techniques videos**](https://academy.openai.com/home/clubs/builders-etkn1/tags/ai-techniques-6877d65781524bc22944d151) if you're new or looking to refresh your knowledge.
 
-2. Progress through the comprehensive [**AI Application Development track**](https://academy.openai.com/home/clubs/builders-etkn1/externals/ai-app-development-concept-to-production-2025-08-18) to build a strong foundation and structured approach.
+2. Progress through the comprehensive  [**AI Application Development track**](https://academy.openai.com/home/clubs/builders-etkn1/externals/ai-app-development-concept-to-production-2025-08-18) to build a strong foundation and structured approach.
 
-3. Dive deeper using our **Solution Accelerators** and [additional learning tracks](https://academy.openai.com/home/clubs/builders-etkn1/tags/technical-learning-tracks-68a3cb3bb6735037ee532c79) on developers.openai.com to enhance your knowledge across specialized AI use cases and techniques.
+3. Dive deeper using our **Solution Accelerators** and  [additional learning tracks](https://academy.openai.com/home/clubs/builders-etkn1/tags/technical-learning-tracks-68a3cb3bb6735037ee532c79) on developers.openai.com to enhance your knowledge across specialized AI use cases and techniques.
 
 Welcome aboard, let’s start building.
 
-Table Of Contents
-
-[GPT-5 for Builders](/en/public/clubs/builders-etkn1/resources/gpt-5-for-builders)
-
-[1:00:00](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[37:26](/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
 
 Video
 
-[Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
-
-By Ryan Taylor
-
-[MCP for Builders](/en/public/clubs/builders-etkn1/resources/mcp-for-builders)
-
-[Builder Bootcamp](/en/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
-
-Apr 22nd, 2026 • Views 21.8K
+[AI Techniques (Foundations): Introduction to Agentic Workflows](/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
 
 External Content
 
-[AI App Development: Concept to Production](/en/public/clubs/builders-etkn1/externals/ai-app-development-concept-to-production-2025-08-18)
+[AI App Development: Concept to Production](/public/clubs/builders-etkn1/externals/ai-app-development-concept-to-production-2025-08-18)
 
-Aug 19th, 2025 • Views 3.3K
+[GPT-5 for Builders](/public/clubs/builders-etkn1/resources/gpt-5-for-builders)
 
-External Content
+[Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
 
-[How OpenAI uses Codex](/en/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
+Apr 22nd, 2026 • Views 26.8K
 
-Mar 18th, 2026 • Views 461
-
-[37:26](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[AI Techniques (Foundations): Introduction to Agentic Workflows](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Aug 7th, 2025 • Views 7.3K
+Sep 14th, 2026 • Views 1.5K
 
-[Builder Bootcamp](/en/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
+[API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
 
-Apr 22nd, 2026 • Views 21.8K
+Aug 12th, 2026 • Views 19.1K
 
 External Content
 
-[How OpenAI uses Codex](/en/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
+[How OpenAI uses Codex](/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
 
-Mar 18th, 2026 • Views 461
+Mar 18th, 2026 • Views 662
 
-[37:26](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+[Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
+
+Apr 22nd, 2026 • Views 26.8K
+
+[API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
+
+Aug 12th, 2026 • Views 19.1K
+
+External Content
+
+[How OpenAI uses Codex](/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
+
+Mar 18th, 2026 • Views 662
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[AI Techniques (Foundations): Introduction to Agentic Workflows](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Aug 7th, 2025 • Views 7.3K
-
-External Content
-
-[AI App Development: Concept to Production](/en/public/clubs/builders-etkn1/externals/ai-app-development-concept-to-production-2025-08-18)
-
-Aug 19th, 2025 • Views 3.3K
+Sep 14th, 2026 • Views 1.5K

@@ -32,70 +32,66 @@ English teacher Lakshita Rai described the impact in her classroom this way:
 Together, the Foundations program and ChatGPT Go reflect a broader commitment to supporting teachers globally as AI reshapes learning and teaching.
 And for DPS Bangalore North, the early momentum is already prompting another question. During a recent visit, the school’s leadership asked when OpenAI plans to expand ChatGPT Foundations beyond teachers—to include students in grades 9 through 12.
 
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[13:02](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 Video
 
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
-
-By Kyle Behrend
-
-[10:01](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-reverse-engineering-a-visual-campaign-2025-07-15)
-
-Video
-
-[AI for Nonprofits: Reverse Engineering a Visual Campaign](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-reverse-engineering-a-visual-campaign-2025-07-15)
+[AI for Nonprofits: Creating a Custom GPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 By Kyle Behrend
 
 Blog
 
-[How Alex Lupsasca learned to trust AI for real physics](/en/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
+[Terence Tao: AI is ready for primetime in math and theoretical physics](/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
+
+Blog
+
+[How a high school student built a civil-rights archive with ChatGPT](/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28)
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
-
-Blog
-
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
-
-Mar 6th, 2026 • Views 4.2K
+Mar 11th, 2025 • Views 4.4K
 
 Blog
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+[How Alex Lupsasca learned to trust AI for real physics](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
 
-Jun 14th, 2026 • Views 231
+Feb 2nd, 2026 • Views 2.5K
 
 Blog
 
-[How The San Francisco Standard is building an AI-first local news experience](/en/public/blogs/san-francisco-standard-ai-first-local-news)
+[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
 
-Jun 4th, 2026 • Views 173
+Jun 14th, 2026 • Views 837
+
+Blog
+
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
+
+Aug 28th, 2026 • Views 298
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
-
-Blog
-
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
-
-Jun 14th, 2026 • Views 231
+Mar 11th, 2025 • Views 4.4K
 
 Blog
 
-[How The San Francisco Standard is building an AI-first local news experience](/en/public/blogs/san-francisco-standard-ai-first-local-news)
+[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
 
-Jun 4th, 2026 • Views 173
+Jun 14th, 2026 • Views 837
 
 Blog
 
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
 
-Mar 6th, 2026 • Views 4.2K
+Aug 28th, 2026 • Views 298
+
+Blog
+
+[How Alex Lupsasca learned to trust AI for real physics](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)
+
+Feb 2nd, 2026 • Views 2.5K

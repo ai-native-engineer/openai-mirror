@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/resources/four-gpt-templates-for-small-businesses-2026-03-05 -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-[navigation.content](/en/public/clubs/small-business-ipf4m/content)
+[Content](/public/clubs/small-business-ipf4m/content)
 
 Article
 
@@ -15,6 +15,8 @@ March 5, 2026 · Last updated on May 29, 2026
 # Workplace & Business
 
 # Advanced & Builder Skills
+
+# Work
 
 ## Build practical GPTs step by step—for marketing, customer feedback, customer communications, and operations.
 
@@ -50,7 +52,7 @@ This guide is designed to help you build practical GPTs for real work. Each temp
 
 ### **Core steps to build a GPT**
 
-1. Open [chatgpt.com/gpts/editor](https://chatgpt.com/gpts/editor), or go to chatgpt.com/gpts and click “+ Create.”
+1. Open  [chatgpt.com/gpts/editor](https://chatgpt.com/gpts/editor), or go to chatgpt.com/gpts and click “+ Create.”
 
 2. Choose how you want to build. The **Create** tab lets you chat with the GPT Builder; the **Configure** tab lets you set everything directly. For jam build time, Configure is usually faster.
 
@@ -505,62 +507,60 @@ Now that you've built a draft, check whether your GPT works across typical tasks
 
 #### A useful GPT should feel less like a demo and more like a tool you would genuinely return to. If what you built helps you communicate more clearly, spot issues faster, or make everyday operations more consistent, that is real progress. Start small, keep what works, and improve the rest over time. Share what you built in the comments so others can see what’s possible and build on your ideas.
 
-Table Of Contents
+[Small Business Prompt Pack](/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
 
-[Small Business Prompt Pack](/en/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
-
-[How DoorDash merchants can use ChatGPT to run a more efficient business](/en/public/clubs/small-business-ipf4m/resources/how-doordash-merchants-can-use-chatgpt-to-run-a-more-efficient-business-2025-12-15)
-
-[8:05](/en/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-customer-response-plan-2025-11-18)
+[1:00:00](/public/clubs/small-business-ipf4m/videos/sme-ai-accelerator-virtual-replay-2026-05-26)
 
 Video
 
-[ChatGPT Workflow: Creating a customer response plan](/en/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-customer-response-plan-2025-11-18)
+[SME AI Accelerator - Virtual Replay](/public/clubs/small-business-ipf4m/videos/sme-ai-accelerator-virtual-replay-2026-05-26)
 
-[22:14](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
+[How DoorDash merchants can use ChatGPT to run a more efficient business](/public/clubs/small-business-ipf4m/resources/how-doordash-merchants-can-use-chatgpt-to-run-a-more-efficient-business-2025-12-15)
 
-Video
-
-[ChatGPT 102 for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
-
-By Juliann Igo • Nov 18th, 2025 • Views 9.6K
-
-[Bellevue Small Business Jam](/en/public/clubs/small-business-ipf4m/resources/bellevue-small-business-jam-2026-03-02)
-
-Mar 2nd, 2026 • Views 1.2K
-
-[34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[22:14](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
 Video
 
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[ChatGPT 102 for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
-By Juliann Igo • Nov 18th, 2025 • Views 24.8K
+By Juliann Igo • Nov 18th, 2025 • Views 12.1K
 
-[ChatGPT Use Cases for Work GPT](/en/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
+[Bellevue Small Business Jam](/public/clubs/small-business-ipf4m/resources/bellevue-small-business-jam-2026-03-02)
 
-Dec 5th, 2025 • Views 5.6K
+Mar 2nd, 2026 • Views 2.5K
 
-[22:14](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
-
-Video
-
-[ChatGPT 102 for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
-
-By Juliann Igo • Nov 18th, 2025 • Views 9.6K
-
-[34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 Video
 
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
-By Juliann Igo • Nov 18th, 2025 • Views 24.8K
+By Juliann Igo • Nov 18th, 2025 • Views 29.8K
 
-[ChatGPT Use Cases for Work GPT](/en/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
+[ChatGPT Use Cases for Work GPT](/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
 
-Dec 5th, 2025 • Views 5.6K
+Dec 5th, 2025 • Views 7.3K
 
-[Bellevue Small Business Jam](/en/public/clubs/small-business-ipf4m/resources/bellevue-small-business-jam-2026-03-02)
+[22:14](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
-Mar 2nd, 2026 • Views 1.2K
+Video
+
+[ChatGPT 102 for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
+
+By Juliann Igo • Nov 18th, 2025 • Views 12.1K
+
+[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+
+Video
+
+[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+
+By Juliann Igo • Nov 18th, 2025 • Views 29.8K
+
+[ChatGPT Use Cases for Work GPT](/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
+
+Dec 5th, 2025 • Views 7.3K
+
+[Bellevue Small Business Jam](/public/clubs/small-business-ipf4m/resources/bellevue-small-business-jam-2026-03-02)
+
+Mar 2nd, 2026 • Views 2.5K

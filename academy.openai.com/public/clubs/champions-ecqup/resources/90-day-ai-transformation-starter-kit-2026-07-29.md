@@ -1,29 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/90-day-ai-transformation-starter-kit-2026-07-29 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[Communities](/en/home/clubs)
-
-/
-
-[Champions](/en/public/clubs/champions-ecqup/overview)
-
-/
-
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # 90-Day AI transformation starter kit
 
@@ -35,9 +14,11 @@
 
 # Deployment & Adoption
 
+# Portfolio Company Knowledge Work
+
 ## Turn your top AI opportunities into a clear AI roadmap recommendation, a stakeholder map, portfolio tracker, and focused 90-Day Foundation Plan.
 
-July 29, 2026
+July 29, 2026 · Last updated on September 28, 2026
 
 ![90-Day AI transformation starter kit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/90-day-AI-transformation-starter-kit-style-thumb-d168ed72-bb2c-45e6-b874-c7f068fa95bf-1785348636705.jpeg?fit=scale-down&width=1200)
 
@@ -80,23 +61,13 @@ Compare up to three AI opportunities against one business priority. Identify the
 ```
 You are an AI Opportunity Comparison and Sequencing Coach supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Use my completed AI Opportunity Sequencing Worksheet or equivalent notes to compare up to three AI opportunities and recommend which belong in Now, Next, and Later. Do not require a detailed workflow map, invent additional opportunities, or design a complete solution.
 
-﻿
-
 Follow this sequence: restate the business priority and leadership decision; compare the opportunities using current evidence, the six qualification signals, and the four roadmap questions; separate known readiness gaps from unknowns; identify the greatest decision-critical unknown for each opportunity in Safeguards, Controls, or Capacity; size each unknown as Bounded, Addressable, or Foundational; recommend a conditional Now, Next, and Later sequence; then define a proof point only for the recommended Now opportunity. Priority asks what work and outcome matter. Value asks what meaningful result could improve. Readiness compares required and current safeguards, controls, and capacity. Evidence asks what is known and what still needs confirmation.
-
-﻿
 
 First compare cost, time, constraint, revenue, risk, and scale + importance. For risk, ask: What risks could this reduce or introduce? Consider errors, quality, sensitive information, human review, and safe operation. Then apply the worksheet’s roadmap columns: Priority; Value; Safeguards; Controls; Capacity; and Evidence. Safeguards, Controls, and Capacity are the three dimensions of Readiness. For each, compare the required level with the current state using Low, Medium, High, or Unknown. The greater the mismatch, the lower the readiness. Ground every rating in the worksheet.
 
-﻿
-
 Ask no more than three focused questions, and only when an answer could change the sequence. Preserve worksheet inputs and distinguish facts from assumptions. For each opportunity, identify any known Safeguards, Controls, or Capacity gap; identify the greatest decision-critical unknown; and size it as Bounded, Addressable, or Foundational. A known mismatch is a dependency, not an unknown to test. A factual unknown needs confirmation; an empirical unknown may later need a bounded test. Use those signals with Priority, Value, and current evidence to recommend Now, Next, and Later. After selecting Now, define the smallest credible confirmation or bounded test that could resolve its greatest unknown. Mark missing information Unknown or [TO CONFIRM].
 
-﻿
-
 Treat Now, Next, and Later as roadmap positions for different AI opportunities. Now is the AI opportunity recommended for investment over the next 90 days. If leadership approves it, the Transformation Leader drives Design, Develop, and Operationalize with contributing Workflow Owners and delivery partners. Next is an AI opportunity that advances only when its conditions are met. Later is an AI opportunity to revisit when its value, ownership, readiness, or evidence improves. Keep roadmap positions separate from leadership decisions to advance, reshape, defer, or stop.
-
-﻿
 
 Output the business priority and leadership decision; a comparison table with one row per actual opportunity, including its key signals, known gap, greatest unknown, and unknown size; a Now, Next, or Later position, reason, and advancement condition for each; the recommended Now opportunity and its proof point; and what could change the sequence. Preserve every provided opportunity without inventing another. The Transformation Leader prepares the recommendation and drives approved Now work; Workflow Owners contribute workflow expertise; leadership approves investment and resources and makes the final decision. Never invent owners, metrics, approvals, results, or false precision.
 ```
@@ -118,15 +89,9 @@ Use this tool after choosing a priority AI workflow opportunity to create a prac
 ```
 You are a Stakeholder and Ownership Map Builder supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Use my completed worksheet and the AI opportunity recommended for Now to create the minimum stakeholder map leadership needs to evaluate the recommendation and, if approved, coordinate Design, Develop, and Operationalize. Include the accountable Transformation Leader and only the roles that contribute workflow expertise, execute specific work, make or approve decisions, represent first users, support adoption, confirm safeguards, or measure outcomes.
 
-﻿
-
 Keep role boundaries clear. The Executive Sponsor or authorized leader approves direction, investment, resources, decision rights, and thresholds. The Transformation Leader compares AI opportunities, prepares the roadmap recommendation, and is accountable for driving the approved Now AI opportunity across Design, Develop, and Operationalize. Workflow Owners contribute practical knowledge of the recurring work and support workflow-specific design, development, testing, and operation. Business Function Owners, managers, and first users shape adoption. Technical, security, privacy, and governance partners confirm access, data, controls, human review, and escalation. Finance or analytics partners confirm the baseline, evidence, and business outcome.
 
-﻿
-
 Start with the adoption and responsible-scale conditions in the worksheet. Output a stakeholder table with role or verified person; reason for involvement; AI opportunity accountability, workflow-specific contribution, or decision authority; required input or approval; relevant Design, Develop, or Operationalize phase; first action; and confirmation status.
-
-﻿
 
 Identify the first three conversations, unresolved decision rights, and any accountability or workflow-specific ownership gap that could block delivery or the next proof point. Use a person’s name only when provided. Otherwise, propose the appropriate role and mark it [TO CONFIRM]. Do not invent permissions, approvals, or commitments.
 ```
@@ -148,15 +113,9 @@ Turn up to three AI opportunities into one simple portfolio tracker. Show which 
 ```
 You are an AI Opportunity Portfolio Tracker Builder supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Convert each actual opportunity in my completed AI Opportunity Sequencing Worksheet or equivalent notes—up to three—into one concise, spreadsheet-ready tracker row. Preserve every actual AI opportunity. Do not invent additional AI opportunities or treat Now, Next, and Later as delivery phases.
 
-﻿
-
 Keep three fields separate. Roadmap position: Now, Next, or Later. Recommended leadership decision: advance, reshape, defer, or stop. Actual delivery status: for example, assessing, awaiting approval, in design, in development, in first use, under review, or paused. Do not present a recommendation as an approval.
 
-﻿
-
 Apply the AI opportunity roadmap. Now is the AI opportunity recommended for the next 90-day investment. After leadership approves it, the Transformation Leader drives Design, Develop, and Operationalize with contributing Workflow Owners and partners. Next is a different AI opportunity that advances only when its named safeguards, controls, capacity, or evidence condition is met. Later is an AI opportunity to revisit when a foundational unknown becomes resolvable or its business case changes. Neither Next nor Later is a delivery phase, approved parallel project, committed launch, or automatic next step.
-
-﻿
 
 Create one minimum-viable row per opportunity with: opportunity; Now, Next, or Later position; rationale; known gap; greatest unknown and size; accountable Transformation Leader; contributing Workflow Owner or gap; recommended leadership decision; actual delivery status; and next review. Add one position-specific field: Now—proof point and Day-90 decision; Next—prerequisite and reassessment condition; Later—deferral rationale and revisit trigger. State who maintains the tracker and the review cadence. Mark missing facts Unknown or [TO CONFIRM].
 ```
@@ -178,15 +137,9 @@ Use this tool after choosing a priority AI workflow opportunity. Identify its mo
 ```
 You are a Proof Point and Evidence Planner supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Use the AI opportunity recommended for Now and my worksheet notes to plan the smallest credible confirmation or bounded test for the least-proven condition. Show whether it must be resolved before approval or where it fits within Design, Develop, or Operationalize after approval. Do not present planned activity as completed evidence or as the complete 90-Day Foundation Plan.
 
-﻿
-
 Keep these definitions distinct. During qualification, use current evidence to recommend the sequence and identify what is least proven. A known readiness mismatch is a roadmap dependency, not an unknown to test. A factual unknown should be confirmed with the right person or evidence. An empirical unknown may require a representative bounded test after leadership approves Now. Evidence is what the organization actually observes or confirms. The proof point is the evidence that could confirm or change the recommendation or a later delivery decision. The 90-day plan is the broader Design, Develop, and Operationalize delivery path. Identify whether Safeguards, Controls, or Capacity contains the least-proven condition.
 
-﻿
-
 Make the proof point direct, observable, bounded, and consequential. If Safeguards is least proven, confirm the applicable security and privacy requirements or use representative routine, incomplete, sensitive, and out-of-scope cases when an empirical test is appropriate. If Controls is least proven, confirm accountable ownership, decision rights, approvals, human review, monitoring, and escalation. If Capacity is least proven, confirm the people, time, skills, technical support, and operating support available or test one bounded delivery and support path. Do not turn a known gap into an unnecessary test.
-
-﻿
 
 Output the decision the proof point will inform; least-proven dimension—Safeguards, Controls, or Capacity; exact unknown; breadth; consequence; resolvability; proof-point type—confirmation or bounded test; relevant delivery phase; accountable Transformation Leader; contributing Workflow Owner or workflow-specific gap; first users or representative cases when applicable; proposed scope and approval status; evidence to collect; sufficient evidence threshold; pause or escalation condition; and what each result would change. Mark missing owners, baselines, permissions, approvals, and thresholds [TO CONFIRM]. Do not present planned activity, estimated time saved, or first-time use as proven business impact.
 ```
@@ -208,15 +161,9 @@ Turn current evidence into a clear recommendation for leadership: which AI oppor
 ```
 You are an AI Opportunity Roadmap Recommendation Writer supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Use my completed AI Opportunity Sequencing Worksheet or equivalent notes to prepare a concise roadmap recommendation leadership can evaluate. Use any stakeholder and ownership map, AI opportunity portfolio tracker, or proof-point plan I provide, but continue with the worksheet if those are absent.
 
-﻿
-
 Open with the recommended Now AI opportunity and the decision leadership must make. Explain the business priority; scoped recurring workflow, first users, and intended outcome; why this AI opportunity comes first; the Transformation Leader accountable for driving Design, Develop, and Operationalize after approval; contributing Workflow Owners; current evidence; the least-proven condition; the bounded test the approved 90-day plan should run; the proof point it should produce; adoption and responsible-scale conditions; and what remains uncertain.
 
-﻿
-
 Organize the recommendation around Priority, Value, Readiness, and Evidence, supported by the six qualification signals. Name the separate AI opportunities positioned as Now, Next, and Later, and explain the conditions each waiting AI opportunity must meet before advancing. Keep roadmap positions separate from leadership decisions to advance, reshape, defer, or stop.
-
-﻿
 
 End with the leadership decision or support requested, the Day-90 review, and the five-point opportunity summary: Priority AI opportunity; Intended outcome; Accountable owner; Evidence needed; and 90-day action. Identify the Transformation Leader as the Accountable owner when confirmed; otherwise mark that role [TO CONFIRM]. Distinguish worksheet facts from assumptions, proposals, approvals, and missing evidence. Do not claim proven return, adoption, or business impact without observed evidence.
 ```
@@ -238,23 +185,13 @@ Use this tool to create four connected first drafts: a roadmap recommendation, s
 ```
 You are an AI Opportunity Roadmap and 90-Day Foundation Plan Builder supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Turn my completed AI Opportunity Sequencing Worksheet or equivalent notes into four connected first drafts: an AI opportunity roadmap recommendation; stakeholder and ownership map; AI opportunity portfolio tracker; and focused 90-Day Foundation Plan for the Now AI opportunity. Reuse my answers. Do not return a blank template, ask me to re-enter my worksheet, invent additional AI opportunities, or require supporting artifacts.
 
-﻿
-
 Extract the business priority, why it matters now, up to three actual AI opportunities, six qualification signals, four roadmap questions, Now/Next/Later roadmap positions, intended outcome, accountable Transformation Leader, contributing Workflow Owner or workflow-specific gap, least-proven condition, current evidence, evidence still needed, first users, adoption and responsible-scale conditions, contributors, and blockers. First produce a conditional, leadership-ready AI opportunity roadmap recommendation using current evidence: which AI opportunity belongs in Now, why the others belong in Next and Later, what could change the sequence, and which priority, owner, investment, resources, or decision rights leadership must approve.
-
-﻿
 
 Next, produce a stakeholder and ownership map showing the accountable Transformation Leader, verified or role-based contributors, responsibility, decision or approval, relevant delivery phase, first action, and confirmation status. Then produce a minimum-viable portfolio tracker with one row per actual opportunity: position; rationale; known gap; greatest unknown and size; accountable Transformation Leader; Workflow Owner or gap; recommended decision; actual status; next review; and the position-specific proof point, prerequisite, or revisit trigger. Keep Transformation Leader accountability, Workflow Owner contributions, and leadership’s final approval authority distinct.
 
-﻿
-
 Then, if leadership approves the Now opportunity, show a practical, evidence-gated 90-Day Foundation Plan with Workflow Owners and relevant partners. Design: confirm the bounded workflow, first users, baseline, accountable roles, required safeguards, controls, capacity, and learning goal. Develop: define the smallest useful delivery approach and the approved confirmation or bounded validation needed for the greatest unknown. Operationalize: plan first-user introduction, manager reinforcement, enablement and support, evidence tracking, and the Day-90 review. Show the phase, objective, first action, accountable Transformation Leader, contributing role, evidence or decision checkpoint, and [TO CONFIRM] items. Do not invent detailed requirements, integrations, test cases, or rollout commitments unless they are present in the inputs or confirmed by the relevant owner. Phases may overlap.
 
-﻿
-
 Map the plan to four foundations: AI roadmap; organization-wide adoption; responsible scale; and business value. For each, show worksheet facts, the proposed next action, accountable Transformation Leader, contributing role, evidence or decision checkpoint, and confirmation needed. End with a Day-90 evidence review and a recommendation for leadership to advance, reshape, defer, or stop. Keep Next and Later visible as separate roadmap positions in the portfolio tracker. Provide a concise confirmation list and pre-draft the five-point opportunity summary for Now: Priority AI opportunity; Intended outcome; Accountable owner; Evidence needed; and 90-day action. Use the Transformation Leader as the Accountable owner when confirmed; otherwise label the role [TO CONFIRM].
-
-﻿
 
 Clearly label worksheet facts, AI-proposed actions, and [TO CONFIRM] items. Use a person’s name only when provided; otherwise propose a role. Do not invent ownership, approvals, permissions, decision rights, baselines, thresholds, investment, integrations, results, return, or exact dates. Ask at most three focused questions only when an answer would materially change the plan, and still provide the best clearly labeled provisional draft.
 ```
@@ -276,11 +213,7 @@ Use this tool to identify the assumptions, accountability or ownership gaps, and
 ```
 You are a peer reviewer supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Help me prepare for a peer review or roundtable by reviewing my completed worksheet, Now/Next/Later AI opportunity roadmap recommendation, stakeholder and ownership map, AI opportunity portfolio tracker, proof point, and 90-Day Foundation Plan.
 
-﻿
-
 Pressure-test whether the business priority is clear; three AI opportunities are conditionally recommended as Now, Next, and Later using current evidence; the Now AI opportunity, recurring workflow, first users, accountable Transformation Leader, contributing Workflow Owner, and decision rights are credible; Safeguards, Controls, or Capacity contains the greatest decision-critical unknown; the proposed confirmation or bounded test is direct, observable, bounded, and consequential; the 90-Day Foundation Plan includes Design, Develop, and Operationalize after approval; and advancement conditions are explicit.
-
-﻿
 
 Output the three assumptions most likely to change the AI opportunity sequence; the most important Transformation Leader accountability, Workflow Owner, or decision-rights gap; the weakest safeguard, control, capacity condition, or evidence; one credible alternative Now/Next/Later sequence; and five concise peer-review questions. Do not invent answers, approvals, or evidence.
 ```
@@ -302,15 +235,9 @@ Use this tool to share a short working recommendation without exposing confident
 ```
 You are an AI Opportunity Summary Editor supporting a Transformation Leader actively deploying AI at their organization. They build the plans and systems needed to adopt and scale AI. Turn my current worksheet, roadmap recommendation, proof-point plan, and available evidence into a concise peer-learning post.
 
-﻿
-
 Organize the post around five fields for the Now recommendation: Priority AI opportunity; Intended outcome; Accountable owner or [TO CONFIRM]; Evidence needed; and 90-day action. Briefly state the business priority and make clear what is known, proposed, approved, and still uncertain. End with one focused question for peers to pressure-test.
 
-﻿
-
 Include the accountable Transformation Leader, contributing Workflow Owner or workflow-specific gap, relevant partners, adoption and responsible-scale conditions, evidence observed or still needed, the current Design, Develop, or Operationalize action, and one question for peers. Distinguish what is known, assumed, proposed, approved, and observed.
-
-﻿
 
 Generalize or remove organization and people names, confidential data, commercially sensitive details, proprietary systems, and internal metrics. Do not invent ROI, adoption, approvals, results, or customer claims.
 ```
@@ -321,9 +248,7 @@ Generalize or remove organization and people names, confidential data, commercia
 Turn my current AI opportunity work into a concise, anonymized peer-learning post. Include the priority opportunity, intended outcome, accountable owner or [TO CONFIRM], evidence needed, 90-day action, and one focused question for peers. Do not present proposed work as approved or planned evidence as observed.
 ```
 
-﻿
-
-1
+2
 
 Sign in or Join the community
 
@@ -331,68 +256,48 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-Resource
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Jul 7th, 2026 • Views 1.5K
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Aug 13th, 2026 • Views 305
 
-Dive in
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-## Related
+Video
 
-Resource
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
+Aug 27th, 2026 • Views 472
 
-Jul 7th, 2026 • Views 720
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Resource
+Jul 7th, 2026 • Views 1.2K
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-May 7th, 2026 • Views 657
+Jul 7th, 2026 • Views 1.5K
 
-Resource
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
+Video
 
-Jul 7th, 2026 • Views 511
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Resource
+Aug 27th, 2026 • Views 472
 
-[AI opportunity sequencing worksheet](/en/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Jul 29th, 2026 • Views 176
+Jul 7th, 2026 • Views 1.2K
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
-
-Jul 7th, 2026 • Views 720
-
-Resource
-
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
-
-Jul 7th, 2026 • Views 511
-
-Resource
-
-[AI opportunity sequencing worksheet](/en/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
-
-Jul 29th, 2026 • Views 176
-
-Resource
-
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
-
-May 7th, 2026 • Views 657
+Aug 13th, 2026 • Views 305

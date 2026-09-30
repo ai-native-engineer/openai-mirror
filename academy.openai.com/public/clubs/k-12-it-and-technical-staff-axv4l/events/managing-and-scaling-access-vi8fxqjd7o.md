@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-it-and-technical-staff-axv4l/events/managing-and-scaling-access-vi8fxqjd7o -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.events](/en/public/clubs/k-12-it-and-technical-staff-axv4l/events)
+[navigation.events](/public/clubs/k-12-it-and-technical-staff-axv4l/events)
 
 ![Managing and Scaling Access](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OAI-Template-Background-15-7fa9ac6e-fc76-4e98-a5af-d85ea20df5f9-1761245537644.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+6:00 PM - 7:00 PM GMT
+
+November 18, 2025
 
 # Managing and Scaling Access
 
@@ -24,7 +28,9 @@ Explore best practices for administering ChatGPT Edu, managing ongoing operation
 
 Event has finished
 
-November 18, 6:00 PM GMT
+6:00 PM - 7:00 PM GMT
+
+November 18, 2025
 
 Online
 
@@ -38,7 +44,9 @@ OpenAI Academy
 
 Event has finished
 
-November 18, 6:00 PM GMT
+6:00 PM - 7:00 PM GMT
+
+November 18, 2025
 
 Online
 

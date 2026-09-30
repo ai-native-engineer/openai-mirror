@@ -1,18 +1,18 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 Article
 
-June 12, 2026
+June 12, 2026 · Last updated on September 11, 2026
 
 # OpenAI Academy courses: Champion deployment guide
 
 ![OpenAI Academy courses: Champion deployment guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-courses-Champion-deployment-guide-style-thumb-227fac41-4cd6-4210-9c2a-1dd70b26a14e-1781280901316.jpeg?fit=scale-down&width=1200)
 
-# champions
+# Champions
 
 # Deployment & Adoption
 
@@ -20,264 +20,228 @@ June 12, 2026
 
 ![OpenAI Academy courses: Champion deployment guide](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-courses-Champion-deployment-guide-style-thumb-227fac41-4cd6-4210-9c2a-1dd70b26a14e-1781280901316.jpeg?fit=scale-down&width=1200)
 
-# OpenAI Academy Courses: Champion Deployment Guide
+What are OpenAI Academy courses?
 
-## What are OpenAI Academy courses?
+OpenAI Academy courses help people build practical AI skills and apply them to their work. At OpenAI, we view learning as part of deployment: people need the skills to use the technology, build with it, and lead adoption.
 
-OpenAI Academy courses help employees build practical AI skills, develop confidence, and apply AI to real work, and earn course completion certificates along the way.
+The expanded portfolio combines a shared Foundations pathway with focused learning for developers, leaders, educators, and college students. Organizations can build common AI fluency while helping people develop the skills their roles require.
 
-For Champions, courses are more than standalone learning resources. They give you a structured way to move employees from general AI interest to practical adoption: a clear starting point, a shared learning baseline, and a repeatable motion for helping teams apply AI to their work.
+For Champions and learning teams, the courses provide a foundation for onboarding, technical training, leadership development, and AI adoption programs. Use this guide to choose relevant learning, introduce it across your organization, and help people put it into practice.
 
-﻿[Explore OpenAI Academy Courses](https://academy.openai.com/pages/courses)﻿
+﻿ [Explore OpenAI Academy courses](https://academy.openai.com/pages/courses)﻿
 
-﻿[Read the **OpenAI Academy Courses launch blog**](https://openai.com/index/academy-courses-applying-ai-at-work)﻿
+# How courses support Champion initiatives
 
-## How courses support Champion initiatives
+* Build shared skills: Give people a practical foundation for using AI and a way to continue learning as their work develops.
 
-* Scale AI enablement: Give employees a structured pathway to build AI knowledge and practical skills
+* Match learning to responsibilities: Add focused learning for people building AI-powered products, leading adoption, or using AI in teaching and learning.
 
-* Create a shared baseline: Help teams start from the same foundation
+* Support leadership priorities: Connect course recommendations to the capabilities your organization needs to achieve its AI goals.
 
-* Build leadership momentum: Give executive sponsors a clear way to reinforce AI readiness as an organizational priority
+* Focus Champion support: Use courses for shared learning so your sessions can address local workflows, policies, questions, and adoption barriers.
 
-* Spend time on enablement that is targeted: Champion-led sessions can focus on unique workflows, use cases, adoption barriers, and business priorities
+* Plan the next step: Combine learner feedback and examples of application with available participation and usage data to decide where more support is needed.
 
-* Guide what comes next: Use course progress, feedback, feedback, and adoption signals to identify where teams need support or more advanced learning
+# How to use this guide
 
-## How to use this guide
+Use the five steps below to plan an organization-wide course rollout:
 
-Use this guide to plan and run a course deployment inside your organization.
+* Activate — make learning easy to access and recommend relevant courses.
 
-It will help you:
+* Engage sponsors — connect learning to organizational priorities and secure leadership and manager support.
 
-1. Activate:Make courses available to the broadest possible employee audience
+* Launch — introduce the portfolio broadly, with specific recommendations for each audience.
 
-2. Engage sponsors: Secure visible leadership support and manager reinforcement
+* Reinforce and measure — support practice, follow up with learners, and assess the signals available.
 
-3. Launch: Drive awareness through a coordinated organization-wide communications campaign
+* Share — recognize progress and exchange examples and lessons within your organization and with other Champions.
 
-4. Reinforce and measure: Maintain momentum ,track enrollment, completion, and changes in adoption
+# 1. Activate
 
-5. Share: Make progress, outcomes, and examples visible, exchange lessons with other Champions
+Make the portfolio available broadly, then help people choose the learning most relevant to their experience and responsibilities.
 
-## Deploy courses in five steps
+Use Foundations to build shared skills across your workforce. Add Builder courses for developers and technical teams, AI Leadership for people guiding strategy and adoption, and education courses where relevant.
 
-![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-a4fa9cb1-792d-4767-936e-31d15b08add6-1781280535603.png)
+Broad access does not mean everyone needs the same curriculum. You can focus initial outreach and supported practice on teams closest to your organization’s AI priorities while keeping the courses available to others.
 
-### 1. Activate
+## Prepare access and support
 
-Start by making the courses available to everyone who can benefit.
+Coordinate with your learning, communications, IT, and change management partners to:
 
-The default should be broad access rather than limiting participation to a small cohort. A company-wide deployment creates a shared starting point, allows employees to choose learning relevant to their needs, and gives the organization a stronger foundation for future AI enablement.
+* Confirm how learners will access the courses.
 
-Work with your internal learning, communications, IT, and change management partners to:
+* Add direct course links to your internal learning hub and AI resource pages.
 
-* Confirm who can access the courses
+* Keep enrollment simple and remove avoidable internal approval steps.
 
-* Add the courses to internal learning hubs and AI resource pages
+* Identify a channel or contact for questions and support.
 
-* Make the course links easy to find
+* Agree a launch date, learning window, and time people should set aside for their recommended course.
 
-* Remove unnecessary enrollment or approval steps
+## Help people choose where to begin
 
-* Confirm where employees can ask questions or get support
-
-* Establish a clear launch date and completion window
+The Foundations pathway includes three courses. The additional offerings provide focused learning for different roles.
 
 |  |  |  |
 | --- | --- | --- |
-| Course | Recommended audience | **Use when** |
-| AI Foundations | Employees building core AI knowledge and confidence | Employees need a practical introduction to using AI effectively in everyday work |
-| Applied AI Foundations | Active users ready to develop more structured and repeatable ways of working | Employees understand the basics and want to apply AI to recurring work |
-| Agents & Workflows | Employees ready to explore agent-assisted workflows | Employees are ready to direct more structured workflows while applying appropriate human judgment and oversight |
+| **Course or offering** | **Recommended audience** | **What learners practice** |
+| ﻿ [AI Foundations](https://academy.openai.com/public/courses/ai-foundations-dnq5w)﻿ | People new to AI or strengthening their core skills | Giving clear instructions, supplying context, checking responses, and using AI responsibly. |
+| ﻿ [Applied AI Foundations](https://academy.openai.com/public/courses/applied-ai-foundations-szsmv)﻿ | People ready to apply AI to recurring work | Breaking work into steps and developing repeatable workflows with review points. |
+| ﻿ [Agents and Workflows](https://academy.openai.com/public/courses/agents-and-workflows-y0qoc)﻿ | People ready to direct more structured work with agents | Defining outputs and boundaries, providing context, reviewing results, and improving workflows. |
+| ﻿ [Builder courses](https://academy.openai.com/pages/courses)﻿  ﻿ | Developers and technical teams using Codex or building with the OpenAI API | Using Codex in software development and designing, evaluating, deploying, and operating AI-powered products. |
+| ﻿ [AI Leadership](https://academy.openai.com/public/courses/ai-leadership-kaf7k)﻿ | People responsible for AI strategy, adoption, change, and workforce transformation | Connecting an initiative to business priorities, assessing opportunities, establishing ownership and governance, and developing a roadmap and initial AI strategy draft. |
+| ﻿ [AI for Educators](https://academy.openai.com/public/courses/ai-for-educators-lc8j1)﻿ | K–12 and higher-education educators | Using permitted teaching materials to plan lessons, develop activities and assessments, and prepare communications while retaining educator judgment. |
+| ﻿ [AI for College Students](https://academy.openai.com/public/courses/ai-for-college-students-gxgmr)﻿ | College students | Using AI for study planning, assignments, group projects, and career preparation while checking outputs and taking responsibility for the final work. |
 
-Employees can begin with the course that best matches their experience, role, and learning needs. Organizations may also recommend a common starting course to create a shared baseline.
+Recommend a starting point for each audience, with a direct course link and a practical reason to take it. Foundations can provide a common baseline; learners with relevant experience can begin with the learning that fits their needs.
 
-### 2. Engage sponsors
+# 2. Engage sponsors
 
-Visible leadership support signals that AI learning is an organizational priority, not an optional side activity.
+Choose an executive sponsor who can explain how AI learning supports the organization’s strategy and make time for learning a visible priority. Managers should help employees understand what is relevant to their team and where to apply it.
 
-Identify an executive sponsor who can connect the course launch to the organization’s broader AI strategy, workforce priorities, and business goals.
+## Connect the rollout to a clear goal
 
-#### Connect the deployment to a clear goal
+Examples include preparing new employees to use AI, improving everyday work, developing technical capability, or supporting an existing AI adoption or leadership program.
 
-* Building baseline AI knowledge and improving everyday ChatGPT use
+Agree which learning to recommend for each audience and what work it should support—for example, employee onboarding, an AI-powered product, or an organization-wide adoption initiative.
 
-* Onboarding new employees, ensuring they’re equipped with AI skills for success
+## Ask your sponsor to
 
-* Preparing teams for agents, Codex, and workflow transformation
+* Introduce or endorse the courses and explain their connection to the organization’s AI priorities.
 
-* Supporting an existing AI enablement, onboarding, or change management initiative
+* Encourage managers to protect learning time and discuss what employees apply.
 
-#### Engage your sponsors
+* Recognize progress and share an example of AI use from their own work.
 
-**Ask your sponsor to:**
+## Equip sponsors and managers
 
-* Announce or visibly endorse the launch
+Provide a short course overview, recommendations by audience, launch timing, and verified links. Include a clear employee action and two or three examples connecting the learning to business priorities.
 
-* Explain why AI readiness matters to the organization
+Give managers brief talking points they can adapt for team meetings, along with a question such as: “What could you apply from the course to work we are doing now?”
 
-* Encourage employees to set aside time for learning
+## Explain the value
 
-* Ask managers to reinforce participation with their teams
+* Built with OpenAI expertise: The courses draw on the teams developing OpenAI’s technology and guidance.
 
-* Recognize employees who complete courses or apply the learning
+* Practice with real work: Learners apply concepts to tasks and initiatives relevant to them.
 
-* Share examples of how leaders are using AI in their own work
+* Learning that develops with the technology: Courses are updated as OpenAI models, products, and guidance change.
 
-**Equip the sponsor with:**
+* Assessments and recognition: Every course includes an assessment to help learners check their understanding. Learners who pass the assessment will earn the associated badge, which they can share on social platforms.
 
-* A short description of the Academy courses
+# 3. Launch
 
-* The organization’s recommended learning path
+Introduce the portfolio across your organization, then follow up with recommendations for specific teams. Each message should explain which course is relevant, why it matters to that audience, and how learners can apply it to work already underway.
 
-* Launch dates and links
+Plan a visible introduction and follow-up communications across the channels employees already use.
 
-* A clear employee call to action
+## Prepare a coordinated launch package
 
-* Two or three examples of how the learning supports business priorities
+* A sponsor announcement and an organization-wide email or internal post.
 
-Manager reinforcement also matters. Give managers simple language they can use to introduce the courses, encourage participation, and ask employees what they applied.
+* A learning-hub entry with course links and recommendations by audience.
 
-#### Position the value
+* Manager talking points, an internal AI community post, and a newsletter or intranet feature.
 
-**Use these points to help explain what makes OpenAI Academy courses valuable and distinct to sponsors, leaders, and managers:**
+* A suggested learning window or calendar reminder, plus clear access and support information.
 
-* Built by OpenAI: Developed by the teams building the technology
+## Make the next action clear
 
-* Designed for real work: Focused on practical workplace application
+Every audience should know why the learning matters, which course to begin with, how to enroll, and when to complete it. Include the expected time commitment, where to ask questions, where to share examples or badges, and what support or learning comes next.
 
-* Continuously updated: Evolves alongside OpenAI products and best practices
+## Internal email template
 
-* Learn by doing: Connects learning to real tasks and workflows
+**Subject: Build AI skills for [team’s work]**
 
-* Recognizes progress: Learners can earn course completion certificates and OpenAI Academy badges
+We’re introducing OpenAI Academy courses to support [organization’s AI priority] and help you apply AI to your work.
 
-### 3. Launch
+For [team/audience], start with [course and link] to [practical outcome]. Please set aside [learning time] during [completion window].
 
-Launch the courses with a coordinated communications campaign that reaches employees through multiple channels.
+Bring a task you’re permitted to use, follow our AI and data-handling policies, and try one approach from the course.
 
-Do not rely on a single announcement. Use a visible launch moment followed by repeated reminders and examples.
+Find other recommended courses at [internal learning page]. Share questions, examples, and badges you earn in [internal channel].
 
-#### Recommended launch package
+# 4. Reinforce and measure
 
-* Executive sponsor announcement
+Keep the initial invitation broad. Use follow-up messages and support to address the needs of specific audiences.
 
-* Company-wide email or internal post
+* Remind learners about their recommended course and agreed learning window.
 
-* Placement in the learning hub or AI resource center
+* Use team discussions, office hours, or application sessions to help people practice.
 
-* Manager toolkit or talking points
+* Share useful examples, recognize course completion, and celebrate badges learners earn.
 
-* Internal AI community post
+* Identify access, confidence, or workload barriers and offer appropriate support.
 
-* Newsletter or intranet feature
+* Recommend further learning as people’s responsibilities and needs develop.
 
-* Calendar or learning time recommendation
-
-* Clear course links and completion guidance
-
-#### Make the employee call to action clear
-
-Tell employees:
-
-* Why the organization is launching the courses
-
-* Which course they should start with
-
-* How to access the learning
-
-* When they should complete it
-
-* How much time they should set aside
-
-* Where to ask questions
-
-* Where to share certificates, learnings, or feedback
-
-* What learning or enablement will follow
-
-### 4. Reinforce and measure
-
-The initial launch should reach everyone. Follow-up can then become more targeted.
-
-Use communications, managers, Champions, and existing enablement programs to:
-
-* Remind employees to complete the courses
-
-* Share certificates, learner examples, and useful workflows
-
-* Encourage managers to discuss the learning in team meetings
-
-* Host office hours or application sessions
-
-* Identify teams that need additional support
-
-* Recommend more advanced learning based on employee needs
-
-#### Suggested cadence
+## Suggested follow-up cadence
 
 |  |  |
 | --- | --- |
-| Timing | Action |
-| Launch day | Executive sponsor announcement and organization-wide communications |
-| Week 1 | Manager reinforcement and internal AI community promotion |
-| Week 2 | Reminder featuring an employee example, certificate, or course takeaway |
-| Week 3 | Office hour, team discussion, or application session |
-| Week 4 | Share progress, recognize participation, and highlight what comes next |
+| **Timing** | **Action** |
+| Launch day | Publish the sponsor announcement and organization-wide invitation, with recommendations by audience. |
+| Week 1 | Ask managers to reinforce the invitation; share course recommendations in the internal AI community. |
+| Week 2 | Send a reminder featuring a learner example, useful takeaway, or course-completion milestone. |
+| Week 3 | Hold an office hour, team discussion, or session where learners apply what they learned. |
+| Week 4 | Share participation and application signals, recognize progress, and explain the next learning opportunity. |
 
-#### Measure the signals available to you
+## Help learners apply the courses
 
-Some signals may come from OpenAI reporting, some from your organization’s workspace data, and some from employees and managers.
+Connect follow-up support to work that matters to each role. For example:
+
+* A Foundations learner might improve a recurring task and explain where human review is needed.
+
+* A developer might apply a Builder course lesson to a software change or an evaluation for an AI-powered product.
+
+* An AI Leadership learner might bring their roadmap and initial strategy draft into a discussion with the people responsible for the initiative.
+
+* An educator or student might share how they checked and improved an AI-assisted result against their teaching or assignment requirements.
+
+Use these examples to guide discussion and support, not as additional course-completion requirements. Completion shows participation; examples of application help you understand what changed in people’s work.
+
+## Use the signals available to you
+
+Agree what you can collect before launch. Depending on your organization, evidence may come from course reporting, workspace usage data, communications channels, or direct feedback from learners and managers.
 
 |  |  |  |
 | --- | --- | --- |
-| Signal | What it tells you | How to collect it |
-| Course completion | Whether employees are participating in the learning | Contact your OpenAI account team to understand what reporting may be available |
-| Awareness and reach | Whether employees saw and understood the launch | Track communication reach, link engagement, internal responses, or manager confirmations where available |
-| Application | Whether employees are applying the learning | Collect workflows, use cases, survey responses, office hour questions, and team examples |
-| Adoption | Whether AI usage is changing | Review workspace adoption metrics available to your organization |
-| Progression | Whether employees are moving into more advanced work | Look for repeatable workflows, GPTs, agents, Codex use, or broader team-level changes |
+| **Signal** | **What it helps you understand** | **Possible source** |
+| Participation and completion | Whether learners are enrolling and completing their recommended learning | Ask your OpenAI account team about available reporting; use voluntary learner updates where appropriate. |
+| Awareness and reach | Whether each audience received and understood the invitation | Communication reach, link engagement, questions, or manager feedback. |
+| Application | What learners have tried and what changed in their work | Task examples, workflow changes, learner feedback, team discussions, and office hours. |
+| Adoption | Whether AI use is changing alongside the learning effort | Workspace adoption metrics available to your organization, interpreted alongside other changes. |
+| Progression | What learners are ready to do next | More consistent workflows, technical work, leadership plans, or other examples relevant to their responsibilities. |
 
-*Please note:* *E**nterprise reporting is dependent on users using their work email domain or using "Sign in with ChatGPT" an choosing their enterprise account. Enterprise admins must enable Sign in with ChatGPT for that option to be available. Read more on the* [*OpenAI Academy courses Help Center Article*](https://help.openai.com/en/articles/20001270-openai-academy-courses)*.*
+For enterprise reporting, encourage learners to use their work email domain or Sign in with ChatGPT using their enterprise account. An enterprise admin must enable Sign in with ChatGPT for that option to be available.
 
-Use these signals to determine:
+Contact your OpenAI account team to understand organizational reporting availability and access.
 
-* Where the launch is gaining momentum
+﻿ [OpenAI Academy courses Help Center article](https://help.openai.com/en/articles/20001270-openai-academy-courses)﻿
 
-* Which audiences need another communication
+Use the evidence to decide which audiences need another invitation, which teams need practical support, what is getting in the way, and what learning should follow. Do not treat a change in usage alone as proof that the courses caused it.
 
-* Which teams need targeted enablement
+# 5. Share
 
-* What barriers are slowing adoption
+Make participation and practical application visible. Recognize course completion and badges earned, and share examples of what people have learned or changed in their work.
 
-* What learning or support should come next
+Useful updates can include:
 
-### 5. Share
+* How many people were reached or completed learning, where that information is available.
 
-Make progress visible across the organization.
+* Examples of improved tasks, workflows, technical work, or leadership plans.
 
-Share:
+* Reflections from learners, managers, and sponsors.
 
-* The number of employees reached or completing courses, where available
+* Recurring questions, barriers, and the support planned in response.
 
-* Certificates milestones (First Certified! 100! 500! 1,000! 10,000! And more!)
+* The next stage of your organization’s learning plan.
 
-* Useful workflows or new use cases
+Share through internal AI channels, newsletters, team meetings, leadership updates, or all-hands sessions. Invite learners who have useful examples to help their peers.
 
-* Examples of learning applied to real work
+## Deployment summary template
 
-* Manager or sponsor reflections
-
-* Common questions and barriers
-
-* The next stage of the organization’s learning plan
-
-Use internal AI channels, newsletters, team meetings, all-hands sessions, leadership updates, and the Champion Community to help useful practices spread.
-
-#### Deployment summary template
-
-Share the course deployment effort read-out after 8-12 weeks, or even every month:
+Share a summary after 8–12 weeks, or include it in a monthly update:
 
 * Organization or audience reached:
 
@@ -285,11 +249,11 @@ Share the course deployment effort read-out after 8-12 weeks, or even every mont
 
 * Launch channels:
 
-* Courses promoted:
+* Courses promoted, intended audiences, and the work each recommendation was designed to support:
 
 * Participation or completion signals:
 
-* Employee examples:
+* Examples of learning applied:
 
 * What worked:
 
@@ -297,66 +261,48 @@ Share the course deployment effort read-out after 8-12 weeks, or even every mont
 
 * What we will do next:
 
-Please share feedback with the OpenAI team on how we can better support your organizations AI enablement efforts!
+Share feedback with the OpenAI team about where additional learning or support would help your organization.
 
-## Learn from Other Champions
+# Learn from other Champions
 
-Share your deployment approach and lessons in the [**Champion Community forum** here](https://academy.openai.com/home/clubs/champions-ecqup/forum/boards/champions-b3s/posts/share-how-youre-deploying-openai-academy-courses-bfymom6jir)﻿
+Compare approaches with other Champions: which recommendations resonated, how you supported practice, what got in the way, and what you would change next time.
 
-Use the discussion to compare launch strategies, share communications examples, surface blockers, and learn what is working across organizations.
+﻿ [Share your deployment approach in the Champion Community forum](https://academy.openai.com/home/clubs/champions-ecqup/forum/boards/champions-b3s/posts/share-how-youre-deploying-openai-academy-courses-bfymom6jir)﻿
 
-Table Of Contents
+[ChatGPT Work: Reimagine Guide for Agent Activators](/public/clubs/champions-ecqup/resources/chatgpt-work-reimagine-guide-for-team-activators-2026-07-08)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[ChatGPT Work: Lead Guide for Exec Sponsors](/public/clubs/champions-ecqup/resources/chatgpt-work-lead-guide-for-exec-sponsors-2026-07-08)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+Jul 8th, 2026 • Views 1.7K
 
-Jun 17th, 2026 • Views 117
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+Jul 9th, 2026 • Views 4.6K
 
-Video
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+Jun 17th, 2026 • Views 1.2K
 
-Jun 18th, 2026 • Views 56
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+Aug 5th, 2025 • Views 64.8K
 
-Aug 5th, 2025 • Views 56.6K
+[ChatGPT Work: Champion Rollout Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-champion-rollout-guide)
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+Jul 8th, 2026 • Views 1.7K
 
-Video
+[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+Jun 17th, 2026 • Views 1.2K
 
-Jun 18th, 2026 • Views 89
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+Aug 5th, 2025 • Views 64.8K
 
-Jun 17th, 2026 • Views 117
+[ChatGPT Work Resource Guide](/public/clubs/champions-ecqup/resources/chatgpt-work-resource-guide-2026-07-09)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Aug 5th, 2025 • Views 56.6K
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Video
-
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 89
-
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
+Jul 9th, 2026 • Views 4.6K

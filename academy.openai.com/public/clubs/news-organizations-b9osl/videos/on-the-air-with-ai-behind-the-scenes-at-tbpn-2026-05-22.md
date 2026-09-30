@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22 -->
+
 # On the air with AI: Behind the scenes at TBPN
 
 <!-- vimeo: 1194704098 | track: English (auto-generated) -->

@@ -2,7 +2,7 @@
 
 [Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Get executive buy-in on AI priorities
 
@@ -12,9 +12,11 @@
 
 # Champions
 
+# Portfolio Company Knowledge Work
+
 ## Transformation Labs 101 participation worksheet
 
-August 18, 2026
+August 18, 2026 · Last updated on September 28, 2026
 
 ![Get executive buy-in on AI priorities](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/transformation-labs-101-participation-worksheet-style-thumb-7e83a9c6-cc8f-496c-9259-87592fb67699-1787090697821.jpeg?fit=scale-down&width=1200)
 
@@ -26,6 +28,7 @@ Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uplo
 
 # Copy + Paste
 
+```
 Get executive buy-in on AI priorities
 
 Align → Qualify → Prioritize → Ask
@@ -163,8 +166,9 @@ Return:
 My worksheet notes:
 
 [Paste completed worksheet notes here]
+```
 
-Like
+1
 
 Sign in or Join the community
 
@@ -178,38 +182,58 @@ Create an account
 
 [Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+Video
 
-Aug 13th, 2026 • Views 99
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-[90-Day AI transformation starter kit](/public/clubs/champions-ecqup/resources/90-day-ai-transformation-starter-kit-2026-07-29)
+Aug 27th, 2026 • Views 472
 
-Jul 29th, 2026 • Views 654
+[Redesign one recurring workflow with AI](/public/clubs/champions-ecqup/resources/redesign-one-recurring-workflow-with-ai-2026-08-21)
 
-[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
+Aug 21st, 2026 • Views 703
 
-Aug 13th, 2026 • Views 86
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
+Video
 
-Aug 13th, 2026 • Views 124
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+Sep 14th, 2026 • Views 1.5K
 
-[[RECORDING] Make Work Flow: Build bespoke presentations with ChatGPT Work](/public/clubs/champions-ecqup/videos/recording-make-work-flow-build-bespoke-presentations-with-chatgpt-work-2026-08-13)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Aug 13th, 2026 • Views 99
+Video
 
-[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Aug 13th, 2026 • Views 86
+Sep 10th, 2026 • Views 406
 
-[Plan, prepare, and lead presentations](/public/clubs/champions-ecqup/resources/plan-prepare-and-lead-presentations-2026-08-13)
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Aug 13th, 2026 • Views 124
+Video
 
-[90-Day AI transformation starter kit](/public/clubs/champions-ecqup/resources/90-day-ai-transformation-starter-kit-2026-07-29)
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Jul 29th, 2026 • Views 654
+Aug 27th, 2026 • Views 472
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Video
+
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Sep 10th, 2026 • Views 406
+
+[Redesign one recurring workflow with AI](/public/clubs/champions-ecqup/resources/redesign-one-recurring-workflow-with-ai-2026-08-21)
+
+Aug 21st, 2026 • Views 703

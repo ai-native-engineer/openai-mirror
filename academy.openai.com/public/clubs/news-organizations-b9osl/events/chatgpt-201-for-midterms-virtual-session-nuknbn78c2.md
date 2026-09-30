@@ -1,10 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/events/chatgpt-201-for-midterms-virtual-session-nuknbn78c2 -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.events](/en/public/clubs/news-organizations-b9osl/events)
+[navigation.events](/public/clubs/news-organizations-b9osl/events)
 
 ![ChatGPT 201 For Midterms - Virtual Session](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/20260611-Midterms-Washington-Deck-96c1ead1-6799-4def-9798-3c3a5e343d1d-1784637090850.jpeg?fit=scale-down&width=1200)
+
+LIVESTREAM
 
 4:00 PM - 5:00 PM GMT
 
@@ -12,7 +14,7 @@ August 11, 2026
 
 # ChatGPT 201 For Midterms - Virtual Session
 
-# ChatGPT
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
 
 # ChatGPT for Work
 
@@ -46,18 +48,30 @@ Editorial Director @ OpenAI
 
 View Profile
 
-Live in 20 days 12 hours
+Event has finished
 
 4:00 PM - 5:00 PM GMT
 
 August 11, 2026
 
+Online
+
+Organized by
+
 News Organizations
 
-Live in 20 days 12 hours
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
+
+Event has finished
 
 4:00 PM - 5:00 PM GMT
 
 August 11, 2026
 
+Online
+
+Organized by
+
 News Organizations
+
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)

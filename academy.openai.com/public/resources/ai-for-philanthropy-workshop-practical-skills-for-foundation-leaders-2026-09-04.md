@@ -13,13 +13,9 @@ September 4, 2026
 Thank you for joining the AI for Philanthropy Workshop:
 Practical skills for foundation leaders! Please see the slides below to continue building:
 
-﻿
-
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/-EXT-AI-for-Philanthropy-Workshop-e878cafe-2b4f-44a5-a8b9-f39ae86bd07c-1788557752637.pdf) the file to view.
 
-﻿
-
-﻿
+External Content
 
 [Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
@@ -27,40 +23,36 @@ Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uplo
 
 By David Sperry
 
-[1:32:34](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
-
-[AI for Nonprofits 101](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
-
-By Mohammed Husain
+[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
 
 [AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Jul 23rd, 2026 • Views 124
-
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
-
-Mar 29th, 2026 • Views 1.3K
+Jul 23rd, 2026 • Views 268
 
 [AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Jul 23rd, 2026 • Views 87
+Jul 23rd, 2026 • Views 166
 
-[AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-Jul 23rd, 2026 • Views 41
+Jul 23rd, 2026 • Views 127
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 64
 
 [AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Jul 23rd, 2026 • Views 124
+Jul 23rd, 2026 • Views 268
+
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
+
+Jul 23rd, 2026 • Views 127
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 64
 
 [AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Jul 23rd, 2026 • Views 87
-
-[AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
-
-Jul 23rd, 2026 • Views 41
-
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
-
-Mar 29th, 2026 • Views 1.3K
+Jul 23rd, 2026 • Views 166

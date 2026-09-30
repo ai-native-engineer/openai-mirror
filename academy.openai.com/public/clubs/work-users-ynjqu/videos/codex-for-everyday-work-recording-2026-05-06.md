@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06 -->
+
 # Codex for everyday work
 
 <!-- vimeo: 1189945308 | track: English (auto-generated) -->

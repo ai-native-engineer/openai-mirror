@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/how-finance-teams-use-codex-recording-2026-05-20 -->
+
 # How finance teams use Codex
 
 <!-- vimeo: 1193884461 | track: English (auto-generated) -->

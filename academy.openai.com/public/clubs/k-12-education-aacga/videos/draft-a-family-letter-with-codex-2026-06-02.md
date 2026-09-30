@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02 -->
+
 # K12: Draft a family letter with Codex
 
 <!-- vimeo: 1197821349 | track: English (auto-generated) -->

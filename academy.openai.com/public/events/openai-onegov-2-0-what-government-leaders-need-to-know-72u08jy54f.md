@@ -10,13 +10,13 @@ September 14, 2026
 
 # OpenAI OneGov 2.0: What Government Leaders Need to Know
 
-Register
+[Replay](https://academy.openai.com/home/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
 
 OpenAI and GSA have announced OneGov 2.0, a new 27-month agreement that expands access to eligible federal, state, local, and tribal governments. Beginning October 1, participating organizations can access ChatGPT, Codex, and the API with no monthly license fee—normally $15 per user—no minimum commitment, and 50% off eligible usage costs.
 
 Join Alexis Bonnell and Felipe Millon for a practical overview of what’s included, how consumption-based pricing works, and the training, onboarding, and resources available to help government teams get started.
 
-[Read the OneGov 2.0 announcement.](https://openai.com/index/expanding-ai-access-us-government/)
+﻿ [Read the OneGov 2.0 announcement.](https://openai.com/index/expanding-ai-access-us-government/)﻿
 
 ## Speakers
 
@@ -62,7 +62,7 @@ Speakers:
 
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/alexis-d245273e-a666-4fdd-8fa4-5e8650ec0fa1-1786547564374.jpeg?fit=scale-down&width=200)
 
-Live in 3 days 14 hours
+Event has finished
 
 3:15 PM - 4:15 PM GMT
 
@@ -76,11 +76,9 @@ Organized by
 
 OpenAI Academy
 
-Register
+[Replay](https://academy.openai.com/home/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)
 
-Add to calendar
-
-Live in 3 days 14 hours
+Event has finished
 
 3:15 PM - 4:15 PM GMT
 
@@ -94,6 +92,4 @@ Organized by
 
 OpenAI Academy
 
-Register
-
-Add to calendar
+[Replay](https://academy.openai.com/home/clubs/government/videos/openai-onegov-2-0-what-government-leaders-need-to-know-replay)

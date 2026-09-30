@@ -1,10 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/events/how-admins-drive-chatgpt-work-success-x0to1lu8do -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.events](/en/public/clubs/admins-6o6xf/events)
+[navigation.events](/public/clubs/admins-6o6xf/events)
 
 ![How Admins Drive ChatGPT Work Success](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-Academy-Event-Card-Templates-8--f15872b9-bb63-44d9-8f6e-d33be57e1c04-1784823598399.jpeg?fit=scale-down&width=1200)
+
+LIVESTREAM
 
 8:00 PM - 8:45 PM GMT
 
@@ -16,11 +18,17 @@ July 15, 2026
 
 # ChatGPT for Work
 
+# Portfolio Company Dev & IT
+
 Event has finished
 
 8:00 PM - 8:45 PM GMT
 
 July 15, 2026
+
+Online
+
+Organized by
 
 Admins
 
@@ -31,6 +39,10 @@ Event has finished
 8:00 PM - 8:45 PM GMT
 
 July 15, 2026
+
+Online
+
+Organized by
 
 Admins
 

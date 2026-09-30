@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk -->
+
 # AI Techniques (Foundations): Introduction to Agentic Workflows
 
 <!-- vimeo: 1105245234 | track: English (auto-generated) -->

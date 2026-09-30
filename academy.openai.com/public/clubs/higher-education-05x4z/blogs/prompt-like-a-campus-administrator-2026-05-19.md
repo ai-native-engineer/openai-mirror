@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -52,7 +52,7 @@ The most reliable pattern from the source material is:
 | --- |
 | You are helping the student affairs team at a university.  ﻿  Task: Summarize the attached advising notes into three major themes and suggest two actions the team should take this month.  ﻿  Context: Audience is directors and advising leads. Use plain language. Base the response only on the attached notes. Do not infer student details that are not stated.  ﻿  Output: Return a two-column table. Column 1 = Theme. Column 2 = Recommended Action. Include exactly three rows. After the table, add a 100-word summary for leadership.  ﻿  Stop rule: If the notes do not support a conclusion, say so directly instead of guessing. |
 
-## ﻿[Try this in ChatGPT](https://chatgpt.com/?q=You%20are%20helping%20the%20student%20affairs%20team%20at%20a%20university.%0A%0ATask%3A%20Summarize%20the%20attached%20advising%20notes%20into%20three%20major%20themes%20and%20suggest%20two%20actions%20the%20team%20should%20take%20this%20month.%0A%0AContext%3A%20Audience%20is%20directors%20and%20advising%20leads.%20Use%20plain%20language.%20Base%20the%20response%20only%20on%20the%20attached%20notes.%20Do%20not%20infer%20student%20details%20that%20are%20not%20stated.%0A%0AOutput%3A%20Return%20a%20two-column%20table.%20Column%201%20%3D%20Theme.%20Column%202%20%3D%20Recommended%20Action.%20Include%20exactly%20three%20rows.%20After%20the%20table%2C%20add%20a%20100-word%20summary%20for%20leadership.%0A%0AStop%20rule%3A%20If%20the%20notes%20do%20not%20support%20a%20conclusion%2C%20say%20so%20directly%20instead%20of%20guessing.)﻿
+## ﻿ [Try this in ChatGPT](https://chatgpt.com/?q=You%20are%20helping%20the%20student%20affairs%20team%20at%20a%20university.%0A%0ATask%3A%20Summarize%20the%20attached%20advising%20notes%20into%20three%20major%20themes%20and%20suggest%20two%20actions%20the%20team%20should%20take%20this%20month.%0A%0AContext%3A%20Audience%20is%20directors%20and%20advising%20leads.%20Use%20plain%20language.%20Base%20the%20response%20only%20on%20the%20attached%20notes.%20Do%20not%20infer%20student%20details%20that%20are%20not%20stated.%0A%0AOutput%3A%20Return%20a%20two-column%20table.%20Column%201%20%3D%20Theme.%20Column%202%20%3D%20Recommended%20Action.%20Include%20exactly%20three%20rows.%20After%20the%20table%2C%20add%20a%20100-word%20summary%20for%20leadership.%0A%0AStop%20rule%3A%20If%20the%20notes%20do%20not%20support%20a%20conclusion%2C%20say%20so%20directly%20instead%20of%20guessing.)﻿
 
 ## **What Good Looks Like**
 
@@ -74,54 +74,56 @@ Treat the first output as a working draft, not a final answer. Review anything t
 
 Once you have a prompt pattern that works, save it inside a Project so your team can reuse it across a longer initiative.
 
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
-
-By Siya Raj Purohit
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+
+May 19th, 2026 • Views 706
+
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+
+By Juliann Igo • Aug 22nd, 2025 • Views 52.2K
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 19th, 2026 • Views 99
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
+May 19th, 2026 • Views 459
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-May 19th, 2026 • Views 46
-
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 42.9K
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-May 19th, 2026 • Views 99
+May 19th, 2026 • Views 706
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 19th, 2026 • Views 46
+May 19th, 2026 • Views 459
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+Blog
 
-By Juliann Igo • Aug 22nd, 2025 • Views 42.9K
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
 
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+
+By Juliann Igo • Aug 22nd, 2025 • Views 52.2K

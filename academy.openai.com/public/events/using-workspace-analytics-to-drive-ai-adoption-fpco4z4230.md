@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+4:00 PM - 4:30 PM GMT
+
+April 1, 2026
+
 # Using workspace analytics to drive AI adoption
 
 [Replay](https://academy.openai.com/home/videos/using-workspace-analytics-to-drive-adoption-2026-04-08)
@@ -13,6 +17,8 @@ LIVESTREAM
 # Workplace & Business
 
 # Deployment & Adoption
+
+# Work
 
 Join the ChatGPT Product + Customer Education team for a hands-on session on how teams use Workspace Analytics in ChatGPT Enterprise to run stronger rollouts—finding where adoption is gaining traction, where it’s stalling, and what to do next.
 
@@ -32,7 +38,9 @@ View Profile
 
 Event has finished
 
-April 01, 4:00 PM GMT
+4:00 PM - 4:30 PM GMT
+
+April 1, 2026
 
 Online
 
@@ -46,7 +54,9 @@ OpenAI Academy
 
 Event has finished
 
-April 01, 4:00 PM GMT
+4:00 PM - 4:30 PM GMT
+
+April 1, 2026
 
 Online
 

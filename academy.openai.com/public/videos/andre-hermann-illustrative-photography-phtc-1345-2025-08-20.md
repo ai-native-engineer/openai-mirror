@@ -1,37 +1,80 @@
 <!-- source: https://academy.openai.com/public/videos/andre-hermann-illustrative-photography-phtc-1345-2025-08-20 -->
 
+Sign in or Join the community to continue
+
+Get Started
+
 # André Hermann (Illustrative Photography PHTC 1345)
 
-Posted Aug 01, 2025 | Views 132
+Posted Aug 01, 2025 | Views 152
+
+# Educators & Students
+
+# Awareness
+
+# Education
+
+Share
+
+## SUMMARY
 
 Using ChatGPT to bring real world problem-based challenges.
 
-## TRANSCRIPT
++ Read More
+
+## CONTENT & TRANSCRIPT
 
 André is a photographer, podcast host, recovering perfectionist, and endurance athlete who shares stories about quiet influence, recovery, and running long distances.
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
++ Read More
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+## Watch More
 
-Posted Mar 08, 2025 | Views 421K
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
+
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
+
+Posted Mar 08, 2025 | Views 439.1K
 
 # Workplace & Business
 
 # Foundations
 
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+# Work
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Posted Mar 23, 2025 | Views 267.9K
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-[8:50](/en/public/videos/advanced-prompt-engineering-2025-02-13)
+Posted Mar 23, 2025 | Views 273.4K
 
-[Advanced Prompt Engineering](/en/public/videos/advanced-prompt-engineering-2025-02-13)
+# Educators & Students
 
-Posted Mar 03, 2025 | Views 223.3K
+# Awareness
+
+# Education
+
+[44:20](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+Posted Aug 24, 2026 | Views 251.2K
 
 # Workplace & Business
 
-# Advanced & Builder Skills
+# Use Cases
+
+# Work
+
+# Portfolio Company Knowledge Work
+
+<!-- youtube: Gc25YGZpxds | track: none -->
+
+[![Portfolio Company Knowledge Work](https://img.youtube.com/vi/Gc25YGZpxds/hqdefault.jpg)](https://www.youtube.com/watch?v=Gc25YGZpxds)
+
+<details>
+<summary>자막: Portfolio Company Knowledge Work</summary>
+
+https://www.youtube.com/watch?v=Gc25YGZpxds
+
+</details>

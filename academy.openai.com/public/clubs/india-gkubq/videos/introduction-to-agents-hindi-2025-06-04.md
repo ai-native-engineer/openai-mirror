@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/introduction-to-agents-hindi-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,7 +10,7 @@ Get Started
 
 # Introduction to Agents (Hindi)
 
-Posted Jun 05, 2025 | Views 1K
+Posted Jun 05, 2025 | Views 1.7K
 
 # General Learners
 
@@ -44,11 +44,11 @@ Share
 
 ## Watch More
 
-[4:22](/en/public/videos/introduction-to-agents-2025-06-04)
+[4:22](/public/videos/introduction-to-agents-2025-06-04)
 
-[Introduction to Agents](/en/public/videos/introduction-to-agents-2025-06-04)
+[Introduction to Agents](/public/videos/introduction-to-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7.6K
 
 # Developers & Builders
 
@@ -58,13 +58,15 @@ Posted Jun 05, 2025 | Views 5.4K
 
 # Deployment & Adoption
 
+# Work
+
 # India
 
-[6:11](/en/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
+[6:11](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
 
-[How to Automate Tasks with Custom GPTs (Hindi)](/en/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
+[How to Automate Tasks with Custom GPTs (Hindi)](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1.6K
+Posted Jun 05, 2025 | Views 1.9K
 
 # Educators & Students
 
@@ -74,11 +76,11 @@ Posted Jun 05, 2025 | Views 1.6K
 
 # India; Hindi
 
-[6:14](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[6:14](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-[How to Build AI Agents](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[How to Build AI Agents](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7K
 
 # Developers & Builders
 
@@ -88,4 +90,17 @@ Posted Jun 05, 2025 | Views 5.4K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+<!-- youtube: o5QETJfDKzM | track: none -->
+
+[![India](https://img.youtube.com/vi/o5QETJfDKzM/hqdefault.jpg)](https://www.youtube.com/watch?v=o5QETJfDKzM)
+
+<details>
+<summary>자막: India</summary>
+
+https://www.youtube.com/watch?v=o5QETJfDKzM
+
+</details>

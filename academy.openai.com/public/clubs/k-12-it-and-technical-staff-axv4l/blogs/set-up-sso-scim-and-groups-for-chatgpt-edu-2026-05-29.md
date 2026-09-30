@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/set-up-sso-scim-and-groups-for-chatgpt-edu-2026-05-29 -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.content](/en/public/clubs/k-12-it-and-technical-staff-axv4l/content)
+[Content](/public/clubs/k-12-it-and-technical-staff-axv4l/content)
 
 Article
 
@@ -112,52 +112,60 @@ After groups appear in ChatGPT, map them to custom roles. Custom roles should be
 
 * Higher credit limits for a specific group
 
-Default workspace settings should remain the baseline, whereas custom roles should be assigned only to groups that need extra permissions. Learn more about Role-Based Access Controls [here](https://help.openai.com/en/articles/11750701-rbac).
+Default workspace settings should remain the baseline, whereas custom roles should be assigned only to groups that need extra permissions. Learn more about Role-Based Access Controls  [here](https://help.openai.com/en/articles/11750701-rbac).
 
 Blog
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
-
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+[K-12 District Workspace Launch Checklist](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
 
 Blog
 
-[K-12 District Workspace Launch Checklist](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
 
-May 29th, 2026 • Views 101
-
-Blog
-
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
-
-May 29th, 2026 • Views 173
+By Juliann Igo • May 12th, 2025 • Views 9.8K
 
 Blog
 
-[Configure Custom Roles for District Rollout](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
+[Configure Custom Roles for District Rollout](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
 
-May 29th, 2026 • Views 81
+May 29th, 2026 • Views 648
 
-Blog
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+Video
 
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Blog
-
-[Manage Connected Applications in ChatGPT](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
-
-May 29th, 2026 • Views 173
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Configure Custom Roles for District Rollout](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
+[Manage Connected Applications in ChatGPT](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
 
-May 29th, 2026 • Views 81
+May 29th, 2026 • Views 1.4K
 
 Blog
 
-[K-12 District Workspace Launch Checklist](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-district-workspace-launch-checklist-2026-05-29)
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
 
-May 29th, 2026 • Views 101
+By Juliann Igo • May 12th, 2025 • Views 9.8K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Manage Connected Applications in ChatGPT](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/manage-connected-applications-in-chatgpt-2026-05-29)
+
+May 29th, 2026 • Views 1.4K
+
+Blog
+
+[Configure Custom Roles for District Rollout](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/configure-custom-roles-for-district-rollout-2026-05-29)
+
+May 29th, 2026 • Views 648

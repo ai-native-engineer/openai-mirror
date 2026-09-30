@@ -66,10 +66,6 @@ You can practice with these sample files before using your own materials.
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/SHARED-ChatGPT-for-Career-Readiness-d86b6cea-5415-4b22-8335-73c42139e91a-1784231712939.pdf) the file to view.
 
-﻿
-
-﻿
-
 ## Starter prompts
 
 ### Build a career positioning kit
@@ -108,68 +104,40 @@ Choose one target role, run one workflow using a public job posting, improve one
 
 * ﻿ [**NPower Resources**](https://www.npower.org/)﻿
 
-## Popular
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-Resource
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-Resource
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+Apr 15th, 2026 • Views 2.6K
 
-Resource
+[Munich SME AI Accelerator - Resource Hub](/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+May 1st, 2026 • Views 795
 
-Dive in
+[ChatGPT for Government 101 Resource Guide](/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
 
-## Related
+By Bryan Petzold • Oct 14th, 2025 • Views 4.1K
 
-Resource
+[Acceleratore IA di Milano - Resource Hub](/public/resources/milan-sme-accelerator-2026-04-20)
 
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+May 15th, 2026 • Views 1.4K
 
-Apr 15th, 2026 • Views 2.1K
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
 
-Resource
+Apr 15th, 2026 • Views 2.6K
 
-[Acceleratore IA di Milano - Resource Hub](/en/public/resources/milan-sme-accelerator-2026-04-20)
+[ChatGPT for Government 101 Resource Guide](/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
 
-May 15th, 2026 • Views 1.1K
+By Bryan Petzold • Oct 14th, 2025 • Views 4.1K
 
-Resource
+[Acceleratore IA di Milano - Resource Hub](/public/resources/milan-sme-accelerator-2026-04-20)
 
-[ChatGPT for Government 101 Resource Guide](/en/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
+May 15th, 2026 • Views 1.4K
 
-By Bryan Petzold • Oct 14th, 2025 • Views 3.9K
+[Munich SME AI Accelerator - Resource Hub](/public/resources/munich-sme-ai-accelerator-resource-hub-2026-04-20)
 
-Resource
-
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
-
-By Calvin Landrum • Jun 4th, 2026 • Views 1.5K
-
-Resource
-
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
-
-Apr 15th, 2026 • Views 2.1K
-
-Resource
-
-[ChatGPT for Government 101 Resource Guide](/en/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
-
-By Bryan Petzold • Oct 14th, 2025 • Views 3.9K
-
-Resource
-
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
-
-By Calvin Landrum • Jun 4th, 2026 • Views 1.5K
-
-Resource
-
-[Acceleratore IA di Milano - Resource Hub](/en/public/resources/milan-sme-accelerator-2026-04-20)
-
-May 15th, 2026 • Views 1.1K
+May 1st, 2026 • Views 795

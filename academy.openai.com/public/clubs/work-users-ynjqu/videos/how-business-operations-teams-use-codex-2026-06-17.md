@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17 -->
+
 # OAI_AcademyWebinar_CodexForBusiness
 
 <!-- vimeo: 1202364113 | track: English (auto-generated) -->

@@ -1,10 +1,12 @@
 <!-- source: https://academy.openai.com/public/events/chatgpt-201-for-midterms-virtual-session-nuknbn78c2 -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.events](/en/public/clubs/news-organizations-b9osl/events)
+[navigation.events](/public/clubs/news-organizations-b9osl/events)
 
 ![ChatGPT 201 For Midterms - Virtual Session](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/20260611-Midterms-Washington-Deck-96c1ead1-6799-4def-9798-3c3a5e343d1d-1784637090850.jpeg?fit=scale-down&width=1200)
+
+LIVESTREAM
 
 4:00 PM - 5:00 PM GMT
 
@@ -12,7 +14,7 @@ August 11, 2026
 
 # ChatGPT 201 For Midterms - Virtual Session
 
-# ChatGPT
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
 
 # ChatGPT for Work
 
@@ -28,11 +30,15 @@ The goal is simple: leave with practical ways to use ChatGPT in the reporting an
 
 You’ll also see how ChatGPT Work, agents, skills, and custom apps can turn a useful workflow into a repeatable newsroom tool. You’ll leave with examples you can adapt and build yourself—no technical background required.
 
+## Speakers
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ProfilePic-4ec2a7d5-ab14-485d-bb4e-fb5eb0f0a999-1780619438161.jpeg?fit=scale-down&width=360)
 
 Evan Hirsch
 
 OpenAI for News @ OpenAI
+
+View Profile
 
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/mark-muray-dd26e230-9720-4442-abba-0d5b1592bbcc-1784638087724.jpeg?fit=scale-down&width=360)
 
@@ -40,18 +46,32 @@ Mark Murray
 
 Editorial Director @ OpenAI
 
-Live in 17 days 21 hours
+View Profile
+
+Event has finished
 
 4:00 PM - 5:00 PM GMT
 
 August 11, 2026
 
+Online
+
+Organized by
+
 News Organizations
 
-Live in 17 days 21 hours
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)
+
+Event has finished
 
 4:00 PM - 5:00 PM GMT
 
 August 11, 2026
 
+Online
+
+Organized by
+
 News Organizations
+
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-201-for-midterms-2026-08-11)

@@ -8,11 +8,11 @@ June 4, 2026
 
 ![GroundVue is making public meetings searchable with Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/groundvue-original-b77ae2de-ab2f-410e-83c3-0aa00d857095-1780611962089.jpeg?fit=scale-down&width=1200)
 
-# business
+# Business
 
-# startup
+# Startup
 
-# govtech
+# Govtech
 
 ## Travis Hoppe, Ann Lewis, and Shannon Arvizu are building a platform that helps governments learn from decisions already being made across the country.
 
@@ -46,86 +46,74 @@ The point is not to replace public servants or local judgment. It is to help off
 
 As Travis puts it, “Instead of using generative AI to generate things, we can use it to listen to the things that people are actually saying.”
 
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
+[1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 Video
 
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
+[Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+
+By Ryan Taylor
+
+[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
+
+Video
+
+[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
 By Derrick Choi
 
-[50:34](/en/public/videos/intro-to-codex-april-09-2026)
+[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
 
 Video
 
-[Intro to Codex (April 09, 2026)](/en/public/videos/intro-to-codex-april-09-2026)
+[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
 
-[30:00](/en/public/videos/codex-for-admins-and-it-2026-03-26)
+By Aaron Wilkowitz
 
-Video
+Blog
 
-[Codex for Admins and IT](/en/public/videos/codex-for-admins-and-it-2026-03-26)
+[Shelby Grossman is making school board meetings searchable with custom GPTs](/public/blogs/shelby-grossman-custom-gpts-school-board-meetings)
 
-[1:00:00](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+Jun 30th, 2026 • Views 1K
 
-Video
+Blog
 
-[Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
 
-By Ryan Taylor • Mar 13th, 2026 • Views 34K
+Sep 4th, 2026 • Views 458
 
-[47:54](/en/public/videos/codex-on-campus-2026-04-21)
+Blog
 
-Video
+[This European startup founder is building a fitness business with Codex and ChatGPT Work](/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28)
 
-[Codex on Campus](/en/public/videos/codex-on-campus-2026-04-21)
+Aug 28th, 2026 • Views 510
 
-By Gaurav Kaila • Apr 21st, 2026 • Views 930
+Blog
 
-[10:00](/en/public/videos/mitchell-weiss-public-entrepreneurship-2025-08-21)
+[Marco Salsiccia builds accessible apps with Codex](/public/blogs/marco-salsiccia-builds-accessible-apps-with-codex)
 
-Video
+Aug 14th, 2026 • Views 232
 
-[Mitchell Weiss (Public Entrepreneurship)](/en/public/videos/mitchell-weiss-public-entrepreneurship-2025-08-21)
+Blog
 
-Aug 1st, 2025 • Views 122
+[Shelby Grossman is making school board meetings searchable with custom GPTs](/public/blogs/shelby-grossman-custom-gpts-school-board-meetings)
 
-[1:00:00](/en/public/videos/codex-for-beginners-2026-04-22)
+Jun 30th, 2026 • Views 1K
 
-Video
+Blog
 
-[Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
+[This European startup founder is building a fitness business with Codex and ChatGPT Work](/public/blogs/this-startup-founder-is-building-a-fitness-business-with-codex-and-chatgpt-work-2026-08-28)
 
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 21.6K
+Aug 28th, 2026 • Views 510
 
-[1:00:00](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+Blog
 
-Video
+[Marco Salsiccia builds accessible apps with Codex](/public/blogs/marco-salsiccia-builds-accessible-apps-with-codex)
 
-[Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+Aug 14th, 2026 • Views 232
 
-By Ryan Taylor • Mar 13th, 2026 • Views 34K
+Blog
 
-[10:00](/en/public/videos/mitchell-weiss-public-entrepreneurship-2025-08-21)
+[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
 
-Video
-
-[Mitchell Weiss (Public Entrepreneurship)](/en/public/videos/mitchell-weiss-public-entrepreneurship-2025-08-21)
-
-Aug 1st, 2025 • Views 122
-
-[1:00:00](/en/public/videos/codex-for-beginners-2026-04-22)
-
-Video
-
-[Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
-
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 21.6K
-
-[47:54](/en/public/videos/codex-on-campus-2026-04-21)
-
-Video
-
-[Codex on Campus](/en/public/videos/codex-on-campus-2026-04-21)
-
-By Gaurav Kaila • Apr 21st, 2026 • Views 930
+Sep 4th, 2026 • Views 458

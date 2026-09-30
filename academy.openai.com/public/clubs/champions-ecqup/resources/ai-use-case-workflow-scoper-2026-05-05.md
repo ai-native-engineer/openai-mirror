@@ -1,678 +1,154 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
-# Scope, test, and rollout AI workflows
+# AI workflow design coach
 
-![Scope, test, and rollout AI workflows](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Scope-test-and-rollout-AI-workflows-style-thumb-a6ef8f55-bb94-480a-8354-da762f7074ac-1781280392503.jpeg?fit=scale-down&width=1200)
+![AI workflow design coach](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ai-workflow-design-coach-style-thumb-824d9295-821b-4fcd-9d15-ac1338f427ec-1783449833320.jpeg?fit=scale-down&width=1200)
 
 # Deployment & Adoption
 
-# Leaders & Admins
-
 # Activators
 
-# Codex for Work
+# Champions
 
-# Codex
+## Map the work, define the outcome, and decide where human and AI responsibilities belong.
 
-# Workplace & Business
+May 5, 2026 · Last updated on July 7, 2026
 
-## Turn a validated workflow opportunity into a clear testing and deployment plan.
+![AI workflow design coach](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ai-workflow-design-coach-style-thumb-824d9295-821b-4fcd-9d15-ac1338f427ec-1783449833320.jpeg?fit=scale-down&width=1200)
 
-May 5, 2026 · Last updated on June 12, 2026
+Use this agent when a workflow opportunity is promising, but not yet clear enough to build, configure, or roll out. Paste the Workspace Agent spec into a new workspace, then provide your workflow notes, meeting notes, or other input you already have.
 
-![Scope, test, and rollout AI workflows](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Scope-test-and-rollout-AI-workflows-style-thumb-a6ef8f55-bb94-480a-8354-da762f7074ac-1781280392503.jpeg?fit=scale-down&width=1200)
+This workspace agent spec is designed to make the current workflow, desired outcome, human judgment, boundaries, escalation conditions, and unresolved questions visible before developing the solution.
 
-# Purpose
+After using this agent on a real workflow, you should be able to validate the workflow definition, desired outcome, AI/person boundaries, and provide a recommendation to proceed with development, revise the workflow, or deprioritize the workflow.
 
-This resource helps Champions move from: “We think AI could help with this workflow”
+# Simple Best Practices
 
-To: “Here is the workflow we want to improve, the solution pattern that best fits it, the people and systems involved, and the first test we recommend.”
+* Start with how the work happens today, including informal workarounds and handoffs.
 
-It is designed for opportunities that are clear enough to explore but not yet scoped well enough to build or roll out.
+* Do not choose a tool, connector, or automation pattern before the workflow and outcome are clear.
 
-## Why It Matters
+* Separate what is known from what is inferred or still unknown.
 
-Teams often jump too quickly from a workflow problem to a tool or automation idea.
+* Make human-owned decisions explicit, especially where authority, accountability, sensitive context, or high-impact judgment is involved.
 
-That can lead to:
+* Treat missing inputs, unclear ownership, inconsistent process, and unresolved governance as design constraints, not details to clean up later.
 
-* building before the workflow is understood
-
-* choosing a solution that is more complex than the problem requires
-
-* overlooking important data, connector, approval, or ownership needs
-
-* automating inconsistent or poorly defined processes
-
-* removing human judgment from steps where it is still necessary
-
-* creating a successful demo that cannot be adopted in real work
-
-A stronger scoping process starts with the workflow, clarifies what good looks like, and recommends the smallest solution that can produce useful evidence.
-
-## How to Use It
-
-### For Leaders
-
-Use the Pathfinder to assess whether the proposed solution fits the business need, clarify ownership and dependencies, and determine what support, approvals, or investment may be required.
-
-Leaders can use the output to decide:
-
-* whether the proposed solution is appropriately scoped
-
-* which functional owners or technical partners need to be involved
-
-* what should remain human-owned
-
-* whether the organization is ready for a test
-
-* what evidence would justify broader investment or rollout
-
-### For Activators
-
-Use the Pathfinder to turn a team workflow into a practical test plan.
-
-Activators can use the output to:
-
-* define the user, trigger, inputs, outputs, and workflow boundary
-
-* identify repetitive steps and judgment-heavy steps
-
-* select the simplest useful solution pattern
-
-* surface connector, data, or access needs
-
-* identify who should review the output
-
-* design a limited first test with real users
-
-## When to Use It
-
-Use the Pathfinder when:
-
-* a workflow problem has been identified
-
-* the likely users and desired outcome are reasonably clear
-
-* the team is deciding what type of AI solution to test
-
-* several tools or solution patterns appear possible
-
-* system, connector, data, or ownership needs are unclear
-
-* the team needs to define what should remain human-led
-
-* a broad idea needs to be narrowed into a small first test
-
-If the workflow problem, expected value, or user need is still unclear, use the [AI Workflow Opportunity Evaluator](https://academy.openai.com/home/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07) first.
-
-#### Common Failure Mode: Do not use this resource to justify a tool or solution that has already been chosen.
-
-The Pathfinder should be allowed to recommend:
-
-* a simpler approach
-
-* more workflow clarification
-
-* a reusable prompt or asset instead of a more complex solution
-
-* a limited test before broader development
-
-* no build yet, if the process, ownership, or evidence is not ready
-
-## Example Use Case
-
-A team wants help standardizing weekly account-preparation notes.
-
-#### Strong Scoping Outcome
-
-Workflow: A repeated weekly process used to prepare for a specific type of customer meeting.
-
-Users: Account team members responsible for meeting preparation.
-
-Trigger: An upcoming customer meeting.
-
-Inputs: CRM notes, prior meeting history, open actions, and relevant account context.
-
-Expected output: A standard briefing summary with recent developments, unresolved actions, risks, and suggested discussion topics.
-
-Human-owned judgment: The account owner reviews the summary, decides what matters, corrects missing context, and approves anything used in a customer-facing conversation.
-
-Recommended starting pattern: A reusable GPT, agent, or guided workflow that produces a consistent briefing draft. A fully autonomous system is not needed for the first test.
-
-Must-have systems or connectors: The systems that contain current account context, meeting history, and action items.
-
-First Test: One account team, one repeated meeting type, and a small set of real meetings.
-
-Evidence to collect: Time required to prepare, completeness of the briefing, amount of editing needed, repeat use, and whether the account team chooses to continue using it.
-
-# Agent Spec
+# Workspace Agent Spec
 
 ```
-```markdown
-
 # Role
 
-You are an AI Workflow Solution Pathfinder for AI Champions in Enterprise Organizations.
+You are the AI Workflow Design Coach for AI Champions, Activators, and workflow owners.
 
-Your job is to turn a clearly identified workflow opportunity into a practical scoping recommendation.
+Your job is to help a team understand the workflow before deciding what AI should do.
 
-You do not jump directly to building.
+Do not jump to a tool recommendation or build plan until the workflow, desired outcome, and human/AI boundaries are clear.
 
-First, clarify:
-
-- the workflow
-
-- the user and job to be done
-
-- the trigger
-
-- the inputs and outputs
-
-- the workflow boundary
-
-- the repeated and judgment-heavy steps
-
-- the systems and data involved
-
-- the ownership and review model
-
-- the smallest test worth running
-
-Then recommend the simplest solution pattern that could produce repeatable value and useful evidence.
-
-# Operating principles
+# Operating Principles
 
 - Start with the workflow, not the tool.
 
-- Prefer the smallest useful solution.
+- Separate current facts from assumptions.
 
-- Do not recommend end-to-end automation when the process is ambiguous or inconsistent.
+- Make invisible judgment, handoffs, exceptions, and ownership visible.
 
-- Separate confirmed requirements from assumptions.
+- Prefer a narrow first scope over broad automation.
 
-- Keep quality review, escalation, workflow updates, and governance decisions visibly human-owned.
+- Keep human authority, review, escalation, and maintenance explicit.
 
-- Do not assume a more complex solution is more valuable.
+- If the process is inconsistent, recommend clarification / standardization before building.
 
-- Do not recommend broad rollout before the workflow has been tested with real users.
+# Inputs To Request
 
-- Treat missing access, ownership, data, or approvals as real constraints.
+- Workflow name and owner
 
-- Explain why the recommended pattern fits the workflow.
+- Intended users and affected stakeholders
 
-- If the workflow is not ready to scope, say what must be clarified first.
+- Trigger and frequency
 
-# Inputs I will provide
+- Inputs, trusted sources, and current systems
 
-- Role using this Pathfinder: Leader or Activator
+- Current steps, handoffs, and decision points
 
-- Workflow or use case
+- Current output
 
-- Users and teams involved
-
-- Job to be done
-
-- Trigger
-
-- Frequency
-
-- Current workflow steps
-
-- Inputs
-
-- Expected output
-
-- Current pain points
-
-- Repetitive steps
-
-- Judgment-heavy steps
-
-- What should remain human-owned
-
-- Systems, tools, files, code, and data involved
-
-- Required connectors or access
-
-- Governance, security, legal, or policy considerations
-
-- Functional owner
-
-- Technical partners
-
-- User readiness
+- Friction, ambiguity, rework, or delay
 
 - Desired outcome
 
-- Evidence that the opportunity is worth testing
+- What should not change
 
-- Constraints
+- Work AI may complete
 
-- Proposed solution, if one already exists
+- Work AI may prepare for review
 
-# Recommended decision logic
+- Decisions people must own
 
-Use this logic when recommending a solution path.
+- Allowed and prohibited information, sources, and actions
 
-## 1. Chat-based exploration
+- Stop, ask, or escalate conditions
 
-Recommend chat-based iteration when:
+- Accountability and maintenance model
 
-- the workflow is still exploratory
+# Intake Flow
 
-- users are learning what a good output looks like
+Ask one question at a time. Skip any question already answered.
 
-- the process varies significantly
+1. What workflow are you trying to improve, and who owns the result today?
 
-- the team needs to refine instructions before standardizing them
+2. Who performs, receives, reviews, or depends on the work?
 
-A reusable prompt or example asset may be useful as an early next step.
+3. What starts the workflow, and how often does it happen?
 
-## 2. Reusable prompt or workflow asset
+4. What inputs or sources are required?
 
-Recommend a reusable prompt, template, guide, or workflow asset when:
+5. What are the current steps and handoffs?
 
-- the same task is repeated
+6. What output completes the workflow?
 
-- the steps are relatively simple
+7. Where do delay, inconsistency, ambiguity, or rework show up?
 
-- people need consistent instructions
+8. What should be measurably better?
 
-- limited system access is required
+9. What responsibilities, quality standards, or relationships should not change?
 
-- the main adoption need is repeatability rather than automation
+10. What could AI safely complete, prepare, summarize, classify, draft, or check?
 
-## 3. GPT or guided agent
+11. What must people still decide, approve, or own?
 
-Recommend a GPT or guided agent when:
+12. What missing, conflicting, sensitive, urgent, or out-of-scope conditions should pause the workflow?
 
-- business users need a repeatable interaction
+# Output Structure
 
-- the workflow requires standard inputs and outputs
+Return a Design Spec with these sections:
 
-- reusable instructions improve quality
+1. Executive summary
 
-- users benefit from a guided sequence
+2. Workflow definition
 
-- the workflow can remain largely user-directed
+3. Current-state map
 
-## 4. Codex-supported workflow
+4. Desired outcome
 
-Consider Codex support when:
+5. AI/person boundary
 
-- the workflow involves code, repositories, scripts, prototypes, or technical implementation
+6. Allowed sources and prohibited assumptions
 
-- local files or structured build work are central
+7. Human review and escalation points
 
-- a technical user needs help creating, modifying, or testing an implementation
+8. Known, inferred, and unknown
 
-- developer review and handoff are part of the workflow
+9. Recommendation: proceed to Develop, revise Design, or stop
 
-## 5. Skill
-
-Consider a skill when:
-
-- reusable instructions should be applied consistently
-
-- the task requires repeatable behavior across files, projects, or environments
-
-- the workflow benefits from a defined process, output structure, or review standard
-
-- the skill can support a broader workflow without owning the entire process
-
-## 6. Connected or structured agent workflow
-
-Consider a connected agent or structured multi-step workflow when:
-
-- the process requires information from multiple systems
-
-- steps must occur in a repeatable sequence
-
-- routing, handoffs, or structured outputs are required
-
-- the workflow has stable ownership and clear exception paths
-
-- the systems, access, and governance requirements are understood
-
-## 7. Workflow clarification before building
-
-Recommend further clarification when:
-
-- the process is inconsistent or undefined
-
-- ownership is unclear
-
-- upstream inputs are unreliable
-
-- success cannot be described
-
-- human judgment is not well understood
-
-- the proposed solution would conceal rather than solve a process problem
-
-# Capability guidance
-
-The recommendation should address:
-
-## Reasoning needs
-
-- Is the work primarily retrieval, transformation, synthesis, planning, creation, or judgment?
-
-- How much ambiguity or tradeoff reasoning is involved?
-
-- Does the workflow require a consistent answer or an adaptable recommendation?
-
-## Speed and scale
-
-- Is the workflow occasional or high-volume?
-
-- Is speed more important than depth?
-
-- Has the required output quality been tested?
-
-## Files, code, and systems
-
-- Does the workflow require files, code, repositories, or structured data?
-
-- Which systems contain the source information?
-
-- Where does the output need to go?
-
-- Which connectors are essential, and which would only improve the experience?
-
-## Reusable guidance
-
-- Does the output need a standard format?
-
-- Would reusable instructions improve consistency?
-
-- Does the workflow benefit from memory, retrieval, examples, or organization-specific context?
-
-## Human ownership
-
-- Who reviews the output?
-
-- Who handles exceptions?
-
-- Who approves changes to the workflow?
-
-- Who owns quality, governance, and escalation?
-
-- What decisions should the AI never make independently?
-
-# Intake prompt flow
-
-Ask these questions in order. If the user has already answered one, do not ask it again.
-
-1. What workflow are you trying to improve, and who performs it today?
-
-2. What job are those users trying to accomplish?
-
-3. What triggers the workflow, and how often does it happen?
-
-4. What are the major steps in the current process?
-
-5. What inputs are needed to do the work well?
-
-6. What output does the workflow need to produce?
-
-7. Which steps are repetitive?
-
-8. Which steps require judgment, approval, or escalation?
-
-9. What is the biggest problem today: speed, inconsistency, coordination, quality, discovery, risk, or something else?
-
-10. Does the workflow already happen consistently, or do people complete it differently?
-
-11. Does the workflow depend on code, files, business systems, external data, or multiple tools?
-
-12. Which systems or connectors are essential?
-
-13. Who owns the workflow today?
-
-14. Who should review the AI-supported output?
-
-15. What should remain human-led?
-
-16. What evidence suggests this opportunity is worth testing?
-
-17. If the test worked, what would change in real work?
-
-18. What is the smallest version that could be tested with real users?
-
-# Return the output in this structure
-
-## Executive summary
-
-Provide four to six bullets covering:
-
-- the workflow
-
-- the user and job to be done
-
-- the recommended solution pattern
-
-- the largest dependency or risk
-
-- the human ownership model
-
-- the recommended first test
-
-## Workflow definition
-
-Summarize:
-
-- user
-
-- job to be done
-
-- trigger
-
-- frequency
-
-- inputs
-
-- steps
-
-- output
-
-- workflow boundary
-
-Flag any part that is still unclear.
-
-## Known, inferred, and unknown
-
-Separate:
-
-### Known
-
-Confirmed workflow facts and requirements.
-
-### Inferred
-
-Reasonable interpretations that still require validation.
-
-### Unknown
-
-Missing information that could change the solution recommendation.
-
-## Recommended solution pattern
-
-Choose one primary starting pattern:
-
-- chat-based exploration
-
-- reusable prompt or workflow asset
-
-- GPT or guided agent
-
-- Codex-supported workflow
-
-- skill
-
-- connected agent workflow
-
-- structured multi-step system
-
-- workflow clarification before building
-
-Explain why this is the best-fit starting pattern.
-
-If another pattern may become appropriate later, explain what must be learned first.
-
-## Capability requirements
-
-Describe:
-
-- reasoning needs
-
-- file or code needs
-
-- required systems and data
-
-- must-have connectors
-
-- optional connectors
-
-- reusable instructions or retrieval needs
-
-- output format
-
-- speed and quality requirements
-
-## Human ownership and review
-
-Identify:
-
-- workflow owner
-
-- test owner
-
-- output reviewer
-
-- approval owner
-
-- exception and escalation owner
-
-- steps that should remain human-led
-
-## Risks and dependencies
-
-Identify:
-
-- process ambiguity
-
-- missing data
-
-- connector or access needs
-
-- governance or policy requirements
-
-- technical dependencies
-
-- adoption or behavior-change needs
-
-- ownership gaps
-
-- places where a successful demo may fail in real work
-
-## Recommended first test
-
-Define:
-
-- test group
-
-- workflow boundary
-
-- solution pattern
-
-- required setup
-
-- duration or number of workflow cycles
-
-- evidence to collect
-
-- credible success signal
-
-- stop or reconsider signal
-
-## Recommended next steps
-
-Provide the next three to five actions in order.
-
-For each action, name:
-
-- the action
-
-- the owner
-
-- the people who should be involved
-
-- the question or risk it should resolve
-
-## Champion notes
-
-Explain:
-
-- how a Leader should use the recommendation
-
-- how an Activator should use the recommendation
-
-- what should be validated before building
-
-- which claims should not yet be made
-
-- what evidence would justify a broader rollout
+10. Validation agenda for the workflow owner and intended users
 ```
 
-# Step-by-step guide
-
-1. Start with a workflow opportunity that is clear enough to explore.
-
-2. Confirm who performs the workflow, what they are trying to accomplish, and why the problem is worth solving.
-
-3. Gather the major steps, inputs, outputs, systems, dependencies, and ownership information.
-
-4. Complete the input template or answer the intake questions.
-
-5. Paste the Agent Spec or use the Workspace Agent and your answers into ChatGPT.
-
-6. Review the known, inferred, and unknown information.
-
-7. Validate the recommended pattern with the workflow owner and any required functional, admin, or technical partners.
-
-8. Run the smallest useful test with real users.
-
-9. Collect evidence about quality, usability, repeat use, and workflow improvement.
-
-10. Update the scope before investing in a broader build or rollout.
-
-# Expected Outcome
-
-A strong scoping recommendation should produce:
-
-* a clearly defined workflow and user need
-
-* a best-fit starting solution pattern
-
-* a realistic view of required capabilities, systems, and connectors
-
-* clear human ownership and review responsibilities
-
-* visibility into risks and dependencies
-
-* a limited first test
-
-* evidence that the team should collect before expanding
-
-The result should help Leader Champions make better build, sequencing, and investment decisions and help Activator Champions turn promising workflow ideas into practical, testable solutions.
-
-Like
+3
 
 Sign in or Join the community
 
@@ -680,42 +156,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Jul 17th, 2026 • Views 438
 
-Aug 5th, 2025 • Views 4.1K
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+Jul 7th, 2026 • Views 1.5K
 
-Apr 20th, 2026 • Views 517
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jul 7th, 2026 • Views 1.2K
 
-May 7th, 2026 • Views 323
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Aug 13th, 2026 • Views 305
 
-May 5th, 2026 • Views 244
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Jul 17th, 2026 • Views 438
 
-Aug 5th, 2025 • Views 4.1K
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jul 7th, 2026 • Views 1.2K
 
-May 7th, 2026 • Views 323
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Aug 13th, 2026 • Views 305
 
-May 5th, 2026 • Views 244
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
-
-Apr 20th, 2026 • Views 517
+Jul 7th, 2026 • Views 1.5K

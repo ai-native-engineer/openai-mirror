@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/impact-survey-template -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 # Impact survey template
 
@@ -13,6 +13,8 @@
 # Workplace & Business
 
 # Deployment & Adoption
+
+# Work
 
 ## Measure how your team is using ChatGPT and the impact it’s having on their work.
 
@@ -208,42 +210,48 @@ Do you have any concerns or barriers related to using ChatGPT for work?
 
 **Closing**Thank you for sharing your experience! Your feedback helps us improve how we support you and guide future investments in ChatGPT.
 
-Table Of Contents
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+[Baseline survey template](/public/clubs/admins-6o6xf/resources/baseline-survey-template)
 
-[Baseline survey template](/en/public/clubs/admins-6o6xf/resources/baseline-survey-template)
+Jul 10th, 2025 • Views 2.2K
 
-Jul 10th, 2025 • Views 1.9K
+[Automate provisioning and unlock actionable analytics with SCIM](/public/clubs/admins-6o6xf/resources/scim)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Mar 11th, 2026 • Views 2.2K
 
-Mar 10th, 2026 • Views 9.7K
+[Measuring impact and ROI](/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
 
-[Measuring impact and ROI](/en/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
+Jul 4th, 2025 • Views 4K
 
-Jul 4th, 2025 • Views 2.9K
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Automate provisioning and unlock actionable analytics with SCIM](/en/public/clubs/admins-6o6xf/resources/scim)
+Video
 
-Mar 11th, 2026 • Views 856
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Baseline survey template](/en/public/clubs/admins-6o6xf/resources/baseline-survey-template)
+Sep 14th, 2026 • Views 1.5K
 
-Jul 10th, 2025 • Views 1.9K
+[Baseline survey template](/public/clubs/admins-6o6xf/resources/baseline-survey-template)
 
-[Measuring impact and ROI](/en/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
+Jul 10th, 2025 • Views 2.2K
 
-Jul 4th, 2025 • Views 2.9K
+[Measuring impact and ROI](/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
 
-[Automate provisioning and unlock actionable analytics with SCIM](/en/public/clubs/admins-6o6xf/resources/scim)
+Jul 4th, 2025 • Views 4K
 
-Mar 11th, 2026 • Views 856
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Video
 
-Mar 10th, 2026 • Views 9.7K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[Automate provisioning and unlock actionable analytics with SCIM](/public/clubs/admins-6o6xf/resources/scim)
+
+Mar 11th, 2026 • Views 2.2K

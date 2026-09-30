@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+May 14, 2026
+
 # Skill Lab: Using ChatGPT for Excel
 
 [Replay](https://vimeo.com/1192348857?share=copy&fl=sv&fe=ci)
@@ -12,13 +16,15 @@ LIVESTREAM
 
 # Awareness
 
+# Work
+
 Join us for a Skill Lab on ChatGPT for Excel, a spreadsheet experience that lives in a sidebar inside Excel.
 
 We’ll walk through how to scope a workbook task, prompt with the right sheets in context, ask for a plan before larger edits, and review formulas, citations, and changed cells. You’ll leave with a practical framework and resources for how to use ChatGPT in Excel.
 
 Best for anyone working in reporting, planning, forecasting, KPI reviews, model cleanup, or scenario analysis.
 
-Use the [skill lab one-pager](https://academy.openai.com/home/resources/skill-lab-handout-chatgpt-for-excel-2026-05-13) to follow along!
+Use the  [skill lab one-pager](https://academy.openai.com/home/resources/skill-lab-handout-chatgpt-for-excel-2026-05-13)to follow along!
 
 ## Speakers
 
@@ -32,7 +38,9 @@ View Profile
 
 Event has finished
 
-May 14, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 14, 2026
 
 Online
 
@@ -46,7 +54,9 @@ OpenAI Academy
 
 Event has finished
 
-May 14, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 14, 2026
 
 Online
 

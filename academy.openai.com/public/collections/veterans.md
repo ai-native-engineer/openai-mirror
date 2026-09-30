@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/veterans -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Veterans
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -70,7 +72,7 @@ David Sperry · Nov 5th, 2025
 
 10
 
-5](/en/public/resources/veterans)[External
+5](/public/resources/veterans)[External Content
 
 ### 100 chats for veterans
 
@@ -82,7 +84,7 @@ These chats were made by veterans at OpenAI, for other veterans. Learn new thing
 
 # Use Cases
 
-# Government](/en/public/externals/100-chats-for-veterans-2025-11-07)[Resource
+# Government](/public/externals/100-chats-for-veterans-2025-11-07)[Resource
 
 ### AI Ready Veteran
 
@@ -96,7 +98,7 @@ Transitioning from military to civilian life is one of the most complex challeng
 
 ![Stephen Hudson](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/stephen-01efa6b1-8ebd-42ae-9882-0fac5f589b89-1762549366699.png?fit=scale-down&width=52)
 
-Stephen Hudson · Nov 10th, 2025](/en/public/resources/ai-ready-veteran-2025-11-07)[Resource
+Stephen Hudson · Nov 10th, 2025](/public/resources/ai-ready-veteran-2025-11-07)[Resource
 
 ### AI Ready Veteran
 
@@ -110,14 +112,14 @@ Transitioning from military to civilian life is one of the most complex challeng
 
 ![Stephen Hudson](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/stephen-01efa6b1-8ebd-42ae-9882-0fac5f589b89-1762549366699.png?fit=scale-down&width=52)
 
-Stephen Hudson · Nov 10th, 2025](/en/public/resources/ai-ready-veteran)
+Stephen Hudson · Nov 10th, 2025](/public/resources/ai-ready-veteran)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

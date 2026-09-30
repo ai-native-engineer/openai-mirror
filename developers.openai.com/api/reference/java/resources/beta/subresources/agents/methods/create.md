@@ -1,0 +1,646 @@
+<!-- source: https://developers.openai.com/api/reference/java/resources/beta/subresources/agents/methods/create/ -->
+
+## Create an agent
+
+`Agent beta().agents().create(AgentCreateParamsparams, RequestOptionsrequestOptions = RequestOptions.none())`
+
+**post** `/agents`
+
+Creates a reusable agent without storing credentials. See [agent configuration](/api/docs/guides/agents-api/configuration).
+
+- `AgentCreateParams params`
+
+  - `String model`
+
+    The model to use for the agent. The requested model name is preserved.
+
+  - `Optional<String> instructions`
+
+    Additional instructions appended to the agent's default base instructions. Omit or set to null to add no custom instructions.
+
+  - `Optional<Metadata> metadata`
+
+    Up to 16 string key-value pairs, with keys up to 64 and values up to 512 characters. Omission or null defaults to an empty map.
+
+  - `Optional<MultiAgentConfigParam> multiAgent`
+
+    Configuration for creating and coordinating subagents. Subagent tools are disabled by default.
+
+  - `Optional<String> name`
+
+    A human-readable name for the agent. Omission or null leaves the agent unnamed.
+
+  - `Optional<AgentReasoningParam> reasoning`
+
+    Configuration for model reasoning. Omission uses the model's default effort.
+
+  - `Optional<ServiceTier> serviceTier`
+
+    The service tier used for model requests. Defaults to `auto`.
+
+    - `AUTO("auto")`
+
+      Selects the service tier automatically.
+
+    - `DEFAULT("default")`
+
+      Uses the default service tier.
+
+    - `FLEX("flex")`
+
+      Uses the flex service tier.
+
+    - `PRIORITY("priority")`
+
+      Uses the priority service tier.
+
+    - `FAST("fast")`
+
+      Uses the fast service tier.
+
+    - `ULTRAFAST("ultrafast")`
+
+      Uses the ultrafast service tier.
+
+  - `Optional<AgentTextParam> text`
+
+    Configuration for generated text. Defaults to the `text` format and medium verbosity.
+
+  - `Optional<List<PersistedAgentToolParam>> tools`
+
+    Tools available to the agent. Defaults to an empty list.
+
+    - `Function`
+
+      - `String description`
+
+        A description of what the function does.
+
+      - `String name`
+
+        The name of the function.
+
+      - `Parameters parameters`
+
+        A JSON Schema object describing the function's arguments.
+
+      - `JsonValue; type "function"constant`
+
+        The type of the object. Always `function`.
+
+        - `FUNCTION("function")`
+
+      - `Optional<Boolean> deferLoading`
+
+        Whether this function is deferred and discovered through tool search. Defaults to `false`.
+
+    - `JsonValue;`
+
+      - `JsonValue; type "tool_search"constant`
+
+        The type of the object. Always `tool_search`.
+
+        - `TOOL_SEARCH("tool_search")`
+
+    - `ProgrammaticToolCalling`
+
+      - `JsonValue; type "programmatic_tool_calling"constant`
+
+        The type of the object. Always `programmatic_tool_calling`.
+
+        - `PROGRAMMATIC_TOOL_CALLING("programmatic_tool_calling")`
+
+      - `Optional<Boolean> enabled`
+
+        Whether tools can be called from model-generated code. Defaults to `true`.
+
+    - `Mcp`
+
+      - `String serverLabel`
+
+        A label used to identify the MCP server in tool calls.
+
+      - `PersistedMcpTransportParam transport`
+
+        The credential-free transport used to connect to the MCP server.
+
+        - `Http`
+
+          - `String serverUrl`
+
+            The URL of the MCP server.
+
+          - `JsonValue; type "http"constant`
+
+            The type of the object. Always `http`.
+
+            - `HTTP("http")`
+
+          - `Optional<Headers> headers`
+
+            Non-secret HTTP headers sent to the MCP server.
+
+        - `Stdio`
+
+          - `String command`
+
+            The command used to start the MCP server.
+
+          - `String cwd`
+
+            The working directory used to start the MCP server.
+
+          - `JsonValue; type "stdio"constant`
+
+            The type of the object. Always `stdio`.
+
+            - `STDIO("stdio")`
+
+          - `Optional<List<String>> args`
+
+            Arguments passed to the MCP server command.
+
+          - `Optional<List<String>> envVars`
+
+            Environment variable names to inherit from the selected execution environment.
+
+      - `JsonValue; type "mcp"constant`
+
+        The type of the object. Always `mcp`.
+
+        - `MCP("mcp")`
+
+      - `Optional<List<String>> allowedTools`
+
+        The MCP tools the agent may call. All server tools are allowed when omitted.
+
+      - `Optional<ConnectionOrigin> connectionOrigin`
+
+        Selects where outbound MCP HTTP connections originate.
+
+        - `SERVICE("service")`
+
+          Uses the Managed Agents service network.
+
+        - `ENVIRONMENT("environment")`
+
+          Uses the session's execution environment.
+
+      - `Optional<String> credentialId`
+
+        The vault credential selected for this MCP server. Optional when exactly one attached credential matches the server URL.
+
+      - `Optional<RequestMetadata> requestMetadata`
+
+        Metadata included with requests to this MCP server.
+
+      - `Optional<Boolean> required`
+
+        Whether this MCP server must initialize before the first turn. Defaults to `false`.
+
+    - `WebSearch`
+
+      - `JsonValue; type "web_search"constant`
+
+        The type of the object. Always `web_search`.
+
+        - `WEB_SEARCH("web_search")`
+
+      - `Optional<List<String>> allowedDomains`
+
+        Domains the search may include.
+
+      - `Optional<ContextSize> contextSize`
+
+        The amount of search context made available to the model. Defaults to `medium`.
+
+        - `LOW("low")`
+
+        - `MEDIUM("medium")`
+
+        - `HIGH("high")`
+
+      - `Optional<Location> location`
+
+        Approximate location used to localize search results.
+
+        - `Optional<String> city`
+
+          The city name.
+
+        - `Optional<String> country`
+
+          The two-letter ISO country code, such as `US`.
+
+        - `Optional<String> region`
+
+          The region or state name.
+
+        - `Optional<String> timezone`
+
+          The IANA timezone, such as `America/Los_Angeles`.
+
+      - `Optional<Mode> mode`
+
+        The source used for web search results. Defaults to `live`.
+
+        - `DISABLED("disabled")`
+
+          Disables web search.
+
+        - `CACHED("cached")`
+
+          Uses cached search results.
+
+        - `LIVE("live")`
+
+          Searches the live web.
+
+    - `ComputerUse`
+
+      - `JsonValue; type "computer_use"constant`
+
+        The type of the object. Always `computer_use`.
+
+        - `COMPUTER_USE("computer_use")`
+
+      - `Optional<Boolean> includeScreenshots`
+
+        Whether computer tool outputs include screenshots. Defaults to `false`.
+
+- `class Agent:`
+
+  A reusable agent scoped to the caller's project.
+
+  - `String id`
+
+    The ID of the reusable agent.
+
+  - `long createdAt`
+
+    The Unix timestamp, in seconds, when the agent was created.
+
+  - `Optional<String> instructions`
+
+    Custom instructions appended to the agent's default base instructions.
+
+  - `Metadata metadata`
+
+    Custom string key-value pairs attached to the agent.
+
+  - `String model`
+
+    The requested model name used for inference.
+
+  - `MultiAgentConfig multiAgent`
+
+    The resolved configuration for creating and coordinating subagents.
+
+    - `boolean enabled`
+
+      Whether subagent tools are enabled. Defaults to false.
+
+    - `Optional<Long> maxConcurrentSubagents`
+
+      Maximum number of subagents that may run concurrently, or null when disabled. Defaults to 6 when enabled.
+
+  - `Optional<String> name`
+
+    A human-readable name for the agent, or null if it is unnamed.
+
+  - `JsonValue; object_ "agent"constant`
+
+    The object type. Always `agent`.
+
+    - `AGENT("agent")`
+
+  - `AgentReasoning reasoning`
+
+    The resolved reasoning configuration, including the model default for an omitted effort.
+
+    - `Optional<Effort> effort`
+
+      The requested reasoning effort, or `null` when the model selects its own default.
+
+      - `NONE("none")`
+
+      - `MINIMAL("minimal")`
+
+      - `LOW("low")`
+
+      - `MEDIUM("medium")`
+
+      - `HIGH("high")`
+
+      - `XHIGH("xhigh")`
+
+      - `MAX("max")`
+
+    - `Optional<Summary> summary`
+
+      The requested reasoning summary format, or `null` when summaries are disabled.
+
+      - `CONCISE("concise")`
+
+        Returns a concise reasoning summary when supported.
+
+      - `DETAILED("detailed")`
+
+        Returns a detailed reasoning summary when supported.
+
+      - `AUTO("auto")`
+
+        Automatically selects the most detailed summary supported by the model.
+
+  - `ServiceTier serviceTier`
+
+    The resolved service-tier policy used for model requests.
+
+    - `AUTO("auto")`
+
+    - `DEFAULT("default")`
+
+    - `FLEX("flex")`
+
+    - `PRIORITY("priority")`
+
+    - `FAST("fast")`
+
+    - `ULTRAFAST("ultrafast")`
+
+  - `AgentText text`
+
+    The resolved configuration for text generated by the agent.
+
+    - `TextFormat format`
+
+      The effective output format. Defaults to ordinary text.
+
+      - `JsonValue;`
+
+        - `JsonValue; type "text"constant`
+
+          The type of the object. Always `text`.
+
+          - `TEXT("text")`
+
+      - `JsonSchema`
+
+        - `Schema schema`
+
+          The JSON Schema that generated text must match.
+
+        - `JsonValue; type "json_schema"constant`
+
+          The type of the object. Always `json_schema`.
+
+          - `JSON_SCHEMA("json_schema")`
+
+    - `Verbosity verbosity`
+
+      The amount of text produced by the agent. Defaults to `medium`.
+
+      - `LOW("low")`
+
+      - `MEDIUM("medium")`
+
+      - `HIGH("high")`
+
+  - `List<PersistedAgentTool> tools`
+
+    Tools available to the agent.
+
+    - `Function`
+
+      - `boolean deferLoading`
+
+        Whether the function is deferred and discovered through tool search.
+
+      - `String description`
+
+        A description of what the function does.
+
+      - `String name`
+
+        The name of the function.
+
+      - `Parameters parameters`
+
+        A JSON Schema object describing the function's arguments.
+
+      - `JsonValue; type "function"constant`
+
+        The type of the object. Always `function`.
+
+        - `FUNCTION("function")`
+
+    - `JsonValue;`
+
+      - `JsonValue; type "tool_search"constant`
+
+        The type of the object. Always `tool_search`.
+
+        - `TOOL_SEARCH("tool_search")`
+
+    - `ProgrammaticToolCalling`
+
+      - `boolean enabled`
+
+        Whether tools can be called from model-generated code.
+
+      - `JsonValue; type "programmatic_tool_calling"constant`
+
+        The type of the object. Always `programmatic_tool_calling`.
+
+        - `PROGRAMMATIC_TOOL_CALLING("programmatic_tool_calling")`
+
+    - `Mcp`
+
+      - `Optional<List<String>> allowedTools`
+
+        The MCP tools the agent may call, or null when all server tools are allowed.
+
+      - `ConnectionOrigin connectionOrigin`
+
+        Where outbound MCP HTTP connections originate.
+
+        - `SERVICE("service")`
+
+        - `ENVIRONMENT("environment")`
+
+      - `Optional<String> credentialId`
+
+        The vault credential selected for this MCP server, if any.
+
+      - `RequestMetadata requestMetadata`
+
+        Metadata included with requests to this MCP server.
+
+      - `boolean required`
+
+        Whether this MCP server must initialize before the first turn.
+
+      - `String serverLabel`
+
+        A label used to identify the MCP server in tool calls.
+
+      - `PersistedMcpTransport transport`
+
+        The credential-free transport used to connect to the MCP server.
+
+        - `Http`
+
+          - `Headers headers`
+
+            Non-secret HTTP headers sent to the MCP server.
+
+          - `String serverUrl`
+
+            The URL of the MCP server.
+
+          - `JsonValue; type "http"constant`
+
+            The type of the object. Always `http`.
+
+            - `HTTP("http")`
+
+        - `Stdio`
+
+          - `List<String> args`
+
+            Arguments passed to the MCP server command.
+
+          - `String command`
+
+            The command used to start the MCP server.
+
+          - `String cwd`
+
+            The working directory used to start the MCP server.
+
+          - `List<String> envVars`
+
+            Environment variable names inherited from the execution environment.
+
+          - `JsonValue; type "stdio"constant`
+
+            The type of the object. Always `stdio`.
+
+            - `STDIO("stdio")`
+
+      - `JsonValue; type "mcp"constant`
+
+        The type of the object. Always `mcp`.
+
+        - `MCP("mcp")`
+
+    - `WebSearch`
+
+      - `Optional<List<String>> allowedDomains`
+
+        Allowed search domains, or `null` when the search is unrestricted.
+
+      - `ContextSize contextSize`
+
+        The amount of search context made available to the model. Defaults to `medium`.
+
+        - `LOW("low")`
+
+        - `MEDIUM("medium")`
+
+        - `HIGH("high")`
+
+      - `Optional<Location> location`
+
+        Approximate location used to localize search results, if provided.
+
+        - `Optional<String> city`
+
+          The city name.
+
+        - `Optional<String> country`
+
+          The two-letter ISO country code, such as `US`.
+
+        - `Optional<String> region`
+
+          The region or state name.
+
+        - `Optional<String> timezone`
+
+          The IANA timezone, such as `America/Los_Angeles`.
+
+      - `Mode mode`
+
+        The source used for web search results.
+
+        - `DISABLED("disabled")`
+
+        - `CACHED("cached")`
+
+        - `LIVE("live")`
+
+      - `JsonValue; type "web_search"constant`
+
+        The type of the object. Always `web_search`.
+
+        - `WEB_SEARCH("web_search")`
+
+    - `ComputerUse`
+
+      - `boolean includeScreenshots`
+
+        Whether computer tool outputs include screenshots.
+
+      - `JsonValue; type "computer_use"constant`
+
+        The type of the object. Always `computer_use`.
+
+        - `COMPUTER_USE("computer_use")`
+
+  - `long updatedAt`
+
+    The Unix timestamp, in seconds, when the agent was last updated.
+
+```java
+package com.openai.example;
+
+import com.openai.client.OpenAIClient;
+import com.openai.client.okhttp.OpenAIOkHttpClient;
+import com.openai.models.beta.agents.Agent;
+import com.openai.models.beta.agents.AgentCreateParams;
+
+public final class Main {
+    private Main() {}
+
+    public static void main(String[] args) {
+        OpenAIClient client = OpenAIOkHttpClient.fromEnv();
+
+        AgentCreateParams params = AgentCreateParams.builder()
+            .model("model")
+            .build();
+        Agent agent = client.beta().agents().create(params);
+
+  "instructions": "instructions",
+  "metadata": {
+    "foo": "string"
+  "model": "model",
+  "multi_agent": {
+    "enabled": true,
+    "max_concurrent_subagents": 1
+  "object": "agent",
+  "reasoning": {
+    "effort": "none",
+    "summary": "concise"
+  "service_tier": "auto",
+  "text": {
+    "format": {
+      "type": "text"
+    "verbosity": "low"
+  "tools": [
+      "defer_loading": true,
+      "description": "description",
+      "parameters": {
+        "foo": "bar"
+      "type": "function"
+  "updated_at": 0

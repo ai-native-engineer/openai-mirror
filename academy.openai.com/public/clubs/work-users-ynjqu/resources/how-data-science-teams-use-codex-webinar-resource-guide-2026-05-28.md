@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/how-data-science-teams-use-codex-webinar-resource-guide-2026-05-28 -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
@@ -28,13 +28,13 @@ That is the work this webinar focuses on. You will see how Codex can help build 
 
 ## Resources to bookmark
 
-* ﻿[Download Codex for Mac or Windows](https://openai.com/codex/)﻿
+* ﻿ [Download Codex for Mac or Windows](https://openai.com/codex/)﻿
 
-* ﻿[Learn the basics about Codex for work](https://openai.com/academy/codex-for-work/)﻿
+* ﻿ [Learn the basics about Codex for work](https://openai.com/academy/codex-for-work/)﻿
 
-* ﻿[Explore how data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex/)﻿
+* ﻿ [Explore how data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex/)﻿
 
-* ﻿[Explore the top 10 use cases for Codex at work](https://openai.com/academy/how-to-use-codex-for-everyday-work/)﻿
+* ﻿ [Explore the top 10 use cases for Codex at work](https://openai.com/academy/how-to-use-codex-for-everyday-work/)﻿
 
 ## Mini-demo: Create and revise a dashboard launch checklist
 
@@ -42,7 +42,7 @@ The first demo starts small on purpose. Codex uses one source file, *Enterprise\
 
 Before you try this, download the mini-demo file:
 
-﻿[Download](https://docsend.com/view/s/rrff9nap5cs2xmzc)﻿
+﻿ [Download](https://docsend.com/view/s/rrff9nap5cs2xmzc)﻿
 
 Use this prompt in Codex:
 
@@ -188,50 +188,48 @@ You do not have to start by rebuilding your whole analytics stack or automating 
 
 The pattern is the same as what we showed in the webinar: give Codex the right files and context, ask for a specific reviewable output, validate the numbers and caveats, then refine the workflow and reuse it next time.
 
-For more examples, visit [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex/).
+For more examples, visit  [How data science teams use Codex](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex/).
 
-Table Of Contents
-
-[27:03](/en/public/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28)
+[27:03](/public/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28)
 
 Video
 
-[How data science teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28)
+[How data science teams use Codex [Recording]](/public/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28)
 
-[ChatGPT 101 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
+[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-[Codex for everyday work: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
+[Codex for everyday work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
 
 By Diana Stegall
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[How marketing teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
 
-Jun 23rd, 2026 • Views 175
+Jun 23rd, 2026 • Views 2.8K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[How business operations teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
 
-Jun 18th, 2026 • Views 230
+Jun 18th, 2026 • Views 1.1K
 
-[How sales teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+[How sales teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
 
-Jun 11th, 2026 • Views 925
+Jun 11th, 2026 • Views 2.5K
 
-[How finance teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+[How finance teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
 
-May 20th, 2026 • Views 1.6K
+May 20th, 2026 • Views 3.5K
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[How marketing teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
 
-Jun 23rd, 2026 • Views 175
+Jun 23rd, 2026 • Views 2.8K
 
-[How sales teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+[How sales teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
 
-Jun 11th, 2026 • Views 925
+Jun 11th, 2026 • Views 2.5K
 
-[How finance teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+[How finance teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
 
-May 20th, 2026 • Views 1.6K
+May 20th, 2026 • Views 3.5K
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[How business operations teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
 
-Jun 18th, 2026 • Views 230
+Jun 18th, 2026 • Views 1.1K

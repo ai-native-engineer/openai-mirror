@@ -1,14 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Sign in or Join the community to continue
 
@@ -16,7 +10,7 @@ Get Started
 
 # ChatGPT Work for business operations teams [Recording]
 
-Posted Aug 26, 2026 | Views 92
+Posted Aug 26, 2026 | Views 770
 
 # Work
 
@@ -25,6 +19,8 @@ Posted Aug 26, 2026 | Views 92
 # ChatGPT for Work
 
 # Use Cases
+
+# Portfolio Company Knowledge Work
 
 Share
 
@@ -40,7 +36,7 @@ Follow along using our resource guide: <https://academy.openai.com/home/clubs/wo
 
 [How business operations teams use Codex [Recording]](/public/videos/how-business-operations-teams-use-codex-2026-06-17)
 
-Posted Jun 18, 2026 | Views 2.1K
+Posted Jun 18, 2026 | Views 2.7K
 
 # Work
 
@@ -52,7 +48,7 @@ Posted Jun 18, 2026 | Views 2.1K
 
 [ChatGPT Work for finance teams [Recording]](/public/videos/chatgpt-work-for-finance-teams-2026-08-13)
 
-Posted Aug 13, 2026 | Views 1K
+Posted Aug 13, 2026 | Views 2K
 
 # ChatGPT for Work
 
@@ -64,18 +60,22 @@ Posted Aug 13, 2026 | Views 1K
 
 # Portfolio Company Finance
 
-[23:26](/public/videos/codex-for-everyday-work-recording-2026-05-06)
+[35:08](/public/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
 
-[Codex for everyday work [Recording]](/public/videos/codex-for-everyday-work-recording-2026-05-06)
+[ChatGPT Work for sales teams [recording]](/public/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
 
-Posted May 07, 2026 | Views 25.2K
+Posted Aug 06, 2026 | Views 1.1K
 
-# Developers & Builders
+# ChatGPT for Work
 
-# Codex
+# Work
 
-# ChatGPT
+# Workplace & Business
 
 # Use Cases
 
-# Work
+# Portfolio Company Sales
+
+<!-- vimeo: 1221350415 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1221350415)

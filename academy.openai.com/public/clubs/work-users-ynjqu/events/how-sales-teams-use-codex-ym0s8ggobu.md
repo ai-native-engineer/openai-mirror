@@ -1,14 +1,20 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/events/how-sales-teams-use-codex-ym0s8ggobu -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.events](/en/public/clubs/work-users-ynjqu/events)
+[navigation.events](/public/clubs/work-users-ynjqu/events)
 
 ![How sales teams use Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/codexsalescover-25589238-b9dd-4fc2-9bf5-e0fe334a26e0-1780599603024.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+June 11, 2026
+
 # How sales teams use Codex
+
+# Work
 
 # Codex for Work
 
@@ -22,9 +28,11 @@ Join us for **How sales teams use Codex**, a practical session on where Codex ca
 
 In this webinar, we’ll cover:
 
-1. Where Codex can fit into sales workflows
-2. How to move from scattered context to useful deliverables
-3. How to review and refine Codex output
+* Where Codex can fit into sales workflows
+
+* How to move from scattered context to useful deliverables
+
+* How to review and refine Codex output
 
 This session is designed to help sales teams see what’s possible and leave with starter prompts they can adapt once their use cases are clearer.
 
@@ -64,12 +72,16 @@ View Profile
 
 Event has finished
 
-June 11, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 11, 2026
 
 Online
 
 Event has finished
 
-June 11, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+June 11, 2026
 
 Online

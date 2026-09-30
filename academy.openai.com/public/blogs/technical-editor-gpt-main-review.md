@@ -14,7 +14,7 @@ June 14, 2026
 
 # OpenAI for Government
 
-# govtech
+# Govtech
 
 # Government
 
@@ -218,62 +218,54 @@ That’s not cutting corners.
 
 That’s operational discipline.
 
-Like
+1
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-Blog
-
-[Build a Custom GPT That Catches What You Miss](/en/public/blogs/custom-gpt-main-review)
-
-Jun 14th, 2026 • Views 225
-
-Blog
-
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
-
-Jun 14th, 2026 • Views 231
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-Jun 17th, 2026 • Views 545
-
-Blog
-
-[Build a Custom GPT That Catches What You Miss](/en/public/blogs/custom-gpt-main-review)
-
-Jun 14th, 2026 • Views 225
-
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
-
-Jun 23rd, 2026 • Views 83
-
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
 Blog
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+[Build a Custom GPT That Catches What You Miss](/public/blogs/custom-gpt-main-review)
 
-Jun 14th, 2026 • Views 231
+Jun 14th, 2026 • Views 866
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+Blog
+
+[Build a Custom GPT That Catches What You Miss](/public/blogs/custom-gpt-main-review)
+
+Jun 14th, 2026 • Views 866
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

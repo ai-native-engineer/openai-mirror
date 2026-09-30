@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18 -->
+
 # Recording: Make Work Flow: Automate CRM Updates with Codex
 
 <!-- vimeo: 1202596445 | track: English (auto-generated) -->

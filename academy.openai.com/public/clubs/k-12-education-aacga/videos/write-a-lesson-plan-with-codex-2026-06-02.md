@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02 -->
+
 # K-12: Codex Lesson Planning
 
 <!-- vimeo: 1197917755 | track: English (auto-generated) -->

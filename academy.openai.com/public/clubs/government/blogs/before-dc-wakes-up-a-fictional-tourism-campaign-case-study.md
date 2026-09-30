@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/before-dc-wakes-up-a-fictional-tourism-campaign-case-study -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 9, 2026
@@ -8,11 +12,13 @@ September 9, 2026
 
 ![Before DC wakes up: A fictional tourism campaign case study](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-1ef59559-fa91-4238-8ade-a7d7a53850cb-1788980832678.jpeg?fit=scale-down&width=1200)
 
-# ChatGPT
+# Government
 
 ## Eight motion prompts to help government teams imagine a more welcoming visitor experience.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Before DC wakes up: A fictional tourism campaign case study](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-1ef59559-fa91-4238-8ade-a7d7a53850cb-1788980832678.jpeg?fit=scale-down&width=1200)
 
@@ -280,30 +286,68 @@ Use official destination and site information to verify places and visitor arran
 
 ﻿ [Destination DC: Downtown](https://washington.org/dc-neighborhoods/downtown) ·  [Smithsonian Gardens: Plan your visit](https://gardens.si.edu/plan-your-visit/)﻿
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
+Video
 
-By Laura Keenan • Sep 9th, 2026 • Views 14
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+External Content
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+Video
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+By Lee Dunn
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+Blog
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+By Laura Keenan • Sep 22nd, 2026 • Views 70
 
-[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
+Blog
 
-By Laura Keenan • Sep 9th, 2026 • Views 14
+[ChatGPT for State Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 61
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 64
+
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 64
+
+Blog
+
+[ChatGPT for State Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 61

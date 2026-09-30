@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-seasonal-promotion-plan-2025-11-18 -->
+
 # ChatGPT Workflow: Creating a Seasonal Promotion Plan
 
 <!-- vimeo: 1129382985 | track: English (auto-generated) -->

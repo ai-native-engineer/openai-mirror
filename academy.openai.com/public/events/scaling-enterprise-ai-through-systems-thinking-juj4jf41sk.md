@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+7:00 PM - 8:00 PM GMT
+
+September 23, 2025
+
 # Scaling Enterprise AI Through Systems Thinking
 
 [Replay](https://academy.openai.com/home/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
@@ -12,9 +16,11 @@ LIVESTREAM
 
 # Deployment & Adoption
 
+# Work
+
 ## Presented by DeepStation, in partnership with Miami Dade College for community outreach and engagement.
 
-*This resource is produced by [DeepStation](http://www.deepstation.ai/), a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views.*
+*This resource is produced by*  [*DeepStation*](http://www.deepstation.ai/)*, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views.*
 
 This workshop will explore how Agentic AIOps architectures can be harnessed to transform business operations by applying first principles of systems thinking. We’ll walk through how talent density—focusing small, high-leverage teams—enables a Human-AI synthesis where orchestration of agents, not headcount growth, drives exponential impact. We'll demonstrate new frameworks for modeling operational complexity as dynamic feedback loops, then encode those loops into AI-driven orchestration frameworks that continuously learn and improve across business domains.
 
@@ -40,7 +46,9 @@ View Profile
 
 Event has finished
 
-September 23, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+September 23, 2025
 
 Online
 
@@ -58,7 +66,9 @@ DeepStation](https://deepstation.ai/)
 
 Event has finished
 
-September 23, 7:00 PM GMT
+7:00 PM - 8:00 PM GMT
+
+September 23, 2025
 
 Online
 

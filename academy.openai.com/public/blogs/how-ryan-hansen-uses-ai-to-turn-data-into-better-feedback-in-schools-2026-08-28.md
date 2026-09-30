@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28 -->
 
+Article
+
+August 28, 2026
+
 # How one school administrator uses AI to turn data into better feedback in schools
 
 ![How one school administrator uses AI to turn data into better feedback in schools](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ryan-hansen-headshot-landscape-bd843188-7c50-4c30-a422-879caa87d5c2-1787930585098.jpeg?fit=scale-down&width=1200)
@@ -30,25 +34,37 @@ He says that sometimes a high failure rate in a teacher’s classes could once g
 
 He wants teachers to use that speed to shorten the lapse between a child’s misunderstanding and responsive follow-on support. AI can help identify who needs more practice and draft the resources for it, while preparing new plans for children ready to advance. In special education, he sees the possibility of turning complex assessments into individualized learning goals; a teacher has already asked him for help drafting such a plan. She expects that help to save hours of work translating test results into learning goals for a child.
 
+Blog
+
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-[5:52](/public/videos/brinnae-bent-emerging-trends-in-explainable-ai-offensive-and-defensive-uses-of-ai-executive-education-on-ai-and-cybersecurity-2025-08-20)
-
-[Brinnae Bent (Emerging Trends in Explainable AI; Offensive and Defensive Uses of AI; Executive Education on AI and Cybersecurity)](/public/videos/brinnae-bent-emerging-trends-in-explainable-ai-offensive-and-defensive-uses-of-ai-executive-education-on-ai-and-cybersecurity-2025-08-20)
+Blog
 
 [How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
 
+[1:48](/public/videos/ask-better-questions-older-adults)
+
+Video
+
+[How to Ask ChatGPT Better Questions](/public/videos/ask-better-questions-older-adults)
+
+Blog
+
 [How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
 
-Aug 17th, 2026 • Views 131
+Aug 17th, 2026 • Views 305
+
+Blog
 
 [How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Mar 23rd, 2026 • Views 978
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
 
 [How Colin Knudsen uses Codex to turn customer conversations into working demos](/public/blogs/colin-knudsen-proaction-codex-customer-demos)
 
-Aug 5th, 2026 • Views 284
+Aug 5th, 2026 • Views 595
 
 External Content
 
@@ -56,13 +72,17 @@ External Content
 
 Mar 11th, 2025 • Views 3.9K
 
+Blog
+
 [How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
 
-Aug 17th, 2026 • Views 131
+Aug 17th, 2026 • Views 305
+
+Blog
 
 [How Colin Knudsen uses Codex to turn customer conversations into working demos](/public/blogs/colin-knudsen-proaction-codex-customer-demos)
 
-Aug 5th, 2026 • Views 284
+Aug 5th, 2026 • Views 595
 
 External Content
 
@@ -70,6 +90,8 @@ External Content
 
 Mar 11th, 2025 • Views 3.9K
 
+Blog
+
 [How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Mar 23rd, 2026 • Views 978
+Mar 23rd, 2026 • Views 1.1K

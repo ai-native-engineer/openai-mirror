@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04 -->
+
 # Episode 02 - Eng (1)
 
 <!-- vimeo: 1091252262 | track: English (auto-generated) -->

@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02 -->
+
 # K-12: Prioritize Emails with Codex
 
 <!-- vimeo: 1197917784 | track: English (auto-generated) -->

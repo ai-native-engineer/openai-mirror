@@ -2,7 +2,7 @@
 
 [Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # AI workflow test brief
 
@@ -12,9 +12,11 @@
 
 # Transformation leader
 
+# Portfolio Company Knowledge Work
+
 ## Get alignment and approval on a controlled test of an AI workflow.
 
-August 13, 2026
+August 13, 2026 · Last updated on September 2, 2026
 
 ![AI workflow test brief](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ai-workflow-test-brief-style-thumb-a76de97a-b48d-47ec-93db-ea8ba181ceb4-1786663928027.jpeg?fit=scale-down&width=1200)
 
@@ -34,8 +36,6 @@ Use this brief to agree on one controlled test. Keep each answer to one or two l
 
 **Support needed:** [access, funding, or leader reinforcement]
 
-﻿
-
 ## **2. Workflow and intended result**
 
 **Workflow:** [specific task]
@@ -47,8 +47,6 @@ Use this brief to agree on one controlled test. Keep each answer to one or two l
 **Expected result beyond time saved:** [quality, consistency, speed to decision, customer outcome, etc.]
 
 **Success signals:** [one or two observable measures]
-
-﻿
 
 ## **3. Test boundary**
 
@@ -66,8 +64,6 @@ Use this brief to agree on one controlled test. Keep each answer to one or two l
 
 **Out of scope:** [actions the test will not take]
 
-﻿
-
 ## **4. Controls and review**
 
 **Access restrictions:** [workspace, role/group, sign-in, or connector limits]
@@ -81,8 +77,6 @@ Use this brief to agree on one controlled test. Keep each answer to one or two l
 **Escalation owner:** [name]
 
 **Test record:** [where to keep source links, versions, approvals, changes, errors, and overrides]
-
-﻿
 
 ## **5. Test plan and rules**
 
@@ -99,8 +93,6 @@ Use this brief to agree on one controlled test. Keep each answer to one or two l
 **Stop when:** [material risk or failure]
 
 Only [role] may restart the test.
-
-﻿
 
 ## **6. Evidence and next decision**
 
@@ -128,9 +120,7 @@ Test [workflow] with [cohort] for [duration] to improve [business outcome]. Use 
 
 5. One person owns the next decision.
 
-﻿
-
-Like
+1
 
 Sign in or Join the community
 
@@ -138,68 +128,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
-
-Resource
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
 [AI workflow design coach](/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
 
-Resource
-
-[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
-
-Resource
-
-[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Dive in
-
-## Related
-
-Resource
+[Redesign one recurring workflow with AI](/public/clubs/champions-ecqup/resources/redesign-one-recurring-workflow-with-ai-2026-08-21)
 
 [AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-Jul 7th, 2026 • Views 870
-
-Resource
+Jul 7th, 2026 • Views 1.4K
 
 [Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-May 7th, 2026 • Views 775
-
-Resource
+May 7th, 2026 • Views 1.3K
 
 [AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Jul 7th, 2026 • Views 695
-
-Resource
+Jul 7th, 2026 • Views 1.2K
 
 [AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-Jul 7th, 2026 • Views 882
-
-Resource
+Jul 7th, 2026 • Views 1.5K
 
 [AI workflow PRD and test case generator](/public/clubs/champions-ecqup/resources/ai-workflow-prd-and-test-case-generator-2026-07-07)
 
-Jul 7th, 2026 • Views 870
-
-Resource
+Jul 7th, 2026 • Views 1.4K
 
 [AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Jul 7th, 2026 • Views 695
-
-Resource
+Jul 7th, 2026 • Views 1.2K
 
 [AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-Jul 7th, 2026 • Views 882
-
-Resource
+Jul 7th, 2026 • Views 1.5K
 
 [Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-May 7th, 2026 • Views 775
+May 7th, 2026 • Views 1.3K

@@ -1,14 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials -->
 
-[Communities](/home/clubs)
-
-/
-
 [Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-/
+[Content](/public/clubs/higher-education-05x4z/content)
 
-[navigation.content](/public/clubs/higher-education-05x4z/content)
+Article
 
 August 4, 2026
 
@@ -64,23 +60,17 @@ Each prompt should name your course sources, the instructional materials you wan
 @College Educator Use this syllabus, these learning outcomes, and my lecture notes to create a 50-minute class plan, a concise slide outline, an in-class activity, and a student handout. Explain how each material supports the learning outcomes, flag teaching choices and assumptions I should review, and show me a preview before creating final files.
 ```
 
-﻿
-
 ### Prompt 2: Analyze class strengths and improve the class plan
 
 ```
 @College Educator Use my course documents, slides, and student results to identify class strengths and common pitfalls. Recommend concrete improvements to the 50-minute class plan and materials for my next class, flag assumptions and student-data concerns, and wait for my approval before creating or sharing final files.
 ```
 
-﻿
-
 ### Prompt 3: Build an interactive website for a complex topic
 
 ```
 @College Educator Use this learning outcome, assigned reading, and course materials to build an interactive website that helps students understand [complex topic]. Include a short explanation, an interactive activity, checks for understanding, and accessible design. Show me a preview and wait for my approval before creating or sharing final files.
 ```
-
-﻿
 
 ## Start Small and Build From What Works
 
@@ -116,42 +106,58 @@ Use your course documents, slides, and student results to identify class strengt
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian
-
 [Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
 By Juliann Igo
 
-[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-Aug 4th, 2026 • Views 66
+By Kirk Gulezian
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 836
-
-[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
-
-Aug 4th, 2026 • Views 39
-
-[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
-
-Apr 23rd, 2026 • Views 719
+Blog
 
 [Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Aug 4th, 2026 • Views 66
+Aug 4th, 2026 • Views 1.6K
 
-[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
-
-Aug 4th, 2026 • Views 39
-
-[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
-
-Apr 23rd, 2026 • Views 719
+Blog
 
 [Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 836
+May 6th, 2026 • Views 1.2K
+
+Blog
+
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
+
+Aug 4th, 2026 • Views 529
+
+Blog
+
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+
+Apr 23rd, 2026 • Views 1.1K
+
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K
+
+Blog
+
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
+
+Aug 4th, 2026 • Views 529
+
+Blog
+
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+
+Apr 23rd, 2026 • Views 1.1K
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K

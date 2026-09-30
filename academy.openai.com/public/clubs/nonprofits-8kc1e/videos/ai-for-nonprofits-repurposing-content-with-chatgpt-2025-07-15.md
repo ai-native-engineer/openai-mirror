@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-repurposing-content-with-chatgpt-2025-07-15 -->
+
 # AI for Nonprofits: Repurposing Content with ChatGPT
 
 <!-- vimeo: 1101761661 | track: English (auto-generated) -->

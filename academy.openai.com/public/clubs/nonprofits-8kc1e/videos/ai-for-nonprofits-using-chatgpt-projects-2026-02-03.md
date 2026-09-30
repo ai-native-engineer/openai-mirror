@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-chatgpt-projects-2026-02-03 -->
+
 # AI for Nonprofits: Using ChatGPT Projects
 
 <!-- vimeo: 1161261144 | track: English (auto-generated) -->

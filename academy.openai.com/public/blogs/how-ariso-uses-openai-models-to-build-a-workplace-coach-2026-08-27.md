@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27 -->
 
+Article
+
+August 28, 2026
+
 # How Ariso uses OpenAI models to build a workplace coach
 
 ![How Ariso uses OpenAI models to build a workplace coach](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/image-1--8c34e143-a22a-43f6-8d1f-4c29f8d40d8a-1787882715317.jpeg?fit=scale-down&width=1200)
@@ -28,40 +32,62 @@ Founded in February 2025, Ariso has four full-time employees and more than a doz
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+Blog
 
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-[How Researchers Are Using AI to Chase a New Physics](/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
+Blog
 
-[How a journalist uses OpenAI to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
+[How Colin Knudsen uses Codex to turn customer conversations into working demos](/public/blogs/colin-knudsen-proaction-codex-customer-demos)
 
-Aug 28th, 2026 • Views 116
+Blog
 
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+[How a journalist uses OpenAI models to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
 
-Aug 5th, 2026 • Views 122
+Aug 28th, 2026 • Views 376
 
-[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
-
-Aug 28th, 2026 • Views 33
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 978
-
-[How a journalist uses OpenAI to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
-
-Aug 28th, 2026 • Views 116
-
-[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
-
-Aug 28th, 2026 • Views 33
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 978
+Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 122
+Aug 5th, 2026 • Views 310
+
+Blog
+
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+Aug 28th, 2026 • Views 361
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How a journalist uses OpenAI models to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
+
+Aug 28th, 2026 • Views 376
+
+Blog
+
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+Aug 28th, 2026 • Views 361
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310

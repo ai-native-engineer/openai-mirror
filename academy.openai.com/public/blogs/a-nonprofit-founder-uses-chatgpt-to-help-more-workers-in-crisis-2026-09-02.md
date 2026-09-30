@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/a-nonprofit-founder-uses-chatgpt-to-help-more-workers-in-crisis-2026-09-02 -->
 
+Article
+
 September 2, 2026
 
 # A nonprofit founder uses ChatGPT to help more workers in crisis
@@ -46,40 +48,62 @@ Fowler says about 170 active volunteers support the service; across its programs
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+External Content
 
 [ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
+Blog
+
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
-
-Aug 5th, 2026 • Views 214
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 168
-
-[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
-
-Aug 28th, 2026 • Views 135
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 1K
+Blog
 
 [How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
-Aug 5th, 2026 • Views 214
+Aug 5th, 2026 • Views 369
 
-[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
-
-Aug 28th, 2026 • Views 135
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 1K
+Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 168
+Aug 5th, 2026 • Views 310
+
+Blog
+
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+Aug 28th, 2026 • Views 361
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
+
+Aug 5th, 2026 • Views 369
+
+Blog
+
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+Aug 28th, 2026 • Views 361
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310

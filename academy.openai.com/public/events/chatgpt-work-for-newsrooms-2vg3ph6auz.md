@@ -1,10 +1,12 @@
 <!-- source: https://academy.openai.com/public/events/chatgpt-work-for-newsrooms-2vg3ph6auz -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.events](/en/public/clubs/news-organizations-b9osl/events)
+[navigation.events](/public/clubs/news-organizations-b9osl/events)
 
 ![ChatGPT Work For Newsrooms](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/20260611-Midterms-Washington-Deck-1--da489d23-e078-431b-9d9a-7243df45ad3a-1784639007521.jpeg?fit=scale-down&width=1200)
+
+LIVESTREAM
 
 4:00 PM - 4:30 PM GMT
 
@@ -12,7 +14,7 @@ August 4, 2026
 
 # ChatGPT Work For Newsrooms
 
-# ChatGPT
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-work-for-newsrooms-2026-08-04)
 
 # ChatGPT for Work
 
@@ -32,24 +34,40 @@ See how reporters and editors can use ChatGPT Work to research stories, analyze 
 
 Tune in for live examples, practical ideas, and a closer look at what becomes possible when ChatGPT works the way your newsroom does.
 
+## Speakers
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ProfilePic-4ec2a7d5-ab14-485d-bb4e-fb5eb0f0a999-1780619438161.jpeg?fit=scale-down&width=360)
 
 Evan Hirsch
 
 OpenAI for News @ OpenAI
 
-Live in 10 days 21 hours
+View Profile
+
+Event has finished
 
 4:00 PM - 4:30 PM GMT
 
 August 4, 2026
 
+Online
+
+Organized by
+
 News Organizations
 
-Live in 10 days 21 hours
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-work-for-newsrooms-2026-08-04)
+
+Event has finished
 
 4:00 PM - 4:30 PM GMT
 
 August 4, 2026
 
+Online
+
+Organized by
+
 News Organizations
+
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-work-for-newsrooms-2026-08-04)

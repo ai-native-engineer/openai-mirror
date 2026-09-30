@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18 -->
+
 # Confidence Scoring and Skill Hardening with Codex
 
 <!-- vimeo: 1202611807 | track: English (auto-generated) -->

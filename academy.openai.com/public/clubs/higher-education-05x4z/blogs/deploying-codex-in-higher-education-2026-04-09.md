@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/deploying-codex-in-higher-education-2026-04-09 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -90,7 +90,7 @@ Use this path if your institution is enabling Codex through a fixed-fee setup an
 
 Recommended steps:
 
-* **Enable Codex:** To give campus immediate access, turn these on in [workspace Permissions and Roles](https://chatgpt.com/admin/permissions) (must be an owner)
+* **Enable Codex:** To give campus immediate access, turn these on in  [workspace Permissions and Roles](https://chatgpt.com/admin/permissions) (must be an owner)
 
 * Turn **Codex Local** = ON
 
@@ -100,7 +100,7 @@ Recommended steps:
 
 ### **If your rollout is credit-based:**
 
-1. **Enable Codex:** To give campus immediate access, turn these on in [workspace Permissions and Roles](https://chatgpt.com/admin/permissions) (must be an owner)
+1. **Enable Codex:** To give campus immediate access, turn these on in  [workspace Permissions and Roles](https://chatgpt.com/admin/permissions) (must be an owner)
 
 1. Turn **Codex Local** = ON
 
@@ -108,7 +108,7 @@ Recommended steps:
 
 2. **Control credit consumption:** If you want to provide Codex to users without meaningful credit consumption, set a custom usage limit with an alert at 1 credit/week and a hard cap of 2 credits/week. (Through May 31, 2026)
 
-3. **Unlock advanced capabilities with roles**: To provide users access to credit consuming features, create [custom roles](https://chatgpt.com/admin/permissions?tab=roles)
+3. **Unlock advanced capabilities with roles**: To provide users access to credit consuming features, create  [custom roles](https://chatgpt.com/admin/permissions?tab=roles)
 
 1. *Custom roles override all default settings (they don’t inherit workspace permissions)*
 
@@ -136,7 +136,7 @@ For cloud workflows, Codex connects through GitHub. Codex uses short-lived, leas
 
 The App is the right place to start because it lets admins introduce Codex without immediately allowing broad background execution. Cloud workflows should come later, after review habits and guardrails are in place.
 
-For more information, check out our Codex Security Whitepaper on our [trust portal](http://trust.openai.com).
+For more information, check out our Codex Security Whitepaper on our  [trust portal](http://trust.openai.com/).
 
 ## **Settings to review before rollout**
 
@@ -158,52 +158,52 @@ University admins should review these settings before turning Codex on broadly.
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-Blog
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-[Understanding Workspace Agents in higher education](/en/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
-
-By Kirk Gulezian • Apr 23rd, 2026 • Views 1.3K
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+By Juliann Igo
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[Understanding Workspace Agents in higher education](/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
 
-May 6th, 2026 • Views 348
+By Kirk Gulezian • Apr 23rd, 2026 • Views 1.9K
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
-
-Blog
-
-[Understanding Workspace Agents in higher education](/en/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
-
-By Kirk Gulezian • Apr 23rd, 2026 • Views 1.3K
+Jun 9th, 2026 • Views 2.8K
 
 Blog
 
-[How to Build a Workspace Agent for Higher Education](/en/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
 
-May 6th, 2026 • Views 348
+May 6th, 2026 • Views 905
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.4K
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+Blog
 
-Jun 9th, 2026 • Views 400
+[Understanding Workspace Agents in higher education](/public/clubs/higher-education-05x4z/blogs/understanding-workspace-agents-higher-education)
+
+By Kirk Gulezian • Apr 23rd, 2026 • Views 1.9K
+
+Blog
+
+[How to Build a Workspace Agent for Higher Education](/public/clubs/higher-education-05x4z/blogs/how-to-build-a-workspace-agent-for-higher-education-2026-05-06)
+
+May 6th, 2026 • Views 905
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
+
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+
+Jun 9th, 2026 • Views 2.8K

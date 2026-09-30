@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/sid-sijbrandij-chatgpt-cancer-research -->
 
+Article
+
 August 6, 2026
 
 # How Sid Sijbrandij used ChatGPT to move faster than cancer
@@ -42,50 +44,80 @@ The system Sid built may be beyond what most patients can assemble, but he belie
 
 [34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
+Video
+
 [ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 By Juliann Igo
 
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
+Video
+
 [ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 [8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
+Video
+
 [Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
 
-Mar 23rd, 2026 • Views 910
+Video
 
-[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
+[AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
 
-Aug 5th, 2026 • Views 45
+Sep 4th, 2026 • Views 429
 
-External Content
+[1:48](/public/videos/spot-scam-messages-older-adults)
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
+Video
 
-Mar 11th, 2025 • Views 3.9K
+[How to Spot Scam Messages with ChatGPT](/public/videos/spot-scam-messages-older-adults)
 
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+Sep 17th, 2026 • Views 162
 
-Aug 5th, 2026 • Views 33
+Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
 
-Mar 23rd, 2026 • Views 910
+Aug 28th, 2026 • Views 361
 
-External Content
+[1:48](/public/videos/ask-better-questions-older-adults)
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
+Video
 
-Mar 11th, 2025 • Views 3.9K
+[How to Ask ChatGPT Better Questions](/public/videos/ask-better-questions-older-adults)
 
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+Sep 17th, 2026 • Views 222
 
-Aug 5th, 2026 • Views 33
+[46:39](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
 
-[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
+Video
 
-Aug 5th, 2026 • Views 45
+[AI for Government Legal Professionals — Move Faster Without Losing Precision](/public/videos/ai-for-government-legal-professionals-move-faster-without-losing-precision)
+
+Sep 4th, 2026 • Views 429
+
+Blog
+
+[How a game developer in Florida uses ChatGPT to build faster in Unity](/public/blogs/how-a-game-developer-in-florida-uses-chatgpt-to-build-faster-in-unity-2026-08-28)
+
+Aug 28th, 2026 • Views 361
+
+[1:48](/public/videos/ask-better-questions-older-adults)
+
+Video
+
+[How to Ask ChatGPT Better Questions](/public/videos/ask-better-questions-older-adults)
+
+Sep 17th, 2026 • Views 222
+
+[1:48](/public/videos/spot-scam-messages-older-adults)
+
+Video
+
+[How to Spot Scam Messages with ChatGPT](/public/videos/spot-scam-messages-older-adults)
+
+Sep 17th, 2026 • Views 162

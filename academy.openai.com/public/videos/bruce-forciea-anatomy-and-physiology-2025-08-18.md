@@ -2,51 +2,13 @@
 
 # Bruce Forciea (Anatomy and Physiology)
 
-Posted Aug 02, 2025 | Views 1.6K
+<!-- vimeo: 1111163144 | track: English (auto-generated) -->
 
-# Advanced & Builder Skills
+[▶ Watch on Vimeo](https://vimeo.com/1111163144)
 
-Dr. Bruce Forciea - Moraine Park Technical College - General and Advanced Anatomy and Physiology
+<details>
+<summary>자막: Bruce Forciea (Anatomy and Physiology)</summary>
 
-I have been teaching for over 20 years and have been working to integrate AI into my courses for the past 3 years. I'm also an author of seven books (4 non-fiction, 3 fiction) and work with other schools on AI integration.
+My name is Bruce Forche and I teach anatomy and physiology at Marra Park Technical College in Wisconsin. I've been using chat GPT for a couple of years now and have found it to be extremely useful in completely changing the way I teach. I'm now able to do things I always wanted to do in my classes, such as providing personal tutors, creating custom teaching cases in seconds that used to take many, many hours, creating teaching games, images and videos, role-playing and producing instant notes from my whiteboard lectures for students during class. And now with the new agent mode, I have a personal research assistant to produce detailed reports supported by research. Here are some examples of how I use chat GPT. Let's begin by taking a look at some of my custom GPTs. This is my Anatomy and physiology tutor, GPT. The idea for the tutor was a solution to the problem of finding tutors for my courses, which is becoming very difficult since students move on to program courses after my courses and have little time for working as tutors. Now, nearly all of my students use the tutor on a regular basis. This tutor is a more recent version and pulls information from uploaded course content. For example, the uploaded documents included text and study guide that I wrote, along with information from PowerPoints and lectures. The GPT was prompted to provide smaller chunks of information and interact with students by asking questions and providing knowledge checks. Let's take a look. So I'm going to begin by asking it if it can help me learn about brain anatomy. So the prompt is simply, can you help me learn about brain anatomy? So what it does then is it provides choices and smaller amounts of information. You can then choose what you want to focus on, such as major brain regions, brain lobes and functions and so on. It also gives you some interactive learning tools that have been uploaded in the document. So I'm just gonna choose number two. So there again, it gives me smaller amounts of information along with the summary. Then it asks me if I want to uh, go into more detail or if I want to do a knowledge check. So I'm going to ask it for more detail on the frontal lobe. So now it gives me a little more detail. And this is good because it allows a student then to make choices and to determine how deep they want to go into the topic. The assessment then is a copy and paste of the entire AI interaction. The students also include reflections after the interaction, reflecting on what they learn from the interaction. This way I can see how they're prompting ai, what it's telling them, and how they're incorporating that into their knowledge. This is a GPT I'm really proud of. This is my Socratic tutor. What I wanted to do was to develop something that students could talk to every day and it would teach them a little bit about anatomy and physiology in an interactive way. So let's take a look. Hello. Hi there. What topic in anatomy and physiology are you interested in exploring today? Maybe body systems, cells, tissues, or something else. Let's pick a starting point and build from there with some fun questions. I need to learn about how the blood flows through the heart. Can you help me with that? Absolutely. That's a great topic. Let's start simple and build from there. Can you picture the heart as a pump with four chambers, two on the top and two on the bottom? What do you think the top chambers are responsible for? Do they receive blood or pump it out? Well, I think if I use my logic, the top chambers would be for receiving blood. Is that correct? Yes. Excellent reasoning. The top chambers are called atri, specifically the right atrium and the left atrium, and they receive blood coming into the heart. So let's take it a step further. If the atria received blood, then the bottom chambers, the ventricles must do what and why do you think that job is placed there instead of in the atria? I think that's enough for now. Thank you. Are welcome. You did a great job working through that. When you're ready to keep going or explore a new topic, just let me know. So I'm gonna end the chat here. And what you can see is that it actually documented the entire thing, so the entire interaction. So there again, I could have a student do this and basically just talk to the Socratic tutor and then copy and paste the entire interaction as an assignment. I can then see what they learned, how they interacted with it, and how they basically prompted the chat bot. I'm going to move on to another way that I use chat GPT in my courses, which is for developing custom teaching cases. We do teaching cases just about every week in my courses. The idea is the students spend the time before coming to class doing their AI interactions and learning the course content, and then when they get to class, we actually apply the content to a teaching case. What they'll do is they'll work in small groups and they'll answer case questions. They also have to defend their answers as they present them to the class. In other words, I'll ask questions about the information that they provided. Here's how I do this. So I put the prompt in, develop a three part teaching case about the immune system for a first year college course in anatomy and physiology. I ask it to create three questions after each part of the the case that could be completed by students in small groups. And then I put in the learning objectives as a guide. So let's see what it comes up with here. I'm using chat DBT four oh for this one. It shows me what it's thinking about, which is good. It's dividing the immune system into the two parts. And then it comes up with a very nice teaching case here, Jordan, an 18-year-old first year student, um, slices their palm and then it goes through the small group questions. What I typically do is I'll assign the group's different questions and then they'll have to look this information up or apply what they learned throughout the week. And then they, uh, present it to the class. I then ask them questions about the information they present so they're not just reading information, they have to explain it in their own words. Sometimes we do role playing as well. So I think it does a, a really good job in producing these teaching cases. Another way that I use chat GPT in my courses is with developing GPTs that act as teaching games. A lot of my students go into the nursing program after my courses, so I wanted to create kind of a fun game, which is this interactive a MP hospital drama that applies what they learned in anatomy, physiology to fictitious cases. So let's take a quick look. This is something I would actually play in class. And so, um, it asks you if you're, if you wanna play a male or female nurse. So I'm a male, I'm just gonna say male. And then it's gonna ask me what area I want to take a look at. So I'll say, uh, digestive. What I really like about this GPT is it creates a lot of really good drama and fiction. So the drama will take different directions depending on what you choose. I'm just gonna just choose a since this is just a demo And it just moves on into that direction. I have several of these games. Another one is a science fiction adventure, and then I have a couple of others as well. During class, I can use Chad GPT for generating notes from my whiteboard lectures. I now find students doing this during class. In some cases, students can get instant feedback from Chad GPT by taking photos of their diagrams during class. AI has completely changed my teaching. I feel it is important to teach students how to use AI as a learning tool to reach higher levels of learning students complete AI interactions and use AI tools before coming to class to learn and then apply what they have learned during class. My old long lectures have been replaced by shorter interactive lectures, allowing for more class time for application of learning. My classes have become more interactive and my students more engaged and actually more fun. Thanks for watching and I sincerely hope this helps you on your AI journey.
 
-## TRANSCRIPT
-
-* Describes how ChatGPT is used to help students learn Anatomy and Physiology through use of custom GPTs, tutors and games.
-* Link to resources: <https://www.drbruceforciea.com/ai-for-educators-course.html>
-
-3
-
-Comments (0)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[10:00](/en/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
-
-[Giorgio Lagna (Genetics, Human Physiology, Anatomy & Physiology)](/en/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
-
-Posted Aug 01, 2025 | Views 238
-
-# Deployment & Adoption
-
-[17:40](/en/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
-
-[Organization and Automation: Managing Time and Tasks with AI](/en/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
-
-Posted Mar 21, 2025 | Views 51K
-
-[8:33](/en/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
-
-[AI Career Prep: Resumes and Interviews](/en/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
-
-Posted Mar 20, 2025 | Views 38.1K
-
-# Industry & Community
+</details>

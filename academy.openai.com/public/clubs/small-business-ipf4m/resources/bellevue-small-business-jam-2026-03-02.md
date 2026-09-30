@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/resources/bellevue-small-business-jam-2026-03-02 -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-[navigation.content](/en/public/clubs/small-business-ipf4m/content)
+[Content](/public/clubs/small-business-ipf4m/content)
 
 Training
 
@@ -16,6 +16,8 @@ March 2, 2026 · Last updated on May 29, 2026
 
 # Awareness
 
+# Work
+
 # North America
 
 ## A resource hub for participants of our March 5 small business jam in Bellevue
@@ -24,13 +26,13 @@ March 2, 2026 · Last updated on May 29, 2026
 
 ## ⭐ Quick Links
 
-1. ﻿[**Today's Slides**](https://drive.google.com/file/d/18zEWbK4o-pF2ywqilgebvSziz6_4KAeI/view?usp=drive_link) - Follow along on your computer.
+1. ﻿ [**Today's Slides**](https://drive.google.com/file/d/18zEWbK4o-pF2ywqilgebvSziz6_4KAeI/view?usp=drive_link) - Follow along on your computer.
 
-2. ﻿[**Sample files**](https://drive.google.com/drive/folders/1Y5BKec_T_Wo_GiL7GtfKyiuVzV5r8khV?usp=drive_link) - Use these files during the workflows for practice, or use your own.
+2. ﻿ [**Sample files**](https://drive.google.com/drive/folders/1Y5BKec_T_Wo_GiL7GtfKyiuVzV5r8khV?usp=drive_link) - Use these files during the workflows for practice, or use your own.
 
-3. ﻿[**GPT Templates**](https://academy.openai.com/home/resources/four-gpt-templates-for-small-businesses-2026-03-05) - Adapt one of these four templates during the afternoon build session, or build your own from scratch.
+3. ﻿ [**GPT Templates**](https://academy.openai.com/home/resources/four-gpt-templates-for-small-businesses-2026-03-05) - Adapt one of these four templates during the afternoon build session, or build your own from scratch.
 
-4. **﻿**[**Small Business Community**](https://academy.openai.com/public/clubs/small-business-ipf4m?linkMenu=Small%2520Biz)- Access resources and connect with peers to continue learning on OpenAI Academy.
+4. **﻿** [**Small Business Community**](https://academy.openai.com/public/clubs/small-business-ipf4m?linkMenu=Small%2520Biz)- Access resources and connect with peers to continue learning on OpenAI Academy.
 
 ---
 
@@ -130,7 +132,7 @@ You’ll take a vague prompt and make it specific enough to reuse. Then we’ll 
 ## Workflow 1: Local Marketing & Customer Comms Kit
 
 **What it does:** Turn one offer into customer-ready messaging plus a simple promo visual you can reuse.
-**Helpful tool:** [**Projects**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects) (optional) to keep files, instructions, and outputs organized.
+**Helpful tool:**  [**Projects**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects) (optional) to keep files, instructions, and outputs organized.
 
 ### Project Instructions
 
@@ -141,9 +143,9 @@ You’ll take a vague prompt and make it specific enough to reuse. Then we’ll 
 
 Upload to Sources:
 
-* ﻿[WF1\_Lakeside\_Cafe\_Info.docx](https://docs.google.com/document/d/12DK7ei9G8F7u54Pbk-6QOrO8UaqVvFw9/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [WF1\_Lakeside\_Cafe\_Info.docx](https://docs.google.com/document/d/12DK7ei9G8F7u54Pbk-6QOrO8UaqVvFw9/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
-* ﻿[WF1\_Brand\_Voice\_Examples.docx](https://docs.google.com/document/d/1xkDF0x_xB9GIMRdFAXFYbn0ZNO552sfi/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
+* ﻿ [WF1\_Brand\_Voice\_Examples.docx](https://docs.google.com/document/d/1xkDF0x_xB9GIMRdFAXFYbn0ZNO552sfi/edit?usp=drive_link&ouid=100290906877082350927&rtpof=true&sd=true)﻿
 
 ### Copy/paste starter prompt (written kit)
 
@@ -179,21 +181,21 @@ In the same Project, but in a new chat window, paste this:
 
 ### Optional power-ups
 
-* Document your **brand voice** with this powerful [prompt](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version).
+* Document your **brand voice** with this powerful  [prompt](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version).
 
 * Create beautiful assets with **Canva** using Apps**.**
 
 * Add timely/local context with **Search** (when relevant).
 
-Tutorial links: [**Projects**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects) | [**Apps + Canva**](https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03) | [**Creating Images**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/creating-images) | [**Web Search**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/web-search)
-Prompt links: [**Brand Voice**](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version)﻿
+Tutorial links:  [**Projects**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/projects) |  [**Apps + Canva**](https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03) |  [**Creating Images**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/creating-images) |  [**Web Search**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/web-search)
+Prompt links:  [**Brand Voice**](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version)﻿
 
 ---
 
 ## Workflow 2: Customer Feedback → Action Plan
 
 **What it does:** Turn reviews + messages + a simple sales snapshot into themes, fixes, draft replies, and a weekly checklist.
-**Helpful tool:** [**Data analysis**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis) — upload a CSV/Excel file and ask questions in plain language.
+**Helpful tool:**  [**Data analysis**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis) — upload a CSV/Excel file and ask questions in plain language.
 
 ### Copy/paste starter prompt
 
@@ -212,9 +214,9 @@ Prompt links: [**Brand Voice**](https://chatgpt.com/?prompt=Help%20me%20document
 
 ### Optional sample files
 
-* ﻿[WF2\_Customer\_Reviews\_Sample.csv](https://drive.google.com/file/d/1jNAaBWovqkt4DMIlsA52T8r7l2jkVNnh/view?usp=drive_link) ﻿
+* ﻿ [WF2\_Customer\_Reviews\_Sample.csv](https://drive.google.com/file/d/1jNAaBWovqkt4DMIlsA52T8r7l2jkVNnh/view?usp=drive_link)﻿
 
-* ﻿[WF2\_Sales\_Snapshot\_Sample.csv](https://drive.google.com/file/d/1mxPWCrbMglSPPrzKRgu_I6TjfqZUUrve/view?usp=drive_link) ﻿
+* ﻿ [WF2\_Sales\_Snapshot\_Sample.csv](https://drive.google.com/file/d/1mxPWCrbMglSPPrzKRgu_I6TjfqZUUrve/view?usp=drive_link)﻿
 
 ### Optional power-ups
 
@@ -222,7 +224,7 @@ Prompt links: [**Brand Voice**](https://chatgpt.com/?prompt=Help%20me%20document
 
 * Work from your docs with Drive/SharePoint (**Apps**).
 
-Tutorial links: [**Data analysis**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis) | [**Deep Research**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research) | [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)
+Tutorial links:  [**Data analysis**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/data-analysis) |  [**Deep Research**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research) |  [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors)
 
 ---
 
@@ -254,7 +256,7 @@ You’ll build your own solution in the format that fits your problem. We’ll b
 
 ## Not sure where to start? Try one our four GPT templates.
 
-Follow [**this guide**](https://academy.openai.com/home/resources/four-gpt-templates-for-small-businesses-2026-03-05) to build one of these GPTs:
+Follow  [**this guide**](https://academy.openai.com/home/resources/four-gpt-templates-for-small-businesses-2026-03-05) to build one of these GPTs:
 
 |  |  |
 | --- | --- |
@@ -281,9 +283,9 @@ Follow [**this guide**](https://academy.openai.com/home/resources/four-gpt-templ
 
 * Try one new power-up tool next: Apps, Search/Deep Research, data analysis, or images.
 
-**Community link:** [**OpenAI Academy Small Business Community**](https://academy.openai.com/public/clubs/small-business-ipf4m?linkMenu=Small%2520Biz)﻿
+**Community link:**  [**OpenAI Academy Small Business Community**](https://academy.openai.com/public/clubs/small-business-ipf4m?linkMenu=Small%2520Biz)﻿
 
-2
+6
 
 Comments (0)
 
@@ -295,62 +297,60 @@ Comment
 
 Load more
 
-Table Of Contents
+[How DoorDash merchants can use ChatGPT to run a more efficient business](/public/clubs/small-business-ipf4m/resources/how-doordash-merchants-can-use-chatgpt-to-run-a-more-efficient-business-2025-12-15)
 
-[How DoorDash merchants can use ChatGPT to run a more efficient business](/en/public/clubs/small-business-ipf4m/resources/how-doordash-merchants-can-use-chatgpt-to-run-a-more-efficient-business-2025-12-15)
+[ChatGPT Use Cases for Work GPT](/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
 
-[ChatGPT Use Cases for Work GPT](/en/public/clubs/small-business-ipf4m/resources/chatgpt-use-cases-for-work-gpt-2025-12-05)
-
-[8:05](/en/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-customer-response-plan-2025-11-18)
+[1:00:00](/public/clubs/small-business-ipf4m/videos/sme-ai-accelerator-virtual-replay-2026-05-26)
 
 Video
 
-[ChatGPT Workflow: Creating a customer response plan](/en/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-customer-response-plan-2025-11-18)
+[SME AI Accelerator - Virtual Replay](/public/clubs/small-business-ipf4m/videos/sme-ai-accelerator-virtual-replay-2026-05-26)
 
-[Small Business Prompt Pack](/en/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
+[Small Business Prompt Pack](/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
 
-Nov 18th, 2025 • Views 9.2K
+Nov 18th, 2025 • Views 12.1K
 
-[Four GPT templates for small businesses](/en/public/clubs/small-business-ipf4m/resources/four-gpt-templates-for-small-businesses-2026-03-05)
+[Four GPT templates for small businesses](/public/clubs/small-business-ipf4m/resources/four-gpt-templates-for-small-businesses-2026-03-05)
 
-Mar 5th, 2026 • Views 6.6K
+Mar 5th, 2026 • Views 13.3K
 
-[22:14](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
-
-Video
-
-[ChatGPT 102 for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
-
-By Juliann Igo • Nov 18th, 2025 • Views 9.6K
-
-[34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[22:14](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
 Video
 
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[ChatGPT 102 for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
-By Juliann Igo • Nov 18th, 2025 • Views 24.8K
+By Juliann Igo • Nov 18th, 2025 • Views 12.1K
 
-[Small Business Prompt Pack](/en/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
-
-Nov 18th, 2025 • Views 9.2K
-
-[22:14](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
+[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
 Video
 
-[ChatGPT 102 for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
+[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
-By Juliann Igo • Nov 18th, 2025 • Views 9.6K
+By Juliann Igo • Nov 18th, 2025 • Views 29.8K
 
-[34:34](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[Small Business Prompt Pack](/public/clubs/small-business-ipf4m/resources/run-your-small-business-with-chatgpt-2025-11-18)
+
+Nov 18th, 2025 • Views 12.1K
+
+[22:14](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
 Video
 
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/en/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+[ChatGPT 102 for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses)
 
-By Juliann Igo • Nov 18th, 2025 • Views 24.8K
+By Juliann Igo • Nov 18th, 2025 • Views 12.1K
 
-[Four GPT templates for small businesses](/en/public/clubs/small-business-ipf4m/resources/four-gpt-templates-for-small-businesses-2026-03-05)
+[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
-Mar 5th, 2026 • Views 6.6K
+Video
+
+[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
+
+By Juliann Igo • Nov 18th, 2025 • Views 29.8K
+
+[Four GPT templates for small businesses](/public/clubs/small-business-ipf4m/resources/four-gpt-templates-for-small-businesses-2026-03-05)
+
+Mar 5th, 2026 • Views 13.3K

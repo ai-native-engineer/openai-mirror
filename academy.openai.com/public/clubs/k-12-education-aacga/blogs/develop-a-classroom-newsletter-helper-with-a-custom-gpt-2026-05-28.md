@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -34,7 +34,7 @@ A Custom GPT is a version of ChatGPT with standing instructions for a repeatable
 
 ## What To Configure
 
-In the [GPT builder,](https://chatgpt.com/gpts/editor)  use the configure tab for set up. Include the following information:
+In the  [GPT builder,](https://chatgpt.com/gpts/editor)  use the configure tab for set up. Include the following information:
 
 * Name**:** Classroom Newsletter Helper.
 
@@ -76,76 +76,80 @@ Each week, give the GPT the details it needs:
 
 Blog
 
-[Turn Current Events Into A Classroom Mini-Lesson](/en/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
+[Turn Current Events Into A Classroom Mini-Lesson](/public/clubs/k-12-education-aacga/blogs/turn-current-events-into-a-classroom-mini-lesson-2026-05-21)
 
-[ChatGPT Foundations for Teachers](/en/public/clubs/k-12-education-aacga/resources/chatgpt-foundations-for-teachers)
-
-By Olivia Pavco-Giaccia
-
-Blog
-
-[Write Better Prompts - Teachers](/en/public/clubs/k-12-education-aacga/blogs/write-better-prompts-teachers-2026-05-28)
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[3:39](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 376
-
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[3:22](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Draft a Family Letter with Codex](/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 139
-
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
 Video
 
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 252
+Sep 11th, 2026 • Views 540
 
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Video
-
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 262
-
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 376
+Jun 3rd, 2026 • Views 1.2K
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Jun 3rd, 2026 • Views 252
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:18](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Learn with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
 
-Jun 3rd, 2026 • Views 262
+Sep 11th, 2026 • Views 121
 
-[3:22](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Draft a Family Letter with Codex](/en/public/clubs/k-12-education-aacga/videos/draft-a-family-letter-with-codex-2026-06-02)
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-Jun 3rd, 2026 • Views 139
+Jun 3rd, 2026 • Views 1.6K
+
+[5:16](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Video
+
+[Build Classroom Sites with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/build-classroom-sites-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 540
+
+[3:18](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
+
+Video
+
+[Learn with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/learn-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 121
+
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+
+Video
+
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+
+Jun 3rd, 2026 • Views 1.6K
+
+[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+
+Video
+
+[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
+
+Jun 3rd, 2026 • Views 1.2K

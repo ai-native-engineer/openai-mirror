@@ -8,6 +8,8 @@
 
 # Use Cases
 
+# Work
+
 ## Eine zentrale Anlaufstelle mit Ressourcen für Teilnehmende des Münchner SME Accelerator
 
 May 1, 2026 · Last updated on May 29, 2026
@@ -26,9 +28,9 @@ Im Laufe des Tages können Sie über diesen Link auf Beispieldateien für die Ü
 
 ## **Quick links**
 
-﻿[SME AI Accelerator Slides](https://drive.google.com/drive/folders/1UeTv9cLV8-FzM_x4RG0aNREw2ZhZ54hW) ﻿
+﻿ [SME AI Accelerator Slides](https://drive.google.com/drive/folders/1UeTv9cLV8-FzM_x4RG0aNREw2ZhZ54hW)﻿
 
-﻿[Sample files](https://drive.google.com/drive/folders/1x7GV6zdIkHqQhvjuWkUcMFsjefXlgkLT)﻿
+﻿ [Sample files](https://drive.google.com/drive/folders/1x7GV6zdIkHqQhvjuWkUcMFsjefXlgkLT)﻿
 
 ## **Agenda**
 
@@ -80,9 +82,9 @@ Hilfreiches Tool: Datenanalyse.
 
 Beispieldateien:
 
-﻿[WF1\_Harbour\_Bloom\_Sales\_Snapshot.csv](https://drive.google.com/drive/folders/1MXoM07Sgycosk4n5HtDvlG5ym9oFrC3y)﻿
+﻿ [WF1\_Harbour\_Bloom\_Sales\_Snapshot.csv](https://drive.google.com/drive/folders/1MXoM07Sgycosk4n5HtDvlG5ym9oFrC3y)﻿
 
-﻿[WF\_Harbour\_Bloom\_Customer\_Reviews.csv](https://drive.google.com/drive/folders/1MXoM07Sgycosk4n5HtDvlG5ym9oFrC3y)﻿
+﻿ [WF\_Harbour\_Bloom\_Customer\_Reviews.csv](https://drive.google.com/drive/folders/1MXoM07Sgycosk4n5HtDvlG5ym9oFrC3y)﻿
 
 **Beispiel-Prompt-Sequenz**
 
@@ -108,9 +110,9 @@ Sehen Sie sich nun diese Datei mit Kundenbewertungen an. Identifizieren Sie (1) 
 
 **Optionale Erweiterungen**
 
-* Mit [**Deep Research**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/deep-research) im Web suchen und Quellen finden
+* Mit  [**Deep Research**](https://academy.openai.com/home/clubs/work-users-ynjqu/resources/deep-research) im Web suchen und Quellen finden
 
-* Live-Inputs aus Google Drive oder SharePoint mit [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors) abrufe
+* Live-Inputs aus Google Drive oder SharePoint mit  [**Apps**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/connectors) abrufe
 
 ## **Workflow 2: Kampagne für den Frühlingsblumenverkauf**
 
@@ -120,9 +122,9 @@ Hilfreiches Tool: Projekte.
 
 Beispieldateien zum Hochladen:
 
-﻿[WF2\_Harbour\_Bloom\_Business\_Profile.txt](https://drive.google.com/drive/folders/1BrzBBEocB1MGeU76NK60q55cOyAMK2Lk)﻿
+﻿ [WF2\_Harbour\_Bloom\_Business\_Profile.txt](https://drive.google.com/drive/folders/1BrzBBEocB1MGeU76NK60q55cOyAMK2Lk)﻿
 
-﻿[WF2\_Harbour\_Bloom\_Brand\_Voice.txt](https://drive.google.com/drive/folders/1BrzBBEocB1MGeU76NK60q55cOyAMK2Lk)﻿
+﻿ [WF2\_Harbour\_Bloom\_Brand\_Voice.txt](https://drive.google.com/drive/folders/1BrzBBEocB1MGeU76NK60q55cOyAMK2Lk)﻿
 
 **Projektanweisungen**
 
@@ -187,11 +189,11 @@ Einem einfachen Schild für das Geschäft
 
 Optionale Erweiterungen
 
-* Inre Marke mit diesem Prompt dockumentieren [**this prompt**](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version)﻿
+* Inre Marke mit diesem Prompt dockumentieren  [**this prompt**](https://chatgpt.com/?prompt=Help%20me%20document%20my%20brand%20voice.%20I%E2%80%99ll%20paste%20a%20website%20link%20and%2For%20upload%20a%20few%20examples%20of%20our%20writing%20%28emails%2C%20flyers%2C%20social%20posts%2C%20menu%20copy%2C%20FAQs%2C%20reviews%2C%20etc.%29.%0A%0A1%29%20First%2C%20ask%20up%20to%205%20clarifying%20questions%20you%20need%20to%20get%20this%20right%20%28audience%2C%20vibe%2C%20goals%2C%20boundaries%2C%20competitors%20we%20want%20to%20sound%20like%20%2F%20not%20like%29.%0A2%29%20Then%20create%20a%20simple%20brand%20voice%20guide%20with%3A%0A%20%20%20-%20Brand%20in%202%20sentences%0A%20%20%20-%205%20voice%20rules%20%28each%20with%20a%20%E2%80%9CDo%E2%80%9D%20and%20%E2%80%9CDon%E2%80%99t%E2%80%9D%20example%29%0A%20%20%20-%20Tone%20settings%20%283%20sliders%20like%20Friendly%E2%86%94Formal%2C%20Playful%E2%86%94Serious%2C%20Bold%E2%86%94Careful%29%0A%20%20%20-%20Words%20we%20use%20%288%29%20%2B%20words%20we%20avoid%20%288%29%0A%20%20%20-%203%20message%20pillars%20%28each%20with%202%20proof%20points%29%0A%20%20%20-%203%20short%20templates%20in%20our%20voice%3A%20IG%20caption%2C%20Google%20Business%20post%2C%20reply%20to%20a%20negative%20review%0A%20%20%20-%20A%207-point%20checklist%20to%20keep%20future%20writing%20consistent%0A%0ARules%3A%0A-%20Use%20only%20what%20you%20can%20infer%20from%20the%20materials.%20If%20you%E2%80%99re%20guessing%2C%20label%20it%20as%20an%20assumption.%0A-%20If%20the%20materials%20are%20inconsistent%2C%20give%20me%20two%20voice%20options%20and%20tell%20me%20what%20would%20decide%20between%20them.%0A-%20Keep%20it%20specific%20and%20practical%E2%80%94avoid%20generic%20marketing%20fluff.%0A%0AFinish%20by%20putting%20the%20guide%20in%20a%20downloadable%20Word%20document%2C%20and%20also%20provide%20a%20clean%20PDF-ready%20version)﻿
 
-* Ein Poster oder einen Flyer mit [**Images**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/creating-images) erstellen
+* Ein Poster oder einen Flyer mit  [**Images**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/creating-images) erstellen
 
-* Aktuelle lokale FAKTEN MIT [**Web Search**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/web-search) hinzufügen
+* Aktuelle lokale FAKTEN MIT  [**Web Search**](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/web-search) hinzufügen
 
 ## **Solution Studio I: Gemeinsam bauen**
 
@@ -203,7 +205,7 @@ Am besten geeignet für: Schnelle, genaue Antworten auf E-Mails, SMS, Direktnach
 
 Beispiel-Wissensdatei:
 
-﻿[GPT1\_FAQ\_Reply\_Copilot\_Knowledge.txt](https://drive.google.com/drive/folders/1FYHMDP1v_eC0YI4b2yRGpwReLpBXJutG)﻿
+﻿ [GPT1\_FAQ\_Reply\_Copilot\_Knowledge.txt](https://drive.google.com/drive/folders/1FYHMDP1v_eC0YI4b2yRGpwReLpBXJutG)﻿
 
 **GPT-Anweisungen**
 
@@ -253,7 +255,7 @@ Am besten geeignet für: Aus einer Dienstleistung, einem Paket oder einer Aktion
 
 Beispiel-Wissensdatei:
 
-﻿[GPT2\_Offer\_Proposal\_Builder\_Knowledge.txt](https://drive.google.com/drive/folders/1jSc2mtSPp2jlrSGcNsdgXoiwCSNUTllR)﻿
+﻿ [GPT2\_Offer\_Proposal\_Builder\_Knowledge.txt](https://drive.google.com/drive/folders/1jSc2mtSPp2jlrSGcNsdgXoiwCSNUTllR)﻿
 
 **GPT-Anweisungen**
 
@@ -302,7 +304,7 @@ Am besten geeignet für: Prozessnotizen und Richtlinien in Checklisten, Onboardi
 
 Beispiel-Wissensdatei:
 
-﻿[GPT3\_Onboarding\_Training\_Coach\_Knowledge.txt](https://drive.google.com/drive/folders/1upDxVpzAflucrKuY-Y1YcT6HTM5F_-_-)﻿
+﻿ [GPT3\_Onboarding\_Training\_Coach\_Knowledge.txt](https://drive.google.com/drive/folders/1upDxVpzAflucrKuY-Y1YcT6HTM5F_-_-)﻿
 
 **GPT-Anweisungen**
 
@@ -387,9 +389,9 @@ Haken Sie diese Schritte ab, um zu wissen, dass Ihre Lösung bereit ist.
 
 Bereit, nach der Veranstaltung tiefer einzusteigen? Sehen Sie sich diese Ressourcen an, um Ihre KI-Lernreise fortzusetzen:
 
-﻿[Advanced features of ChatGPT](https://academy.openai.com/public/clubs/work-users-ynjqu/tags/advanced-features-68825bcbff76ca6fdcc91549): Vertiefen Sie sich in erweiterte ChatGPT-Tools wie Apps, Tasks, Deep Research und Skills.
+﻿ [Advanced features of ChatGPT](https://academy.openai.com/public/clubs/work-users-ynjqu/tags/advanced-features-68825bcbff76ca6fdcc91549): Vertiefen Sie sich in erweiterte ChatGPT-Tools wie Apps, Tasks, Deep Research und Skills.
 
-﻿[Codex for beginners:](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) Codex ist ein KI-Agent, an den Sie echte Arbeit delegieren können. In diesem Webinar erfahren Sie, wie Sie loslegen.
+﻿ [Codex for beginners:](https://academy.openai.com/public/videos/codex-for-beginners-2026-04-22) Codex ist ein KI-Agent, an den Sie echte Arbeit delegieren können. In diesem Webinar erfahren Sie, wie Sie loslegen.
 
 Vielen Dank, dass Sie heute dabei waren!
 
@@ -397,44 +399,40 @@ Vielen Dank, dass Sie heute dabei waren!
 
 AccessPublicCategoryLive EventTagsSmall BusinessStatus• PendingAuthors**Created at**04/15/2026 10:18 PM**Created by**Jean Hoey**Last Updated at**04/23/2026 5:33 PM**Published at**--Copyright © 2026 Gradual, Inc. All Rights Reserved.
 
-Table Of Contents
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
 
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+[Acceleratore IA di Milano - Resource Hub](/public/resources/milan-sme-accelerator-2026-04-20)
 
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
+[Solution accelerator: building recommendation systems](/public/clubs/builders-etkn1/resources/solution-accelerator-building-recommendation-systems)
 
-By Calvin Landrum
+[London SME AI Accelerator - Resource Hub](/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
 
-[Acceleratore IA di Milano - Resource Hub](/en/public/resources/milan-sme-accelerator-2026-04-20)
+Apr 27th, 2026 • Views 1.2K
 
-[London SME AI Accelerator - Resource Hub](/en/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
+[India Nonprofit AI Jam - Resource Hub](/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
 
-Apr 27th, 2026 • Views 913
+Jan 14th, 2026 • Views 2.7K
 
-[India Nonprofit AI Jam - Resource Hub](/en/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
+[Dublin SME AI Accelerator - Resource Hub](/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
 
-Jan 14th, 2026 • Views 2.2K
+Mar 18th, 2026 • Views 1.2K
 
-[Dublin SME AI Accelerator - Resource Hub](/en/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
+[Paris SME Accelerator - un centre de ressources](/public/resources/paris-sme-accelerator-2026-04-20)
 
-Mar 18th, 2026 • Views 969
+Jun 3rd, 2026 • Views 759
 
-[Paris SME Accelerator - un centre de ressources](/en/public/resources/paris-sme-accelerator-2026-04-20)
+[London SME AI Accelerator - Resource Hub](/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
 
-Jun 3rd, 2026 • Views 388
+Apr 27th, 2026 • Views 1.2K
 
-[London SME AI Accelerator - Resource Hub](/en/public/resources/london-sme-ai-accelerator-resource-hub-2026-04-15)
+[Dublin SME AI Accelerator - Resource Hub](/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
 
-Apr 27th, 2026 • Views 913
+Mar 18th, 2026 • Views 1.2K
 
-[Dublin SME AI Accelerator - Resource Hub](/en/public/resources/dublin-sme-ai-accelerator-resource-hub-2026-03-18)
+[Paris SME Accelerator - un centre de ressources](/public/resources/paris-sme-accelerator-2026-04-20)
 
-Mar 18th, 2026 • Views 969
+Jun 3rd, 2026 • Views 759
 
-[Paris SME Accelerator - un centre de ressources](/en/public/resources/paris-sme-accelerator-2026-04-20)
+[India Nonprofit AI Jam - Resource Hub](/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
 
-Jun 3rd, 2026 • Views 388
-
-[India Nonprofit AI Jam - Resource Hub](/en/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
-
-Jan 14th, 2026 • Views 2.2K
+Jan 14th, 2026 • Views 2.7K

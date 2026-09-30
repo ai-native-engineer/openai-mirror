@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-102-for-small-businesses -->
+
 # ChatGPT 102 for Small Businesses: Going deeper with generative AI
 
 <!-- vimeo: 1131322136 | track: English (auto-generated) -->

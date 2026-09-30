@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/video-guidance-with-chatgpt-real-time-ai-assistance-for-creators-2025-09-15 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,13 +10,15 @@ Get Started
 
 # Video Guidance with ChatGPT: Real-Time AI Assistance for Creators
 
-Posted Oct 15, 2025 | Views 785
+Posted Oct 15, 2025 | Views 1.8K
 
 # Developers & Builders
 
 # Leaders & Admins
 
 # Deployment & Adoption
+
+# Work
 
 # India
 
@@ -44,35 +46,39 @@ Whether you’re editing, shooting, designing, or analyzing content, this chapte
 
 ## Watch More
 
-[9:44](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[9:44](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-Posted Jun 05, 2025 | Views 10K
+Posted Jun 05, 2025 | Views 11.2K
 
 # General Learners
 
 # Advanced & Builder Skills
+
+# Work
 
 # India
 
-[12:14](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-hindi-2025-06-04)
+[12:14](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-hindi-2025-06-04)
 
-[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners (Hindi)](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-hindi-2025-06-04)
+[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners (Hindi)](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 4.4K
+Posted Jun 05, 2025 | Views 5.3K
 
 # General Learners
 
 # Advanced & Builder Skills
 
+# Work
+
 # India; Hindi
 
-[10:00](/en/public/videos/visual-creation-with-chatgpt-and-sora-from-thumbnails-to-full-ai-generated-videos-2025-09-15)
+[10:00](/public/videos/visual-creation-with-chatgpt-and-sora-from-thumbnails-to-full-ai-generated-videos-2025-09-15)
 
-[Visual Creation with ChatGPT & Sora: From Thumbnails to Full AI-Generated Videos](/en/public/videos/visual-creation-with-chatgpt-and-sora-from-thumbnails-to-full-ai-generated-videos-2025-09-15)
+[Visual Creation with ChatGPT & Sora: From Thumbnails to Full AI-Generated Videos](/public/videos/visual-creation-with-chatgpt-and-sora-from-thumbnails-to-full-ai-generated-videos-2025-09-15)
 
-Posted Oct 15, 2025 | Views 1.3K
+Posted Oct 15, 2025 | Views 4K
 
 # General Learners
 
@@ -81,3 +87,7 @@ Posted Oct 15, 2025 | Views 1.3K
 # Personal
 
 # India
+
+<!-- vimeo: 1116320531 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116320531)

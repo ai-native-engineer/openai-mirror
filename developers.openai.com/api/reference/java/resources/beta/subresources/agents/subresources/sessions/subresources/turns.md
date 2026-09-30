@@ -1,0 +1,735 @@
+<!-- source: https://developers.openai.com/api/reference/java/resources/beta/subresources/agents/subresources/sessions/subresources/turns/ -->
+
+# Turns
+
+## List agent session turns
+
+`TurnListPage beta().agents().sessions().turns().list(TurnListParamsparams = TurnListParams.none(), RequestOptionsrequestOptions = RequestOptions.none())`
+
+**get** `/agents/sessions/{session_id}/turns`
+
+Lists turns by creation time and turn ID. The after cursor is exclusive in the selected order. See [session turns](/api/docs/guides/agents-api/sessions/manage#inspect-session-turns).
+
+### Parameters
+
+- `TurnListParams params`
+
+  - `Optional<String> sessionId`
+
+  - `Optional<String> after`
+
+    Return resources after this resource ID in the selected order.
+
+  - `Optional<Long> limit`
+
+    The maximum number of resources to return, between 1 and 100. Defaults to 20.
+
+  - `Optional<Order> order`
+
+    The order in which resources are returned. Defaults to `desc`.
+
+    - `ASC("asc")`
+
+      Returns resources in ascending order.
+
+    - `DESC("desc")`
+
+      Returns resources in descending order.
+
+### Returns
+
+- `class Turn:`
+
+  The canonical public representation of a session turn.
+
+  - `String id`
+
+    The ID of the turn.
+
+  - `String agentId`
+
+    The ID of the agent that ran the turn.
+
+  - `Optional<Long> completedAt`
+
+    The Unix timestamp, in seconds, when the turn reached a terminal state.
+
+  - `long createdAt`
+
+    The Unix timestamp, in seconds, used to order the turn by creation time. Subagent turns use their start time, falling back to completion time or the subagent opening time when the preceding timestamps are unavailable.
+
+  - `Optional<SessionTurnError> error`
+
+    A customer-safe error. Non-null only for a failed turn.
+
+    - `Code code`
+
+      A stable, machine-readable failure category.
+
+      - `CONTEXT_LENGTH_EXCEEDED("context_length_exceeded")`
+
+        The request exceeds the model's context window.
+
+      - `SESSION_BUDGET_EXCEEDED("session_budget_exceeded")`
+
+        The session has reached its usage budget.
+
+      - `USAGE_LIMIT_EXCEEDED("usage_limit_exceeded")`
+
+        The organization has reached a usage, plan, or billing limit.
+
+      - `CREDIT_BALANCE_EXHAUSTED("credit_balance_exhausted")`
+
+        The organization has no API credits remaining.
+
+      - `RATE_LIMIT_EXCEEDED("rate_limit_exceeded")`
+
+        The request exceeds the available rate limit.
+
+      - `FLEX_UNAVAILABLE("flex_unavailable")`
+
+        Flex processing is temporarily unavailable.
+
+      - `SERVER_OVERLOADED("server_overloaded")`
+
+        The model service is temporarily overloaded.
+
+      - `CYBER_POLICY("cyber_policy")`
+
+        The request was rejected by a safety policy.
+
+      - `MISALIGNMENT_POLICY_VIOLATION("misalignment_policy_violation")`
+
+        The request was blocked by the safety systems.
+
+      - `CONNECTION_FAILED("connection_failed")`
+
+        The request could not connect to the model service.
+
+      - `SERVER_ERROR("server_error")`
+
+        The model service encountered an unexpected error.
+
+      - `AUTHENTICATION_ERROR("authentication_error")`
+
+        The API credentials are invalid or lack the required access.
+
+      - `INVALID_REQUEST("invalid_request")`
+
+        The request contains invalid input or configuration.
+
+      - `RESOURCE_NOT_FOUND("resource_not_found")`
+
+        The requested model or resource is unavailable.
+
+      - `SANDBOX_ERROR("sandbox_error")`
+
+        The request could not complete in its execution environment.
+
+      - `EXECUTOR_VERSION_INCOMPATIBLE("executor_version_incompatible")`
+
+        The executor must be upgraded before it can run this turn.
+
+      - `ACTIVE_TURN_NOT_STEERABLE("active_turn_not_steerable")`
+
+        The session cannot accept additional input while a request is running.
+
+      - `REQUEST_TIMEOUT("request_timeout")`
+
+        The request timed out before the model service responded.
+
+      - `INTERNAL_ERROR("internal_error")`
+
+        An unexpected internal error prevented the session request from completing.
+
+    - `String message`
+
+      A customer-safe explanation of the failure.
+
+  - `Object object_`
+
+    The object type. Always `agent.session.turn`.
+
+    - `AGENT_SESSION_TURN("agent.session.turn")`
+
+  - `String sessionId`
+
+    The ID of the session that owns the turn.
+
+  - `Optional<Long> startedAt`
+
+    The Unix timestamp, in seconds, when the turn started.
+
+  - `Status status`
+
+    The current status of the turn.
+
+    - `QUEUED("queued")`
+
+      The turn is waiting to start.
+
+    - `IN_PROGRESS("in_progress")`
+
+      The turn is in progress.
+
+    - `WAITING("waiting")`
+
+      The turn is waiting for external input.
+
+    - `COMPLETED("completed")`
+
+      The turn completed successfully.
+
+    - `FAILED("failed")`
+
+      The turn failed.
+
+    - `CANCELLED("cancelled")`
+
+      The turn was cancelled.
+
+  - `Optional<String> subagentId`
+
+    The ID of the subagent that ran the turn, if applicable.
+
+  - `Optional<TokenUsage> usage`
+
+    Best-effort token usage for the turn, or null if unknown. Recorded usage may change.
+
+    - `long inputTokens`
+
+      The number of input tokens used by the agent.
+
+    - `InputTokensDetails inputTokensDetails`
+
+      A breakdown of the agent's input token usage.
+
+      - `long cachedTokens`
+
+        The number of input tokens retrieved from the prompt cache.
+
+    - `long outputTokens`
+
+      The number of output tokens generated by the agent.
+
+    - `OutputTokensDetails outputTokensDetails`
+
+      A breakdown of the agent's output token usage.
+
+      - `long reasoningTokens`
+
+        The number of output tokens used for reasoning.
+
+    - `long totalTokens`
+
+      The total number of input and output tokens used by the agent.
+
+### Example
+
+```java
+package com.openai.example;
+
+import com.openai.client.OpenAIClient;
+import com.openai.client.okhttp.OpenAIOkHttpClient;
+import com.openai.models.beta.agents.sessions.turns.TurnListPage;
+import com.openai.models.beta.agents.sessions.turns.TurnListParams;
+
+public final class Main {
+    private Main() {}
+
+    public static void main(String[] args) {
+        OpenAIClient client = OpenAIOkHttpClient.fromEnv();
+
+        TurnListPage page = client.beta().agents().sessions().turns().list("session_id");
+    }
+}
+```
+
+#### Response
+
+```json
+{
+  "data": [
+    {
+      "id": "id",
+      "agent_id": "agent_id",
+      "completed_at": 0,
+      "created_at": 0,
+      "error": {
+        "code": "context_length_exceeded",
+        "message": "message"
+      },
+      "object": "agent.session.turn",
+      "session_id": "session_id",
+      "started_at": 0,
+      "status": "queued",
+      "subagent_id": "subagent_id",
+      "usage": {
+        "input_tokens": 0,
+        "input_tokens_details": {
+          "cached_tokens": 0
+        },
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 0
+      }
+    }
+  ],
+  "first_id": "first_id",
+  "has_more": true,
+  "last_id": "last_id",
+  "object": "list"
+}
+```
+
+## Retrieve an agent session turn
+
+`Turn beta().agents().sessions().turns().retrieve(TurnRetrieveParamsparams, RequestOptionsrequestOptions = RequestOptions.none())`
+
+**get** `/agents/sessions/{session_id}/turns/{turn_id}`
+
+Retrieves a turn's current status, timestamps, usage, and error. Returns 404 if the turn does not belong to the session. See [session turns](/api/docs/guides/agents-api/sessions/manage#inspect-session-turns).
+
+### Parameters
+
+- `TurnRetrieveParams params`
+
+  - `String sessionId`
+
+  - `Optional<String> turnId`
+
+### Returns
+
+- `class Turn:`
+
+  The canonical public representation of a session turn.
+
+  - `String id`
+
+    The ID of the turn.
+
+  - `String agentId`
+
+    The ID of the agent that ran the turn.
+
+  - `Optional<Long> completedAt`
+
+    The Unix timestamp, in seconds, when the turn reached a terminal state.
+
+  - `long createdAt`
+
+    The Unix timestamp, in seconds, used to order the turn by creation time. Subagent turns use their start time, falling back to completion time or the subagent opening time when the preceding timestamps are unavailable.
+
+  - `Optional<SessionTurnError> error`
+
+    A customer-safe error. Non-null only for a failed turn.
+
+    - `Code code`
+
+      A stable, machine-readable failure category.
+
+      - `CONTEXT_LENGTH_EXCEEDED("context_length_exceeded")`
+
+        The request exceeds the model's context window.
+
+      - `SESSION_BUDGET_EXCEEDED("session_budget_exceeded")`
+
+        The session has reached its usage budget.
+
+      - `USAGE_LIMIT_EXCEEDED("usage_limit_exceeded")`
+
+        The organization has reached a usage, plan, or billing limit.
+
+      - `CREDIT_BALANCE_EXHAUSTED("credit_balance_exhausted")`
+
+        The organization has no API credits remaining.
+
+      - `RATE_LIMIT_EXCEEDED("rate_limit_exceeded")`
+
+        The request exceeds the available rate limit.
+
+      - `FLEX_UNAVAILABLE("flex_unavailable")`
+
+        Flex processing is temporarily unavailable.
+
+      - `SERVER_OVERLOADED("server_overloaded")`
+
+        The model service is temporarily overloaded.
+
+      - `CYBER_POLICY("cyber_policy")`
+
+        The request was rejected by a safety policy.
+
+      - `MISALIGNMENT_POLICY_VIOLATION("misalignment_policy_violation")`
+
+        The request was blocked by the safety systems.
+
+      - `CONNECTION_FAILED("connection_failed")`
+
+        The request could not connect to the model service.
+
+      - `SERVER_ERROR("server_error")`
+
+        The model service encountered an unexpected error.
+
+      - `AUTHENTICATION_ERROR("authentication_error")`
+
+        The API credentials are invalid or lack the required access.
+
+      - `INVALID_REQUEST("invalid_request")`
+
+        The request contains invalid input or configuration.
+
+      - `RESOURCE_NOT_FOUND("resource_not_found")`
+
+        The requested model or resource is unavailable.
+
+      - `SANDBOX_ERROR("sandbox_error")`
+
+        The request could not complete in its execution environment.
+
+      - `EXECUTOR_VERSION_INCOMPATIBLE("executor_version_incompatible")`
+
+        The executor must be upgraded before it can run this turn.
+
+      - `ACTIVE_TURN_NOT_STEERABLE("active_turn_not_steerable")`
+
+        The session cannot accept additional input while a request is running.
+
+      - `REQUEST_TIMEOUT("request_timeout")`
+
+        The request timed out before the model service responded.
+
+      - `INTERNAL_ERROR("internal_error")`
+
+        An unexpected internal error prevented the session request from completing.
+
+    - `String message`
+
+      A customer-safe explanation of the failure.
+
+  - `Object object_`
+
+    The object type. Always `agent.session.turn`.
+
+    - `AGENT_SESSION_TURN("agent.session.turn")`
+
+  - `String sessionId`
+
+    The ID of the session that owns the turn.
+
+  - `Optional<Long> startedAt`
+
+    The Unix timestamp, in seconds, when the turn started.
+
+  - `Status status`
+
+    The current status of the turn.
+
+    - `QUEUED("queued")`
+
+      The turn is waiting to start.
+
+    - `IN_PROGRESS("in_progress")`
+
+      The turn is in progress.
+
+    - `WAITING("waiting")`
+
+      The turn is waiting for external input.
+
+    - `COMPLETED("completed")`
+
+      The turn completed successfully.
+
+    - `FAILED("failed")`
+
+      The turn failed.
+
+    - `CANCELLED("cancelled")`
+
+      The turn was cancelled.
+
+  - `Optional<String> subagentId`
+
+    The ID of the subagent that ran the turn, if applicable.
+
+  - `Optional<TokenUsage> usage`
+
+    Best-effort token usage for the turn, or null if unknown. Recorded usage may change.
+
+    - `long inputTokens`
+
+      The number of input tokens used by the agent.
+
+    - `InputTokensDetails inputTokensDetails`
+
+      A breakdown of the agent's input token usage.
+
+      - `long cachedTokens`
+
+        The number of input tokens retrieved from the prompt cache.
+
+    - `long outputTokens`
+
+      The number of output tokens generated by the agent.
+
+    - `OutputTokensDetails outputTokensDetails`
+
+      A breakdown of the agent's output token usage.
+
+      - `long reasoningTokens`
+
+        The number of output tokens used for reasoning.
+
+    - `long totalTokens`
+
+      The total number of input and output tokens used by the agent.
+
+### Example
+
+```java
+package com.openai.example;
+
+import com.openai.client.OpenAIClient;
+import com.openai.client.okhttp.OpenAIOkHttpClient;
+import com.openai.models.beta.agents.sessions.turns.Turn;
+import com.openai.models.beta.agents.sessions.turns.TurnRetrieveParams;
+
+public final class Main {
+    private Main() {}
+
+    public static void main(String[] args) {
+        OpenAIClient client = OpenAIOkHttpClient.fromEnv();
+
+        TurnRetrieveParams params = TurnRetrieveParams.builder()
+            .sessionId("session_id")
+            .turnId("turn_id")
+            .build();
+        Turn turn = client.beta().agents().sessions().turns().retrieve(params);
+    }
+}
+```
+
+#### Response
+
+```json
+{
+  "id": "id",
+  "agent_id": "agent_id",
+  "completed_at": 0,
+  "created_at": 0,
+  "error": {
+    "code": "context_length_exceeded",
+    "message": "message"
+  },
+  "object": "agent.session.turn",
+  "session_id": "session_id",
+  "started_at": 0,
+  "status": "queued",
+  "subagent_id": "subagent_id",
+  "usage": {
+    "input_tokens": 0,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 0,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 0
+  }
+}
+```
+
+## Domain Types
+
+### Turn
+
+- `class Turn:`
+
+  The canonical public representation of a session turn.
+
+  - `String id`
+
+    The ID of the turn.
+
+  - `String agentId`
+
+    The ID of the agent that ran the turn.
+
+  - `Optional<Long> completedAt`
+
+    The Unix timestamp, in seconds, when the turn reached a terminal state.
+
+  - `long createdAt`
+
+    The Unix timestamp, in seconds, used to order the turn by creation time. Subagent turns use their start time, falling back to completion time or the subagent opening time when the preceding timestamps are unavailable.
+
+  - `Optional<SessionTurnError> error`
+
+    A customer-safe error. Non-null only for a failed turn.
+
+    - `Code code`
+
+      A stable, machine-readable failure category.
+
+      - `CONTEXT_LENGTH_EXCEEDED("context_length_exceeded")`
+
+        The request exceeds the model's context window.
+
+      - `SESSION_BUDGET_EXCEEDED("session_budget_exceeded")`
+
+        The session has reached its usage budget.
+
+      - `USAGE_LIMIT_EXCEEDED("usage_limit_exceeded")`
+
+        The organization has reached a usage, plan, or billing limit.
+
+      - `CREDIT_BALANCE_EXHAUSTED("credit_balance_exhausted")`
+
+        The organization has no API credits remaining.
+
+      - `RATE_LIMIT_EXCEEDED("rate_limit_exceeded")`
+
+        The request exceeds the available rate limit.
+
+      - `FLEX_UNAVAILABLE("flex_unavailable")`
+
+        Flex processing is temporarily unavailable.
+
+      - `SERVER_OVERLOADED("server_overloaded")`
+
+        The model service is temporarily overloaded.
+
+      - `CYBER_POLICY("cyber_policy")`
+
+        The request was rejected by a safety policy.
+
+      - `MISALIGNMENT_POLICY_VIOLATION("misalignment_policy_violation")`
+
+        The request was blocked by the safety systems.
+
+      - `CONNECTION_FAILED("connection_failed")`
+
+        The request could not connect to the model service.
+
+      - `SERVER_ERROR("server_error")`
+
+        The model service encountered an unexpected error.
+
+      - `AUTHENTICATION_ERROR("authentication_error")`
+
+        The API credentials are invalid or lack the required access.
+
+      - `INVALID_REQUEST("invalid_request")`
+
+        The request contains invalid input or configuration.
+
+      - `RESOURCE_NOT_FOUND("resource_not_found")`
+
+        The requested model or resource is unavailable.
+
+      - `SANDBOX_ERROR("sandbox_error")`
+
+        The request could not complete in its execution environment.
+
+      - `EXECUTOR_VERSION_INCOMPATIBLE("executor_version_incompatible")`
+
+        The executor must be upgraded before it can run this turn.
+
+      - `ACTIVE_TURN_NOT_STEERABLE("active_turn_not_steerable")`
+
+        The session cannot accept additional input while a request is running.
+
+      - `REQUEST_TIMEOUT("request_timeout")`
+
+        The request timed out before the model service responded.
+
+      - `INTERNAL_ERROR("internal_error")`
+
+        An unexpected internal error prevented the session request from completing.
+
+    - `String message`
+
+      A customer-safe explanation of the failure.
+
+  - `Object object_`
+
+    The object type. Always `agent.session.turn`.
+
+    - `AGENT_SESSION_TURN("agent.session.turn")`
+
+  - `String sessionId`
+
+    The ID of the session that owns the turn.
+
+  - `Optional<Long> startedAt`
+
+    The Unix timestamp, in seconds, when the turn started.
+
+  - `Status status`
+
+    The current status of the turn.
+
+    - `QUEUED("queued")`
+
+      The turn is waiting to start.
+
+    - `IN_PROGRESS("in_progress")`
+
+      The turn is in progress.
+
+    - `WAITING("waiting")`
+
+      The turn is waiting for external input.
+
+    - `COMPLETED("completed")`
+
+      The turn completed successfully.
+
+    - `FAILED("failed")`
+
+      The turn failed.
+
+    - `CANCELLED("cancelled")`
+
+      The turn was cancelled.
+
+  - `Optional<String> subagentId`
+
+    The ID of the subagent that ran the turn, if applicable.
+
+  - `Optional<TokenUsage> usage`
+
+    Best-effort token usage for the turn, or null if unknown. Recorded usage may change.
+
+    - `long inputTokens`
+
+      The number of input tokens used by the agent.
+
+    - `InputTokensDetails inputTokensDetails`
+
+      A breakdown of the agent's input token usage.
+
+      - `long cachedTokens`
+
+        The number of input tokens retrieved from the prompt cache.
+
+    - `long outputTokens`
+
+      The number of output tokens generated by the agent.
+
+    - `OutputTokensDetails outputTokensDetails`
+
+      A breakdown of the agent's output token usage.
+
+      - `long reasoningTokens`
+
+        The number of output tokens used for reasoning.
+
+    - `long totalTokens`
+
+      The total number of input and output tokens used by the agent.

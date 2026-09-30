@@ -2,54 +2,13 @@
 
 # Tom Coley ( International Year One Business)
 
-Posted Aug 01, 2025 | Views 246
+<!-- vimeo: 1111378089 | track: English (auto-generated) -->
 
-# Advanced & Builder Skills
+[▶ Watch on Vimeo](https://vimeo.com/1111378089)
 
-Tom Coley - Business Lecturer - Teesside University International Study Centre - International Year One Business
+<details>
+<summary>자막: Tom Coley ( International Year One Business)</summary>
 
-Designing a Custom GPT to guide students through deeper reflective thinking, helping them build confidence, ask better questions, and connect their learning to real outcomes.
+Hi, I'm Tom Coley and I teach business marketing and entrepreneurship to international students at T Side University International Study Center here in the uk. My approach to teaching is less chalk and talk and more, let's figure this out. Together. I use design thinking, storytelling as the backbone of everything, not just what I teach, but also in how I teach it. For me, teaching is about helping students think for themselves, ask better questions, and to start shaping their own narrative As future professionals, creators, and problem solvers. And recently AI and in particular chat, GPT has become a really powerful part of that journey for me. First and foremost, I brought TA GBT into the classroom as a collaborative learning partner, not a shortcut, not a machine, not a ghost writer, a partner. And I encourage my students to use it to brainstorm and refine business ideas, explore organizational scenarios and ethical dilemmas, develop personal statements and personal branding, prepare for assessments through feedback simulation, role play, and most importantly, to reflect on their own learning process in a more structured way. And actually one of the more meaningful tools I've built is a custom GPTI call the module Reflection Coach. And this GPT doesn't do the work for students. It nudges them, it asks questions, it provides structure and helps them unpack their learning and link it back to the module outcomes. Acting as a reflective coach to help them dig deeper without spoonfeeding or flattening their voice. It's designed to sound like the kind of tutor who's helpful, but won't let you off the hook, someone that's annoyingly supportive. My goal wasn't to add tech for the sake of it. It was to solve real teaching problems. Students needed a safe space to experiment and to iterate, especially those with English as an additional language, or those coming from educational systems where creativity and reflection weren't a big focus. So I started shifting my delivery, less lecture, more experience. Design chat. GPT gave me a flexible way to scaffold tasks, allow differentiation, and create activities where students could learn by doing at their own pace with the freedom to make mistakes. And when it came to building the Reflection coach, I actually used chat GPT itself to help design it. I uploaded my module specs, my assessment briefs, my marking rubrics, all my notes, and my brain dumps on what I wanted this to do. And then I went back and forth collaborating with chat GPT to Develop and refine the system prompt to create something that would guide students effectively and was just exactly what I wanted. Utilizing deep research mode to dig into the best practice research on reflective learning coaching techniques, and even custom GBT building. The whole process was design, thinking, understanding and defining the problem, prototyping, testing, and iterating exactly what I teach my students to do and how to use Chad GBT in their own studies. And now it works like a second pair of hands, a very patient, very nerdy teaching assistant available to the student any hour of the day to guide their reflection and unpack their learning. Honestly, one of the most surprising outcomes was how quickly students went from passively consuming AI content to using it to ask better questions and to think bigger chat. GBT became a way for them to test ideas, play with tone and reflect even more deeply than normal. I've seen it build confidence, especially for those students who often stay quiet. They now have a low stakes environment where they can experiment, fail and try again, which to be fair is more than most of us get in our adult lives. And it's also sparked huge conversations around authorship, ethics, and originality. And in the past, students were often afraid to talk about chat GPT out loud. Now they're engineering sharing prompts, giving each other feedback, even calling each other out for using AI badly or for using it as a shortcut. And for staff. Those same conversations have made AI feel accessible, not intimidating. I lead an internal AI working group and we're now sharing best practices, not just across our institution, but across other centers within our network. And slowly but surely the culture is shifting. People are less scared of the tech and more curious about what it can enable. And practically speaking, I've seen better attendance, higher engagement, improved student outcomes. And from my side, it's allowed me to develop and integrate a level of differentiation in my teaching that I wouldn't normally have the time to do. But most importantly, I'm spending less time talking at my students and more time working with them, guiding, nudging, and challenging. And it's a much better use of everybody's energy. So looking ahead, I'm not using chat GBT just because it's shiny and new. I'm using it because I believe if we get it right, it can actually rehumanize education. We've all seen those sessions that regurgitate the same old tired content year on year because that's all that time allows, but that way is way more robotic than anything I'm doing with chat GPT. That said, I'm not naive about it either. I know the risks of students feigning competence with AI generated work. I've seen it, I've marked it, I've sighed at it. So that's why now I'm focused on designing out any unfair advantage that those that use AI well currently get, not through prohibition by banning ai, but by leveling the playing field, raising the bar overall. By rethinking how I design tasks, modules, and in particular assessments, we need to shift from assessing what students submit to assessing how they got there. Did they engage in critical thinking? Did they explore different perspectives? Did they reflect honestly about what they've learned? Even if the writing is polished by a chat bot. And I honestly believe if we do that, we create a learning environment where those who use AI well can thrive without fear of being branded cheaters, where those who use it as a shortcut to real learning aren't rewarded. And those who choose not to use it aren't left behind where everyone is judged, not by output alone, but by the depth of their process and their personal growth. And for me, that's how we ensure that education still means something in the age of ai. So thanks for listening and for being part of the much needed conversation. I don't have all the answers by any means. I'm stumbling through this just as blindly as everybody else. But I believe that by engaging in these conversations openly and publicly, by including educators, institutions, and students in the conversation, we can use AI and chat GPT to Rehumanize education and to prepare students for a world of work that's changing rapidly.
 
-## TRANSCRIPT
-
-Tom Coley is a business lecturer and former marketing strategist who now helps international students think creatively and critically using design thinking, storytelling — and increasingly, AI. He leads an internal AI working group and co-develops inclusive, reflective learning strategies using tools like ChatGPT.
-
-Like
-
-Comments (0)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[57:50](/en/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
-
-[Nonprofit Year-End Sprint with ChatGPT](/en/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
-
-Posted Nov 14, 2025 | Views 1.9K
-
-# Public & Social Impact
-
-# Use Cases
-
-# Personal
-
-[10:00](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-[Jonathan M. Torres (Business)](/en/public/videos/jonathan-m-torres-business-2025-08-20)
-
-Posted Aug 01, 2025 | Views 726
-
-[10:00](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
-
-[Mohd Naved (Business Forecasting)](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
-
-Posted Aug 01, 2025 | Views 685
-
-# Use Cases
+</details>

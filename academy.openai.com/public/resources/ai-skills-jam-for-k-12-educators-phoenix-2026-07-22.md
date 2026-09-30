@@ -16,50 +16,48 @@ View our slides from the day below:
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/EXT-PHOENIX-AI-Skills-Jam-for-K-12-Educators-53214d73-47a9-444c-9d3b-28b428b21d8d-1785774956710.pdf) the file to view.
 
-﻿
+[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
 
-﻿
+Blog
 
 [K–12: Building Custom GPTs to Automate Tasks](/public/blogs/k-12-building-custom-gpts)
 
 By Kirk Gulezian
 
+Blog
+
 [K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
 
 By Juliann Igo
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-By Juliann Igo
+Jul 23rd, 2026 • Views 127
 
-[India Nonprofit AI Jam - Resource Hub](/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
+[AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Jan 14th, 2026 • Views 2.5K
+Jul 23rd, 2026 • Views 166
 
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-Jun 10th, 2026 • Views 524
+Sep 28th, 2026 • Views 64
 
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
+[AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
 
-Mar 29th, 2026 • Views 1.2K
+Jul 23rd, 2026 • Views 97
 
-[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-Apr 15th, 2026 • Views 2.2K
+Jul 23rd, 2026 • Views 127
 
-[India Nonprofit AI Jam - Resource Hub](/public/clubs/india-gkubq/resources/india-nonprofit-ai-jam-resource-hub-2026-01-13)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-Jan 14th, 2026 • Views 2.5K
+Sep 28th, 2026 • Views 64
 
-[AI Skills Jam for Disaster Management Professionals](/public/resources/ai-skills-jam-for-disaster-management-professionals-2026-03-29)
+[AI Skills Jam for K-12 Educators: Salt Lake City](/public/resources/ai-skills-jam-for-k-12-educators-salt-lake-city-2026-07-22)
 
-Mar 29th, 2026 • Views 1.2K
+Jul 23rd, 2026 • Views 97
 
-[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+[AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Apr 15th, 2026 • Views 2.2K
-
-[APAC Disaster Management AI Skills Jam: Learn Sessions Companion](/public/resources/apac-disaster-management-ai-skills-jam-learn-sessions-companion-2026-06-10)
-
-Jun 10th, 2026 • Views 524
+Jul 23rd, 2026 • Views 166

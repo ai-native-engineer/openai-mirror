@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/events/chatgpt-for-higher-education-faculty-scap1oxv4f -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.events](/en/public/clubs/higher-education-05x4z/events)
+[navigation.events](/public/clubs/higher-education-05x4z/events)
 
 ![ChatGPT for Higher Education Faculty](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-9--775fdd48-f1bf-4f14-a0d9-a8277442a532-1777588477132.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+3:00 PM - 4:00 PM GMT
+
+May 14, 2026
 
 # ChatGPT for Higher Education Faculty
 
@@ -32,7 +36,9 @@ View Profile
 
 Event has finished
 
-May 14, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+May 14, 2026
 
 Online
 
@@ -44,7 +50,9 @@ Higher Education
 
 Event has finished
 
-May 14, 3:00 PM GMT
+3:00 PM - 4:00 PM GMT
+
+May 14, 2026
 
 Online
 

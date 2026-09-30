@@ -1,18 +1,18 @@
 <!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/events/how-small-businesses-can-put-chatgpt-work-into-practice-4100tgvv69 -->
 
-[Small Business](/en/public/clubs/small-business-ipf4m/overview)
+[Small Business](/public/clubs/small-business-ipf4m/overview)
 
-[navigation.events](/en/public/clubs/small-business-ipf4m/events)
+[navigation.events](/public/clubs/small-business-ipf4m/events)
 
 ![How small businesses can put ChatGPT Work into practice](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Work-for-SMBs-Social-Thumbnail-b6a75b15-0b4d-40a7-8741-b4d8d1c65e83-1784589851134.jpeg?fit=scale-down&width=1200)
+
+LIVESTREAM
 
 5:00 PM - 6:00 PM GMT
 
 August 6, 2026
 
 # How small businesses can put ChatGPT Work into practice
-
-[Register](https://webinar.openai.com/small-business/chatgpt-work/#Registration)
 
 Join OpenAI to see how ChatGPT Work can help small businesses take on more ambitious work, move projects forward, and turn ideas into finished deliverables.
 
@@ -22,28 +22,36 @@ Hear from **Matt Smidebush, Head of SMB at OpenAI,** and **Sophia Qin, Solutions
 
 **In this pre-recorded session, we’ll cover:**
 
-1. How to identify the everyday tasks and workflows where ChatGPT Work can save the most time
-2. How to use business context from your files, apps, and tools to create more relevant, ready-to-use work
-3. How to turn goals into finished deliverables such as documents, presentations, spreadsheets, or internal interactive apps
-4. How to schedule recurring tasks, monitor updates, and keep projects moving
-5. How teams can use ChatGPT Work across sales, marketing, finance, operations, and customer support
+* How to identify the everyday tasks and workflows where ChatGPT Work can save the most time
 
-Live in 15 days 13 hours
+* How to use business context from your files, apps, and tools to create more relevant, ready-to-use work
 
-5:00 PM - 6:00 PM GMT
+* How to turn goals into finished deliverables such as documents, presentations, spreadsheets, or internal interactive apps
 
-August 6, 2026
+* How to schedule recurring tasks, monitor updates, and keep projects moving
 
-Small Business
+* How teams can use ChatGPT Work across sales, marketing, finance, operations, and customer support
 
-[Register](https://webinar.openai.com/small-business/chatgpt-work/#Registration)
-
-Live in 15 days 13 hours
+Event has finished
 
 5:00 PM - 6:00 PM GMT
 
 August 6, 2026
 
+Online
+
+Organized by
+
 Small Business
 
-[Register](https://webinar.openai.com/small-business/chatgpt-work/#Registration)
+Event has finished
+
+5:00 PM - 6:00 PM GMT
+
+August 6, 2026
+
+Online
+
+Organized by
+
+Small Business

@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/3-steps-to-basic-ai-literacy-advanced-features-of-chatgpt-2025-06-30 -->
+
 # 3 Steps to Basic AI Literacy: Advanced Features of ChatGPT
 
 <!-- vimeo: 1097050434 | track: English (auto-generated) -->

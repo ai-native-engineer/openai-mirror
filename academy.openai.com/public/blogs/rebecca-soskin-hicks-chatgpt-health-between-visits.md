@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/blogs/rebecca-soskin-hicks-chatgpt-health-between-visits -->
 
+Article
+
 August 5, 2026
 
 # How Dr. Rebecca Soskin Hicks is helping patients navigate care between visits
 
 ![How Dr. Rebecca Soskin Hicks is helping patients navigate care between visits](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-04-at-5-27-56-PM-fc7b7283-9161-4264-9313-a7b9ab534538-1785889687583.jpeg?fit=scale-down&width=1200)
-
-# ChatGPT
 
 # Industry & Community
 
@@ -34,42 +34,48 @@ Behind Rebecca’s work is a global network of hundreds of physicians across 60 
 
 [5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
+Video
+
 [Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 [Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Beating the paperwork that stands between patients and care](/public/blogs/rich-kaplan-chatgpt-insurance-approval-medication-risks-healthcare)
-
-Jan 7th, 2026 • Views 2.9K
-
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
-
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
-
-By Amanda Bullock • Aug 6th, 2026 • Views 5
-
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
-
-Aug 6th, 2026 • Views 18
-
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
-
-By David Sperry • Aug 6th, 2026 • Views 0
+Blog
 
 [Beating the paperwork that stands between patients and care](/public/blogs/rich-kaplan-chatgpt-insurance-approval-medication-risks-healthcare)
 
-Jan 7th, 2026 • Views 2.9K
+Jan 7th, 2026 • Views 3.1K
 
-[How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-Aug 6th, 2026 • Views 18
+Sep 28th, 2026 • Views 63
 
-[Connectivity Matters](/public/clubs/government/resources/connectivity-matters)
+Blog
 
-By David Sperry • Aug 6th, 2026 • Views 0
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[1:52](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+Sep 29th, 2026 • Views 16
 
-[ChatGPT Voice for federal employees](/public/clubs/government/videos/chatgpt-voice-for-federal-employees-2026-08-06)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-By Amanda Bullock • Aug 6th, 2026 • Views 5
+Sep 29th, 2026 • Views 33
+
+Blog
+
+[Beating the paperwork that stands between patients and care](/public/blogs/rich-kaplan-chatgpt-insurance-approval-medication-risks-healthcare)
+
+Jan 7th, 2026 • Views 3.1K
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33
+
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
+
+Sep 28th, 2026 • Views 63

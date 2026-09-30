@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-reverse-engineering-a-visual-campaign-2025-07-15 -->
+
 # AI for Nonprofits: Reverse Engineering a Visual Campaign
 
 <!-- vimeo: 1101759896 | track: English (auto-generated) -->

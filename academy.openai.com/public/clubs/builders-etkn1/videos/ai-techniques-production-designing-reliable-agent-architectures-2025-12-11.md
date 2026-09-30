@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-designing-reliable-agent-architectures-2025-12-11 -->
+
 # AI Techniques (Production): Designing Reliable Agent Architectures
 
 <!-- vimeo: 1145774649 | track: English (auto-generated) -->

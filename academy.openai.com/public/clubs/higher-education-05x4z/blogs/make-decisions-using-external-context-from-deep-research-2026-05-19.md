@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/make-decisions-using-external-context-from-deep-research-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -44,7 +44,7 @@ The key is to frame it as decision support. You are not asking for a generic lit
 | --- |
 | Using reliable sources, research the following:  ﻿  - Recent factors affecting university yield and deposits in the last 18 to 24 months  - Evidence-based interventions that improved yield, especially by segment  - KPI frameworks universities use for cabinet-level enrollment monitoring  ﻿  Requirements:  - Summarize the findings in 8 to 12 bullets with citations  - Add a short section called "So what for us" for a mid-to-large public university  - Include 5 questions we should ask internally before applying these ideas |
 
-﻿[Try this in ChatGPT](https://chatgpt.com/?q=Using%20reliable%20sources%2C%20research%20the%20following%3A%0A%0A-%20Recent%20factors%20affecting%20university%20yield%20and%20deposits%20in%20the%20last%2018%20to%2024%20months%0A-%20Evidence-based%20interventions%20that%20improved%20yield%2C%20especially%20by%20segment%0A-%20KPI%20frameworks%20universities%20use%20for%20cabinet-level%20enrollment%20monitoring%0A%0ARequirements%3A%0A-%20Summarize%20the%20findings%20in%208%20to%2012%20bullets%20with%20citations%0A-%20Add%20a%20short%20section%20called%20%22So%20what%20for%20us%22%20for%20a%20mid-to-large%20public%20university%0A-%20Include%205%20questions%20we%20should%20ask%20internally%20before%20applying%20these%20ideas)﻿
+﻿ [Try this in ChatGPT](https://chatgpt.com/?q=Using%20reliable%20sources%2C%20research%20the%20following%3A%0A%0A-%20Recent%20factors%20affecting%20university%20yield%20and%20deposits%20in%20the%20last%2018%20to%2024%20months%0A-%20Evidence-based%20interventions%20that%20improved%20yield%2C%20especially%20by%20segment%0A-%20KPI%20frameworks%20universities%20use%20for%20cabinet-level%20enrollment%20monitoring%0A%0ARequirements%3A%0A-%20Summarize%20the%20findings%20in%208%20to%2012%20bullets%20with%20citations%0A-%20Add%20a%20short%20section%20called%20%22So%20what%20for%20us%22%20for%20a%20mid-to-large%20public%20university%0A-%20Include%205%20questions%20we%20should%20ask%20internally%20before%20applying%20these%20ideas)﻿
 
 ## What Good Looks Like
 
@@ -68,58 +68,66 @@ Check the citations before you socialize a recommendation. Benchmarks and best p
 
 Once you have the internal analysis and external context, ask ChatGPT to turn both into a one-page brief, meeting agenda, or action tracker.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Juliann Igo
+Video
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 9th, 2026 • Views 400
-
-Blog
-
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
-
-May 20th, 2026 • Views 201
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Aug 4th, 2026 • Views 529
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+Aug 4th, 2026 • Views 1.6K
 
 Blog
 
-[Build Skills for High-Value Teaching Workflows](/en/public/clubs/higher-education-05x4z/blogs/build-skills-for-high-value-teaching-workflows-2026-05-19)
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
-May 20th, 2026 • Views 201
+Aug 4th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Aug 4th, 2026 • Views 1.6K
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+Aug 4th, 2026 • Views 1.2K
+
+Blog
+
+[Get the Most From the College Educator and College Student Plugins](/public/clubs/higher-education-05x4z/blogs/college-educator-and-student-plugins)
+
+Aug 4th, 2026 • Views 529

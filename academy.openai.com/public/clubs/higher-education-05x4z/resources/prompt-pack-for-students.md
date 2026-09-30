@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -56,56 +56,54 @@ This page gives you ready-to-use prompt examples to help you get the most out of
 
 "Assist my group in organizing our project on [topic]. Break down the project into key tasks, assign responsibilities based on each member’s strengths, and set realistic deadlines. Provide strategies for effective communication and collaboration to ensure the project runs smoothly. Include tips for managing potential challenges and keeping the team on track. More about the [members, project scope, deliverables]."
 
-Table Of Contents
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
 By Siya Raj Purohit
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
 By Siya Raj Purohit
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
+May 13th, 2026 • Views 1.3K
 
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
 
-Aug 22nd, 2025 • Views 13.9K
-
-Blog
-
-[Prompt Like a Campus Administrator](/en/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
-
-May 19th, 2026 • Views 97
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
-
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
-
-Aug 22nd, 2025 • Views 13.9K
+Aug 22nd, 2025 • Views 15.8K
 
 Blog
 
-[Prompt Like a Campus Administrator](/en/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
+[Prompt Like a Campus Administrator](/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
 
-May 19th, 2026 • Views 97
+May 19th, 2026 • Views 685
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-May 13th, 2026 • Views 354
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
+
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+
+Aug 22nd, 2025 • Views 15.8K
+
+Blog
+
+[Prompt Like a Campus Administrator](/public/clubs/higher-education-05x4z/blogs/prompt-like-a-campus-administrator-2026-05-19)
+
+May 19th, 2026 • Views 685
+
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+
+May 13th, 2026 • Views 1.3K

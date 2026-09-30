@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -419,58 +419,58 @@ Comment
 
 Load more
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
+May 19th, 2026 • Views 459
 
-Blog
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
-
-May 19th, 2026 • Views 46
-
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
-
-Aug 22nd, 2025 • Views 13.9K
+Aug 22nd, 2025 • Views 15.8K
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-May 19th, 2026 • Views 99
-
-Blog
-
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
-
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
-
-[Prompt Pack for Administrators](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
-
-Aug 22nd, 2025 • Views 13.9K
+May 19th, 2026 • Views 706
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
-May 19th, 2026 • Views 99
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
+
+[Prompt Pack for Administrators](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-administrators)
+
+Aug 22nd, 2025 • Views 15.8K
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-May 19th, 2026 • Views 46
+May 19th, 2026 • Views 706
+
+Blog
+
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+
+May 19th, 2026 • Views 459

@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/skills -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Article
 
-February 25, 2026 · Last updated on May 29, 2026
+February 25, 2026 · Last updated on September 17, 2026
 
 # Skills
 
@@ -15,6 +15,12 @@ February 25, 2026 · Last updated on May 29, 2026
 # Workplace & Business
 
 # Advanced & Builder Skills
+
+# Work
+
+# Portfolio Company Finance
+
+# Portfolio Academy Knowledge Work
 
 ## Shareable, easy to build, and works across all products and surfaces.
 
@@ -26,7 +32,7 @@ Skills turn the way you already work into reusable workflows that ChatGPT can fo
 
 If you’ve ever found yourself reusing the same prompt or pasting the same template again and again, skills are designed for that problem.
 
-In this article, you’ll learn what skills are, when they help most, how to build and use them, and what admins should know when enabling them for a team. *Note that this article covers using skills within ChatGPT for new users, but skills can be exported and imported into other tools that support the* [*Agent Skills format*](https://agentskills.io/home)*.*
+In this article, you’ll learn what skills are, when they help most, how to build and use them, and what admins should know when enabling them for a team. *Note that this article covers using skills within ChatGPT for new users, but skills can be exported and imported into other tools that support the*  [*Agent Skills format*](https://agentskills.io/home)*.*
 
 ## **What are skills?**
 
@@ -40,7 +46,7 @@ A skill typically includes:
 
 * Resources the workflow depends on, like templates, examples, brand guidelines, schemas, or tool/app access.
 
-See the [Help Center](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for more information.
+See the  [Help Center](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for more information.
 
 ## **Why use skills?**
 
@@ -64,7 +70,7 @@ A **SKILL.md** file is the skill’s playbook: a plain-text set of instructions 
 
 ![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-c4361b33-e5fc-457f-b12c-f495bb1d8020-1772161908423.png)
 
-Because it’s plain text and Markdown-based, **SKILL.md is portable**: you can share it, version it, and reuse it across different tools. It’s also designed as an [**open and standardized format**](https://agentskills.io/home), so you may see the same pattern used by other AI apps and platforms.
+Because it’s plain text and Markdown-based, **SKILL.md is portable**: you can share it, version it, and reuse it across different tools. It’s also designed as an  [**open and standardized format**](https://agentskills.io/home), so you may see the same pattern used by other AI apps and platforms.
 
 The file generally outlines:
 
@@ -128,7 +134,7 @@ ChatGPT will then provide you with a draft of the skill and the ability to insta
 
 ### **4) Use it in day-to-day work**
 
-Once enabled in your workspace, ChatGPT can use a relevant skill automatically—or you can select one explicitly by @-mentioning it. Skills can also be used across experiences like custom GPTs and projects and can incorporate apps (formerly connectors)
+Once enabled in your workspace, ChatGPT can use a relevant skill automatically—or you can select one explicitly by @-mentioning it. Skills can also incorporate apps (formerly connectors).
 
 You can also combine multiple skills for multi-phase work (extract → draft → QA → package).
 
@@ -140,19 +146,13 @@ If allowed by your workspace settings, you can share your skill with others in y
 
 ## Using skills across other tools
 
-Skills can be exported and imported into other tools that support the [Agent Skills format](https://agentskills.io/home), including in OpenAI tools like [Codex](https://developers.openai.com/codex/skills/).
+Skills can be exported and imported into other tools that support the  [Agent Skills format](https://agentskills.io/home), including in OpenAI tools like  [Codex](https://developers.openai.com/codex/skills/).
 
-## **Skills vs custom GPTs**
-
-Skills could be a better option for your repeatable workflows because they teach ChatGPT to follow defined steps, conventions, and formatting more predictably. And because skills can stay “always on” when relevant, your users don’t have to remember to call a specific GPT to get the right output.
-
-During the beta, we’ll learn from customer feedback on how teams use skills alongside GPTs. After that time, we’ll offer options for both users and admins to convert GPTs into skills when they’re better suited for repeatable workflows.
+## **Skills** and projects
 
 Here’s a simple framework to think about how these fit together:
 
 * **Skills** = reusable workflows that teach ChatGPT how to complete specific tasks
-
-* **GPTs** = goal-oriented, custom versions of ChatGPT that extend the expertise of a team, or help with time-based projects
 
 * **Projects** = teams can work from the same context, files, and conversations towards an end goal
 
@@ -177,15 +177,15 @@ Check out some additional examples of each type of skill across roles.
 
 ## **Admin FAQs**
 
-See the [Help Center](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for more information.
+See the  [Help Center](https://help.openai.com/en/articles/20001066-skills-in-chatgpt) for more information.
 
 ### **Accessing and managing skills**
 
 **Are skills available in my workspace?**Yes. During the initial beta, skills are off by default—workspace owners can enable them in workspace settings.
 
-**My team uses Codex and other AI tools. Can the same skills be used across products?**While they don’t sync across products yet, OpenAI skills follow the [Agent Skills](https://agentskills.io/home) open standard—so you can download them from one product and install them in another.
+**My team uses Codex and other AI tools. Can the same skills be used across products?**While they don’t sync across products yet, OpenAI skills follow the  [Agent Skills](https://agentskills.io/home) open standard—so you can download them from one product and install them in another.
 
-**What controls do I have on member use of skills in my workspace?**Workspace owners can control the ability for users in their workspace to create and use skills, to make their created skills available to others in their workspace, and to install skills on behalf of other users. This can be managed in your [Permissions and Roles](https://chatgpt.com/admin/permissions?tab=general) settings, and can be managed via RBAC.
+**What controls do I have on member use of skills in my workspace?**Workspace owners can control the ability for users in their workspace to create and use skills, to make their created skills available to others in their workspace, and to install skills on behalf of other users. This can be managed in your  [Permissions and Roles](https://chatgpt.com/admin/permissions?tab=general) settings, and can be managed via RBAC.
 
 ### **Enterprise security & privacy**
 
@@ -198,58 +198,69 @@ Skills themselves have no impact on credits, but if a user has many complex skil
 
 **What happens when a skill uses apps or other external tools?**Skills only instruct ChatGPT to use the tools and apps it already has access to, so the same permissions and org controls already apply and governance aligns with your existing connector/app policies.
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# Skills
+
+<!-- vimeo: 1166414134 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1166414134)
+
+<details>
+<summary>자막: Skills</summary>
+
+Skills teach ChatGPT exactly how you want work done. Instead of re-explaining the process, format, or guidelines each time, you can turn a great conversation into a reusable skill that ChatGPT can use again when needed. Organizations can define how key workflows should be done to not only maintain consistency and high standards, but also encourage AI adoption. Most work benefits from a skill when it falls into one of three patterns. First, recurring processes, things you do every week like reviews, summaries, or follow-ups. Second, work that pulls context from other tools like CRM checks or ticket triage. And third, anything that needs to follow a consistent format or standard every time. Note that your ChatGPT experience might look slightly different than mine, as the product is constantly evolving and access to certain features may be controlled by your workspace administrator. You can create a skill directly from ChatGPT using natural language. In this example, I want to create a skill that helps me draft customer emails when we release new features. I have a style guide I use that I will paste here, but you can upload any reference files or simply describe what you need the skill to do. You can see that ChatGPT is creating the skill in real time. It may ask me for more inputs, which I'll respond with in chat. Building the skill can take a bit of time, so we'll speed this part up. But you can click out of the chat and return to it later. Once the skill is drafted, you'll see the ability to install it. You can use a skill directly within a chat in ChatGPT. Just mention the skill that you want to use in that chat by name. You can use connected apps, but for this example, I'm going to upload the marketing brief and help center article directly to the chat for the skill to reference. You can see that ChatGPT is using the customer announcement email skill to craft its response to my prompt. And now I see a drafted email using my style guide and conventions from the customer email announcement skill, without me having to do any additional prompting. Depending on your workspace settings, you may be able to see and install other skills that your team members have created. You can see which skills you already have installed and created, and then which ones have been shared with you or are in your workspace. Once a skill is created, it can be edited in the skills page. Select edit to update the skill file. For example, I may be noticing that emails that I write using this skill are still too long, so I am going to just update the word count of the style guide. Select share to invite collaborators or generate a link for this skill. Use who has access to control whether the skill is private or available to a broader audience. Choose an access level, invited only, workspace wide, or installed for everyone before sharing. Click save to make sure your edits are stored before you finish sharing. Check out more resources to help you use AI in the OpenAI Academy at academy.openai.com.
+
+</details>

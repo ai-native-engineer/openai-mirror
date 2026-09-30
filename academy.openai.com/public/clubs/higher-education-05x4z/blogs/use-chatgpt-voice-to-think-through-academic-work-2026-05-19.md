@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -86,62 +86,62 @@ Voice mode can be a fast way to think, but it should not lower your standards fo
 
 After a voice conversation helps you clarify the task, move into a document-based workflow so you can turn the idea into a plan, outline, or draft you can inspect more carefully.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+Blog
+
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
+
+Blog
+
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
+
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+Blog
 
-By Kirk Gulezian
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo
+May 20th, 2026 • Views 1.2K
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 20th, 2026 • Views 156
-
-Blog
-
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
-
-May 19th, 2026 • Views 46
+May 19th, 2026 • Views 459
 
 Blog
 
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
 
-Apr 23rd, 2026 • Views 372
-
-Blog
-
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 233
+Apr 23rd, 2026 • Views 1.1K
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 20th, 2026 • Views 156
-
-Blog
-
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
-
-Apr 23rd, 2026 • Views 372
+May 6th, 2026 • Views 1.2K
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-May 6th, 2026 • Views 233
+May 20th, 2026 • Views 1.2K
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
 
-May 19th, 2026 • Views 46
+Apr 23rd, 2026 • Views 1.1K
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K
+
+Blog
+
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+
+May 19th, 2026 • Views 459

@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13 -->
+
 # Nonprofit Year-End Sprint with ChatGPT
 
 <!-- vimeo: 1136739821 | track: English (auto-generated) -->

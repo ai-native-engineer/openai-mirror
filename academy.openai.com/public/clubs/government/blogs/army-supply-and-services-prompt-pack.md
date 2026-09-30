@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/army-supply-and-services-prompt-pack -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 September 22, 2026
@@ -8,9 +12,13 @@ September 22, 2026
 
 ![Army — Supply and Services Prompt Pack](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Army-Supply-and-Services-blog-cover-882bc36c-7589-424d-a07d-0602be9bdf5a-1790089487748.jpeg?fit=scale-down&width=1200)
 
+# Government
+
 ## 30 MOS-specific prompts for Army Supply and Services Soldiers
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Army — Supply and Services Prompt Pack](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Army-Supply-and-Services-blog-cover-882bc36c-7589-424d-a07d-0602be9bdf5a-1790089487748.jpeg?fit=scale-down&width=1200)
 
@@ -24,38 +32,62 @@ Download the prompt pack to get started.
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Army-Supply-and-Services-Prompt-Pack-fad0f8d3-4eac-4ff4-a687-c9081fe27e22-1790122680372.pdf) the file to view.
 
+[The Government Legal AI Prompt Pack](/public/clubs/government/resources/legal-prompt-pack)
+
+By Laura Keenan
+
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry
+
 [AI performance prompts: Government manager/leader performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-leader-performance-prompt-pack)
 
 By Laura Keenan
 
-[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
-
-By Laura Keenan • Sep 22nd, 2026 • Views 15
-
-[ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
-
-By Laura Keenan • Sep 22nd, 2026 • Views 15
-
-[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
-
-By Laura Keenan • Sep 22nd, 2026 • Views 16
-
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
+Blog
 
 [Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 15
+By Laura Keenan • Sep 22nd, 2026 • Views 39
 
-[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
-
-By Laura Keenan • Sep 22nd, 2026 • Views 16
-
-[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
-
-By Laura Keenan • Sep 21st, 2026 • Views 16
+Blog
 
 [ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
 
-By Laura Keenan • Sep 22nd, 2026 • Views 15
+By Laura Keenan • Sep 22nd, 2026 • Views 50
+
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[ChatGPT Prompt Pack for Constituent Services Directors](/public/clubs/government/blogs/chatgpt-congressional-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 21st, 2026 • Views 47
+
+Blog
+
+[ChatGPT for State Constituent Services Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-constituent-services-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 50

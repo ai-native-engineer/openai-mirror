@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Debug AI adoption blockers
 
@@ -18,11 +18,11 @@
 
 ## Diagnose what is blocking adoption and choose the next practical action to help a team move forward.
 
-April 20, 2026 · Last updated on June 12, 2026
+April 20, 2026 · Last updated on September 17, 2026
 
 ![Debug AI adoption blockers](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Debug-AI-adoption-blockers-style-thumb-f3dfe305-1c0a-446f-a0c1-efaf1b88c912-1781280443226.jpeg?fit=scale-down&width=1200)
 
-# AI Adoption Debug Assistant
+# AI Adoption Debug Guide
 
 AI adoption challenges can look similar on the surface, but the right response depends on where people are actually stuck.
 
@@ -70,11 +70,9 @@ Start with one real situation you are actively trying to move.
 
 The goal is not to solve the entire adoption journey at once. It is to identify the most important bottleneck and choose the smallest useful action that can help the team move forward.
 
-# AI Adoption Debug Assistant
+# How the worksheet helps
 
-👉 [Open the AI Adoption Debug Assistant](https://chatgpt.com/g/g-69dd6e47dc5881918fa1a6176b7c5447-ai-adoption-debug-assistant)﻿
-
-The AI Adoption Debug Assistant guides you through a focused diagnosis.
+Use the worksheet below to work through a focused diagnosis.
 
 It helps you clarify:
 
@@ -92,7 +90,7 @@ It helps you clarify:
 
 * Whether the barrier should be escalated to another partner.
 
-Think of it as a practical adoption coach for moments when a team or workflow is not progressing and the cause is not yet clear.
+Use it to diagnose why a team or workflow is not progressing when the cause is not yet clear.
 
 # AI Adoption Debug Worksheet
 
@@ -386,7 +384,7 @@ The best next move is usually the smallest action that can:
 | Treating “Low Adoption” as One Problem | Low adoption can reflect different barriers across users, workflows, and teams. A broad diagnosis often produces a broad intervention that changes little. | Identify the specific users, workflow, behavior, and point of friction. |
 | Trying to Solve Several Problems at Once | Combining awareness, access, confidence, workflow design, and reinforcement into one plan makes it hard to know what action matters most. | Choose the primary barrier that must move first. |
 | Defaulting to Training | Training may increase awareness without resolving workflow fit, output quality, access, ownership, or reinforcement. | Match the support to the diagnosed barrier. |
-| Starting With a Preferred Solution | Beginning with “we need a course,” “we need a GPT,” or “we need an agent” can prevent you from understanding the real problem. | Start with what is happening in real work and allow the diagnosis to determine the next step. |
+| Starting With a Preferred Solution | Beginning with “we need a course” or “we need an agent” can prevent you from understanding the real problem. | Start with what is happening in real work and allow the diagnosis to determine the next step. |
 | Treating an Assumption as Evidence | A plausible explanation may not reflect what users are actually experiencing. | Separate what is known from what is inferred and validate the diagnosis with users. |
 | Taking Ownership of Every Barrier | Some issues require leadership, admin, functional, or technical decisions that an Activator cannot make alone. | Identify the right partner and surface the issue with clear evidence and a specific ask. |
 
@@ -414,7 +412,7 @@ The goal is to help you take one better-informed action, observe what changes, a
 
 1. Choose one workflow.
 
-2. Open the [AI Adoption Debug Assistant](https://chatgpt.com/g/g-69dd6e47dc5881918fa1a6176b7c5447-ai-adoption-debug-assistant) or use the worksheet to complete the adoption diagnosis using the clearest evidence available. Validate with the affected users if needed.
+2. Use the worksheet to complete the adoption diagnosis using the clearest evidence available. Validate with the affected users if needed.
 
 3. Choose one focused next step.
 
@@ -432,42 +430,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Scope, test, and rollout AI workflows](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-[Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](/en/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17)
+[Workflow adoption planner](/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jul 8th, 2026 • Views 476
 
-May 7th, 2026 • Views 323
+[AI opportunity sequencing worksheet](/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+Jul 29th, 2026 • Views 632
 
-Aug 5th, 2025 • Views 56.6K
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-May 5th, 2026 • Views 244
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Aug 13th, 2026 • Views 305
 
-Sep 17th, 2025 • Views 8.8K
+[Workflow adoption planner](/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+Jul 8th, 2026 • Views 476
 
-May 7th, 2026 • Views 323
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Jul 7th, 2026 • Views 1.2K
 
-May 5th, 2026 • Views 244
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Aug 13th, 2026 • Views 305
 
-Sep 17th, 2025 • Views 8.8K
+[AI opportunity sequencing worksheet](/public/clubs/champions-ecqup/resources/ai-opportunity-sequencing-worksheet-2026-07-29)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-Aug 5th, 2025 • Views 56.6K
+Jul 29th, 2026 • Views 632

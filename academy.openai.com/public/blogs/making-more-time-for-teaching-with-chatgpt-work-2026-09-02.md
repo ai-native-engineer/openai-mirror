@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/making-more-time-for-teaching-with-chatgpt-work-2026-09-02 -->
 
+Article
+
 September 2, 2026
 
 # Making more time for teaching with ChatGPT Work
@@ -36,34 +38,54 @@ Johnson loves teaching, and she says spending less time on digital preparation l
 
 [ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
+Blog
 
-Jul 25th, 2025 • Views 2.6K
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[Responsible use of ChatGPT at work](/public/clubs/work-users-ynjqu/resources/responsible-use-of-chatgpt-at-work-2025-09-08)
+Sep 29th, 2026 • Views 16
 
-Sep 8th, 2025 • Views 12.1K
-
-[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
-
-Sep 4th, 2026 • Views 41
-
-[From recipe writer to software CEO with ChatGPT Work](/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02)
-
-Sep 2nd, 2026 • Views 67
-
-[ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
-
-Jul 25th, 2025 • Views 2.6K
+Blog
 
 [Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
 
-Sep 4th, 2026 • Views 41
+Sep 4th, 2026 • Views 458
 
-[From recipe writer to software CEO with ChatGPT Work](/public/blogs/from-recipe-writer-to-software-ceo-with-chatgpt-work-2026-09-02)
+External Content
 
-Sep 2nd, 2026 • Views 67
+[ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
 
-[Responsible use of ChatGPT at work](/public/clubs/work-users-ynjqu/resources/responsible-use-of-chatgpt-at-work-2025-09-08)
+Jul 25th, 2025 • Views 2.7K
 
-Sep 8th, 2025 • Views 12.1K
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Video
+
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 181
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+External Content
+
+[ChatGPT for Work Webinars](/public/clubs/work-users-ynjqu/externals/chatgpt-102-leveraging-ai-to-do-your-best-work-2025-07-25)
+
+Jul 25th, 2025 • Views 2.7K
+
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Video
+
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 181
+
+Blog
+
+[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
+
+Sep 4th, 2026 • Views 458

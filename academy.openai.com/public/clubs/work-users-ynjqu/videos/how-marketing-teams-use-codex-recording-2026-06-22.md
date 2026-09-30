@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22 -->
+
 # How marketing teams use Codex
 
 <!-- vimeo: 1203686826 | track: English (auto-generated) -->

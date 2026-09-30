@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04 -->
+
 # Episode 03 - English (1)
 
 <!-- vimeo: 1091261982 | track: English (auto-generated) -->

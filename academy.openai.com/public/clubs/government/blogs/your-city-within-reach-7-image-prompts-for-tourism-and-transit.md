@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/your-city-within-reach-7-image-prompts-for-tourism-and-transit -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 9, 2026
@@ -8,11 +12,13 @@ September 9, 2026
 
 ![Your city, within reach: 7 image prompts for tourism and transit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-1b2f46ff-e4c2-4f74-892c-29fc8dc4a3cb-1788970217679.jpeg?fit=scale-down&width=1200)
 
-# ChatGPT
+# Government
 
 ## Help residents and visitors picture the journey to your city’s public resources.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Your city, within reach: 7 image prompts for tourism and transit](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-1b2f46ff-e4c2-4f74-892c-29fc8dc4a3cb-1788970217679.jpeg?fit=scale-down&width=1200)
 
@@ -205,40 +211,70 @@ Ask residents, visitors, and disabled travelers to review the materials. Can the
 
 Set goals that match the campaign: trip-planner visits, visitor-guide use, first-time rider feedback, or changes in ridership and destination visits over a defined period. Treat increased tourism and ridership as outcomes to evaluate, not promises made by an image. Start with one place your community wants more people to enjoy—and make the journey part of the welcome.
 
+Blog
+
 [A face behind the service: 5 image prompts for welcoming veterans](/public/clubs/government/blogs/a-face-behind-the-service-5-image-prompts-for-welcoming-veterans)
 
 By Laura Keenan
 
+[59:58](/public/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
+Video
+
+[AI for Government Admin, Executive Secretaries, and Critical Support Roles](/public/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
 By Amanda Bullock
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+Video
 
-[Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
-
-[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
-
-By Laura Keenan • Sep 9th, 2026 • Views 23
-
-[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
-
-By Laura Keenan • Sep 9th, 2026 • Views 14
+Blog
 
 [Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+By Laura Keenan • Sep 9th, 2026 • Views 110
 
-[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
-
-By Laura Keenan • Sep 9th, 2026 • Views 23
-
-[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
-
-By Laura Keenan • Sep 9th, 2026 • Views 14
+Blog
 
 [Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
 
-By Laura Keenan • Sep 9th, 2026 • Views 42
+By Laura Keenan • Sep 9th, 2026 • Views 219
+
+Blog
+
+[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
+
+By Laura Keenan • Sep 9th, 2026 • Views 122
+
+Blog
+
+[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
+
+By Laura Keenan • Sep 9th, 2026 • Views 122
+
+Blog
+
+[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+
+By Laura Keenan • Sep 9th, 2026 • Views 110
+
+Blog
+
+[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
+
+By Laura Keenan • Sep 9th, 2026 • Views 122
+
+Blog
+
+[Your new hometown starts here: 7 image prompts for welcoming military families](/public/clubs/government/blogs/your-new-hometown-starts-here-7-image-prompts-for-welcoming-military-families)
+
+By Laura Keenan • Sep 9th, 2026 • Views 122
+
+Blog
+
+[Show the story: 8 image prompts for government work](/public/clubs/government/blogs/show-the-story-8-image-prompts-for-government-work)
+
+By Laura Keenan • Sep 9th, 2026 • Views 219

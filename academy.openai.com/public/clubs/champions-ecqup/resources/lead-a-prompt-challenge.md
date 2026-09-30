@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 Article
 
@@ -13,6 +13,8 @@ August 5, 2025 · Last updated on June 12, 2026
 ![Run a prompt challenge](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Run-a-prompt-challenge-style-thumb-f91284e6-4de8-42c5-93d3-4dd3b9f938af-1781280772491.jpeg?fit=scale-down&width=1200)
 
 # Deployment & Adoption
+
+# Work
 
 # Workplace & Business
 
@@ -249,7 +251,7 @@ Support the challenge by choosing one or more concrete actions:
 
 The challenge is the starting point. The longer-term value comes from testing the examples, packaging what holds up, and helping teams reuse those approaches in the work they already do.
 
-1
+2
 
 Sign in or Join the community
 
@@ -257,50 +259,48 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+[Write a leadership reinforcement talk track](/public/clubs/champions-ecqup/resources/reinforcement-talk-track-builder-2026-05-12)
 
-[Getting Started as a Team Activator](/en/public/clubs/champions-ecqup/resources/getting-started-as-an-ai-activator-2026-06-08)
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[Write a leadership reinforcement talk track](/en/public/clubs/champions-ecqup/resources/reinforcement-talk-track-builder-2026-05-12)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+Sep 17th, 2025 • Views 11.2K
 
-Sep 17th, 2025 • Views 8.8K
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 89
+Sep 14th, 2026 • Views 1.5K
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-Sep 17th, 2025 • Views 5.7K
+Sep 17th, 2025 • Views 6.5K
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-Sep 17th, 2025 • Views 7.6K
+Sep 17th, 2025 • Views 9.2K
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-Sep 17th, 2025 • Views 8.8K
+Sep 17th, 2025 • Views 11.2K
 
-[Run a use case showcase](/en/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
+[Run a use case showcase](/public/clubs/champions-ecqup/resources/use-case-showcase-playbook-2025-09-15)
 
-Sep 17th, 2025 • Views 5.7K
+Sep 17th, 2025 • Views 6.5K
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-Sep 17th, 2025 • Views 7.6K
+Sep 17th, 2025 • Views 9.2K
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 89
+Sep 14th, 2026 • Views 1.5K

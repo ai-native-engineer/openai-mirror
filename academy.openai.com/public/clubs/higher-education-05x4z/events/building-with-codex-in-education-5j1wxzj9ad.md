@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/events/building-with-codex-in-education-5j1wxzj9ad -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.events](/en/public/clubs/higher-education-05x4z/events)
+[navigation.events](/public/clubs/higher-education-05x4z/events)
 
 ![Building with Codex in Education](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-24--161ba090-f105-4e86-a98a-6f5e1e3da480-1779820764075.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+6:00 PM - 7:00 PM GMT
+
+June 2, 2026
 
 # Building with Codex in Education
 
@@ -20,16 +24,21 @@ This session is designed for both technical and non-technical audiences. You do 
 
 **What you’ll gain:**
 
-1. A clearer understanding of how non-technical users can collaborate with Codex
-2. Practical ideas for turning everyday institutional needs into usable solutions
-3. Examples of how Codex can support internal workflows in education
-4. Ways to reduce manual work and improve team efficiency
+* A clearer understanding of how non-technical users can collaborate with Codex
+
+* Practical ideas for turning everyday institutional needs into usable solutions
+
+* Examples of how Codex can support internal workflows in education
+
+* Ways to reduce manual work and improve team efficiency
 
 Register now to see how Codex can help education teams move faster, work smarter, and build tools that support their mission.
 
 Event has finished
 
-June 02, 6:00 PM GMT
+6:00 PM - 7:00 PM GMT
+
+June 2, 2026
 
 Online
 
@@ -39,7 +48,9 @@ Higher Education
 
 Event has finished
 
-June 02, 6:00 PM GMT
+6:00 PM - 7:00 PM GMT
+
+June 2, 2026
 
 Online
 

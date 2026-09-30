@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22 -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.content](/en/public/clubs/builders-etkn1/content)
+[Content](/public/clubs/builders-etkn1/content)
 
 # Builder Bootcamp
 
@@ -15,6 +15,8 @@
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 ## A virtual event series for builders learning to design, build, and optimize production-grade AI applications with OpenAI.
 
@@ -52,74 +54,80 @@ Check out and register for our live sessions below. Attendees who attend all fiv
 
 * Build reliable agents with tools, handoffs, guardrails, and evals.
 
-* ﻿[Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
+* ﻿ [Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
 
 #### Codex (June 25)
 
 * Use Codex to plan, build, validate, and ship code faster.
 
-* ﻿[Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
+* ﻿ [Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
 
 #### Evals (July 9)
 
 * Learn how to design and run evals for real-world AI applications.
 
-* ﻿[Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
+* ﻿ [Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
 
 #### RAG (July 16)
 
 * Build grounded AI applications with File Search, retrieval, and evals.
 
-* ﻿[Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
+* ﻿ [Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
 
 #### Production & Optimization (July 23)
 
 * Optimize AI systems for quality, latency, cost, and production readiness.
 
-* ﻿[Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
+* ﻿ [Register here](https://academy.openai.com/home/clubs/builders-etkn1/events?state=upcoming)﻿
 
-Table Of Contents
+[Welcome to the OpenAI Builder Community](/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
 
-[GPT-5 for Builders](/en/public/clubs/builders-etkn1/resources/gpt-5-for-builders)
+[GPT-5 for Builders](/public/clubs/builders-etkn1/resources/gpt-5-for-builders)
 
-[1:00:00](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 Video
 
-[Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 By Ryan Taylor
 
-[MCP for Builders](/en/public/clubs/builders-etkn1/resources/mcp-for-builders)
+[API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
 
-[Welcome to the OpenAI Builder Community](/en/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
+Aug 12th, 2026 • Views 19.1K
 
-Jul 16th, 2025 • Views 9.2K
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
 
-[Codex 101: Introduction and Onboarding](/en/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K
 
-Mar 18th, 2026 • Views 12.1K
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex 103: Advanced Workflows and Automation](/en/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
+Video
 
-Mar 18th, 2026 • Views 7.5K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex 102: Practical Workflows](/en/public/clubs/builders-etkn1/resources/codex-102-practical-workflows-2026-03-18)
+Sep 14th, 2026 • Views 1.5K
 
-Mar 18th, 2026 • Views 6.2K
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-09-23)
 
-[Welcome to the OpenAI Builder Community](/en/public/clubs/builders-etkn1/resources/welcome-to-the-openai-builder-community)
+Aug 12th, 2026 • Views 8.1K
 
-Jul 16th, 2025 • Views 9.2K
+[API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
 
-[Codex 103: Advanced Workflows and Automation](/en/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
+Aug 12th, 2026 • Views 19.1K
 
-Mar 18th, 2026 • Views 7.5K
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex 102: Practical Workflows](/en/public/clubs/builders-etkn1/resources/codex-102-practical-workflows-2026-03-18)
+Video
 
-Mar 18th, 2026 • Views 6.2K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex 101: Introduction and Onboarding](/en/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
+Sep 14th, 2026 • Views 1.5K
 
-Mar 18th, 2026 • Views 12.1K
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-09-23)
+
+Aug 12th, 2026 • Views 8.1K
+
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
+
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K

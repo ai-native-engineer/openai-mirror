@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-production-and-optimization-cseahs593e -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: Production & Optimization](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-8--3d523c74-3fe0-4745-b503-1cc4d2113b4e-1776710971462.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 28, 2026
 
 # Builder Bootcamp: Production & Optimization
 
@@ -15,6 +19,8 @@ LIVESTREAM
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 In this session, you’ll learn how to evaluate and optimize AI systems for production tradeoffs like quality, latency, and cost. We’ll cover how to benchmark model performance, compare baselines, and use evaluation results to make practical decisions about model selection and optimization.
 
@@ -32,12 +38,16 @@ View Profile
 
 Event has finished
 
-May 28, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 28, 2026
 
 Online
 
 Event has finished
 
-May 28, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 28, 2026
 
 Online

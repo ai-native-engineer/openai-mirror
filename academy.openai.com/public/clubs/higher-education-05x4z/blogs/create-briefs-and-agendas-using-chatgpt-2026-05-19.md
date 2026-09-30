@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -50,7 +50,7 @@ This is especially valuable for Higher Ed teams because the same underlying issu
 | --- |
 | Create a one-page cabinet brief with the following sections:  ﻿  1. Executive summary (5 bullets)  2. What the data shows (2 short paragraphs)  3. Key risks (5 bullets)  4. Recommended actions in a table with columns for Action, Owner, Timing, Expected Impact, and Dependencies  5. Decisions needed this week (3 bullets)  ﻿  Constraints:  - Plain language  - No technical jargon  - Keep it to one page |
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=Create%20a%20one-page%20cabinet%20brief%20with%20the%20following%20sections%3A%0A%0A1.%20Executive%20summary%20%285%20bullets%29%0A2.%20What%20the%20data%20shows%20%282%20short%20paragraphs%29%0A3.%20Key%20risks%20%285%20bullets%29%0A4.%20Recommended%20actions%20in%20a%20table%20with%20columns%20for%20Action%2C%20Owner%2C%20Timing%2C%20Expected%20Impact%2C%20and%20Dependencies%0A5.%20Decisions%20needed%20this%20week%20%283%20bullets%29%0A%0AConstraints%3A%0A-%20Plain%20language%0A-%20No%20technical%20jargon%0A-%20Keep%20it%20to%20one%20page)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=Create%20a%20one-page%20cabinet%20brief%20with%20the%20following%20sections%3A%0A%0A1.%20Executive%20summary%20%285%20bullets%29%0A2.%20What%20the%20data%20shows%20%282%20short%20paragraphs%29%0A3.%20Key%20risks%20%285%20bullets%29%0A4.%20Recommended%20actions%20in%20a%20table%20with%20columns%20for%20Action%2C%20Owner%2C%20Timing%2C%20Expected%20Impact%2C%20and%20Dependencies%0A5.%20Decisions%20needed%20this%20week%20%283%20bullets%29%0A%0AConstraints%3A%0A-%20Plain%20language%0A-%20No%20technical%20jargon%0A-%20Keep%20it%20to%20one%20page)﻿
 
 ## What Good Looks Like
 
@@ -80,58 +80,58 @@ Review tone, promises, and factual claims before sharing. Student-facing and fam
 
 If your office answers the same questions repeatedly, package the workflow into a shared GPT with clear instructions, approved knowledge, and a bounded purpose.
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
 
 Blog
 
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-May 20th, 2026 • Views 156
+May 20th, 2026 • Views 1.2K
 
-Blog
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 174
+May 13th, 2026 • Views 1.3K
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 354
+May 19th, 2026 • Views 1.1K
 
 Blog
 
-[Draft and Revise Academic Documents in ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
 
-May 20th, 2026 • Views 156
-
-Blog
-
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 221
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 354
+Jul 24th, 2026 • Views 571
 
 Blog
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 174
+May 20th, 2026 • Views 1.2K
+
+Blog
+
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 1.1K
+
+Blog
+
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
+
+Jul 24th, 2026 • Views 571
+
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+
+May 13th, 2026 • Views 1.3K

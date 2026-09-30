@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/workflow-adoption-planner-2026-07-07 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Workflow adoption planner
 
@@ -136,8 +136,6 @@ Recommend Stop when evidence shows little value, unacceptable risk, or unsustain
 Recommend Consider Broader Use only when outcomes, safeguards, support, ownership, and approvals are stable for the proposed scope.
 ```
 
-﻿
-
 Like
 
 Sign in or Join the community
@@ -146,68 +144,40 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[AI workflow starter worksheet](/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
 
-Resource
+[Evaluate AI workflow readiness](/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
 
-[Evaluate AI workflow readiness](/en/public/clubs/champions-ecqup/resources/ai-use-case-discovery-and-prioritizer-2026-05-07)
+[Prioritize AI workflow opportunities](/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
 
-Resource
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-[AI workflow design coach](/en/public/clubs/champions-ecqup/resources/ai-use-case-workflow-scoper-2026-05-05)
+Jul 17th, 2026 • Views 438
 
-Resource
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-[Prioritize AI workflow opportunities](/en/public/clubs/champions-ecqup/resources/workflow-discovery-and-prioritization-matrix-2026-05-05)
+Aug 13th, 2026 • Views 305
 
-Dive in
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-## Related
+Jul 7th, 2026 • Views 1.2K
 
-Resource
+[Debug AI adoption blockers](/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
 
-[Workflow evidence coach](/en/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
+Apr 20th, 2026 • Views 904
 
-Jul 17th, 2026 • Views 63
+[Workflow evidence coach](/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
 
-Resource
+Jul 17th, 2026 • Views 438
 
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
+[AI workflow packager](/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
 
-Jul 7th, 2026 • Views 571
+Jul 7th, 2026 • Views 1.2K
 
-Resource
+[Debug AI adoption blockers](/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
 
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
+Apr 20th, 2026 • Views 904
 
-Jul 7th, 2026 • Views 299
+[AI workflow test brief](/public/clubs/champions-ecqup/resources/ai-workflow-test-brief-2026-08-13)
 
-Resource
-
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
-
-Apr 20th, 2026 • Views 658
-
-Resource
-
-[Workflow evidence coach](/en/public/clubs/champions-ecqup/resources/workflow-evidence-coach-2026-07-17)
-
-Jul 17th, 2026 • Views 63
-
-Resource
-
-[AI workflow packager](/en/public/clubs/champions-ecqup/resources/ai-workflow-packager-2026-07-07)
-
-Jul 7th, 2026 • Views 299
-
-Resource
-
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
-
-Apr 20th, 2026 • Views 658
-
-Resource
-
-[AI workflow starter worksheet](/en/public/clubs/champions-ecqup/resources/ai-workflow-starter-worksheet-2026-07-07)
-
-Jul 7th, 2026 • Views 571
+Aug 13th, 2026 • Views 305

@@ -1,14 +1,14 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-2026-06-17 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions
 
 ![Presentation: Insights from the OpenAI Champion Network: The Evolving Role of AI Champions](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/presentation-insights-from-the-openai-champion-network-the-evolving-role-of-ai-champions-style-thumb-38197d51-b6bb-4ad6-943d-5a98a1341c25-1781722205598.jpeg?fit=scale-down&width=1200)
 
-# champions
+# Champions
 
 # Activators
 
@@ -30,42 +30,40 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+[Run a use case discovery workshop](/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
 
-[Run a use case discovery workshop](/en/public/clubs/champions-ecqup/resources/team-use-case-brainstorm-playbook-2025-09-15)
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+Aug 5th, 2025 • Views 64.8K
 
-Aug 5th, 2025 • Views 56.6K
+[Debug AI adoption blockers](/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
+Apr 20th, 2026 • Views 904
 
-Aug 5th, 2025 • Views 8K
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Aug 5th, 2025 • Views 5.1K
 
-Aug 5th, 2025 • Views 4.1K
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+Jul 23rd, 2026 • Views 406
 
-Apr 20th, 2026 • Views 517
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+Aug 5th, 2025 • Views 64.8K
 
-Aug 5th, 2025 • Views 56.6K
+[Build and grow a network of local AI Activators](/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
 
-[Build and grow a network of local AI Activators](/en/public/clubs/champions-ecqup/resources/grow-a-network-of-internal-champions)
+Aug 5th, 2025 • Views 5.1K
 
-Aug 5th, 2025 • Views 4.1K
+[[PRESENTATION] Activator Labs 101: Foundations](/public/clubs/champions-ecqup/resources/presentation-activator-labs-101-foundations-2026-07-23)
 
-[Debug AI adoption blockers](/en/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
+Jul 23rd, 2026 • Views 406
 
-Apr 20th, 2026 • Views 517
+[Debug AI adoption blockers](/public/clubs/champions-ecqup/resources/chatgpt-adoption-playbook-from-activation-to-value-realization-2026-03-24)
 
-[Capture and share use cases and impact](/en/public/clubs/champions-ecqup/resources/find-and-share-ai-use-cases-to-show-impact)
-
-Aug 5th, 2025 • Views 8K
+Apr 20th, 2026 • Views 904

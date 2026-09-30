@@ -4,21 +4,19 @@ Article
 
 August 17, 2026
 
-# How Adam Hellewell uses ChatGPT to keep school theater running
+# How one drama teacher uses ChatGPT to keep school theater running
 
-![How Adam Hellewell uses ChatGPT to keep school theater running](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-17-at-9-50-07-AM-15c22078-0d32-4494-8612-e29334cd1cd5-1786985414890.jpeg?fit=scale-down&width=1200)
+![How one drama teacher uses ChatGPT to keep school theater running](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-17-at-9-50-07-AM-15c22078-0d32-4494-8612-e29334cd1cd5-1786985414890.jpeg?fit=scale-down&width=1200)
 
 # Education
 
 # Educators & Students
 
-# ChatGPT
-
 # Utah
 
 ## At North Davis Junior High, Adam Hellewell uses ChatGPT to manage auditions, production planning and parent updates, creating more room for students to inhabit a character.
 
-![How Adam Hellewell uses ChatGPT to keep school theater running](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-17-at-9-50-07-AM-15c22078-0d32-4494-8612-e29334cd1cd5-1786985414890.jpeg?fit=scale-down&width=1200)
+![How one drama teacher uses ChatGPT to keep school theater running](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Screenshot-2026-08-17-at-9-50-07-AM-15c22078-0d32-4494-8612-e29334cd1cd5-1786985414890.jpeg?fit=scale-down&width=1200)
 
 Adam Hellewell uses ChatGPT to tackle the unsung logistics of school theater, from auditions and rehearsal schedules to budgets, script breakdowns and parent emails, so his students can perform a more demanding task: stepping inside someone else’s life.
 
@@ -42,62 +40,62 @@ That is the extraordinary relay at the center of every performance: an author tr
 
 Theater also demands collective trust. Actors, designers and directors working toward one performance that none of them could create alone. “Something changes in them, every show that they do,” he says.
 
-[34:34](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
-
-[ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
-
-[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
 Blog
 
-[How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
-
-Jun 4th, 2026 • Views 484
+[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
 Blog
 
 [How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
-Aug 5th, 2026 • Views 116
+External Content
 
-Blog
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 939
-
-Blog
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 81
+[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
 Blog
 
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-Jun 4th, 2026 • Views 484
-
-Blog
-
-[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 939
+Jun 4th, 2026 • Views 666
 
 Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 81
+Aug 5th, 2026 • Views 310
 
 Blog
 
-[How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-Aug 5th, 2026 • Views 116
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
+
+Aug 28th, 2026 • Views 298
+
+Blog
+
+[How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
+
+Jun 4th, 2026 • Views 666
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K
+
+Blog
+
+[How one school administrator uses AI to turn data into better feedback in schools](/public/blogs/how-ryan-hansen-uses-ai-to-turn-data-into-better-feedback-in-schools-2026-08-28)
+
+Aug 28th, 2026 • Views 298
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310

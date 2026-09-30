@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-rag-xr0i24gvpd -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: RAG](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-6--44e95264-74d5-419e-9de1-59243da408e4-1776711079763.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 21, 2026
 
 # Builder Bootcamp: RAG
 
@@ -15,6 +19,8 @@ LIVESTREAM
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
 
 In this session, you’ll learn how to build a retrieval-augmented generation pipeline using OpenAI’s File Search, Responses, and Evals APIs. We’ll walk through how to structure source content, create a vector store, retrieve relevant context, and generate grounded answers.
 
@@ -48,12 +54,16 @@ View Profile
 
 Event has finished
 
-May 21, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 21, 2026
 
 Online
 
 Event has finished
 
-May 21, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 21, 2026
 
 Online

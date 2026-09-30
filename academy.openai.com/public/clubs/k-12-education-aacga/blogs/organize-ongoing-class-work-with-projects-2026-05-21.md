@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21 -->
 
-[K-12 Education](/en/public/clubs/k-12-education-aacga/overview)
+[K-12 Education](/public/clubs/k-12-education-aacga/overview)
 
-[navigation.content](/en/public/clubs/k-12-education-aacga/content)
+[Content](/public/clubs/k-12-education-aacga/content)
 
 Article
 
@@ -58,74 +58,80 @@ Use this when you are setting up a project for one class, unit, or planning cycl
 | --- |
 | I am setting up a project for [class, unit, or planning cycle].  ﻿  Help me organize this project so it is useful over time.  ﻿  Here is the context:  - Grade or course: [add details]  - Main goals: [add goals]  - Materials I may upload: [list files]  - Types of help I want: [lesson planning, family communication, assessment review, differentiation, meeting prep]  ﻿  Suggest:  1. A clear project name  2. The files I should add first  3. A short set of project instructions  4. Three useful starter prompts I can reuse |
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=I%20am%20setting%20up%20a%20project%20for%20%5Bclass%2C%20unit%2C%20or%20planning%20cycle%5D.%0A%0AHelp%20me%20organize%20this%20project%20so%20it%20is%20useful%20over%20time.%0A%0AHere%20is%20the%20context%3A%0A-%20Grade%20or%20course%3A%20%5Badd%20details%5D%0A-%20Main%20goals%3A%20%5Badd%20goals%5D%0A-%20Materials%20I%20may%20upload%3A%20%5Blist%20files%5D%0A-%20Types%20of%20help%20I%20want%3A%20%5Blesson%20planning%2C%20family%20communication%2C%20assessment%20review%2C%20differentiation%2C%20meeting%20prep%5D%0A%0ASuggest%3A%0A1.%20A%20clear%20project%20name%0A2.%20The%20files%20I%20should%20add%20first%0A3.%20A%20short%20set%20of%20project%20instructions)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=I%20am%20setting%20up%20a%20project%20for%20%5Bclass%2C%20unit%2C%20or%20planning%20cycle%5D.%0A%0AHelp%20me%20organize%20this%20project%20so%20it%20is%20useful%20over%20time.%0A%0AHere%20is%20the%20context%3A%0A-%20Grade%20or%20course%3A%20%5Badd%20details%5D%0A-%20Main%20goals%3A%20%5Badd%20goals%5D%0A-%20Materials%20I%20may%20upload%3A%20%5Blist%20files%5D%0A-%20Types%20of%20help%20I%20want%3A%20%5Blesson%20planning%2C%20family%20communication%2C%20assessment%20review%2C%20differentiation%2C%20meeting%20prep%5D%0A%0ASuggest%3A%0A1.%20A%20clear%20project%20name%0A2.%20The%20files%20I%20should%20add%20first%0A3.%20A%20short%20set%20of%20project%20instructions)﻿
 
 ## Start Small
 
 Create one project for one class or unit. Add only the files that are safe and useful. Then try one planning task and review the output before using it with students or families.
 
-[3:09](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+Blog
+
+[Create School Event Visuals With ChatGPT](/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
+
+[3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
 
-[Differentiate Student Materials with Codex](/en/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
+[Differentiate Student Materials with Codex](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
-[3:27](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-Video
-
-[Prioritize Your Emails with Codex](/en/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
-
-[3:39](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[3:27](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
 Video
 
-[Write a Lesson Plan with Codex](/en/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
+[Prioritize Your Emails with Codex](/public/clubs/k-12-education-aacga/videos/prioritize-your-emails-with-codex-2026-06-02)
 
-Blog
+[5:39](/public/clubs/k-12-education-aacga/videos/organize-projects-with-chatgpt-for-teachers)
 
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+Video
 
-May 29th, 2026 • Views 194
+[Organize Projects with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/organize-projects-with-chatgpt-for-teachers)
 
-Blog
+Sep 11th, 2026 • Views 93
 
-[Develop A Classroom Newsletter Helper With A Custom GPT](/en/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
+[Supercharging Teaching and Learning with Applications](/public/clubs/k-12-education-aacga/resources/supercharging-teaching-and-learning-with-applications)
 
-May 28th, 2026 • Views 77
+Aug 28th, 2026 • Views 129
 
-Blog
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
-[Create School Event Visuals With ChatGPT](/en/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
+Video
 
-May 28th, 2026 • Views 231
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
-Blog
+Sep 11th, 2026 • Views 181
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+[33:02](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
 
-May 28th, 2026 • Views 86
+Video
 
-Blog
+[Beyond Chat: Getting More Done with ChatGPT Work for K–12 Educators - Webinar Replay](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
 
-[Support Family Conversations With Voice Mode](/en/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
+Aug 12th, 2026 • Views 540
 
-May 29th, 2026 • Views 194
+[5:39](/public/clubs/k-12-education-aacga/videos/organize-projects-with-chatgpt-for-teachers)
 
-Blog
+Video
 
-[Create School Event Visuals With ChatGPT](/en/public/clubs/k-12-education-aacga/blogs/create-school-event-visuals-with-chatgpt)
+[Organize Projects with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/organize-projects-with-chatgpt-for-teachers)
 
-May 28th, 2026 • Views 231
+Sep 11th, 2026 • Views 93
 
-Blog
+[2:59](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
-[Research Current Education Trends with Web Search](/en/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
+Video
 
-May 28th, 2026 • Views 86
+[Work in Excel with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/work-in-excel-with-chatgpt-for-teachers)
 
-Blog
+Sep 11th, 2026 • Views 181
 
-[Develop A Classroom Newsletter Helper With A Custom GPT](/en/public/clubs/k-12-education-aacga/blogs/develop-a-classroom-newsletter-helper-with-a-custom-gpt-2026-05-28)
+[33:02](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
 
-May 28th, 2026 • Views 77
+Video
+
+[Beyond Chat: Getting More Done with ChatGPT Work for K–12 Educators - Webinar Replay](/public/clubs/k-12-education-aacga/videos/beyond-chat-getting-more-done-with-chatgpt-work-for-k-12-educators-webinar-replay)
+
+Aug 12th, 2026 • Views 540
+
+[Supercharging Teaching and Learning with Applications](/public/clubs/k-12-education-aacga/resources/supercharging-teaching-and-learning-with-applications)
+
+Aug 28th, 2026 • Views 129

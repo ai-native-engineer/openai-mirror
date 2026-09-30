@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 # Codex for Faculty and Researchers - Follow Along Guide
 
@@ -86,56 +86,54 @@ Follow-up prompt:
 | --- |
 | Now review the app as if you are an internship recruiter seeing it for the first time. Improve the project story, make the demo path obvious, and flag anything that would be confusing or over-scoped. |
 
-Table Of Contents
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
 Blog
 
-[Plan for Exams, Assignments, and Group Projects](/en/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
+[Plan for Exams, Assignments, and Group Projects](/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
-
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 354
+Jun 2nd, 2026 • Views 1K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
-Jun 2nd, 2026 • Views 358
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-May 13th, 2026 • Views 354
+May 13th, 2026 • Views 1.3K
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 8.2K
+Jun 2nd, 2026 • Views 1K
+
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
+
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+
+May 13th, 2026 • Views 1.3K
+
+Blog
+
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+
+By Siya Raj Purohit • Aug 13th, 2025 • Views 9.3K

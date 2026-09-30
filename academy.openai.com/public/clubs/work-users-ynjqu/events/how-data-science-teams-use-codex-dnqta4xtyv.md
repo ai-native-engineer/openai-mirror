@@ -1,16 +1,22 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/events/how-data-science-teams-use-codex-dnqta4xtyv -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.events](/en/public/clubs/work-users-ynjqu/events)
+[navigation.events](/public/clubs/work-users-ynjqu/events)
 
 ![How data science teams use Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/codexdatasciencecover-9c849efd-2ad9-4b07-bd16-7afe5fe641a7-1780599553329.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
 
+6:00 PM - 6:30 PM GMT
+
+May 28, 2026
+
 # How data science teams use Codex
 
 # Codex
+
+# Work
 
 Data science teams are often asked to make sense of messy, fast-moving questions: why a KPI changed, whether an experiment worked, what a dashboard should track, or how to turn analysis into a clear recommendation.
 
@@ -20,9 +26,11 @@ Join us for **How data science teams use Codex**, a practical session on how Cod
 
 In this webinar, we’ll cover:
 
-1. Where Codex fits in data science and analytics workflows
-2. How teams can move from scattered inputs to clearer analysis artifacts
-3. How to review, validate, and refine Codex output
+* Where Codex fits in data science and analytics workflows
+
+* How teams can move from scattered inputs to clearer analysis artifacts
+
+* How to review, validate, and refine Codex output
 
 The session is designed to help data science and analytics teams see what’s possible, understand where to start, and leave with starter prompts they can adapt to their own work.
 
@@ -54,12 +62,16 @@ View Profile
 
 Event has finished
 
-May 28, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 28, 2026
 
 Online
 
 Event has finished
 
-May 28, 6:00 PM GMT
+6:00 PM - 6:30 PM GMT
+
+May 28, 2026
 
 Online

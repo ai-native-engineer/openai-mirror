@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/resources/connectivity-matters -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 # Connectivity Matters
 
 ![Connectivity Matters](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ChatGPT-Academy-Cover-10--1fcd0ba4-8562-4ca2-995c-45eb0b729a11-1786029124682.jpeg?fit=scale-down&width=1200)
@@ -70,30 +74,70 @@ AI allows subject experts to build powerful custom knowledge universes around th
 
 In another post coming soon we’ll explore what’s beyond the use of “off the shelf” connectivity to productivity systems, and dive into how our most forward leaning and transformational government leaders are connecting their highest value custom business applications such as ERP systems, data warehouses, and their cloud or on premise infrastructure with ChatGPT. If you’d like an early preview, check out  [this knowledge article](https://developers.openai.com/api/docs/mcp).
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Like
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+Video
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+External Content
 
-[Before DC wakes up: A fictional tourism campaign case study](/public/clubs/government/blogs/before-dc-wakes-up-a-fictional-tourism-campaign-case-study)
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
 
-By Laura Keenan • Sep 9th, 2026 • Views 19
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Video
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+By Lee Dunn
 
-[Before DC wakes up: A fictional tourism campaign case study](/public/clubs/government/blogs/before-dc-wakes-up-a-fictional-tourism-campaign-case-study)
+Blog
 
-By Laura Keenan • Sep 9th, 2026 • Views 19
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+By Laura Keenan • Sep 22nd, 2026 • Views 70
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+Blog
+
+[ChatGPT for State Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 61
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 64
+
+Blog
+
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 64
+
+Blog
+
+[ChatGPT for State Emergency Management Director: A practical prompt pack](/public/clubs/government/blogs/chatgpt-state-state-emergency-management-director-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 61

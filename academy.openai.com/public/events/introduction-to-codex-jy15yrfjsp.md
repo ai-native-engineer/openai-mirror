@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/introduction-to-codex-jy15yrfjsp -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Introduction to Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Academy-content-covers-10d0dd69-1dfb-4083-bfdf-7e84842e3f13-1774995622844.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+April 9, 2026
 
 # Introduction to Codex
 
@@ -17,6 +21,8 @@ LIVESTREAM
 # Codex
 
 # Advanced & Builder Skills
+
+# Work
 
 Join us for a beginner-friendly introduction to Codex: the AI system that powers code generation. We’ll walk through what Codex is, how people are using it in real workflows, and how it can help you move faster across everyday tasks.
 
@@ -50,7 +56,9 @@ View Profile
 
 Event has finished
 
-April 09, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 9, 2026
 
 Online
 
@@ -58,7 +66,9 @@ Online
 
 Event has finished
 
-April 09, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+April 9, 2026
 
 Online
 

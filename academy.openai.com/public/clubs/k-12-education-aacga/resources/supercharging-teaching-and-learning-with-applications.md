@@ -198,8 +198,6 @@ A teacher can take an existing lesson and quickly transform it into an infograph
 
 Note: App availability depends on your school or district setup. If you do not see an app, your IT or admin team may need to enable it first.
 
-## Popular
-
 [3:09](/public/clubs/k-12-education-aacga/videos/differentiate-student-materials-with-codex-2026-06-02)
 
 Video
@@ -218,21 +216,17 @@ Video
 
 [Write a Lesson Plan with Codex](/public/clubs/k-12-education-aacga/videos/write-a-lesson-plan-with-codex-2026-06-02)
 
-Dive in
-
-## Related
-
 Blog
 
 [Support Family Conversations With Voice Mode](/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
 
-May 29th, 2026 • Views 653
+May 29th, 2026 • Views 683
 
 Blog
 
 [Research Current Education Trends with Web Search](/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
 
-May 28th, 2026 • Views 490
+May 28th, 2026 • Views 513
 
 Blog
 
@@ -244,13 +238,13 @@ Blog
 
 [Organize Ongoing Class Work With Projects](/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
 
-May 22nd, 2026 • Views 536
+May 22nd, 2026 • Views 557
 
 Blog
 
 [Support Family Conversations With Voice Mode](/public/clubs/k-12-education-aacga/blogs/support-family-conversations-with-voice-mode-2026-05-29)
 
-May 29th, 2026 • Views 653
+May 29th, 2026 • Views 683
 
 Blog
 
@@ -262,10 +256,10 @@ Blog
 
 [Organize Ongoing Class Work With Projects](/public/clubs/k-12-education-aacga/blogs/organize-ongoing-class-work-with-projects-2026-05-21)
 
-May 22nd, 2026 • Views 536
+May 22nd, 2026 • Views 557
 
 Blog
 
 [Research Current Education Trends with Web Search](/public/clubs/k-12-education-aacga/blogs/research-current-education-trends-with-web-search-2026-05-28)
 
-May 28th, 2026 • Views 490
+May 28th, 2026 • Views 513

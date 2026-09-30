@@ -8,7 +8,7 @@ June 4, 2026
 
 ![Luke Xing used Codex to build a tool for his hearing loss](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/luke-xing-original-f556fb3a-2454-4d0e-91d0-5e8cfd962649-1780611210659.jpeg?fit=scale-down&width=1200)
 
-# accessibility
+# Accessibility
 
 # AI for Coding
 
@@ -34,86 +34,80 @@ Luke studied math and economics at the University of Chicago and was drawn into 
 
 Luke is careful to say that his tool is not a replacement for an audiologist. It is a personal aid, a proxy, and a way to recalibrate quickly, on demand. Many people live with problems too specific for mass-market software and too urgent to wait for someone else to build. That is what Luke wants more people to know: the people living with a problem now have more power to build around it themselves. No one understands a struggle like the person living with it, and no one else feels quite the same stakes.
 
-[50:34](/en/public/videos/intro-to-codex-april-09-2026)
+[30:00](/public/videos/codex-for-admins-and-it-2026-03-26)
 
 Video
 
-[Intro to Codex (April 09, 2026)](/en/public/videos/intro-to-codex-april-09-2026)
+[Codex for Admins and IT](/public/videos/codex-for-admins-and-it-2026-03-26)
 
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-Video
-
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
-
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[50:34](/public/videos/intro-to-codex-april-09-2026)
 
 Video
 
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[Intro to Codex (April 09, 2026)](/public/videos/intro-to-codex-april-09-2026)
 
-By Kyle Behrend
-
-[1:00:00](/en/public/videos/codex-for-beginners-2026-04-22)
+[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
 
-[Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 21.6K
+Blog
 
-[59:40](/en/public/videos/codex-for-faculty-and-researchers-webinar-replay)
+[How a journalist uses OpenAI models to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
 
-Video
+Aug 28th, 2026 • Views 376
 
-[Codex for faculty and researchers - webinar replay](/en/public/videos/codex-for-faculty-and-researchers-webinar-replay)
-
-Jun 12th, 2026 • Views 984
-
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
+[45:00](/public/videos/codex-for-everyday-use-2026-07-17)
 
 Video
 
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
+[Codex for everyday use](/public/videos/codex-for-everyday-use-2026-07-17)
 
-By Derrick Choi • Mar 2nd, 2026 • Views 39.2K
+By Angela Bunn • Jul 17th, 2026 • Views 1.6K
 
-[30:00](/en/public/videos/codex-for-admins-and-it-2026-03-26)
-
-Video
-
-[Codex for Admins and IT](/en/public/videos/codex-for-admins-and-it-2026-03-26)
-
-Mar 26th, 2026 • Views 3.7K
-
-[1:00:00](/en/public/videos/codex-for-beginners-2026-04-22)
+[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
 
 Video
 
-[Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
+[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
 
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 21.6K
+By Aaron Wilkowitz • Apr 22nd, 2026 • Views 46K
 
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
-
-Video
-
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
-
-By Derrick Choi • Mar 2nd, 2026 • Views 39.2K
-
-[30:00](/en/public/videos/codex-for-admins-and-it-2026-03-26)
+[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
 
 Video
 
-[Codex for Admins and IT](/en/public/videos/codex-for-admins-and-it-2026-03-26)
+[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
-Mar 26th, 2026 • Views 3.7K
+By Derrick Choi • Mar 2nd, 2026 • Views 49.9K
 
-[59:40](/en/public/videos/codex-for-faculty-and-researchers-webinar-replay)
+Blog
+
+[How a journalist uses OpenAI models to build tools for his Singapore newsroom](/public/blogs/how-a-journalist-uses-openai-to-build-tools-for-his-singapore-newsroom-2026-08-28)
+
+Aug 28th, 2026 • Views 376
+
+[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
 
 Video
 
-[Codex for faculty and researchers - webinar replay](/en/public/videos/codex-for-faculty-and-researchers-webinar-replay)
+[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
 
-Jun 12th, 2026 • Views 984
+By Aaron Wilkowitz • Apr 22nd, 2026 • Views 46K
+
+[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
+
+Video
+
+[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
+
+By Derrick Choi • Mar 2nd, 2026 • Views 49.9K
+
+[45:00](/public/videos/codex-for-everyday-use-2026-07-17)
+
+Video
+
+[Codex for everyday use](/public/videos/codex-for-everyday-use-2026-07-17)
+
+By Angela Bunn • Jul 17th, 2026 • Views 1.6K

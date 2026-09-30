@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+6:00 PM - 6:45 PM GMT
+
+May 19, 2026
+
 # Build, Govern, and Scale Workspace Agents in ChatGPT Enterprise
 
 [Replay](https://vimeo.com/1193365819?share=copy&fl=sv&fe=ci)
@@ -11,6 +15,10 @@ LIVESTREAM
 # Leaders & Admins
 
 # Advanced & Builder Skills
+
+# Work
+
+# Portfolio Company Dev & IT
 
 Turn repeatable team workflows into shared agents in ChatGPT Enterprise.
 
@@ -20,11 +28,15 @@ This session will be pre-recorded, with live chat Q&A moderation.
 
 **What We’ll Cover:**
 
-1. **Workspace agents overview**: What workspace agents are, how they work inside ChatGPT Enterprise, and how they help teams move from one-off prompts to reusable workflows.
-2. **End-to-end product walkthrough:** How to build, test, coach, and share a workspace agent that can complete repeatable team work using connected tools and context.
-3. **Connecting agents to team workflows:** How agents can help create reports, work in the background or on a schedule, collaborate in Slack, and use the context your team already relies on.
-4. **Approvals, safeguards, and governance:** How admins can manage access, permissions, sensitive actions, and organizational controls for workspace agents.
-5. **Rollout guidance and resources:** Practical admin scenarios, rollout questions, what’s ahead for the admin console, and resources to help teams get started.
+* **Workspace agents overview**: What workspace agents are, how they work inside ChatGPT Enterprise, and how they help teams move from one-off prompts to reusable workflows.
+
+* **End-to-end product walkthrough:** How to build, test, coach, and share a workspace agent that can complete repeatable team work using connected tools and context.
+
+* **Connecting agents to team workflows:** How agents can help create reports, work in the background or on a schedule, collaborate in Slack, and use the context your team already relies on.
+
+* **Approvals, safeguards, and governance:** How admins can manage access, permissions, sensitive actions, and organizational controls for workspace agents.
+
+* **Rollout guidance and resources:** Practical admin scenarios, rollout questions, what’s ahead for the admin console, and resources to help teams get started.
 
 **Who Should Attend**
 
@@ -32,11 +44,15 @@ ChatGPT Enterprise admins, workspace owners, IT leaders, security and compliance
 
 **Additional resources**
 
-1. [OpenAI Academy: Workspace Agents](https://openai.com/academy/workspace-agents/)
-2. [Skill Lab: Building your first workspace agent](https://academy.openai.com/public/events/skill-lab-build-your-first-workspace-agent-nnjoi6bjce) + [Handout](https://academy.openai.com/public/resources/skill-lab-handout-workspace-agents-2026-04-29)
-3. [Build Hour: Building workspace agents](https://goldcast.ondemand.goldcast.io/on-demand/033b06b1-2d27-45c1-b9b5-ddc43479a100)
-4. [OpenAI Help Center: Workspace Agents](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)
-5. [Workspace Agents: Security Overview](https://downloads.ctfassets.net/j22is2dtoxu1/7p0t7RvM5xeGTsvV8KyR1Z/ef4da398081bbc1e5cab[…]be9ee8d5/Workspace_Agents_Security_Overview_-_updated.pdf)
+* ﻿ [OpenAI Academy: Workspace Agents](https://openai.com/academy/workspace-agents/)﻿
+
+* ﻿ [Skill Lab: Building your first workspace agent](https://academy.openai.com/public/events/skill-lab-build-your-first-workspace-agent-nnjoi6bjce) +  [Handout](https://academy.openai.com/public/resources/skill-lab-handout-workspace-agents-2026-04-29)﻿
+
+* ﻿ [Build Hour: Building workspace agents](https://goldcast.ondemand.goldcast.io/on-demand/033b06b1-2d27-45c1-b9b5-ddc43479a100)﻿
+
+* ﻿ [OpenAI Help Center: Workspace Agents](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business)﻿
+
+* ﻿ [Workspace Agents: Security Overview](https://downloads.ctfassets.net/j22is2dtoxu1/7p0t7RvM5xeGTsvV8KyR1Z/ef4da398081bbc1e5cab[%E2%80%A6]be9ee8d5/Workspace_Agents_Security_Overview_-_updated.pdf)﻿
 
 ## Speakers
 
@@ -66,7 +82,9 @@ View Profile
 
 Event has finished
 
-May 19, 6:00 PM GMT
+6:00 PM - 6:45 PM GMT
+
+May 19, 2026
 
 Online
 
@@ -80,7 +98,9 @@ OpenAI Academy
 
 Event has finished
 
-May 19, 6:00 PM GMT
+6:00 PM - 6:45 PM GMT
+
+May 19, 2026
 
 Online
 

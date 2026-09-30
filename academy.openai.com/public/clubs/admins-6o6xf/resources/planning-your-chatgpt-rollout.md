@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/planning-your-chatgpt-rollout -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 Article
 
@@ -28,15 +28,15 @@ Getting started with ChatGPT at work takes planning across teams. If you set up 
 
 ## **Set up your workspace**
 
-*If you're owning the technical workspace setup, we recommend you review our comprehensive* [***Admin Guides***](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/workspace-setup-687a6d0688989b248151f86a) *and* [***Help Center resources***](https://help.openai.com/en/) *to support the technical setup of your workspace.*
+*If you're owning the technical workspace setup, we recommend you review our comprehensive*  [***Admin Guides***](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/workspace-setup-687a6d0688989b248151f86a) *and*  [***Help Center resources***](https://help.openai.com/en/) *to support the technical setup of your workspace.*
 
 Your top priority in your first few weeks should be **getting users into the product**. Activation is the first real moment of engagement, and every step leading up to that should be designed to reduce friction and build trust with new users. A compliant workspace is foundational—employees should be able to log in seamlessly and securely on day one.
 
 Before sending your first invite:
 
-* **Determine how users will log in** – Choose the authentication flow that best fits your security posture. Document the end‑to‑end steps, pilot with a small group, and ensure security controls are enforced before wide rollout. We strongly recommend [**setting up SSO**](https://help.openai.com/en/collections/7984463-chatgpt-enterprise-sso) (for all workspaces) and [**SCIM**](https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq)(for Enterprise workspaces).
+* **Determine how users will log in** – Choose the authentication flow that best fits your security posture. Document the end‑to‑end steps, pilot with a small group, and ensure security controls are enforced before wide rollout. We strongly recommend  [**setting up SSO**](https://help.openai.com/en/collections/7984463-chatgpt-enterprise-sso) (for all workspaces) and  [**SCIM**](https://help.openai.com/en/articles/9627404-openai-chatgpt-scim-integration-faq)(for Enterprise workspaces).
 
-* **Review** **workspace settings (for ChatGPT Enterprise Owners)** – Review global toggles for different ChatGPT features in the [**admin settings**](https://chatgpt.com/admin/settings), which will apply to your entire workspace. See more about global workspace settings in our admin guide [**here**](https://academy.openai.com/home/clubs/administrators-6o6xf/resources/feature-controls-and-integrations-with-your-tools).
+* **Review** **workspace settings (for ChatGPT Enterprise Owners)** – Review global toggles for different ChatGPT features in the  [**admin settings**](https://chatgpt.com/admin/settings), which will apply to your entire workspace. See more about global workspace settings in our admin guide  [**here**](https://academy.openai.com/home/clubs/administrators-6o6xf/resources/feature-controls-and-integrations-with-your-tools).
 
 ## **Build your internal ChatGPT task force**
 
@@ -62,7 +62,7 @@ To support that, leaders should clearly communicate why ChatGPT matters and how 
 
 1. **Anchor to business priorities** – Start by mapping early ChatGPT initiatives to 2–3 existing strategic themes—like operational efficiency, faster customer support, or product innovation. Highlight a few specific pain points it can help solve. Employees should see a clear line from ChatGPT to the metrics that matter most. *Which top‑line OKR(s) will generative AI accelerate?*
 
-﻿[**→ Use ChatGPT to align rollout to business priorities**](https://chatgpt.com/?prompt=Use the uploaded files to identify 2–3 of our company's highest-priority strategic goals. Based on these goals%2C suggest how we can frame and prioritize our ChatGPT rollout to support them. Then%2C for each key department (e.g.%2C HR%2C Finance%2C Marketing%2C Engineering%2C Product%2C etc.)%2C recommend 1–2 business metrics or workflows that ChatGPT could directly support or enhance. Highlight how success could be measured. Present your recommendations as a structured rollout brief for internal stakeholders.)﻿
+﻿ [**→ Use ChatGPT to align rollout to business priorities**](https://chatgpt.com/?prompt=Use%20the%20uploaded%20files%20to%20identify%202%E2%80%933%20of%20our%20company%27s%20highest-priority%20strategic%20goals.%20Based%20on%20these%20goals%2C%20suggest%20how%20we%20can%20frame%20and%20prioritize%20our%20ChatGPT%20rollout%20to%20support%20them.%20Then%2C%20for%20each%20key%20department%20(e.g.%2C%20HR%2C%20Finance%2C%20Marketing%2C%20Engineering%2C%20Product%2C%20etc.)%2C%20recommend%201%E2%80%932%20business%20metrics%20or%20workflows%20that%20ChatGPT%20could%20directly%20support%20or%20enhance.%20Highlight%20how%20success%20could%20be%20measured.%20Present%20your%20recommendations%20as%20a%20structured%20rollout%20brief%20for%20internal%20stakeholders.)﻿
 
 1. **Prepare to measure impact** –Establish a baseline using metrics that already matter to your teams — like average ticket resolution time or hours spent on RFPs. Track changes at 30/60/90-day intervals, and pair quantitative insights (e.g., usage dashboards) with qualitative feedback (e.g., surveys) to capture both breadth and depth of impact. *What does “better” look like in 60 days? In 6 months?*
 
@@ -94,44 +94,42 @@ You also may choose to formalize an internal AI policy to share during your laun
 
 3. **Publish** in your policy repository and link it in onboarding materials. Create a review cadence to ensure you are incorporating new features or regulatory changes into your policy.
 
-#### Next >> [Empowering and supporting your team](https://academy.openai.com/home/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)﻿
+#### Next >>  [Empowering and supporting your team](https://academy.openai.com/home/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)﻿
 
-Table Of Contents
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+[Welcome to the For Work Admins Track!](/public/clubs/admins-6o6xf/resources/welcome-admins)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+Aug 5th, 2025 • Views 13.5K
 
-Aug 5th, 2025 • Views 12.2K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+Jul 8th, 2025 • Views 9.8K
 
-Jul 8th, 2025 • Views 6.8K
+[Leading impactful ChatGPT Trainings](/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Sep 23rd, 2025 • Views 7K
 
-Sep 23rd, 2025 • Views 5.5K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Mar 10th, 2026 • Views 13.9K
 
-Mar 10th, 2026 • Views 9.7K
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+Aug 5th, 2025 • Views 13.5K
 
-Aug 5th, 2025 • Views 12.2K
+[Leading impactful ChatGPT Trainings](/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Sep 23rd, 2025 • Views 7K
 
-Sep 23rd, 2025 • Views 5.5K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Mar 10th, 2026 • Views 13.9K
 
-Mar 10th, 2026 • Views 9.7K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
-
-Jul 8th, 2025 • Views 6.8K
+Jul 8th, 2025 • Views 9.8K

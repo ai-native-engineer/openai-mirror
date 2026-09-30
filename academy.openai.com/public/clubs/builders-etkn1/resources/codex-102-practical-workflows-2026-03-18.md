@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/resources/codex-102-practical-workflows-2026-03-18 -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.content](/en/public/clubs/builders-etkn1/content)
+[Content](/public/clubs/builders-etkn1/content)
 
 Training
 
-March 18, 2026 · Last updated on June 2, 2026
+March 18, 2026 · Last updated on September 2, 2026
 
 # Codex 102: Practical Workflows
 
@@ -18,7 +18,13 @@ March 18, 2026 · Last updated on June 2, 2026
 
 # Advanced & Builder Skills
 
+# Work
+
 # Codex for Builders
+
+# Portfolio Company Dev & IT
+
+# Portfolio Company SDLC
 
 ## Build real developer workflows with Codex
 
@@ -26,62 +32,58 @@ March 18, 2026 · Last updated on June 2, 2026
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Template-Codex-201-Advanced-Setup-and-Repeatable-Workflows-f3c4ae78-4453-452a-8ae1-6a3101170cc6-1773866942088.pdf) the file to view.
 
-Table Of Contents
-
 External Content
 
-[Hands-on Workshop: Practical Codex Workflows](/en/public/clubs/builders-etkn1/externals/codex-102-practical-workflows-for-building-with-codex-2026-03-18)
+[Hands-on Workshop: Practical Codex Workflows](/public/clubs/builders-etkn1/externals/codex-102-practical-workflows-for-building-with-codex-2026-03-18)
 
-[1:00:00](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
+
+By Sean Lubbers
+
+[1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 Video
 
-[Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+[Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 By Ryan Taylor
 
-[37:26](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+[Codex 103: Advanced Workflows and Automation](/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
 
-Video
-
-[AI Techniques (Foundations): Introduction to Agentic Workflows](/en/public/clubs/builders-etkn1/videos/unlock-agentic-power-with-the-agents-sdk)
+Mar 18th, 2026 • Views 19K
 
 External Content
 
-[How OpenAI uses Codex](/en/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
+[Codex for SWEs](/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
 
-Mar 18th, 2026 • Views 461
-
-[Codex 101: Introduction and Onboarding](/en/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
-
-Mar 18th, 2026 • Views 12.1K
-
-[Codex 103: Advanced Workflows and Automation](/en/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
-
-Mar 18th, 2026 • Views 7.5K
+Mar 18th, 2026 • Views 2.4K
 
 External Content
 
-[Codex for SWEs](/en/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
+[How OpenAI uses Codex](/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
 
-Mar 18th, 2026 • Views 1.5K
+Mar 18th, 2026 • Views 662
 
-External Content
+[Codex 101: Introduction and Onboarding](/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
 
-[How OpenAI uses Codex](/en/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
+Mar 18th, 2026 • Views 22.5K
 
-Mar 18th, 2026 • Views 461
+[Codex 103: Advanced Workflows and Automation](/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
 
-[Codex 103: Advanced Workflows and Automation](/en/public/clubs/builders-etkn1/resources/codex-103-advanced-workflows-and-automation-2026-03-18)
-
-Mar 18th, 2026 • Views 7.5K
+Mar 18th, 2026 • Views 19K
 
 External Content
 
-[Codex for SWEs](/en/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
+[How OpenAI uses Codex](/public/clubs/builders-etkn1/externals/how-openai-uses-codex-2026-03-18)
 
-Mar 18th, 2026 • Views 1.5K
+Mar 18th, 2026 • Views 662
 
-[Codex 101: Introduction and Onboarding](/en/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
+[Codex 101: Introduction and Onboarding](/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
 
-Mar 18th, 2026 • Views 12.1K
+Mar 18th, 2026 • Views 22.5K
+
+External Content
+
+[Codex for SWEs](/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
+
+Mar 18th, 2026 • Views 2.4K

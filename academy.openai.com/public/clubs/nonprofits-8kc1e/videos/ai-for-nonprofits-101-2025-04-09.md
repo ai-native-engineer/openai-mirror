@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09 -->
+
 # AI for Nonprofits 101
 
 <!-- vimeo: 1074044143 | track: English (auto-generated) -->

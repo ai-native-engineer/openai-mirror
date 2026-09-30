@@ -4,7 +4,11 @@
 
 IN-PERSON
 
-(Event Time Zone)
+6:00 PM - 8:00 PM EST
+
+(Event time zone)
+
+December 11, 2024
 
 # Miami Dade College: Building with AI
 
@@ -22,7 +26,9 @@ OpenAI Academy is proud to join Miami Dade College to launch its AI Speaker Seri
 
 Event has finished
 
-December 11, 6:00 PM EST (Event Time Zone)
+6:00 PM - 8:00 PM EST (Event time zone)
+
+December 11, 2024
 
 Location
 
@@ -36,7 +42,9 @@ OpenAI Academy
 
 Event has finished
 
-December 11, 6:00 PM EST (Event Time Zone)
+6:00 PM - 8:00 PM EST (Event time zone)
+
+December 11, 2024
 
 Location
 

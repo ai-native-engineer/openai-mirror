@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/advanced-features-for-nonprofits-2025-05-16 -->
+
 # Advanced Features for Nonprofits
 
 <!-- vimeo: 1085076671 | track: English (auto-generated) -->

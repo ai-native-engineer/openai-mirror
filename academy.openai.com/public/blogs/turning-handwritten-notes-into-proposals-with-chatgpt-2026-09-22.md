@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/turning-handwritten-notes-into-proposals-with-chatgpt-2026-09-22 -->
 
+Article
+
 September 23, 2026
 
 # Turning handwritten notes into proposals with ChatGPT
@@ -11,6 +13,8 @@ September 23, 2026
 # Writing
 
 # North Carolina
+
+# Portfolio Company Sales
 
 ## Brooks Lockett combines his analysis of client positioning with ChatGPT Work to draft proposals on tight deadlines
 
@@ -32,9 +36,9 @@ Brooks now offers prospects a free hour to examine how their business presents i
 
 Brooks can return the report the next day or within 48 hours, while the conversation is fresh. Prospects can bring it to their CEO and discuss problems they hadn't considered. The report gives others in the company a few pages they can read and discuss together. He says his first positioning audit led to a paid engagement.
 
-[Agha Nazih: The student who turned ChatGPT into a personal physics tutor](/public/blogs/agha-nazih-chatgpt-personal-physics-tutor)
+Blog
 
-[Helping Job Seekers with ChatGPT](/public/resources/helping-job-seekers-with-chatgpt-2025-12-03)
+[Agha Nazih: The student who turned ChatGPT into a personal physics tutor](/public/blogs/agha-nazih-chatgpt-personal-physics-tutor)
 
 [4:23](/public/videos/chatgpt-projects-2025-02-13)
 
@@ -42,34 +46,48 @@ Video
 
 [ChatGPT Projects](/public/videos/chatgpt-projects-2025-02-13)
 
+[Helping Job Seekers with ChatGPT](/public/resources/helping-job-seekers-with-chatgpt-2025-12-03)
+
+Blog
+
 [Turning benefits eligibility into groceries with AI](/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)
 
-Jan 5th, 2026 • Views 1K
+Jan 5th, 2026 • Views 1.1K
 
 [Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
 
-By Laura Keenan • Sep 1st, 2026 • Views 213
+By Laura Keenan • Sep 1st, 2026 • Views 245
+
+Blog
 
 [Turning high-school students' curiosity into engaged writing](/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)
 
 Jan 6th, 2026 • Views 2.3K
 
+Blog
+
 [Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
 
-May 8th, 2026 • Views 2.2K
+May 8th, 2026 • Views 2.3K
+
+Blog
 
 [Turning benefits eligibility into groceries with AI](/public/blogs/turning-benefits-eligibility-into-groceries-with-ai)
 
-Jan 5th, 2026 • Views 1K
+Jan 5th, 2026 • Views 1.1K
+
+Blog
 
 [Turning high-school students' curiosity into engaged writing](/public/blogs/turning-high-school-students-curiosity-into-engaged-writing)
 
 Jan 6th, 2026 • Views 2.3K
 
+Blog
+
 [Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
 
-May 8th, 2026 • Views 2.2K
+May 8th, 2026 • Views 2.3K
 
 [Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
 
-By Laura Keenan • Sep 1st, 2026 • Views 213
+By Laura Keenan • Sep 1st, 2026 • Views 245

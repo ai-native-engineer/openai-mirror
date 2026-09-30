@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -44,7 +44,7 @@ The important distinction is between assistance and delegation. Assistance can s
 
 ## Try This Prompt
 
-﻿[Try in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20going%20to%20share%20a%20draft%20or%20document%20for%20help%20with%20structure%20and%20clarity.%0ABefore%20you%20respond%2C%20tell%20me%3A%0A-%20what%20kind%20of%20help%20this%20document%20is%20well%20suited%20for%0A-%20what%20I%20should%20verify%20myself%0A-%20any%20risks%20I%20should%20watch%20for%20if%20I%20use%20your%20suggestions%0A%0AThen%20help%20me%20with%20one%20narrow%20task%3A%20summarizing%2C%20reorganizing%2C%20or%20revising%20for%20clarity.)﻿
+﻿ [Try in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20going%20to%20share%20a%20draft%20or%20document%20for%20help%20with%20structure%20and%20clarity.%0ABefore%20you%20respond%2C%20tell%20me%3A%0A-%20what%20kind%20of%20help%20this%20document%20is%20well%20suited%20for%0A-%20what%20I%20should%20verify%20myself%0A-%20any%20risks%20I%20should%20watch%20for%20if%20I%20use%20your%20suggestions%0A%0AThen%20help%20me%20with%20one%20narrow%20task%3A%20summarizing%2C%20reorganizing%2C%20or%20revising%20for%20clarity.)﻿
 
 |  |
 | --- |
@@ -84,58 +84,66 @@ You remain accountable for the final document. Verify facts, confirm citations, 
 
 After using ChatGPT on one narrow document task, build a repeatable pattern for the kinds of academic writing support that save time without reducing rigor.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+
+May 20th, 2026 • Views 1.4K
+
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Video
+
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Jul 8th, 2026 • Views 510
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Create Briefs and Agendas using ChatGPT](/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
 
-May 20th, 2026 • Views 334
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+May 19th, 2026 • Views 394
 
 Blog
 
-[Create Briefs and Agendas using ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 48
-
-Blog
-
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 221
+May 19th, 2026 • Views 1.1K
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
-May 20th, 2026 • Views 334
-
-Blog
-
-[Create Briefs and Agendas using ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
-
-May 19th, 2026 • Views 48
+May 20th, 2026 • Views 1.4K
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Create Briefs and Agendas using ChatGPT](/public/clubs/higher-education-05x4z/blogs/create-briefs-and-agendas-using-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
+May 19th, 2026 • Views 394
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+Blog
 
-Jun 9th, 2026 • Views 400
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+
+May 19th, 2026 • Views 1.1K
+
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Video
+
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Jul 8th, 2026 • Views 510

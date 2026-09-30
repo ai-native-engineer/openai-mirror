@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Practice better CRM hygiene with Codex
 
@@ -14,9 +14,11 @@
 
 # Use Cases
 
+# Portfolio Company Sales
+
 ## Turn scattered customer account context into structured CRM updates using Codex
 
-June 18, 2026
+June 18, 2026 · Last updated on August 27, 2026
 
 ![Practice better CRM hygiene with Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/practice-better-crm-hygiene-with-codex-style-thumb-71dd48d5-7159-4aec-9bd9-b3240aef2656-1781808023205.jpeg?fit=scale-down&width=1200)
 
@@ -52,25 +54,25 @@ This is not a shortcut around your CRM, IT, security, privacy, or RevOps process
 
 The copy/paste spec below is intentionally opinionated so a non-technical Activator can get started quickly. Change these items first:
 
-* Team and workflow context: Replace `[TEAM NAME]`, `[ROLE OR FUNCTION]`, and `[CRM UPDATE MOMENT]`.
+* Team and workflow context: Replace  `[TEAM NAME]` ,  `[ROLE OR FUNCTION]` , and  `[CRM UPDATE MOMENT]` .
 
-* CRM system and integration path: Replace `[CRM SYSTEM]` and `[INTEGRATION PATH]`. If you do not know the path yet, name the technical owner who can decide it.
+* CRM system and integration path: Replace  `[CRM SYSTEM]`  and  `[INTEGRATION PATH]` . If you do not know the path yet, name the technical owner who can decide it.
 
-* CRM objects and fields: Replace `[TARGET CRM OBJECTS]`, `[TARGET FIELDS]`, and `[SENSITIVE OR APPROVAL-REQUIRED FIELDS]`.
+* CRM objects and fields: Replace  `[TARGET CRM OBJECTS]` ,  `[TARGET FIELDS]` , and  `[SENSITIVE OR APPROVAL-REQUIRED FIELDS]` .
 
-* Source context: Replace `[APPROVED SOURCE SYSTEMS]` with the systems your team is allowed to use.
+* Source context: Replace  `[APPROVED SOURCE SYSTEMS]`  with the systems your team is allowed to use.
 
-* Permission model: Replace `[PERMISSION MODEL]` with how access should be scoped, such as user-level permissions, service-account permissions, or review-only export. If unknown, leave it for IT/admin review.
+* Permission model: Replace  `[PERMISSION MODEL]`  with how access should be scoped, such as user-level permissions, service-account permissions, or review-only export. If unknown, leave it for IT/admin review.
 
-* Traceability and logs: Replace `[TRACEABILITY REQUIREMENTS]` with what reviewers need to see, such as CRM field history, change reports, app logs, or compliance logs where available.
+* Traceability and logs: Replace  `[TRACEABILITY REQUIREMENTS]`  with what reviewers need to see, such as CRM field history, change reports, app logs, or compliance logs where available.
 
-* Review owners: Replace `[REVIEWERS AND APPROVERS]` with the people or teams who must approve the first build.
+* Review owners: Replace  `[REVIEWERS AND APPROVERS]`  with the people or teams who must approve the first build.
 
 * Default setup: The spec defaults to a Codex Project, a reusable skill, and a simple Sites-hosted review hub. If your team wants a different review surface, change the Sites bullets before pasting.
 
 * Write actions: The default is read/review-first. Only change that after CRM admin, security/privacy, and business owners approve writeback.
 
-* Pilot scope and measurement: Replace `[PILOT SCOPE]`, `[SUCCESS SIGNALS]`, and `[MEASUREMENT OWNER]`.
+* Pilot scope and measurement: Replace  `[PILOT SCOPE]` ,  `[SUCCESS SIGNALS]` , and  `[MEASUREMENT OWNER]` .
 
 # Copy/Paste Codex Project Spec
 
@@ -278,78 +280,80 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[Use cases for Codex by department](/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
 
-[Use cases for Codex by department](/en/public/clubs/champions-ecqup/resources/codex-for-work-departmental-use-cases-2026-05-05)
-
-[30:00](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+[3:00](/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
 
 Video
 
-[Make Work Flow: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
+[Confidence scoring and skill hardening with Codex](/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
-
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[30:00](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
 Video
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[Recording: Make Work Flow: Proactively monitor accounts with Codex](/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12)
 
-Jun 18th, 2026 • Views 56
-
-[11:00](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+[13:00](/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
 
 Video
 
-[Workflow clip: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+[Workflow clip: Automate CRM updates with Codex](/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
 
-Jun 12th, 2026 • Views 79
+Jun 18th, 2026 • Views 439
 
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Video
-
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 79
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[20:00](/public/clubs/champions-ecqup/videos/workflow-clip-streamline-team-engagement-with-codex-2026-07-09)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Workflow clip: Streamline team engagement with Codex](/public/clubs/champions-ecqup/videos/workflow-clip-streamline-team-engagement-with-codex-2026-07-09)
 
-Jun 18th, 2026 • Views 89
+Jul 22nd, 2026 • Views 716
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[31:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Recording: Make Work Flow: Automate CRM Updates with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
 
-Jun 18th, 2026 • Views 79
+Jun 18th, 2026 • Views 897
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Video
-
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 89
-
-[11:00](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
 Video
 
-[Workflow clip: Proactively monitor accounts with Codex](/en/public/clubs/champions-ecqup/videos/workflow-clip-proactively-monitor-accounts-with-codex-2026-06-12)
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
 
-Jun 12th, 2026 • Views 79
+Jul 22nd, 2026 • Views 757
+
+[13:00](/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+
+Video
+
+[Workflow clip: Automate CRM updates with Codex](/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+
+Jun 18th, 2026 • Views 439
+
+[31:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+
+Video
+
+[Recording: Make Work Flow: Automate CRM Updates with Codex](/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+
+Jun 18th, 2026 • Views 897
+
+[1:00](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Video
+
+[Design context and iteration with Codex](/public/clubs/champions-ecqup/videos/design-context-and-iteration-with-codex-2026-07-09)
+
+Jul 22nd, 2026 • Views 757
+
+[20:00](/public/clubs/champions-ecqup/videos/workflow-clip-streamline-team-engagement-with-codex-2026-07-09)
+
+Video
+
+[Workflow clip: Streamline team engagement with Codex](/public/clubs/champions-ecqup/videos/workflow-clip-streamline-team-engagement-with-codex-2026-07-09)
+
+Jul 22nd, 2026 • Views 716

@@ -1,14 +1,10 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-educator-plugin-admin-guide -->
 
-[Communities](/home/clubs)
-
-/
-
 [K-12 Administrators & District Leaders](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
 
-/
+[Content](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
 
-[navigation.content](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/content)
+Article
 
 August 4, 2026
 
@@ -86,50 +82,64 @@ Give educators one small, classroom-centered starting task: use a learning objec
 
 * Launch with a concrete classroom-materials use case and support guidance. Give educators one first instructional-materials task, the correct @mention, district policy reminders, and a support contact.
 
+Blog
+
 [K-12: Prompt Pack for Administrators (Principals, Curriculum Leads)](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/k-12-prompt-pack-for-administrators)
 
 By Juliann Igo
 
 External Content
 
+[Navigating the AI Policy Landscape in Schools](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
+
+External Content
+
 [AI Toolkit for School Districts, by Common Sense Media](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/ai-toolkit-for-school-districts-2025-11-20)
 
-[Three District Approaches to Rolling Out AI](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-May 18th, 2026 • Views 692
+Video
 
-External Content
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Navigating the AI Policy Landscape in Schools](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
-
-Nov 20th, 2025 • Views 33
-
-[K-12 Workspace Settings](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
-
-Feb 27th, 2026 • Views 1.7K
+Sep 14th, 2026 • Views 1.5K
 
 External Content
 
 [Building Custom GPTs to Automate Tasks](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
 
-Nov 20th, 2025 • Views 144
+Nov 20th, 2025 • Views 156
+
+Blog
 
 [Three District Approaches to Rolling Out AI](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
 
-May 18th, 2026 • Views 692
+May 18th, 2026 • Views 975
 
 [K-12 Workspace Settings](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
 
-Feb 27th, 2026 • Views 1.7K
+Feb 27th, 2026 • Views 2.4K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+Blog
+
+[Three District Approaches to Rolling Out AI](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/blogs/three-district-approaches-to-rolling-out-ai-2026-05-18)
+
+May 18th, 2026 • Views 975
+
+[K-12 Workspace Settings](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/resources/k-12-workspace-settings-2026-02-27)
+
+Feb 27th, 2026 • Views 2.4K
 
 External Content
 
 [Building Custom GPTs to Automate Tasks](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/building-custom-gpts-to-automate-tasks-2025-11-20)
 
-Nov 20th, 2025 • Views 144
-
-External Content
-
-[Navigating the AI Policy Landscape in Schools](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/externals/navigating-the-ai-policy-landscape-in-schools-2025-11-20)
-
-Nov 20th, 2025 • Views 33
+Nov 20th, 2025 • Views 156

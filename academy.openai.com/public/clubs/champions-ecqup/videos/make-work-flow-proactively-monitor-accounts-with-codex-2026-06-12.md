@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12 -->
+
 # Recording: Make Work Flow: Automate CRM Updates wit
 
 <!-- vimeo: 1200902778 | track: English (auto-generated) -->

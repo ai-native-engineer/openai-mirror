@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/web-search -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Article
 
-September 23, 2025 · Last updated on May 29, 2026
+September 23, 2025 · Last updated on September 4, 2026
 
 # Web search
 
@@ -15,6 +15,10 @@ September 23, 2025 · Last updated on May 29, 2026
 # Workplace & Business
 
 # Foundations
+
+# Work
+
+# Portfolio Academy Knowledge Work
 
 ## Search the web with ChatGPT for real-time information.
 
@@ -62,7 +66,7 @@ Many workplace questions depend on the latest facts—things that change daily, 
 
 ## Search vs. deep research
 
-You may choose to use [deep research](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research) instead of search for more complex tasks. Check out a quick comparison of the two features below:
+You may choose to use  [deep research](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research) instead of search for more complex tasks. Check out a quick comparison of the two features below:
 
 | Feature | **Search** | **Deep Research** |
 | --- | --- | --- |
@@ -75,62 +79,73 @@ You may choose to use [deep research](https://academy.openai.com/public/clubs/wo
 
 ## Related resources
 
-* ﻿[OpenAI Help Center: ChatGPT search](https://help.openai.com/en/articles/9237897-chatgpt-search?q=chatgpt)﻿
+* ﻿ [OpenAI Help Center: ChatGPT search](https://help.openai.com/en/articles/9237897-chatgpt-search?q=chatgpt)﻿
 
-* ﻿[OpenAI Academy for Work: Deep research](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research)﻿
+* ﻿ [OpenAI Academy for Work: Deep research](https://academy.openai.com/public/clubs/work-users-ynjqu/resources/deep-research)﻿
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# Web Search
+
+<!-- vimeo: 1116808811 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116808811)
+
+<details>
+<summary>자막: Web Search</summary>
+
+Web search allows chat GPT to browse the internet in real time, pull sources and even show you exactly where it found the answer so you can dig deeper or verify. Let's imagine I'm helping to plan an offsite for our team, and I need to find a venue without chat GPT. That might mean clicking through a bunch of websites, copying details into a doc, comparing features, pricing and logistics, and maybe even getting distracted along the way. I'll show you how Chachi BT can streamline that whole process. In your tools menu, you'll find a option for web search. There's also a feature called Deep Research that will cover on the Open AI Academy. Use web search for quick UpToDate facts and deep research for detailed multi-source cited reports. Note that depending on your prompt chat, GBT may choose to search the web automatically. But if you know that you want a web search, it's helpful to tell chat GBT explicitly to do that. Now, I'll say find five conference venues in Chicago that can hold 200 people. Has AV capabilities provides catering in our near public transportation. Include pricing information if available and cite your sources. Chat. GPT has pulled information from the web and given me a clean, organized list with venue names, location details and more. And every item includes a clickable source. I can h hover to preview the site or click to open it directly to verify its accuracy. Also, if you scroll down to the bottom and click sources, you'll see all the citations open up in the sidebar on the right. This kind of real-time research is helpful for all kinds of tasks, like event planning, competitive research, assisting with looking up regulations or compliance updates, finding vendors, suppliers, or service providers, and so much more.
+
+</details>

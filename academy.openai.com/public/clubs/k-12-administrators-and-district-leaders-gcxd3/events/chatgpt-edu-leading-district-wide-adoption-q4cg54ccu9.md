@@ -1,41 +1,18 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-administrators-and-district-leaders-gcxd3/events/chatgpt-edu-leading-district-wide-adoption-q4cg54ccu9 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+[K-12 Administrators & District Leaders](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
 
-[Communities](/en/home/clubs)
-
-/
-
-[K-12 Administrators & District Leaders](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/overview)
-
-/
-
-[navigation.events](/en/public/clubs/k-12-administrators-and-district-leaders-gcxd3/events)
+[navigation.events](/public/clubs/k-12-administrators-and-district-leaders-gcxd3/events)
 
 ![ChatGPT Edu: Leading District-Wide Adoption](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/EDU-New-Content-Covers-13--84d4385e-5243-474a-8980-f98e4302f679-1784842969146.jpeg?fit=scale-down&width=1200)
 
-LIVESTREAM
+WEBINAR
 
 6:30 PM - 7:30 PM GMT
 
 September 9, 2026
 
 # ChatGPT Edu: Leading District-Wide Adoption
-
-Register
 
 Join the OpenAI Education team for a practical discussion about introducing and sustaining ChatGPT Edu across a K–12 district. Designed for district and school leaders, this session focuses on the coordination, communication, and support structures that help AI adoption move beyond initial access and become useful in educators’ and staff members’ everyday work.
 
@@ -71,7 +48,7 @@ Education & Government @ OpenAI
 
 View Profile
 
-Live in 44 days 12 hours
+Event has finished
 
 6:30 PM - 7:30 PM GMT
 
@@ -83,11 +60,7 @@ Organized by
 
 K-12 Administrators & District Leaders
 
-Register
-
-Add to calendar
-
-Live in 44 days 12 hours
+Event has finished
 
 6:30 PM - 7:30 PM GMT
 
@@ -98,7 +71,3 @@ Online
 Organized by
 
 K-12 Administrators & District Leaders
-
-Register
-
-Add to calendar

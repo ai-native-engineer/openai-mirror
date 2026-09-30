@@ -2,11 +2,11 @@
 
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-August 13, 2026 · Last updated on August 14, 2026
+August 13, 2026 · Last updated on August 27, 2026
 
 # ChatGPT Work for finance teams: Webinar Resource Guide
 
@@ -14,9 +14,13 @@ August 13, 2026 · Last updated on August 14, 2026
 
 # ChatGPT for Work
 
+# Work
+
 # Workplace & Business
 
 # Use Cases
+
+# Portfolio Company Finance
 
 ## Follow along with our webinar ChatGPT Work for finance teams
 
@@ -123,49 +127,31 @@ Start a new Work task, invoke  `@Data` , and use this prompt:
 ```
 @Data Use only the latest approved files in the connected Forecast Review folder: the forecast workbook, regional notes, and forecast review questions.
 
-﻿
-
 Review the forecast submissions and create a new Google Sheet called “Q2 Forecast Review - Week 5.”
 
-﻿
-
 Create these tabs, in this order:
-
-﻿
 
 1. Forecast position
 
 Show actual revenue, cumulative forecast, and variance through week five.
 
-﻿
-
 2. Supported findings
 
 Include only findings supported by the available files. Cite the source for each material claim.
-
-﻿
 
 3. Unresolved items
 
 Identify missing inputs, conflicting assumptions, and proposed forecast changes the available evidence does not support. State what is missing and what cannot yet be concluded.
 
-﻿
-
 4. Draft owner follow-ups
 
 Draft the question Finance needs each owner to answer. Do not send these messages.
-
-﻿
 
 5. Sources
 
 Link each material figure and finding to its source.
 
-﻿
-
 Separate actuals, forecasts, assumptions, and recommendations. Do not change the forecast or modify the source files.
-
-﻿
 
 When the workbook is ready, send me a short Slack message with the current cumulative variance, the most important unresolved item, and a link to the new workbook.
 ```
@@ -241,11 +227,7 @@ Start a new Work task inside the Project, type  `@Data` , select the plugin, a
 ```
 Create a Google Slides presentation for a forecast review with our board. Use the presentation template and approved source files in this Project.
 
-﻿
-
 Build six slides: a cover; executive outlook; scenario tradeoffs; key drivers and modeled sensitivities; management recommendation and investment gate; and questions for the discussion with our board.
-
-﻿
 
 Lead with management’s current recommendation. Keep scenarios separate from decisions. Source every material number and claim, flag missing evidence, and label the presentation as a draft for Finance review.
 ```
@@ -350,74 +332,42 @@ Choose one Finance task that is already on your plate. Give Work the source file
 
 Thanks for joining!
 
-## Popular
-
-Resource
-
 [ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-Resource
-
 [ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
-
-Resource
 
 [ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
 By Juliann Igo
 
-Dive in
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-## Related
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-Resource
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-[ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
-Aug 6th, 2026 • Views 237
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Resource
-
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
-
-By Diana Stegall • Aug 4th, 2026 • Views 1K
-
-[40:07](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-finance-teams-2026-08-13)
-
-Video
-
-[ChatGPT Work for finance teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-finance-teams-2026-08-13)
-
-Aug 13th, 2026 • Views 119
-
-Resource
-
-[How finance teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
-
-May 20th, 2026 • Views 2.8K
-
-Resource
+Aug 20th, 2026 • Views 1K
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 237
+Aug 6th, 2026 • Views 824
 
-[40:07](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-finance-teams-2026-08-13)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Video
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[ChatGPT Work for finance teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-finance-teams-2026-08-13)
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 13th, 2026 • Views 119
+Aug 20th, 2026 • Views 1K
 
-Resource
+[ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-[How finance teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+Aug 6th, 2026 • Views 824
 
-May 20th, 2026 • Views 2.8K
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-Resource
-
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
-
-By Diana Stegall • Aug 4th, 2026 • Views 1K
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K

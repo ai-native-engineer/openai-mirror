@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+5:00 PM - 5:30 PM GMT
+
+January 28, 2026
+
 # ChatGPT at Work: What Top Performers are Doing Differently
 
 [Replay](https://academy.openai.com/home/videos/chatgpt-at-work-what-top-performers-are-doing-differently-2026-01-28)
@@ -12,9 +16,11 @@ LIVESTREAM
 
 # Awareness
 
+# Work
+
 Most teams use ChatGPT occasionally. Top performers rely on it when real work needs to get done.
 
-[In this 25-minute session](https://academy.openai.com/public/events/chatgpt-at-work-cd46y7l6uu), we’ll share what top-performing ChatGPT users do differently to change how they work, their impact, and their career trajectory. The difference isn’t knowing more features. It’s a few small habits like next-day prep, priority and focus summaries, identifying powerful recurring tasks, turning strong outputs into differentiators, and building workflows that compound over time.
+﻿ [In this 25-minute session](https://academy.openai.com/public/events/chatgpt-at-work-cd46y7l6uu), we’ll share what top-performing ChatGPT users do differently to change how they work, their impact, and their career trajectory. The difference isn’t knowing more features. It’s a few small habits like next-day prep, priority and focus summaries, identifying powerful recurring tasks, turning strong outputs into differentiators, and building workflows that compound over time.
 
 Attendees will leave with a practical way to make one recurring task easier next week, plus a repeatable approach they can apply to similar work going forward.
 
@@ -30,7 +36,9 @@ View Profile
 
 Event has finished
 
-January 28, 5:00 PM GMT
+5:00 PM - 5:30 PM GMT
+
+January 28, 2026
 
 Online
 
@@ -44,7 +52,9 @@ OpenAI Academy
 
 Event has finished
 
-January 28, 5:00 PM GMT
+5:00 PM - 5:30 PM GMT
+
+January 28, 2026
 
 Online
 

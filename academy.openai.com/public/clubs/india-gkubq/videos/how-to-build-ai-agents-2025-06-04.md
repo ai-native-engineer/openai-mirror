@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-build-ai-agents-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,7 +10,7 @@ Get Started
 
 # How to Build AI Agents
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7K
 
 # Developers & Builders
 
@@ -19,6 +19,8 @@ Posted Jun 05, 2025 | Views 5.4K
 # OpenAI API
 
 # Deployment & Adoption
+
+# Work
 
 # India
 
@@ -49,11 +51,11 @@ Partnered with AI leaders across the board, it’s our mission to inform, educat
 
 ## Watch More
 
-[4:22](/en/public/videos/introduction-to-agents-2025-06-04)
+[4:22](/public/videos/introduction-to-agents-2025-06-04)
 
-[Introduction to Agents](/en/public/videos/introduction-to-agents-2025-06-04)
+[Introduction to Agents](/public/videos/introduction-to-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7.6K
 
 # Developers & Builders
 
@@ -63,13 +65,15 @@ Posted Jun 05, 2025 | Views 5.4K
 
 # Deployment & Adoption
 
+# Work
+
 # India
 
-[9:51](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[9:51](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-[Introduction to Agents (Hindi)](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[Introduction to Agents (Hindi)](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1K
+Posted Jun 05, 2025 | Views 1.7K
 
 # General Learners
 
@@ -81,11 +85,11 @@ Posted Jun 05, 2025 | Views 1K
 
 # India; Hindi
 
-[4:56](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
+[4:56](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-[How to Automate Tasks with Custom GPTs](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
+[How to Automate Tasks with Custom GPTs](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-Posted Jun 05, 2025 | Views 4K
+Posted Jun 05, 2025 | Views 5K
 
 # Educators & Students
 
@@ -94,3 +98,14 @@ Posted Jun 05, 2025 | Views 4K
 # Education
 
 # India
+
+<!-- youtube: 5yPGctrM0lY | track: none -->
+
+[![India](https://img.youtube.com/vi/5yPGctrM0lY/hqdefault.jpg)](https://www.youtube.com/watch?v=5yPGctrM0lY)
+
+<details>
+<summary>자막: India</summary>
+
+https://www.youtube.com/watch?v=5yPGctrM0lY
+
+</details>

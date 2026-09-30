@@ -1,20 +1,5 @@
 <!-- source: https://academy.openai.com/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28 -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
 Article
 
 September 28, 2026
@@ -51,8 +36,6 @@ He now experiments with an interactive dashboard that brings together lab result
 
 Recent research suggests that Long COVID may affect women more than men. Laura is still struggling with symptoms. Once a month, Daniel drives about two hours to pick up a treatment from a compounding pharmacy. There are many steps on their journey where ChatGPT can't help. Millions of others with Long COVID are further from answers than she is, without a physician in the family or a caregiver who works in AI. The expertise they need exists. Daniel's hope is that these tools will help it reach them.
 
-## Popular
-
 [44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
@@ -67,15 +50,9 @@ Video
 
 By Juliann Igo
 
-[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+Blog
 
-Video
-
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
-
-Dive in
-
-## Related
+[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
 Blog
 
@@ -85,21 +62,21 @@ Mar 23rd, 2026 • Views 1.1K
 
 Blog
 
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
+[How ChatGPT helped Jason Aten recognize a medical emergency](/public/blogs/jason-aten-chatgpt-heart-failure)
 
-Apr 28th, 2026 • Views 1.1K
+Aug 6th, 2026 • Views 209
 
 Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 306
+Aug 5th, 2026 • Views 310
 
 Blog
 
 [How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
-Aug 5th, 2026 • Views 361
+Aug 5th, 2026 • Views 369
 
 Blog
 
@@ -111,16 +88,16 @@ Blog
 
 [How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
 
-Aug 5th, 2026 • Views 306
+Aug 5th, 2026 • Views 310
 
 Blog
 
 [How Ava Morton uses ChatGPT to make learning more accessible](/public/blogs/ava-morton-chatgpt-accessible-special-education)
 
-Aug 5th, 2026 • Views 361
+Aug 5th, 2026 • Views 369
 
 Blog
 
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
+[How ChatGPT helped Jason Aten recognize a medical emergency](/public/blogs/jason-aten-chatgpt-heart-failure)
 
-Apr 28th, 2026 • Views 1.1K
+Aug 6th, 2026 • Views 209

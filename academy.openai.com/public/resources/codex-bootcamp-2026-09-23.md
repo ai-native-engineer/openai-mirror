@@ -1,6 +1,8 @@
 <!-- source: https://academy.openai.com/public/resources/codex-bootcamp-2026-09-23 -->
 
-[navigation.content](/public/clubs/builders-etkn1/content)
+[Builders](/public/clubs/builders-etkn1/overview)
+
+[Content](/public/clubs/builders-etkn1/content)
 
 # Codex Bootcamp
 
@@ -11,6 +13,8 @@
 # Codex
 
 # Codex for Builders
+
+# Developers & Builders
 
 ## A three-part live series covering agentic coding, team workflows, and advanced automation with Codex.
 
@@ -44,8 +48,6 @@ Join us each week for a new topic, with all sessions running live from 10:00–1
 
 * ﻿ [Register for Codex 301](https://academy.openai.com/public/clubs/builders-etkn1/events/codex-bootcamp-301-advanced-automation-zejtj1ae6t?autoRsvp=true)﻿
 
-## Popular
-
 [1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
 Video
@@ -54,62 +56,46 @@ Video
 
 By Ryan Taylor
 
-Resource
-
 [Codex 101: Introduction and Onboarding](/public/clubs/builders-etkn1/resources/codex-101-introduction-and-onboarding-2026-03-18)
-
-Resource
 
 [Codex 102: Practical Workflows](/public/clubs/builders-etkn1/resources/codex-102-practical-workflows-2026-03-18)
 
-Dive in
-
-## Related
-
-Resource
-
 [Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
 
-By Sean Lubbers • Jul 18th, 2026 • Views 10.5K
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K
 
-External Content
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex for SWEs](/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
+Video
 
-Mar 18th, 2026 • Views 2K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Resource
+Sep 14th, 2026 • Views 1.5K
 
 [Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
 
-Apr 22nd, 2026 • Views 24.6K
-
-Resource
+Apr 22nd, 2026 • Views 26.8K
 
 [API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
 
-Aug 12th, 2026 • Views 249
-
-Resource
+Aug 12th, 2026 • Views 19.1K
 
 [Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
 
-By Sean Lubbers • Jul 18th, 2026 • Views 10.5K
-
-Resource
+By Sean Lubbers • Jul 18th, 2026 • Views 17.9K
 
 [Builder Bootcamp](/public/clubs/builders-etkn1/resources/builder-bootcamp-2026-04-22)
 
-Apr 22nd, 2026 • Views 24.6K
-
-Resource
+Apr 22nd, 2026 • Views 26.8K
 
 [API Builder Bootcamp](/public/clubs/builders-etkn1/resources/api-builder-bootcamp-2026-08-19)
 
-Aug 12th, 2026 • Views 249
+Aug 12th, 2026 • Views 19.1K
 
-External Content
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Codex for SWEs](/public/clubs/builders-etkn1/externals/codex-for-swes-2026-03-18)
+Video
 
-Mar 18th, 2026 • Views 2K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K

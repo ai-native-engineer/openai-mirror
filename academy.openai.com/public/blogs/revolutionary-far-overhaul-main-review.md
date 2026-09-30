@@ -12,7 +12,7 @@ June 14, 2026
 
 # Government
 
-# govtech
+# Govtech
 
 # OpenAI for Government
 
@@ -312,68 +312,64 @@ Begin by asking me the Phase 1 diagnostic questions.
 
 Like
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Video
-
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
-
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
 Video
 
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Video
-
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
-
-Jun 17th, 2026 • Views 545
-
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[1:03:00](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
 Video
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Evals: The Key to Production-Ready AI Apps](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
-Mar 23rd, 2025 • Views 267.1K
+By Haroon Choudery • Jun 24th, 2025 • Views 8.6K
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-Jun 23rd, 2026 • Views 83
+Sep 29th, 2026 • Views 33
 
-[1:03:00](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
-
-Video
-
-[Evals: The Key to Production-Ready AI Apps](/en/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
-
-By Haroon Choudery • Jun 24th, 2025 • Views 7.7K
-
-[8:56](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
 Video
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
 
-Mar 23rd, 2025 • Views 267.1K
+Mar 23rd, 2025 • Views 273.4K
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+Blog
 
-Jun 23rd, 2026 • Views 83
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-[47:43](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+Sep 29th, 2026 • Views 16
+
+[1:03:00](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
 Video
 
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+[Evals: The Key to Production-Ready AI Apps](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
-Jun 17th, 2026 • Views 545
+By Haroon Choudery • Jun 24th, 2025 • Views 8.6K
+
+[8:56](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Video
+
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+
+Mar 23rd, 2025 • Views 273.4K
+
+Blog
+
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
+
+Sep 29th, 2026 • Views 16
+
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
+
+Sep 29th, 2026 • Views 33

@@ -1,29 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/turn-updates-into-review-ready-leadership-decks-2026-07-23 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[Communities](/en/home/clubs)
-
-/
-
-[Champions](/en/public/clubs/champions-ecqup/overview)
-
-/
-
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Turn updates in review-ready leadership decks
 
@@ -35,9 +14,11 @@
 
 # Deployment & Adoption
 
+# Portfolio Company Finance
+
 ## Update recurring presentations with source control, traceability, and human review.
 
-July 23, 2026
+July 23, 2026 · Last updated on September 28, 2026
 
 ![Turn updates in review-ready leadership decks](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/turn-updates-into-review-ready-leadership-decks-style-thumb-4677c5c8-09a6-4f31-888b-a2caca6ec619-1784825980110.jpeg?fit=scale-down&width=1200)
 
@@ -48,8 +29,6 @@ This example uses finance materials from *Make Work Flow: Automating Finance pre
 1. New data arrives, owner notes change, status updates shift, or source documents get refreshed.
 
 2. Someone has to update a deck without losing track of what changed, where it came from, and who approved it.
-
-﻿
 
 Codex inspects approved source files, proposes a slide update plan, flags discrepancies, updates a presentation only after approval, and produces a reconciliation log so reviewers can trace the changes before the deck is shared.
 
@@ -75,13 +54,9 @@ Permissions/access considerations: Use only files approved for this workflow. Co
 
 Governance considerations: Treat executive presentations as decision-support artifacts. Keep source accuracy separate from readiness to share. Flag hardcoded values, source conflicts, stale assumptions, unsupported claims, sensitive data, and unresolved owner questions. Do not publish or circulate the updated deck until the accountable owner approves it.
 
-﻿
-
 # What to Customize Before You Paste
 
 The copy/paste spec below is intentionally opinionated so a non-technical Activator can get started quickly. Change these items first:
-
-﻿
 
 |  |  |
 | --- | --- |
@@ -97,16 +72,12 @@ The copy/paste spec below is intentionally opinionated so a non-technical Activa
 | Default setup | The spec defaults to a file-based Codex Project or ChatGPT Work project. If your team later wants connectors, scheduled runs, writeback, or automated publishing, add those only after the right owners approve them. |
 | Additional placeholders to complete | [SUCCESS SIGNALS] |
 
-﻿
-
 # Copy/Paste Workflow Spec
 
 Paste this into Codex in Plan Mode or into ChatGPT Work. Fill in the bracketed fields first if you can. If you are not sure about a field, leave it bracketed and ask Codex to help you define it.
 
 ```
 Project name: Executive Deck Refresh Assistant
-
-﻿
 
 Context:
 
@@ -136,8 +107,6 @@ Context:
 
 - Share-readiness rule: [SHARE-READINESS RULE, for example owner must approve before the deck is circulated]
 
-﻿
-
 Operating rules:
 
 - Use a restricted project folder that contains only files approved for this workflow.
@@ -156,17 +125,11 @@ Operating rules:
 
 - Use synthetic examples if I have not provided approved files.
 
-﻿
-
 Goal:
 
 Help me refresh a recurring executive presentation from approved source files. Identify which slides need updates, show the source for each material change, flag discrepancies or open assumptions, update the presentation only after I approve the plan, and produce a reconciliation/change log that a reviewer can inspect before circulation.
 
-﻿
-
 Run this workflow:
-
-﻿
 
 1. Inspect the source packet.
 
@@ -177,8 +140,6 @@ Run this workflow:
 - Apply the source hierarchy.
 
 - Do not change any files yet.
-
-﻿
 
 2. Return a slide-by-slide update plan for approval.
 
@@ -198,8 +159,6 @@ For each slide that may need changes, include:
 
 - Whether the change is ready, needs reviewer input, or should be left unchanged
 
-﻿
-
 3. Wait for approval.
 
 - Do not update the deck until I approve the plan or tell you what to revise.
@@ -207,8 +166,6 @@ For each slide that may need changes, include:
 - If sources conflict, ask which source should govern.
 
 - If a change would introduce sensitive, confidential, regulated, customer, employee, or approval-required content, flag it before editing.
-
-﻿
 
 4. Update the deck after approval.
 
@@ -219,8 +176,6 @@ For each slide that may need changes, include:
 - Update only the slides and elements approved in the plan.
 
 - Keep unsupported or unresolved items visible as open questions instead of silently resolving them.
-
-﻿
 
 5. Create the reconciliation/change log.
 
@@ -250,8 +205,6 @@ Include one row for each material deck change with:
 
 - Open question, if any
 
-﻿
-
 6. Create a short validation report.
 
 Include:
@@ -272,8 +225,6 @@ Include:
 
 - Items that were blocked because the source, permission, or approval was missing
 
-﻿
-
 Governance and safe-use requirements:
 
 - Use only approved files and approved source context.
@@ -289,8 +240,6 @@ Governance and safe-use requirements:
 - Do not enable connectors, live-system access, scheduled refreshes, writeback, external sharing, or automated publishing without explicit approval from the right stakeholders.
 
 - Preserve a practical audit trail through source lines, reconciliation logs, reviewer notes, file versions, and validation reports.
-
-﻿
 
 How I want you to work:
 
@@ -309,8 +258,6 @@ How I want you to work:
 - Clearly separate what is ready to use from what requires validation or approval
 ```
 
-﻿
-
 Like
 
 Sign in or Join the community
@@ -319,80 +266,64 @@ Sign in or Join the community
 
 Create an account
 
-## Popular
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-Resource
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-Resource
+[Turn scattered account updates into shared team context](/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
 
-[OpenAI Academy courses: Champion deployment guide](/en/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
+Jun 12th, 2026 • Views 388
 
-Resource
-
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
-
-Dive in
-
-## Related
-
-Resource
-
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
-
-Jun 12th, 2026 • Views 220
-
-[26:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22)
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
 Video
 
-[[RECORDING] Make Work Flow: Automation Finance presentation updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22)
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Jul 22nd, 2026 • Views 87
+Aug 27th, 2026 • Views 472
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 225
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 404
+Sep 14th, 2026 • Views 1.5K
 
-Resource
-
-[Turn scattered account updates into shared team context](/en/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
-
-Jun 12th, 2026 • Views 220
-
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
 Video
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Jun 18th, 2026 • Views 225
+Sep 10th, 2026 • Views 406
 
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[Turn scattered account updates into shared team context](/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12)
 
-Video
+Jun 12th, 2026 • Views 388
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 404
-
-[26:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[[RECORDING] Make Work Flow: Automation Finance presentation updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automation-finance-presentation-updates-with-codex-2026-07-22)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jul 22nd, 2026 • Views 87
+Sep 14th, 2026 • Views 1.5K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Video
+
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Sep 10th, 2026 • Views 406
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Video
+
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Aug 27th, 2026 • Views 472

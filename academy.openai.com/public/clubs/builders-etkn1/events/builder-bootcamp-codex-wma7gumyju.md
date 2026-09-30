@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/builders-etkn1/events/builder-bootcamp-codex-wma7gumyju -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Builder Bootcamp: Codex](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Builder-OpenAI-Academy-Event-Card-Templates-3--127b9047-9a5f-4552-85f5-f1329f6a9d02-1781219334739.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+June 25, 2026
 
 # Builder Bootcamp: Codex
 
@@ -19,6 +23,10 @@ Event Slides
 # OpenAI API
 
 # Advanced & Builder Skills
+
+# Work
+
+# Portfolio Academy SDLC
 
 In this session, you’ll learn how to use Codex to plan, build, and ship real code changes in an existing repository. We’ll cover how to explore a codebase, use plan mode, define repo guidance with AGENTS.md, create reusable skills, and keep implementation scoped and reviewable.
 
@@ -66,12 +74,16 @@ View Profile
 
 Event has finished
 
-June 25, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+June 25, 2026
 
 Online
 
 Event has finished
 
-June 25, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+June 25, 2026
 
 Online

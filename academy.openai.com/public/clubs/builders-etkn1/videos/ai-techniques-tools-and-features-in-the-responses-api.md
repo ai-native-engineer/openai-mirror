@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-tools-and-features-in-the-responses-api -->
+
 # AI Techniques (Foundations): Responses API Tools & Features
 
 <!-- vimeo: 1105245596 | track: English (auto-generated) -->

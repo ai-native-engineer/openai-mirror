@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/prompting -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Prompting
 
@@ -12,9 +12,13 @@
 
 # Foundations
 
+# Work
+
+# Portfolio Academy Knowledge Work
+
 ## Learn how to chat with ChatGPT to give you the best results
 
-August 6, 2025 · Last updated on May 29, 2026
+August 6, 2025 · Last updated on September 4, 2026
 
 ![Prompting ](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Work-Users-Cover-Images-34--13512297-f1e2-4f7c-9f95-c3d07a6cb37f-1754317487435.jpeg?fit=scale-down&width=1200)
 
@@ -39,7 +43,7 @@ ChatGPT works best when you give it clear instructions. A good prompt helps the 
 1. **Outline the** **task**Be clear about what you need ChatGPT to do. Outline what you want, who it’s for, and why it matters.
    **→** ***Example*****:** ***Summarize last quarter’s sales results and suggest marketing strategies for next quarter******.***
 
-2. **Give** **helpful context** Add any background (or documentation) that will help. Note that GPT‑5 improves with your company docs and [connectors](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt) (ex Teams, SharePoint, Outlook).
+2. **Give** **helpful context** Add any background (or documentation) that will help. Note that GPT‑5 improves with your company docs and  [connectors](https://help.openai.com/en/articles/11487775-connectors-in-chatgpt) (ex Teams, SharePoint, Outlook).
 
 **→** ***Example*****:** ***Use data from our Q2 sales report.***
 
@@ -57,17 +61,17 @@ ChatGPT works best when you give it clear instructions. A good prompt helps the 
 
 ## **Sample prompts**
 
-The below are examples. Open [ChatGPT](http://chatgpt.com) and adapt a prompt for your role. ome examples now demonstrate GPT-5’s ability to produce structured formats or handle multi-step reasoning.
+The below are examples. Open  [ChatGPT](http://chatgpt.com/)and adapt a prompt for your role. ome examples now demonstrate GPT-5’s ability to produce structured formats or handle multi-step reasoning.
 
-### **Product launch brief (**[**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Draft%20a%20two-paragraph%20announcement%20email%20for%20our%20upcoming%20product%20launch%20using%20the%20feature%20list%20and%20positioning%20notes%20in%20the%20attached%20launch%20brief.%20Format%20the%20email%20with%20a%20short%20subject%20line%2C%20an%20engaging%20opening%20sentence%2C%20and%20a%20clear%20call%20to%20action.))
+### **Product launch brief (** [**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Draft%20a%20two-paragraph%20announcement%20email%20for%20our%20upcoming%20product%20launch%20using%20the%20feature%20list%20and%20positioning%20notes%20in%20the%20attached%20launch%20brief.%20Format%20the%20email%20with%20a%20short%20subject%20line%2C%20an%20engaging%20opening%20sentence%2C%20and%20a%20clear%20call%20to%20action.))
 
 ### *Draft a two-paragraph announcement email for our upcoming product launch* *using the feature list and positioning notes in the attached launch brief.**Format the email with a short subject line, an engaging opening sentence, and a clear call to action.*
 
-### **Policy snapshot (**[**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Create%20a%20one-page%20overview%20of%20our%20updated%20parental-leave%20policy%20for%20employees%2C%20based%20on%20the%20policy%20document%20linked%20below%20and%20highlight%20any%20changes%20from%20the%202023%20version.%20Present%20the%20overview%20in%20plain%20language%20with%20section%20headings%20and%20bullet%20points.))
+### **Policy snapshot (** [**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Create%20a%20one-page%20overview%20of%20our%20updated%20parental-leave%20policy%20for%20employees%2C%20based%20on%20the%20policy%20document%20linked%20below%20and%20highlight%20any%20changes%20from%20the%202023%20version.%20Present%20the%20overview%20in%20plain%20language%20with%20section%20headings%20and%20bullet%20points.))
 
 ### *Create a one-page overview of our updated parental-leave policy for employees,**based on the policy document linked below and highlight any changes from the 2023 version.**Present the overview in plain language with section headings and bullet points.*
 
-### **Sprint Retrospective Summary (**[**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Summarize%20the%20key%20takeaways%20from%20this%20week%E2%80%99s%20sprint%20retrospective%20from%20the%20attached%20meeting%20transcript%20and%20suggest%20two%20process%20improvements.%20Deliver%20the%20summary%20as%20numbered%20action%20items%20followed%20by%20a%20short%20paragraph%20explaining%20the%20impact%20of%20each.)**)**
+### **Sprint Retrospective Summary (** [**try it in ChatGPT**](https://chatgpt.com/?model=o4-mini-high&prompt=Summarize%20the%20key%20takeaways%20from%20this%20week%E2%80%99s%20sprint%20retrospective%20from%20the%20attached%20meeting%20transcript%20and%20suggest%20two%20process%20improvements.%20Deliver%20the%20summary%20as%20numbered%20action%20items%20followed%20by%20a%20short%20paragraph%20explaining%20the%20impact%20of%20each.)**)**
 
 ### *Summarize the key takeaways from this week’s sprint retrospective* *f**rom the attached meeting transcript* *and suggest two process improvements. Deliver the summary as numbered action items followed by a short paragraph explaining the impact of each.*
 
@@ -86,7 +90,7 @@ The below are examples. Open [ChatGPT](http://chatgpt.com) and adapt a prompt fo
 
 ## **Examples for your role**
 
-See the [**ChatGPT for your role page**](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/prompt-packs-6849a0f98c613939acef841c) for additional examples
+See the  [**ChatGPT for your role page**](https://academy.openai.com/home/clubs/work-users-ynjqu/tags/prompt-packs-6849a0f98c613939acef841c) for additional examples
 
 |  |  |
 | --- | --- |
@@ -101,60 +105,71 @@ See the [**ChatGPT for your role page**](https://academy.openai.com/home/clubs/w
 
 ## **Additional resources to go deeper**
 
-GPT-5 will benefit from all the traditional [prompting best practices](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide), but to make optimizations and migrations easier, we are introducing the [GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true) and [GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook) (for developers)
+GPT-5 will benefit from all the traditional  [prompting best practices](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide), but to make optimizations and migrations easier, we are introducing the  [GPT-5 Prompt Optimizer](https://platform.openai.com/chat/edit?optimize=true) and  [GPT-5 Prompt Optimization Cookbook](https://cookbook.openai.com/examples/gpt-5/prompt-optimization-cookbook) (for developers)
 
-Table Of Contents
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT fundamentals](/public/clubs/work-users-ynjqu/resources/chatgpt-basics)
 
-[ChatGPT fundamentals](/en/public/clubs/work-users-ynjqu/resources/chatgpt-basics)
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
 
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Video
-
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
-
-Jun 23rd, 2026 • Views 400
-
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
-
-Jun 18th, 2026 • Views 230
-
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
-
-Jun 23rd, 2026 • Views 175
-
-[26:34](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
 Video
 
-[How marketing teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-marketing-teams-use-codex-recording-2026-06-22)
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
 
-Jun 23rd, 2026 • Views 400
+Aug 26th, 2026 • Views 770
 
-[How business operations teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-business-operations-teams-use-codex-webinar-resource-guide-2026-06-17)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 18th, 2026 • Views 230
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[26:13](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[How business operations teams use Codex [Recording]](/en/public/clubs/work-users-ynjqu/videos/how-business-operations-teams-use-codex-2026-06-17)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 646
+Sep 14th, 2026 • Views 1.5K
+
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
+
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
+
+[30:24](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Video
+
+[ChatGPT Work for business operations teams [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25)
+
+Aug 26th, 2026 • Views 770
+
+# Introduction to Prompt Engineering
+
+<!-- vimeo: 1030188354 | track: English (auto-generated) -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1030188354)
+
+<details>
+<summary>자막: Introduction to Prompt Engineering</summary>
+
+Hi, everyone. My name is Lois and in this short video I'm going to be taking you through an introduction to prompt engineering. Let's get started with what is a prompt? A prompt is simply the question or instruction you give to ChatGPT. Prompting is the art of communicating with AI models to get a desired output. The clearer and more detailed your prompt or input, the better the response from ChatGPT. And please, don't be thrown off by the term engineering. No science or technical degrees are required to be good at conversing with ChatGPT. In fact, top tip: when you are learning how to prompt think about it in the same way you would communicating a task to a human. The more specific and thorough you are in your communication, the more accurately the task will be completed. Let's discuss how you craft a great prompt. A prompt requires three things: context, role, and expectation. Context is really the material to be worked on; role is about describing who you are and what you do, and you can also assign this role or persona to ChatGPT; expectation is the desired material you want ChatGPT to generate. What I'm going to do now is I'm going to show you how you can incorporate this three-step framework to improve your prompts over time. In this example, I start by asking a simple question: Can you help me understand the current trends in global markets? It's very easy to converse with ChatGPT, and you can get started by asking questions. Just know that ChatGPT doesn't have enough context to help you do a very detailed task. So if we wanted to improve this prompt, what we now need to do is add in additional context to explain who we are, where we work, and what it is we're trying to do. And when we do that, it is much more likely that we get a response that supports the task. So here I am saying, "I'm a business analyst at Acme Co exploring global market trends. Can you help me understand the key trends across industries and regions?" Now, the best version of this prompt will also include an expectation. Here what we're saying is, "I am a business analyst at ACME CO exploring global market trends. Can you help me understand the major trends impacting global markets, focusing specifically on how technological advancements and geopolitical shifts are influencing various industries? Please highlight the key trends, assess their potential risks, and identify any challenges organizations might face in adapting their strategies to these changes." Again, what we've done here is we've been explicit about the output and the focus for ChatGPT. We want ChatGPT to dial into technology, geopolitical shifts, key trends, and challenges. What I'm going to do now is I'm going to show another example in this format. Again, what we do is we start off with a question. In this example we're asking ChatGPT, "Can you help me analyze the attached product feedback?" We're then inserting a document that includes that feedback. To improve this prompt we need to explain who we are, where we work, and what it is that we're working on, and that's when we need to layer in context and role. Here we're saying, "I am a Product Manager at ACME Co. I'm analyzing feedback on our latest product releases. Can you help me identify common themes in the attached user feedback?" Now what we're going to do is we are going to create the best version of this prompt. We're going to layer in expectation and be clear with ChatGPT about the material we want to be generated. A prompt that is the best version will look like this: "I am a Product Manager at ACME CO focused on improving our latest product release. Can you help me analyze recent user feedback to identify key themes and prioritize areas for improvement? Please highlight any reoccurring issues, assess the potential impact on user satisfaction, and suggest actionable steps we could take to address these concerns." So this final prompt here is being explicit that we want to focus on specific areas when ChatGPT analyzes the feedback. And to reiterate, when we spend time thinking about what we are asking for and how we communicate with ChatGPT, we're going to be much more satisfied with the responses that we get. So in short, prompt engineering is all about the better the input to get a better output. If you're still struggling, here's a top tip from us. You can jump into ChatGPT and actually ask ChatGPT to give you the top five prompts for you and your specific role, and this is going to help you to understand how you can also apply ChatGPT to you and your role and day-to-day tasks
+
+</details>

@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+5:00 PM - 5:30 PM GMT
+
+May 5, 2026
+
 # Skill Lab: Build Your First Workspace Agent
 
 [Replay](https://vimeo.com/1189487741?share=copy&fl=sv&fe=ci)
@@ -20,15 +24,19 @@ Join us for a practical OpenAI Academy session on how to identify, scope, build,
 
 **In this session, we’ll cover:**
 
-1. What agents are, how they work, and how they differ from other ways of using ChatGPT
-2. How to identify a workflow that is a strong fit for an agent
-3. How to write an "Agent Requirements Doc"
-4. How to build a first version with tools, skills, and triggers
-5. How to test, coach, and and improve the agent
+* What agents are, how they work, and how they differ from other ways of using ChatGPT
+
+* How to identify a workflow that is a strong fit for an agent
+
+* How to write an "Agent Requirements Doc"
+
+* How to build a first version with tools, skills, and triggers
+
+* How to test, coach, and and improve the agent
 
 Don’t have access to workspace agent building in ChatGPT? **This session is still for you**. You’ll leave with a clearer sense of where agents may fit into your work, what information an agent needs to be effective, and how to partner with admins or builders when you’re ready to get started.
 
-Follow along with our [Skill Lab One-Pager](https://academy.openai.com/home/resources/skill-lab-handout-workspace-agents-2026-04-29) and [Agents Requirements Doc Template](https://academy.openai.com/home/resources/skill-lab-template-agent-requirements-doc-2026-04-30)
+Follow along with our  [Skill Lab One-Pager](https://academy.openai.com/home/resources/skill-lab-handout-workspace-agents-2026-04-29) and  [Agents Requirements Doc Template](https://academy.openai.com/home/resources/skill-lab-template-agent-requirements-doc-2026-04-30)﻿
 
 ## Speakers
 
@@ -42,7 +50,9 @@ View Profile
 
 Event has finished
 
-May 05, 5:00 PM GMT
+5:00 PM - 5:30 PM GMT
+
+May 5, 2026
 
 Online
 
@@ -56,7 +66,9 @@ OpenAI Academy
 
 Event has finished
 
-May 05, 5:00 PM GMT
+5:00 PM - 5:30 PM GMT
+
+May 5, 2026
 
 Online
 

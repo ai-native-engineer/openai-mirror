@@ -4,6 +4,10 @@
 
 LIVESTREAM
 
+4:30 PM - 5:30 PM GMT
+
+March 28, 2025
+
 # Intro to AI for K-12 Educators
 
 [Replay](https://academy.openai.com/home/videos/intro-to-ai-for-k-12-educators-2025-04-01)
@@ -16,7 +20,7 @@ LIVESTREAM
 
 ### This session is presented by our community partner, Common Sense.
 
-*This resource was produced by Common Sense Media, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. Common Sense Media is a nonprofit dedicated to improving the lives of kids and families by providing the trustworthy information, education, and independent voice they need to thrive. They conduct research, ratings, education, and advocacy efforts in service of this mission.*
+*This resource was produced by Common Sense Media, a trusted partner in AI education. While OpenAI Academy shares it here, it does not necessarily represent OpenAI’s own views. Common Sense Media is a nonprofit dedicated to improving the lives of kids and families by providing the trustworthy information, education, and independent voice they need to thrive. They conduct research, ratings, education, and advocacy efforts in service of this mission.*
 
 Join Common Sense and OpenAI for an engaging AI literacy workshop designed specifically for K-12 educators. This interactive session will provide foundational knowledge of generative AI models like ChatGPT—exploring how they're built, their transformative potential, and critical insights into their responsible use. We'll dive into tangible classroom use cases, discussing both opportunities and challenges, so educators feel prepared to explore AI and how it can benefit their classrooms.
 
@@ -40,7 +44,9 @@ View Profile
 
 Event has finished
 
-March 28, 4:30 PM GMT
+4:30 PM - 5:30 PM GMT
+
+March 28, 2025
 
 Online
 
@@ -58,7 +64,9 @@ Common Sense](https://commonsense.org)
 
 Event has finished
 
-March 28, 4:30 PM GMT
+4:30 PM - 5:30 PM GMT
+
+March 28, 2025
 
 Online
 

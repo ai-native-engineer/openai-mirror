@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/visual-creation-with-chatgpt-and-sora-from-thumbnails-to-full-ai-generated-videos-2025-09-15 -->
+
 # Visual Creation with ChatGPT & Sora: From Thumbnails to Full AI-Generated Videos
 
 <!-- vimeo: 1116318357 | track: English (auto-generated) -->

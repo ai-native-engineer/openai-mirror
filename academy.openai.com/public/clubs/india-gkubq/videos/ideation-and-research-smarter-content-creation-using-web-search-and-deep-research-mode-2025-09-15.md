@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/ideation-and-research-smarter-content-creation-using-web-search-and-deep-research-mode-2025-09-15 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,11 +10,13 @@ Get Started
 
 # Ideation & Research: Smarter Content Creation Using Web Search & Deep Research Mode
 
-Posted Oct 15, 2025 | Views 1.5K
+Posted Oct 15, 2025 | Views 2.1K
 
 # Workplace & Business
 
 # Advanced & Builder Skills
+
+# Work
 
 # India
 
@@ -38,11 +40,11 @@ Whether you’re a content creator, marketer, or digital entrepreneur, this chap
 
 ## Watch More
 
-[5:06](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04)
+[5:06](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04)
 
-[ChatGPT for Research: Web Search, Deep Research & Code](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04)
+[ChatGPT for Research: Web Search, Deep Research & Code](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-2025-06-04)
 
-Posted Jun 05, 2025 | Views 2.8K
+Posted Jun 05, 2025 | Views 3.8K
 
 # Educators & Students
 
@@ -54,11 +56,11 @@ Posted Jun 05, 2025 | Views 2.8K
 
 # India
 
-[7:24](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
+[7:24](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
 
-[ChatGPT for Research: Web Search, Deep Research & Code (Hindi)](/en/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
+[ChatGPT for Research: Web Search, Deep Research & Code (Hindi)](/public/videos/chatgpt-for-research-web-search-deep-research-and-code-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1.3K
+Posted Jun 05, 2025 | Views 1.6K
 
 # Educators & Students
 
@@ -70,14 +72,20 @@ Posted Jun 05, 2025 | Views 1.3K
 
 # India; Hindi
 
-[9:44](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[9:44](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/en/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
+[Basics of ChatGPT: Voice Mode, Video Calls & Effective Prompting for Beginners](/public/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04)
 
-Posted Jun 05, 2025 | Views 10K
+Posted Jun 05, 2025 | Views 11.2K
 
 # General Learners
 
 # Advanced & Builder Skills
 
+# Work
+
 # India
+
+<!-- vimeo: 1116317843 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1116317843)

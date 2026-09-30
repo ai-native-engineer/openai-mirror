@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/basics-of-chatgpt-voice-mode-video-calls-and-effective-prompting-for-beginners-2025-06-04 -->
+
 # Episode 01 - Eng (1)
 
 <!-- vimeo: 1091092231 | track: English (auto-generated) -->

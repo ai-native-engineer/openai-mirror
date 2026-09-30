@@ -4,13 +4,15 @@
 
 LIVESTREAM
 
-5:30 AM - 6:30 AM GMT
+5:00 PM - 6:00 PM GMT
 
 August 20, 2026
 
 # AI for Government Admin, Executive Secretaries, and Critical Support Roles
 
-Register
+[Replay](https://academy.openai.com/home/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
+Government runs on the people who coordinate priorities, prepare leaders, and keep critical work moving. Join OpenAI’s Amanda Bullock and Hillary Washington for a practical session exploring how administrative professionals, executive secretaries, and critical support teams can use AI to strengthen their everyday work.
 
 ## Speakers
 
@@ -30,26 +32,34 @@ Executive Ops @ OpenAI
 
 View Profile
 
-Live in 12 days
+Event has finished
 
-5:30 AM - 6:30 AM GMT
-
-August 20, 2026
-
-Online
-
-![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
-
-Register
-
-Live in 12 days
-
-5:30 AM - 6:30 AM GMT
+5:00 PM - 6:00 PM GMT
 
 August 20, 2026
 
 Online
 
+Organized by
+
 ![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
 
-Register
+OpenAI Academy
+
+[Replay](https://academy.openai.com/home/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)
+
+Event has finished
+
+5:00 PM - 6:00 PM GMT
+
+August 20, 2026
+
+Online
+
+Organized by
+
+![user's Avatar](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OpenAI-black-monoblossom-743de6c6-b680-4334-8cd5-fee30f7a2202-1739890376705.png?fit=scale-down&width=128)
+
+OpenAI Academy
+
+[Replay](https://academy.openai.com/home/videos/ai-for-government-admin-executive-secretaries-and-critical-support-roles-replay)

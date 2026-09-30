@@ -171,7 +171,7 @@ Turns a long job description into plain language and pulls out key tasks and ski
 > Please explain this job in simple words at about a 6th grade reading level and list the top 5 tasks and top 5 skills.
 > Here is the job description: [PASTE JOB DESCRIPTION HERE]”*
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=I%E2%80%99m%20working%20with%20a%20job%20seeker%20who%20has%20a%20hard%20time%20reading%20long%20job%20descriptions.%0A%20Please%20explain%20this%20job%20in%20simple%20words%20at%20about%20a%206th%20grade%20reading%20level%20and%20list%20the%20top%205%20tasks%20and%20top%205%20skills.%0A%20Here%20is%20the%20job%20description:%20%5BPASTE%20JOB%20DESCRIPTION%20HERE%5D)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=I%E2%80%99m%20working%20with%20a%20job%20seeker%20who%20has%20a%20hard%20time%20reading%20long%20job%20descriptions.%0A%20Please%20explain%20this%20job%20in%20simple%20words%20at%20about%20a%206th%20grade%20reading%20level%20and%20list%20the%20top%205%20tasks%20and%20top%205%20skills.%0A%20Here%20is%20the%20job%20description:%20%5BPASTE%20JOB%20DESCRIPTION%20HERE%5D)﻿
 
 ---
 
@@ -187,7 +187,7 @@ Connects messy client notes (paid, unpaid, home, volunteer) to the main tasks an
 > Use simple language at a 6th–8th grade reading level.
 > Here is the job description: [PASTE JOB DESCRIPTION HERE]”*
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CLook%20at%20the%20job%20description%20below%20and%20list%205%20key%20tasks%20or%20skills%20the%20job%20needs.%0A%20I%20will%20then%20paste%20notes%20about%20my%20client%E2%80%99s%20experience.%0A%20Use%20simple%20language%20at%20a%206th%E2%80%938th%20grade%20reading%20level.%0A%20Here%20is%20the%20job%20description:%20%5BPASTE%20JOB%20DESCRIPTION%20HERE%5D%E2%80%9D)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CLook%20at%20the%20job%20description%20below%20and%20list%205%20key%20tasks%20or%20skills%20the%20job%20needs.%0A%20I%20will%20then%20paste%20notes%20about%20my%20client%E2%80%99s%20experience.%0A%20Use%20simple%20language%20at%20a%206th%E2%80%938th%20grade%20reading%20level.%0A%20Here%20is%20the%20job%20description:%20%5BPASTE%20JOB%20DESCRIPTION%20HERE%5D%E2%80%9D)﻿
 
 Then follow with:
 
@@ -195,7 +195,7 @@ Then follow with:
 > [PASTE CLIENT NOTES HERE]
 > Please match each note to one of the job’s tasks or skills and explain the match in one simple sentence.”*
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CHere%20are%20my%20client%E2%80%99s%20notes%20about%20their%20experience%3A%0A%20%5BPASTE%20CLIENT%20NOTES%20HERE%5D%0A%20Please%20match%20each%20note%20to%20one%20of%20the%20job%E2%80%99s%20tasks%20or%20skills%20and%20explain%20the%20match%20in%20one%20simple%20sentence.%E2%80%9D)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CHere%20are%20my%20client%E2%80%99s%20notes%20about%20their%20experience%3A%0A%20%5BPASTE%20CLIENT%20NOTES%20HERE%5D%0A%20Please%20match%20each%20note%20to%20one%20of%20the%20job%E2%80%99s%20tasks%20or%20skills%20and%20explain%20the%20match%20in%20one%20simple%20sentence.%E2%80%9D)﻿
 
 ---
 
@@ -211,7 +211,7 @@ Turns client notes into 3–5 short, targeted resume bullets.
 
 *(If you haven’t run prompt #2 first, you can instead paste raw notes and say: “Based on these notes, write 4 resume bullets for a warehouse job…”)*
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=Please%20turn%20these%20notes%20into%204%20resume%20bullets%20for%20this%20job.%0A%20Each%20bullet%20should%20start%20with%20an%20action%20verb%2C%20say%20what%20they%20did%2C%20include%20one%20simple%20result%20if%20possible%2C%20and%20stay%20at%20a%206th%E2%80%938th%20grade%20reading%20level)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=Please%20turn%20these%20notes%20into%204%20resume%20bullets%20for%20this%20job.%0A%20Each%20bullet%20should%20start%20with%20an%20action%20verb%2C%20say%20what%20they%20did%2C%20include%20one%20simple%20result%20if%20possible%2C%20and%20stay%20at%20a%206th%E2%80%938th%20grade%20reading%20level)﻿
 
 ---
 
@@ -229,7 +229,7 @@ Takes a general answer and adjusts it for a new but similar job.
 
 **﻿**
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=Here%20is%20my%20client%E2%80%99s%20general%20answer%20to%20%E2%80%98Why%20are%20you%20a%20good%20fit%20for%20this%20warehouse%20job%3F%E2%80%99%0A%20%5BPASTE%20ORIGINAL%20ANSWER%20HERE%5D%0A%20Now%20I%E2%80%99ll%20paste%20a%20new%20job%20description.%0A%20Please%20keep%20the%20important%20facts%2C%20adjust%20the%20details%20to%20match%20the%20new%20job%2C%20and%20mention%202%E2%80%933%20key%20tasks%20or%20skills%20from%20the%20description)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=Here%20is%20my%20client%E2%80%99s%20general%20answer%20to%20%E2%80%98Why%20are%20you%20a%20good%20fit%20for%20this%20warehouse%20job%3F%E2%80%99%0A%20%5BPASTE%20ORIGINAL%20ANSWER%20HERE%5D%0A%20Now%20I%E2%80%99ll%20paste%20a%20new%20job%20description.%0A%20Please%20keep%20the%20important%20facts%2C%20adjust%20the%20details%20to%20match%20the%20new%20job%2C%20and%20mention%202%E2%80%933%20key%20tasks%20or%20skills%20from%20the%20description)﻿
 
 ---
 
@@ -246,7 +246,7 @@ Drafts a short, positive explanation of a work gap plus a simple interview scrip
 > Now ready for: [full-time/part-time]
 > Please write (1) a 2–3 sentence application answer and (2) a short interview script the client can say.”*
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=Help%20me%20explain%20a%20work%20gap%20in%20a%20simple%2C%20respectful%20way%20for%20a%20job%20application.%0A%20Reason%20for%20gap%3A%20%5BPASTE%20REASON%5D%0A%20Time%20out%20of%20work%3A%20%5BX%20months%2Fyears%5D%0A%20Now%20ready%20for%3A%20%5Bfull-time%2Fpart-time%5D%0A%20Please%20write%20%281%29%20a%202%E2%80%933%20sentence%20application%20answer%20and%20%282%29%20a%20short%20interview%20script%20the%20client%20can%20say)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=Help%20me%20explain%20a%20work%20gap%20in%20a%20simple%2C%20respectful%20way%20for%20a%20job%20application.%0A%20Reason%20for%20gap%3A%20%5BPASTE%20REASON%5D%0A%20Time%20out%20of%20work%3A%20%5BX%20months%2Fyears%5D%0A%20Now%20ready%20for%3A%20%5Bfull-time%2Fpart-time%5D%0A%20Please%20write%20%281%29%20a%202%E2%80%933%20sentence%20application%20answer%20and%20%282%29%20a%20short%20interview%20script%20the%20client%20can%20say)﻿
 
 ---
 
@@ -262,7 +262,7 @@ Creates a 3‑question mock interview with simple feedback after each answer.
 > After each answer, give me one thing I did well and two ways to make it stronger.
 > Keep questions short and use simple language.”
 
-﻿[**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CAct%20as%20a%20friendly%20hiring%20manager%20for%20an%20entry-level%20warehouse%20job.%0A%20Ask%20me%203%20interview%20questions%2C%20one%20at%20a%20time.%0A%20After%20each%20answer%2C%20give%20me%20one%20thing%20I%20did%20well%20and%20two%20ways%20to%20make%20it%20stronger.%0A%20Keep%20questions%20short%20and%20use%20simple%20language.%E2%80%9D)﻿
+﻿ [**Try it in ChatGPT**](https://chatgpt.com/?prompt=%E2%80%9CAct%20as%20a%20friendly%20hiring%20manager%20for%20an%20entry-level%20warehouse%20job.%0A%20Ask%20me%203%20interview%20questions%2C%20one%20at%20a%20time.%0A%20After%20each%20answer%2C%20give%20me%20one%20thing%20I%20did%20well%20and%20two%20ways%20to%20make%20it%20stronger.%0A%20Keep%20questions%20short%20and%20use%20simple%20language.%E2%80%9D)﻿
 
 ---
 
@@ -270,70 +270,56 @@ Creates a 3‑question mock interview with simple feedback after each answer.
 
 Thanks for using this guide. We hope these tools make it easier to support job seekers with clear, confident coaching while keeping you— the human expert—at the center.
 
-Table Of Contents
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for product](/public/clubs/work-users-ynjqu/resources/use-cases-product)
 
-[ChatGPT for product](/en/public/clubs/work-users-ynjqu/resources/use-cases-product)
+[Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
 
-[5:47](/en/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
-
-Video
-
-[Job Fransen (EHR 225: Growth, Motor Development and Aging)](/en/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
-
-Aug 1st, 2025 • Views 249
-
-[13:04](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-repurposing-content-with-chatgpt-2025-07-15)
-
-Video
-
-[AI for Nonprofits: Repurposing Content with ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-repurposing-content-with-chatgpt-2025-07-15)
-
-By Kyle Behrend • Jul 17th, 2025 • Views 2K
-
-[57:50](/en/public/clubs/nonprofits-8kc1e/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
-
-Video
-
-[Nonprofit Year-End Sprint with ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
-
-By Rich Leimsider • Nov 14th, 2025 • Views 1.9K
+By Laura Keenan • Sep 1st, 2026 • Views 245
 
 Blog
 
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/en/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
 
-May 8th, 2026 • Views 1.1K
+Sep 4th, 2026 • Views 458
 
-[5:47](/en/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
-
-Video
-
-[Job Fransen (EHR 225: Growth, Motor Development and Aging)](/en/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
-
-Aug 1st, 2025 • Views 249
-
-[57:50](/en/public/clubs/nonprofits-8kc1e/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
+[5:47](/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
 
 Video
 
-[Nonprofit Year-End Sprint with ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
+[Job Fransen (EHR 225: Growth, Motor Development and Aging)](/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
 
-By Rich Leimsider • Nov 14th, 2025 • Views 1.9K
+Aug 1st, 2025 • Views 472
 
 Blog
 
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/en/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+[Turning handwritten notes into proposals with ChatGPT](/public/blogs/turning-handwritten-notes-into-proposals-with-chatgpt-2026-09-22)
 
-May 8th, 2026 • Views 1.1K
+Sep 23rd, 2026 • Views 198
 
-[13:04](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-repurposing-content-with-chatgpt-2025-07-15)
+[Visualizing Disaster Response with ChatGPT](/public/clubs/government/resources/visualizing-disaster-response-with-chatgpt)
+
+By Laura Keenan • Sep 1st, 2026 • Views 245
+
+[5:47](/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
 
 Video
 
-[AI for Nonprofits: Repurposing Content with ChatGPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-repurposing-content-with-chatgpt-2025-07-15)
+[Job Fransen (EHR 225: Growth, Motor Development and Aging)](/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)
 
-By Kyle Behrend • Jul 17th, 2025 • Views 2K
+Aug 1st, 2025 • Views 472
+
+Blog
+
+[Turning handwritten notes into proposals with ChatGPT](/public/blogs/turning-handwritten-notes-into-proposals-with-chatgpt-2026-09-22)
+
+Sep 23rd, 2026 • Views 198
+
+Blog
+
+[Making websites easier to read with ChatGPT](/public/blogs/making-websites-easier-to-read-with-chatgpt-2026-09-04)
+
+Sep 4th, 2026 • Views 458

@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/technical-editor-gpt -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Prompt Packs
 
 June 30, 2026
@@ -13,6 +17,8 @@ June 30, 2026
 # OpenAI for Government
 
 # Govtech
+
+# Government
 
 # Procurement
 
@@ -216,30 +222,70 @@ That’s not cutting corners.
 
 That’s operational discipline.
 
+Like
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+External Content
+
+[Providing ChatGPT to the entire U.S. federal workforce](/public/clubs/government/externals/providing-chatgpt-to-the-entire-us-federal-workforce-2025-08-08)
+
+[32:40](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+Video
+
+[ChatGPT 101 for Legislative IT Professionals](/public/clubs/government/videos/chatgpt-101-for-legislative-it-professionals-2026-09-18)
+
+By Lee Dunn
+
+Blog
+
 [Build a Custom GPT That Catches What You Miss](/public/clubs/government/blogs/custom-gpt)
 
-Jun 23rd, 2026 • Views 11
+Jun 23rd, 2026 • Views 100
 
-[Before DC wakes up: A fictional tourism campaign case study](/public/clubs/government/blogs/before-dc-wakes-up-a-fictional-tourism-campaign-case-study)
+Blog
 
-By Laura Keenan • Sep 9th, 2026 • Views 19
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+By Laura Keenan • Sep 22nd, 2026 • Views 64
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+Blog
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 70
+
+Blog
+
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
 
 [Build a Custom GPT That Catches What You Miss](/public/clubs/government/blogs/custom-gpt)
 
-Jun 23rd, 2026 • Views 11
+Jun 23rd, 2026 • Views 100
 
-By Amanda Bullock • Sep 10th, 2026 • Views 20
+Blog
 
-[Expanding AI Access for Public Servants](/public/clubs/government/blogs/expanding-ai-access-for-public-servants)
+[Army — Mechanical Maintenance Prompt Pack](/public/clubs/government/blogs/army-mechanical-maintenance-prompt-pack)
 
-By Alexis Bonnell • Sep 10th, 2026 • Views 40
+By Laura Keenan • Sep 22nd, 2026 • Views 70
 
-[Before DC wakes up: A fictional tourism campaign case study](/public/clubs/government/blogs/before-dc-wakes-up-a-fictional-tourism-campaign-case-study)
+Blog
 
-By Laura Keenan • Sep 9th, 2026 • Views 19
+[Army — Transportation Prompt Pack](/public/clubs/government/blogs/army-transportation-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 39
+
+Blog
+
+[Army — Supply and Services Prompt Pack](/public/clubs/government/blogs/army-supply-and-services-prompt-pack)
+
+By Laura Keenan • Sep 22nd, 2026 • Views 64

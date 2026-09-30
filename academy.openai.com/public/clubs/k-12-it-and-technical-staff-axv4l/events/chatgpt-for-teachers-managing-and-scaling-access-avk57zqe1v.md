@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/clubs/k-12-it-and-technical-staff-axv4l/events/chatgpt-for-teachers-managing-and-scaling-access-avk57zqe1v -->
 
-[K-12 IT & Technical Staff](/en/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
+[K-12 IT & Technical Staff](/public/clubs/k-12-it-and-technical-staff-axv4l/overview)
 
-[navigation.events](/en/public/clubs/k-12-it-and-technical-staff-axv4l/events)
+[navigation.events](/public/clubs/k-12-it-and-technical-staff-axv4l/events)
 
 ![ChatGPT for Teachers: Managing and Scaling Access](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/OAI-Template-Background-10-e95b5c46-c2d3-40a7-ac1d-97544fa4e069-1769711196899.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+2:00 PM - 3:00 PM GMT
+
+March 18, 2026
 
 # ChatGPT for Teachers: Managing and Scaling Access
 
@@ -22,7 +26,9 @@ Join us for a follow-up session for U.S. K-12 district IT and technical leaders,
 
 Event has finished
 
-March 18, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+March 18, 2026
 
 Online
 
@@ -36,7 +42,9 @@ OpenAI Academy
 
 Event has finished
 
-March 18, 2:00 PM GMT
+2:00 PM - 3:00 PM GMT
+
+March 18, 2026
 
 Online
 

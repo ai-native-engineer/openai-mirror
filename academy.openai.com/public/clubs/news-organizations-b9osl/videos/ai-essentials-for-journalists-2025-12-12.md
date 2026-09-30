@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12 -->
+
 # AI Essentials for Journalists
 
 <!-- vimeo: 1144997203 | track: English (auto-generated) -->

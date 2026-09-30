@@ -1,27 +1,6 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/events/chatgpt-for-visual-storytelling-ot4ewkh168 -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
-[Communities](/home/clubs)
-
-/
-
 [News Organizations](/public/clubs/news-organizations-b9osl/overview)
-
-/
 
 [navigation.events](/public/clubs/news-organizations-b9osl/events)
 
@@ -35,9 +14,7 @@ September 24, 2026
 
 # ChatGPT For Visual Storytelling
 
-Register
-
-# ChatGPT
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
 # ChatGPT for Work
 
@@ -81,7 +58,7 @@ OpenAI for News @ OpenAI
 
 View Profile
 
-Live in 22 days 3 hours
+Event has finished
 
 4:00 PM - 4:30 PM GMT
 
@@ -93,11 +70,9 @@ Organized by
 
 News Organizations
 
-Register
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-Add to calendar
-
-Live in 22 days 3 hours
+Event has finished
 
 4:00 PM - 4:30 PM GMT
 
@@ -109,6 +84,4 @@ Organized by
 
 News Organizations
 
-Register
-
-Add to calendar
+[Replay](https://academy.openai.com/home/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)

@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/turn-readings-and-notes-into-study-materials-2026-05-18 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -46,7 +46,7 @@ That saves time on extraction and gives you more time to focus on interpretation
 | --- |
 | I’ve uploaded a course reading.  1. Summarize the main argument in 5 to 6 bullet points.  2. Define any key terms mentioned.  3. Suggest 3 possible essay or exam questions this material could support.  If anything in the document is unclear or contradictory, point it out. |
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=I%E2%80%99ve%20uploaded%20a%20course%20reading.%0A1.%20Summarize%20the%20main%20argument%20in%205%20to%206%20bullet%20points.%0A2.%20Define%20any%20key%20terms%20mentioned.%0A3.%20Suggest%203%20possible%20essay%20or%20exam%20questions%20this%20material%20could%20support.%0AIf%20anything%20in%20the%20document%20is%20unclear%20or%20contradictory%2C%20point%20it%20out.)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=I%E2%80%99ve%20uploaded%20a%20course%20reading.%0A1.%20Summarize%20the%20main%20argument%20in%205%20to%206%20bullet%20points.%0A2.%20Define%20any%20key%20terms%20mentioned.%0A3.%20Suggest%203%20possible%20essay%20or%20exam%20questions%20this%20material%20could%20support.%0AIf%20anything%20in%20the%20document%20is%20unclear%20or%20contradictory%2C%20point%20it%20out.)﻿
 
 ## Try This Prompt for Notes or a Whiteboard Photo
 
@@ -54,7 +54,7 @@ That saves time on extraction and gives you more time to focus on interpretation
 | --- |
 | I uploaded a photo of a whiteboard from today’s class.  1. Explain what’s on the board in plain English, assuming I missed one step.  2. Rewrite the key ideas as a clean set of notes with headings.  3. Create 5 practice questions: 2 easy, 2 medium, and 1 hard.  4. Tell me what I should review next if I got the hard question wrong. |
 
-﻿[Try in ChatGPT Now](https://chatgpt.com/?q=I%20uploaded%20a%20photo%20of%20a%20whiteboard%20from%20today%E2%80%99s%20class.%0A1.%20Explain%20what%E2%80%99s%20on%20the%20board%20in%20plain%20English%2C%20assuming%20I%20missed%20one%20step.%0A2.%20Rewrite%20the%20key%20ideas%20as%20a%20clean%20set%20of%20notes%20with%20headings.%0A3.%20Create%205%20practice%20questions%3A%202%20easy%2C%202%20medium%2C%20and%201%20hard.%0A4.%20Tell%20me%20what%20I%20should%20review%20next%20if%20I%20got%20the%20hard%20question%20wrong.)﻿
+﻿ [Try in ChatGPT Now](https://chatgpt.com/?q=I%20uploaded%20a%20photo%20of%20a%20whiteboard%20from%20today%E2%80%99s%20class.%0A1.%20Explain%20what%E2%80%99s%20on%20the%20board%20in%20plain%20English%2C%20assuming%20I%20missed%20one%20step.%0A2.%20Rewrite%20the%20key%20ideas%20as%20a%20clean%20set%20of%20notes%20with%20headings.%0A3.%20Create%205%20practice%20questions%3A%202%20easy%2C%202%20medium%2C%20and%201%20hard.%0A4.%20Tell%20me%20what%20I%20should%20review%20next%20if%20I%20got%20the%20hard%20question%20wrong.)﻿
 
 ## What Good Looks Like
 
@@ -112,58 +112,70 @@ This workflow is best used to support studying and comprehension. It should not 
 
 Once you have the material organized, the next step may be active learning. Ask ChatGPT to quiz you, challenge your answers, and adapt based on what you get wrong.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Turn Files Into Decision-Ready Insight](/public/clubs/higher-education-05x4z/blogs/turn-files-into-decision-ready-insight-2026-05-19)
+
+May 19th, 2026 • Views 455
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
 
 Blog
 
-[Turn Files Into Decision-Ready Insight](/en/public/clubs/higher-education-05x4z/blogs/turn-files-into-decision-ready-insight-2026-05-19)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-May 19th, 2026 • Views 35
+Aug 4th, 2026 • Views 1.6K
 
-Blog
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+Video
 
-May 20th, 2026 • Views 334
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Jul 8th, 2026 • Views 510
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Turn Files Into Decision-Ready Insight](/public/clubs/higher-education-05x4z/blogs/turn-files-into-decision-ready-insight-2026-05-19)
 
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Turn Files Into Decision-Ready Insight](/en/public/clubs/higher-education-05x4z/blogs/turn-files-into-decision-ready-insight-2026-05-19)
-
-May 19th, 2026 • Views 35
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+May 19th, 2026 • Views 455
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
-Jun 2nd, 2026 • Views 358
+Aug 4th, 2026 • Views 1.6K
 
-Blog
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+Video
 
-May 20th, 2026 • Views 334
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Jul 8th, 2026 • Views 510
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K

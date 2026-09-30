@@ -24,44 +24,44 @@ Amanda Bullock
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Tasks-Use-Cases-515f4fb1-d6b4-4686-a567-293155fcee76-1771982889656.pdf) the file to view.
 
-Table Of Contents
-
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
-
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
-
-[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/en/public/resources/govt-prompt-pack-for-leaders)
+[ChatGPT for Government 102](/public/resources/chatgpt-for-government-102-11-25)
 
 By David Sperry
 
-[ChatGPT for Government 101 Resource Guide](/en/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-By Bryan Petzold • Oct 14th, 2025 • Views 3.8K
+[Unlocking ChatGPT for Government: A Prompt-Pack for Leaders](/public/resources/govt-prompt-pack-for-leaders)
 
-[ChatGPT for Government 102](/en/public/resources/chatgpt-for-government-102-11-25)
+By David Sperry
 
-By David Sperry • Nov 8th, 2025 • Views 3.2K
+[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
 
-[ChatGPT for Government 101](/en/public/resources/chatgpt-for-government-101-2025-10-18)
+By Amanda Bullock • Aug 19th, 2026 • Views 92
 
-By Bryan Petzold • Oct 18th, 2025 • Views 6.4K
+[ChatGPT for Government 101](/public/resources/chatgpt-for-government-101-2025-10-18)
 
-[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/en/public/resources/govt-prompt-pack-for-analysts)
+By Bryan Petzold • Oct 18th, 2025 • Views 7.6K
 
-By David Sperry • Jul 19th, 2025 • Views 12.4K
+[ChatGPT for Government 101 Resource Guide](/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
 
-[ChatGPT for Government 101 Resource Guide](/en/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
+By Bryan Petzold • Oct 14th, 2025 • Views 4.1K
 
-By Bryan Petzold • Oct 14th, 2025 • Views 3.8K
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/resources/govt-prompt-pack-for-analysts)
 
-[ChatGPT for Government 101](/en/public/resources/chatgpt-for-government-101-2025-10-18)
+By David Sperry • Jul 19th, 2025 • Views 13K
 
-By Bryan Petzold • Oct 18th, 2025 • Views 6.4K
+[ChatGPT Enterprise for Government Administrative Professionals](/public/clubs/government/resources/chatgpt-enterprise-government-administrative-professionals)
 
-[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/en/public/resources/govt-prompt-pack-for-analysts)
+By Amanda Bullock • Aug 19th, 2026 • Views 92
 
-By David Sperry • Jul 19th, 2025 • Views 12.4K
+[ChatGPT for Government 101 Resource Guide](/public/resources/chatgpt-for-government-101-resource-guide-2025-10-14)
 
-[ChatGPT for Government 102](/en/public/resources/chatgpt-for-government-102-11-25)
+By Bryan Petzold • Oct 14th, 2025 • Views 4.1K
 
-By David Sperry • Nov 8th, 2025 • Views 3.2K
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/resources/govt-prompt-pack-for-analysts)
+
+By David Sperry • Jul 19th, 2025 • Views 13K
+
+[ChatGPT for Government 101](/public/resources/chatgpt-for-government-101-2025-10-18)
+
+By Bryan Petzold • Oct 18th, 2025 • Views 7.6K

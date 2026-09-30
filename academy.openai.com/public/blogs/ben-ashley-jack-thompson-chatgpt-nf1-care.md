@@ -1,5 +1,7 @@
 <!-- source: https://academy.openai.com/public/blogs/ben-ashley-jack-thompson-chatgpt-nf1-care -->
 
+Article
+
 August 5, 2026
 
 # How ChatGPT helped Ben and Ashley Thompson advocate for their son Jack
@@ -28,38 +30,56 @@ External Content
 
 [ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
+Blog
+
 [How ChatGPT helps Ted and Tami Taylor run three New Mexico restaurants](/public/blogs/ted-tami-taylor-chatgpt-new-mexico-restaurants)
 
 [ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[How ChatGPT helped Jason Aten recognize a medical emergency](/public/blogs/jason-aten-chatgpt-heart-failure)
-
-Aug 6th, 2026 • Views 10
-
-[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
-
-Feb 5th, 2026 • Views 2.6K
-
-[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
-
-Apr 10th, 2026 • Views 1.9K
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 33
+Blog
 
 [How ChatGPT helped Jason Aten recognize a medical emergency](/public/blogs/jason-aten-chatgpt-heart-failure)
 
-Aug 6th, 2026 • Views 10
+Aug 6th, 2026 • Views 209
 
-[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
-
-Apr 10th, 2026 • Views 1.9K
-
-[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
-
-Aug 5th, 2026 • Views 33
+Blog
 
 [How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
 
-Feb 5th, 2026 • Views 2.6K
+Feb 5th, 2026 • Views 3K
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310
+
+Blog
+
+[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
+
+Apr 10th, 2026 • Views 3.5K
+
+Blog
+
+[How ChatGPT helped Jason Aten recognize a medical emergency](/public/blogs/jason-aten-chatgpt-heart-failure)
+
+Aug 6th, 2026 • Views 209
+
+Blog
+
+[How pastor Ben Palka uses ChatGPT to to deepen human connections](/public/blogs/ben-palka-chatgpt-sermons-community)
+
+Aug 5th, 2026 • Views 310
+
+Blog
+
+[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
+
+Apr 10th, 2026 • Views 3.5K
+
+Blog
+
+[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+
+Feb 5th, 2026 • Views 3K

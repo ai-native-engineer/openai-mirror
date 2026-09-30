@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -42,7 +42,7 @@ For Higher Ed staff, the main value is consistency. A well-set-up Project can ke
 | --- |
 | Project title: Spring Enrollment Planning  ﻿  Project instruction:  You are my university administrative strategy partner. Maintain a professional, plain-language tone. Prefer bullets, headings, and short paragraphs.  ﻿  When I ask for outputs, produce:  1. An executive summary  2. Recommended actions  3. Risks and assumptions  4. A version that can be reused as an email or memo  ﻿  Ask clarifying questions only if missing information would materially change the recommendation. |
 
-﻿[Try this in ChatGPT](https://chatgpt.com/?q=Project%20title%3A%20Spring%20Enrollment%20Planning%0A%0AProject%20instruction%3A%0AYou%20are%20my%20university%20administrative%20strategy%20partner.%20Maintain%20a%20professional%2C%20plain-language%20tone.%20Prefer%20bullets%2C%20headings%2C%20and%20short%20paragraphs.%0A%0AWhen%20I%20ask%20for%20outputs%2C%20produce%3A%0A1.%20An%20executive%20summary%0A2.%20Recommended%20actions%0A3.%20Risks%20and%20assumptions%0A4.%20A%20version%20that%20can%20be%20reused%20as%20an%20email%20or%20memo%0A%0AAsk%20clarifying%20questions%20only%20if%20missing%20information%20would%20materially%20change%20the%20recommendation.)﻿
+﻿ [Try this in ChatGPT](https://chatgpt.com/?q=Project%20title%3A%20Spring%20Enrollment%20Planning%0A%0AProject%20instruction%3A%0AYou%20are%20my%20university%20administrative%20strategy%20partner.%20Maintain%20a%20professional%2C%20plain-language%20tone.%20Prefer%20bullets%2C%20headings%2C%20and%20short%20paragraphs.%0A%0AWhen%20I%20ask%20for%20outputs%2C%20produce%3A%0A1.%20An%20executive%20summary%0A2.%20Recommended%20actions%0A3.%20Risks%20and%20assumptions%0A4.%20A%20version%20that%20can%20be%20reused%20as%20an%20email%20or%20memo%0A%0AAsk%20clarifying%20questions%20only%20if%20missing%20information%20would%20materially%20change%20the%20recommendation.)﻿
 
 ## What Good Looks Like
 
@@ -74,62 +74,62 @@ After the Project is set up, upload a representative file or dataset and ask Cha
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
 
 By Siya Raj Purohit
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+Blog
 
-By Juliann Igo
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian
+[Use the College Student Plugin to Create Interactive Study Materials for Your Courses](/public/clubs/higher-education-05x4z/blogs/college-student-plugin-interactive-study-materials)
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
-
-May 19th, 2026 • Views 99
+[Use the College Educator Plugin to Create Instructional Materials for Your Classes](/public/clubs/higher-education-05x4z/blogs/college-educator-plugin-instructional-materials)
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
-
-Blog
-
-[Plan for Exams, Assignments, and Group Projects](/en/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
-
-May 18th, 2026 • Views 62
+May 19th, 2026 • Views 706
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
-May 20th, 2026 • Views 334
-
-Blog
-
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
-
-May 19th, 2026 • Views 99
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K
 
 Blog
 
-[Plan for Exams, Assignments, and Group Projects](/en/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
-May 18th, 2026 • Views 62
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+May 20th, 2026 • Views 1.4K
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[Plan for Exams, Assignments, and Group Projects](/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
 
-By Siya Raj Purohit • Aug 13th, 2025 • Views 4.4K
+May 18th, 2026 • Views 504
+
+Blog
+
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+
+May 19th, 2026 • Views 706
+
+Blog
+
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+
+May 20th, 2026 • Views 1.4K
+
+Blog
+
+[Plan for Exams, Assignments, and Group Projects](/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18)
+
+May 18th, 2026 • Views 504
+
+Blog
+
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+
+By Siya Raj Purohit • Aug 13th, 2025 • Views 5.1K

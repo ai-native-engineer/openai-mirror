@@ -29,68 +29,68 @@ Sophomore year has brought confidence. “I use [ChatGPT] beyond every day,” h
 Micah’s north star is public service. He’s dreamt of working in law enforcement, ideally the FBI, since he was a boy. That tracks with the rest of his interests: detective thrillers, crossword puzzles, and solving brain teasers in his spare time.
 For students with a broad skillset, Micah’s playbook is simple: keep the core story the same, but let ChatGPT help prioritize the experiences to surface.
 
-[4:23](/en/public/videos/chatgpt-projects-2025-02-13)
+[4:23](/public/videos/chatgpt-projects-2025-02-13)
 
 Video
 
-[ChatGPT Projects](/en/public/videos/chatgpt-projects-2025-02-13)
+[ChatGPT Projects](/public/videos/chatgpt-projects-2025-02-13)
 
-[9:13](/en/public/videos/chatgpt-and-reasoning-2025-02-13)
-
-Video
-
-[ChatGPT & Reasoning](/en/public/videos/chatgpt-and-reasoning-2025-02-13)
-
-[8:10](/en/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
+[9:13](/public/videos/chatgpt-and-reasoning-2025-02-13)
 
 Video
 
-[ChatGPT for Writing & Coding](/en/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
+[ChatGPT & Reasoning](/public/videos/chatgpt-and-reasoning-2025-02-13)
+
+[8:10](/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
+
+Video
+
+[ChatGPT for Writing & Coding](/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
 
 Blog
 
-[Two weeks to sell out, one AI playbook](/en/public/blogs/two-weeks-to-sell-out-one-ai-playbook)
+[Two weeks to sell out, one AI playbook](/public/blogs/two-weeks-to-sell-out-one-ai-playbook)
 
-Jan 5th, 2026 • Views 987
-
-Blog
-
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
-
-Mar 23rd, 2026 • Views 710
+Jan 5th, 2026 • Views 1.5K
 
 Blog
 
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/en/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
 
-May 8th, 2026 • Views 1.1K
-
-Blog
-
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/en/public/blogs/doreen-mayrell-chatgpt-algebra-support)
-
-Apr 28th, 2026 • Views 447
+Mar 23rd, 2026 • Views 1.1K
 
 Blog
 
-[Two weeks to sell out, one AI playbook](/en/public/blogs/two-weeks-to-sell-out-one-ai-playbook)
+[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
 
-Jan 5th, 2026 • Views 987
-
-Blog
-
-[Two Brothers Turn Drawings Into a Business With ChatGPT](/en/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
-
-May 8th, 2026 • Views 1.1K
+May 8th, 2026 • Views 2.3K
 
 Blog
 
-[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/en/public/blogs/doreen-mayrell-chatgpt-algebra-support)
+[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 447
+Apr 28th, 2026 • Views 1.1K
 
 Blog
 
-[How one general counsel uses ChatGPT to juggle tasks](/en/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+[Two weeks to sell out, one AI playbook](/public/blogs/two-weeks-to-sell-out-one-ai-playbook)
 
-Mar 23rd, 2026 • Views 710
+Jan 5th, 2026 • Views 1.5K
+
+Blog
+
+[Two Brothers Turn Drawings Into a Business With ChatGPT](/public/blogs/two-brothers-turn-drawings-into-a-business-with-chatgpt-2026-05-07)
+
+May 8th, 2026 • Views 2.3K
+
+Blog
+
+[How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
+
+Apr 28th, 2026 • Views 1.1K
+
+Blog
+
+[How one general counsel uses ChatGPT to juggle tasks](/public/blogs/how-one-general-counsel-uses-chatgpt-to-juggle-tasks-2026-03-23)
+
+Mar 23rd, 2026 • Views 1.1K

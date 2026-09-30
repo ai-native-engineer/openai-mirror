@@ -1,20 +1,5 @@
 <!-- source: https://academy.openai.com/public/blogs/marco-salsiccia-builds-accessible-apps-with-codex -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
 Article
 
 August 14, 2026
@@ -43,8 +28,6 @@ Codex also helped Salsiccia turn web applications and sites into products native
 
 Sight-centric iOS tools had kept Salsiccia from turning years of coding, product-design, and accessibility experience into native apps. Codex gave him an accessible development process he could steer from initial idea to release.
 
-## Popular
-
 [1:00:00](/public/videos/introduction-to-codex-2026-03-02)
 
 Video
@@ -52,6 +35,14 @@ Video
 [Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
 By Derrick Choi
+
+[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
+
+Video
+
+[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
+
+By Aaron Wilkowitz
 
 [1:03:00](/public/videos/evals-the-key-to-production-ready-ai-apps-2025-06-24)
 
@@ -61,29 +52,25 @@ Video
 
 By Haroon Choudery
 
-[50:34](/public/videos/intro-to-codex-april-09-2026)
+[3:44](/public/clubs/k-12-education-aacga/videos/connect-apps-with-chatgpt-for-teachers)
 
 Video
 
-[Intro to Codex (April 09, 2026)](/public/videos/intro-to-codex-april-09-2026)
+[Connect Apps with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/connect-apps-with-chatgpt-for-teachers)
 
-Dive in
+Sep 11th, 2026 • Views 89
 
-## Related
+Blog
+
+[How Codex voice mode helps Jeremy Rose keep coding with less pain](/public/blogs/jeremy-rose-codex-voice-mode-accessible-coding)
+
+Aug 5th, 2026 • Views 263
 
 Blog
 
 [GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 4th, 2026 • Views 522
-
-[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
-
-Video
-
-[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
-
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 35.1K
+Jun 4th, 2026 • Views 725
 
 [1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
@@ -91,19 +78,21 @@ Video
 
 [Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
-By Ryan Taylor • Mar 13th, 2026 • Views 48.3K
+By Ryan Taylor • Mar 13th, 2026 • Views 61.7K
 
-Blog
+[3:44](/public/clubs/k-12-education-aacga/videos/connect-apps-with-chatgpt-for-teachers)
 
-[How Codex voice mode helps Jeremy Rose keep coding with less pain](/public/blogs/jeremy-rose-codex-voice-mode-accessible-coding)
+Video
 
-Aug 5th, 2026 • Views 152
+[Connect Apps with ChatGPT for Teachers](/public/clubs/k-12-education-aacga/videos/connect-apps-with-chatgpt-for-teachers)
+
+Sep 11th, 2026 • Views 89
 
 Blog
 
 [GroundVue is making public meetings searchable with Codex](/public/blogs/groundvue-codex-searchable-public-meetings)
 
-Jun 4th, 2026 • Views 522
+Jun 4th, 2026 • Views 725
 
 [1:00:00](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
@@ -111,18 +100,10 @@ Video
 
 [Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
 
-By Ryan Taylor • Mar 13th, 2026 • Views 48.3K
+By Ryan Taylor • Mar 13th, 2026 • Views 61.7K
 
 Blog
 
 [How Codex voice mode helps Jeremy Rose keep coding with less pain](/public/blogs/jeremy-rose-codex-voice-mode-accessible-coding)
 
-Aug 5th, 2026 • Views 152
-
-[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
-
-Video
-
-[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
-
-By Aaron Wilkowitz • Apr 22nd, 2026 • Views 35.1K
+Aug 5th, 2026 • Views 263

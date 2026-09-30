@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 Sign in or Join the community to continue
 
@@ -10,7 +10,7 @@ Get Started
 
 # How to Automate Tasks with Custom GPTs (Hindi)
 
-Posted Jun 05, 2025 | Views 1.6K
+Posted Jun 05, 2025 | Views 1.9K
 
 # Educators & Students
 
@@ -41,11 +41,11 @@ Perfect if you're a student, teacher, content creator, or business owner, this e
 
 ## Watch More
 
-[4:56](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
+[4:56](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-[How to Automate Tasks with Custom GPTs](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
+[How to Automate Tasks with Custom GPTs](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-Posted Jun 05, 2025 | Views 4K
+Posted Jun 05, 2025 | Views 5K
 
 # Educators & Students
 
@@ -55,11 +55,11 @@ Posted Jun 05, 2025 | Views 4K
 
 # India
 
-[9:51](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[9:51](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-[Introduction to Agents (Hindi)](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[Introduction to Agents (Hindi)](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1K
+Posted Jun 05, 2025 | Views 1.7K
 
 # General Learners
 
@@ -71,11 +71,11 @@ Posted Jun 05, 2025 | Views 1K
 
 # India; Hindi
 
-[6:14](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[6:14](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-[How to Build AI Agents](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[How to Build AI Agents](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7K
 
 # Developers & Builders
 
@@ -85,4 +85,10 @@ Posted Jun 05, 2025 | Views 5.4K
 
 # Deployment & Adoption
 
+# Work
+
 # India
+
+<!-- vimeo: 1091257921 | track: none -->
+
+[▶ Watch on Vimeo](https://vimeo.com/1091257921)

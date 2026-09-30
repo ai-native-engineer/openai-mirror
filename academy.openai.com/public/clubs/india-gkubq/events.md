@@ -1,19 +1,19 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/events -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-Event
+Events
 
-3842 members
+3972 members
 
 India
 
 Join community
 
-[Overview](/en/public/clubs/india-gkubq/overview)
+[Overview](/public/clubs/india-gkubq/overview)
 
-[Events](/en/public/clubs/india-gkubq/events)
+[Events](/public/clubs/india-gkubq/events)
 
-[Content](/en/public/clubs/india-gkubq/content)
+[Content](/public/clubs/india-gkubq/content)
 
 AllUpcomingNowPast

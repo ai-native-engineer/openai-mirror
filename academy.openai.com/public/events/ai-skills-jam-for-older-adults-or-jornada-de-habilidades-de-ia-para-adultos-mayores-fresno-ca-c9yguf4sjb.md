@@ -12,13 +12,13 @@ September 16, 2026
 
 # AI Skills Jam for Older Adults / Jornada de habilidades de IA para adultos mayores: Fresno, CA
 
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
-
 Please join us on September 16th for a free, in-person learning experience designed to help older adults use ChatGPT confidently, safely, and practically. This workshop is hosted by OpenAI Academy in collaboration with Senior Planet from AARP and Fresno Economic Opportunities Commission.
 
-1. **Date:** September 16
-2. **Time:** 9:00am – 12:00pm PT (optional Q&A and practice time until 1:00pm)
-3. **Location:** Regency Event Center in Clovis, CA
+* **Date:** September 16
+
+* **Time:** 9:00am – 12:00pm PT (optional Q&A and practice time until 1:00pm)
+
+* **Location:** Regency Event Center in Clovis, CA
 
 **What is the AI Skills Jam for Older Adults?**
 
@@ -27,8 +27,11 @@ The AI Skills Jam for Older Adults is a nationwide, hands-on workshop that helps
 **Why attend?**
 
 1. **Free stuff!** Attendance to the Jam is free. We’ll provide breakfast, OpenAI swag, 12 months free of ChatGPT Plus, and we’ll send you home with a tasty sweet treat.
+
 2. **Hands-on practice:** Join usto learn how to use ChatGPT and get hands-on practice in a safe learning environment.
+
 3. **Beginners welcome:** No coding or technical background required. Participants will get a guided introduction to ChatGPT.
+
 4. **Learn from mentors and peers:** Get support from trained OpenAI facilitators and mentors, and learn alongside peers in your community.
 
 **How to Register:**
@@ -41,9 +44,11 @@ We can't wait to learn and jam with you!
 
 Acompáñenos el 16 de septiembre en una experiencia de aprendizaje gratuita y en persona, diseñada para ayudar a los adultos mayores a usar ChatGPT con confianza, seguridad y de manera práctica. Este taller es organizado por OpenAI Academy en colaboración con Senior Planet de AARP y Fresno Economic Opportunities Commission.
 
-1. **Fecha:** 16 de septiembre
-2. **Hora:** De 9:00 a. m. a 12:00 p. m., hora del Pacífico (sesión opcional de preguntas, respuestas y práctica hasta la 1:00 p. m.)
-3. **Lugar:** Regency Event Center en Clovis, California
+* **Fecha:** 16 de septiembre
+
+* **Hora:** De 9:00 a. m. a 12:00 p. m., hora del Pacífico (sesión opcional de preguntas, respuestas y práctica hasta la 1:00 p. m.)
+
+* **Lugar:** Regency Event Center en Clovis, California
 
 **¿Qué es la Jornada de Habilidades de IA para Adultos Mayores?**
 
@@ -51,10 +56,13 @@ La Jornada de Habilidades de IA para Adultos Mayores es un taller práctico que 
 
 **¿Por qué asistir?**
 
-1. **¡Beneficios gratuitos!** La asistencia a la jornada es gratuita. Ofreceremos desayuno, artículos promocionales de OpenAI y 12 meses gratis de ChatGPT Plus.
-2. **Práctica guiada:** Acompáñenos para aprender a usar ChatGPT y practicar en un entorno de aprendizaje seguro.
-3. **Principiantes bienvenidos:** No se requieren conocimientos de programación ni experiencia técnica. Los participantes recibirán una introducción guiada a ChatGPT.
-4. **Aprenda de mentores y otros participantes:** Reciba apoyo de facilitadores y mentores capacitados por OpenAI, y aprenda junto con otras personas de su comunidad.
+* **¡Beneficios gratuitos!** La asistencia a la jornada es gratuita. Ofreceremos desayuno, artículos promocionales de OpenAI y 12 meses gratis de ChatGPT Plus.
+
+* **Práctica guiada:** Acompáñenos para aprender a usar ChatGPT y practicar en un entorno de aprendizaje seguro.
+
+* **Principiantes bienvenidos:** No se requieren conocimientos de programación ni experiencia técnica. Los participantes recibirán una introducción guiada a ChatGPT.
+
+* **Aprenda de mentores y otros participantes:** Reciba apoyo de facilitadores y mentores capacitados por OpenAI, y aprenda junto con otras personas de su comunidad.
 
 **Cómo inscribirse:**
 
@@ -62,7 +70,7 @@ La inscripción toma aproximadamente 5 minutos. Haga clic en el botón azul «Re
 
 **¿Necesita ayuda?**
 
-Llame a la línea de ayuda de Senior Planet de AARP al [888-713-3495](tel:8887133495) (de lunes a viernes, de 9:00 a. m. a 8:00 p. m.; sábados, de 9:00 a. m. a 2:00 p. m., hora del Este) para inscribirse por teléfono. También puede comunicarse con nosotros por correo electrónico en [[email protected]](/cdn-cgi/l/email-protection#7a101b173a150a1f141b1354191517).
+Llame a la línea de ayuda de Senior Planet de AARP al  [888-713-3495](tel:8887133495) (de lunes a viernes, de 9:00 a. m. a 8:00 p. m.; sábados, de 9:00 a. m. a 2:00 p. m., hora del Este) para inscribirse por teléfono. También puede comunicarse con nosotros por correo electrónico en  [[email protected]](/cdn-cgi/l/email-protection#0d676c604d627d68636c64236e6260).
 
 ¡Estamos muy entusiasmados de aprender y disfrutar de esta jornada con usted!
 
@@ -152,7 +160,7 @@ Roundtable
 
 Optional Practice and Q&A Time
 
-Starting in 17 days 21 hours
+Event has finished
 
 9:00 AM - 1:00 PM PDT (Event time zone)
 
@@ -160,18 +168,10 @@ September 16, 2026
 
 In Person
 
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
-
-Add to calendar
-
-Starting in 17 days 21 hours
+Event has finished
 
 9:00 AM - 1:00 PM PDT (Event time zone)
 
 September 16, 2026
 
 In Person
-
-[Register](https://docs.google.com/forms/d/e/1FAIpQLSekNVzhvgnz9ApwJkuMnI8oc689WHSejvcqr55501wllzwixw/viewform)
-
-Add to calendar

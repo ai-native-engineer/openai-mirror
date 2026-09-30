@@ -2,48 +2,13 @@
 
 # Jalal Sarabadani (Information Systems & Technology)
 
-Posted Aug 02, 2025 | Views 1.1K
+<!-- vimeo: 1109873706 | track: English (auto-generated) -->
 
-# North America
+[▶ Watch on Vimeo](https://vimeo.com/1109873706)
 
-Jalal Sarabadani - Assistant Professor - San Jose State University - School of Information Systems and Technology
+<details>
+<summary>자막: Jalal Sarabadani (Information Systems & Technology)</summary>
 
-In this video, I explain how I use ChatGPT to design an in-class exercise where students work in groups, use ChatGPT as a smart assistant to brainstorm and create their first system design. Then they use ChatGPT again as a constructive reviewer to receive feedback that informs their next revision.
+Hi, welcome to this short video on how Professors Teach with ai. My name is Dr. Jalani and I am an assistant professor of Information Systems in the college of business at San Jose State University. Over the past two years at SJSU, I have been teaching systems analysis design to management information systems students. In this course, we help students understand the different steps it takes to develop enterprise applications. One of the exercises that I do in this class is that the students practice to draw a logical version of an information system. This exercise help them, helps them understand how entities, let's say individuals for example, um, interact with the system and understand what types of data travel between the system and individuals. The very abstract version of this system design is called context diagrams. With the help of chat GPT and its image processing feature, I have created an assignment where students use chat GPT as a smart assistant to brainstorm and create their first drawing of on the paper. Then the students also use chat GPT, again as a constructive reviewer to revise their work for better. So let me show you how I actually design and implement this exercise in my class. So the first step is to create the assignment. Uh, what I'd like to do in this assignment is to make things simple. So I go through the chat, my own chat, GPT, and over here. I always prepare a, uh, a prompt in advance that keeps things simple. So, for example, here it says, I want to design a context diagram for a job portal system where, uh, job seekers, employers, and system admins interact with the system. I want you to take the role of a professional analyst and provide a step-by-step guideline to draw the context diagram. What I do next is I take a screenshot of this simple prompt and then copy it somewhere like, um, Google Doc, and then I actually, um, create some copies of this. I, for example, I have 50 students in my classes, and I usually take 50 copies for each class, and I give one copy to each student. And then, uh, before studying the exercise, I put students into, um, groups of five. So I usually have 10 students, uh, 10 groups with each groups. Uh, we, each group, we have five students, and I ask them, they need to, um, use this prompt to, basically the ultimate goal is to draw the context diagram for this, uh, job portal system And what they need to do. They only need to use chat GPT and then work with one another, collaborate with each other to create their first draft. And I usually give them 10 minutes to, uh, work on this. And in some cases it goes up to, uh, 15 minutes. So now we are on the student side. The students, usually, this is the time where you can see everybody is working with their laptop or using their phone to go through chat GPT and begin, uh, writing this prompt there. And what is great about this is chat. GPT GI throws out all the, um, gives the students all the ideas they need. It helps them, uh, facilitates the brainstorming. Um, because this is a very heavy task, it requires the students to think, uh, more in terms of what kind of labels, for example, they want to use for data flows between the systems a bit and, and, and entities. And GPT is really good at, at, at, uh, coming up with, uh, proper, uh, labels. So as you can see, it is providing them with a step-by-step guideline how to create the context diagram, like, uh, define a system and then identify the external entities and then list key interactions, which is the data flows between the system and um, the entities. This is very good job of breaking this big tasks into smaller chunks. And, and because the students have already learned about these principles and they've gone through some examples, they are now confident that they can follow these guidelines step by step, and they begin to write it in, in on their, uh, papers after 15 minutes. Um, we will stop there and then I give them another task. What I ask students at this time is I want them to actually upload their first drawing on chat GPT again, and then engage with the prompting here, but I want them to ask chat GPT to act as a professional, uh, reviewer here and give them some feedback for improvement. So what they do is usually is, for example, they say, uh, now I want you to take the role of, uh, constructive reviewer, highlight the positive aspect of my drawing and give me feedback for improvement, especially regarding, uh, labeling in the drawing. So if you can see, um, there are also some typos over here, but, um, you don't need to, there's no need actually to correct them because your GPT is really good at understanding it. So over here I'm asking actually chat GPT to take another role and review my, um, first drawing and students, again, take, take about 10 minutes, 15 minutes to engage with this exercise where chat GPT is now, uh, giving some feedback about the first drawing. And the good thing about chat GPT is it's really good at, uh, capturing images. As you can see, it actually was able to read everything there specifically with the handwriting. And this is what, um, makes it great, um, because it knows the rules about, uh, how to draw, how to label data flows and entities, um, and processes. Uh, when you are drawing context fragment, it actually helps, uh, students to correct themselves. So as you can see, for example, in in, in DESI creating data, uh, context diagrams, you are not allowed to use verb phrases to label data flows, but you can see that the student use started with a verb and then it's, it's actually correcting the student's, um, um, input. And then I ask them to revise their drawing based on the inputs they get. And it, uh, it, this, this also takes about 10 to 15 minutes. One thing you can actually do, I always ask 'em to do is to tell them now based on this interaction, create a summary and, uh, let's say study guide for the, uh, upcoming or let's, let's go to the study guide of this topic. Make sure to give me a down loadable p And as you can see, it is, it is analyzing the chat, all the interactions and creating a downloadable, a Downloadable PDFA study guide where, where, um, as a student I can click it and uh, store it in my, uh, files related to this course. And, uh, basically, um, go through this, uh, for future references. So you can see it also tells me, uh, what are some of the data that are included in here. As you saw in this exercise, the use of chat GPT was beneficial for me, the instructor and also the students. As the instructor, I was able to quickly create the assignment. It actually saved a lot of time of mine compared to the previous, uh, days of creating assignments without chat GPT. The other one was when I was in the class environment, um, the chat, the use of chat GPT helped the students a lot as well. I have students, uh, from different backgrounds with different, uh, languages and uh, because they have to engage with data labeling in this exercise, English is actually a barrier for them. But with the use of chat GPT, there is no barrier at all. As long as they know what to get from chat, GPT chat, GBT will give them the language at the labels and it's actually great and accurate. Um, in, in addition to that, uh, what, because we get the detailed feedback from chat GPT and uh, students, as long as they know how to do the work, we get to, to do more iterations. Before chat GPT when I was doing this exercise, um, we usually were able to go through one round of feedback and I was able to give feedback to all students in the class. But with chat GPT, the uh, actually chat GPT is working as my TA and I refer students to upload their work to chat GPT and get feedback and then reflect the feedback they get on their papers. And what I can see that I didn't see before is that even they engage more in collaborative work because again, this is kind of an exercise where human is also in the loop and students always, I always tell them that chat GPT is one side, their knowledge is also on the other side and they have to check all the facts, all the inputs, the outputs they get from chat GPT with their inputs. And that creates a very collaborative environment where students always discuss the outputs from chat GPT. They get to make sure that what they are receiving is actually, um, a, uh, correct pieces of information they get and they can use it in their drawing. Well, I hope you found this example interesting and uh, it gives you also an idea that you can replicate or create some new assignments for your classes as well. Uh, thank you very much. Have a great day. Bye.
 
-I am an educator and curriculum designer passionate about blending technology, creativity, and real-world learning in the classroom. I focus on helping students build critical thinking and entrepreneurial skills through engaging, project-based experiences. I'm especially interested in how AI can support authentic learning and empower both students and teachers.
-
-1
-
-Comments (2)
-
-Popular
-
-![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
-
-﻿
-
-Comment
-
-Load more
-
-[1:00:00](/en/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
-
-[Scaling Enterprise AI Through Systems Thinking](/en/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
-
-Posted Sep 25, 2025 | Views 8.2K
-
-# General Learners
-
-# Deployment & Adoption
-
-[10:00](/en/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
-
-[Renah Wolzinger, Ed.D. (Computer Information Management)](/en/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
-
-Posted Aug 02, 2025 | Views 565
-
-[10:00](/en/public/videos/kevin-cleary-technology-literacy-2025-09-08)
-
-[Kevin Cleary (Technology Literacy)](/en/public/videos/kevin-cleary-technology-literacy-2025-09-08)
-
-Posted Aug 01, 2025 | Views 264
+</details>

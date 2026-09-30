@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/science-ai -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Science
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -62,7 +64,7 @@ Junevity is a new biotech co-founded by entrepreneur Rob Cahill, UCSF scientists
 
 # Awareness
 
-# Work](/en/public/blogs/junevity-startup-longevity)[Blog
+# Work](/public/blogs/junevity-startup-longevity)[Blog
 
 ### When a wet lab needs a software stack
 
@@ -74,7 +76,7 @@ At Scripps Research, PhD candidate Marco Uytiepo studies how neural circuits sto
 
 # Awareness
 
-# Work](/en/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
+# Work](/public/blogs/when-a-wet-lab-needs-a-software-stack-2025-12-11)[Blog
 
 ### Decoding the alien language of whales
 
@@ -84,7 +86,7 @@ UC Berkeley linguist Gašper Beguš frames sperm whales as an “alien intellige
 
 # Awareness
 
-# Personal](/en/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)[Blog
+# Personal](/public/blogs/decoding-the-alien-language-of-whales-chatgpt-2026-01-30)[Blog
 
 ### ChatGPT as research partner in mathematical optimization
 
@@ -96,7 +98,7 @@ Mathematician Ernest Ryu, one of more than 1 million weekly ChatGPT users workin
 
 # Advanced & Builder Skills
 
-# Work](/en/public/blogs/chatgpt-as-research-partner-in-mathematical-optimization-2026-02-02)[Blog
+# Work](/public/blogs/chatgpt-as-research-partner-in-mathematical-optimization-2026-02-02)[Blog
 
 ### How Alex Lupsasca learned to trust AI for real physics
 
@@ -106,7 +108,7 @@ Physicist Alex Lupsasca approached AI the way he approaches big claims in scienc
 
 # Awareness
 
-# Personal](/en/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)[Blog
+# Personal](/public/blogs/alex-lupsasca-gpt-5-pro-black-hole-physics-hidden-symmetries)[Blog
 
 ### Terence Tao: AI is ready for primetime in math and theoretical physics
 
@@ -116,9 +118,9 @@ Terence Tao says AI has moved from an interesting but limited experiment to a pr
 
 # Awareness
 
-# Personal](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)[Blog
+# Personal](/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)[Blog
 
-### How Physicists Are Using AI to Chase New Physics
+### How Researchers Are Using AI to Chase a New Physics
 
 A team at UC Santa Barbara and the Kavli Institute for Theoretical Physics is using OpenAI models to accelerate “ambulance chasing,” the process of generating and testing explanations for anomalous collider data that might point to physics beyond the Standard Model. Their system, FERMIACC, combines reasoning models, agents, and established simulation tools to turn a workflow that once consumed weeks of graduate-student time into a closed-loop pipeline that can produce and evaluate hypotheses in under ten minutes.
 
@@ -128,14 +130,14 @@ A team at UC Santa Barbara and the Kavli Institute for Theoretical Physics is us
 
 # Advanced & Builder Skills
 
-# Education](/en/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
+# Education](/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

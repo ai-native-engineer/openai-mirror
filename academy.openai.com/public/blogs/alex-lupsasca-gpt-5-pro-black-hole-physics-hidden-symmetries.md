@@ -32,64 +32,64 @@ He has since repeated the pattern with skeptical colleagues: at CERN, a colleagu
 
 That arc, moving from skepticism to contagious enthusiasm, led Lupsasca to join OpenAI. He is now pushing beyond one-off wins toward repeatable scientific acceleration: better tools for reading and explaining papers, stronger workflows than a single chat window, and training setups that embed frontier physics in the model’s capabilities. His goal is to unfold the consequences of physics insights faster, so researchers spend less time stuck in algebra and more time identifying the next question worth asking, to eventually crack the biggest mysteries haunting his discipline.
 
-[1:32:34](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
+[1:32:34](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
 
 Video
 
-[AI for Nonprofits 101](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
+[AI for Nonprofits 101](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-101-2025-04-09)
 
 By Mohammed Husain
 
-[44:20](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[44:20](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 Video
 
-[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/en/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
 
 External Content
 
-[ChatGPT and Beyond: How to Handle AI in Schools](/en/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
+[ChatGPT and Beyond: How to Handle AI in Schools](/public/externals/chatgpt-and-beyond-how-to-handle-ai-in-schools-2025-03-11)
 
 Blog
 
-[How Physicists Are Using AI to Chase New Physics](/en/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
+[How Researchers Are Using AI to Chase a New Physics](/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
 
-Mar 25th, 2026 • Views 1.3K
+Mar 25th, 2026 • Views 2.3K
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
-
-Blog
-
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
-
-Mar 6th, 2026 • Views 4.2K
-
-[3 prompts Champions use to translate AI potential into real outcomes](/en/public/resources/3-prompts-champions)
-
-By David Sperry • Feb 14th, 2026 • Views 6.3K
+Mar 11th, 2025 • Views 4.4K
 
 Blog
 
-[How Physicists Are Using AI to Chase New Physics](/en/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
+[Terence Tao: AI is ready for primetime in math and theoretical physics](/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
 
-Mar 25th, 2026 • Views 1.3K
+Mar 6th, 2026 • Views 6.6K
+
+[3 prompts Champions use to translate AI potential into real outcomes](/public/resources/3-prompts-champions)
+
+By David Sperry • Feb 14th, 2026 • Views 6.9K
 
 Blog
 
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
+[How Researchers Are Using AI to Chase a New Physics](/public/blogs/how-physicists-are-using-ai-to-chase-new-physics-2026-03-25)
 
-Mar 6th, 2026 • Views 4.2K
+Mar 25th, 2026 • Views 2.3K
 
-[3 prompts Champions use to translate AI potential into real outcomes](/en/public/resources/3-prompts-champions)
+Blog
 
-By David Sperry • Feb 14th, 2026 • Views 6.3K
+[Terence Tao: AI is ready for primetime in math and theoretical physics](/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
+
+Mar 6th, 2026 • Views 6.6K
+
+[3 prompts Champions use to translate AI potential into real outcomes](/public/resources/3-prompts-champions)
+
+By David Sperry • Feb 14th, 2026 • Views 6.9K
 
 External Content
 
-[Practical Tips for Teachers to Use AI](/en/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
+[Practical Tips for Teachers to Use AI](/public/externals/practical-tips-for-teachers-to-use-ai-2025-03-11)
 
-Mar 11th, 2025 • Views 4.3K
+Mar 11th, 2025 • Views 4.4K

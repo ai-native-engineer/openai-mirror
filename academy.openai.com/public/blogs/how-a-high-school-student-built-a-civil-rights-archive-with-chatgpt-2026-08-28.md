@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/how-a-high-school-student-built-a-civil-rights-archive-with-chatgpt-2026-08-28 -->
 
+Article
+
+August 28, 2026
+
 # How a high school student built a civil-rights archive with ChatGPT
 
 ![How a high school student built a civil-rights archive with ChatGPT](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/max-kornstein-landscape-92d16758-b77c-4d16-8fcc-e349300b0630-1787934801430.jpeg?fit=scale-down&width=1200)
@@ -30,40 +34,62 @@ Max says that during the Holocaust, his great-grandfather was taken from his hom
 
 Max is checking records, incorporating feedback on its methodology, and building tools that will make the material more reliable and easier for others to use.
 
+Blog
+
 [Agha Nazih: The student who turned ChatGPT into a personal physics tutor](/public/blogs/agha-nazih-chatgpt-personal-physics-tutor)
+
+Blog
+
+[How ChatGPT helped a security guard become a project manager](/public/blogs/how-chatgpt-helped-a-security-guard-become-a-project-manager-2026-04-10)
+
+Blog
 
 [How a Bangalore school is training teachers for the AI era](/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)
 
-[How ChatGPT helped turn a home kitchen into a Thai restaurant](/public/blogs/how-chatgpt-helped-turn-a-home-kitchen-into-a-thai-restaurant-2026-02-05)
+Blog
 
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-Jun 4th, 2026 • Views 525
+Jun 4th, 2026 • Views 666
+
+Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 952
+Apr 28th, 2026 • Views 1.1K
+
+Blog
 
 [How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
 
-May 8th, 2026 • Views 2K
+May 8th, 2026 • Views 2.4K
+
+Blog
 
 [How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
 
-Aug 17th, 2026 • Views 131
+Aug 17th, 2026 • Views 305
+
+Blog
 
 [How Sarah Dully uses ChatGPT to keep high school lessons current](/public/blogs/sarah-dully-chatgpt-high-school-lessons)
 
-Jun 4th, 2026 • Views 525
+Jun 4th, 2026 • Views 666
+
+Blog
 
 [How ChatGPT Built a Contractor’s Back Office](/public/blogs/how-chatgpt-became-a-contractors-back-office-2026-05-07)
 
-May 8th, 2026 • Views 2K
+May 8th, 2026 • Views 2.4K
+
+Blog
 
 [How one drama teacher uses ChatGPT to keep school theater running](/public/blogs/adam-hellewell-chatgpt-school-theater)
 
-Aug 17th, 2026 • Views 131
+Aug 17th, 2026 • Views 305
+
+Blog
 
 [How ChatGPT Helps Doreen Mayrell Bring One-to-One Algebra Support to Every Student](/public/blogs/doreen-mayrell-chatgpt-algebra-support)
 
-Apr 28th, 2026 • Views 952
+Apr 28th, 2026 • Views 1.1K

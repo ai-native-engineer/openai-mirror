@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/champions-ecqup/resources/turn-scattered-account-updates-into-shared-team-context-2026-06-12 -->
 
-[Champions](/en/public/clubs/champions-ecqup/overview)
+[Champions](/public/clubs/champions-ecqup/overview)
 
-[navigation.content](/en/public/clubs/champions-ecqup/content)
+[Content](/public/clubs/champions-ecqup/content)
 
 # Turn scattered account updates into shared team context
 
@@ -14,9 +14,11 @@
 
 # Use Cases
 
+# Portfolio Company Sales
+
 ## Help account teams stay on top of customer updates.
 
-June 12, 2026
+June 12, 2026 · Last updated on August 27, 2026
 
 ![Turn scattered account updates into shared team context](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Turn-scattered-account-updates-into-shared-team-context-style-thumb-406891d0-f01c-4fb9-b0fc-d94977542fa5-1781301558045.jpeg?fit=scale-down&width=1200)
 
@@ -81,7 +83,7 @@ You can paste the spec as-is, but these are the main things you may want to chan
 
 * Default build approach: keep Sites if you want Codex to build a hosted briefing hub. If your team prefers another destination, replace the Sites bullets with your preferred destination, such as a document, internal page, workspace agent output, or local preview.
 
-* Context placeholders: fill in `Team/function`, `Account or workflow`, `Reviewer`, and `Approved sources I already know about`.
+* Context placeholders: fill in  `Team/function` ,  `Account or workflow` ,  `Reviewer` , and  `Approved sources I already know about` .
 
 * Source approach: keep "approved read-only source excerpts" for the safest test to start. Change this only if app or system access is already approved.
 
@@ -89,7 +91,7 @@ You can paste the spec as-is, but these are the main things you may want to chan
 
 * Output sections: remove sections your team does not need, or add sections such as risks, blockers, renewal context, or stakeholder map.
 
-The explicit placeholders to complete are in the `Context` section of the prompt. If you are not sure what to enter, write "not sure yet" and let Codex ask follow-up questions.
+The explicit placeholders to complete are in the  `Context`  section of the prompt. If you are not sure what to enter, write "not sure yet" and let Codex ask follow-up questions.
 
 ## Copy/Paste Codex Project Spec
 
@@ -174,7 +176,7 @@ The exact files may vary, but a lightweight first version should usually include
 
 ## Source And Review Notes
 
-This example comes from the [June 11, 2026 Make Work Flow live session](https://academy.openai.com/home/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12) where Yash Pahade shared how he built an automation to help his team proactively monitor accounts with Codex.
+This example comes from the  [June 11, 2026 Make Work Flow live session](https://academy.openai.com/home/clubs/champions-ecqup/videos/make-work-flow-proactively-monitor-accounts-with-codex-2026-06-12) where Yash Pahade shared how he built an automation to help his team proactively monitor accounts with Codex.
 
 Like
 
@@ -184,66 +186,64 @@ Sign in or Join the community
 
 Create an account
 
-Table Of Contents
+[The AI Champion role](/public/clubs/champions-ecqup/resources/the-ai-champion-role)
 
-[The AI Champion role](/en/public/clubs/champions-ecqup/resources/the-ai-champion-role)
+[OpenAI Academy courses: Champion deployment guide](/public/clubs/champions-ecqup/resources/openai-academy-courses-champion-deployment-guide-2026-06-11)
 
-[Run an AI hackathon](/en/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
+[Run an AI hackathon](/public/clubs/champions-ecqup/resources/hackathon-playbook-2025-09-15)
 
-[Run a prompt challenge](/en/public/clubs/champions-ecqup/resources/lead-a-prompt-challenge)
+[Turn updates in review-ready leadership decks](/public/clubs/champions-ecqup/resources/turn-updates-into-review-ready-leadership-decks-2026-07-23)
 
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+Jul 23rd, 2026 • Views 483
 
-Video
-
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 89
-
-[Practice better CRM hygiene with Codex](/en/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 113
-
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
 Video
 
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
 
-Jun 18th, 2026 • Views 56
+Aug 27th, 2026 • Views 472
 
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Video
-
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
-
-Jun 18th, 2026 • Views 79
-
-[3:00](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Confidence scoring and skill hardening with Codex](/en/public/clubs/champions-ecqup/videos/confidence-scoring-and-skill-hardening-with-codex-2026-06-18)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 18th, 2026 • Views 89
+Sep 14th, 2026 • Views 1.5K
 
-[13:00](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Video
-
-[Workflow clip: Automate CRM updates with Codex](/en/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci)
-
-Jun 18th, 2026 • Views 56
-
-[31:00](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
 Video
 
-[Recording: Make Work Flow: Automate CRM Updates with Codex](/en/public/clubs/champions-ecqup/videos/recording-make-work-flow-automate-crm-updates-with-codex-2026-06-18)
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
 
-Jun 18th, 2026 • Views 79
+Sep 10th, 2026 • Views 406
 
-[Practice better CRM hygiene with Codex](/en/public/clubs/champions-ecqup/resources/practice-better-crm-hygiene-with-codex-2026-06-18)
+[Turn updates in review-ready leadership decks](/public/clubs/champions-ecqup/resources/turn-updates-into-review-ready-leadership-decks-2026-07-23)
 
-Jun 18th, 2026 • Views 113
+Jul 23rd, 2026 • Views 483
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Video
+
+[[RECORDING] Make Work Flow: campaign marketing briefs and creative content](/public/clubs/champions-ecqup/videos/recording-make-work-flow-2026-09-10)
+
+Sep 10th, 2026 • Views 406
+
+[30:00](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Video
+
+[[RECORDING] Transformation Labs 101: Get executive buy-in on AI priorities](/public/clubs/champions-ecqup/videos/recording-transformation-labs-101-get-executive-buy-in-on-ai-priorities-2026-08-27)
+
+Aug 27th, 2026 • Views 472

@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-fine-tuning-strategy-and-tradeoffs-2025-12-11 -->
+
 # AI Techniques (Production): Fine-Tuning Strategy & Tradeoffs
 
 <!-- vimeo: 1145774842 | track: English (auto-generated) -->

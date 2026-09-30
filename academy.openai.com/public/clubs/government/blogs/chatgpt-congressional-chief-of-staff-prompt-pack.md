@@ -1,12 +1,24 @@
 <!-- source: https://academy.openai.com/public/clubs/government/blogs/chatgpt-congressional-chief-of-staff-prompt-pack -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
+Article
+
+September 21, 2026
+
 # ChatGPT Prompt Pack for Congressional Chiefs of Staff
 
 ![ChatGPT Prompt Pack for Congressional Chiefs of Staff](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-01-4f320a31-b9e0-45c0-8628-80c0e59679ae-1789997723235.jpeg?fit=scale-down&width=1200)
 
+# Government
+
 ## 30 practical prompts for chiefs of staff. Copy a prompt, add your details, and get started.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![ChatGPT Prompt Pack for Congressional Chiefs of Staff](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-01-4f320a31-b9e0-45c0-8628-80c0e59679ae-1789997723235.jpeg?fit=scale-down&width=1200)
 
@@ -26,34 +38,64 @@ Explore the 30 prompts in the pack below.
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/01-chief-of-staff-ChatGPT-Enterprise-daf1a511-511e-47f7-99a5-487a11a5e364-1789997671546.pdf) the file to view.
 
+[Unlocking ChatGPT for Government: A Prompt-Pack IT Staff](/public/clubs/government/resources/govt-prompt-pack-for-it-staff)
+
+By David Sperry
+
+[Unlocking ChatGPT for Government: A Prompt-Pack for Analysts & Program Staff](/public/clubs/government/resources/govt-prompt-pack-analysts)
+
+By David Sperry
+
+Blog
+
+[ChatGPT Prompt Pack for Congressional Field Representatives](/public/clubs/government/blogs/chatgpt-congressional-field-representative-prompt-pack)
+
+By Laura Keenan
+
+Blog
+
 [ChatGPT Prompt Pack for Deputy Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-deputy-chief-of-staff-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 13
+By Laura Keenan • Sep 21st, 2026 • Views 32
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Communications Staff](/public/clubs/government/blogs/chatgpt-congressional-communications-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By Laura Keenan • Sep 21st, 2026 • Views 42
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By Laura Keenan • Sep 21st, 2026 • Views 44
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Digital Staff](/public/clubs/government/blogs/chatgpt-congressional-digital-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 14
+By Laura Keenan • Sep 21st, 2026 • Views 52
+
+Blog
 
 [ChatGPT Prompt Pack for Deputy Chiefs of Staff](/public/clubs/government/blogs/chatgpt-congressional-deputy-chief-of-staff-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 13
+By Laura Keenan • Sep 21st, 2026 • Views 32
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Staff Assistants](/public/clubs/government/blogs/chatgpt-congressional-staff-assistant-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 18
+By Laura Keenan • Sep 21st, 2026 • Views 44
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Digital Staff](/public/clubs/government/blogs/chatgpt-congressional-digital-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 14
+By Laura Keenan • Sep 21st, 2026 • Views 52
+
+Blog
 
 [ChatGPT Prompt Pack for Congressional Communications Staff](/public/clubs/government/blogs/chatgpt-congressional-communications-director-prompt-pack)
 
-By Laura Keenan • Sep 21st, 2026 • Views 16
+By Laura Keenan • Sep 21st, 2026 • Views 42

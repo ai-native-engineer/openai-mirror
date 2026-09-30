@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses -->
+
 # ChatGPT 101 for Small Businesses
 
 <!-- vimeo: 1128916816 | track: English (auto-generated) -->

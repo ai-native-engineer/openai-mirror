@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-improving-your-donation-page-2025-07-15 -->
+
 # AI for Nonprofits: Improving your Donation Page
 
 <!-- vimeo: 1101759999 | track: English (auto-generated) -->

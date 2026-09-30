@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/plan-for-exams-assignments-and-group-projects-2026-05-18 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -50,7 +50,7 @@ For ongoing work, Projects are especially useful because they keep context, file
 | --- |
 | We are a team of 4 university students working on a group project.  ﻿  Project:  - Topic: Design a campus sustainability initiative to reduce single-use plastic  - Format: Presentation with 10 slides and speaker notes  - Deadline: 4 weeks from now  - Requirements:  1. Use data or research to justify the problem  2. Propose a realistic and implementable solution  3. Include estimated environmental and cost impact  4. Present clearly with defined roles for each team member  ﻿  Create:  1. A week-by-week project plan with milestones  2. Suggested roles for each team member  3. A task tracker table with task, owner, due date, dependencies, and status  4. A collaboration workflow  5. A weekly meeting agenda template  6. Top 5 risks and mitigations  7. A definition of done aligned to the assignment requirements  ﻿  End with: Next step: what we should do in the next 48 hours. |
 
-﻿[Try this in ChatGPT](https://chatgpt.com/?q=We%20are%20a%20team%20of%204%20university%20students%20working%20on%20a%20group%20project.%0A%0AProject%3A%0A-%20Topic%3A%20Design%20a%20campus%20sustainability%20initiative%20to%20reduce%20single-use%20plastic%0A-%20Format%3A%20Presentation%20with%2010%20slides%20and%20speaker%20notes%0A-%20Deadline%3A%204%20weeks%20from%20now%0A-%20Requirements%3A%0A%20%201.%20Use%20data%20or%20research%20to%20justify%20the%20problem%0A%20%202.%20Propose%20a%20realistic%20and%20implementable%20solution%0A%20%203.%20Include%20estimated%20environmental%20and%20cost%20impact%0A%20%204.%20Present%20clearly%20with%20defined%20roles%20for%20each%20team%20member%0A%0ACreate%3A%0A1.%20A%20week-by-week%20project%20plan%20with%20milestones%0A2.%20Suggested%20roles%20for%20each%20team%20member%0A3.%20A%20task%20tracker%20table%20with%20task%2C%20owner%2C%20due%20date%2C%20dependencies%2C%20and%20status%0A4.%20A%20collaboration%20workflow%0A5.%20A%20weekly%20meeting%20agenda%20template%0A6.%20Top%205%20risks%20and%20mitigations%0A7.%20A%20definition%20of%20done%20aligned%20to%20the%20assignment%20requirements%0A%0AEnd%20with%3A%20Next%20step%3A%20what%20we%20should%20do%20in%20the%20next%2048%20hours.)﻿
+﻿ [Try this in ChatGPT](https://chatgpt.com/?q=We%20are%20a%20team%20of%204%20university%20students%20working%20on%20a%20group%20project.%0A%0AProject%3A%0A-%20Topic%3A%20Design%20a%20campus%20sustainability%20initiative%20to%20reduce%20single-use%20plastic%0A-%20Format%3A%20Presentation%20with%2010%20slides%20and%20speaker%20notes%0A-%20Deadline%3A%204%20weeks%20from%20now%0A-%20Requirements%3A%0A%20%201.%20Use%20data%20or%20research%20to%20justify%20the%20problem%0A%20%202.%20Propose%20a%20realistic%20and%20implementable%20solution%0A%20%203.%20Include%20estimated%20environmental%20and%20cost%20impact%0A%20%204.%20Present%20clearly%20with%20defined%20roles%20for%20each%20team%20member%0A%0ACreate%3A%0A1.%20A%20week-by-week%20project%20plan%20with%20milestones%0A2.%20Suggested%20roles%20for%20each%20team%20member%0A3.%20A%20task%20tracker%20table%20with%20task%2C%20owner%2C%20due%20date%2C%20dependencies%2C%20and%20status%0A4.%20A%20collaboration%20workflow%0A5.%20A%20weekly%20meeting%20agenda%20template%0A6.%20Top%205%20risks%20and%20mitigations%0A7.%20A%20definition%20of%20done%20aligned%20to%20the%20assignment%20requirements%0A%0AEnd%20with%3A%20Next%20step%3A%20what%20we%20should%20do%20in%20the%20next%2048%20hours.)﻿
 
 ## **What Good Looks Like**
 
@@ -104,58 +104,66 @@ If your instructor has rules about AI use, follow them. Planning support is ofte
 
 Once the project plan exists, you can move into building mode. For some classes, that may mean drafting slides. In others, it may mean prototyping a simple app, analysis, or demo to support your presentation.
 
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
+[Prompt pack for students](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
 
 By Juliann Igo
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+Blog
 
-By Juliann Igo
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+
+May 19th, 2026 • Views 459
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+
+Jun 9th, 2026 • Views 2.8K
+
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Video
+
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
+
+Jul 8th, 2026 • Views 510
 
 Blog
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
+[Use Projects For Long-Running Campus Work](/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
 
-May 19th, 2026 • Views 46
+May 19th, 2026 • Views 459
 
-Blog
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+Jun 9th, 2026 • Views 2.8K
 
-May 20th, 2026 • Views 334
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+Video
 
-Jun 9th, 2026 • Views 400
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-Blog
+Jul 8th, 2026 • Views 510
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-Jun 2nd, 2026 • Views 358
+Video
 
-Blog
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Use Projects For Long-Running Campus Work](/en/public/clubs/higher-education-05x4z/blogs/use-projects-for-long-running-campus-work-2026-05-19)
-
-May 19th, 2026 • Views 46
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
-
-Blog
-
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
-
-Jun 2nd, 2026 • Views 358
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+Sep 14th, 2026 • Views 1.5K

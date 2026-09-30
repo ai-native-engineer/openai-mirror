@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/resources/vox-styles-and-standards-bot -->
 
-[News Organizations](/en/public/clubs/news-organizations-b9osl/overview)
+[News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-[navigation.content](/en/public/clubs/news-organizations-b9osl/content)
+[Content](/public/clubs/news-organizations-b9osl/content)
 
 Article
 
@@ -32,23 +32,13 @@ So the team built a first stop: a Custom GPT in ChatGPT Enterprise that helps ne
 
 ![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-2cde72ab-f1d3-4292-b09e-25ba813d7af9-1783970236412.png)
 
-﻿
-
-﻿
-
 The bot is not designed to replace copy editors, fact-checkers, or editorial judgment. Stories still go through Vox's normal copy editing and fact-checking processes. Instead, the bot gives reporters, editors, producers, copy editors, fact-checkers, and audience team members a faster way to navigate existing guidance before they need to ask a human in Slack.
-
-﻿
 
 ## How the bot works
 
 Vox's Style & Standards Bot is a searchable, conversational version of the newsroom's internal guidance. Staff can ask about grammar, punctuation, headline and dek formatting, sensitive language, corrections workflows, fact-checking process, or the difference between Vox style and AP style.
 
 ![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-e35408c7-2a84-47ba-9cad-1b4a011f1454-1783970236487.png)
-
-﻿
-
-﻿
 
 The bot's instructions are intentionally specific. It prioritizes Vox's internal documentation first. If Vox guidance does not address the question, it can fall back to AP style. When it gives an answer, it should make clear whether the guidance comes from Vox, AP, or another approved source. And when the answer is not in the source material, it should say so rather than invent a rule.
 
@@ -57,10 +47,6 @@ That boundary is central to the use case. The bot is meant to draw only from exi
 Vox also set clear limits around what the bot should not do. It does not copy-edit or fact-check full stories. If someone pastes in a long passage or asks for a full edit, the bot points them back to the style and standards team and offers to answer a narrower style question instead. The result is a tool that can be helpful without pulling people away from the newsroom's existing checks and balances.
 
 ![](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/some-file-5d4677c1-63d7-4012-9286-6cc0e1ef7b8d-1783970236445.png)
-
-﻿
-
-﻿
 
 ## Why it fits the newsroom
 
@@ -94,90 +80,80 @@ For other publishers, the pattern is a practical one. Start with a recurring que
 
 In Vox's case, the Style & Standards Bot works because it solves a specific problem in a specific workflow. It does not ask the newsroom to change how editorial judgment works. It helps people find the guidance that supports that judgment faster.
 
-## Popular
-
-[49:00](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+[49:00](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
 Video
 
-[AI Essentials for Journalists](/en/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
+[AI Essentials for Journalists](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
-[35:00](/en/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
+[4:20](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
 
 Video
 
-[On the air with AI: Behind the scenes at TBPN](/en/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
+[Skills vs. Agents](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
 
 By Evan Hirsch
 
-Resource
-
-[How VG Built an AI “Buddy” for Journalists](/en/public/clubs/news-organizations-b9osl/resources/how-vg-built-an-ai-buddy-for-journalists)
-
-Dive in
-
-## Related
-
-[48:00](/en/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
+[2:50](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
 Video
 
-[Using ChatGPT for prospecting and donor research](/en/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
+[Power Prompting](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
-Dec 15th, 2025 • Views 279
+By Evan Hirsch
 
-[3:40](/en/public/clubs/news-organizations-b9osl/videos/upskill-with-skills-2026-07-07)
-
-Video
-
-[Upskill With Skills](/en/public/clubs/news-organizations-b9osl/videos/upskill-with-skills-2026-07-07)
-
-By Evan Hirsch • Jul 10th, 2026 • Views 167
-
-[2:40](/en/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+[48:00](/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
 
 Video
 
-[Spot The Fake](/en/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
+[Using ChatGPT for prospecting and donor research](/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
 
-By Evan Hirsch • Jul 15th, 2026 • Views 76
+Dec 15th, 2025 • Views 590
 
-[4:20](/en/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+[How The Washington Post builds AI agents to make complex analytics easier to understand](/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents)
 
-Video
+Aug 28th, 2026 • Views 295
 
-[Skills vs. Agents](/en/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
-
-By Evan Hirsch • Jul 13th, 2026 • Views 213
-
-[48:00](/en/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
+[53:30](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
 Video
 
-[Using ChatGPT for prospecting and donor research](/en/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
+[ChatGPT for Visual Storytelling](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-Dec 15th, 2025 • Views 279
+By Tim Meko • Sep 24th, 2026 • Views 761
 
-[2:40](/en/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
-
-Video
-
-[Spot The Fake](/en/public/clubs/news-organizations-b9osl/videos/spot-the-fake-2026-07-14)
-
-By Evan Hirsch • Jul 15th, 2026 • Views 76
-
-[4:20](/en/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
 Video
 
-[Skills vs. Agents](/en/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-By Evan Hirsch • Jul 13th, 2026 • Views 213
+Sep 14th, 2026 • Views 1.5K
 
-[3:40](/en/public/clubs/news-organizations-b9osl/videos/upskill-with-skills-2026-07-07)
+[48:00](/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
 
 Video
 
-[Upskill With Skills](/en/public/clubs/news-organizations-b9osl/videos/upskill-with-skills-2026-07-07)
+[Using ChatGPT for prospecting and donor research](/public/clubs/news-organizations-b9osl/videos/using-chatgpt-for-prospecting-and-donor-research)
 
-By Evan Hirsch • Jul 10th, 2026 • Views 167
+Dec 15th, 2025 • Views 590
+
+[53:30](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
+
+Video
+
+[ChatGPT for Visual Storytelling](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
+
+By Tim Meko • Sep 24th, 2026 • Views 761
+
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Video
+
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
+
+Sep 14th, 2026 • Views 1.5K
+
+[How The Washington Post builds AI agents to make complex analytics easier to understand](/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents)
+
+Aug 28th, 2026 • Views 295

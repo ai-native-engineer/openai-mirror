@@ -1,18 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-August 26, 2026 · Last updated on August 27, 2026
+August 26, 2026 · Last updated on September 2, 2026
 
 # ChatGPT Work for business operations teams: Webinar Resource Guide
 
@@ -25,6 +19,8 @@ August 26, 2026 · Last updated on August 27, 2026
 # ChatGPT for Work
 
 # Use Cases
+
+# Portfolio Company Knowledge Work
 
 ## Follow along with our webinar ChatGPT Work for business operations teams
 
@@ -368,64 +364,42 @@ Choose one Business Operations task already on your plate. Give Work the approve
 
 Thanks for joining!
 
-Resource
-
 [ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-Resource
-
 [ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
-
-Resource
 
 [ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
 By Juliann Igo
 
-Resource
-
 [ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Diana Stegall • Aug 27th, 2026 • Views 149
-
-Resource
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 416
-
-Resource
+Aug 6th, 2026 • Views 824
 
 [ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 20th, 2026 • Views 465
-
-Resource
+Aug 20th, 2026 • Views 1K
 
 [ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-Aug 13th, 2026 • Views 391
-
-Resource
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Diana Stegall • Aug 27th, 2026 • Views 149
-
-Resource
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
 [ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 20th, 2026 • Views 465
-
-Resource
+Aug 20th, 2026 • Views 1K
 
 [ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-Aug 13th, 2026 • Views 391
-
-Resource
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 416
+Aug 6th, 2026 • Views 824

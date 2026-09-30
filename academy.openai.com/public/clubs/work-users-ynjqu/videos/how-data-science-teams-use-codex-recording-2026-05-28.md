@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/how-data-science-teams-use-codex-recording-2026-05-28 -->
+
 # How data science teams use Codex
 
 <!-- vimeo: 1196418946 | track: English (auto-generated) -->

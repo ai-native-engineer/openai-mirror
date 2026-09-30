@@ -1,14 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # Get started with ChatGPT Work: Webinar resource guide
 
@@ -18,13 +12,13 @@
 
 # Work
 
-# ChatGPT
-
 # ChatGPT for Work
+
+# Portfolio Company Knowledge Work
 
 ## Follow along with our webinar: Get started with ChatGPT Work
 
-August 4, 2026
+August 4, 2026 · Last updated on September 2, 2026
 
 ![Diana Stegall](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/venice-663e9db7-692a-4851-b2c4-19f0d6c9b62c-1776829671335.jpeg?fit=scale-down&width=60)
 
@@ -89,11 +83,7 @@ Chat should return a useful answer quickly. This is a good fit when you want one
 ```
 Review my calendar, email, and Slack. Identify anything that needs my attention today, including conflicts, deadlines, decisions, and follow-ups.
 
-﻿
-
 Create a Google Doc with a prioritized plan for my day, with the most important items first. For each item, include a direct link to the relevant calendar event, email thread, or Slack conversation.
-
-﻿
 
 Then send me a short summary in Slack with a link to the document.
 ```
@@ -151,15 +141,9 @@ Use this when you need a quick summary.
 ```
 Create a Q2 performance lookback presentation for our leadership team.
 
-﻿
-
 Review the Q2 goals, Q2 performance results, and Q2 team updates in this Project. Compare our goals with our actual results. Identify the biggest wins and misses, and explain what drove them.
 
-﻿
-
 Build the presentation in Google Slides using our corporate presentation template and brand guide. If no company template is available, use a suitable business review template. Make the story clear, use charts where they help, and include the decisions or actions leadership should take next.
-
-﻿
 
 Only make claims supported by the source material. Cite every number and flag anything that needs verification.
 ```
@@ -179,8 +163,6 @@ Open the source and verify it yourself.
 ```
 Please revise the presentation with these additional company preferences:
 
-﻿
-
 - Remove the table of contents slide.
 
 - Put the main recommendation near the beginning.
@@ -193,8 +175,6 @@ Please revise the presentation with these additional company preferences:
 
 - Use “customers” instead of “accounts.”
 
-﻿
-
 Keep following the corporate presentation template and brand guide.
 ```
 
@@ -205,11 +185,7 @@ Keep following the corporate presentation template and brand guide.
 ```
 Create a Skill called company-presentation-builder based on the workflow we just completed.
 
-﻿
-
 Include our corporate presentation template and brand guide as reusable resources. Save the additional preferences I gave you about structure, number formatting, citations, color, and terminology.
-
-﻿
 
 Use this Skill whenever I ask ChatGPT to create or revise a company presentation. Only use information supported by the source material, and flag anything that needs verification.
 ```
@@ -244,44 +220,42 @@ Choose one task you already understand and need to finish. Start small enough th
 
 * ﻿ [Plugins in ChatGPT and Codex](https://help.openai.com/en/articles/20001256-plugins-in-codex)﻿
 
+[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
+
 [ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
 
-[Codex for everyday work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05)
+[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
-By Diana Stegall
+By Juliann Igo
 
-[36:31](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-[Get started with ChatGPT Work [on-demand recording]](/public/clubs/work-users-ynjqu/videos/get-started-with-chatgpt-work-on-demand-recording-2026-07-28)
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 72
+Aug 6th, 2026 • Views 824
 
-[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 6th, 2025 • Views 57K
+Aug 20th, 2026 • Views 1K
 
-[ChatGPT 102: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide-interactive)
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-By Juliann Igo • Feb 25th, 2026 • Views 11.6K
+Aug 13th, 2026 • Views 851
 
-[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Juliann Igo • Feb 19th, 2026 • Views 15.8K
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
+
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
+
+Aug 20th, 2026 • Views 1K
+
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
+
+Aug 13th, 2026 • Views 851
 
 [ChatGPT Work for sales teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05)
 
-Aug 6th, 2026 • Views 72
-
-[ChatGPT 102: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide-interactive)
-
-By Juliann Igo • Feb 25th, 2026 • Views 11.6K
-
-[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
-
-By Juliann Igo • Feb 19th, 2026 • Views 15.8K
-
-[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
-
-Aug 6th, 2025 • Views 57K
+Aug 6th, 2026 • Views 824

@@ -1,5 +1,9 @@
 <!-- source: https://academy.openai.com/public/blogs/show-the-story-8-image-prompts-for-government-work -->
 
+[Government (United States)](/public/clubs/government/overview)
+
+[Content](/public/clubs/government/content)
+
 Article
 
 September 9, 2026
@@ -8,13 +12,15 @@ September 9, 2026
 
 ![Show the story: 8 image prompts for government work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-83a5c382-0e5f-4d53-a67a-bb840014c753-1788963391096.jpeg?fit=scale-down&width=1200)
 
-# ChatGPT
+# Government
 
 # AI Techniques
 
 ## Use visual storytelling to make ideas clearer for the people you serve.
 
 ![Laura  Keenan](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Headshot-53798635-8187-41c2-bd0a-15cee49c1e98-1784555485528.jpeg?fit=scale-down&width=60)
+
+Laura Keenan
 
 ![Show the story: 8 image prompts for government work](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/cover-green-blue-title-83a5c382-0e5f-4d53-a67a-bb840014c753-1788963391096.jpeg?fit=scale-down&width=1200)
 
@@ -168,34 +174,56 @@ Before using an image in a briefing or public resource:
 
 By Laura Keenan
 
-[A face behind the service: 5 image prompts for welcoming veterans](/public/clubs/government/blogs/a-face-behind-the-service-5-image-prompts-for-welcoming-veterans)
+[AI performance prompts: Government employee performance prompt pack](/public/clubs/government/resources/ai-performance-prompts-government-employee-performance-prompt-pack-2026-07-17)
 
-By Laura Keenan • Sep 9th, 2026 • Views 18
+By Laura Keenan
 
-[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+Blog
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+[Your next adventure is public: 9 image prompts for parks outreach](/public/clubs/government/blogs/your-next-adventure-is-public-9-image-prompts-for-parks-outreach)
 
-[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+By Laura Keenan
 
-By Laura Keenan • Aug 11th, 2026 • Views 14
-
-[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
-
-By Laura Keenan • Jul 24th, 2026 • Views 49
+Blog
 
 [A face behind the service: 5 image prompts for welcoming veterans](/public/clubs/government/blogs/a-face-behind-the-service-5-image-prompts-for-welcoming-veterans)
 
-By Laura Keenan • Sep 9th, 2026 • Views 18
+By Laura Keenan • Sep 9th, 2026 • Views 103
 
-[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
-
-By Laura Keenan • Aug 11th, 2026 • Views 14
-
-[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
-
-By Laura Keenan • Jul 24th, 2026 • Views 49
+Blog
 
 [Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
 
-By Laura Keenan • Sep 9th, 2026 • Views 12
+By Laura Keenan • Sep 9th, 2026 • Views 110
+
+[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+
+By Laura Keenan • Aug 11th, 2026 • Views 80
+
+Blog
+
+[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
+
+By Laura Keenan • Jul 24th, 2026 • Views 189
+
+Blog
+
+[A face behind the service: 5 image prompts for welcoming veterans](/public/clubs/government/blogs/a-face-behind-the-service-5-image-prompts-for-welcoming-veterans)
+
+By Laura Keenan • Sep 9th, 2026 • Views 103
+
+[From a Full Calendar to Executive Readiness: Five ChatGPT Work Prompts for Government Executive Assistants](/public/clubs/government/resources/from-a-full-calendar-to-executive-readiness-five-chatgpt-work-prompts-for-government-executive-assistants-2026-08-11)
+
+By Laura Keenan • Aug 11th, 2026 • Views 80
+
+Blog
+
+[The Government Employee’s ChatGPT Work Starter Pack](/public/clubs/government/blogs/government-employee-chatgpt-work-starter-pack)
+
+By Laura Keenan • Jul 24th, 2026 • Views 189
+
+Blog
+
+[Your next chapter starts here: 5 image prompts for workforce outreach](/public/clubs/government/blogs/your-next-chapter-starts-here-5-image-prompts-for-workforce-outreach)
+
+By Laura Keenan • Sep 9th, 2026 • Views 110

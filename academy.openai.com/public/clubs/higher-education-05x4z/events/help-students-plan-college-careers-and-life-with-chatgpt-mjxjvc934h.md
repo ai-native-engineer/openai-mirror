@@ -90,7 +90,7 @@ Already registered?
 
 Log in to access
 
-Starting in 19 days 16 hours
+Starting in 13 days 6 hours
 
 5:00 PM - 6:00 PM GMT
 
@@ -106,7 +106,7 @@ Register
 
 Add to calendar
 
-Starting in 19 days 16 hours
+Starting in 13 days 6 hours
 
 5:00 PM - 6:00 PM GMT
 

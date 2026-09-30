@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/professors-teaching-with-openai-2025-08-18 -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Professors Teaching with OpenAI
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -66,7 +68,7 @@ I am a faculty at Saddleback College teaching courses in Emeritus Computer Infor
 
 Comment
 
-10:00](/en/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)[Video
+10:00](/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)[Video
 
 ### Meghan Killeen (American Language and Culture)
 
@@ -79,7 +81,7 @@ Meghan Killeen is an education and technology specialist with expertise in curri
 
 # Education
 
-10:00](/en/public/videos/meghan-killeen-american-language-and-culture-2025-08-18)[Video
+10:00](/public/videos/meghan-killeen-american-language-and-culture-2025-08-18)[Video
 
 ### Kateryna Ilchenko (Digital Marketing)
 
@@ -95,7 +97,7 @@ ChatGPT in My Academic Life. Four specific cases of how I use AI daily: in teach
 
 # Education
 
-10:00](/en/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)[Video
+10:00](/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)[Video
 
 ### Jalal Sarabadani (Information Systems & Technology)
 
@@ -113,9 +115,9 @@ I am an educator and curriculum designer passionate about blending technology, c
 
 1
 
-1
+2
 
-10:00](/en/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)[Video
+10:00](/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)[Video
 
 ### Simarjeet Singh (Financial Modeling)
 
@@ -134,7 +136,7 @@ Dr. Simarjeet Singh is an Assistant Professor of Accounting and Finance at Great
 
 8
 
-10:00](/en/public/videos/simarjeet-singh-financial-modeling-2025-08-18)[Video
+10:00](/public/videos/simarjeet-singh-financial-modeling-2025-08-18)[Video
 
 ### Bruce Forciea (Anatomy and Physiology)
 
@@ -151,7 +153,7 @@ I have been teaching for over 20 years and have been working to integrate AI int
 
 Comment
 
-10:00](/en/public/videos/bruce-forciea-anatomy-and-physiology-2025-08-18)[Video
+10:00](/public/videos/bruce-forciea-anatomy-and-physiology-2025-08-18)[Video
 
 ### Ayse Ozturk (Marketing Strategy)
 
@@ -170,7 +172,7 @@ The main focus of the video is to demonstrate how to create simulations/games fo
 
 2
 
-10:00](/en/public/videos/ayse-ozturk-marketing-strategy-2025-08-19)[Video
+10:00](/public/videos/ayse-ozturk-marketing-strategy-2025-08-19)[Video
 
 ### Deepshikha (Materials Chemistry)
 
@@ -187,7 +189,7 @@ Like
 
 Comment
 
-10:00](/en/public/videos/deepshikha-materials-chemistry-2025-08-19)[Video
+10:00](/public/videos/deepshikha-materials-chemistry-2025-08-19)[Video
 
 ### Tom Coley ( International Year One Business)
 
@@ -204,7 +206,7 @@ Like
 
 Comment
 
-10:00](/en/public/videos/tom-coley-international-year-one-business-2025-08-19)[Video
+10:00](/public/videos/tom-coley-international-year-one-business-2025-08-19)[Video
 
 ### Yuen Ben Siu (Marketing)
 
@@ -225,7 +227,7 @@ LEON - https://chatgpt.com/g/g-675190623ae0819187ad08c165ac4c83-lecture-extensio
 
 Comment
 
-10:00](/en/public/videos/yuen-ben-siu-marketing-2025-08-19)[Video
+10:00](/public/videos/yuen-ben-siu-marketing-2025-08-19)[Video
 
 ### Ganesh Mani (AI and Emerging Economies)
 
@@ -246,7 +248,7 @@ Additional Resources:
 
 9
 
-10:00](/en/public/videos/ganesh-mani-ai-and-emerging-economies-2025-08-19)[Video
+10:00](/public/videos/ganesh-mani-ai-and-emerging-economies-2025-08-19)[Video
 
 ### Adam B. Lockwood (Psychology)
 
@@ -265,7 +267,7 @@ Like
 
 Comment
 
-10:00](/en/public/videos/adam-b-lockwood-psychology-2025-08-19)[Video
+10:00](/public/videos/adam-b-lockwood-psychology-2025-08-19)[Video
 
 ### Nydia M. Cappas (Psychology)
 
@@ -281,11 +283,11 @@ Additional resources:
 
 # Education
 
-Like
+1
 
 Comment
 
-10:00](/en/public/videos/nydia-m-cappas-psychology-2025-08-19)[Video
+10:00](/public/videos/nydia-m-cappas-psychology-2025-08-19)[Video
 
 ### Michael Atkinson (Management Communication)
 
@@ -303,7 +305,7 @@ Dr. Michael Atkinson is an educator, advisor and consultant focused on leadershi
 
 1
 
-10:00](/en/public/videos/michael-atkinson-management-communication-2025-08-19)[Video
+10:00](/public/videos/michael-atkinson-management-communication-2025-08-19)[Video
 
 ### Abhilasha Khare (Ethical Usage of AI)
 
@@ -320,7 +322,7 @@ Like
 
 Comment
 
-10:00](/en/public/videos/abhilasha-khare-ethical-usage-of-ai-2025-08-19)[Video
+10:00](/public/videos/abhilasha-khare-ethical-usage-of-ai-2025-08-19)[Video
 
 ### Deirdre Sartorelli & Dr. Gina Deschamps (Entrepreneurship)
 
@@ -340,7 +342,7 @@ Like
 
 Comment
 
-10:00](/en/public/videos/deirdre-sartorelli-and-dr-gina-deschamps-entrepreneurship-2025-08-19)[Video
+10:00](/public/videos/deirdre-sartorelli-and-dr-gina-deschamps-entrepreneurship-2025-08-19)[Video
 
 ### Dr. Akhil Damodaran (Business Policy and Strategy)
 
@@ -355,7 +357,7 @@ A TEDx speaker and innovation strategist, he bridges academia, technology, and r
 
 # Education
 
-8:24](/en/public/videos/dr-akhil-damodaran-business-policy-and-strategy-2025-08-20)[Video
+8:24](/public/videos/dr-akhil-damodaran-business-policy-and-strategy-2025-08-20)[Video
 
 ### Luis H. Reyes (Project of Unit Operations)
 
@@ -368,7 +370,7 @@ Luis Reyes is an Associate Professor of Chemical and Food Engineering at Univers
 
 # Education
 
-9:21](/en/public/videos/luis-h-reyes-project-of-unit-operations-2025-08-20)[Video
+9:21](/public/videos/luis-h-reyes-project-of-unit-operations-2025-08-20)[Video
 
 ### Marina Jovic (Academic Writing)
 
@@ -388,7 +390,7 @@ Dr. Marina Jovic (ORCID: 0000-0002-2146-3050) is an Assistant Professor at the G
 
 # Education
 
-9:45](/en/public/videos/marina-jovic-academic-writing-2025-08-20)[Video
+9:45](/public/videos/marina-jovic-academic-writing-2025-08-20)[Video
 
 ### Brinnae Bent (Emerging Trends in Explainable AI; Offensive and Defensive Uses of AI; Executive Education on AI and Cybersecurity)
 
@@ -401,7 +403,7 @@ Brinnae Bent, PhD teaches Artificial Intelligence and Cybersecurity courses at D
 
 # Education
 
-5:52](/en/public/videos/brinnae-bent-emerging-trends-in-explainable-ai-offensive-and-defensive-uses-of-ai-executive-education-on-ai-and-cybersecurity-2025-08-20)[Video
+5:52](/public/videos/brinnae-bent-emerging-trends-in-explainable-ai-offensive-and-defensive-uses-of-ai-executive-education-on-ai-and-cybersecurity-2025-08-20)[Video
 
 ### Kiran V. K (CST 308--Comprehensive Coursework for III Year Computer Science and Engineering Students)
 
@@ -414,7 +416,7 @@ Kiran V K is an Assistant Professor of Computer Science and Engineering at NSS C
 
 # Education
 
-9:58](/en/public/videos/kiran-v-k-cst-308-comprehensive-coursework-for-iii-year-computer-science-and-engineering-students-2025-08-20)[Video
+9:58](/public/videos/kiran-v-k-cst-308-comprehensive-coursework-for-iii-year-computer-science-and-engineering-students-2025-08-20)[Video
 
 ### Sebastián C. Chumbita (Alfabetización en IA Generativa: Inclusión y Estrategia desde la Universidad Pública)
 
@@ -427,7 +429,7 @@ Director del Laboratorio de Innovación Tecnológica de la Facultad de Derecho d
 
 # Education
 
-5:15](/en/public/videos/sebastian-c-chumbita-alfabetizacion-en-ia-generativa-inclusion-y-estrategia-desde-la-universidad-publica-2025-08-20)[Video
+5:15](/public/videos/sebastian-c-chumbita-alfabetizacion-en-ia-generativa-inclusion-y-estrategia-desde-la-universidad-publica-2025-08-20)[Video
 
 ### Christiane Reves (German 101)
 
@@ -442,7 +444,7 @@ Christiane Reves is a Clinical Assistant Professor and Language Program Director
 
 # North America
 
-7:02](/en/public/videos/christiane-reves-german-101-2025-08-20)[Video
+7:02](/public/videos/christiane-reves-german-101-2025-08-20)[Video
 
 ### Nik Bear Brown (INFO 6205: Program Structure Algorithms)
 
@@ -455,7 +457,7 @@ Dr. Nik Bear Brown is an Associate Teaching Professor at Northeastern University
 
 # Education
 
-10:13](/en/public/videos/nik-bear-brown-info-6205-program-structure-algorithms-2025-08-20)[Video
+10:13](/public/videos/nik-bear-brown-info-6205-program-structure-algorithms-2025-08-20)[Video
 
 ### Dr. Doreen Mayrell (College Algebra)
 
@@ -468,7 +470,7 @@ Dr. Doreen Mayrell teaches mathematics at Collin College and leads academics at 
 
 # Education
 
-7:19](/en/public/videos/dr-doreen-mayrell-college-algebra-2025-08-20)[Video
+7:19](/public/videos/dr-doreen-mayrell-college-algebra-2025-08-20)[Video
 
 ### Tim Mousel (PHED 1164 - Introduction to Physical Fitness & Wellness)
 
@@ -483,7 +485,7 @@ Tim Mousel is a full-time faculty member in the Kinesiology department at LSC-On
 
 # Education
 
-10:14](/en/public/videos/tim-mousel-phed-1164-introduction-to-physical-fitness-and-wellness-2025-08-20)[Video
+10:14](/public/videos/tim-mousel-phed-1164-introduction-to-physical-fitness-and-wellness-2025-08-20)[Video
 
 ### Robert Voss (U.S. History since 1877, Digital Humanities)
 
@@ -496,7 +498,7 @@ Dr. Robert Voss is an Associate Professor of History and Social Science Educatio
 
 # Education
 
-6:55](/en/public/videos/robert-voss-us-history-since-1877-digital-humanities-2025-08-20)[Video
+6:55](/public/videos/robert-voss-us-history-since-1877-digital-humanities-2025-08-20)[Video
 
 ### Laura Trujillo-Liñán (Philosophical Anthropology and Theory of Communication)
 
@@ -509,7 +511,7 @@ Laura Trujillo Liñán is Professor at Universidad Panamericana in Mexico City a
 
 # Education
 
-5:49](/en/public/videos/laura-trujillo-linan-philosophical-anthropology-and-theory-of-communication-2025-08-20)[Video
+5:49](/public/videos/laura-trujillo-linan-philosophical-anthropology-and-theory-of-communication-2025-08-20)[Video
 
 ### Job Fransen (EHR 225: Growth, Motor Development and Aging)
 
@@ -522,7 +524,7 @@ Job Fransen is a senior lecturer in Sport and Exercise Science and a renowned sk
 
 # Education
 
-5:47](/en/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)[Video
+5:47](/public/videos/job-fransen-ehr-225-growth-motor-development-and-aging-2025-08-20)[Video
 
 ### Anupam Sobti (Web Development using AI)
 
@@ -539,14 +541,14 @@ Dr Anupam Sobti is an assistant professor at Plaksha University. He did a postdo
 
 # India
 
-7:26](/en/public/videos/anupam-sobti-web-development-using-ai-2025-08-20)
+7:26](/public/videos/anupam-sobti-web-development-using-ai-2025-08-20)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)

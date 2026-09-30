@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13 -->
+
 # codex-for-swes
 
 <!-- vimeo: 1184995666 | track: English (auto-generated) -->

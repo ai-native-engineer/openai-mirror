@@ -1,18 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-sales-teams-webinar-resource-guide-2026-08-05 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-August 6, 2026
+August 6, 2026 · Last updated on August 27, 2026
 
 # ChatGPT Work for sales teams: Webinar Resource Guide
 
@@ -22,11 +16,11 @@ August 6, 2026
 
 # ChatGPT for Work
 
-# ChatGPT
-
 # Use Cases
 
 # Work
+
+# Portfolio Company Sales
 
 ## Follow along with our webinar ChatGPT Work for sales teams
 
@@ -109,11 +103,7 @@ Start a new Work task, invoke  `@Sales` , and use this prompt:
 ```
 @Sales Review my open opportunities and decide where I should focus today.
 
-﻿
-
 Create a Google Doc. Rank the opportunities and include why each one needs attention, the supporting evidence, and the recommended next action. Use only information supported by the source.
-
-﻿
 
 Then send me a short summary in Slack with a link to the document. Do not contact customers or update the CRM.
 ```
@@ -169,11 +159,7 @@ Start a new Work task inside the Acme Project and use this prompt:
 ```
 Create a strategic account plan presentation for an internal account review of Acme.
 
-﻿
-
 Explain what we know about the account, where the opportunities stand, what’s at risk, and how we should move forward. Use only information supported by the source material, and flag anything that still needs validation.
-
-﻿
 
 Build the presentation using the Acme Strategic Account Plan Template. Make the story clear, use charts or tables where they help, and include the actions we should take next.
 ```
@@ -189,8 +175,6 @@ Then revise the deck with the company-specific preferences from the webinar—or
 ```
 Please revise the presentation with these company preferences:
 
-﻿
-
 - Remove the table of contents slide.
 
 - Put the main recommendation right up front.
@@ -204,8 +188,6 @@ Please revise the presentation with these company preferences:
 - Use red only for genuine deal risks or blockers.
 
 - Use “customers” instead of “accounts” in leadership presentations.
-
-﻿
 
 Keep following the Acme account plan presentation template.
 ```
@@ -268,42 +250,40 @@ Thanks for joining!
 
 [ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-[ChatGPT for sales](/public/clubs/work-users-ynjqu/resources/use-cases-sales)
-
 [ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
 
-[How sales teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
-Jun 11th, 2026 • Views 1.8K
+By Juliann Igo
 
-[ChatGPT 102: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide-interactive)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-By Juliann Igo • Feb 25th, 2026 • Views 11.6K
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[35:08](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-[ChatGPT Work for sales teams [recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K
 
-Aug 6th, 2026 • Views 113
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
+Aug 20th, 2026 • Views 1K
 
-By Diana Stegall • Aug 4th, 2026 • Views 520
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-[How sales teams use Codex: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+Aug 13th, 2026 • Views 851
 
-Jun 11th, 2026 • Views 1.8K
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-[35:08](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[ChatGPT Work for sales teams [recording]](/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Aug 6th, 2026 • Views 113
+Aug 20th, 2026 • Views 1K
 
-[Get started with ChatGPT Work: Webinar resource guide](/public/clubs/work-users-ynjqu/resources/get-started-with-chatgpt-work-webinar-resource-guide-2026-08-03)
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-By Diana Stegall • Aug 4th, 2026 • Views 520
+Aug 13th, 2026 • Views 851
 
-[ChatGPT 102: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide-interactive)
+[ChatGPT Work for business operations teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26)
 
-By Juliann Igo • Feb 25th, 2026 • Views 11.6K
+By Diana Stegall • Aug 26th, 2026 • Views 1.2K

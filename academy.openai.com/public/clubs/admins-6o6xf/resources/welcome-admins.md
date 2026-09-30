@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/welcome-admins -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 Training
 
-January 12, 2026 · Last updated on May 29, 2026
+January 12, 2026 · Last updated on September 17, 2026
 
 # Welcome to the For Work Admins Track!
 
@@ -17,6 +17,8 @@ January 12, 2026 · Last updated on May 29, 2026
 # Workplace & Business
 
 # Use Cases
+
+# Work
 
 ## Navigate the resources of the OpenAI Academy for Work Admins
 
@@ -32,9 +34,9 @@ These people generally manage the **technical infrastructure** that powers a sec
 
 * Configuring **SSO and SCIM** for secure login and user provisioning
 
-* Managing **workspace settings** (file upload, data retention, custom GPT access)
+* Managing **workspace settings** (file upload, data retention)
 
-#### **>> Start here:** [Setting up your workspace](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/workspace-setup-687a6d0688989b248151f86a)﻿
+#### **>> Start here:**  [Setting up your workspace](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/workspace-setup-687a6d0688989b248151f86a)﻿
 
 ## **For Program & Rollout Leads**
 
@@ -46,7 +48,7 @@ These admins focus on **change management and adoption**. They lead the rollout,
 
 * Measuring **ROI and impact stories** to share with leadership
 
-#### **>> Start here:** [Launching ChatGPT to your team](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/launch-6877d4ea996c9ce28e11878f)﻿
+#### **>> Start here:**  [Launching ChatGPT to your team](https://academy.openai.com/home/clubs/administrators-6o6xf/tags/launch-6877d4ea996c9ce28e11878f)﻿
 
 ## Additional communities and learning paths
 
@@ -58,44 +60,50 @@ As an admin, you also have access to our extended enablement ecosystem:
 
 * **Builders Community** – For technical users exploring advanced workflows, including building on the API
 
-If you need further support at any point, visit our [**Help Center**](https://help.openai.com/) or reach out to [**[email protected]**](/cdn-cgi/l/email-protection#23505653534c5157634c53464d424a0d404c4e) for assistance
+If you need further support at any point, visit our  [**Help Center**](https://help.openai.com/) or reach out to  [**[email protected]**](/cdn-cgi/l/email-protection#12616762627d6066527d62777c737b3c717d7f) for assistance
 
-Table Of Contents
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Automate provisioning and unlock actionable analytics with SCIM](/en/public/clubs/admins-6o6xf/resources/scim)
+Video
 
-Mar 11th, 2026 • Views 856
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Example launch planner](/en/public/clubs/admins-6o6xf/resources/example-launch-planner)
+Sep 14th, 2026 • Views 1.5K
 
-Sep 16th, 2025 • Views 2.3K
+[Leading impactful ChatGPT Trainings](/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Sep 23rd, 2025 • Views 7K
 
-Mar 10th, 2026 • Views 9.7K
+[Automate provisioning and unlock actionable analytics with SCIM](/public/clubs/admins-6o6xf/resources/scim)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Mar 11th, 2026 • Views 2.2K
 
-Sep 23rd, 2025 • Views 5.5K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[Automate provisioning and unlock actionable analytics with SCIM](/en/public/clubs/admins-6o6xf/resources/scim)
+Mar 10th, 2026 • Views 13.9K
 
-Mar 11th, 2026 • Views 856
+[59:20](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[ChatGPT Enterprise workspace analytics guide](/en/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+Video
 
-Mar 10th, 2026 • Views 9.7K
+[Builder Bootcamp: RAG](/public/videos/builder-bootcamp-rag-2026-09-14)
 
-[Leading impactful ChatGPT Trainings](/en/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+Sep 14th, 2026 • Views 1.5K
 
-Sep 23rd, 2025 • Views 5.5K
+[Automate provisioning and unlock actionable analytics with SCIM](/public/clubs/admins-6o6xf/resources/scim)
 
-[Example launch planner](/en/public/clubs/admins-6o6xf/resources/example-launch-planner)
+Mar 11th, 2026 • Views 2.2K
 
-Sep 16th, 2025 • Views 2.3K
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
+
+Mar 10th, 2026 • Views 13.9K
+
+[Leading impactful ChatGPT Trainings](/public/clubs/admins-6o6xf/resources/leading-impactful-chatgpt-trainings)
+
+Sep 23rd, 2025 • Views 7K

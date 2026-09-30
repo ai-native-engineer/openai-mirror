@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 # Resources - ChatGPT for Faculty Session
 
@@ -28,15 +28,15 @@ The best way to follow along is to pick one workflow that matches your role, try
 
 ## **Resources to bookmark**
 
-* ChatGPT: [https://chat.com](https://chat.com/)﻿
+* ChatGPT:  [https://chat.com](https://chat.com/)﻿
 
-* OpenAI Help Center: [https://help.openai.com](https://help.openai.com/)﻿
+* OpenAI Help Center:  [https://help.openai.com](https://help.openai.com/)﻿
 
-* ChatGPT Cookbook: [https://cookbook.openai.com](https://cookbook.openai.com/)﻿
+* ChatGPT Cookbook:  [https://cookbook.openai.com](https://cookbook.openai.com/)﻿
 
-* OpenAI Academy: <https://academy.openai.com/home/clubs/work-users-ynjqu>﻿
+* OpenAI Academy:  <https://academy.openai.com/home/clubs/work-users-ynjqu>﻿
 
-* Codex changelog: <https://developers.openai.com/codex/changelog/>﻿
+* Codex changelog:  <https://developers.openai.com/codex/changelog/>﻿
 
 ## **What to remember**
 
@@ -88,7 +88,7 @@ Personalization works best when it gives ChatGPT durable context about your role
 
 Upload a syllabus, rubric, assignment, article, grant narrative, lecture notes, or student-facing instructions. Then try:
 
-﻿[(Download this sylla](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Biology-Syllabus-77484726-53fc-4cb9-8a81-c87ddc12dce1-1778614636491.pdf)﻿[bus](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Biology-Syllabus-77484726-53fc-4cb9-8a81-c87ddc12dce1-1778614636491.pdf))
+﻿ [(Download this sylla](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Biology-Syllabus-77484726-53fc-4cb9-8a81-c87ddc12dce1-1778614636491.pdf)﻿ [bus](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Biology-Syllabus-77484726-53fc-4cb9-8a81-c87ddc12dce1-1778614636491.pdf))
 
 *I’m an Associate Professor of Biology at Emory University, and I’m uploading the syllabus for my upper-level Immunology course. Please read the file and summarize what the course covers, what students are expected to do, and where the syllabus could be clearer or stronger. Give me a short faculty-friendly readout with the main takeaways and a few practical suggestions before I share it with students.*
 
@@ -178,7 +178,7 @@ Deep Research is not only for formal researchers. It is useful anytime you need 
 
 Upload a dataset, then try:
 
-([Download this dataset](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/County-Labor-Market-a34eeb54-d5c1-4c3e-8673-ea4fd243e31c-1778614718521.pdf))
+( [Download this dataset](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/County-Labor-Market-a34eeb54-d5c1-4c3e-8673-ea4fd243e31c-1778614718521.pdf))
 
 *Using the dataset provided, which includes county-level U.S. labor market indicators from 2000 to 2024, including unemployment rates, median wages, labor force participation, inflation-adjusted income, education levels, industry mix, and region: Can you analyze how labor market outcomes changed across regions before, during, and after major economic shocks, especially the 2008 financial crisis and the COVID-19 pandemic? Please identify the strongest trends, regional differences, and unusual outliers. Create clear visualizations that would help undergraduate economics students understand the patterns, and suggest 3 discussion questions I could use in class.*
 
@@ -218,58 +218,56 @@ Try this reflection prompt in ChatGPT:
 
 Codex is best when you want an agent to operate on real files or build repeatable technical support for a workflow.
 
-Table Of Contents
+Blog
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[Built for better teaching: 5 GPTs every faculty member should use](/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
+
+By Siya Raj Purohit
+
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
 By Kirk Gulezian
 
 Blog
 
-[Built for better teaching: 5 GPTs every faculty member should use](/en/public/clubs/higher-education-05x4z/blogs/built-for-better-teaching-5-gpts-every-faculty-member-should-use-2025-08-13)
-
-By Siya Raj Purohit
-
-[Prompt pack for students](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-students)
-
-By Juliann Igo
+[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 145
+May 19th, 2026 • Views 691
 
-Blog
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
-
-Jun 2nd, 2026 • Views 358
-
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
-
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+Jun 9th, 2026 • Views 2.8K
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
 
-May 19th, 2026 • Views 145
+Jul 24th, 2026 • Views 571
 
-[Prompt Pack for Faculty](/en/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
 
-By Juliann Igo • Aug 22nd, 2025 • Views 25.5K
-
-[Codex for Faculty and Researchers - Follow Along Guide](/en/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
-
-Jun 9th, 2026 • Views 400
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
 
 Blog
 
-[Workspace Agents for Faculty-Staff Follow-Along Resource Guide](/en/public/clubs/higher-education-05x4z/blogs/workspace-agents-for-faculty-staff-follow-along-resource-guide-2026-06-02)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
-Jun 2nd, 2026 • Views 358
+May 19th, 2026 • Views 691
+
+Blog
+
+[ChatGPT EDU Credit Governance Resources](/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2)
+
+Jul 24th, 2026 • Views 571
+
+[Prompt Pack for Faculty](/public/clubs/higher-education-05x4z/resources/prompt-pack-for-faculty)
+
+By Juliann Igo • Aug 22nd, 2025 • Views 30.3K
+
+[Codex for Faculty and Researchers - Follow Along Guide](/public/clubs/higher-education-05x4z/resources/codex-for-faculty-and-researchers-follow-along-guide-2026-06-09)
+
+Jun 9th, 2026 • Views 2.8K

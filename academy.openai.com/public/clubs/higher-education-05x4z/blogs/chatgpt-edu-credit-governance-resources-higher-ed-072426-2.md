@@ -1,29 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/chatgpt-edu-credit-governance-resources-higher-ed-072426-2 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[Communities](/en/home/clubs)
-
-/
-
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
-
-/
-
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -49,68 +28,58 @@ A customizable reference with higher education and K–12 role matrices, sample 
 
 ﻿ [Access both resources here](https://docsend.com/view/s/dmebhumqamhkht3c)﻿
 
-## Popular
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Plan More Engaging Class Sessions with ChatGPT](/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
 
 Blog
 
-[Plan More Engaging Class Sessions with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/plan-more-engaging-class-sessions-with-chatgpt-2026-05-19)
+[Draft and Revise Academic Documents in ChatGPT](/public/clubs/higher-education-05x4z/blogs/draft-and-revise-academic-documents-in-chatgpt-2026-05-19)
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-Dive in
+May 6th, 2026 • Views 480
 
-## Related
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-Blog
+May 13th, 2026 • Views 1.3K
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-May 6th, 2026 • Views 301
+Video
 
-Blog
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+Jul 8th, 2026 • Views 510
 
-May 6th, 2026 • Views 663
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-Resource
-
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
-
-May 13th, 2026 • Views 666
-
-Resource
-
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
-
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.9K
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
 Blog
 
-[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
+[Set Credit Guardrails Before Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/set-credit-guardrails-before-your-chatgpt-edu-rollout-2026-05-06)
 
-May 6th, 2026 • Views 301
+May 6th, 2026 • Views 480
 
-Resource
+[48:25](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-[Resources - ChatGPT for Faculty Session](/en/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
+Video
 
-May 13th, 2026 • Views 666
+[ChatGPT Edu Credits Governance: Role-Based Access, Credits Planning, and Management - Webinar Replay](/public/clubs/higher-education-05x4z/videos/chatgpt-edu-credits-governance-role-based-access-credits-planning-and-management-webinar-replay)
 
-Resource
+Jul 8th, 2026 • Views 510
 
-[ChatGPT Edu Launch Guide for Higher Ed Universities](/en/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
+[ChatGPT Edu Launch Guide for Higher Ed Universities](/public/clubs/higher-education-05x4z/resources/step-by-step-launch-guide)
 
-By Kirk Gulezian • Aug 22nd, 2025 • Views 28.9K
+By Kirk Gulezian • Aug 22nd, 2025 • Views 30K
 
-Blog
+[Resources - ChatGPT for Faculty Session](/public/clubs/higher-education-05x4z/resources/resources-chatgpt-for-faculty-session-2026-05-12)
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 663
+May 13th, 2026 • Views 1.3K

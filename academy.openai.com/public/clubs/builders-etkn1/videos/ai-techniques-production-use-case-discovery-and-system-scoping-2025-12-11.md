@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-production-use-case-discovery-and-system-scoping-2025-12-11 -->
+
 # AI Techniques (Production): Use Case Discovery & System Scoping
 
 <!-- vimeo: 1145775565 | track: English (auto-generated) -->

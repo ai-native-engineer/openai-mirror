@@ -18,76 +18,72 @@ June 11, 2026
 
 Experiencing slow loading? [Download](https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/DRAFT-OpenAI-Academy-Code-of-Conduct-v-061226-docx-1--b3694747-47d5-4d89-a398-9db537fd8d6c-1781220271171.pdf) the file to view.
 
-Table Of Contents
+[OpenAI Academy Brussels](/public/resources/openai-academy-brussels-2026-06-22)
 
-[OpenAI Academy Abilene Resource Hub](/en/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
+[OpenAI Academy Abilene Resource Hub](/public/resources/openai-academy-abilene-resource-hub-2026-04-15)
 
-[5:34](/en/public/videos/openai-llms-and-chatgpt-2025-02-13)
+[5:34](/public/videos/openai-llms-and-chatgpt-2025-02-13)
 
 Video
 
-[OpenAI, LLMs & ChatGPT](/en/public/videos/openai-llms-and-chatgpt-2025-02-13)
-
-[OpenAI Academy small business resource hub](/en/public/resources/openai-academy-small-business-resource-hub-2026-06-03)
-
-By Calvin Landrum
+[OpenAI, LLMs & ChatGPT](/public/videos/openai-llms-and-chatgpt-2025-02-13)
 
 External Content
 
-[Learn more about the OpenAI Academy](/en/public/externals/learn-more-about-the-openai-academy-2025-02-20)
+[Learn more about the OpenAI Academy](/public/externals/learn-more-about-the-openai-academy-2025-02-20)
 
-Feb 20th, 2025 • Views 3.7K
+Feb 20th, 2025 • Views 3.8K
 
-[56:21](/en/public/videos/fine-tuning-build-hour-2025-02-07)
-
-Video
-
-[Fine-Tuning Build Hour](/en/public/videos/fine-tuning-build-hour-2025-02-07)
-
-Feb 7th, 2025 • Views 12.9K
-
-[52:22](/en/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
+[56:21](/public/videos/fine-tuning-build-hour-2025-02-07)
 
 Video
 
-[Enhancing Recommendations with LLMs Build Hour](/en/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
+[Fine-Tuning Build Hour](/public/videos/fine-tuning-build-hour-2025-02-07)
 
-Feb 7th, 2025 • Views 13.5K
+Feb 7th, 2025 • Views 13.6K
 
-[58:41](/en/public/videos/function-calling-build-hour-2025-02-07)
+[52:22](/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
 
 Video
 
-[Function Calling Build Hour](/en/public/videos/function-calling-build-hour-2025-02-07)
+[Enhancing Recommendations with LLMs Build Hour](/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
 
-Feb 7th, 2025 • Views 11.7K
+Feb 7th, 2025 • Views 14.1K
+
+[58:41](/public/videos/function-calling-build-hour-2025-02-07)
+
+Video
+
+[Function Calling Build Hour](/public/videos/function-calling-build-hour-2025-02-07)
+
+Feb 7th, 2025 • Views 12.3K
 
 External Content
 
-[Learn more about the OpenAI Academy](/en/public/externals/learn-more-about-the-openai-academy-2025-02-20)
+[Learn more about the OpenAI Academy](/public/externals/learn-more-about-the-openai-academy-2025-02-20)
 
-Feb 20th, 2025 • Views 3.7K
+Feb 20th, 2025 • Views 3.8K
 
-[52:22](/en/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
-
-Video
-
-[Enhancing Recommendations with LLMs Build Hour](/en/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
-
-Feb 7th, 2025 • Views 13.5K
-
-[58:41](/en/public/videos/function-calling-build-hour-2025-02-07)
+[52:22](/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
 
 Video
 
-[Function Calling Build Hour](/en/public/videos/function-calling-build-hour-2025-02-07)
+[Enhancing Recommendations with LLMs Build Hour](/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
 
-Feb 7th, 2025 • Views 11.7K
+Feb 7th, 2025 • Views 14.1K
 
-[56:21](/en/public/videos/fine-tuning-build-hour-2025-02-07)
+[58:41](/public/videos/function-calling-build-hour-2025-02-07)
 
 Video
 
-[Fine-Tuning Build Hour](/en/public/videos/fine-tuning-build-hour-2025-02-07)
+[Function Calling Build Hour](/public/videos/function-calling-build-hour-2025-02-07)
 
-Feb 7th, 2025 • Views 12.9K
+Feb 7th, 2025 • Views 12.3K
+
+[56:21](/public/videos/fine-tuning-build-hour-2025-02-07)
+
+Video
+
+[Fine-Tuning Build Hour](/public/videos/fine-tuning-build-hour-2025-02-07)
+
+Feb 7th, 2025 • Views 13.6K

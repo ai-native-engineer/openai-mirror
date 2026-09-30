@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/small-business-ipf4m/videos/chatgpt-workflow-creating-a-customer-response-plan-2025-11-18 -->
+
 # ChatGPT Workflow: Creating a Customer Response Plan
 
 <!-- vimeo: 1129930323 | track: English (auto-generated) -->

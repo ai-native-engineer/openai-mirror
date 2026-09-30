@@ -1,14 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/resources/how-the-washington-posts-builds-ai-agents -->
 
-[Communities](/home/clubs)
-
-/
-
 [News Organizations](/public/clubs/news-organizations-b9osl/overview)
 
-/
+[Content](/public/clubs/news-organizations-b9osl/content)
 
-[navigation.content](/public/clubs/news-organizations-b9osl/content)
+Article
+
+August 28, 2026
 
 # How The Washington Post builds AI agents to make complex analytics easier to understand
 
@@ -82,60 +80,70 @@ That grounding matters because a good answer depends on more than finding a numb
 
 [49:00](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
+Video
+
 [AI Essentials for Journalists](/public/clubs/news-organizations-b9osl/videos/ai-essentials-for-journalists-2025-12-12)
 
-[35:00](/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
-
-[On the air with AI: Behind the scenes at TBPN](/public/clubs/news-organizations-b9osl/videos/on-the-air-with-ai-behind-the-scenes-at-tbpn-2026-05-22)
-
-By Evan Hirsch
-
 [4:20](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
+
+Video
 
 [Skills vs. Agents](/public/clubs/news-organizations-b9osl/videos/skills-vs-agents-2026-07-13)
 
 By Evan Hirsch
 
-External Content
+[2:50](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
-[How to use AI to improve fundraising strategy](/public/clubs/news-organizations-b9osl/externals/how-to-use-ai-to-improve-fundraising-strategy-2025-12-15)
+Video
 
-Dec 16th, 2025 • Views 285
+[Power Prompting](/public/clubs/news-organizations-b9osl/videos/power-prompting-2026-07-07)
 
-[How The San Francisco Standard is building an AI-first local news experience](/public/clubs/news-organizations-b9osl/blogs/san-francisco-standard-ai-first-local-news)
-
-Jun 4th, 2026 • Views 663
-
-External Content
-
-[How news organizations are using AI to advance their vital missions](/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22)
-
-Jul 23rd, 2026 • Views 40
-
-External Content
-
-[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
-
-Apr 9th, 2026 • Views 45
+By Evan Hirsch
 
 External Content
 
 [How to use AI to improve fundraising strategy](/public/clubs/news-organizations-b9osl/externals/how-to-use-ai-to-improve-fundraising-strategy-2025-12-15)
 
-Dec 16th, 2025 • Views 285
+Dec 16th, 2025 • Views 289
+
+Blog
+
+[How The San Francisco Standard is building an AI-first local news experience](/public/clubs/news-organizations-b9osl/blogs/san-francisco-standard-ai-first-local-news)
+
+Jun 4th, 2026 • Views 819
 
 External Content
 
 [How news organizations are using AI to advance their vital missions](/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22)
 
-Jul 23rd, 2026 • Views 40
+Jul 23rd, 2026 • Views 45
 
 External Content
 
 [How DMG Media is building an AI ‘foundational layer’ for the newsroom](/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
 
-Apr 9th, 2026 • Views 45
+Apr 9th, 2026 • Views 50
+
+External Content
+
+[How to use AI to improve fundraising strategy](/public/clubs/news-organizations-b9osl/externals/how-to-use-ai-to-improve-fundraising-strategy-2025-12-15)
+
+Dec 16th, 2025 • Views 289
+
+External Content
+
+[How news organizations are using AI to advance their vital missions](/public/clubs/news-organizations-b9osl/externals/how-news-organizations-are-using-ai-to-advance-their-vital-missions-2026-07-22)
+
+Jul 23rd, 2026 • Views 45
+
+External Content
+
+[How DMG Media is building an AI ‘foundational layer’ for the newsroom](/public/clubs/news-organizations-b9osl/externals/how-dmg-media-is-building-an-ai-foundational-layer-for-the-newsroom-2026-04-09)
+
+Apr 9th, 2026 • Views 50
+
+Blog
 
 [How The San Francisco Standard is building an AI-first local news experience](/public/clubs/news-organizations-b9osl/blogs/san-francisco-standard-ai-first-local-news)
 
-Jun 4th, 2026 • Views 663
+Jun 4th, 2026 • Views 819

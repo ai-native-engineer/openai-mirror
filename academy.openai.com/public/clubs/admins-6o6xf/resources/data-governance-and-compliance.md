@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/admins-6o6xf/resources/data-governance-and-compliance -->
 
-[Admins](/en/public/clubs/admins-6o6xf/overview)
+[Admins](/public/clubs/admins-6o6xf/overview)
 
-[navigation.content](/en/public/clubs/admins-6o6xf/content)
+[Content](/public/clubs/admins-6o6xf/content)
 
 Article
 
-July 6, 2025 · Last updated on May 29, 2026
+July 6, 2025 · Last updated on September 17, 2026
 
 # Data governance and compliance
 
@@ -17,6 +17,10 @@ July 6, 2025 · Last updated on May 29, 2026
 # Deployment & Adoption
 
 # Personal
+
+# Portfolio Company Dev & IT
+
+# Portfolio Company Cyber
 
 ## Maintaining a secure workspace
 
@@ -36,7 +40,7 @@ One of the most important areas for governance is deciding how ChatGPT will hand
 
 * **Conversation history & retention period:** By default, chats are saved indefinitely to the user’s account until they delete them. However, Enterprise Owners can set a custom data retention policy for the workspace with a minimum of 90 days. Keep in mind that shorter retention may significantly impact user experience, as it will limit the amount of chats that ChatGPT is able to reference.
 
-Visit the [**OpenAI Trust Portal**](https://trust.openai.com/) to access our comprehensive compliance documentation, find answers to frequently asked questions related to security and privacy, and explore our robust security practices.
+Visit the  [**OpenAI Trust Portal**](https://trust.openai.com/) to access our comprehensive compliance documentation, find answers to frequently asked questions related to security and privacy, and explore our robust security practices.
 
 ## **Security, compliance and governance controls**
 
@@ -46,46 +50,44 @@ Beyond user access and data retention, consider the broader security and complia
 
 * *Will we permit third-party integrations, and if so, how do we vet and enable them?*
 
-* *What is the maximum sharing scope for custom GPTs?*
+* *What is the* *policy for sharing information outside the workspace**?*
 
 * *Will we integrate the Compliance API or SIEM/DLP tools for ongoing audit and e-discovery?*
 
-Table Of Contents
+[Automate provisioning and unlock actionable analytics with SCIM](/public/clubs/admins-6o6xf/resources/scim)
 
-[Automate provisioning and unlock actionable analytics with SCIM](/en/public/clubs/admins-6o6xf/resources/scim)
+[ChatGPT Enterprise workspace analytics guide](/public/clubs/admins-6o6xf/resources/chatgpt-enterprise-user-analytics-guide)
 
-[Communicating about ChatGPT Enterprise to your team](/en/public/clubs/admins-6o6xf/resources/team-communication)
+[Communicating about ChatGPT Enterprise to your team](/public/clubs/admins-6o6xf/resources/team-communication)
 
-[Welcome to the For Work Admins Track!](/en/public/clubs/admins-6o6xf/resources/welcome-admins)
+[Measuring impact and ROI](/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
 
-[Measuring impact and ROI](/en/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
+Jul 4th, 2025 • Views 4K
 
-Jul 4th, 2025 • Views 2.9K
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
+Jul 10th, 2025 • Views 9.3K
 
-Jul 10th, 2025 • Views 7.1K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+Jul 8th, 2025 • Views 9.8K
 
-Jul 8th, 2025 • Views 6.8K
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+Jul 5th, 2025 • Views 19.4K
 
-Jul 5th, 2025 • Views 16K
+[Measuring impact and ROI](/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
 
-[Measuring impact and ROI](/en/public/clubs/admins-6o6xf/resources/measuring-impact-and-roi)
+Jul 4th, 2025 • Views 4K
 
-Jul 4th, 2025 • Views 2.9K
+[Inviting and managing your team](/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
 
-[Inviting and managing your team](/en/public/clubs/admins-6o6xf/resources/inviting-and-managing-your-team)
+Jul 8th, 2025 • Views 9.8K
 
-Jul 8th, 2025 • Views 6.8K
+[Empowering and supporting your team](/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
 
-[Empowering and supporting your team](/en/public/clubs/admins-6o6xf/resources/empowering-and-supporting-your-team)
+Jul 5th, 2025 • Views 19.4K
 
-Jul 5th, 2025 • Views 16K
+[Feature controls and integrations with your tools](/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
 
-[Feature controls and integrations with your tools](/en/public/clubs/admins-6o6xf/resources/feature-controls-and-integrations-with-your-tools)
-
-Jul 10th, 2025 • Views 7.1K
+Jul 10th, 2025 • Views 9.3K

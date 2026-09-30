@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/clubs/higher-education-05x4z/blogs/improve-your-papers-without-losing-your-voice-2026-05-18 -->
 
-[Higher Education](/en/public/clubs/higher-education-05x4z/overview)
+[Higher Education](/public/clubs/higher-education-05x4z/overview)
 
-[navigation.content](/en/public/clubs/higher-education-05x4z/content)
+[Content](/public/clubs/higher-education-05x4z/content)
 
 Article
 
@@ -54,7 +54,7 @@ A short change log is especially useful because it turns the interaction into fe
 | --- |
 | I’m going to paste a paragraph from my draft.  Improve clarity and structure while keeping my original meaning and tone.  ﻿  Provide:  Version A: minimal edits  Version B: stronger argument and clearer topic sentence  ﻿  Then include a short change log explaining the top 5 improvements. |
 
-﻿[Try this in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20going%20to%20paste%20a%20paragraph%20from%20my%20draft.%0AImprove%20clarity%20and%20structure%20while%20keeping%20my%20original%20meaning%20and%20tone.%0A%0AProvide%3A%0AVersion%20A%3A%20minimal%20edits%20%0AVersion%20B%3A%20stronger%20argument%20and%20clearer%20topic%20sentence%0A%0AThen%20include%20a%20short%20change%20log%20explaining%20the%20top%205%20improvements.)﻿
+﻿ [Try this in ChatGPT](https://chatgpt.com/?q=I%E2%80%99m%20going%20to%20paste%20a%20paragraph%20from%20my%20draft.%0AImprove%20clarity%20and%20structure%20while%20keeping%20my%20original%20meaning%20and%20tone.%0A%0AProvide%3A%0AVersion%20A%3A%20minimal%20edits%20%0AVersion%20B%3A%20stronger%20argument%20and%20clearer%20topic%20sentence%0A%0AThen%20include%20a%20short%20change%20log%20explaining%20the%20top%205%20improvements.)﻿
 
 ## **What Good Looks Like**
 
@@ -112,62 +112,62 @@ After revising one paragraph, use the same approach on a full outline, introduct
 
 Blog
 
-[5 GPTs that power your campus: built for staff & administrators](/en/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
+[5 GPTs that power your campus: built for staff & administrators](/public/clubs/higher-education-05x4z/blogs/gpts-that-keep-campus-running-top-5-for-staff-and-admins-2025-08-13)
 
 By Siya Raj Purohit
 
 Blog
 
-[How to Use ChatGPT to Land Your Dream Job](/en/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
+[Find Your Best Faculty Workflows with ChatGPT](/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
 
 Blog
 
-[Find Your Best Faculty Workflows with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/find-your-best-faculty-workflows-with-chatgpt-2026-05-19)
+[How to Use ChatGPT to Land Your Dream Job](/public/clubs/higher-education-05x4z/blogs/how-to-use-chatgpt-to-land-your-dream-job-2026-04-22)
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 221
-
-Blog
-
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
-
-May 19th, 2026 • Views 99
+May 19th, 2026 • Views 1.1K
 
 Blog
 
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
 
-May 6th, 2026 • Views 233
-
-Blog
-
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
-
-May 20th, 2026 • Views 334
+May 19th, 2026 • Views 706
 
 Blog
 
-[Read Papers, Proposals, and Reports Faster with ChatGPT](/en/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
 
-May 19th, 2026 • Views 221
-
-Blog
-
-[Use Impact Data To Improve Your ChatGPT Edu Rollout](/en/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
-
-May 6th, 2026 • Views 233
+May 6th, 2026 • Views 1.2K
 
 Blog
 
-[Use ChatGPT Voice to Think Through Academic Work](/en/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
 
-May 20th, 2026 • Views 334
+May 20th, 2026 • Views 1.4K
 
 Blog
 
-[Standardize Your Campus Work With Skills](/en/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+[Read Papers, Proposals, and Reports Faster with ChatGPT](/public/clubs/higher-education-05x4z/blogs/read-papers-proposals-and-reports-faster-with-chatgpt-2026-05-19)
 
-May 19th, 2026 • Views 99
+May 19th, 2026 • Views 1.1K
+
+Blog
+
+[Use Impact Data To Improve Your ChatGPT Edu Rollout](/public/clubs/higher-education-05x4z/blogs/use-impact-data-to-improve-your-chatgpt-edu-rollout-2026-05-06)
+
+May 6th, 2026 • Views 1.2K
+
+Blog
+
+[Use ChatGPT Voice to Think Through Academic Work](/public/clubs/higher-education-05x4z/blogs/use-chatgpt-voice-to-think-through-academic-work-2026-05-19)
+
+May 20th, 2026 • Views 1.4K
+
+Blog
+
+[Standardize Your Campus Work With Skills](/public/clubs/higher-education-05x4z/blogs/standardize-your-campus-work-with-skills-2026-05-19)
+
+May 19th, 2026 • Views 706

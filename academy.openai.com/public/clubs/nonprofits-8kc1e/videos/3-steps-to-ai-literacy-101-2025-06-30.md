@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/3-steps-to-ai-literacy-101-2025-06-30 -->
+
 # 3 Steps to Basic AI Literacy: AI 101
 
 <!-- vimeo: 1097050412 | track: English (auto-generated) -->

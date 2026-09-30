@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-using-canva-in-chatgpt-2026-02-03 -->
+
 # AI for Nonprofits: Using Canva in ChatGPT
 
 <!-- vimeo: 1161259554 | track: English (auto-generated) -->

@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/how-sales-teams-use-codex-recording-2026-06-10 -->
+
 # How sales teams use Codex
 
 <!-- vimeo: 1200273585 | track: English (auto-generated) -->

@@ -1,12 +1,16 @@
 <!-- source: https://academy.openai.com/public/events/codex-fundamentals-yw43gq73fe -->
 
-[Builders](/en/public/clubs/builders-etkn1/overview)
+[Builders](/public/clubs/builders-etkn1/overview)
 
-[navigation.events](/en/public/clubs/builders-etkn1/events)
+[navigation.events](/public/clubs/builders-etkn1/events)
 
 ![Codex Fundamentals](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/Webinar-Covers-eac5d6d1-227d-43e3-b407-b75e6e1ce595-1777408391385.jpeg?fit=scale-down&width=1200)
 
 LIVESTREAM
+
+5:00 PM - 6:00 PM GMT
+
+May 26, 2026
 
 # Codex Fundamentals
 
@@ -36,12 +40,16 @@ View Profile
 
 Event has finished
 
-May 26, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 26, 2026
 
 Online
 
 Event has finished
 
-May 26, 5:00 PM GMT
+5:00 PM - 6:00 PM GMT
+
+May 26, 2026
 
 Online

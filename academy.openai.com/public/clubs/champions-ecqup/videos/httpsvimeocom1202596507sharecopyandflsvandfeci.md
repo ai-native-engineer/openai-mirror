@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/champions-ecqup/videos/httpsvimeocom1202596507sharecopyandflsvandfeci -->
+
 # Workflow Clip: Automate CRM Updates with Codex
 
 <!-- vimeo: 1202596507 | track: English (auto-generated) -->

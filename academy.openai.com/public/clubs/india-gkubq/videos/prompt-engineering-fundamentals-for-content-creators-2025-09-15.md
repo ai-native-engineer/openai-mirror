@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/prompt-engineering-fundamentals-for-content-creators-2025-09-15 -->
+
 # Prompt Engineering Fundamentals for Content Creators
 
 <!-- vimeo: 1116317734 | track: English (auto-generated) -->

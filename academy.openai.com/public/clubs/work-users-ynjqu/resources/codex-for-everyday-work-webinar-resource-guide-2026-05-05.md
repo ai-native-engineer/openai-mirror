@@ -1,12 +1,12 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/resources/codex-for-everyday-work-webinar-resource-guide-2026-05-05 -->
 
-[Work Users](/en/public/clubs/work-users-ynjqu/overview)
+[Work Users](/public/clubs/work-users-ynjqu/overview)
 
-[navigation.content](/en/public/clubs/work-users-ynjqu/content)
+[Content](/public/clubs/work-users-ynjqu/content)
 
 Webinar
 
-May 6, 2026 · Last updated on May 29, 2026
+May 6, 2026 · Last updated on September 2, 2026
 
 # Codex for everyday work: Webinar resource guide
 
@@ -19,6 +19,10 @@ May 6, 2026 · Last updated on May 29, 2026
 # Codex
 
 # Use Cases
+
+# Work
+
+# Portfolio Company Knowledge Work
 
 ## Follow along with our webinar: Codex for everyday work
 
@@ -36,11 +40,11 @@ Codex is a coding agent from OpenAI, but the patterns in this webinar are useful
 
 ## Resources to bookmark
 
-﻿[Download Codex for Mac or Windows](https://openai.com/codex/)﻿
+﻿ [Download Codex for Mac or Windows](https://openai.com/codex/)﻿
 
-﻿[Learn the basics about about Codex for work](https://openai.com/academy/codex-for-work/)﻿
+﻿ [Learn the basics about about Codex for work](https://openai.com/academy/codex-for-work/)﻿
 
-﻿[Explore the Top 10 use cases for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work/)﻿
+﻿ [Explore the Top 10 use cases for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work/)﻿
 
 ## What to remember
 
@@ -116,56 +120,54 @@ Final check: confirm what Codex used, what it could not access, and what still n
 
 Pick one task that is useful, clear, and easy to review. Start small, then decide whether it should become a recurring workflow.
 
-Go deeper → [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work/)﻿
+Go deeper →  [Top 10 uses for Codex at work](https://openai.com/academy/top-10-use-cases-codex-for-work/)﻿
 
-3
+5
 
-Table Of Contents
+[ChatGPT 101 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
 
-[ChatGPT 101 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide)
+[ChatGPT 102 Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
 
-[ChatGPT 102 Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-102-webinar-resource-guide)
-
-[ChatGPT 101: Webinar Resource Guide](/en/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
+[ChatGPT 101: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-101-webinar-resource-guide-interactive)
 
 By Juliann Igo
 
-[23:26](/en/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
+[23:26](/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
 
 Video
 
-[Codex for everyday work [Recording]](/en/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
+[Codex for everyday work [Recording]](/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
 
-May 7th, 2026 • Views 18.2K
+May 7th, 2026 • Views 27.1K
 
-[How finance teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-May 20th, 2026 • Views 1.6K
+Aug 13th, 2026 • Views 851
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 23rd, 2026 • Views 175
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[How sales teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Jun 11th, 2026 • Views 925
+Aug 20th, 2026 • Views 1K
 
-[23:26](/en/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
+[23:26](/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
 
 Video
 
-[Codex for everyday work [Recording]](/en/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
+[Codex for everyday work [Recording]](/public/clubs/work-users-ynjqu/videos/codex-for-everyday-work-recording-2026-05-06)
 
-May 7th, 2026 • Views 18.2K
+May 7th, 2026 • Views 27.1K
 
-[How marketing teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-marketing-teams-use-codex-webinar-resource-guide-2026-06-22)
+[ChatGPT Work for marketing teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-marketing-teams-webinar-resource-guide-2026-08-26)
 
-Jun 23rd, 2026 • Views 175
+By Diana Stegall • Aug 27th, 2026 • Views 2.1K
 
-[How sales teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-sales-teams-use-codex-webinar-resource-guide-2026-06-10)
+[ChatGPT Work for data teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-data-teams-webinar-resource-guide-2026-08-19)
 
-Jun 11th, 2026 • Views 925
+Aug 20th, 2026 • Views 1K
 
-[How finance teams use Codex: Webinar resource guide](/en/public/clubs/work-users-ynjqu/resources/how-finance-teams-use-codex-webinar-resource-guide-2026-05-19)
+[ChatGPT Work for finance teams: Webinar Resource Guide](/public/clubs/work-users-ynjqu/resources/chatgpt-work-for-finance-teams-webinar-resource-guide-2026-08-13)
 
-May 20th, 2026 • Views 1.6K
+Aug 13th, 2026 • Views 851

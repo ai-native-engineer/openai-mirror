@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/builders-etkn1/videos/ai-techniques-building-applications-with-evaluations -->
+
 # AI Techniques (Foundations): Evaluating LLM Applications
 
 <!-- vimeo: 1105244173 | track: English (auto-generated) -->

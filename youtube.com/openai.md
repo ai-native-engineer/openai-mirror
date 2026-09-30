@@ -1,7 +1,13 @@
 # openai (YouTube)
 
-영상 814개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
+영상 821개. 썸네일 + 자막(있으면 접이식, 없으면 '자막없음').
 
+- [Build faster with Ultrafast ](openai/260929-build-faster-with-ultrafast.md) — 2026-09-29 (자막없음)
+- [Meet the all new Codex Cloud](openai/260929-meet-the-all-new-codex-cloud.md) — 2026-09-29
+- [Introducing dots, always-on agents built to handle everything.](openai/260929-introducing-dots-always-on-agents-built-to-handle-everything.md) — 2026-09-29
+- [Meet the builders of our time - the Codex Originals.](openai/260929-meet-the-builders-of-our-time-the-codex-originals.md) — 2026-09-29
+- [The Defender's Window at enterprise scale with Standard Chartered](openai/260929-the-defender-s-window-at-enterprise-scale-with-standard-char.md) — 2026-09-29 (자막없음)
+- [Building the partner ecosystem with Sophos](openai/260929-building-the-partner-ecosystem-with-sophos.md) — 2026-09-29
 - [GPT-6 Astra in practice: Turning ideas into projects](openai/260928-gpt-6-astra-in-practice-turning-ideas-into-projects.md) — 2026-09-28
 - [The Defender's Window: Cyber security keynote](openai/260928-the-defender-s-window-cyber-security-keynote.md) — 2026-09-28 (자막없음)
 - [Get Stuff Done with ChatGPT Voice](openai/260923-get-stuff-done-with-chatgpt-voice.md) — 2026-09-23 (자막없음)
@@ -781,6 +787,7 @@
 - [SMS3D · Sora Showcase](openai/240718-sms3d-sora-showcase.md) — 2024-07-18 (자막없음)
 - [Sell your old stuff with this custom GPT](openai/240618-sell-your-old-stuff-with-this-custom-gpt.md) — 2024-06-18 (자막없음)
 - [Grocery list for pros.](openai/240318-grocery-list-for-pros.md) — 2024-03-18
+- [OpenAI DevDay 2026 Keynote (FULL)](openai/260929-openai-devday-2026-keynote-full.md) — 2026-09-29
 - [Introducing ChatGPT Work, powered by Codex and GPT-5.6](openai/260709-introducing-chatgpt-work-powered-by-codex-and-gpt-5-6.md) — 2026-07-09
 - [The next generation of ChatGPT Voice](openai/260708-the-next-generation-of-chatgpt-voice.md) — 2026-07-08
 - [Introducing ChatGPT Images 2.0](openai/260421-introducing-chatgpt-images-2-0.md) — 2026-04-21

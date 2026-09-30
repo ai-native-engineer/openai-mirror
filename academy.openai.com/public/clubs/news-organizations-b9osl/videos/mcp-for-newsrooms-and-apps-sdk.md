@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/news-organizations-b9osl/videos/mcp-for-newsrooms-and-apps-sdk -->
+
 # MCP Solutions for Newsrooms
 
 <!-- vimeo: 1146072383 | track: English (auto-generated) -->

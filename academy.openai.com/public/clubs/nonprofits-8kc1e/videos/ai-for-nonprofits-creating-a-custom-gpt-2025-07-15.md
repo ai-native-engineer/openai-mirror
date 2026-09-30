@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15 -->
+
 # AI for Nonprofits: Creating a Custom GPT
 
 <!-- vimeo: 1101757626 | track: English (auto-generated) -->

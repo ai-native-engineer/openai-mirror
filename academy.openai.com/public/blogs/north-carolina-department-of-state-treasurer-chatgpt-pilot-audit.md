@@ -27,80 +27,56 @@ OpenAI and the North Carolina Department of State Treasurer launched this pilot 
 “It’s rewarding when ChatGPT produces results that enable you to succeed in your job of serving the citizens of N.C. in a more efficient manner.”
 “ChatGPT makes my job more enjoyable because I experience less frustration when problem solving.”
 “When researching topics, ChatGPT provides data from multiple sources simultaneously, resulting in increased efficiency.”
-For more on this pilot program, read this analysis from North Carolina’s Department of State Treasurer: <https://lnkd.in/e_AT4nKD>﻿
+For more on this pilot program, read this analysis from North Carolina’s Department of State Treasurer:  <https://lnkd.in/e_AT4nKD>﻿
 
-[13:02](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+Blog
+
+[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+
+By Juliann Igo
+
+[13:31](/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
 
 Video
 
-[AI for Nonprofits: Creating a Custom GPT](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+[AI for Academic Success: Research, Writing, and Studying Made Easier](/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
+
+[13:02](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
+
+Video
+
+[AI for Nonprofits: Creating a Custom GPT](/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-creating-a-custom-gpt-2025-07-15)
 
 By Kyle Behrend
 
-[10:01](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-reverse-engineering-a-visual-campaign-2025-07-15)
+[AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Video
+Jul 23rd, 2026 • Views 268
 
-[AI for Nonprofits: Reverse Engineering a Visual Campaign](/en/public/clubs/nonprofits-8kc1e/videos/ai-for-nonprofits-reverse-engineering-a-visual-campaign-2025-07-15)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-By Kyle Behrend
+Sep 28th, 2026 • Views 63
 
-Blog
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-[How a Bangalore school is training teachers for the AI era](/en/public/blogs/how-a-bangalore-school-is-training-teachers-for-the-ai-era-2026-02-24)
+Jul 23rd, 2026 • Views 127
 
-Blog
+[AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
+Jul 23rd, 2026 • Views 166
 
-By Juliann Igo • May 12th, 2025 • Views 8.8K
+[AI Skills Jam for K-12 Educators: Phoenix](/public/resources/ai-skills-jam-for-k-12-educators-phoenix-2026-07-22)
 
-Blog
+Jul 23rd, 2026 • Views 268
 
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
+[AI Skills Jam for K-12 Educators: Las Vegas](/public/resources/ai-skills-jam-for-k-12-educators-las-vegas-2026-07-22)
 
-Mar 6th, 2026 • Views 4.2K
+Jul 23rd, 2026 • Views 127
 
-[10:00](/en/public/videos/jennifer-robertson-predictive-and-generative-ai-for-business)
+[AI Skills Jam for K-12 Educators: San Bernadino](/public/resources/ai-skills-jam-for-k-12-educators-san-bernadino-2026-07-22)
 
-Video
+Jul 23rd, 2026 • Views 166
 
-[Jennifer Robertson (Predictive and Generative AI for Business)](/en/public/videos/jennifer-robertson-predictive-and-generative-ai-for-business)
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-Aug 1st, 2025 • Views 764
-
-[13:31](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
-
-Video
-
-[AI for Academic Success: Research, Writing, and Studying Made Easier](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
-
-Mar 22nd, 2025 • Views 55.9K
-
-Blog
-
-[K-12: Prompt Pack for IT Staff (Technology Directors, Coordinators, and Support Teams)](/en/public/clubs/k-12-it-and-technical-staff-axv4l/blogs/k-12-prompt-pack-for-it-staff)
-
-By Juliann Igo • May 12th, 2025 • Views 8.8K
-
-[10:00](/en/public/videos/jennifer-robertson-predictive-and-generative-ai-for-business)
-
-Video
-
-[Jennifer Robertson (Predictive and Generative AI for Business)](/en/public/videos/jennifer-robertson-predictive-and-generative-ai-for-business)
-
-Aug 1st, 2025 • Views 764
-
-[13:31](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
-
-Video
-
-[AI for Academic Success: Research, Writing, and Studying Made Easier](/en/public/videos/ai-for-academic-success-research-writing-and-studying-made-easier-2025-03-20)
-
-Mar 22nd, 2025 • Views 55.9K
-
-Blog
-
-[Terence Tao: AI is ready for primetime in math and theoretical physics](/en/public/blogs/terence-tao-ai-is-ready-for-primetime-in-math-and-theoretical-physics-2026-03-06)
-
-Mar 6th, 2026 • Views 4.2K
+Sep 28th, 2026 • Views 63

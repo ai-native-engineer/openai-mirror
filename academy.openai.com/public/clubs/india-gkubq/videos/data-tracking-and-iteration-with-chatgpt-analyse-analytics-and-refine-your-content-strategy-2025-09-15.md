@@ -1,3 +1,5 @@
+<!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/data-tracking-and-iteration-with-chatgpt-analyse-analytics-and-refine-your-content-strategy-2025-09-15 -->
+
 # Data Tracking & Iteration with ChatGPT: Analyse Analytics & Refine Your Content Strategy
 
 <!-- vimeo: 1116320583 | track: English (auto-generated) -->

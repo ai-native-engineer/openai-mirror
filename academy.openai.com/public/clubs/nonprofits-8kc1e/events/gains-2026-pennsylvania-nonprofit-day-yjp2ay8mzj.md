@@ -1,45 +1,24 @@
 <!-- source: https://academy.openai.com/public/clubs/nonprofits-8kc1e/events/gains-2026-pennsylvania-nonprofit-day-yjp2ay8mzj -->
 
-* [Home](/)
-* [Events](/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/public/content)
-* [Communities](/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
-
-[Communities](/home/clubs)
-
-/
-
 [Nonprofits](/public/clubs/nonprofits-8kc1e/overview)
-
-/
 
 [navigation.events](/public/clubs/nonprofits-8kc1e/events)
 
-![GAINS 2026: Pennsylvania Nonprofit Day](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/GAINS-Nonprofit-Day-OpenAI-Academy-9827a511-fad0-4adf-9cd3-19cd7113a03b-1787324963913.jpeg?fit=scale-down&width=1200)
+![GAINS 2026: Pennsylvania Nonprofit Day](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/academy-event-cover-gains-2026-pennsylvania-nonprofit-track-1200x628-70b00487-020e-44f3-872a-90f854d03deb-1787682564331.jpeg?fit=scale-down&width=1200)
 
 IN-PERSON
 
-11:00 AM - 4:30 PM EDT
+9:00 AM EDT
 
 (Event time zone)
 
-October 13, 2026
+Oct 12 – Oct 13, 2026
 
 # GAINS 2026: Pennsylvania Nonprofit Day
 
 [Register](https://na.eventscloud.com/ereg/index.php?eventid=877134&)
 
-#### **Join OpenAI Academy and Goodwill Keystone Area for Pennsylvania Nonprofit Day at the 2026 Goodwill AI Networking Summit (GAINS).**
+#### Join OpenAI Academy and Goodwill Keystone for the Pennsylvania Nonprofit Track at the 2026 Goodwill AI Networking Summit (GAINS).
 
 This in-person gathering brings together nonprofit leaders, public officials, workforce organizations, and technology partners to explore how AI can support mission-driven work—from fundraising and communications to operations and organizational management.
 
@@ -47,11 +26,15 @@ OpenAI Academy will lead a dedicated workshop for nonprofit attendees, offering 
 
 ### What to expect
 
-1. Practical approaches to using AI in nonprofit work
-2. A dedicated workshop led by OpenAI Academy
-3. Learning focused on fundraising, communications, operations, and organizational management
-4. Conversations with leaders across nonprofit, workforce, government, and technology sectors
-5. An emphasis on thoughtful, responsible, and equitable AI use
+* Practical approaches to using AI in nonprofit work
+
+* A dedicated workshop led by OpenAI Academy
+
+* Learning focused on fundraising, communications, operations, and organizational management
+
+* Conversations with leaders across nonprofit, workforce, government, and technology sectors
+
+* An emphasis on thoughtful, responsible, and equitable AI use
 
 ### Who should attend
 
@@ -59,13 +42,15 @@ Leaders and staff from Pennsylvania nonprofits, public agencies, and community-s
 
 ### Event details
 
-1. Monday, October 12: Hours TBD
-2. Tuesday, October 13: 11:00 a.m.–4:30 p.m. ET
-3. **Location:** Hershey Lodge and Convention Center, 25 University Drive, Hershey, PA 17033
+* **Monday, October 12:** 9:00 a.m.–5:00 p.m. ET — exclusively for nonprofits
+
+* **Tuesday, October 13:** 9:00 a.m.–5:00 p.m. ET — Blended Learning Day with Goodwill organizations from across the country
+
+* **Location:** Hershey Lodge, 325 University Drive, Hershey, PA 17033
 
 ### Registration
 
-Registration is managed by Goodwill Keystone Area. On the registration form, select **“PA Nonprofit / Public Official.”**
+Registration is managed by Goodwill Keystone Area. Visit the  [GAINS event website](https://na.eventscloud.com/website/94276/) to learn more. On the registration form, select **“PA Nonprofit / Public Official.”** Questions about the agenda, hotel reservations, or registration? Email  [[email protected]](/cdn-cgi/l/email-protection#b4f3f5fdfae7f4cddbc1c6d3dbdbd0c3ddd8d89adbc6d3).
 
 The broader Goodwill AI Networking Summit runs October 12–15. This listing highlights the nonprofit-focused program on October 12–13.
 
@@ -89,15 +74,15 @@ Technical Success @ OpenAI
 
 View Profile
 
-Starting in 52 days 14 hours
+Starting in 12 days 2 hours
 
-11:00 AM - 4:30 PM EDT (Event time zone)
+9:00 AM EDT (Event time zone)
 
-October 13, 2026
+Oct 12 – Oct 13, 2026
 
 Location
 
-25 University Drive, Hershey Lodge and Convention Center, Hershey, Pennsylvania, United States
+325 University Drive, Hershey Lodge, Hershey, Pennsylvania, United States
 
 Organized by
 
@@ -107,15 +92,15 @@ Nonprofits
 
 Add to calendar
 
-Starting in 52 days 14 hours
+Starting in 12 days 2 hours
 
-11:00 AM - 4:30 PM EDT (Event time zone)
+9:00 AM EDT (Event time zone)
 
-October 13, 2026
+Oct 12 – Oct 13, 2026
 
 Location
 
-25 University Drive, Hershey Lodge and Convention Center, Hershey, Pennsylvania, United States
+325 University Drive, Hershey Lodge, Hershey, Pennsylvania, United States
 
 Organized by
 

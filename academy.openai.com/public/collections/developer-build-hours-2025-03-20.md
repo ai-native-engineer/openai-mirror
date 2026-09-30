@@ -1,8 +1,8 @@
 <!-- source: https://academy.openai.com/public/collections/developer-build-hours-2025-03-20 -->
 
-[Home](/en)
+[Home](/)
 
-[Collections](/en/public/collections)
+[Collections](/public/collections)
 
 Developer Build Hours
 
@@ -15,6 +15,8 @@ Popular topics
 # Education
 
 # Educators & Students
+
+# Work
 
 # Awareness
 
@@ -32,11 +34,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -44,7 +46,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -62,7 +64,7 @@ Anoop shares how to improve cost, latency, and performance with distillation.
 
 # Personal
 
-53:32](/en/public/videos/distillation-build-hour-2025-02-07)[Video
+53:32](/public/videos/distillation-build-hour-2025-02-07)[Video
 
 ### Reasoning with o1 Build Hour
 
@@ -74,7 +76,7 @@ Roy shares how to leverage o1, OpenAI's new series of reasoning models. Sourcegr
 
 # Personal
 
-54:58](/en/public/videos/reasoning-with-o1-build-hour-2025-02-07)[Video
+54:58](/public/videos/reasoning-with-o1-build-hour-2025-02-07)[Video
 
 ### Evals Build Hour
 
@@ -86,7 +88,9 @@ Noah builds evals with OpenAI o1 to boost performance.
 
 # Advanced & Builder Skills
 
-57:05](/en/public/videos/evals-build-hour-2025-02-07)[Video
+# Work
+
+57:05](/public/videos/evals-build-hour-2025-02-07)[Video
 
 ### Realtime Build Hour
 
@@ -98,7 +102,9 @@ Ilan demos how to create human-level latency with the new Realtime API.
 
 # Advanced & Builder Skills
 
-1:00:25](/en/public/videos/realtime-build-hour-2025-02-07)[Video
+# Work
+
+1:00:25](/public/videos/realtime-build-hour-2025-02-07)[Video
 
 ### Structured Outputs Build Hour
 
@@ -110,7 +116,7 @@ Katia demos how to achieve 100% reliability with our new SO feature.
 
 # Personal
 
-56:30](/en/public/videos/structured-outputs-build-hour-2025-02-07)[Video
+56:30](/public/videos/structured-outputs-build-hour-2025-02-07)[Video
 
 ### GPT-4o mini Fine-Tuning Build Hour
 
@@ -122,7 +128,7 @@ Noah fine-tunes our newest model, GPT-4o mini.
 
 # Personal
 
-58:22](/en/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)[Video
+58:22](/public/videos/gpt-4o-mini-fine-tuning-build-hour-2025-02-07)[Video
 
 ### Assistants & Agents Build Hour
 
@@ -136,7 +142,7 @@ Ilan shares orchestration techniques to build multi-assistant systems.
 
 # Personal
 
-57:20](/en/public/videos/assistants-and-agents-build-hour-2025-02-07)[Video
+57:20](/public/videos/assistants-and-agents-build-hour-2025-02-07)[Video
 
 ### Fine-Tuning Build Hour
 
@@ -148,7 +154,7 @@ Shyamal shares model structures and eval best practices.
 
 # Personal
 
-56:21](/en/public/videos/fine-tuning-build-hour-2025-02-07)[Video
+56:21](/public/videos/fine-tuning-build-hour-2025-02-07)[Video
 
 ### Function Calling Build Hour
 
@@ -160,7 +166,7 @@ Joe highlights best practices and common applications.
 
 # Personal
 
-58:41](/en/public/videos/function-calling-build-hour-2025-02-07)[Video
+58:41](/public/videos/function-calling-build-hour-2025-02-07)[Video
 
 ### Enhancing Recommendations with LLMs Build Hour
 
@@ -172,14 +178,14 @@ Max dives into solutions for tailored customization.
 
 # Personal
 
-52:22](/en/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
+52:22](/public/videos/enhancing-recommendations-with-llms-build-hour-2025-02-07)
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
