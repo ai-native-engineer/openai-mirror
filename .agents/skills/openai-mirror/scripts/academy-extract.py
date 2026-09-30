@@ -11,6 +11,7 @@ crawl-mirror.save/dest/find_boilerplate 재사용.
 실행: python3 academy-extract.py <out_dir> [--include videos,blogs,resources] [--exclude events] [--force] [--limit N] [--concurrency N]
 """
 import argparse, importlib.util, os, re
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlsplit
 from curl_cffi import requests
@@ -151,6 +152,18 @@ def fetch_one(url):
         return url, "", str(e)[:80]
 
 
+def failure_kind(err):
+    if not err:
+        return "thin"
+    if err.startswith("status="):
+        return f"http-{err.removeprefix('status=')}"
+    return "network/extract"
+
+
+def failure_is_fatal(kind):
+    return kind == "network/extract" or kind == "http-429" or kind.startswith("http-5")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
@@ -214,8 +227,12 @@ def main():
         cm.save(a.out, u, m, False)
     print(f"저장: {len(pages)} / 실패: {len(fails)}", flush=True)
     if fails:
+        kinds = Counter(failure_kind(err) for _, err in fails)
+        print(f"실패 summary: {dict(sorted(kinds.items()))}", flush=True)
         for u, err in fails[:20]:
             print(f"  {u} [{err}]", flush=True)
+        if any(failure_is_fatal(failure_kind(err)) for _, err in fails):
+            raise SystemExit("fatal Academy failures detected; see failure summary above")
 
 
 if __name__ == "__main__":
