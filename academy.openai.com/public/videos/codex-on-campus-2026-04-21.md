@@ -2,13 +2,11 @@
 
 # Codex on Campus
 
-Posted Apr 21, 2026 | Views 1K
+Posted Apr 21, 2026 | Views 1.5K
 
 # Developers & Builders
 
 # Codex
-
-# Advanced & Builder Skills
 
 ## Speakers
 
@@ -24,38 +22,38 @@ Shaig Abduragimov
 
 Solutions Engineering Education @ OpenAI
 
-[1:00:00](/en/public/videos/codex-for-software-engineers-2026-03-13)
+[1:00:00](/public/videos/codex-for-software-engineers-2026-03-13)
 
-[Codex Fundamentals](/en/public/videos/codex-for-software-engineers-2026-03-13)
+[Codex Fundamentals](/public/videos/codex-for-software-engineers-2026-03-13)
 
-Posted Mar 13, 2026 | Views 36.4K
-
-# Developers & Builders
-
-# Codex
-
-# Advanced & Builder Skills
-
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
-
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
-
-Posted Mar 02, 2026 | Views 40.4K
+Posted Mar 13, 2026 | Views 61.7K
 
 # Developers & Builders
 
 # Codex
 
-# Advanced & Builder Skills
+# Portfolio Academy SDLC
 
-[1:00:00](/en/public/videos/codex-for-beginners-2026-04-22)
+[1:00:00](/public/videos/introduction-to-codex-2026-03-02)
 
-[Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
+[Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
-Posted Apr 22, 2026 | Views 24.2K
+Posted Mar 02, 2026 | Views 49.9K
 
 # Developers & Builders
 
 # Codex
 
-# Advanced & Builder Skills
+# Portfolio Company SDLC
+
+[1:00:00](/public/videos/codex-for-beginners-2026-04-22)
+
+[Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
+
+Posted Apr 22, 2026 | Views 46K
+
+# Developers & Builders
+
+# Codex
+
+# Portfolio Company SDLC

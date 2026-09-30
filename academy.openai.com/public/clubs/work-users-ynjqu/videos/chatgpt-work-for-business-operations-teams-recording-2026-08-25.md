@@ -1,48 +1,26 @@
 <!-- source: https://academy.openai.com/public/clubs/work-users-ynjqu/videos/chatgpt-work-for-business-operations-teams-recording-2026-08-25 -->
 
-[Communities](/home/clubs)
-
-/
-
 [Work Users](/public/clubs/work-users-ynjqu/overview)
 
-/
-
-[navigation.content](/public/clubs/work-users-ynjqu/content)
-
-Sign in or Join the community to continue
-
-Get Started
+[Content](/public/clubs/work-users-ynjqu/content)
 
 # ChatGPT Work for business operations teams [Recording]
 
-Posted Aug 26, 2026 | Views 92
-
-# Work
-
-# Workplace & Business
+Posted Aug 26, 2026 | Views 769
 
 # ChatGPT for Work
 
 # Use Cases
 
-Share
-
-## SUMMARY
+# Portfolio Company Knowledge Work
 
 Follow along using our resource guide: <https://academy.openai.com/home/clubs/work-users-ynjqu/resources/chatgpt-work-for-business-operations-teams-webinar-resource-guide-2026-08-26>
-
-+ Read More
-
-## Watch More
 
 [26:13](/public/videos/how-business-operations-teams-use-codex-2026-06-17)
 
 [How business operations teams use Codex [Recording]](/public/videos/how-business-operations-teams-use-codex-2026-06-17)
 
-Posted Jun 18, 2026 | Views 2.1K
-
-# Work
+Posted Jun 18, 2026 | Views 2.7K
 
 # Codex for Work
 
@@ -52,30 +30,22 @@ Posted Jun 18, 2026 | Views 2.1K
 
 [ChatGPT Work for finance teams [Recording]](/public/videos/chatgpt-work-for-finance-teams-2026-08-13)
 
-Posted Aug 13, 2026 | Views 1K
+Posted Aug 13, 2026 | Views 2K
 
 # ChatGPT for Work
-
-# Work
-
-# Workplace & Business
 
 # Use Cases
 
 # Portfolio Company Finance
 
-[23:26](/public/videos/codex-for-everyday-work-recording-2026-05-06)
+[35:08](/public/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
 
-[Codex for everyday work [Recording]](/public/videos/codex-for-everyday-work-recording-2026-05-06)
+[ChatGPT Work for sales teams [recording]](/public/videos/chatgpt-work-for-sales-teams-recording-2026-08-05)
 
-Posted May 07, 2026 | Views 25.2K
+Posted Aug 06, 2026 | Views 1.1K
 
-# Developers & Builders
-
-# Codex
-
-# ChatGPT
+# ChatGPT for Work
 
 # Use Cases
 
-# Work
+# Portfolio Company Sales

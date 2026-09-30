@@ -2,17 +2,13 @@
 
 # Ayse Ozturk (Marketing Strategy)
 
-Posted Aug 01, 2025 | Views 502
+Posted Aug 01, 2025 | Views 738
 
 # Industry & Community
-
-# Advanced & Builder Skills
 
 Ayse Ozturk - Clinical Associate Professor - University of South Carolina
 
 The main focus of the video is to demonstrate how to create simulations/games for experiential learning using ChatGPT. I also mention other applications such as brand-building exercises, data analysis, and creating practice tests and study guides.
-
-## TRANSCRIPT
 
 Dr. Ayse Ozturk is a Clinical Associate Professor of Marketing at the Darla Moore School of Business at the University of South Carolina, with a Ph.D. from Georgia State University. Dr. Ozturk has prior industry experience, including roles at Deloitte and PwC. She is actively involved in advancing AI in education through USC’s Propel AI and Provost’s AI Teaching Fellowship programs.
 
@@ -30,24 +26,22 @@ Comment
 
 Load more
 
-[10:00](/en/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
+[10:00](/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
 
-[Kateryna Ilchenko (Digital Marketing)](/en/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
+[Kateryna Ilchenko (Digital Marketing)](/public/videos/kateryna-ilchenko-digital-marketing-2025-08-18)
 
-Posted Aug 02, 2025 | Views 1.8K
+Posted Aug 02, 2025 | Views 2K
 
 # Leaders & Admins
 
-[10:00](/en/public/videos/arkapravo-sarkar-marketing-2025-08-20)
+[10:00](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
 
-[Arkapravo Sarkar (Marketing)](/en/public/videos/arkapravo-sarkar-marketing-2025-08-20)
+[Arkapravo Sarkar (Marketing)](/public/videos/arkapravo-sarkar-marketing-2025-08-20)
 
-Posted Aug 01, 2025 | Views 576
+Posted Aug 01, 2025 | Views 739
 
-# Advanced & Builder Skills
+[10:00](/public/videos/yuen-ben-siu-marketing-2025-08-19)
 
-[10:00](/en/public/videos/yuen-ben-siu-marketing-2025-08-19)
+[Yuen Ben Siu (Marketing)](/public/videos/yuen-ben-siu-marketing-2025-08-19)
 
-[Yuen Ben Siu (Marketing)](/en/public/videos/yuen-ben-siu-marketing-2025-08-19)
-
-Posted Aug 01, 2025 | Views 384
+Posted Aug 01, 2025 | Views 641

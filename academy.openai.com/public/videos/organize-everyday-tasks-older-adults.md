@@ -2,13 +2,15 @@
 
 # Use ChatGPT to Organize Everyday Tasks
 
-Posted Sep 17, 2026 | Views 178
+Posted Sep 17, 2026 | Views 199
 
 Turn a busy idea into a simple, manageable plan. In this quick tutorial, you’ll learn how ChatGPT can help organize household tasks, errands, trips, events, and other everyday projects.
 
 Watch how a plan for preparing for visiting family becomes a short checklist organized by day. You can use the same approach to request a list, schedule, or step-by-step plan that works for you.
 
 Remember to verify important costs, dates, instructions, and anything involving health or safety.
+
+﻿
 
 [45:00](/public/videos/codex-for-everyday-use-2026-07-17)
 
@@ -20,4 +22,16 @@ Posted Jul 17, 2026 | Views 1.6K
 
 [ChatGPT 101: Introduction to ChatGPT for Small Businesses](/public/videos/chatgpt-101-introduction-to-chatgpt-for-small-businesses)
 
-Posted Nov 18, 2025 | Views 29.7K
+Posted Nov 18, 2025 | Views 29.8K
+
+# Use Cases
+
+[44:20](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+[ChatGPT 101: A Guide to Your AI Superassistant [Recording]](/public/videos/chatgpt-101-a-guide-to-your-ai-superassistant-recording)
+
+Posted Aug 24, 2026 | Views 251.1K
+
+# Use Cases
+
+# Portfolio Company Knowledge Work

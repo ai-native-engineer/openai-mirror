@@ -8,53 +8,43 @@
 
 # Codex
 
-# Advanced & Builder Skills
+# Portfolio Company SDLC
 
-[## Codex for Beginners](/en/public/videos/codex-for-beginners-2026-04-22)
+[## Codex for Beginners](/public/videos/codex-for-beginners-2026-04-22)
 
 ![Aaron Wilkowitz](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/aaron-ca703640-0624-4b99-9cce-04f88db84acf-1775573871636.jpeg?fit=scale-down&width=52)
 
 Aaron Wilkowitz
 
-[## ChatGPT fundamentals](/en/public/clubs/work-users-ynjqu/resources/chatgpt-basics)
+[## ChatGPT fundamentals](/public/clubs/work-users-ynjqu/resources/chatgpt-basics)
 
 ---
 
-[## Prompting](/en/public/clubs/work-users-ynjqu/resources/prompting)
+[## Prompting](/public/clubs/work-users-ynjqu/resources/prompting)
 
-[## Codex Fundamentals](/en/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
-
-Ryan Taylor
-
----
-
-[## Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
+[## Introduction to Codex](/public/videos/introduction-to-codex-2026-03-02)
 
 Derrick Choi
 
 ---
 
-[## Intro to Codex (April 09, 2026)](/en/public/videos/intro-to-codex-april-09-2026)
+[## Codex Fundamentals](/public/clubs/builders-etkn1/videos/codex-for-software-engineers-2026-03-13)
+
+Ryan Taylor
 
 ---
 
-[## Codex on Campus](/en/public/videos/codex-on-campus-2026-04-21)
+[## Codex Bootcamp](/public/clubs/builders-etkn1/resources/codex-bootcamp-2026-07-18)
 
-Gaurav Kaila & Shaig Abduragimov
+Sean Lubbers
+
+---
+
+[## MCP for Builders](/public/clubs/builders-etkn1/resources/mcp-for-builders)
 
 # All Content
 
 Popular topics
-
-# Education
-
-# Educators & Students
-
-# Awareness
-
-# Advanced & Builder Skills
-
-# Workplace & Business
 
 # Deployment & Adoption
 
@@ -66,11 +56,11 @@ Popular topics
 
 # Public & Social Impact
 
+# Government
+
 # Industry & Community
 
 # Developers & Builders
-
-# Government
 
 # OpenAI API
 
@@ -78,7 +68,7 @@ Popular topics
 
 # General Learners
 
-# North America
+# K-12 Short Form Learning
 
 # Codex
 
@@ -88,118 +78,106 @@ All Tags
 
 All Types
 
-[OpenAI Academy Brussels](/en/public/resources/openai-academy-brussels-2026-06-22)
+[Making the classics more approachable with ChatGPT Work](/public/blogs/making-the-classics-more-approachable-with-chatgpt-work-2026-09-29)
 
-OpenAI Academy is partnering with Forefront to offer practical AI training for EU policymakers and their teams. This resource hub brings together session slides, ready-to-use prompts, and tools that you can adapt to your organisation’s workflows. Whether you joined us in person or are exploring the materials independently, they are designed to help you understand what ChatGPT can do today, use it responsibly in an EU policymaking context, and continue learning at your own pace.
+Karen Rodriguez uses ChatGPT Work to create reading guides tailored to each subscriber’s interests, reading history and available time. Starting with shorter classics and building toward more challenging books, each yearlong plan explains why a recommendation fits, what to look for and how to go deeper.
 
-[Creating Workspace Agents for Higher Ed Faculty and Researchers - Webinar Replay](/en/public/videos/creating-workspace-agents-for-higher-ed-faculty-and-researchers-webinar-replay)
+# Texas
 
-47:43
+# SMB
 
-[The Market Research Game Is Changing: How Federal Acquisition Professionals Can Use ChatGPT in a Commercial-First Era](/en/public/blogs/chatgpt-in-a-commercial-first-era-main-review)
+# Business
 
-The recent shift toward a "commercial-first" federal acquisition policy requires professionals to pivot from static vendor searches to actively shaping requirements around existing commercial market solutions. By utilizing ChatGPT for interactive research and modular exploration, acquisition teams can better align their needs with current market capabilities to build more defensible and innovative procurement strategies.
+# ChatGPT Work
 
-# AI Techniques
+[ChatGPT for nonprofits - Kansas City](/public/resources/chatgpt-for-nonprofits-kansas-city-2026-09-29)
 
-# Advanced & Builder Skills
+[AI Skills Jam for K-12 Educators: New York City](/public/resources/ai-skills-jam-for-k-12-educators-new-york-city-2026-09-28)
 
-# Enablement
+[A caregiver uses ChatGPT to bring scattered medical records together](/public/blogs/a-caregiver-uses-chatgpt-to-bring-scattered-medical-records-together-2026-09-28)
 
-# Procurement
+Laura Green’s care involved multiple specialists, scattered medical records and appointments that sometimes lasted just 15 minutes. Her husband, Daniel, used ChatGPT to prepare a briefing for each doctor: what had changed, what Laura had already tried and what they needed to discuss. He also used deep research to find specialists and ChatGPT to compare health plans.
 
-# Use Cases
+# Healthcare
 
-1
+# Kansas city
 
-[Here Comes August: Help Your Boss Make the Most of Time in the District](/en/public/blogs/legislative-planning-main-review)
+# Missouri
 
-Use ChatGPT to jump-start August recess planning by uploading past schedules and asking for fresh district/state event ideas tied to current issues.
+![Tim Meko](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/image-397f36ef-03a4-4518-8f1b-52558c33d875-1788273491019.png?fit=scale-down&width=52)
 
-# Congressional Staffers
+![Evan Hirsch](https://cdn.gradual.com/images/https://d2xo500swnpgl1.cloudfront.net/uploads/oaiacademy/ProfilePic-4ec2a7d5-ab14-485d-bb4e-fb5eb0f0a999-1780619438161.jpeg?fit=scale-down&width=52)
 
-# Legislative Planning
+Tim Meko & Evan Hirsch · Sep 24th, 2026
 
-# Congress
+[· News Organizations](/home/clubs/news-organizations-b9osl)
 
-Like
+[ChatGPT for Visual Storytelling](/public/clubs/news-organizations-b9osl/videos/chatgpt-for-visual-storytelling-2026-09-24)
 
-[Build a Custom GPT That Catches What You Miss](/en/public/blogs/custom-gpt-main-review)
+Tim Meko and Evan Hirsch of OpenAI explored how journalists could use ChatGPT to strengthen visual storytelling—from finding the visual angle in a story to organizing messy information, developing chart and map ideas, and turning complex reporting into clear, compelling visuals.
+The session featured practical examples and workflows that newsroom teams could adapt regardless of their technical background.
 
-Building a custom GPT to act as your technical acquisition editor provides an immediate, consistent, and drama-free QA pass for your work products.
+# ChatGPT for Work
 
-# AI Techniques
+# Journalism
 
-# Government
+# News
 
-# Procurement
+# News Organizations
 
-# Use Cases
-
-1
-
-[An Effective Way to Get Smart on the Revolutionary FAR Overhaul](/en/public/blogs/revolutionary-far-overhaul-main-review)
-
-The Revolutionary FAR Overhaul marks a fundamental shift in federal acquisition, requiring professionals to transition from legacy compliance habits to active, judgment-based decision-making.
-This guide introduces an interactive, ChatGPT-powered "RFO Bootcamp" designed to simulate real-world challenges and accelerate your mastery of these structural changes.
-By moving from passive reading to applied scenarios, you can build the "smarter rigor" needed to confidently navigate and lead in this evolving regulatory landscape.
-
-# AI Techniques
-
-# Government
-
-# govtech
-
-# OpenAI for Government
+# Use Case
 
 # Use Cases
 
-# Procurement
+# Portfolio Company Knowledge Work
 
-Like
+53:30
 
-[Stop Coming Back Buried. Start Coming Back Briefed.](/en/public/blogs/acclerate-your-return-main-review)
+[[September 23] Codex bootcamp 101](/public/videos/september-23-codex-bootcamp-101-2026-09-24)
 
-ChatGPT can help acquisition professionals regain situational awareness faster by summarizing what changed, identifying deadlines and risks, creating catch-up briefs, and surfacing what actually needs attention. It is not about replacing judgment; it is about reducing the manual burden of “catching up” so people can focus on coordination, decision-making, and execution.
+Recording of our September 23 Codex Bootcamp session on agentic coding.
 
-# Advanced & Builder Skills
+59:48
 
-Like
+[Turning handwritten notes into proposals with ChatGPT](/public/blogs/turning-handwritten-notes-into-proposals-with-chatgpt-2026-09-22)
 
-[Stop Shipping Typos: Build a Technical Editor GPT That Works Like You Do](/en/public/blogs/technical-editor-gpt-main-review)
+Consultant Brooks Lockett studies client conversations on paper before bringing his annotated notes, transcripts and proposal template into ChatGPT Work, removing sensitive information first. Previously, writing the proposal himself could take days. He says now one proposal takes four hours, including two client calls.
 
-Proximity to your own writing makes it easy to overlook errors, and overbooked colleagues often delay critical peer reviews. By building a custom GPT as an on-demand technical editor, you gain a consistent first-line QA step that polishes your work and accelerates the submission process.
+# Consulting
 
-# Procurement
+# Writing
 
-# AI Techniques
+# North Carolina
 
-# OpenAI for Government
+# Portfolio Company Sales
 
-# govtech
+[AI Skills Jam for Older Adults](/public/resources/ai-skills-jam-for-older-adults-2026-09-16)
 
-# Government
+Thank you for being part of the AI Skills Jam forOlder Adults!
+Revisit the presentation from Jam Day below:
 
-Like
+[ChatGPT Privacy: What Not to Share and When to Double-Check](/public/videos/privacy-and-double-checking-older-adults)
 
-[Codex for faculty and researchers - webinar replay](/en/public/videos/codex-for-faculty-and-researchers-webinar-replay)
+Share only what ChatGPT needs to answer your question. In this quick tutorial, you’ll learn how to protect personal information and recognize when an AI-generated answer needs to be checked.
+See how to ask about a utility bill without sharing a name, address, phone number, account number, barcode, or other private details.
+ChatGPT can help you understand information, get organized, and prepare better questions—but it is not a doctor, banker, lawyer, or official source. You remain in charge.
 
-59:40
+1:40
 
-[OpenAI Academy Code of Conduct](/en/public/resources/openai-academy-code-of-conduct-2026-06-11)
+[Create a Coloring Page with ChatGPT](/public/videos/create-coloring-page-older-adults)
 
-# General Learners
+Let’s use ChatGPT to make something fun. In this quick tutorial, you’ll learn how to create an original black-and-white coloring page using a simple description.
+See how details such as thick outlines, no shading, and plenty of open space can produce a coloring-friendly image—and how a follow-up request can change one part without starting over.
+For a simple creative project, request original ideas rather than famous characters or copies of someone else’s artwork.
 
-# Awareness
-
-# Personal
+1:18
 
 Popular
 
-[ChatGPT for any role](/en/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
+[ChatGPT for any role](/public/clubs/work-users-ynjqu/resources/chatgpt-for-any-role)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[ChatGPT for marketing](/en/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
+[ChatGPT for marketing](/public/clubs/work-users-ynjqu/resources/use-cases-marketing)
 
-[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/en/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)
+[Mastering Prompts: The Key to Getting What You Need from ChatGPT](/public/videos/mastering-prompts-the-key-to-getting-what-you-need-from-chatgptmastering-prompts-the-key-to-getting-what-you-need-from-chatgpt-2025-03-20)

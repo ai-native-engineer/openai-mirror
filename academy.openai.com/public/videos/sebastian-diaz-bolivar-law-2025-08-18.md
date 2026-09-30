@@ -2,7 +2,7 @@
 
 # Sebastián Díaz Bolívar (Law)
 
-Posted Aug 02, 2025 | Views 680
+Posted Aug 02, 2025 | Views 936
 
 # Deployment & Adoption
 
@@ -24,26 +24,22 @@ Comment
 
 Load more
 
-[10:00](/en/public/videos/jeanne-beatrix-law-writing-2025-08-20)
+[10:00](/public/videos/jeanne-beatrix-law-writing-2025-08-20)
 
-[Jeanne Beatrix Law (Writing)](/en/public/videos/jeanne-beatrix-law-writing-2025-08-20)
+[Jeanne Beatrix Law (Writing)](/public/videos/jeanne-beatrix-law-writing-2025-08-20)
 
-Posted Aug 01, 2025 | Views 880
+Posted Aug 01, 2025 | Views 1.1K
 
-# Advanced & Builder Skills
+[10:00](/public/videos/paul-jurcys-law-2025-09-08)
 
-[10:00](/en/public/videos/paul-jurcys-law-2025-09-08)
+[Paul Jurcys (Law)](/public/videos/paul-jurcys-law-2025-09-08)
 
-[Paul Jurcys (Law)](/en/public/videos/paul-jurcys-law-2025-09-08)
+Posted Aug 01, 2025 | Views 774
 
-Posted Aug 01, 2025 | Views 518
+[5:52](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[5:52](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
+[Introduction to Prompt Engineering](/public/videos/introduction-to-prompt-engineering-2025-02-13)
 
-[Introduction to Prompt Engineering](/en/public/videos/introduction-to-prompt-engineering-2025-02-13)
-
-Posted Mar 08, 2025 | Views 421K
-
-# Workplace & Business
+Posted Mar 08, 2025 | Views 439.1K
 
 # Foundations

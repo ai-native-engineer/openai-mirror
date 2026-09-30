@@ -2,7 +2,7 @@
 
 # Jalal Sarabadani (Information Systems & Technology)
 
-Posted Aug 02, 2025 | Views 1.1K
+Posted Aug 02, 2025 | Views 1.4K
 
 # North America
 
@@ -20,30 +20,28 @@ Popular
 
 ![avatar](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjQiIGN4PSIxOC41IiBjeT0iMTUuNSIgcj0iMy41IiBmaWxsPSIjMUUxRDI5Ii8+CjxlbGxpcHNlIGN4PSIxOC41IiBjeT0iMjMuNSIgcng9IjUuNSIgcnk9IjIuNSIgZmlsbD0iIzFFMUQyOSIvPgo8L3N2Zz4K)
 
-﻿
-
 Comment
 
 Load more
 
-[1:00:00](/en/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
+[1:00:00](/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
 
-[Scaling Enterprise AI Through Systems Thinking](/en/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
+[Scaling Enterprise AI Through Systems Thinking](/public/videos/scaling-enterprise-ai-through-systems-thinking-2025-09-25)
 
-Posted Sep 25, 2025 | Views 8.2K
+Posted Sep 25, 2025 | Views 8.5K
 
 # General Learners
 
 # Deployment & Adoption
 
-[10:00](/en/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
+[10:00](/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
 
-[Renah Wolzinger, Ed.D. (Computer Information Management)](/en/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
+[Renah Wolzinger, Ed.D. (Computer Information Management)](/public/videos/renah-wolzinger-edd-computer-information-management-2025-08-18)
 
-Posted Aug 02, 2025 | Views 565
+Posted Aug 02, 2025 | Views 933
 
-[10:00](/en/public/videos/kevin-cleary-technology-literacy-2025-09-08)
+[10:00](/public/videos/kevin-cleary-technology-literacy-2025-09-08)
 
-[Kevin Cleary (Technology Literacy)](/en/public/videos/kevin-cleary-technology-literacy-2025-09-08)
+[Kevin Cleary (Technology Literacy)](/public/videos/kevin-cleary-technology-literacy-2025-09-08)
 
-Posted Aug 01, 2025 | Views 264
+Posted Aug 01, 2025 | Views 457

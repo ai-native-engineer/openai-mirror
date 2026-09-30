@@ -1,28 +1,14 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
-
-Sign in or Join the community to continue
-
-Get Started
+[Content](/public/clubs/india-gkubq/content)
 
 # How to Automate Tasks with Custom GPTs (Hindi)
 
-Posted Jun 05, 2025 | Views 1.6K
-
-# Educators & Students
-
-# Advanced & Builder Skills
-
-# Education
+Posted Jun 05, 2025 | Views 1.9K
 
 # India; Hindi
-
-Share
-
-## SUMMARY
 
 In this video, you’ll learn how to use the free GPT Store to automate repetitive tasks and how to build your own personalised GPT Bot without writing any code.
 
@@ -37,45 +23,33 @@ Whether you're a student, teacher, content creator, or business owner, this less
 
 Perfect if you're a student, teacher, content creator, or business owner, this episode will teach you how to build your own AI assistants and save hours of work every day.
 
-+ Read More
+[4:56](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-## Watch More
+[How to Automate Tasks with Custom GPTs](/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
 
-[4:56](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
-
-[How to Automate Tasks with Custom GPTs](/en/public/videos/how-to-automate-tasks-with-custom-gpts-2025-06-04)
-
-Posted Jun 05, 2025 | Views 4K
-
-# Educators & Students
-
-# Advanced & Builder Skills
-
-# Education
+Posted Jun 05, 2025 | Views 5K
 
 # India
 
-[9:51](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[9:51](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-[Introduction to Agents (Hindi)](/en/public/videos/introduction-to-agents-hindi-2025-06-04)
+[Introduction to Agents (Hindi)](/public/videos/introduction-to-agents-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1K
+Posted Jun 05, 2025 | Views 1.7K
 
 # General Learners
 
 # OpenAI API
 
-# Advanced & Builder Skills
-
 # Personal
 
 # India; Hindi
 
-[6:14](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[6:14](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-[How to Build AI Agents](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[How to Build AI Agents](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7K
 
 # Developers & Builders
 

@@ -1,30 +1,20 @@
 <!-- source: https://academy.openai.com/public/clubs/india-gkubq/videos/introduction-to-agents-hindi-2025-06-04 -->
 
-[India](/en/public/clubs/india-gkubq/overview)
+[India](/public/clubs/india-gkubq/overview)
 
-[navigation.content](/en/public/clubs/india-gkubq/content)
-
-Sign in or Join the community to continue
-
-Get Started
+[Content](/public/clubs/india-gkubq/content)
 
 # Introduction to Agents (Hindi)
 
-Posted Jun 05, 2025 | Views 1K
+Posted Jun 05, 2025 | Views 1.7K
 
 # General Learners
 
 # OpenAI API
 
-# Advanced & Builder Skills
-
 # Personal
 
 # India; Hindi
-
-Share
-
-## SUMMARY
 
 ट्यूटोरियल 1
 
@@ -40,15 +30,11 @@ Share
 • स्टार्टअप फाउंडर्स, CTOs और प्रोडक्ट मैनेजर्स जिन्हें एजेंट्स की बुनियादी समझ की आवश्यकता है
 • छात्र और शोधकर्ता जो एजेंट्स का समग्र परिचय प्राप्त करना चाहते हैं
 
-+ Read More
+[4:22](/public/videos/introduction-to-agents-2025-06-04)
 
-## Watch More
+[Introduction to Agents](/public/videos/introduction-to-agents-2025-06-04)
 
-[4:22](/en/public/videos/introduction-to-agents-2025-06-04)
-
-[Introduction to Agents](/en/public/videos/introduction-to-agents-2025-06-04)
-
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7.6K
 
 # Developers & Builders
 
@@ -60,25 +46,19 @@ Posted Jun 05, 2025 | Views 5.4K
 
 # India
 
-[6:11](/en/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
+[6:11](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
 
-[How to Automate Tasks with Custom GPTs (Hindi)](/en/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
+[How to Automate Tasks with Custom GPTs (Hindi)](/public/videos/how-to-automate-tasks-with-custom-gpts-hindi-2025-06-04)
 
-Posted Jun 05, 2025 | Views 1.6K
-
-# Educators & Students
-
-# Advanced & Builder Skills
-
-# Education
+Posted Jun 05, 2025 | Views 1.9K
 
 # India; Hindi
 
-[6:14](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[6:14](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-[How to Build AI Agents](/en/public/videos/how-to-build-ai-agents-2025-06-04)
+[How to Build AI Agents](/public/videos/how-to-build-ai-agents-2025-06-04)
 
-Posted Jun 05, 2025 | Views 5.4K
+Posted Jun 05, 2025 | Views 7K
 
 # Developers & Builders
 

@@ -2,15 +2,11 @@
 
 # Tom Coley ( International Year One Business)
 
-Posted Aug 01, 2025 | Views 246
-
-# Advanced & Builder Skills
+Posted Aug 01, 2025 | Views 521
 
 Tom Coley - Business Lecturer - Teesside University International Study Centre - International Year One Business
 
 Designing a Custom GPT to guide students through deeper reflective thinking, helping them build confidence, ask better questions, and connect their learning to real outcomes.
-
-## TRANSCRIPT
 
 Tom Coley is a business lecturer and former marketing strategist who now helps international students think creatively and critically using design thinking, storytelling — and increasingly, AI. He leads an internal AI working group and co-develops inclusive, reflective learning strategies using tools like ChatGPT.
 
@@ -28,11 +24,11 @@ Comment
 
 Load more
 
-[57:50](/en/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
+[57:50](/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
 
-[Nonprofit Year-End Sprint with ChatGPT](/en/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
+[Nonprofit Year-End Sprint with ChatGPT](/public/videos/nonprofit-year-end-sprint-with-chatgpt-2025-11-13)
 
-Posted Nov 14, 2025 | Views 1.9K
+Posted Nov 14, 2025 | Views 2.7K
 
 # Public & Social Impact
 
@@ -40,16 +36,16 @@ Posted Nov 14, 2025 | Views 1.9K
 
 # Personal
 
-[10:00](/en/public/videos/jonathan-m-torres-business-2025-08-20)
+[10:00](/public/videos/jonathan-m-torres-business-2025-08-20)
 
-[Jonathan M. Torres (Business)](/en/public/videos/jonathan-m-torres-business-2025-08-20)
+[Jonathan M. Torres (Business)](/public/videos/jonathan-m-torres-business-2025-08-20)
 
-Posted Aug 01, 2025 | Views 726
+Posted Aug 01, 2025 | Views 975
 
-[10:00](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+[10:00](/public/videos/mohd-naved-business-forecasting-2025-08-20)
 
-[Mohd Naved (Business Forecasting)](/en/public/videos/mohd-naved-business-forecasting-2025-08-20)
+[Mohd Naved (Business Forecasting)](/public/videos/mohd-naved-business-forecasting-2025-08-20)
 
-Posted Aug 01, 2025 | Views 685
+Posted Aug 01, 2025 | Views 937
 
 # Use Cases

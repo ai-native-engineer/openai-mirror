@@ -1,78 +1,31 @@
 <!-- source: https://academy.openai.com/public/videos/codex-bootcamp-101-agentic-coding-2026-07-31 -->
 
-* [Home](/en)
-* [Events](/en/public/events)
-* [Courses](https://academy.openai.com/pages/courses)
-* [Content](/en/public/content)
-* [Communities](/en/public/clubs)
-* [What's new](https://academy.openai.com/public/collections/whats-new?linkMenu=What%27s%2520New)
-* Stories
-* [Work](https://academy.openai.com/pages/ai-at-work-bcx7td)
-* Education
-* [Small business](https://academy.openai.com/public/clubs/small-business-ipf4m)
-* [Nonprofits](https://academy.openai.com/public/clubs/nonprofits-8kc1e/overview?linkMenu=Nonprofits)
-* [Government](https://academy.openai.com/public/clubs/government-25yzc/overview?linkMenu=Government)
-* [News organizations](https://academy.openai.com/public/clubs/news-organizations-b9osl/overview)
-* Help
+# [July 28] Codex bootcamp 101: Agentic coding
 
-Sign in or Join the community to continue
+Posted Jul 31, 2026 | Views 6.7K
 
-Get Started
-
-# Codex bootcamp 101: Agentic coding
-
-Posted Jul 31, 2026 | Views 155
-
-Share
-
-## SUMMARY
+# Portfolio Company SDLC
 
 Recording of our July 28 Codex Bootcamp session on agentic coding.
 
-+ Read More
+[59:48](/public/videos/september-23-codex-bootcamp-101-2026-09-24)
 
-## Watch More
+[[September 23] Codex bootcamp 101](/public/videos/september-23-codex-bootcamp-101-2026-09-24)
 
-[8:10](/en/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
+Posted Sep 24, 2026 | Views 1.5K
 
-[ChatGPT for Writing & Coding](/en/public/videos/chatgpt-for-writing-and-coding-2025-02-13)
+[58:48](/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13)
 
-Posted Mar 11, 2025 | Views 121.2K
+[Codex Bootcamp 301 - Advanced Automation](/public/videos/codex-bootcamp-301-advanced-automation-2026-08-13)
 
-# Developers & Builders
+Posted Aug 14, 2026 | Views 3K
 
-# Workplace & Business
+# Portfolio Company SDLC
 
-# ChatGPT
+[1:01:02](/public/videos/builder-bootcamp-production-and-optimization-july-23-2026-07-23)
 
-# Advanced & Builder Skills
+[Builder Bootcamp: Production & Optimization (July 23)](/public/videos/builder-bootcamp-production-and-optimization-july-23-2026-07-23)
 
-# Work
+Posted Jul 24, 2026 | Views 1.5K
 
-[1:00:00](/en/public/videos/codex-for-software-engineers-2026-03-13)
-
-[Codex Fundamentals](/en/public/videos/codex-for-software-engineers-2026-03-13)
-
-Posted Mar 13, 2026 | Views 44.4K
-
-# Developers & Builders
-
-# Codex
-
-# Advanced & Builder Skills
-
-# Work
-
-[1:00:00](/en/public/videos/introduction-to-codex-2026-03-02)
-
-[Introduction to Codex](/en/public/videos/introduction-to-codex-2026-03-02)
-
-Posted Mar 02, 2026 | Views 43.9K
-
-# Developers & Builders
-
-# Codex
-
-# Advanced & Builder Skills
-
-# Work
+# Portfolio Company SDLC

@@ -2,7 +2,7 @@
 
 # Renah Wolzinger, Ed.D. (Computer Information Management)
 
-Posted Aug 02, 2025 | Views 565
+Posted Aug 02, 2025 | Views 933
 
 I am a faculty at Saddleback College teaching courses in Emeritus Computer Information Management. I also teach workshops and write courses with my partners at Eduvators.net, as well as teach K-12, high school and college students who are in internships and apprenticeships. My passion is to empower creative students through the use of AI and technology.
 
@@ -20,22 +20,22 @@ Comment
 
 Load more
 
-[10:00](/en/public/videos/david-j-malan-computer-science-2025-08-21)
+[10:00](/public/videos/david-j-malan-computer-science-2025-08-21)
 
-[David J. Malan (Computer Science)](/en/public/videos/david-j-malan-computer-science-2025-08-21)
+[David J. Malan (Computer Science)](/public/videos/david-j-malan-computer-science-2025-08-21)
 
-Posted Aug 01, 2025 | Views 5.4K
+Posted Aug 01, 2025 | Views 5.7K
 
-[10:00](/en/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
+[10:00](/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
 
-[Jalal Sarabadani (Information Systems & Technology)](/en/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
+[Jalal Sarabadani (Information Systems & Technology)](/public/videos/jalal-sarabadani-information-systems-and-technology-2025-08-18)
 
-Posted Aug 02, 2025 | Views 1.1K
+Posted Aug 02, 2025 | Views 1.4K
 
 # North America
 
-[10:00](/en/public/videos/michael-atkinson-management-communication-2025-08-19)
+[10:00](/public/videos/michael-atkinson-management-communication-2025-08-19)
 
-[Michael Atkinson (Management Communication)](/en/public/videos/michael-atkinson-management-communication-2025-08-19)
+[Michael Atkinson (Management Communication)](/public/videos/michael-atkinson-management-communication-2025-08-19)
 
-Posted Aug 02, 2025 | Views 508
+Posted Aug 02, 2025 | Views 859

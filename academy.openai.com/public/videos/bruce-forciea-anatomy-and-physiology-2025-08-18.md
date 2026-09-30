@@ -2,18 +2,15 @@
 
 # Bruce Forciea (Anatomy and Physiology)
 
-Posted Aug 02, 2025 | Views 1.6K
-
-# Advanced & Builder Skills
+Posted Aug 02, 2025 | Views 1.9K
 
 Dr. Bruce Forciea - Moraine Park Technical College - General and Advanced Anatomy and Physiology
 
 I have been teaching for over 20 years and have been working to integrate AI into my courses for the past 3 years. I'm also an author of seven books (4 non-fiction, 3 fiction) and work with other schools on AI integration.
 
-## TRANSCRIPT
-
 * Describes how ChatGPT is used to help students learn Anatomy and Physiology through use of custom GPTs, tutors and games.
-* Link to resources: <https://www.drbruceforciea.com/ai-for-educators-course.html>
+
+* Link to resources:  <https://www.drbruceforciea.com/ai-for-educators-course.html>﻿
 
 3
 
@@ -29,24 +26,24 @@ Comment
 
 Load more
 
-[10:00](/en/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
+[10:00](/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
 
-[Giorgio Lagna (Genetics, Human Physiology, Anatomy & Physiology)](/en/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
+[Giorgio Lagna (Genetics, Human Physiology, Anatomy & Physiology)](/public/videos/giorgio-lagna-genetics-human-physiology-anatomy-and-physiology-2025-08-20)
 
-Posted Aug 01, 2025 | Views 238
+Posted Aug 01, 2025 | Views 434
 
 # Deployment & Adoption
 
-[17:40](/en/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
+[17:40](/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
 
-[Organization and Automation: Managing Time and Tasks with AI](/en/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
+[Organization and Automation: Managing Time and Tasks with AI](/public/videos/organization-and-automation-managing-time-and-tasks-with-ai-2025-03-20)
 
-Posted Mar 21, 2025 | Views 51K
+Posted Mar 21, 2025 | Views 52K
 
-[8:33](/en/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
+[8:33](/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
 
-[AI Career Prep: Resumes and Interviews](/en/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
+[AI Career Prep: Resumes and Interviews](/public/videos/ai-career-prep-resumes-and-interviews-2025-03-20)
 
-Posted Mar 20, 2025 | Views 38.1K
+Posted Mar 20, 2025 | Views 38.7K
 
 # Industry & Community
