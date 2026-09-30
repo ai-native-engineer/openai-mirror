@@ -11,9 +11,15 @@ bash .agents/skills/openai-mirror/scripts/refresh.sh --check
 bash .agents/skills/openai-mirror/scripts/refresh.sh
 ```
 
-이 entrypoint는 공개 사이트, Academy, 공식 문서, YouTube, 페이지 인라인 자막, Vimeo 렌더, OpenAI 소유 PDF를 순서대로 갱신한 뒤 worktree 생성물을 검증한다. Python 의존성이 없으면 기존 `uv` 환경에 필요한 패키지만 설치한다.
+이 entrypoint는 공개 사이트, Academy, 공식 문서, YouTube, 페이지 인라인 자막, Vimeo 렌더, OpenAI 소유 PDF를 순서대로 갱신하고, YouTube 색인과 PDF coverage 상태를 기록한 뒤 worktree 생성물과 전체 트리를 검증한다. Python 의존성이 없으면 기존 `uv` 환경에 필요한 패키지만 설치한다.
 
-`--check`는 의존성 preflight만 실행한다. 원본 최신성과 전체 생성물 provenance는 다음 감사로 확인한다.
+한 단계가 실패해도 나머지 단계는 끝까지 실행하고, 마지막에 `refresh 미완료: 실패 단계 ...`와 함께 non-zero로 끝난다. 이때는 완료로 보고하지 않고 `_mirror-state/runs/`의 최신 manifest에서 unresolved URL을 확인한다. Academy 429처럼 일시 오류로 남은 URL은 다음 명령으로 그 URL만 다시 받을 수 있다.
+
+```bash
+python3 .agents/skills/openai-mirror/scripts/academy-extract.py . --retry-unresolved
+```
+
+`--check`는 의존성 preflight만 실행한다. 원본 최신성, 전체 생성물 provenance, 표면별 URL coverage는 다음 감사로 확인한다. coverage 표에서 모든 표면이 `full`이고 unresolved 합계가 0이어야 완료다.
 
 ```bash
 python3 .agents/skills/openai-mirror/scripts/verify-publish.py . --tree-audit
@@ -32,7 +38,7 @@ bash .agents/skills/openai-mirror/scripts/refresh.sh --refetch
 bash .agents/skills/openai-mirror/scripts/refresh.sh --render-only
 ```
 
-원본 열거에서 사라진 문서를 정리하는 `--prune-stale`는 삭제 목록을 먼저 확인한 뒤에만 사용한다.
+원본 열거에서 사라진 문서는 매 실행 `삭제 후보`/`stale 후보`로 출력되고 `_mirror-state/surfaces/`에 남는다. `--prune-stale`는 그 목록을 사용자에게 보여 주고 삭제 승인을 받은 뒤에만 사용한다. 이 옵션은 Deployment Safety 구 생성물과 YouTube 색인 밖 파일을 목록 출력 후 지운다.
 
 ## 검토와 commit
 

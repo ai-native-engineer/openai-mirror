@@ -44,6 +44,9 @@ done
 if $self_test; then
   "$python" "$skill_dir/scripts/crawl-site.py" --self-test >/dev/null
   "$python" "$skill_dir/scripts/docs-extract.py" --self-test >/dev/null
+  "$python" "$skill_dir/scripts/academy-extract.py" --self-test >/dev/null
+  python3 "$skill_dir/scripts/mirror_state.py" --self-test >/dev/null
+  python3 "$skill_dir/scripts/archive-state.py" --self-test >/dev/null
   python3 "$skill_dir/scripts/verify-publish.py" --self-test >/dev/null
   python3 "$crawl_dir/youtube-channels.py" --self-test >/dev/null
   # 수집기 호출부와 같은 전개를 태운다. 빈 값이 set -u에서 죽거나 --force가 빠지면 여기서 걸린다.
@@ -79,17 +82,30 @@ if $check_only; then
 fi
 
 export CRAWL_MIRROR_PATH="$crawl_dir/crawl-mirror.py"
+export CRAWL_SKILL_DIR="$(cd "$crawl_dir/.." && pwd -P)"
 cd "$repo"
 
-"$python" "$skill_dir/scripts/crawl-site.py" . $force
-"$python" "$skill_dir/scripts/academy-extract.py" . $force
-"$python" "$skill_dir/scripts/docs-extract.py" . $force $prune_stale
-python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $force $refetch $render_only $prune_stale
-bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
-python3 "$crawl_dir/inline-transcripts.py" .
-python3 "$crawl_dir/render-video-refs.py" .
-python3 "$crawl_dir/split-markdown.py" . --limit 786432
-python3 "$crawl_dir/pdf-mirror.py" . \
+# 수집기는 unresolved URL이 남으면 non-zero로 끝난다. 한 표면의 실패가 다른 표면 갱신과 감사를 막지 않도록
+# 끝까지 진행하고, 실패한 단계를 모아 마지막에 non-zero로 끝낸다.
+failed=
+step() {
+  local name="$1"; shift
+  if ! "$@"; then
+    echo "FAILED: $name" >&2
+    failed="$failed $name"
+  fi
+}
+
+step crawl-site "$python" "$skill_dir/scripts/crawl-site.py" . $force
+step academy "$python" "$skill_dir/scripts/academy-extract.py" . $force
+step docs "$python" "$skill_dir/scripts/docs-extract.py" . $force $prune_stale
+# shared 스크립트의 --prune-stale은 목록 없이 지운다. 삭제는 archive-state.py가 목록을 출력한 뒤 수행한다.
+step youtube-channels python3 "$crawl_dir/youtube-channels.py" . openai:UCXZCJLdBC09xxGZ6gcdrc6A $force $refetch $render_only
+step youtube-transcripts bash "$crawl_dir/youtube-transcripts.sh" . --exclude 'academy.openai.com/**'
+step inline-transcripts python3 "$crawl_dir/inline-transcripts.py" .
+step render-video-refs python3 "$crawl_dir/render-video-refs.py" .
+step split-markdown python3 "$crawl_dir/split-markdown.py" . --limit 786432
+step pdf-mirror python3 "$crawl_dir/pdf-mirror.py" . \
   --oversize-dir _pdf-cache \
   --host openai.com \
   --host d2xo500swnpgl1.cloudfront.net \
@@ -98,5 +114,12 @@ python3 "$crawl_dir/pdf-mirror.py" . \
   --host downloads.ctfassets.net \
   --host openaifoundation.org \
   --host openai.fund
-python3 "$skill_dir/scripts/verify-publish.py" .
-python3 "$skill_dir/scripts/verify-publish.py" . --tree-audit
+step archive-state python3 "$skill_dir/scripts/archive-state.py" . all $prune_stale
+step verify-publish python3 "$skill_dir/scripts/verify-publish.py" .
+step tree-audit python3 "$skill_dir/scripts/verify-publish.py" . --tree-audit
+
+if [[ -n "$failed" ]]; then
+  echo "refresh 미완료: 실패 단계${failed}. _mirror-state/runs/ 의 최신 manifest에서 unresolved URL을 확인한다." >&2
+  exit 1
+fi
+echo "refresh ok: 모든 표면 unresolved=0"

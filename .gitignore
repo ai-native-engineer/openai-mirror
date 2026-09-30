@@ -4,3 +4,4 @@ _yt-cache/
 _pdf-cache/
 prompts/
 .agents/worktrees/
+_mirror-state/

@@ -13,6 +13,7 @@ description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 
 |---|---|
 | 증분/전량 갱신, 검증, commit, push | `references/publishing.md` |
 | 부분 수집, 누락 복구, 수집기 수정 | `references/crawl-notes.md`와 대상 스크립트의 `--help` |
+| URL coverage, 실패 manifest, unresolved 추적 | `references/crawl-notes.md`의 「상태와 coverage」 |
 
 일반 갱신은 수집, 전체 트리 감사, staged 검증, commit까지 수행한다. push는 사용자가 명시적으로 요청한 경우에만 `publishing.md` 절차로 수행한다. 삭제 반영은 별도 승인 게이트를 따른다.
 
@@ -22,3 +23,4 @@ description: "이 repo의 OpenAI 공개 자료 미러를 증분 갱신하거나 
 - `_yt-cache/`는 gitignored 작업 캐시이며 발행하지 않는다.
 - `_pdf-cache/`는 100MB 초과 PDF의 gitignored 로컬 보관소이며 발행하지 않는다.
 - 외부 인용 PDF는 제외하고 OpenAI 소유 PDF만 원본으로 미러한다.
+- `_mirror-state/`는 gitignored 실행 manifest이며 발행하지 않는다. `--tree-audit`의 coverage가 `unresolved=0`이고 모든 표면이 전체 범위 manifest를 가질 때만 갱신 완료로 보고한다.
