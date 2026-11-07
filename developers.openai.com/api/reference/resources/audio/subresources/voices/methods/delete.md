@@ -1,0 +1,55 @@
+<!-- source: https://developers.openai.com/api/reference/resources/audio/subresources/voices/methods/delete/ -->
+
+> For the complete documentation index, see [llms.txt](/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
+
+## Delete voice
+
+**delete** `/audio/voices/{voice_id}`
+
+Deletes a voice created from a text prompt or an audio sample.
+
+Requires voice write permission and access to the voice's project. Access to voices created from recordings is limited to eligible customers. See the [custom voices guide](https://developers.openai.com/api/docs/guides/custom-voices).
+
+Deleting a voice does not delete its consent recording. Deleting an already deleted voice returns a 404 error.
+
+### Path Parameters
+
+- `voice_id: string`
+
+  The ID of the voice to delete.
+
+- `VoiceDeleted object { id, deleted, object }`
+
+  - `id: string`
+
+    The voice identifier.
+
+  - `deleted: boolean`
+
+    Whether the voice was deleted.
+
+  - `object: "audio.voice.deleted"`
+
+    The object type, which is always `audio.voice.deleted`.
+
+    - `"audio.voice.deleted"`
+
+```http
+curl https://api.openai.com/v1/audio/voices/$VOICE_ID \
+    -X DELETE \
+    -H "Authorization: Bearer $OPENAI_API_KEY"
+
+  "id": "voice_1234",
+  "deleted": true,
+  "object": "audio.voice.deleted"
+
+```http
+curl https://api.openai.com/v1/audio/voices/voice_1234 \
+  -X DELETE \
+  -H "Authorization: Bearer $OPENAI_API_KEY"
+
+#### Response example
+
+  "id": "voice_1234",
+  "object": "audio.voice.deleted",
+  "deleted": true
