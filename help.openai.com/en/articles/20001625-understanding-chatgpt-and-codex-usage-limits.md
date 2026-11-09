@@ -1,0 +1,11 @@
+<!-- source: https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits -->
+
+# Understanding ChatGPT and Codex usage limits
+
+Updated: 5 days ago
+
+Starting in December, Plus, Pro, and Business plans’ usage allowance will be shared across ChatGPT and Codex as we bring the agentic capabilities of Work into the main ChatGPT experience.
+
+Your usage for ChatGPT and Codex will be measured in tokens, the units of information a model processes and generates. How much of your allowance you use will depend on the model you choose and the task you ask it to do. More advanced models and complex tasks generally use more of your allowance. Instant chat will not draw from your usage.
+
+We’re preparing carefully for this transition to help prevent disruption to your workflows. We expect most users won't need to wait for their usage to reset more often than they do now. You will be able to see your combined remaining usage and reset times in Settings → Usage. If you reach your limit, you can wait for it to reset, upgrade your plan, or buy credits to continue using eligible features.

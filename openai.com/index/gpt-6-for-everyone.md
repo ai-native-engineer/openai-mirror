@@ -1,0 +1,344 @@
+<!-- source: https://openai.com/index/gpt-6-for-everyone/ -->
+
+October 7, 2026
+
+[Product](/news/product-releases/)[Release](/research/index/release/)
+
+# GPT‑6 and Intelligent UI for everyone
+
+Last month we introduced the first GPT‑6 models for paid customers and today we're bringing that next generation of intelligence to more people with a new GPT‑6 model built for more than 1.2 billion people who use ChatGPT each week.
+
+GPT‑6 in ChatGPT introduces Intelligent UI, a new capability that allows ChatGPT to answer quickly with fully interactive user interfaces that make everyday answers more visual, make learning complex topics easier and that can quickly create a tool to solve a task right in the moment.
+
+break down the design of a 7‑speed bike
+
+AllFrameWheelsDrivetrainBrakesCockpit
+
+### 7‑Speed Bicycle
+
+### 7‑Speed Bicycle
+
+### 7‑Speed Bicycle
+
+Chat
+
+Images
+
+Intelligent UI
+
+A 7‑speed bicycle brings together a frame, handlebars, wheels and hand-operated brakes. Seven gears let the rider adjust pedaling effort as the drivetrain turns effort into motion.
+
+Upright bars guide the steering, gears vary the effort, and hand brakes control the pace.
+
+#### Five connected systems
+
+The frame carries the rider; the drivetrain turns effort into motion. Select a system to explore its role.
+
+#### A strong foundation
+
+Two triangles connect the saddle, steering and pedals. The fork holds the front wheel and turns with the bars.
+
+#### Made to keep rolling
+
+Spokes connect each hub to its rim and support the rider. The tires surround the rims and grip the ground.
+
+#### Seven ways to move
+
+The pedals turn the chain, driving the rear wheel. Seven gears let the rider adjust pedaling effort for climbs, flats and descents.
+
+#### Control at the rim
+
+Hand levers pull cables that bring the brake pads against the rims, turning a squeeze into controlled slowing.
+
+#### Steering and support
+
+The handlebars and stem steer the front wheel. The saddle and seatpost support the rider and set the sitting position.
+
+break down the design of a 7‑speed bike
+
+ChatChat
+
+### 7‑Speed Bicycle
+
+AllFrameWheelsDrivetrainBrakesCockpit
+
+A 7‑speed bicycle brings together a frame, handlebars, wheels and hand-operated brakes. Seven gears let the rider adjust pedaling effort as the drivetrain turns effort into motion.
+
+## Introducing Intelligent UI
+
+We’ve trained GPT‑6 to compose responses using text, visuals and interactive elements, choosing how they fit together based on your question. With Intelligent UI, responses can include graphics, tappable buttons, forms, charts, and interactive experiences you can use directly in your conversation.
+
+The format depends on what you’re asking. A comparison might work best side by side. An explanation might be easier to understand through an interactive diagram. And when a simple text answer is the most useful response, ChatGPT can give you that.
+
+### More visual responses to everyday questions
+
+ChatGPT can make a plan easier to follow by showing how it fits together. The timing for a Sunday roast can sit alongside the recipe, or the stops on a road trip can appear on a map, with notes on what’s worth a detour.
+
+### Learn complex topics more easily
+
+Visual and interactive explanations let you explore how something works, change an input to see what happens, or work through a problem step by step.
+
+### Create interactive experiences just by asking
+
+You can also ask ChatGPT to create a tool for the task at hand, such as a calculator to explore how savings could grow, a bill splitter for dinner with friends, or a game you can play in the conversation.
+
+## How Intelligent UI works
+
+With Intelligent UI, we gave GPT‑6 the freedom to create the most useful interface for each question, while keeping the experience fast and familiar across web and mobile.
+
+We built a library of native, streamable components, along with a compiler that processes the interface as the model generates it. The library gives each response a familiar design foundation while leaving the model room to decide how the pieces fit together. The compiler allows the interface to appear progressively as the model generates it, without waiting for the entire response to be complete.
+
+We expanded our training methods to help the model make thoughtful decisions about content, layout, visuals, and interaction. This included evaluating the interfaces it creates for clarity, usefulness, and completeness. GPT‑6 learned to use the component library and make good design decisions, including how to organize information clearly, when to use interactivity, and when a simple text response is enough.
+
+There's still work ahead to improve the model's design judgment and expand what it can create, but Intelligent UI marks a significant shift in how people interact with ChatGPT. Instead of fitting every question into the same conversational format, ChatGPT can combine UI, data, and actions to create entirely new ways for people to explore, understand, and interact with information.
+
+## Frontier Intelligence – delivered more quickly
+
+With GPT‑6, we’re also making it possible for ChatGPT to begin answering while it continues to think.
+
+**GPT‑5.6 Instant**
+
+**GPT‑6 Instant**
+
+With the introduction of reasoning models, users could get help with much harder problems, but had to wait for the model to finish thinking before getting an answer. Now, ChatGPT can interleave thinking with answering. We trained it to take into account the user’s waiting time and progressively compose an answer using its knowledge and findings up to that point. It learned to build answers across multiple partial responses, each adding useful information without unnecessary filler, while keeping the full answer as cohesive and factual as one written all at once.
+
+In an internal evaluation of high-value, everyday agentic tasks, GPT‑6 Extra High is able to begin answering in the same amount of time as GPT‑5.6 Medium while achieving a better overall score than GPT‑5.6 Extra High.
+
+For questions that need web search, GPT‑6 Instant starts answering 44% sooner, on average, than GPT‑5.6 Instant.
+
+GPT‑6 also improves the quality of answers that require web search. It makes better decisions about when to look something up and more reliably finds information that supports its answer. In an internal evaluation of difficult problems, GPT‑6 correctly addressed the key aspect of the user’s question more often than GPT‑5.6.
+
+## Deploying GPT‑6 safely
+
+As we bring more intelligent AI to more people, we work to improve how it recognizes real-world risks, how honestly it responds, and how well it respects the limits that people set. GPT‑6 makes progress in each of these areas, building on several of Astra’s safety advances to better resist attempts to bypass its safety training, follow safeguards, and be clearer about what it can and can’t do relative to GPT‑5.6 Sol. We updated its safety training based on lessons from real-world use to strengthen protections against high-risk misuse involving cyberattacks, biological threats, and violence. In adversarial testing, GPT‑6 showed stronger resistance to attempts to bypass its safety training, particularly attacks that adapt across multiple turns. GPT‑6 is also trained to respond safely in higher-risk scenarios while avoiding unnecessary refusals of harmless requests. This includes using conversation history and relevant context to recognize risks that may not be apparent from a single prompt.
+
+We ran alignment evaluations throughout training, assessing honesty and responses to safety restrictions. GPT‑6 is better at recognizing and communicating the limits of its own capabilities, including when it lacks the information or tools needed to answer. More detail on the results and our review is available in the [**system card**⁠(opens in a new window)](https://deploymentsafety.openai.com/gpt-6-october).
+
+## Availability
+
+GPT‑6 with Intelligent UI starts rolling out globally to ChatGPT Plus, Pro, Business and Enterprise tiers today in the Chat tab. Starting tomorrow, the rollout expands to Free and Go tiers. Enterprise availability depends on workplace admin settings.
+
+GPT‑6 in ChatGPT is powered by GPT‑6 Sol for Plus, Pro, Business, and Enterprise tiers, and GPT‑6 Luna for Free and Go tiers. Both are tuned for everyday conversation.
+
+This update applies to the Chat experience in ChatGPT. The models powering Work and Codex are not changing as part of this release.
+
+## What comes next
+
+Our mission is to deliver the benefits of artificial general intelligence safely to all of humanity. GPT‑6 brings our latest advances in intelligence to the more than 1.2 billion people who use ChatGPT every week.
+
+Intelligent UI is a step toward a ChatGPT that can shape an interface around what you’re trying to do.
+
+Over time, we want ChatGPT to create more of the interfaces people need for everyday tasks. You should be able to describe what you want to accomplish and work with an experience built around it.
+
+For decades, people have had to learn how to use software, navigating fixed interfaces designed around particular tasks. We believe the future will be different. Instead of people adapting to software, software will adapt to people.
+
+* [2026](/news/?tags=2026)
+* [ChatGPT](/news/?tags=chatgpt)
+
+## Author
+
+[View all](/news/)
+
+![GPT-6 Cyber — Cover](https://images.ctfassets.net/kftzwdyauwt9/1AiFc9sQFyo6YguQtfjHHN/3ac0a37435e1dfd2b532eaefe26b18bb/gpt-6-cyber-cover.png?w=3840&q=90&fm=webp)
+
+[GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents
+
+ProductNov 5, 2026](/index/introducing-gpt-6-cyber/)
+
+![Daybreak Red is now available in AWS GovCloud (US-East) — Cover](https://images.ctfassets.net/kftzwdyauwt9/3NOPzjiEJ3CYIUuWfexkd5/c16ef9c6350003e5f2f161245be1f78c/daybreak-red-aws-govcloud-cover.png?w=3840&q=90&fm=webp)
+
+[Daybreak Red is now available in AWS GovCloud (US-East)
+
+ProductNov 4, 2026](/index/daybreak-red-aws-govcloud/)
+
+![GPT-Image 2.6 — listing art card](https://images.ctfassets.net/kftzwdyauwt9/2E8ts1o0xQpNfGigwDDkUx/f144a75f6a59d0307eba199c518e5a83/gpt-image-2-6-card.png?w=3840&q=90&fm=webp)
+
+[Introducing Images 2.6
+
+ProductNov 4, 2026](/index/introducing-images-2-6/)
+
+GPT‑5.6 InstantGPT‑6 Instant
+
+GPT‑5.6 Instant
+
+You said: Give me a plan for a sunday lamb roast, I'm having friends over still figuring out numbers tbh
+
+ChatGPT said:
+
+Absolutely. Since the headcount is still moving, I’d build the meal so **only the lamb really needs scaling**. Most of the sides can comfortably stretch for an extra couple of people.
+
+### Sunday roast menu
+
+**Main:** Garlic, rosemary & Dijon roast leg of lamb
+**Sides:** Crispy roast potatoes + roasted carrots, a big green salad, and peas with butter & mint
+**Sauce:** Proper lamb gravy plus a quick mint sauce
+**Dessert:** Apple crumble with vanilla ice cream — easy to make ahead and very forgiving
+
+For drinks, a medium/full-bodied red such as Rioja, Syrah or Cabernet works nicely.
+
+### How much lamb?
+
+A **bone-in leg** is my pick for having friends over: festive, relatively forgiving, and easy to carve.
+
+| Guests | Bone-in lamb | Potatoes |
+| --- | --- | --- |
+| 4 | 3–4 lb | 2 lb |
+| 6 | 4–5 lb | 3 lb |
+| 8 | 5–6 lb | 4 lb |
+| 10 | 6–7½ lb | 5 lb |
+
+If you get beyond about 8 people, I'd seriously consider **two smaller legs rather than one enormous one**. They're easier to cook evenly, and you can leave one slightly pinker than the other.
+
+### The lamb
+
+The night before, season it generously with salt and rub it with **olive oil, Dijon, lots of garlic, chopped rosemary, black pepper and lemon zest**. Refrigerate overnight.
+
+On Sunday, take it out roughly an hour before roasting. Roast at **425°F for about 20 minutes**, then reduce to **350°F** until the center reaches roughly **125–130°F for medium-rare** or **135°F for medium**. A thermometer is much more reliable than calculating minutes per pound.
+
+Rest it **30–40 minutes**, loosely covered. That long rest is actually useful: it gives you a completely free oven for crisping the potatoes and finishing the vegetables.
+
+### The potatoes are important
+
+Use Yukon Golds or russets. Peel and cut them into large chunks, parboil for about **8–10 minutes**, drain, then shake them around in the pot to rough up the edges.
+
+Roast them in hot olive oil or duck fat with salt, rosemary and whole garlic cloves. You want them deeply golden and aggressively crispy rather than merely cooked.
+
+### A low-stress Sunday schedule
+
+Assuming you're eating at **6:00 pm**, I'd run the day like this:
+
+* **Morning:** Make the crumble, mint sauce and salad dressing. Prep carrots. Peel/cut potatoes and leave them submerged in cold water.
+* **3:00:** Lamb out of refrigerator.
+* **3:45-ish:** Lamb into oven. Exact timing depends on its size, so use the thermometer.
+* **4:30:** Parboil potatoes and rough them up.
+* **~5:00:** Lamb comes out to rest. Turn oven up to about 425°F and get potatoes roasting.
+* **5:15:** Carrots into oven.
+* **5:30:** Make gravy from the lamb drippings. Cook peas. Toss salad at the very last minute.
+* **5:40:** Carve lamb.
+* **6:00:** Eat.
+* **After dinner:** Put the already-made crumble back into the warm oven for 15–20 minutes and serve with ice cream.
+
+The big advantage is that **almost nothing needs attention while your friends are arriving**.
+
+If you're currently somewhere between, say, **6 and 10 people**, I'd shop for 8 and keep the flexible ingredients generous. Roast-lamb leftovers are excellent, so being slightly over is much better than discovering on Sunday that you're short.
+
+---
+
+If you want, I can:
+
+* Help me adjust the lamb roast plan for 5 guests
+* Add vegetarian side dish options for the lamb roast menu
+* Advise on making the lamb roast plan gluten-free
+
+GPT‑6 Instant
+
+You said: Give me a plan for a sunday lamb roast, I'm having friends over still figuring out numbers tbh
+
+ChatGPT said:
+
+## Your Sunday lamb roast 🍷
+
+![Roast lamb](https://images.openai.com/static-rsc-4/PMfCnjAa4XNWJR8g6sBTC0gJhpIppQW2k2PM1l1rdLh7uoSktc_q2WqrhVQVaPO31l8SpVq4d0gnuQiFVKfkcirn5K1OGbWpEzQuRI6h9bgV5izwPVki9OadrbMmZKLNl7MB7fUZGLqWyYwlXVqgaH4GQ3ISPAW3n8fK3L5egho?purpose=inline)![Crispy roast potatoes](https://images.openai.com/static-rsc-4/O6IhEQCIsxC99UDZ5vVCMNDslFCguSsCWuMiTFsx9yu2NKC2uGlsaf4R65j_-7SowY11gAoZGeC7ddtOVK9I7M4tFVrdqGliwM0Vt6JtWfaehwtLBamXyzJ6oiClq2vZI5KDsKNO7Ippy2pqtyu7oG36XXb6Ok7SYOC2zp0qNBg?purpose=inline)![Sunday roast inspiration](https://images.openai.com/static-rsc-4/gyzrX8zp3O2KLEPm0FAqhGFzk7Ukx-pyVg74c7Prh54MCqiORZfomWCimQbQIoIF5-G0jZ6nSlErp8PiyWSruHQ9U1ngleuiQgfNLLYc6ebUpZ35t7flXB6872xNNNKzdw3mUU1TJvKvlhI45Ye5rfgd8TzqEqmfebATY1xWupU?purpose=inline)
+
+I'm thinking a proper British-inspired Sunday roast with a little Mediterranean flair. Crispy potatoes, tender rosemary and garlic lamb, seasonal vegetables, and a delicious gravy. The kind of meal where everyone stays at the table for another glass of wine.
+
+Since you haven't finalized your guest list, we'll build a flexible menu that scales with your headcount.
+
+Your dinner plan
+
+## Sunday roast with friends
+
+* **Style:** Cozy, generous, slightly elevated
+* **Prep:** Most work happens before guests arrive
+* **Cooking:** Approximately 2 to 3 hours, depending on the lamb
+* **Serving:** Family-style, with everything in the middle of the table
+
+### 1. The menu
+
+![The centerpiece: Rosemary and garlic roast lamb](https://images.openai.com/static-rsc-4/8v3eZl34X8vjJW3WQLn2zntva7iUjGDHgwIdA_3e5UPtfwEQoFlGjWU5hSwgYRsfik8H-p1NOKsCAtKLuY3AQX8R_Ur2WkfzttPqjFPjDOzhAtYcRVPIli4xOuvUKuTDQiQgXzyLtQra2bC9lriSlOv_7hHMq6BJmXiTQQd8KaY?purpose=inline)
+
+**The centerpiece: Rosemary and garlic roast lamb**
+
+A classic leg of lamb with lemon, garlic, rosemary and olive oil. Serve carved with homemade gravy and mint sauce.
+
+![The essential: Extra-crispy roast potatoes](https://images.openai.com/static-rsc-4/6FUj2TIQq4Wxxg1yncj0d5FPaGvRiB1ZcsIyi6NwJmN0te4yRsCT5RBU0yPnPQYA7g22J2DdY0SmTuwYUofy1gLGZS9XbgV8H1nIsTHwoImX5ObzOmNpAaSZ3RZEExf-RyTv9f-R6K7jlDOo4yasem06e5xdZnuXg47rsLFmDcc?purpose=inline)
+
+**The essential: Extra-crispy roast potatoes**
+
+Parboiled, shaken to create fluffy edges and roasted until golden. Nonnegotiable!
+
+![Honey-roasted carrots and parsnips](https://images.openai.com/static-rsc-4/6kx7npHz0pB8BklzBdP-RtER3OgghMOZ-Jkp67t7bxM7Eg143kmr5UmsjiT7WQN6DU-zqlqJhQsqvnQmHuzr3wy-WMxYw7eNlmcacNjgxuHxeEUJKBiQo1hJXmlK_skHKi2yk-EaRTmO3WWp4J5h-wuXWRZZ2oBejxDPn2SkLw8?purpose=inline)
+
+**Honey-roasted carrots and parsnips**
+
+Tossed with olive oil, honey and fresh thyme.
+
+![Lemony greens](https://images.openai.com/static-rsc-4/lCWSWoMoZvj2iAm_uLxSrRL9vJt5EWizrvT0-j0pXUuOvRixc8CGCwtXHFvN1N7m5GLQR7gljPHKBmQg9BiBrYLlwTab5HLYO7J42z9dnLlk3I9D_D8bU72prLpIxctA1xQyxvUDXYauQAM0H-3ZhQPjteaIuoOsI8lF0QOCvIg?purpose=inline)
+
+**Lemony greens**
+
+Tenderstem broccoli with toasted almonds and lemon zest. Something fresh to balance the rich lamb.
+
+![Dessert: Warm apple crumble](https://images.openai.com/static-rsc-4/3CAeI-e5YYnYoCD1AfV7bmwTxWY5vU9C7bO9X4F8lbvrxbCr09tr-vQlXV9SfYAtDsm5aXVZ7KWDF9T9wMy4mMcrTr4PJyuB_K6BWPim0xWrPyqitYccTjvM3MFJeGdok7c--e9B1X6IrLu92y5phstnLy0JrNvJB2f0BXtnTfM?purpose=inline)
+
+**Dessert: Warm apple crumble**
+
+Serve with vanilla ice cream. Make it the day before and reheat while you're eating.
+
+### 2. How much should you buy?
+
+Adjust the guest count below to calculate your shopping quantities. This assumes everyone eats lamb and includes you in the total.
+
+Number of people
+
+−
+
+**5**People
+
++
+
+#### Your shopping quantities
+
+Bone-in leg of lamb
+:   2.0 kg
+
+Potatoes
+:   1500 g
+
+Carrots
+:   8
+
+Parsnips
+:   5
+
+Tenderstem broccoli
+:   625 g
+
+Apples for crumble
+:   4
+
+Generous portions, with a little extra. Lamb weight includes the bone. Ask your butcher for help selecting the closest available size.
+
+Copy shopping list
+
+Also pick up garlic, rosemary, thyme, lemons, honey, almonds, olive oil, gravy ingredients, mint sauce, crumble topping and vanilla ice cream.
+
+### 3. Your Sunday cooking timeline
+
+Let's assume you're eating at **5 PM.** This example uses a roughly 2.4 kg bone-in leg of lamb for six people. Adjust the roasting time to your actual joint.
+
+#### Cooking checklist
+
+1 of 8
+
+Saturday**Prep ahead**Make the crumble, prepare the lamb marinade, check your serving dishes and set the table.12:30 PM**Prepare the lamb**Season with garlic, rosemary, lemon and olive oil. Refrigerate until closer to roasting.1:30 PM**Start roasting**Preheat the oven and roast the lamb. Use a meat thermometer rather than relying only on timing.2:30 PM**Prepare the sides**Peel and chop vegetables. Parboil potatoes, drain and rough up their edges.3:30 PM**Check the lamb**Monitor its internal temperature. Once cooked, rest it loosely covered. Roast the potatoes and vegetables while it rests.4:15 PM**Finish everything**Make the gravy, cook the greens and warm the serving dishes.4:45 PM**Carve and serve**Check the potatoes and vegetables, carve the lamb and bring everything to the table.5:00 PM**Dinner!**Enjoy. Reheat the apple crumble while everyone finishes their main course.
+
+For food safety, the USDA recommends cooking whole cuts of lamb to an internal temperature of 145°F, followed by at least a three-minute rest. Your actual cooking time will vary by joint size and oven.
+
+### 4. Three hosting tips
+
+* **Buy the lamb last:** Confirm your numbers before purchasing. Your butcher can help you choose the right size.
+* **Make dessert ahead:** One less thing to think about on Sunday.
+* **Protect your oven space:** The lamb and potatoes both need room. If you're cooking for eight or more, consider two smaller roasting trays and prepare the vegetables ahead.
+
+My one addition would be a simple starter of olives, good bread and whipped feta. Guests can nibble while you finish cooking, without spoiling their appetites.
